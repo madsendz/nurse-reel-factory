@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.cache/
+out/
+*.mov
+*.MOV
+*.mp4
+!tests/fixtures/*.mp4
+service_account.json
+.env
