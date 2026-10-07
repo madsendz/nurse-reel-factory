@@ -13,11 +13,13 @@ jobs:
     timeout-minutes: 30
     env:
       GDRIVE_SERVICE_ACCOUNT_JSON: ${{ secrets.GDRIVE_SERVICE_ACCOUNT_JSON }}
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12", cache: pip }
-      - run: pip install -r requirements.txt && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: pip install -r requirements.txt && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji
       - run: |
           ARGS="--n ${{ inputs.n }}"
           [ -n "${{ inputs.clip }}" ] && ARGS="$ARGS --clip ${{ inputs.clip }}"
