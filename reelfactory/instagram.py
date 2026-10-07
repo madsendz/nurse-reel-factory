@@ -22,6 +22,28 @@ class IGError(RuntimeError):
     pass
 
 
+def pick_audio(ig: "Instagram", posts: list[dict], cfg: dict, rng) -> dict | None:
+    """Pick a trending sound that wasn't used in the last few reels."""
+    a = cfg.get("sound") or {}
+    if not a.get("enabled"):
+        return None
+    try:
+        items = ig.trending_audio(a.get("type", "music"), a.get("search") or None)
+    except Exception as e:
+        print(f"[sound] couldn't load trending sounds: {e}")
+        return None
+    recent = {p.get("audio_id") for p in posts[-a.get("avoid_last", 6):]}
+    pool = []
+    for it in items:
+        aid = str(it.get("audio_id") or it.get("id") or "")
+        if aid and aid not in recent:
+            pool.append({"audio_id": aid, "title": it.get("title"), "artist": it.get("display_artist")
+                         or it.get("ig_username"), "audio_volume": a.get("audio_volume", 100),
+                         "video_volume": a.get("video_volume", 0)})
+    pool = pool[: a.get("top_n", 10)]
+    return rng.choice(pool) if pool else None
+
+
 class Instagram:
     def __init__(self, cfg: dict):
         ig = cfg["instagram"]
@@ -57,10 +79,21 @@ class Instagram:
     def publishing_quota(self) -> dict:
         return self.get(f"{self.user_id}/content_publishing_limit", fields="quota_usage,config")
 
+    def trending_audio(self, audio_type: str = "music", query: str | None = None) -> list[dict]:
+        """Instagram Audio API: trending sounds when no query is given."""
+        params = {"audio_type": audio_type, "user_id": self.user_id}
+        if query:
+            params["search_query"] = query
+        return self.get("ig_audio", **params).get("data", [])
+
     def publish_reel(self, video: Path, caption: str, thumb_offset_ms: int | None = None,
-                     trial_strategy: str | None = None) -> dict:
+                     trial_strategy: str | None = None, audio: dict | None = None) -> dict:
         params = {"media_type": "REELS", "upload_type": "resumable", "caption": caption,
                   "share_to_feed": "true" if self.share_to_feed else "false"}
+        if audio:  # music from Instagram's library (e.g. a trending sound)
+            params["audio_configuration"] = json.dumps({
+                "audio_id": audio["audio_id"], "audio_volume": audio.get("audio_volume", 100),
+                "video_volume": audio.get("video_volume", 0)})
         if trial_strategy:  # trial reel: shown to non-followers first
             params["trial_params"] = json.dumps({"graduation_strategy": trial_strategy})
         if thumb_offset_ms is not None:
