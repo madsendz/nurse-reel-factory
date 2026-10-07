@@ -305,6 +305,12 @@ def cmd_approvals(cfg, args):
         print(e["slot_key"], e["post_type"], e["item_id"], e["clip_id"], e.get("status"), e.get("feedback", ""))
 
 
+def cmd_replies(cfg, args):
+    from . import approve
+    n = approve.make_replacements(cfg)
+    _summary(f"Sent {n} replacement reel(s) to Telegram.")
+
+
 def cmd_report(cfg, args):
     posts = load_posts()
     s = score_posts(posts, cfg)
@@ -347,9 +353,11 @@ def main(argv=None):
     p.add_argument("--days-ahead", type=int, default=1, help="1 = tomorrow, 0 = rest of today")
     p.add_argument("--extra", default="", help='extra reels today, e.g. "regular@21:30,trial@22:30"')
     sub.add_parser("approvals")
+    sub.add_parser("replies")
     p = sub.add_parser("ideas")
     p.add_argument("--force", action="store_true")
     args = ap.parse_args(argv)
     cfg = load_config()
     {"sync-clips": cmd_sync_clips, "auto-tag": cmd_auto_tag, "refresh": cmd_refresh, "post": cmd_post, "preview": cmd_preview,
-     "report": cmd_report, "ideas": cmd_ideas, "queue": cmd_queue, "approvals": cmd_approvals}[args.cmd](cfg, args)
+     "report": cmd_report, "ideas": cmd_ideas, "queue": cmd_queue, "approvals": cmd_approvals,
+     "replies": cmd_replies}[args.cmd](cfg, args)
