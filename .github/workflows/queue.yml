@@ -9,6 +9,9 @@ on:
       days_ahead:
         description: "1 = tomorrow, 0 = the rest of today"
         default: "1"
+      extra:
+        description: 'Extra test reels today, e.g. regular@21:30,trial@22:30 (leave empty for normal)'
+        default: ""
 
 permissions:
   contents: write
@@ -31,7 +34,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12", cache: pip }
       - run: pip install -r requirements.txt && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji
-      - run: python -m reelfactory queue --days-ahead ${{ inputs.days_ahead || '1' }}
+      - run: python -m reelfactory queue --days-ahead "${{ inputs.days_ahead || '1' }}" --extra "${{ inputs.extra }}"
       - name: Save state
         if: always()
         run: |
