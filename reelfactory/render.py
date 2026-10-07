@@ -120,7 +120,7 @@ def style_case(text: str, mode: str) -> str:
     out = []
     for w in text.split(" "):
         letters = [c for c in w if c.isalpha()]
-        keep = len(letters) >= 2 and all(c.isupper() for c in letters)
+        keep = sum(c.isupper() for c in letters) >= 2  # ALL-CAPS + acronyms like STIs, PrEP
         out.append(w if keep else w.lower())
     return " ".join(out)
 
