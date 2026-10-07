@@ -227,13 +227,13 @@ def layout_title(text: str, clip: dict, cfg: dict) -> dict:
             break
     line_h = int(style.size * r.get("hook_line_height", 0.98))
     h = line_h * len(lines) + style.offset[1] + style.outline
-    cy = r.get("hook_center_y", 0.5) * H
+    cy = float(clip.get("title_y") or r.get("hook_center_y", 0.5)) * H  # clip can pin its own title height
     y = int(cy - h / 2)
-    track = (clip.get("auto") or {}).get("face_track") or []
+    track = [] if clip.get("title_y") else (clip.get("auto") or {}).get("face_track") or []
     if len(track) >= 3:
         face = [median(f[k] for f in track) for k in range(1, 5)]
     else:
-        face = (clip.get("auto") or {}).get("face")
+        face = None if clip.get("title_y") else (clip.get("auto") or {}).get("face")
     if face:
         # only keep the eyes-to-mouth part clear (hair/forehead/chin may sit under the title)
         f_top, f_bot = (face[1] + face[3] * 0.4) * H, (face[1] + face[3] * 0.82) * H
