@@ -60,6 +60,7 @@ def fetch_hourly(cfg: dict, since: datetime, until: datetime) -> dict[str, int]:
             # match "/n" and "/n/..." but not "/nurse-other"
             if path == prefix or path.startswith(prefix + "/"):
                 hourly[g["dimensions"]["datetimeHour"]] += int(g["count"])
+    print(f"[clicks] Cloudflare OK: {sum(hourly.values())} visits to {c['host']}{prefix} in the window")
     return dict(hourly)
 
 
