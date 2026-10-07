@@ -6,6 +6,319 @@
 # Add your own items any time. Keep facts accurate — they're shown as nurse education.
 
 items:
+- id: pr-avg-man-normal
+  category: sex_ed
+  style: average_man_thinks
+  prior: 1.0
+  source: 'past reel: 413k views (Oct 5)'
+  hook: the average man thinks THIS is normal.... it's not 👀
+  beats:
+  - NOT lasting 20 mins
+  - but research found the median was only about 5.4 minutes
+  caption: researchers actually timed couples during intercourse and found the median time from penetration to ejaculation
+    was about 5.4 minutes. normal is a lot shorter than the internet makes it look.
+  status: active
+- id: pr-women-secretly-attractive
+  category: sexual_wellness
+  style: secret_list
+  prior: 1.0
+  source: 'past reel: 401k views (Aug 20)'
+  hook: 3 things that women SECRETLY find attractive in men... 🤫
+  beats:
+  - (number 1 will shock you!)
+  - 3. smelling really good (pheromones, not cologne)
+  - 2. that look you give us
+  - 1. forearms
+  caption: Men seriously underestimate how much the little things matter. It's usually not the expensive watch or the perfect
+    body.
+  status: active
+- id: pr-average-size
+  category: mens_health
+  style: average_stat
+  prior: 1.0
+  source: 'past reel: 384k views (Aug 6)'
+  hook: the average 🍆 size in the United States is...
+  beats:
+  - 3.5-5.2 inches! (9-13cm)
+  - are you above average?
+  caption: are you below average, average, or above average? let me know in the comments 🤭
+  status: active
+- id: pr-intercourse-hack
+  category: sexual_wellness
+  style: hack_steps
+  prior: 1.0
+  source: 'past reel: 305k views (Jun 26)'
+  hook: intercourse HACK 🔥
+  beats:
+  - 'step 1: tell her to play with her n*pples'
+  - 'step 2: notice which n*pple she touches the most'
+  - 'step 3: focus on that one next time you do it'
+  caption: Pay attention to what she already does on her own. It tells you more than guessing ever will.
+  status: active
+- id: pr-backdoor-refuse
+  category: sexual_wellness
+  style: here_why_she
+  prior: 1.0
+  source: 'past reel: 206k views (Jun 27)'
+  hook: here's why she refuses to try the "back door" 😱🚪
+  beats:
+  - 1. You didn't make her feel comfortable
+  - 2. You brought it up at the wrong time
+  - 3. You made it about YOU
+  - 4. You rushed it
+  - 5. You're "too big"
+  caption: Comfort, timing, patience and lots of lube. That's the whole secret.
+  status: active
+- id: pr-period-sex
+  category: sex_ed
+  style: what_they_dont_tell
+  prior: 1.0
+  source: 'past reel: 192k views (Jul 22)'
+  hook: period sex? 😁 here's what they don't tell you!
+  beats:
+  - 1. it can feel even better!
+  - during your period, blood flow increases which can make you more sensitive and aroused
+  - 2. it can reduce cramps!
+  - O's release feel good hormones that help relax muscles! this eases pain and cramps
+  caption: this is what they don't want you to know 😱 save this and send to your girl to help both of you feel more comfortable
+    ♥️ (you can still get pregnant or pass STIs on your period)
+  status: active
+- id: pr-a-spot
+  category: anatomy
+  style: stat_men
+  prior: 1.0
+  source: 'past reel: 156k views (Sep 2)'
+  hook: 91% of men don't understand this ONE thing about s*x 😱
+  beats:
+  - a woman's "A" spot is just as sensitive as her "G" spot
+  caption: Did you know this? Send this to a friend to spread the news 😜
+  status: active
+- id: pr-precum
+  category: sex_ed
+  style: average_man_thinks
+  prior: 1.0
+  source: 'past reel: 37k views but most link clicks per view (Oct 6)'
+  hook: the average man thinks THIS can't get her pregnant 👀
+  beats:
+  - pre-ejaculate doesn't always contain sperm
+  - but it CAN
+  - which means pregnancy is still possible without finishing
+  caption: pre-ejaculate doesn't always contain sperm, but it can, which means pregnancy is still possible even without ejaculation.
+  status: active
+- id: pr-morning-wood
+  category: mens_health
+  style: stat_men
+  prior: 1.0
+  source: 'past reel: 30k views, strong link clicks (Oct 5)'
+  hook: 89% of men misunderstand this one thing about morning 🪵.....
+  beats:
+  - it doesn't always mean he's horny!
+  - it is linked to REM sleep + nerve activity + blood flow
+  caption: morning erections are a normal part of male physiology and happen during REM sleep because of changes in the nervous
+    system and blood flow.
+  status: active
+- id: pr-small-normal
+  category: mens_health
+  style: average_man_thinks
+  prior: 1.0
+  source: 'past reel: 719k views (Sep 29)'
+  hook: most men who think they're small... aren't 👀
+  beats:
+  - most are actually in the typical range
+  - online comparisons are NOT a normal sample
+  - average erect length is about 5.1-5.5 inches
+  caption: a lot of men who believe they're unusually small are actually within a typical size range, and online comparisons
+    can seriously skew what normal looks like.
+  status: active
+- id: pr-fasting-bait
+  category: health_bait
+  style: bait_reveal
+  prior: 1.0
+  source: 'past reel: 510k views (Jul 7); fasting bait is the top format overall'
+  hook: 🔥Health benefits of f**sting they won't tell you 😱
+  beats:
+  - 1. F***ing twice a week is good for your health.
+  - 2. F***ing gives proper relaxation for your mind and body.
+  - 3. F***ing can even reduce your cholesterol level.
+  - 4. If you are not following me, I know what you thought after reading this ;)
+  caption: give me a follow if you didn't realize this post was actually about….. FASTING 👀😄
+  status: active
+- id: pr-sleeping-bait
+  category: health_bait
+  style: bait_reveal
+  prior: 1.0
+  source: 'past reel: 165k views (Jul 2)'
+  hook: health benefits of S***ING 😴
+  beats:
+  - 1. S***ing can increase your energy throughout the day.
+  - 2. S***ing improves your mood and reduces stress.
+  - 3. S***ing is linked to better heart health.
+  - 4. If you're not following me yet, I know what you're thinking now
+  caption: yep you guessed it…. it's sleeping 😁🤭💤 what did you think i meant? 😁
+  status: active
+- id: pr-frequency-age
+  category: sexual_wellness
+  style: average_stat
+  prior: 1.0
+  source: 'past reel: 926k views (Jun 12)'
+  hook: s€x frequency by age 🫣
+  beats:
+  - '20-24: 15 times a month'
+  - '30-34: 12 times a month'
+  - '40-44: 9 times a month'
+  - every couple is unique
+  caption: Are you getting enough "activity" for your age? Lmk in the comments!! 😍
+  status: active
+- id: nw-blue-balls
+  category: mens_health
+  style: stat_men
+  hook: 89% of men don't know "blue balls" has a medical name 🔵
+  beats:
+  - it's called epididymal hypertension
+  - it's just built-up blood flow
+  - harmless, and it goes away on its own
+  caption: real, uncomfortable, harmless, and never anyone else's job to fix.
+  status: active
+  prior: 0.0
+- id: nw-masturbation-t
+  category: mens_health
+  style: average_man_thinks
+  hook: the average man thinks THIS drains his testosterone 👀
+  beats:
+  - it doesn't!
+  - levels can shift a little, then go right back to normal
+  - there's no long-term drop
+  caption: masturbation doesn't drain your testosterone or permanently lower your levels.
+  status: active
+  prior: 0.0
+- id: nw-semen-fertility
+  category: mens_health
+  style: average_man_thinks
+  hook: the average man thinks MORE means more fertile 👀
+  beats:
+  - semen volume and sperm health are two different things
+  - a semen analysis is the only way to know
+  - heat, smoking and alcohol hurt sperm more than you think
+  caption: how much semen you produce doesn't tell you whether you're fertile.
+  status: active
+  prior: 0.0
+- id: nw-erections-vary
+  category: mens_health
+  style: what_they_dont_tell
+  hook: being less firm sometimes? here's what they don't tell you 🍆
+  beats:
+  - it's normal once in a while
+  - stress, sleep and alcohol all play a role
+  - if it's most of the time, talk to a doctor
+  caption: erections naturally vary. being a little less firm once in a while doesn't automatically mean there's a medical
+    problem.
+  status: active
+  prior: 0.0
+- id: nw-online-not-normal
+  category: sex_ed
+  style: average_man_thinks
+  hook: what you see online is NOT normal 😳
+  beats:
+  - it's not a representative sample
+  - most men are completely average
+  - comparing yourself online kills confidence
+  caption: what you see online isn't a representative sample of male anatomy, which is probably why so many completely normal
+    men feel insecure.
+  status: active
+  prior: 0.0
+- id: nw-refractory
+  category: sex_ed
+  style: what_they_dont_tell
+  hook: why men need a "break" after finishing 😴
+  beats:
+  - it's called the refractory period
+  - it can be minutes in your 20s
+  - and hours or longer as you get older
+  caption: after orgasm the body enters a refractory period where another erection or orgasm is harder for a while. how long
+    it lasts changes with age.
+  status: active
+  prior: 0.0
+- id: nw-women-time
+  category: sex_ed
+  style: average_stat
+  hook: the average woman needs THIS long to finish 👀
+  beats:
+  - about 13-14 minutes on average
+  - most women need clitoral stimulation
+  - so foreplay is NOT optional
+  caption: studies put the average time for women to reach orgasm around 13-14 minutes. take your time.
+  status: active
+  prior: 0.0
+- id: nw-silent
+  category: sexual_wellness
+  style: secret_list
+  hook: 'the #1 thing women wish men did more in 🛏️ is...'
+  beats:
+  - make noise!
+  - silence makes her guess what you like
+  - your reactions tell her she's doing it right
+  caption: There's nothing worse than a man being absolutely SILENT in bed!!! we want to HEAR you 🤝
+  status: active
+  prior: 0.0
+- id: nw-notice-first
+  category: sexual_wellness
+  style: secret_list
+  hook: 3 things women notice FIRST about men 🤫
+  beats:
+  - 3. your hands and nails
+  - 2. how you smell
+  - 1. your smile
+  caption: it's usually not what you'd expect 👏
+  status: active
+  prior: 0.0
+- id: nw-ick
+  category: sexual_wellness
+  style: secret_list
+  hook: what REALLY gives women the "ick" 😂
+  beats:
+  - it's usually not your height
+  - being rude to the waiter
+  - bad hygiene
+  caption: men always ask what gives women the "ick", so here you go 😂
+  status: active
+  prior: 0.0
+- id: nw-sperm-months
+  category: mens_health
+  style: average_man_thinks
+  hook: the average man doesn't know his sperm was made months ago 👀
+  beats:
+  - sperm takes about 2-3 months to develop
+  - so healthy changes take ~3 months to show
+  - sleep, no smoking, less alcohol all help
+  caption: sperm production runs on roughly a 74-day cycle, so give lifestyle changes a few months.
+  status: active
+  prior: 0.0
+- id: nw-kegels-men
+  category: mens_health
+  style: hack_steps
+  hook: bedroom HACK for men 🔥
+  beats:
+  - 'step 1: find the muscle you use to stop peeing'
+  - 'step 2: squeeze for 3 seconds, relax for 3'
+  - 'step 3: 10 reps, 3x a day'
+  caption: pelvic floor training (kegels) has evidence for helping erections and lasting longer. ask a pelvic floor PT if
+    you're unsure you're doing them right.
+  status: active
+  prior: 0.0
+- id: nw-fasting-bait-2
+  category: health_bait
+  style: bait_reveal
+  hook: they don't want you to know these benefits of f**sting 😱
+  beats:
+  - it can lower your blood pressure
+  - it can improve insulin sensitivity
+  - it gives your gut a break
+  - wait... you thought this was about something else?
+  caption: yesss this post is about FASTING! duhhhhhh ;) give me a follow if you thought this was about something else 😁
+  status: active
+  prior: 0.0
+
+# ───────────────────────── OLD STARTER TOPICS (set status: active to use) ─────────────────────────
 # ───────────────────────── MEN'S HEALTH ─────────────────────────
 - id: mh-morning-erections
   category: mens_health
@@ -16,7 +329,7 @@ items:
     - "They're a sign of healthy blood flow + nerves"
     - "If they stop, it's worth telling your doctor"
   caption: "Nocturnal erections are your body running a routine systems check overnight. A sudden change can be an early clue worth bringing up with a provider."
-  status: active
+  status: review
 
 - id: mh-ed-heart
   category: mens_health
@@ -27,7 +340,7 @@ items:
     - "So they can show blockage first"
     - "ED can show up years before heart symptoms"
   caption: "Erectile dysfunction is often a blood vessel issue first. That's why doctors may check blood pressure, cholesterol and blood sugar when it shows up."
-  status: active
+  status: review
 
 - id: mh-testicle-check
   category: mens_health
@@ -38,7 +351,7 @@ items:
     - "Roll each one gently between thumb + fingers"
     - "Look for lumps, swelling, or a heavy feeling"
   caption: "Testicular cancer is one of the most common cancers in young men, and it's very treatable when caught early. A monthly self-check takes one minute."
-  status: active
+  status: review
 
 - id: mh-one-lower
   category: mens_health
@@ -49,7 +362,7 @@ items:
     - "It's usually the left one"
     - "Sudden pain or swelling is NOT normal → get seen"
   caption: "Asymmetry is completely normal. Sudden, severe testicle pain can be torsion, which is an emergency."
-  status: active
+  status: review
 
 - id: mh-sperm-90-days
   category: mens_health
@@ -60,7 +373,7 @@ items:
     - "So healthy changes take ~3 months to show"
     - "Sleep, no smoking, less alcohol all help"
   caption: "Trying to conceive? Sperm production runs on roughly a 74-day cycle, so give lifestyle changes a few months."
-  status: active
+  status: review
 
 - id: mh-heat-sperm
   category: mens_health
@@ -71,7 +384,7 @@ items:
     - "Frequent heat (hot tubs, laptops on lap) can lower count"
     - "It usually recovers once the heat stops"
   caption: "There's a reason they hang outside the body. Regular heat exposure can temporarily lower sperm production."
-  status: active
+  status: review
 
 - id: mh-smoking-ed
   category: mens_health
@@ -82,7 +395,7 @@ items:
     - "Less blood flow = weaker erections"
     - "Quitting can improve erectile function"
   caption: "Erections depend on healthy blood vessels. Smoking is one of the most common, and most fixable, risk factors for ED."
-  status: active
+  status: review
 
 - id: mh-kegels-men
   category: mens_health
@@ -93,7 +406,7 @@ items:
     - "Training it can help with ED"
     - "…and with finishing too fast"
   caption: "Pelvic floor muscle training has evidence for helping both erectile function and premature ejaculation. Ask a pelvic floor physical therapist how to do them correctly."
-  status: active
+  status: review
 
 - id: mh-average-size
   category: mens_health
@@ -104,7 +417,7 @@ items:
     - "Average erect length: about 5.2 inches"
     - "Most men overestimate what's 'average'"
   caption: "A 2015 review of over 15,000 men found an average erect length of about 13 cm (5.2 in). Most guys are more average than they think."
-  status: active
+  status: review
 
 - id: mh-curve-normal
   category: mens_health
@@ -115,7 +428,7 @@ items:
     - "A NEW curve or pain can be Peyronie's disease"
     - "It's treatable, so don't ignore it"
   caption: "Peyronie's disease is scar tissue inside the penis that causes a new bend, sometimes with pain. Urologists treat it."
-  status: active
+  status: review
 
 - id: mh-sleep-testosterone
   category: mens_health
@@ -126,7 +439,7 @@ items:
     - "…dropped testosterone 10–15% in a study"
     - "That's like aging 10–15 years"
   caption: "Testosterone is mostly made while you sleep. Short sleep is one of the easiest ways to lower it."
-  status: active
+  status: review
 
 - id: mh-pe-common
   category: mens_health
@@ -137,7 +450,7 @@ items:
     - "Up to 1 in 3 men deal with it at some point"
     - "Breathing, pelvic floor work + doctors can help"
   caption: "Premature ejaculation is common and treatable. You don't have to just live with it."
-  status: active
+  status: review
 
 - id: mh-blue-balls
   category: mens_health
@@ -148,7 +461,7 @@ items:
     - "It's an ache from built-up blood flow"
     - "It's harmless and goes away on its own"
   caption: "Real, uncomfortable, harmless, and never anyone else's responsibility to fix."
-  status: active
+  status: review
 
 - id: mh-penile-fracture
   category: mens_health
@@ -159,7 +472,7 @@ items:
     - "Signs: a pop, sudden loss of erection, bruising"
     - "It's an ER emergency, so go right away"
   caption: "A penile fracture is a tear in the tunica albuginea. Fast surgical repair gives the best outcomes."
-  status: active
+  status: review
 
 - id: mh-priapism
   category: mens_health
@@ -170,7 +483,7 @@ items:
     - "Blood gets trapped and tissue can be damaged"
     - "Go to the ER, don't wait it out"
   caption: "The warning on the box is real. Priapism needs urgent treatment to protect long-term function."
-  status: active
+  status: review
 
 - id: mh-cardio
   category: mens_health
@@ -181,7 +494,7 @@ items:
     - "Regular cardio improves blood vessel health"
     - "Studies link exercise to better erectile function"
   caption: "What's good for your heart is good for your erections."
-  status: active
+  status: review
 
 - id: mh-alcohol
   category: mens_health
@@ -192,7 +505,7 @@ items:
     - "Signals for arousal get weaker"
     - "A little relaxes you, a lot shuts things down"
   caption: "Alcohol is a depressant. The more you drink, the harder it is for your body to respond."
-  status: active
+  status: review
 
 - id: mh-no-bone
   category: mens_health
@@ -203,7 +516,7 @@ items:
     - "Dogs, cats, bats, and gorillas all have one"
     - "Humans rely only on blood pressure"
   caption: "Human erections are pure hydraulics, which is why blood vessel health matters so much."
-  status: active
+  status: review
 
 - id: mh-refractory
   category: mens_health
@@ -214,7 +527,7 @@ items:
     - "It can be minutes for teens…"
     - "…and hours (or a day) as men age"
   caption: "Totally normal, and it gets longer with age."
-  status: active
+  status: review
 
 # ───────────────────────── SEXUAL WELLNESS ─────────────────────────
 - id: sw-clitoris-iceberg
@@ -226,7 +539,7 @@ items:
     - "Most of it is internal, like an iceberg"
     - "It has 10,000+ nerve endings"
   caption: "Most of the clitoris lies beneath the surface, with internal legs and bulbs. A 2022 study counted over 10,000 nerve fibers."
-  status: active
+  status: review
 
 - id: sw-orgasm-stat
   category: sexual_wellness
@@ -237,7 +550,7 @@ items:
     - "Only ~18% orgasm from intercourse alone"
     - "Most need clitoral stimulation, which is NORMAL"
   caption: "A 2017 study found about 18% of women orgasm from intercourse alone. Needing more isn't a problem; it's anatomy."
-  status: active
+  status: review
 
 - id: sw-self-cleaning
   category: sexual_wellness
@@ -248,7 +561,7 @@ items:
     - "Douching kills the good bacteria"
     - "That can raise your risk of BV + infections"
   caption: "Warm water on the outside is all you need. The inside handles itself."
-  status: active
+  status: review
 
 - id: sw-ph
   category: sexual_wellness
@@ -259,7 +572,7 @@ items:
     - "Good bacteria keep it acidic"
     - "That acidity blocks bad bacteria"
   caption: "Scented soaps, douches and some lubes can throw off that balance."
-  status: active
+  status: review
 
 - id: sw-pee-after
   category: sexual_wellness
@@ -270,7 +583,7 @@ items:
     - "It helps flush bacteria out of the urethra"
     - "This can lower your UTI risk"
   caption: "Simple habit, nurse-approved."
-  status: active
+  status: review
 
 - id: sw-hymen
   category: sexual_wellness
@@ -281,7 +594,7 @@ items:
     - "It looks different for everyone"
     - "It can't prove anything about virginity"
   caption: "Hymens stretch, vary and can change from everyday activities. The 'popping' myth needs to retire."
-  status: active
+  status: review
 
 - id: sw-orgasm-sleep
   category: sexual_wellness
@@ -292,7 +605,7 @@ items:
     - "Those hormones help you relax"
     - "That's why so many people get sleepy after"
   caption: "Your body's own wind-down chemistry."
-  status: active
+  status: review
 
 - id: sw-oil-latex
   category: sexual_wellness
@@ -303,7 +616,7 @@ items:
     - "…weakens latex condoms"
     - "Use water- or silicone-based instead"
   caption: "Oil breaks down latex fast, which raises the chance of breakage."
-  status: active
+  status: review
 
 - id: sw-wallet-condom
   category: sexual_wellness
@@ -314,7 +627,7 @@ items:
     - "Condoms also have an expiration date"
     - "Store them somewhere cool and dry"
   caption: "Check the date and the wrapper. If it's brittle or sticky, toss it."
-  status: active
+  status: review
 
 - id: sw-squirting
   category: sexual_wellness
@@ -325,7 +638,7 @@ items:
     - "But it's not just urine"
     - "It can contain fluid from the Skene's glands"
   caption: "Ultrasound studies showed the bladder fills and empties, with secretions from the Skene's glands mixed in."
-  status: active
+  status: review
 
 - id: sw-gspot
   category: sexual_wellness
@@ -336,7 +649,7 @@ items:
     - "Researchers think it's part of the clitoral network"
     - "It's felt through the front vaginal wall"
   caption: "Anatomy research points to the G-spot area being linked to the internal clitoris and surrounding tissue."
-  status: active
+  status: review
 
 - id: sw-nonconcordance
   category: sexual_wellness
@@ -347,7 +660,7 @@ items:
     - "Physical response ≠ wanting it"
     - "And wanting it ≠ physical response"
   caption: "Bodies react automatically. Consent and desire live in the mind."
-  status: active
+  status: review
 
 - id: sw-painful-sex
   category: sexual_wellness
@@ -358,7 +671,7 @@ items:
     - "Pelvic floor, dryness or infection can cause it"
     - "A pelvic floor PT or OB/GYN can help"
   caption: "Pain is a signal. You deserve to have it checked out."
-  status: active
+  status: review
 
 - id: sw-menopause-dryness
   category: sexual_wellness
@@ -369,7 +682,7 @@ items:
     - "Moisturizers + lube help day to day"
     - "Low-dose vaginal estrogen is an option, so ask your doctor"
   caption: "Genitourinary syndrome of menopause is super common and very treatable."
-  status: active
+  status: review
 
 - id: sw-average-time
   category: sexual_wellness
@@ -380,7 +693,7 @@ items:
     - "Median intercourse time: about 5.4 minutes"
     - "Movies lied to you"
   caption: "Waldinger's 2005 study found a median of 5.4 minutes. Normal covers a wide range."
-  status: active
+  status: review
 
 # ───────────────────────── SEX ED / STIs ─────────────────────────
 - id: se-no-symptoms
@@ -392,7 +705,7 @@ items:
     - "You can feel totally fine and still pass it on"
     - "Testing is the only way to know"
   caption: "No symptoms doesn't mean no STI. Regular testing is normal health care."
-  status: active
+  status: review
 
 - id: se-hpv
   category: sex_ed
@@ -403,7 +716,7 @@ items:
     - "Most cases clear on their own"
     - "The vaccine is approved up to age 45"
   caption: "HPV is incredibly common. The vaccine protects against the types that cause most cancers and warts."
-  status: active
+  status: review
 
 - id: se-hsv1
   category: sex_ed
@@ -414,7 +727,7 @@ items:
     - "That's the virus behind cold sores"
     - "Most people never know they have it"
   caption: "WHO estimates roughly two-thirds of people under 50 carry HSV-1. Herpes is common, manageable and not a moral failing."
-  status: active
+  status: review
 
 - id: se-prep
   category: sex_ed
@@ -425,7 +738,7 @@ items:
     - "Taken as prescribed, it lowers HIV risk from sex ~99%"
     - "Ask a doctor or clinic if it's right for you"
   caption: "PrEP is one of the most effective prevention tools we have. Many clinics offer it free or low-cost."
-  status: active
+  status: review
 
 - id: se-uu
   category: sex_ed
@@ -436,7 +749,7 @@ items:
     - "People with HIV on treatment who reach undetectable levels…"
     - "…don't transmit HIV through sex"
   caption: "Science-backed and supported by the CDC. Treatment is prevention."
-  status: active
+  status: review
 
 - id: se-pullout
   category: sex_ed
@@ -447,7 +760,7 @@ items:
     - "That's ~1 in 5 people pregnant within a year"
     - "Pre-cum can contain sperm"
   caption: "Better than nothing, but far less reliable than most other methods."
-  status: active
+  status: review
 
 - id: se-condom-stat
   category: sex_ed
@@ -458,7 +771,7 @@ items:
     - "Typical real-life use: about 87%"
     - "The gap = wrong size, late, or slipping"
   caption: "Most failures come from how condoms are used, not the condom itself."
-  status: active
+  status: review
 
 - id: se-sperm-5-days
   category: sex_ed
@@ -469,7 +782,7 @@ items:
     - "So sex BEFORE ovulation can lead to pregnancy"
     - "That's why 'safe days' aren't so safe"
   caption: "The fertile window starts about 5 days before ovulation."
-  status: active
+  status: review
 
 - id: se-period-pregnancy
   category: sex_ed
@@ -480,7 +793,7 @@ items:
     - "Short cycles mean ovulation can come early"
     - "Sperm can wait up to 5 days for it"
   caption: "If you don't want to get pregnant, use protection every time."
-  status: active
+  status: review
 
 - id: se-plan-b
   category: sex_ed
@@ -491,7 +804,7 @@ items:
     - "Ella works up to 5 days after"
     - "A copper IUD is the most effective EC option"
   caption: "Emergency contraception is time-sensitive. Pharmacists can help you choose."
-  status: active
+  status: review
 
 - id: se-double-condom
   category: sex_ed
@@ -502,7 +815,7 @@ items:
     - "Friction makes breakage MORE likely"
     - "One condom, right size, with lube"
   caption: "Same goes for using a male and internal condom together."
-  status: active
+  status: review
 
 - id: se-testing-normal
   category: sex_ed
@@ -513,7 +826,7 @@ items:
     - "Every 3–6 months with new or multiple partners"
     - "And between partners"
   caption: "Testing is routine health care. Exact recommendations depend on age and risk, so ask your provider."
-  status: active
+  status: review
 
 # ───────────────────────── RARE ANATOMY (curiosity) ─────────────────────────
 - id: an-diphallia
@@ -525,7 +838,7 @@ items:
     - "About 1 in 5–6 million births"
     - "Only a few hundred cases are known"
   caption: "One of the rarest anatomical variations in medicine."
-  status: active
+  status: review
 
 - id: an-uterus-didelphys
   category: anatomy
@@ -536,7 +849,7 @@ items:
     - "Two uteruses, often two cervixes"
     - "Many people don't find out until adulthood"
   caption: "It forms when two tubes fail to fuse fully before birth. Many people with it have healthy pregnancies."
-  status: active
+  status: review
 
 - id: an-polyorchidism
   category: anatomy
@@ -547,7 +860,7 @@ items:
     - "Fewer than 200 cases have been reported"
     - "It's often found by accident on an ultrasound"
   caption: "Extremely rare and usually harmless, though doctors monitor it."
-  status: active
+  status: review
 
 - id: an-septum
   category: anatomy
@@ -558,7 +871,7 @@ items:
     - "It forms before birth"
     - "It can cause pain with tampons or sex, and it's fixable"
   caption: "A longitudinal or transverse vaginal septum is rare and can be corrected with minor surgery."
-  status: active
+  status: review
 
 - id: an-hypospadias
   category: anatomy
@@ -569,4 +882,4 @@ items:
     - "The urethra opens on the underside"
     - "About 1 in 200 baby boys, usually fixed in infancy"
   caption: "One of the more common birth differences in boys, and very treatable."
-  status: active
+  status: review
