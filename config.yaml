@@ -1,6 +1,10 @@
 # Nurse Reel Factory — main settings. Edit this file to change how the bot behaves.
 
-paused: true             # starts paused — set to false after you like the previews
+paused: false            # true = never post
+# Approve each reel in Telegram before it posts (the evening before). Unapproved reels never post.
+approvals:
+  enabled: true
+  telegram_chat_id: ""   # filled in automatically after you press Start in your bot
 timezone: America/New_York
 
 # Times to post each day (Eastern). type: regular (followers + feed) or trial
