@@ -58,13 +58,11 @@ jobs:
           from reelfactory.config import load_config, load_posts
           cfg = load_config()
           due = None if cfg.get("paused") else _due_slot(cfg, load_posts(), datetime.now(timezone.utc))
-          if due and (cfg.get("approvals") or {}).get("enabled"):
+          if not cfg.get("paused") and (cfg.get("approvals") or {}).get("enabled"):
               import contextlib, sys
-              from reelfactory.approve import approved_for
+              from reelfactory.approve import due_entries
               with contextlib.redirect_stdout(sys.stderr):  # keep logs out of GITHUB_OUTPUT
-                  ok = approved_for(cfg, due[0])
-              if not ok:
-                  due = None   # not approved in Telegram -> don't post
+                  due = due_entries(cfg) or None   # only reels approved in Telegram (regular slots + extras)
           print("go=" + ("true" if due else "false"))
           PY
       - name: Install ffmpeg
