@@ -97,6 +97,13 @@ def cmd_refresh(cfg, args):
     try:
         from .instagram import Instagram
         ig = Instagram(cfg)
+        try:  # connection check: shows up in the run log
+            me = ig.get(ig.user_id, fields="username,followers_count,media_count")
+            quota = ig.publishing_quota()
+            print(f"[instagram] connected as @{me.get('username')} ({me.get('followers_count')} followers); "
+                  f"publishing quota: {quota.get('data', [{}])[0]}")
+        except Exception as e:
+            print(f"[instagram] CONNECTION CHECK FAILED: {e}")
         for p in posts:
             if not p.get("ig_media_id"):
                 continue
