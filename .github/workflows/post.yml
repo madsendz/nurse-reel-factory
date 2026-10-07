@@ -42,6 +42,7 @@ jobs:
       CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
       CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
       CF_SITE_TAG: ${{ secrets.CF_SITE_TAG }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -56,7 +57,15 @@ jobs:
           from reelfactory.cli import _due_slot
           from reelfactory.config import load_config, load_posts
           cfg = load_config()
-          print("go=" + ("true" if (not cfg.get("paused") and _due_slot(cfg, load_posts(), datetime.now(timezone.utc))) else "false"))
+          due = None if cfg.get("paused") else _due_slot(cfg, load_posts(), datetime.now(timezone.utc))
+          if due and (cfg.get("approvals") or {}).get("enabled"):
+              import contextlib, sys
+              from reelfactory.approve import approved_for
+              with contextlib.redirect_stdout(sys.stderr):  # keep logs out of GITHUB_OUTPUT
+                  ok = approved_for(cfg, due[0])
+              if not ok:
+                  due = None   # not approved in Telegram -> don't post
+          print("go=" + ("true" if due else "false"))
           PY
       - name: Install ffmpeg
         if: steps.due.outputs.go == 'true'
@@ -77,7 +86,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with: { name: reel, path: out/*.mp4, if-no-files-found: ignore, retention-days: 14 }
       - name: Save state
-        if: steps.due.outputs.go == 'true' && always()
+        if: always()
         run: |
           git config user.name "reel-bot"; git config user.email "reel-bot@users.noreply.github.com"
           git add data reports || true
