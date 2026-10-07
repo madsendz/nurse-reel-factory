@@ -95,7 +95,7 @@ class Instagram:
         if query:
             params["search_query"] = query
         body = self.get("ig_audio", **params)
-        data = body.get("data", body if isinstance(body, list) else [])
+        data = body.get("audio") or body.get("data") or []
         if not data:
             print(f"[sound] ig_audio raw reply: {json.dumps(body)[:400]}")
         return data
