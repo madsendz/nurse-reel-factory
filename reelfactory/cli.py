@@ -177,6 +177,15 @@ def cmd_post(cfg, args):
         return
     posts = load_posts()
     now = datetime.now(timezone.utc)
+    from . import approve
+    if approve.enabled(cfg) and not args.force:
+        entries = approve.due_entries(cfg, now)  # approved in Telegram and due now (regular slots + extras)
+        if not entries:
+            print("Nothing approved is due right now.")
+            return
+        for e in entries:
+            _post_one(cfg, args, posts, now, e["slot_key"], e.get("post_type", "regular"), e)
+        return
     due = _due_slot(cfg, posts, now)
     if not due:
         if not args.force:
@@ -186,13 +195,10 @@ def cmd_post(cfg, args):
     slot, post_type = due
     if args.trial:
         post_type = "trial"
-    entry = None
-    if not args.force:
-        from . import approve
-        if approve.enabled(cfg):
-            entry = approve.approved_for(cfg, slot)
-            if not entry:
-                return
+    _post_one(cfg, args, posts, now, slot, post_type, None)
+
+
+def _post_one(cfg, args, posts, now, slot, post_type, entry):
     if entry:  # post exactly the reel that was approved in Telegram
         item = next((i for i in load_bank() if i["id"] == entry["item_id"]), None)
         clip = next((c for c in load_clips() if c["id"] == entry["clip_id"]), None)
@@ -200,10 +206,9 @@ def cmd_post(cfg, args):
             print(f"[approvals] approved topic/clip no longer exists ({entry['item_id']}, {entry['clip_id']})")
             return
         choice = {"item": item, "clip": clip, "cta": int(entry.get("cta") or 0), "mode": entry.get("mode", "approved")}
-        post_type = entry.get("post_type", post_type)
     else:
         choice = pk.pick_next(load_bank(), load_clips(), posts, cfg, now, post_type=post_type)
-    out, caption, meta = _make(cfg, choice, OUT_DIR, "post")
+    out, caption, meta = _make(cfg, choice, OUT_DIR, "post_" + slot.replace(" ", "_").replace(":", ""))
     print(f"[{post_type}] Picked {choice['item']['id']} on {choice['clip']['id']} ({choice['mode']}); rendered {meta['seconds']}s")
     record = {"id": uuid.uuid4().hex[:10], "slot": slot, "item_id": choice["item"]["id"],
               "post_type": post_type, "category": choice["item"]["category"], "style": choice["item"].get("style"),
@@ -286,7 +291,10 @@ def cmd_preview(cfg, args):
 
 def cmd_queue(cfg, args):
     from . import approve
-    n = approve.make_queue(cfg, days_ahead=args.days_ahead)
+    if args.extra.strip():
+        n = approve.add_extras(cfg, args.extra)
+    else:
+        n = approve.make_queue(cfg, days_ahead=args.days_ahead)
     _summary(f"Sent {n} reel(s) to Telegram for approval.")
 
 
@@ -337,6 +345,7 @@ def main(argv=None):
     sub.add_parser("report")
     p = sub.add_parser("queue")
     p.add_argument("--days-ahead", type=int, default=1, help="1 = tomorrow, 0 = rest of today")
+    p.add_argument("--extra", default="", help='extra reels today, e.g. "regular@21:30,trial@22:30"')
     sub.add_parser("approvals")
     p = sub.add_parser("ideas")
     p.add_argument("--force", action="store_true")
