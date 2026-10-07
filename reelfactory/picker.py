@@ -79,7 +79,7 @@ def pick_next(bank: list[dict], clips: list[dict], posts: list[dict], cfg: dict,
     recent_clips = [p.get("clip_id") for p in history[-pc.get("clip_cooldown_posts", 4):]]
     fresh_clips = [c for c in usable if c["id"] not in recent_clips] or usable
     fits = [c for c in fresh_clips if not c.get("categories") or item["category"] in c["categories"]] or fresh_clips
-    clip = max(fits, key=lambda c: _sample(est["clip_id"], c["id"], 0.0, rng))
+    clip = max(fits, key=lambda c: _sample(est["clip_id"], c["id"], 0.0, rng) + clip_fit(item, c))
 
     # ---- CTA ----
     ctas = cfg["caption"]["ctas"]
@@ -87,6 +87,19 @@ def pick_next(bank: list[dict], clips: list[dict], posts: list[dict], cfg: dict,
 
     return {"item": item, "clip": clip, "cta": cta, "mode": mode,
             "alternatives": [i["id"] for _, i in ranked[1:4]]}
+
+
+def clip_fit(item: dict, clip: dict) -> float:
+    """Prefer clips where Lexi points exactly as many times as the topic has facts."""
+    from .payoffs import slots_for
+    nb, slots = len(item.get("beats", [])), slots_for(clip)
+    if slots == 0:
+        return -0.3                      # no pointing: works, but a pointing match is better
+    if slots == nb:
+        return 0.0
+    if slots < nb:
+        return -0.15 * (nb - slots)      # facts get grouped into fewer boxes
+    return -0.25 * (slots - nb)          # she'd point at nothing
 
 
 def build_caption(item: dict, cta_idx: int, cfg: dict) -> str:
