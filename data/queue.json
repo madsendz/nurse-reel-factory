@@ -13,5 +13,53 @@
     "seconds": 8.88,
     "status": "pending",
     "msg_id": 3
+  },
+  {
+    "id": "f90a8391",
+    "slot_key": "2026-10-07 20:30 extra1-b13a",
+    "slot_iso": "2026-10-08T00:30:00+00:00",
+    "slot_label": "Wed Oct 07, 8:30 PM",
+    "post_type": "regular",
+    "item_id": "pr-backdoor-refuse",
+    "category": "sexual_wellness",
+    "clip_id": "clip23",
+    "cta": 2,
+    "mode": "explore",
+    "seconds": 10.03,
+    "status": "pending",
+    "msg_id": 13,
+    "extra": true
+  },
+  {
+    "id": "e0c36790",
+    "slot_key": "2026-10-07 21:30 extra2-bf6d",
+    "slot_iso": "2026-10-08T01:30:00+00:00",
+    "slot_label": "Wed Oct 07, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "pr-small-normal",
+    "category": "mens_health",
+    "clip_id": "clip57",
+    "cta": 0,
+    "mode": "explore",
+    "seconds": 4.73,
+    "status": "pending",
+    "msg_id": 14,
+    "extra": true
+  },
+  {
+    "id": "bcab937a",
+    "slot_key": "2026-10-07 22:30 extra3-1186",
+    "slot_iso": "2026-10-08T02:30:00+00:00",
+    "slot_label": "Wed Oct 07, 10:30 PM",
+    "post_type": "trial",
+    "item_id": "pr-women-secretly-attractive",
+    "category": "sexual_wellness",
+    "clip_id": "clip71",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 8.21,
+    "status": "pending",
+    "msg_id": 15,
+    "extra": true
   }
 ]
