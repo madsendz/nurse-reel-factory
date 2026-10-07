@@ -172,6 +172,10 @@ def faces_between(clip: dict, t0: float, t1: float, W: int, H: int, pad: float =
     if not boxes:
         f = (clip.get("auto") or {}).get("face")
         boxes = [f] if f else []
+    if len(boxes) >= 3:  # ignore odd frames (camera swings) where the face suddenly fills the screen
+        areas = sorted(b[2] * b[3] for b in boxes)
+        med = areas[len(areas) // 2]
+        boxes = [b for b in boxes if b[2] * b[3] <= med * 1.8]
     out = []
     for x, y, w, h in boxes:
         out.append(((x - pad) * W, (y - pad) * H, (x + w + pad) * W, (y + h + pad) * H))
