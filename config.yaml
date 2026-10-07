@@ -66,8 +66,20 @@ render:
   text_color: "#111111"
   box_color: "#FFFFFF"
   box_opacity: 0.94
-  accent_color: "#E0457B"      # hook box color
-  hook_text_color: "#FFFFFF"
+  # Title (hook): matches the @lexixoofficial look — white serif, black outline + block offset
+  hook_font: assets/fonts/InstrumentSerif-Regular.ttf   # free lookalike for Advercase
+  hook_size: 104               # max size; shrinks to fit (max 4 lines)
+  hook_color: "#FFFFFF"
+  hook_outline_color: "#000000"
+  hook_outline: 0.075          # outline thickness (fraction of font size)
+  hook_offset: [0.05, 0.07]    # block-offset shadow (x, y) as fraction of font size
+  hook_center_y: 0.50          # title centered here (moves below the face if it would cover it)
+  hook_width: 0.86
+  hook_case: lower_keep_caps   # "is a curve NORMAL?" style; use "natural" to keep as written
+  hook_emoji: "👀"             # added to the end of titles that have no emoji ("" to turn off)
+  # Facts (subtitles): white boxes that pop up where Lexi points
+  sub_size: 50
+  sub_top_min: 0.16            # facts never start higher than this
   safe_bottom: 0.78            # keep text above IG's caption/buttons area
   # Optional: soften words in ON-SCREEN text only (not captions) to avoid reach limits.
   soften_words: false
@@ -77,6 +89,16 @@ render:
     vagina: "vag1na"
     orgasm: "0rgasm"
     porn: "p0rn"
+
+# --- Sound: trending audio from Instagram's music library (picked fresh for each reel) ---
+sound:
+  enabled: true
+  type: music                  # music | original_sound
+  search: ""                   # optional keyword (e.g. "sexy", "chill"); empty = trending
+  top_n: 10                    # pick randomly among the top N trending sounds
+  avoid_last: 6                # don't reuse a sound from the last N reels
+  audio_volume: 100
+  video_volume: 0              # the clip's own sound under the music (0 = muted)
 
 # --- Caption ---
 caption:
