@@ -73,6 +73,15 @@ def cmd_auto_tag(cfg, args):
             path = _clip_file(c)
             res = tag_clip(path, c)
             c["zone"], c["auto"] = res["zone"], res["auto"]
+            try:
+                from .autotag import track_clip
+                tr = track_clip(path, c, sheet_out=sheet_dir / f"timeline_{c['id']}.jpg")
+                c["duration"] = tr["duration"]
+                c["auto"]["events"], c["auto"]["face_track"] = tr["events"], tr["face_track"]
+                print(f"{c['id']}: {tr['duration']}s, pointing at " +
+                      (", ".join(f"{e['t']}s {e['dir']}" for e in tr["events"]) or "none"))
+            except Exception as e:
+                print(f"{c['id']}: tracking failed {e}")
             if c.get("status") == "untagged":
                 c["status"] = "active"
             frame = extract_frames(path, sheet_dir, n=1)[0].rename(sheet_dir / f"{c['id']}.jpg")
