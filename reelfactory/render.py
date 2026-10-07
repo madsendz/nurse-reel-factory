@@ -10,10 +10,12 @@ import re
 import subprocess
 import tempfile
 from pathlib import Path
+from statistics import median
 
 from PIL import Image, ImageDraw, ImageFont
 
 from .config import ROOT
+from .payoffs import clip_events, place as place_payoffs, plan as plan_payoffs
 
 # Characters some fonts lack -> safe replacements
 _FALLBACK_CHARS = {"≠": "isn't", "→": "->", "…": "...", "–": "-", "—": "-", "’": "'", "“": '"', "”": '"'}
@@ -227,10 +229,15 @@ def layout_title(text: str, clip: dict, cfg: dict) -> dict:
     h = line_h * len(lines) + style.offset[1] + style.outline
     cy = r.get("hook_center_y", 0.5) * H
     y = int(cy - h / 2)
-    face = (clip.get("auto") or {}).get("face")
+    track = (clip.get("auto") or {}).get("face_track") or []
+    if len(track) >= 3:
+        face = [median(f[k] for f in track) for k in range(1, 5)]
+    else:
+        face = (clip.get("auto") or {}).get("face")
     if face:
-        f_top, f_bot = face[1] * H, (face[1] + face[3]) * H
-        if y < f_bot and y + h > f_top:  # overlaps the face -> move just below it
+        # only keep the eyes-to-mouth part clear (hair/forehead/chin may sit under the title)
+        f_top, f_bot = (face[1] + face[3] * 0.4) * H, (face[1] + face[3] * 0.82) * H
+        if y < f_bot and y + h > f_top:  # would cover her eyes/mouth -> move just below
             y = int(f_bot + 0.015 * H)
     y = max(int(0.12 * H), min(y, int(r.get("safe_bottom", 0.78) * H) - h))
     return {"style": style, "lines": lines, "line_h": line_h, "y": y, "h": h}
@@ -313,6 +320,9 @@ def draw_frame(blocks: list[dict], upto: int, cfg: dict, title: dict | None = No
         d.rounded_rectangle(box, radius, fill=_hex(r["box_color"], r.get("box_opacity", 0.94)))
         ty = b["y"] + b["pad"] - int(b["size"] * 0.12)
         for ln in b["lines"]:
+            if not ln:  # gap between grouped facts
+                ty += int(b["line_h"] * 0.45)
+                continue
             lw = d.textlength(ln, font=b["font"])
             d.text((b["x"] + (b["w"] - lw) / 2, ty), ln, font=b["font"], fill=_hex(r["text_color"]))
             ty += b["line_h"]
@@ -356,10 +366,12 @@ def render_reel(item: dict, clip: dict, clip_path: Path, out_path: Path, cfg: di
     if r.get("hook_emoji") and not any(_is_emoji(c) for c in hook):
         hook = f"{hook} {r['hook_emoji']}"
     beats = [soften(b, cfg) for b in item.get("beats", [])]
-    starts, total = plan_timing(len(beats), usable, cfg)
+    # the reel is ONE pass of the clip (never loops); facts pop up on her pointing moments
+    total = round(min(usable, r.get("max_seconds", 30)), 2)
     title = layout_title(hook, clip, cfg)
-    blocks = layout_blocks(beats, zone_pixels(clip, cfg), cfg, font_path, title=title)
-
+    payoffs = plan_payoffs(beats, clip, total, cfg)
+    blocks = place_payoffs(payoffs, clip, total, cfg, font_path, title)
+    starts = [0.0] + [b["t"] for b in blocks]
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory() as td:
         pngs = []
@@ -369,10 +381,8 @@ def render_reel(item: dict, clip: dict, clip_path: Path, out_path: Path, cfg: di
             pngs.append(p)
 
         W, H, fps = r["width"], r["height"], r.get("fps", 30)
-        loop = usable < total
+        loop = False
         cmd = ["ffmpeg", "-y", "-loglevel", "error"]
-        if loop:
-            cmd += ["-stream_loop", "-1"]
         cmd += ["-ss", f"{start}", "-i", str(clip_path)]
         for p in pngs:
             cmd += ["-i", str(p)]
@@ -392,7 +402,8 @@ def render_reel(item: dict, clip: dict, clip_path: Path, out_path: Path, cfg: di
         subprocess.run(cmd, check=True)
         # keep a thumbnail of the full card for previews
         draw_frame(blocks, len(blocks), cfg, title).save(out_path.with_suffix(".overlay.png"))
-    return {"seconds": total, "stages": starts, "looped": loop}
+    return {"seconds": total, "stages": starts, "looped": loop, "boxes": len(blocks),
+            "events": len(clip_events(clip))}
 
 
 def render_thumbnail(reel_path: Path, at: float, out_png: Path) -> None:
