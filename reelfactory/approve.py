@@ -30,9 +30,14 @@ def enabled(cfg) -> bool:
 
 
 def _tg(method: str, files=None, **data):
-    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    raw = os.environ.get("TELEGRAM_BOT_TOKEN") or ""
+    import re
+    m = re.search(r"\d{6,}:[A-Za-z0-9_-]{30,}", raw)  # tolerate spaces, line breaks or the whole BotFather message
+    token = m.group(0) if m else raw.strip()
     if not token:
         raise RuntimeError("TELEGRAM_BOT_TOKEN secret is not set")
+    if not m:
+        print(f"[telegram] the saved token doesn't look like a bot token (length {len(raw)})")
     for k, v in list(data.items()):
         if isinstance(v, (dict, list)):
             data[k] = json.dumps(v)
