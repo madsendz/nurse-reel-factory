@@ -324,7 +324,12 @@ def draw_frame(blocks: list[dict], upto: int, cfg: dict, title: dict | None = No
 
 def zone_pixels(clip: dict, cfg: dict) -> tuple[int, int, int, int]:
     r = cfg["render"]
-    z = clip.get("zone") or {"x": 0.08, "y": 0.14, "w": 0.84, "h": 0.40}
+    z = dict(clip.get("zone") or {"x": 0.08, "y": 0.14, "w": 0.84, "h": 0.40})
+    min_w = r.get("sub_min_width", 0.62)  # never squeeze facts into a narrow strip
+    if z["w"] < min_w:
+        cx = z["x"] + z["w"] / 2
+        z["w"] = min_w
+        z["x"] = min(max(cx - min_w / 2, 0.04), 0.96 - min_w)
     return (int(z["x"] * r["width"]), int(z["y"] * r["height"]), int(z["w"] * r["width"]), int(z["h"] * r["height"]))
 
 
