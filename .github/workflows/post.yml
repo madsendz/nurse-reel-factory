@@ -60,7 +60,7 @@ jobs:
           PY
       - name: Install ffmpeg
         if: steps.due.outputs.go == 'true'
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji
       - name: Refresh stats
         if: steps.due.outputs.go == 'true'
         run: python -m reelfactory refresh || echo "refresh failed, continuing with saved stats"
