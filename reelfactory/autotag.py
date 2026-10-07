@@ -101,7 +101,7 @@ def detect_face(img_path: Path):
     x, y, w, h = max(faces, key=lambda f: f[2] * f[3])
     H, W = gray.shape
     # pad: hair + chin
-    return (x / W - 0.02, max(0, y / H - 0.04), w / W + 0.04, h / H + 0.08)
+    return (float(x / W - 0.02), float(max(0, y / H - 0.04)), float(w / W + 0.04), float(h / H + 0.08))
 
 
 _landmarker = None
@@ -165,12 +165,12 @@ def tag_clip(clip_path: Path, clip: dict) -> dict:
                 targets.append(t)
             if face:
                 faces.append(face)
-    target = (median(t[0] for t in targets), median(t[1] for t in targets)) if targets else None
-    face = tuple(median(f[k] for f in faces) for k in range(4)) if faces else None
+    target = (float(median(t[0] for t in targets)), float(median(t[1] for t in targets))) if targets else None
+    face = tuple(float(median(f[k] for f in faces)) for k in range(4)) if faces else None
     zone = compute_zone(face, target)
     how = "pose" if targets else ("face" if faces else "default")
-    return {"zone": zone, "auto": {"method": how, "face": [round(v, 3) for v in face] if face else None,
-                                   "target": [round(v, 3) for v in target] if target else None}}
+    return {"zone": zone, "auto": {"method": how, "face": [round(float(v), 3) for v in face] if face else None,
+                                   "target": [round(float(v), 3) for v in target] if target else None}}
 
 
 # ───────────────────────── contact sheets ─────────────────────────
