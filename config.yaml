@@ -1,0 +1,99 @@
+# Nurse Reel Factory — main settings. Edit this file to change how the bot behaves.
+
+paused: true             # starts paused — set to false after you like the previews
+timezone: America/New_York
+
+# Times to post each day (Eastern). type: regular (followers + feed) or trial
+# (shown to non-followers first). The GitHub schedule checks these.
+post_times:
+  - { time: "09:30", type: regular }
+  - { time: "11:00", type: trial }
+  - { time: "13:00", type: regular }
+  - { time: "16:00", type: trial }
+  - { time: "19:30", type: regular }
+  - { time: "21:30", type: trial }
+
+# Trial reels: MANUAL = stays trial-only until you tap "share to followers" in the IG app.
+#              SS_PERFORMANCE = Instagram shares it automatically if it does well.
+trial:
+  graduation_strategy: MANUAL
+
+# --- Where clips come from ---
+drive:
+  folder_id: "1V6x7eBL4Mg1_PslRObLvgNPxQKdeywgy"   # the "NurseReels" folder
+
+# --- Instagram (Facebook Login for Business / Graph API) ---
+instagram:
+  api_version: v25.0
+  ig_user_id: ""         # set during setup (also can come from IG_USER_ID secret)
+  share_to_feed: true
+
+# --- Link click tracking (Cloudflare Web Analytics) ---
+clicks:
+  host: nurselexi.com
+  path_prefix: /n        # the nurse page tracking link
+  attribution_window_hours: 48
+  decay_half_life_hours: 12
+
+# --- How reels are scored (link clicks first) ---
+scoring:
+  weights:               # each metric is standardized, then weighted
+    clicks: 0.60
+    views: 0.20
+    shares: 0.10
+    saved: 0.10
+  recency_half_life_days: 30   # newer results count more ("recent trends")
+  min_age_hours: 48            # don't judge a reel until it's this old
+
+# --- How the next reel is chosen ---
+picker:
+  explore_rate: 0.25           # regular reels: share that test new / unproven topics
+  trial_explore_rate: 0.60     # trial reels are for testing, so they try new topics more
+  topic_cooldown_days: 7       # don't repeat the same topic sooner than this (6 posts/day eats topics fast)
+  clip_cooldown_posts: 4       # don't reuse a clip within the last N posts
+  max_same_category_in_row: 2
+
+# --- Reel look ---
+render:
+  width: 1080
+  height: 1920
+  fps: 30
+  max_seconds: 30
+  min_seconds: 6
+  seconds_per_beat: 2.6        # how long each text line stays before the next appears
+  audio: keep                  # keep | mute
+  font: assets/fonts/Poppins-Bold.ttf
+  text_color: "#111111"
+  box_color: "#FFFFFF"
+  box_opacity: 0.94
+  accent_color: "#E0457B"      # hook box color
+  hook_text_color: "#FFFFFF"
+  safe_bottom: 0.78            # keep text above IG's caption/buttons area
+  # Optional: soften words in ON-SCREEN text only (not captions) to avoid reach limits.
+  soften_words: false
+  soften_map:
+    sex: "s3x"
+    penis: "p3nis"
+    vagina: "vag1na"
+    orgasm: "0rgasm"
+    porn: "p0rn"
+
+# --- Caption ---
+caption:
+  ctas:
+    - "More nurse-approved facts at the link in my bio 🩺"
+    - "The full lesson is in my bio 💉"
+    - "Nurse Lexi's private notes → link in bio"
+  base_hashtags: ["#nurselexi", "#sexualhealth", "#nursetok", "#healthfacts"]
+  category_hashtags:
+    mens_health: ["#menshealth", "#mensfacts"]
+    sexual_wellness: ["#sexualwellness", "#selfcare"]
+    sex_ed: ["#sexed", "#sexeducation"]
+    anatomy: ["#anatomy", "#medicalfacts"]
+  max_hashtags: 6
+
+# --- Optional: Claude writes new topic ideas based on your winners ---
+ideas:
+  enabled: false               # needs ANTHROPIC_API_KEY secret
+  model: claude-sonnet-4-5
+  per_run: 8                   # new ideas land as status: review — they never post until you approve
