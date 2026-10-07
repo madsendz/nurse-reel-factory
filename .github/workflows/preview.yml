@@ -1,0 +1,27 @@
+name: Preview reels
+# Renders upcoming reels without posting. Download them from the run's "Artifacts".
+on:
+  workflow_dispatch:
+    inputs:
+      n: { description: "How many", default: "3" }
+      clip: { description: "Only this clip id (optional)", default: "" }
+      item: { description: "Only this topic id (optional)", default: "" }
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GDRIVE_SERVICE_ACCOUNT_JSON: ${{ secrets.GDRIVE_SERVICE_ACCOUNT_JSON }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -r requirements.txt && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: |
+          ARGS="--n ${{ inputs.n }}"
+          [ -n "${{ inputs.clip }}" ] && ARGS="$ARGS --clip ${{ inputs.clip }}"
+          [ -n "${{ inputs.item }}" ] && ARGS="$ARGS --item ${{ inputs.item }}"
+          python -m reelfactory preview $ARGS
+      - uses: actions/upload-artifact@v4
+        with: { name: preview, path: out/preview, retention-days: 7 }
