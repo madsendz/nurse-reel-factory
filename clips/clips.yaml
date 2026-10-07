@@ -1879,6 +1879,7 @@ clips:
   drive_id: 1vRkGxb_J141scfAUMDyOUUKHoJnLApGy
   name: a96f9b2c110c46ff98e616f77fd02bfb.MP4
   status: active
+  title_y: 0.52
   events_manual: [{t: 5.2, dir: down, x: 0.3, y: 0.88}]
   point: ''
   zone:
@@ -5780,6 +5781,7 @@ clips:
   drive_id: 1YYbRcU0tZbwMkq1m78VrITwwI3oe2QTI
   name: Facetune582A3ECF-ECAE-4F1C-A7B4-C0E88E0A00DC.MOV
   status: active
+  events_manual: [{t: 0.9, dir: up, x: 0.8, y: 0.19}, {t: 3.5, dir: up, x: 0.38, y: 0.18}, {t: 5.9, dir: center, x: 0.5, y: 0.58}]
   point: ''
   zone:
     x: 0.08
