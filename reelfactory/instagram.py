@@ -27,11 +27,21 @@ def pick_audio(ig: "Instagram", posts: list[dict], cfg: dict, rng) -> dict | Non
     a = cfg.get("sound") or {}
     if not a.get("enabled"):
         return None
-    try:
-        items = ig.trending_audio(a.get("type", "music"), a.get("search") or None)
-    except Exception as e:
-        print(f"[sound] couldn't load trending sounds: {e}")
-        return None
+    first = a.get("type", "music")
+    tries = [(first, a.get("search") or None)]
+    other = "original_sound" if first == "music" else "music"
+    tries += [(first, "trending"), (other, None), (other, "trending")]
+    items = []
+    for kind, q in tries:
+        try:
+            items = ig.trending_audio(kind, q)
+        except Exception as e:
+            print(f"[sound] ig_audio {kind} q={q!r} failed: {e}")
+            continue
+        keys = sorted(items[0].keys()) if items else []
+        print(f"[sound] ig_audio {kind} q={q!r}: {len(items)} results {keys}")
+        if items:
+            break
     recent = {p.get("audio_id") for p in posts[-a.get("avoid_last", 6):]}
     pool = []
     for it in items:
@@ -84,7 +94,11 @@ class Instagram:
         params = {"audio_type": audio_type, "user_id": self.user_id}
         if query:
             params["search_query"] = query
-        return self.get("ig_audio", **params).get("data", [])
+        body = self.get("ig_audio", **params)
+        data = body.get("data", body if isinstance(body, list) else [])
+        if not data:
+            print(f"[sound] ig_audio raw reply: {json.dumps(body)[:400]}")
+        return data
 
     def publish_reel(self, video: Path, caption: str, thumb_offset_ms: int | None = None,
                      trial_strategy: str | None = None, audio: dict | None = None) -> dict:
