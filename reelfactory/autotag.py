@@ -190,3 +190,68 @@ def contact_sheet(entries: list[tuple[str, Path, dict]], out: Path, cols: int = 
         sheet.paste(im, (x, y + 34))
         ImageDraw.Draw(sheet).text((x + 8, y + 2), cid, font=font, fill="black")
     sheet.save(out, quality=82)
+
+
+# ───────────────────────── pointing moments over time ─────────────────────────
+TRACK_FPS = 8
+
+
+def _landmarks(img_path: Path):
+    lm = _pose()
+    if lm is None:
+        return None
+    import mediapipe as mp
+    res = lm.detect(mp.Image.create_from_file(str(img_path)))
+    if not res.pose_landmarks:
+        return None
+    return [[round(p.x, 3), round(p.y, 3), round(getattr(p, "visibility", 1.0) or 0, 2)] for p in res.pose_landmarks[0]]
+
+
+def track_clip(clip_path: Path, clip: dict, sheet_out: Path | None = None) -> dict:
+    """Run pose on the clip at TRACK_FPS (cropped exactly like the reel) and return
+    {duration, events, face_track}. Optionally save a timeline sheet for review."""
+    from .payoffs import events_from_landmarks, face_track_from_landmarks
+    info = probe(clip_path)
+    start = float(clip.get("start") or 0)
+    end = float(clip.get("end") or info["duration"])
+    with tempfile.TemporaryDirectory() as td:
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{start}", "-t", f"{end - start}",
+                        "-i", str(clip_path), "-vf",
+                        f"fps={TRACK_FPS},scale=540:960:force_original_aspect_ratio=increase,crop=540:960",
+                        str(Path(td) / "f%04d.jpg")], check=True)
+        frames = sorted(Path(td).glob("f*.jpg"))
+        rows = []
+        for k, f in enumerate(frames):
+            try:
+                rows.append([round(k / TRACK_FPS, 3), _landmarks(f)])
+            except Exception as e:
+                print(f"[track] pose failed: {e}")
+                rows.append([round(k / TRACK_FPS, 3), None])
+        events = events_from_landmarks(rows)
+        faces = face_track_from_landmarks(rows)
+        if sheet_out:
+            timeline_sheet(clip["id"], frames, events, sheet_out)
+    return {"duration": round(end - start, 2), "events": events, "face_track": faces}
+
+
+def timeline_sheet(clip_id: str, frames: list[Path], events: list[dict], out: Path, every: float = 0.5) -> None:
+    """One row of small frames every 0.5 s, auto-detected pointing moments outlined in red."""
+    step = max(1, int(round(every * TRACK_FPS)))
+    picks = frames[::step][:40]
+    tw, th = 96, 171
+    sheet = Image.new("RGB", (max(1, len(picks)) * tw, th + 24), "white")
+    d = ImageDraw.Draw(sheet)
+    font = ImageFont.truetype(str(ensure_font(ROOT / "assets/fonts/Poppins-Bold.ttf")), 14)
+    for n, f in enumerate(picks):
+        t = n * every
+        im = Image.open(f).convert("RGB").resize((tw, th))
+        hit = [e for e in events if e["t"] - every / 2 <= t <= e["end"] + 0.01]
+        sheet.paste(im, (n * tw, 24))
+        if hit:
+            e = hit[0]
+            d.rectangle([n * tw, 24, n * tw + tw - 1, 24 + th - 1], outline=(230, 30, 60), width=3)
+            d.ellipse([n * tw + e["x"] * tw - 5, 24 + e["y"] * th - 5, n * tw + e["x"] * tw + 5, 24 + e["y"] * th + 5],
+                      fill=(230, 30, 60))
+        d.text((n * tw + 3, 3), f"{t:.1f}" + (f" {hit[0]['dir']}" if hit else ""), font=font, fill="black")
+    d.text((3, th + 6), clip_id, font=font, fill="black")
+    sheet.save(out, quality=80)
