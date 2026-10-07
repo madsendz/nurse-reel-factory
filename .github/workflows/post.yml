@@ -1,0 +1,86 @@
+name: Post reel
+# Runs at each post time in config.yaml. Two UTC times per slot cover
+# daylight saving (EDT/EST); the script only posts once per slot.
+# Slots (ET): 09:30 R, 11:00 T, 13:00 R, 16:00 T, 19:30 R, 21:30 T -> edit if you change post_times.
+on:
+  schedule:
+    - cron: "30 13,14,23,0 * * *"     # 09:30 + 19:30 ET (regular)
+    - cron: "0 17,18 * * *"           # 13:00 ET (regular)
+    - cron: "0 15,16,20,21 * * *"     # 11:00 + 16:00 ET (trial)
+    - cron: "30 1,2 * * *"            # 21:30 ET (trial)
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Post right now (ignores schedule/pause)"
+        type: boolean
+        default: false
+      trial:
+        description: "Post as a trial reel (with force)"
+        type: boolean
+        default: false
+      dry_run:
+        description: "Render only, don't publish"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reel-state
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      GDRIVE_SERVICE_ACCOUNT_JSON: ${{ secrets.GDRIVE_SERVICE_ACCOUNT_JSON }}
+      DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+      CF_SITE_TAG: ${{ secrets.CF_SITE_TAG }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -r requirements.txt
+      - name: Is a slot due?
+        id: due
+        run: |
+          if [ "${{ inputs.force }}" = "true" ] || [ "${{ inputs.dry_run }}" = "true" ]; then echo "go=true" >> $GITHUB_OUTPUT; exit 0; fi
+          python - <<'PY' >> $GITHUB_OUTPUT
+          from datetime import datetime, timezone
+          from reelfactory.cli import _due_slot
+          from reelfactory.config import load_config, load_posts
+          cfg = load_config()
+          print("go=" + ("true" if (not cfg.get("paused") and _due_slot(cfg, load_posts(), datetime.now(timezone.utc))) else "false"))
+          PY
+      - name: Install ffmpeg
+        if: steps.due.outputs.go == 'true'
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Refresh stats
+        if: steps.due.outputs.go == 'true'
+        run: python -m reelfactory refresh || echo "refresh failed, continuing with saved stats"
+      - name: Pick, edit, post
+        if: steps.due.outputs.go == 'true'
+        run: |
+          ARGS=""
+          [ "${{ inputs.force }}" = "true" ] && ARGS="$ARGS --force"
+          [ "${{ inputs.trial }}" = "true" ] && ARGS="$ARGS --trial"
+          [ "${{ inputs.dry_run }}" = "true" ] && ARGS="$ARGS --dry-run --force"
+          python -m reelfactory post $ARGS
+      - name: Save the rendered reel
+        if: steps.due.outputs.go == 'true' && always()
+        uses: actions/upload-artifact@v4
+        with: { name: reel, path: out/*.mp4, if-no-files-found: ignore, retention-days: 14 }
+      - name: Save state
+        if: steps.due.outputs.go == 'true' && always()
+        run: |
+          git config user.name "reel-bot"; git config user.email "reel-bot@users.noreply.github.com"
+          git add data reports || true
+          git diff --cached --quiet && exit 0
+          git commit -m "bot: post + stats $(date -u +%F_%H%M)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
