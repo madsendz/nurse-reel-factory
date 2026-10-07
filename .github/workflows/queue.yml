@@ -1,0 +1,42 @@
+name: Make tomorrow's reels (Telegram approval)
+# Every evening: renders the next day's reels and sends them to Telegram.
+# Only reels you approve there get posted.
+on:
+  schedule:
+    - cron: "15 23 * * *"   # ~7:15 PM Eastern (6:15 PM in winter)
+  workflow_dispatch:
+    inputs:
+      days_ahead:
+        description: "1 = tomorrow, 0 = the rest of today"
+        default: "1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reel-state
+  cancel-in-progress: false
+
+jobs:
+  queue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      GDRIVE_SERVICE_ACCOUNT_JSON: ${{ secrets.GDRIVE_SERVICE_ACCOUNT_JSON }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -r requirements.txt && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji
+      - run: python -m reelfactory queue --days-ahead ${{ inputs.days_ahead || '1' }}
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name "reel-bot"; git config user.email "reel-bot@users.noreply.github.com"
+          git add data || true
+          git diff --cached --quiet && exit 0
+          git commit -m "bot: queued reels for approval"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
