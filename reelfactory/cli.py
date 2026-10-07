@@ -186,7 +186,23 @@ def cmd_post(cfg, args):
     slot, post_type = due
     if args.trial:
         post_type = "trial"
-    choice = pk.pick_next(load_bank(), load_clips(), posts, cfg, now, post_type=post_type)
+    entry = None
+    if not args.force:
+        from . import approve
+        if approve.enabled(cfg):
+            entry = approve.approved_for(cfg, slot)
+            if not entry:
+                return
+    if entry:  # post exactly the reel that was approved in Telegram
+        item = next((i for i in load_bank() if i["id"] == entry["item_id"]), None)
+        clip = next((c for c in load_clips() if c["id"] == entry["clip_id"]), None)
+        if not item or not clip:
+            print(f"[approvals] approved topic/clip no longer exists ({entry['item_id']}, {entry['clip_id']})")
+            return
+        choice = {"item": item, "clip": clip, "cta": int(entry.get("cta") or 0), "mode": entry.get("mode", "approved")}
+        post_type = entry.get("post_type", post_type)
+    else:
+        choice = pk.pick_next(load_bank(), load_clips(), posts, cfg, now, post_type=post_type)
     out, caption, meta = _make(cfg, choice, OUT_DIR, "post")
     print(f"[{post_type}] Picked {choice['item']['id']} on {choice['clip']['id']} ({choice['mode']}); rendered {meta['seconds']}s")
     record = {"id": uuid.uuid4().hex[:10], "slot": slot, "item_id": choice["item"]["id"],
@@ -218,6 +234,9 @@ def cmd_post(cfg, args):
     record["posted_at"] = (res.get("timestamp") or now.isoformat()).replace("+0000", "+00:00")
     posts.append(record)
     save_posts(posts)
+    if entry:
+        from . import approve
+        approve.mark(slot, "posted", record.get("permalink"), cfg)
     msg = f"Posted {post_type} reel **{record['item_id']}** on {record['clip_id']} ({record['mode']}) → {record.get('permalink')}"
     print(msg)
     _summary(msg)
@@ -265,6 +284,19 @@ def cmd_preview(cfg, args):
     _summary("\n".join(lines))
 
 
+def cmd_queue(cfg, args):
+    from . import approve
+    n = approve.make_queue(cfg, days_ahead=args.days_ahead)
+    _summary(f"Sent {n} reel(s) to Telegram for approval.")
+
+
+def cmd_approvals(cfg, args):
+    from . import approve
+    approve.sync_updates(cfg)
+    for e in approve.load_queue()[-12:]:
+        print(e["slot_key"], e["post_type"], e["item_id"], e["clip_id"], e.get("status"), e.get("feedback", ""))
+
+
 def cmd_report(cfg, args):
     posts = load_posts()
     s = score_posts(posts, cfg)
@@ -303,9 +335,12 @@ def main(argv=None):
     p.add_argument("--clip", help="only use this clip id")
     p.add_argument("--item", help="only use this topic id")
     sub.add_parser("report")
+    p = sub.add_parser("queue")
+    p.add_argument("--days-ahead", type=int, default=1, help="1 = tomorrow, 0 = rest of today")
+    sub.add_parser("approvals")
     p = sub.add_parser("ideas")
     p.add_argument("--force", action="store_true")
     args = ap.parse_args(argv)
     cfg = load_config()
     {"sync-clips": cmd_sync_clips, "auto-tag": cmd_auto_tag, "refresh": cmd_refresh, "post": cmd_post, "preview": cmd_preview,
-     "report": cmd_report, "ideas": cmd_ideas}[args.cmd](cfg, args)
+     "report": cmd_report, "ideas": cmd_ideas, "queue": cmd_queue, "approvals": cmd_approvals}[args.cmd](cfg, args)
