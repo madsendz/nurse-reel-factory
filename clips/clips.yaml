@@ -3,6 +3,7 @@ clips:
   drive_id: 1toXmdXUKHV565Y1uBfcZiBGUN8TUN72M
   name: 40dd8b81752a40b3894af2a639f2122b.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -643,6 +644,7 @@ clips:
   drive_id: 1VwkeHzCyYF0mZGLtlIIvsHA-QnjeEqN-
   name: Facetune7F2ADC8A-421A-46AA-B579-0EF5E2E4AB39.MOV
   status: active
+  events_manual: [{t: 4.4, dir: down, x: 0.5, y: 0.85}]
   point: ''
   zone:
     x: 0.33
@@ -898,6 +900,7 @@ clips:
   drive_id: 1w909DU5engutl8YlxV12MBsX5tnvwZF1
   name: 25671c8771524872adde406ca8d1158a.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -1408,6 +1411,7 @@ clips:
   drive_id: 1IMMv3dz_7O3KuuvpXQo3W1XoXlAlLWnx
   name: 4aade41b4d0848ff8d401e9a589a22d5.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.05
@@ -1573,6 +1577,7 @@ clips:
   drive_id: 1Om9p1DqI9QvHwyQqj-rfgKzjKC9symGc
   name: ca624ed5561a4caa880333c18bb51554.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.33
@@ -1718,6 +1723,7 @@ clips:
   drive_id: 130C467ui2aLkcN8PnSnS7tXhh-SADW4r
   name: 8761f1213eb64b2e8298edd9b9ebabd7.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.33
@@ -1873,6 +1879,7 @@ clips:
   drive_id: 1vRkGxb_J141scfAUMDyOUUKHoJnLApGy
   name: a96f9b2c110c46ff98e616f77fd02bfb.MP4
   status: active
+  events_manual: [{t: 5.2, dir: down, x: 0.3, y: 0.88}]
   point: ''
   zone:
     x: 0.33
@@ -1988,6 +1995,7 @@ clips:
   drive_id: 1MF6-VldpERNrIYHtzdvIx_m9kKSkID-D
   name: 27f32f38b0ad43d59893d28df0a4c6ed.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.33
@@ -2083,6 +2091,7 @@ clips:
   drive_id: 18XKyY7igJpRn1-psFWu1NqhEbyedpHHe
   name: 320e7c6d10f2466d850479f005a5ba9b.MP4
   status: active
+  events_manual: [{t: 3.5, dir: down, x: 0.3, y: 0.85}]
   point: ''
   zone:
     x: 0.33
@@ -2178,6 +2187,7 @@ clips:
   drive_id: 1ll_vpgCbUs1_UnxeOX_nuHjnLvMOEkLe
   name: f049404cb91e4b6b977ad19c400f320b.MP4
   status: active
+  events_manual: [{t: 4, dir: down, x: 0.3, y: 0.85}]
   point: ''
   zone:
     x: 0.08
@@ -2273,6 +2283,7 @@ clips:
   drive_id: 15yIy7mMzxh6WZSUNuSBrQCvAjzG8uZow
   name: 3023eddbd714442ab9c5c32f4bc15828.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.33
@@ -2373,6 +2384,7 @@ clips:
   drive_id: 1icWLH47uILuh0qIN9LREZuaf7m6LzmCh
   name: ba0df9f407c5457e806a6f6c2b91b655.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.33
@@ -2613,6 +2625,7 @@ clips:
   drive_id: 122UEiu1e7tmnDUtMs-O-2J0f2hnbKC0H
   name: Facetune3009B2B3-7B8B-402F-93B7-FB25CC620B33.mov
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.05
@@ -2758,6 +2771,7 @@ clips:
   drive_id: 12q5P312HKha10stsaS7sCXzmLFt0Zf5W
   name: video.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.05
@@ -2838,6 +2852,7 @@ clips:
   drive_id: 1iRISGP3oD-XUNAhvfLzovUER6Skr-7K1
   name: video.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.05
@@ -2968,6 +2983,7 @@ clips:
   drive_id: 13QDY9kX3r3MByzmiitISJRi82FXUrWg0
   name: Facetune80DEE378-9075-4EA0-A8B8-21B8B422E831.MOV
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.05
@@ -3108,6 +3124,7 @@ clips:
   drive_id: 1_MOdTQQUTYjAFhdF6Nh0-6TSgLVpgSZL
   name: video.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -3293,6 +3310,7 @@ clips:
   drive_id: 1m23IfJq-xmlBB5zrzD_XLry1c_vb1E7m
   name: FacetuneB58BCC97-2913-4B8F-9B2D-6E9372651F6B.MOV
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.05
@@ -3423,6 +3441,7 @@ clips:
   drive_id: 1Xy_kr-dW6qRjZs-k_7xtnFA_m4D8lMSs
   name: video.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -3538,6 +3557,7 @@ clips:
   drive_id: 1ZySLzzynsGju4pOTSy1gVuAsmIiQ0rtf
   name: video.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.05
@@ -3663,6 +3683,7 @@ clips:
   drive_id: 1x4sRhwvVL-KvV2H8HfVv8shBvgBQjnr9
   name: FacetuneF48767B7-007F-45B1-A9BC-E0980FEFC73D.MOV
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.05
@@ -3788,6 +3809,7 @@ clips:
   drive_id: 1mVkZzvu0w_-0uIZ5SBdxqOpzK7Za9zve
   name: video.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.33
@@ -3883,6 +3905,7 @@ clips:
   drive_id: 1BDUxuYiOAIC-itzJQeHhdv-p5EwNsOkY
   name: FacetuneE85EF185-ACBE-40E4-8894-903017E0445A.MOV
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.05
@@ -4158,6 +4181,7 @@ clips:
   drive_id: 10O3ZmcsLI62uBN93kfUjRo6zCW_-RH12
   name: Facetune2C4B48DE-A3DB-4A2B-A34D-17B73CC1626F.MOV
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.33
@@ -4298,6 +4322,7 @@ clips:
   drive_id: 1dsm6_jNNaOlZD-x5zIh4yg_GJR287e5v
   name: FacetuneA1E108BE-6373-421F-9A47-7528FC03A193.MOV
   status: active
+  events_manual: [{t: 1.62, dir: up, x: 0.756, y: 0.221}, {t: 3.88, dir: up, x: 0.296, y: 0.218}, {t: 6.75, dir: center, x: 0.543, y: 0.587}]
   point: ''
   zone:
     x: 0.05
@@ -4458,6 +4483,7 @@ clips:
   drive_id: 1tLyNZgAupAALRgfa4Bh9k9lbJIEti0hT
   name: Facetune37BD25B6-316B-4F73-8820-65881B47D423.MOV
   status: active
+  events_manual: [{t: 4.5, dir: up, x: 0.819, y: 0.253}]
   point: ''
   zone:
     x: 0.05
@@ -4723,6 +4749,7 @@ clips:
   drive_id: 1eF87KIXdpZDANGapIxj3GpbgNjKKM6z0
   name: Facetune660A79B5-9847-4D8B-AAFD-CCDCF9E6F115.MOV
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -4863,6 +4890,7 @@ clips:
   drive_id: 1dGprv3QicbR9lchIiqXwQ0zS0N6sfCXp
   name: video.mov
   status: active
+  events_manual: [{t: 3.88, dir: up, x: 0.137, y: 0.265}]
   point: ''
   zone:
     x: 0.05
@@ -5133,6 +5161,7 @@ clips:
   drive_id: 1g5jXTXjFg6NKMkZGxkYRtdh3EQ6B163O
   name: video.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -5388,6 +5417,7 @@ clips:
   drive_id: 1nAW_yd7orBRl3rxnr-yOazXSyI75Px_8
   name: Facetune39B350BF-F7AD-4BC3-9741-7B70DABCCF0F.MOV
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.33
@@ -5503,6 +5533,7 @@ clips:
   drive_id: 1NlUUJ8BtbC9EsBNyCYh9Vk8PAAEzrg7K
   name: Facetune37983C66-A5ED-4C4E-B3A7-8C2C6BDF9E83.MOV
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -5603,6 +5634,7 @@ clips:
   drive_id: 1OjVf4Wzm-2FP-lJfdhtaRjzzy8xuK7QC
   name: IMG_9255.mov
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -5868,6 +5900,7 @@ clips:
   drive_id: 1OW64UsWGgvDbtgbSbCJMKHwdED8qAuB9
   name: IMG_2791.mov
   status: active
+  events_manual: [{t: 3.25, dir: up, x: 0.036, y: 0.264}, {t: 5.5, dir: up, x: 0.949, y: 0.254}]
   point: ''
   zone:
     x: 0.05
@@ -6023,6 +6056,7 @@ clips:
   drive_id: 1LudVat2OpA1PoGWDb2I0Cwq0rce9BnRW
   name: IMG_9274.mov
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -6123,6 +6157,7 @@ clips:
   drive_id: 1uC4-3gr6y1k0Tc6WiYTMvRws6f15Kp_k
   name: IMG_9253.mov
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.05
@@ -6388,6 +6423,7 @@ clips:
   drive_id: 1btd7_H4DWcOQvbBXx4TzZeJZBTq58tKR
   name: Facetune11716388-040A-4218-A19C-622565F2820C.MOV
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.05
@@ -6468,6 +6504,7 @@ clips:
   drive_id: 1Uil5G-lykLVut1vlwIJtTHp7dHmETdRJ
   name: IMG_9252.mov
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -6583,6 +6620,7 @@ clips:
   drive_id: 1OpCpSOuxDrfMmL4QXp1-FsTA8NLTIoBs
   name: IMG_9250.mov
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.05
@@ -6728,6 +6766,7 @@ clips:
   drive_id: 1axGlax22Pn2mYh4WOZcIun9X77Xxx-0R
   name: IMG_9254.mov
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -6953,6 +6992,7 @@ clips:
   drive_id: 1rwdb8Qmam5x1YPr5K9opGfGoG25j6Yy1
   name: IMG_2791.MOV
   status: active
+  events_manual: [{t: 0.6, dir: up, x: 0.94, y: 0.25}, {t: 3.8, dir: down, x: 0.5, y: 0.85}]
   point: ''
   zone:
     x: 0.05
@@ -7053,6 +7093,7 @@ clips:
   drive_id: 1vDc-LbojorIiGPmjS_SmbGzzJ-ZN5OJk
   name: 52b080873bed4850bdad8ded14b2bbe6.MP4
   status: active
+  events_manual: [{t: 0.5, dir: up, x: 0.2, y: 0.15}]
   point: ''
   zone:
     x: 0.05
@@ -7188,6 +7229,7 @@ clips:
   drive_id: 1P5nWa92VjE29Ea4a2VeCG6TBQevf8l2i
   name: 548a0f2fae174c6c8cb5c7a561854634.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -7418,6 +7460,7 @@ clips:
   drive_id: 1Erd7NyBAOv4n5dQBg0rBUvUccFKHLHjh
   name: IMG_9249.mov
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.05
@@ -7498,6 +7541,7 @@ clips:
   drive_id: 1jhzlvlNCUFou9HiSaihBwCDGSZpOLrh7
   name: 9ba75af7ac7746268e2dbe40bc537c10.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.05
@@ -7883,6 +7927,7 @@ clips:
   drive_id: 1ZzDRL9oLjfhSzGugW1uOUBnNKMd0cEKd
   name: 057c0b05a6af40879200b41976884f41.MP4
   status: active
+  events_manual: [{t: 0, dir: up, x: 0.071, y: 0.309}]
   point: ''
   zone:
     x: 0.33
@@ -8053,6 +8098,7 @@ clips:
   drive_id: 1o5VHH4SSAmGHVsIlCIw-NUmA36IwfvE9
   name: 71e8c9f395154821a88f9b06062c6a3d.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.33
@@ -8338,6 +8384,7 @@ clips:
   drive_id: 1YOAND0MUUHPsrOoVubXkENgBIqKVQ4jL
   name: 56671612e2ca42f3a24b5d92d095bb5e.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -8458,6 +8505,7 @@ clips:
   drive_id: 1KkJduB09tv3rG0wTZWFnUUYrKfIH-0kS
   name: 678b026037714facadcf8240c639ed19.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -8583,6 +8631,7 @@ clips:
   drive_id: 1F2Or8c2mZizJ0XNNKaS9Il-MtWK86bzN
   name: 307e5739029147288c3c687972da7633.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.33
@@ -8683,6 +8732,7 @@ clips:
   drive_id: 1ZVcbg8c2WkaXyGA-GVAEJA4Pt2Wo3HMs
   name: 988510181e734beea7ade5b178496786.MOV
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -8791,6 +8841,7 @@ clips:
   drive_id: 1iv2uggyjteYmMkHLI8kMbSm27Z-6hPQj
   name: 988510181e734beea7ade5b178496786.mov
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -8899,6 +8950,7 @@ clips:
   drive_id: 1WX3xjk4dWu7eu9boFItHFN7M7nC61NyM
   name: 6cfb95dae5f54c4daac4d5eaaae0805d.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.33
@@ -9239,6 +9291,7 @@ clips:
   drive_id: 1UdKGsPX0q5sSIx-rrqPX5wwsyTetTvq7
   name: 308c0b0e8e4248a0be82e39db71fa0ca.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -9554,6 +9607,7 @@ clips:
   drive_id: 12Gj-238r9-EedLPPAH7kS0WHnPmASTkO
   name: 9636517d838f4f0b89aa3d63dd6a28b6.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -9664,6 +9718,7 @@ clips:
   drive_id: 12TkUAKJdmW3x0IL0IECbkvASWeH0GKIP
   name: 2b02237600e9460b992eeb32776e4eb5.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.05
@@ -9774,6 +9829,7 @@ clips:
   drive_id: 1Lg4U2wTAYTzsJ2mJHhkug3OWImR9sv56
   name: 270699bd2dd04351898689866904f9be.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -9859,6 +9915,7 @@ clips:
   drive_id: 11HQHxt7SURTkFPJ81wej1USGVXwnA3uU
   name: 67c1a5244fc94230a5d37b32a5be5fa2.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.33
@@ -9914,6 +9971,7 @@ clips:
   drive_id: 1t_gcxf4bxhppN9aRfQH8yg7J684e69QQ
   name: ab57eded800c4b63bb1d9d18555c3f63.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -10104,6 +10162,7 @@ clips:
   drive_id: 1gfYs0Ngn16g4KkmzdFMCdwWwRKntABi-
   name: bb8f7a4a7ccb43f8b6da8ba52af8f11f.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.05
@@ -10174,6 +10233,7 @@ clips:
   drive_id: 1_p7i4KxGINgrNcSvqjovNor-TNtqngnz
   name: 86a878eb676149109393bc504d25403f.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.33
@@ -10263,7 +10323,8 @@ clips:
 - id: clip78
   drive_id: 1IrMjo31CbmmHoGHwBzhT4Sycex5Z63S2
   name: RPReplay_Final1725593888.MP4
-  status: active
+  status: review
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -10414,6 +10475,7 @@ clips:
   drive_id: 18CFsME9--EQnQ815-SZaYuNHssQQEEe0
   name: 889db6c4be20439e9c5c2d7a0e81e028.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.33
@@ -10824,6 +10886,7 @@ clips:
   drive_id: 1-lizVDNnviERRE39J_7DFhXOhqxFCEvm
   name: 129537adb4ec4d2ba5f3863cbefa5d8a.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.05
@@ -11074,6 +11137,7 @@ clips:
   drive_id: 10lFXbW2-vAxSjU4_w3rQreUIJE5eCP5p
   name: a84cba64982b4436bece551ac0a10d30.MP4
   status: active
+  events_manual: [{t: 5.62, dir: up, x: 0.17, y: 0.418}]
   point: ''
   zone:
     x: 0.33
@@ -11204,6 +11268,7 @@ clips:
   drive_id: 1bjsp-S7aBkouvatq7hZvhl1RO-eNFEuO
   name: 77c87b31a930426887637c7fba0ec10b.MP4
   status: active
+  events_manual: [{t: 5.6, dir: center, x: 0.25, y: 0.75}]
   point: ''
   zone:
     x: 0.33
@@ -11309,6 +11374,7 @@ clips:
   drive_id: 1ILbRG5_riiSonEkbcX6jHqN23ZKJHYyk
   name: b4639b998c8043f7855d31e2c2590a63.MP4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.05
@@ -11394,6 +11460,7 @@ clips:
   drive_id: 1osLbrfc18n8u1BiIchAYg8cu-yeqCxh-
   name: 68869a468e7a4b0aa6bf49f4b953d029.mp4
   status: active
+  events_manual: [{t: 1, dir: up, x: 0.2, y: 0.15}]
   point: ''
   zone:
     x: 0.05
@@ -11559,6 +11626,7 @@ clips:
   drive_id: 13ezvzWn4u9MsUifZbHMC6srXw3QHuXBS
   name: ce10ca1427cb4c51a7ab78726b6489d2.mp4
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.08
@@ -11649,6 +11717,7 @@ clips:
   drive_id: 1iOKOTV-yWhs-hQW7udo7iaAsKvniHAvZ
   name: 5AE95341-9033-4322-8A93-739D1CD03909.mov
   status: active
+  events_manual: []
   point: ''
   zone:
     x: 0.05
