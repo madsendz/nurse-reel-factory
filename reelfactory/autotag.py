@@ -18,7 +18,7 @@ from .config import ROOT
 from .render import ensure_font, probe
 
 POSE_MODEL = ROOT / ".cache" / "pose_landmarker_lite.task"
-SAFE_TOP, SAFE_BOTTOM = 0.10, 0.78
+SAFE_TOP, SAFE_BOTTOM = 0.16, 0.78
 MIN_H = 0.22          # preferred minimum text area height
 MIN_POINTED = 0.15    # smallest band we'll still use if she's pointing into it
 
