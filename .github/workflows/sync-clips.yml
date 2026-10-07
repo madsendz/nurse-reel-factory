@@ -41,7 +41,8 @@ jobs:
         with: { name: contact-sheets, path: out/sheets, if-no-files-found: ignore, retention-days: 14 }
       - run: |
           git config user.name "reel-bot"; git config user.email "reel-bot@users.noreply.github.com"
-          git add clips
+          mkdir -p review/timelines && cp out/sheets/timeline_*.jpg review/timelines/ 2>/dev/null || true
+          git add clips review
           git diff --cached --quiet && exit 0
           git commit -m "bot: new clips tagged"
           git pull --rebase -q && git push -q
