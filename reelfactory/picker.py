@@ -66,7 +66,8 @@ def pick_next(bank: list[dict], clips: list[dict], posts: list[dict], cfg: dict,
     def topic_value(item):
         style_e = est["style"].get(item.get("style"), {}).get("est", 0.0)
         cat_e = est["category"].get(item["category"], {}).get("est", 0.0)
-        return _sample(est["item_id"], item["id"], 0.6 * style_e + 0.4 * cat_e, rng)
+        prior = 0.6 * style_e + 0.4 * cat_e + float(item.get("prior") or 0)  # proven past reels get a head start
+        return _sample(est["item_id"], item["id"], prior, rng)
 
     ranked = sorted(((topic_value(i), i) for i in candidates), key=lambda t: t[0], reverse=True)
     item = ranked[0][1]
