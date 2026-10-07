@@ -1,0 +1,47 @@
+name: Sync + tag clips
+# Pulls new clips from the NurseReels Drive folder, finds where Lexi is pointing
+# in each one, and makes contact sheets (download them from the run's Artifacts).
+on:
+  schedule:
+    - cron: "0 9 * * 1"   # Mondays
+  workflow_dispatch:
+    inputs:
+      retag_all:
+        description: "Re-tag every clip (not just new ones)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reel-state
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GDRIVE_SERVICE_ACCOUNT_JSON: ${{ secrets.GDRIVE_SERVICE_ACCOUNT_JSON }}
+      DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -r requirements-tag.txt && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Get pose model
+        run: |
+          mkdir -p .cache
+          curl -sSL -o .cache/pose_landmarker_lite.task \
+            https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/latest/pose_landmarker_lite.task || echo "pose model unavailable, using face detection only"
+      - run: python -m reelfactory sync-clips
+      - run: python -m reelfactory auto-tag ${{ inputs.retag_all && '--all' || '' }}
+      - uses: actions/upload-artifact@v4
+        with: { name: contact-sheets, path: out/sheets, if-no-files-found: ignore, retention-days: 14 }
+      - run: |
+          git config user.name "reel-bot"; git config user.email "reel-bot@users.noreply.github.com"
+          git add clips
+          git diff --cached --quiet && exit 0
+          git commit -m "bot: new clips tagged"
+          git pull --rebase -q && git push -q
