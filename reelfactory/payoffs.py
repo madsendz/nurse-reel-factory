@@ -175,7 +175,7 @@ def faces_between(clip: dict, t0: float, t1: float, W: int, H: int, pad: float =
     if len(boxes) >= 3:  # ignore odd frames (camera swings) where the face suddenly fills the screen
         areas = sorted(b[2] * b[3] for b in boxes)
         med = areas[len(areas) // 2]
-        boxes = [b for b in boxes if b[2] * b[3] <= med * 1.8]
+        boxes = [b for b in boxes if b[2] * b[3] <= med * 1.35]
     out = []
     for x, y, w, h in boxes:
         out.append(((x - pad) * W, (y - pad) * H, (x + w + pad) * W, (y + h + pad) * H))
@@ -233,7 +233,8 @@ def place(payoffs: list[dict], clip: dict, duration: float, cfg: dict, font_path
                         rect = (x, y, x + bw, y + bh)
                         if any(_overlap(rect, o) > 0 for o in taken):
                             continue
-                        face_hit = sum(_overlap(rect, f) for f in faces) / (bw * bh)
+                        # share of on-screen time the box would sit on her face (one odd frame barely counts)
+                        face_hit = sum(_overlap(rect, f) for f in faces) / (bw * bh) / max(1, len(faces)) * 3
                         cx, cy = x + bw / 2, y + bh / 2
                         dist = ((cx - ax) ** 2 + ((cy - ay) * 1.3) ** 2) ** 0.5 / H
                         cost = dist + face_hit * 4 + (1 - scale) * 0.35
