@@ -49,7 +49,7 @@ scoring:
 picker:
   explore_rate: 0.25           # regular reels: share that test new / unproven topics
   trial_explore_rate: 0.60     # trial reels are for testing, so they try new topics more
-  topic_cooldown_days: 7       # don't repeat the same topic sooner than this (6 posts/day eats topics fast)
+  topic_cooldown_days: 3       # don't repeat the same topic sooner than this (proven winners come back often)
   clip_cooldown_posts: 4       # don't reuse a clip within the last N posts
   max_same_category_in_row: 2
 
@@ -68,7 +68,7 @@ render:
   box_opacity: 0.94
   # Title (hook): matches the @lexixoofficial look — white serif, black outline + block offset
   hook_font: assets/fonts/InstrumentSerif-Regular.ttf   # free lookalike for Advercase
-  hook_size: 104               # max size; shrinks to fit (max 4 lines)
+  hook_size: 118               # max size; shrinks to fit (max 4 lines)
   hook_color: "#FFFFFF"
   hook_outline_color: "#000000"
   hook_outline: 0.075          # outline thickness (fraction of font size)
@@ -76,7 +76,7 @@ render:
   hook_center_y: 0.50          # title centered here (moves below the face if it would cover it)
   hook_width: 0.86
   hook_case: lower_keep_caps   # "is a curve NORMAL?" style; use "natural" to keep as written
-  hook_emoji: "👀"             # added to the end of titles that have no emoji ("" to turn off)
+  hook_emoji: ""               # emojis are written into each title in content/bank.yaml
   # Facts (subtitles): white boxes that pop up where Lexi points
   sub_size: 50
   sub_top_min: 0.16            # facts never start higher than this
