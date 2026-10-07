@@ -165,25 +165,80 @@ def make_queue(cfg, days_ahead: int = 1) -> int:
     for dt, key, kind in _slot_list(cfg, datetime(day.year, day.month, day.day)):
         if key in have or dt <= datetime.now(timezone.utc) + timedelta(minutes=10):
             continue
-        choice = pk.pick_next(bank, clips, hist, cfg, now=dt.astimezone(timezone.utc), rng=rng, post_type=kind)
-        out, caption, meta = _make(cfg, choice, out_dir, key.replace(" ", "_").replace(":", ""))
-        e = {"id": os.urandom(4).hex(), "slot_key": key, "slot_iso": dt.astimezone(timezone.utc).isoformat(),
-             "slot_label": dt.strftime("%a %b %d, %-I:%M %p"), "post_type": kind,
-             "item_id": choice["item"]["id"], "category": choice["item"]["category"], "clip_id": choice["clip"]["id"],
-             "cta": choice["cta"], "mode": choice["mode"], "seconds": meta["seconds"], "status": "pending"}
-        with open(out, "rb") as f:
-            msg = _tg("sendVideo", files={"video": (out.name, f, "video/mp4")}, chat_id=cid, caption=_caption(e),
-                      supports_streaming="true", reply_markup=_buttons(e["id"]))
-        e["msg_id"] = msg["message_id"]
-        q.append(e)
-        hist.append({"item_id": e["item_id"], "category": e["category"], "clip_id": e["clip_id"], "posted_at": e["slot_iso"]})
-        save_queue(q)
+        e = _queue_one(cfg, cid, dt, key, kind, bank, clips, hist, q, rng, out_dir)
         made += 1
         print(f"[queue] {key} {kind}: {e['item_id']} on {e['clip_id']} -> sent to Telegram")
     if made:
         _tg("sendMessage", chat_id=cid, text=f"👆 {made} reels for {day:%A}. Approve the ones you like — "
                                               "only approved reels get posted. No answer = not posted.")
     return made
+
+
+def _queue_one(cfg, cid, dt, key, kind, bank, clips, hist, q, rng, out_dir, extra=False):
+    from .cli import _make
+    choice = pk.pick_next(bank, clips, hist, cfg, now=dt.astimezone(timezone.utc), rng=rng, post_type=kind)
+    out, caption, meta = _make(cfg, choice, out_dir, key.replace(" ", "_").replace(":", ""))
+    e = {"id": os.urandom(4).hex(), "slot_key": key, "slot_iso": dt.astimezone(timezone.utc).isoformat(),
+         "slot_label": dt.strftime("%a %b %d, %-I:%M %p"), "post_type": kind,
+         "item_id": choice["item"]["id"], "category": choice["item"]["category"], "clip_id": choice["clip"]["id"],
+         "cta": choice["cta"], "mode": choice["mode"], "seconds": meta["seconds"], "status": "pending"}
+    with open(out, "rb") as f:
+        msg = _tg("sendVideo", files={"video": (out.name, f, "video/mp4")}, chat_id=cid, caption=_caption(e),
+                  supports_streaming="true", reply_markup=_buttons(e["id"]))
+    e["msg_id"] = msg["message_id"]
+    q.append(e)
+    hist.append({"item_id": e["item_id"], "category": e["category"], "clip_id": e["clip_id"], "posted_at": e["slot_iso"]})
+    if extra:
+        e["extra"] = True
+    save_queue(q)
+    return e
+
+
+def add_extras(cfg, spec: str) -> int:
+    """Extra reels for today, e.g. "regular@21:30,trial@22:30" (Eastern time)."""
+    cid = chat_id(cfg)
+    if not cid:
+        sync_updates(cfg)
+        cid = chat_id(cfg)
+    if not cid:
+        raise RuntimeError("Telegram chat not connected yet")
+    tz = ZoneInfo(cfg.get("timezone", "America/New_York"))
+    today = datetime.now(timezone.utc).astimezone(tz).date()
+    q = load_queue()
+    posts = load_posts()
+    hist = list(posts) + [{"item_id": e["item_id"], "category": e.get("category"), "clip_id": e["clip_id"],
+                           "posted_at": e["slot_iso"]} for e in q if e.get("status") in ("pending", "approved")]
+    bank, clips = load_bank(), load_clips()
+    rng = random.Random()
+    made = 0
+    for n, part in enumerate([p.strip() for p in spec.split(",") if p.strip()], 1):
+        kind, _, hhmm = part.partition("@")
+        hh, mm = map(int, hhmm.split(":"))
+        dt = datetime(today.year, today.month, today.day, hh, mm, tzinfo=tz)
+        key = f"{dt:%Y-%m-%d %H:%M} extra{n}-{os.urandom(2).hex()}"
+        _queue_one(cfg, cid, dt, key, kind.strip() or "regular", bank, clips, hist, q, rng, OUT_DIR / "queue", extra=True)
+        made += 1
+    if made:
+        _tg("sendMessage", chat_id=cid, text=f"👆 {made} extra test reel(s) for tonight. Approve the ones you want posted.")
+    return made
+
+
+def due_entries(cfg, now=None, grace_min: int = 120) -> list[dict]:
+    """Approved reels whose time has come (and that haven't been posted)."""
+    try:
+        sync_updates(cfg)
+    except Exception as ex:
+        print(f"[telegram] couldn't read approvals: {ex}")
+    now = now or datetime.now(timezone.utc)
+    posted = {p.get("slot") for p in load_posts()}
+    out = []
+    for e in sorted(load_queue(), key=lambda e: e["slot_iso"]):
+        t = datetime.fromisoformat(e["slot_iso"])
+        if e.get("status") == "approved" and e["slot_key"] not in posted and t <= now < t + timedelta(minutes=grace_min):
+            out.append(e)
+        elif t <= now < t + timedelta(minutes=grace_min) and e.get("status") == "pending":
+            print(f"[approvals] {e['slot_key']} wasn't approved — not posting")
+    return out
 
 
 def approved_for(cfg, slot_key: str) -> dict | None:
