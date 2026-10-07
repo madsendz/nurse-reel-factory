@@ -187,10 +187,24 @@ def cmd_post(cfg, args):
     if args.dry_run:
         print("Dry run — not publishing.\n\n" + caption)
         return
-    from .instagram import Instagram
+    from .instagram import Instagram, pick_audio
+    ig = Instagram(cfg)
     strategy = cfg.get("trial", {}).get("graduation_strategy", "MANUAL") if post_type == "trial" else None
-    res = Instagram(cfg).publish_reel(out, caption, thumb_offset_ms=int(meta["stages"][-1] * 1000) + 500,
-                                      trial_strategy=strategy)
+    audio = pick_audio(ig, posts, cfg, random.Random())
+    if audio:
+        record.update({"audio_id": audio["audio_id"], "audio_title": audio.get("title"),
+                       "audio_artist": audio.get("artist")})
+        print(f"[sound] {audio.get('title')} - {audio.get('artist')}")
+    thumb = int(meta["stages"][-1] * 1000) + 500
+    try:
+        res = ig.publish_reel(out, caption, thumb_offset_ms=thumb, trial_strategy=strategy, audio=audio)
+    except Exception as e:
+        if not audio:
+            raise
+        print(f"[sound] posting with the sound failed ({e}); posting with the clip's own audio instead")
+        for k in ("audio_id", "audio_title", "audio_artist"):
+            record.pop(k, None)
+        res = ig.publish_reel(out, caption, thumb_offset_ms=thumb, trial_strategy=strategy)
     record.update(res)
     record["posted_at"] = (res.get("timestamp") or now.isoformat()).replace("+0000", "+00:00")
     posts.append(record)
@@ -213,6 +227,13 @@ def cmd_preview(cfg, args):
             i["status"] = "active"
     out_dir = OUT_DIR / "preview"
     rng = random.Random(args.seed)
+    ig = None
+    if os.environ.get("IG_ACCESS_TOKEN"):
+        try:
+            from .instagram import Instagram
+            ig = Instagram(cfg)
+        except Exception as e:
+            print(f"[sound] preview can't reach Instagram: {e}")
     used, lines = set(), ["# Upcoming reels (preview)", ""]
     fake_posts = list(posts)
     for k in range(args.n):
@@ -221,7 +242,14 @@ def cmd_preview(cfg, args):
         out, caption, meta = _make(cfg, choice, out_dir, f"{k + 1:02d}")
         fake_posts.append({"item_id": choice["item"]["id"], "category": choice["item"]["category"],
                            "clip_id": choice["clip"]["id"], "posted_at": datetime.now(timezone.utc).isoformat()})
-        lines += [f"## {k + 1}. {choice['item']['id']} · {choice['clip']['id']} · {choice['mode']} · {meta['seconds']}s",
+        sound = ""
+        if ig:
+            from .instagram import pick_audio
+            a = pick_audio(ig, fake_posts, cfg, rng)
+            sound = f" · sound: {a.get('title')} - {a.get('artist')}" if a else " · sound: (none found)"
+            if a:
+                fake_posts[-1]["audio_id"] = a["audio_id"]
+        lines += [f"## {k + 1}. {choice['item']['id']} · {choice['clip']['id']} · {choice['mode']} · {meta['seconds']}s{sound}",
                   "", "```", caption, "```", ""]
         print(f"rendered {out.name}")
     (out_dir / "preview.md").write_text("\n".join(lines), encoding="utf-8")
