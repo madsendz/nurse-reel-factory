@@ -53,7 +53,7 @@ def clicks_hourly(cfg, since):
     return {}, until
 
 
-def frames(url: str, out: Path, times=(0.5, 2.5, 5, 8, 12)) -> bool:
+def frames(url: str, out: Path, times=(0.5, 2, 3.5, 5, 6.5, 8, 10, 13)) -> bool:
     with tempfile.TemporaryDirectory() as td:
         v = Path(td) / "v.mp4"
         try:
@@ -67,7 +67,7 @@ def frames(url: str, out: Path, times=(0.5, 2.5, 5, 8, 12)) -> bool:
         for k, t in enumerate(times):
             p = Path(td) / f"{k}.jpg"
             subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", str(t), "-i", str(v), "-frames:v", "1",
-                            "-vf", "scale=300:-2", str(p)])
+                            "-vf", "scale=360:-2", str(p)])
             if p.exists():
                 ims.append(Image.open(p).convert("RGB"))
         if not ims:
@@ -83,8 +83,8 @@ def frames(url: str, out: Path, times=(0.5, 2.5, 5, 8, 12)) -> bool:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--days", type=int, default=180)
-    ap.add_argument("--max", type=int, default=250)
-    ap.add_argument("--frames", type=int, default=60, help="grab frames for the top N reels")
+    ap.add_argument("--max", type=int, default=600)
+    ap.add_argument("--frames", type=int, default=80, help="grab frames for the top N reels")
     a = ap.parse_args()
     cfg = load_config()
     ig = Instagram(cfg)
