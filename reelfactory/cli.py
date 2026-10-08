@@ -172,7 +172,7 @@ def _make(cfg, choice, out_dir: Path, tag: str):
     if music.baked(cfg):  # royalty-free track mixed into the video (same track at post time as in Telegram)
         track = choice.get("music")
         if not track:
-            used = music.recent_ids(load_posts() + _queued(), 15)
+            used = music.recent_ids(load_posts() + _queued(), 15) | {m for m in choice.get("avoid_music", set()) if m}
             track = music.pick_track(cfg, avoid=used)
         if track and music.add_music(out, track, float(meta["seconds"]), cfg):
             meta["music"] = track
@@ -386,3 +386,9 @@ def main(argv=None):
     {"sync-clips": cmd_sync_clips, "auto-tag": cmd_auto_tag, "refresh": cmd_refresh, "post": cmd_post, "preview": cmd_preview,
      "report": cmd_report, "ideas": cmd_ideas, "queue": cmd_queue, "approvals": cmd_approvals,
      "replies": cmd_replies}[args.cmd](cfg, args)
+    if args.cmd in ("post", "queue", "replies", "refresh"):
+        try:  # keep the dashboard current
+            from . import dashboard
+            dashboard.push(cfg)
+        except Exception as ex:
+            print(f"[dashboard] push failed: {ex}")
