@@ -176,7 +176,8 @@ def sync_updates(cfg) -> None:
 
 def _caption(e: dict) -> str:
     status = {"pending": "⏳ waiting for you", "approved": "✅ approved — will post", "skipped": "❌ skipped",
-              "posted": "📤 posted", "expired": "⌛ not approved in time"}.get(e.get("status"), e.get("status"))
+              "posted": "📤 posted", "expired": "⌛ not approved in time",
+              "missed": "⏭ not posted (another reel took this time slot)"}.get(e.get("status"), e.get("status"))
     if e.get("status") == "skipped" and (e.get("needs_replacement") or e.get("replaced_by")):
         status += " (your notes) — replacement sent" if e.get("replaced_by") else " (your notes) — replacement coming"
     if e.get("replaces"):
@@ -325,22 +326,46 @@ def add_extras(cfg, spec: str) -> int:
 
 
 def due_entries(cfg, now=None, grace_min: int = 120) -> list[dict]:
-    """Approved reels whose time has come (and that haven't been posted)."""
+    """The ONE approved reel to post now. GitHub often starts jobs late, so a single run can find
+    several approved reels whose time has passed: post only the newest slot's reel (one per run,
+    one per time slot) and mark the older ones as missed instead of posting them all at once."""
     try:
         sync_updates(cfg)
     except Exception as ex:
         print(f"[telegram] couldn't read approvals: {ex}")
     now = now or datetime.now(timezone.utc)
     posted = {p.get("slot") for p in load_posts()}
-    out = []
-    for e in sorted(load_queue(), key=lambda e: e["slot_iso"]):
+    q = load_queue()
+    due = []
+    for e in q:
         t = datetime.fromisoformat(e["slot_iso"])
-        if e.get("status") == "approved" and e["slot_key"] not in posted and t <= now < t + timedelta(minutes=grace_min):
-            posted.add(e["slot_key"])  # one reel per slot, even if an old + replacement were both approved
-            out.append(e)
-        elif t <= now < t + timedelta(minutes=grace_min) and e.get("status") == "pending":
+        if not (t <= now < t + timedelta(minutes=grace_min)):
+            continue
+        if e.get("status") == "approved" and e["slot_key"] not in posted:
+            due.append(e)
+        elif e.get("status") == "pending":
             print(f"[approvals] {e['slot_key']} wasn't approved — not posting")
-    return out
+    if not due:
+        return []
+    recent = [p for p in load_posts() if p.get("posted_at") and
+              datetime.fromisoformat(p["posted_at"]) > now - timedelta(minutes=50)]
+    if recent:  # something already went out for this time slot
+        print(f"[approvals] a reel was posted {recent[-1]['posted_at']} — waiting for the next slot")
+        return []
+    # newest time slot wins; inside it, prefer a replacement, then the most recently approved
+    due.sort(key=lambda e: (e["slot_iso"], bool(e.get("replaces")), e.get("decided_at") or ""))
+    pick = due[-1]
+    cid = chat_id(cfg)
+    for e in due[:-1]:
+        e["status"] = "missed"
+        print(f"[approvals] {e['slot_key']} ({e['item_id']}) missed — only one reel per run/slot")
+        if cid and e.get("msg_id"):
+            try:
+                _tg("editMessageCaption", chat_id=cid, message_id=e["msg_id"], caption=_caption(e))
+            except Exception:
+                pass
+    save_queue(q)
+    return [pick]
 
 
 def approved_for(cfg, slot_key: str) -> dict | None:
