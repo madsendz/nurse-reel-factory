@@ -217,7 +217,25 @@ async function telegramWebhook(req, env, c, ctx) {
 }
 
 // ---------- dashboard actions ----------
+async function topicAction(a, env) {
+  const st = JSON.parse((await env.KV.get("state")) || '{"entries":[]}');
+  const t = st.topics || { review: [], counts: { winner: {}, new: {} } };
+  const it = (t.review || []).find((x) => x.id === a.item_id);
+  if (!it) return Response.json({ ok: false, error: "topic not found" }, { status: 404 });
+  const key = "a:" + new Date().toISOString() + ":" + Math.random().toString(36).slice(2, 6);
+  await env.KV.put(key, JSON.stringify({ kind: a.kind, item_id: a.item_id, at: new Date().toISOString() }), { expirationTtl: 14 * 86400 });
+  t.review = t.review.filter((x) => x.id !== a.item_id);
+  if (a.kind === "topic_keep") {
+    t.counts.new.active = (t.counts.new.active || 0) + 1;
+    t.counts.new.free = (t.counts.new.free || 0) + 1;
+  }
+  st.topics = t;
+  await env.KV.put("state", JSON.stringify(st));
+  return Response.json({ ok: true });
+}
+
 async function dashboardAction(a, env, c) {
+  if (a && (a.kind === "topic_keep" || a.kind === "topic_toss") && a.item_id) return topicAction(a, env);
   const kinds = ["approve", "skip", "note", "swap_music", "new_clip", "new_topic", "move", "post_now"];
   if (!a || !kinds.includes(a.kind) || !a.entry_id) return Response.json({ ok: false, error: "bad action" }, { status: 400 });
   const st = await liveState(env);
