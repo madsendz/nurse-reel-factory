@@ -19,8 +19,8 @@
     "timestamp": "2026-10-08T02:58:18+0000",
     "posted_at": "2026-10-08T02:58:18+00:00",
     "metrics": {},
-    "metrics_updated_at": "2026-10-08T15:08:45.221901+00:00",
-    "clicks_attr": 13.23
+    "metrics_updated_at": "2026-10-08T15:18:42.895953+00:00",
+    "clicks_attr": 13.22
   },
   {
     "id": "d052e07c2d",
@@ -42,18 +42,18 @@
     "timestamp": "2026-10-08T02:59:44+0000",
     "posted_at": "2026-10-08T02:59:44+00:00",
     "metrics": {
-      "views": 105190,
-      "reach": 49746,
+      "views": 106429,
+      "reach": 50594,
       "shares": 13,
       "saved": 124,
-      "likes": 301,
+      "likes": 303,
       "comments": 11,
-      "total_interactions": 468,
-      "ig_reels_avg_watch_time": 11674,
-      "reels_skip_rate": 25.9
+      "total_interactions": 470,
+      "ig_reels_avg_watch_time": 11702,
+      "reels_skip_rate": 26
     },
-    "metrics_updated_at": "2026-10-08T15:08:45.221901+00:00",
-    "clicks_attr": 221.04
+    "metrics_updated_at": "2026-10-08T15:18:42.895953+00:00",
+    "clicks_attr": 220.99
   },
   {
     "id": "0c828d52a3",
@@ -75,17 +75,17 @@
     "timestamp": "2026-10-08T14:33:26+0000",
     "posted_at": "2026-10-08T14:33:26+00:00",
     "metrics": {
-      "views": 6094,
-      "reach": 1200,
+      "views": 7711,
+      "reach": 2301,
       "shares": 0,
-      "saved": 36,
-      "likes": 90,
-      "comments": 3,
-      "total_interactions": 129,
-      "ig_reels_avg_watch_time": 12783,
-      "reels_skip_rate": 15.1
+      "saved": 41,
+      "likes": 115,
+      "comments": 5,
+      "total_interactions": 162,
+      "ig_reels_avg_watch_time": 13743,
+      "reels_skip_rate": 23.6
     },
-    "metrics_updated_at": "2026-10-08T15:08:45.221901+00:00",
-    "clicks_attr": 5.73
+    "metrics_updated_at": "2026-10-08T15:18:42.895953+00:00",
+    "clicks_attr": 5.79
   }
 ]
