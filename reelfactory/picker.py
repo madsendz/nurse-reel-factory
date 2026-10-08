@@ -28,7 +28,9 @@ def _sample(est: dict, key: str, prior: float, rng: random.Random) -> float:
 
 def pick_next(bank: list[dict], clips: list[dict], posts: list[dict], cfg: dict,
               now: datetime | None = None, rng: random.Random | None = None,
-              exclude_items: set[str] | None = None, post_type: str = "regular") -> dict:
+              exclude_items: set[str] | None = None, post_type: str = "regular",
+              topic_class: str | None = None) -> dict:
+    """topic_class: "winner" (proven past reel) or "new" — the daily mix asks for one or the other."""
     now = now or datetime.now(timezone.utc)
     rng = rng or random.Random()
     pc = cfg["picker"]
@@ -42,7 +44,14 @@ def pick_next(bank: list[dict], clips: list[dict], posts: list[dict], cfg: dict,
     recent_items = {p["item_id"] for p in history if p.get("posted_at") and parse_ts(p["posted_at"]) > cooldown}
     candidates = [i for i in bank if i.get("status", "active") == "active"
                   and i["id"] not in recent_items and i["id"] not in exclude_items]
+    if topic_class:
+        same = [i for i in candidates if topic_kind(i) == topic_class]
+        if same:
+            candidates = same
+        elif candidates:
+            print(f"[topics] no unused {topic_class} topics this week — using the other kind")
     if not candidates:  # everything is on cooldown: fall back to the least-recently posted
+        print("[topics] every topic was used in the last week — repeating the least recent one (add more topics!)")
         last_used = {p["item_id"]: p["posted_at"] for p in history}
         candidates = sorted([i for i in bank if i.get("status", "active") == "active" and i["id"] not in exclude_items],
                             key=lambda i: last_used.get(i["id"], ""))[:5]
@@ -87,6 +96,11 @@ def pick_next(bank: list[dict], clips: list[dict], posts: list[dict], cfg: dict,
 
     return {"item": item, "clip": clip, "cta": cta, "mode": mode,
             "alternatives": [i["id"] for _, i in ranked[1:4]]}
+
+
+def topic_kind(item: dict) -> str:
+    """'winner' = exact past reel that performed well; 'new' = never-posted idea."""
+    return "winner" if (item.get("id", "").startswith("pr-") or float(item.get("prior") or 0) >= 1) else "new"
 
 
 def clip_fit(item: dict, clip: dict) -> float:
