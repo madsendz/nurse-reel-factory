@@ -169,9 +169,80 @@ def sync_updates(cfg) -> None:
                         _tg("sendMessage", chat_id=m["chat"]["id"], reply_to_message_id=m["message_id"], text=note)
                 except Exception:
                     pass
+    _apply_dashboard_actions(cfg, q, by_id, st, fb)
     save_json(TG_STATE, st)
     save_json(FEEDBACK_PATH, fb)
     save_queue(q)
+    try:
+        from . import dashboard
+        dashboard.push(cfg, q)
+    except Exception as ex:
+        print(f"[dashboard] push failed: {ex}")
+
+
+REDO = {"swap_music": "new music", "new_clip": "same topic, new clip", "new_topic": "same clip, new topic"}
+
+
+def _apply_dashboard_actions(cfg, q, by_id, st, fb) -> None:
+    """Approve / skip / notes / redo / move / post-now clicked on the dashboard (via the relay)."""
+    relay = (cfg.get("approvals") or {}).get("relay_url")
+    if not relay:
+        return
+    import hashlib
+    try:
+        r = requests.get(relay.rstrip("/") + "/actions", params={"after": st.get("action_after", "")}, timeout=60,
+                         headers={"Authorization": "Bearer " + hashlib.sha256(_token().encode()).hexdigest()})
+        r.raise_for_status()
+        acts = r.json()
+    except Exception as ex:
+        print(f"[dashboard] couldn't read actions: {ex}")
+        return
+    now = datetime.now(timezone.utc)
+    tz = ZoneInfo(cfg.get("timezone", "America/New_York"))
+    for a in acts:
+        st["action_after"] = a["key"]
+        e = by_id.get(a.get("entry_id"))
+        kind = a.get("kind")
+        if not e or e.get("status") == "posted":
+            continue
+        print(f"[dashboard] {kind} on {e['slot_key']} ({e['item_id']})")
+        if kind in ("approve", "skip"):
+            e["status"] = "approved" if kind == "approve" else "skipped"
+            e["decided_at"] = now.isoformat()
+        elif kind == "note" and (a.get("text") or "").strip():
+            text = a["text"].strip()
+            e.setdefault("feedback", []).append(text)
+            fb.append({"at": now.isoformat(), "item_id": e["item_id"], "clip_id": e["clip_id"],
+                       "slot": e["slot_key"], "text": text, "via": "dashboard"})
+            e["status"] = "skipped"
+            e["decided_at"] = now.isoformat()
+            if not e.get("replaced_by") and datetime.fromisoformat(e["slot_iso"]) > now + timedelta(minutes=15):
+                e["needs_replacement"] = True
+        elif kind in REDO:
+            e["status"] = "skipped"
+            e["decided_at"] = now.isoformat()
+            e["redo"] = kind
+            if not e.get("replaced_by"):
+                e["needs_replacement"] = True
+        elif kind == "move" and a.get("slot_iso"):
+            dt = datetime.fromisoformat(a["slot_iso"]).astimezone(tz)
+            e["slot_iso"] = dt.astimezone(timezone.utc).isoformat()
+            e["slot_label"] = dt.strftime("%a %b %d, %-I:%M %p")
+            e["slot_key"] = f"{dt:%Y-%m-%d %H:%M} moved-{os.urandom(2).hex()}"
+            e["status"] = "pending"  # any change = approve again
+            e.pop("post_now", None)
+        elif kind == "post_now":
+            if e.get("status") == "approved":
+                e["post_now"] = True
+        else:
+            continue
+        cid = chat_id(cfg)
+        if cid and e.get("msg_id"):
+            try:
+                _tg("editMessageCaption", chat_id=cid, message_id=e["msg_id"], caption=_caption(e),
+                    reply_markup=_buttons(e["id"]))
+            except Exception:
+                pass
 
 
 def _caption(e: dict) -> str:
@@ -179,7 +250,8 @@ def _caption(e: dict) -> str:
               "posted": "📤 posted", "expired": "⌛ not approved in time",
               "missed": "⏭ not posted (another reel took this time slot)"}.get(e.get("status"), e.get("status"))
     if e.get("status") == "skipped" and (e.get("needs_replacement") or e.get("replaced_by")):
-        status += " (your notes) — replacement sent" if e.get("replaced_by") else " (your notes) — replacement coming"
+        why = REDO.get(e.get("redo"), "your notes")
+        status += f" ({why}) — new version sent" if e.get("replaced_by") else f" ({why}) — new version coming"
     if e.get("replaces"):
         status += "\n🔁 replacement"
     kind = "TRIAL reel" if e["post_type"] == "trial" else "Regular reel"
@@ -230,9 +302,9 @@ def make_queue(cfg, days_ahead: int = 1) -> int:
     return made
 
 
-def _queue_one(cfg, cid, dt, key, kind, bank, clips, hist, q, rng, out_dir, extra=False):
+def _queue_one(cfg, cid, dt, key, kind, bank, clips, hist, q, rng, out_dir, extra=False, choice=None):
     from .cli import _make
-    choice = pk.pick_next(bank, clips, hist, cfg, now=dt.astimezone(timezone.utc), rng=rng, post_type=kind)
+    choice = choice or pk.pick_next(bank, clips, hist, cfg, now=dt.astimezone(timezone.utc), rng=rng, post_type=kind)
     out, caption, meta = _make(cfg, choice, out_dir, key.replace(" ", "_").replace(":", ""))
     e = {"id": os.urandom(4).hex(), "slot_key": key, "slot_iso": dt.astimezone(timezone.utc).isoformat(),
          "slot_label": dt.strftime("%a %b %d, %-I:%M %p"), "post_type": kind,
@@ -244,6 +316,7 @@ def _queue_one(cfg, cid, dt, key, kind, bank, clips, hist, q, rng, out_dir, extr
         msg = _tg("sendVideo", files={"video": (out.name, f, "video/mp4")}, chat_id=cid, caption=_caption(e),
                   supports_streaming="true", reply_markup=_buttons(e["id"]))
     e["msg_id"] = msg["message_id"]
+    e["file_id"] = (msg.get("video") or msg.get("document") or {}).get("file_id")  # for the dashboard player
     q.append(e)
     hist.append({"item_id": e["item_id"], "category": e["category"], "clip_id": e["clip_id"], "posted_at": e["slot_iso"]})
     if extra:
@@ -281,8 +354,9 @@ def make_replacements(cfg) -> int:
     made = 0
     for e in todo:
         dt = datetime.fromisoformat(e["slot_iso"]).astimezone(tz)
+        choice = _redo_choice(cfg, e, bank, clips, hist, dt, rng)
         new = _queue_one(cfg, cid, dt, e["slot_key"], e["post_type"], bank, clips, hist, q, rng, OUT_DIR / "queue",
-                         extra=bool(e.get("extra")))
+                         extra=bool(e.get("extra")), choice=choice)
         new["replaces"] = e["id"]
         e["needs_replacement"] = False
         e["replaced_by"] = new["id"]
@@ -297,6 +371,33 @@ def make_replacements(cfg) -> int:
         made += 1
         print(f"[replace] {e['slot_key']}: {e['item_id']} on {e['clip_id']} -> {new['item_id']} on {new['clip_id']}")
     return made
+
+
+def _redo_choice(cfg, e, bank, clips, hist, dt, rng):
+    """None = normal fresh pick. Otherwise keep part of the old reel (dashboard redo buttons)."""
+    redo = e.get("redo")
+    if not redo:
+        return None
+    item = next((i for i in bank if i["id"] == e["item_id"]), None)
+    clip = next((c for c in clips if c["id"] == e["clip_id"]), None)
+    now = dt.astimezone(timezone.utc)
+    try:
+        if redo == "swap_music" and item and clip:
+            return {"item": item, "clip": clip, "cta": int(e.get("cta") or 0), "mode": e.get("mode", "redo"),
+                    "avoid_music": {(e.get("music") or {}).get("id")}}
+        if redo == "new_clip" and item:
+            others = [c for c in clips if c["id"] != e["clip_id"]]
+            ch = pk.pick_next([item], others, hist, cfg, now=now, rng=rng, post_type=e["post_type"])
+            ch["item"] = item
+            return ch
+        if redo == "new_topic" and clip:
+            ch = pk.pick_next(bank, [clip], hist, cfg, now=now, rng=rng, post_type=e["post_type"],
+                              exclude_items={e["item_id"]})
+            ch["clip"] = clip
+            return ch
+    except Exception as ex:
+        print(f"[redo] {redo} failed ({ex}); making a fresh pick instead")
+    return None
 
 
 def add_extras(cfg, spec: str) -> int:
@@ -339,6 +440,10 @@ def due_entries(cfg, now=None, grace_min: int = 120) -> list[dict]:
     now = now or datetime.now(timezone.utc)
     posted = {p.get("slot") for p in load_posts()}
     q = load_queue()
+    rush = [e for e in q if e.get("post_now") and e.get("status") == "approved" and e["slot_key"] not in posted]
+    if rush:  # "Post now" on the dashboard: skip the clock
+        print(f"[approvals] posting {rush[0]['slot_key']} now (dashboard)")
+        return [rush[0]]
     due = []
     for e in q:
         t = datetime.fromisoformat(e["slot_iso"])
