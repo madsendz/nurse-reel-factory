@@ -168,7 +168,26 @@ def _make(cfg, choice, out_dir: Path, tag: str):
     out = out_dir / f"{tag}_{item['id']}_{clip['id']}.mp4"
     meta = render_reel(item, clip, _clip_file(clip), out, cfg)
     caption = pk.build_caption(item, choice["cta"], cfg)
+    from . import music
+    if music.baked(cfg):  # royalty-free track mixed into the video (same track at post time as in Telegram)
+        track = choice.get("music")
+        if not track:
+            used = music.recent_ids(load_posts() + _queued(), 15)
+            track = music.pick_track(cfg, avoid=used)
+        if track and music.add_music(out, track, float(meta["seconds"]), cfg):
+            meta["music"] = track
+            c = music.credit(track)
+            if c:
+                caption = caption + "\n\n" + c
     return out, caption, meta
+
+
+def _queued() -> list[dict]:
+    try:
+        from .approve import load_queue
+        return [e for e in load_queue() if e.get("status") in ("pending", "approved")]
+    except Exception:
+        return []
 
 
 def cmd_post(cfg, args):
@@ -205,7 +224,8 @@ def _post_one(cfg, args, posts, now, slot, post_type, entry):
         if not item or not clip:
             print(f"[approvals] approved topic/clip no longer exists ({entry['item_id']}, {entry['clip_id']})")
             return
-        choice = {"item": item, "clip": clip, "cta": int(entry.get("cta") or 0), "mode": entry.get("mode", "approved")}
+        choice = {"item": item, "clip": clip, "cta": int(entry.get("cta") or 0), "mode": entry.get("mode", "approved"),
+                  "music": entry.get("music")}
     else:
         choice = pk.pick_next(load_bank(), load_clips(), posts, cfg, now, post_type=post_type)
     out, caption, meta = _make(cfg, choice, OUT_DIR, "post_" + slot.replace(" ", "_").replace(":", ""))
@@ -214,13 +234,18 @@ def _post_one(cfg, args, posts, now, slot, post_type, entry):
               "post_type": post_type, "category": choice["item"]["category"], "style": choice["item"].get("style"),
               "clip_id": choice["clip"]["id"], "cta": str(choice["cta"]), "mode": choice["mode"],
               "seconds": meta["seconds"], "caption": caption}
+    if meta.get("music"):
+        mu = meta["music"]
+        record.update({"music_id": mu["id"], "music_title": mu["title"], "music_creator": mu["creator"],
+                       "music_license": mu["license"]})
     if args.dry_run:
         print("Dry run — not publishing.\n\n" + caption)
         return
     from .instagram import Instagram, pick_audio
     ig = Instagram(cfg)
     strategy = cfg.get("trial", {}).get("graduation_strategy", "MANUAL") if post_type == "trial" else None
-    audio = pick_audio(ig, posts, cfg, random.Random())
+    from . import music
+    audio = None if music.baked(cfg) else pick_audio(ig, posts, cfg, random.Random())
     if audio:
         record.update({"audio_id": audio["audio_id"], "audio_title": audio.get("title"),
                        "audio_artist": audio.get("artist")})
