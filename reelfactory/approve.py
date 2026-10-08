@@ -201,8 +201,15 @@ def _apply_dashboard_actions(cfg, q, by_id, st, fb) -> None:
     tz = ZoneInfo(cfg.get("timezone", "America/New_York"))
     for a in acts:
         st["action_after"] = a["key"]
-        e = by_id.get(a.get("entry_id"))
         kind = a.get("kind")
+        if kind in ("topic_keep", "topic_toss") and a.get("item_id"):  # topic review on the dashboard
+            from .config import TOPIC_STATUS_PATH
+            ts = load_json(TOPIC_STATUS_PATH, {})
+            ts[a["item_id"]] = "active" if kind == "topic_keep" else "retired"
+            save_json(TOPIC_STATUS_PATH, ts)
+            print(f"[dashboard] topic {a['item_id']} -> {ts[a['item_id']]}")
+            continue
+        e = by_id.get(a.get("entry_id"))
         if not e or e.get("status") == "posted":
             continue
         print(f"[dashboard] {kind} on {e['slot_key']} ({e['item_id']})")
@@ -272,10 +279,11 @@ def _slot_list(cfg, day: datetime):
 def make_queue(cfg, days_ahead: int = 1) -> int:
     """Render tomorrow's reels and send them to Telegram for approval."""
     from .cli import _make
+    try:
+        sync_updates(cfg)  # pick up approvals and dashboard topic decisions first
+    except Exception as ex:
+        print(f"[telegram] sync failed: {ex}")
     cid = chat_id(cfg)
-    if not cid:
-        sync_updates(cfg)
-        cid = chat_id(cfg)
     if not cid:
         raise RuntimeError("Telegram chat not connected yet: open your bot in Telegram and press Start, then run again")
     tz = ZoneInfo(cfg.get("timezone", "America/New_York"))
@@ -290,10 +298,11 @@ def make_queue(cfg, days_ahead: int = 1) -> int:
     rng = random.Random()
     made = 0
     out_dir = OUT_DIR / "queue"
-    for dt, key, kind in _slot_list(cfg, datetime(day.year, day.month, day.day)):
-        if key in have or dt <= datetime.now(timezone.utc) + timedelta(minutes=10):
-            continue
-        e = _queue_one(cfg, cid, dt, key, kind, bank, clips, hist, q, rng, out_dir)
+    slots = [s for s in _slot_list(cfg, datetime(day.year, day.month, day.day))
+             if s[1] not in have and s[0] > datetime.now(timezone.utc) + timedelta(minutes=10)]
+    plan = _daily_mix(cfg, q, bank, day, len(slots), rng, tz)
+    for (dt, key, kind), cls in zip(slots, plan):
+        e = _queue_one(cfg, cid, dt, key, kind, bank, clips, hist, q, rng, out_dir, topic_class=cls)
         made += 1
         print(f"[queue] {key} {kind}: {e['item_id']} on {e['clip_id']} -> sent to Telegram")
     if made:
@@ -302,9 +311,32 @@ def make_queue(cfg, days_ahead: int = 1) -> int:
     return made
 
 
-def _queue_one(cfg, cid, dt, key, kind, bank, clips, hist, q, rng, out_dir, extra=False, choice=None):
+def _kind_of(bank, item_id) -> str:
+    it = next((i for i in bank if i["id"] == item_id), {"id": item_id})
+    return pk.topic_kind(it)
+
+
+def _daily_mix(cfg, q, bank, day, n, rng, tz) -> list[str]:
+    """Nick's rule: every day is a mix of proven winners and brand-new topics (half and half by
+    default, any slot). Counts reels already queued for that day, then shuffles the rest."""
+    mix = (cfg.get("picker") or {}).get("daily_mix") or {"winner": 3, "new": 3}
+    have = {"winner": 0, "new": 0}
+    for e in q:
+        if e.get("status") in ("pending", "approved", "posted") and \
+                datetime.fromisoformat(e["slot_iso"]).astimezone(tz).date() == day:
+            have[_kind_of(bank, e["item_id"])] += 1
+    want = [k for k in ("winner", "new") for _ in range(max(0, int(mix.get(k, 0)) - have[k]))]
+    rng.shuffle(want)
+    while len(want) < n:  # more slots than the mix covers: alternate
+        want.append("new" if want.count("winner") > want.count("new") else "winner")
+    return want[:n]
+
+
+def _queue_one(cfg, cid, dt, key, kind, bank, clips, hist, q, rng, out_dir, extra=False, choice=None,
+               topic_class=None):
     from .cli import _make
-    choice = choice or pk.pick_next(bank, clips, hist, cfg, now=dt.astimezone(timezone.utc), rng=rng, post_type=kind)
+    choice = choice or pk.pick_next(bank, clips, hist, cfg, now=dt.astimezone(timezone.utc), rng=rng, post_type=kind,
+                                    topic_class=topic_class)
     out, caption, meta = _make(cfg, choice, out_dir, key.replace(" ", "_").replace(":", ""))
     e = {"id": os.urandom(4).hex(), "slot_key": key, "slot_iso": dt.astimezone(timezone.utc).isoformat(),
          "slot_label": dt.strftime("%a %b %d, %-I:%M %p"), "post_type": kind,
@@ -356,7 +388,7 @@ def make_replacements(cfg) -> int:
         dt = datetime.fromisoformat(e["slot_iso"]).astimezone(tz)
         choice = _redo_choice(cfg, e, bank, clips, hist, dt, rng)
         new = _queue_one(cfg, cid, dt, e["slot_key"], e["post_type"], bank, clips, hist, q, rng, OUT_DIR / "queue",
-                         extra=bool(e.get("extra")), choice=choice)
+                         extra=bool(e.get("extra")), choice=choice, topic_class=_kind_of(bank, e["item_id"]))
         new["replaces"] = e["id"]
         e["needs_replacement"] = False
         e["replaced_by"] = new["id"]
@@ -392,7 +424,7 @@ def _redo_choice(cfg, e, bank, clips, hist, dt, rng):
             return ch
         if redo == "new_topic" and clip:
             ch = pk.pick_next(bank, [clip], hist, cfg, now=now, rng=rng, post_type=e["post_type"],
-                              exclude_items={e["item_id"]})
+                              exclude_items={e["item_id"]}, topic_class=_kind_of(bank, e["item_id"]))
             ch["clip"] = clip
             return ch
     except Exception as ex:
@@ -417,12 +449,15 @@ def add_extras(cfg, spec: str) -> int:
     bank, clips = load_bank(), load_clips()
     rng = random.Random()
     made = 0
-    for n, part in enumerate([p.strip() for p in spec.split(",") if p.strip()], 1):
+    parts = [p.strip() for p in spec.split(",") if p.strip()]
+    plan = _daily_mix(cfg, q, bank, today, len(parts), rng, tz)
+    for n, (part, cls) in enumerate(zip(parts, plan), 1):
         kind, _, hhmm = part.partition("@")
         hh, mm = map(int, hhmm.split(":"))
         dt = datetime(today.year, today.month, today.day, hh, mm, tzinfo=tz)
         key = f"{dt:%Y-%m-%d %H:%M} extra{n}-{os.urandom(2).hex()}"
-        _queue_one(cfg, cid, dt, key, kind.strip() or "regular", bank, clips, hist, q, rng, OUT_DIR / "queue", extra=True)
+        _queue_one(cfg, cid, dt, key, kind.strip() or "regular", bank, clips, hist, q, rng, OUT_DIR / "queue", extra=True,
+                   topic_class=cls)
         made += 1
     if made:
         _tg("sendMessage", chat_id=cid, text=f"👆 {made} extra test reel(s) for tonight. Approve the ones you want posted.")
