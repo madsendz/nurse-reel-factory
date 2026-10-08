@@ -30,7 +30,7 @@ def enabled(cfg) -> bool:
     return bool((cfg.get("approvals") or {}).get("enabled"))
 
 
-def _tg(method: str, files=None, **data):
+def _token() -> str:
     raw = os.environ.get("TELEGRAM_BOT_TOKEN") or ""
     import re
     m = re.search(r"\d{6,}:[A-Za-z0-9_-]{30,}", raw)  # tolerate spaces, line breaks or the whole BotFather message
@@ -39,6 +39,27 @@ def _tg(method: str, files=None, **data):
         raise RuntimeError("TELEGRAM_BOT_TOKEN secret is not set")
     if not m:
         print(f"[telegram] the saved token doesn't look like a bot token (length {len(raw)})")
+    return token
+
+
+def _get_updates(cfg, offset: int) -> list[dict]:
+    """Button taps + messages. With a relay (Cloudflare Worker that answers taps instantly),
+    read them from the relay; otherwise poll Telegram directly."""
+    relay = (cfg.get("approvals") or {}).get("relay_url")
+    if relay:
+        import hashlib
+        r = requests.get(relay.rstrip("/") + "/updates", params={"offset": offset}, timeout=60,
+                         headers={"Authorization": "Bearer " + hashlib.sha256(_token().encode()).hexdigest()})
+        r.raise_for_status()
+        return r.json()
+    return _tg("getUpdates", offset=offset, timeout=0, allowed_updates=["message", "callback_query"])
+
+
+APPROVE_WORDS = {"approve", "approved", "yes", "post", "post it", "ok", "good", "✅", "👍"}
+
+
+def _tg(method: str, files=None, **data):
+    token = _token()
     for k, v in list(data.items()):
         if isinstance(v, (dict, list)):
             data[k] = json.dumps(v)
@@ -79,7 +100,7 @@ def sync_updates(cfg) -> None:
     q = load_queue()
     by_id = {e["id"]: e for e in q}
     by_msg = {e.get("msg_id"): e for e in q if e.get("msg_id")}
-    updates = _tg("getUpdates", offset=st.get("offset", 0), timeout=0, allowed_updates=["message", "callback_query"])
+    updates = _get_updates(cfg, st.get("offset", 0))
     fb = load_json(FEEDBACK_PATH, [])
     for u in updates:
         st["offset"] = u["update_id"] + 1
@@ -110,7 +131,20 @@ def sync_updates(cfg) -> None:
                 print(f"[telegram] connected to chat {m['chat']['id']}")
             text = (m.get("text") or "").strip()
             reply = (m.get("reply_to_message") or {}).get("message_id")
-            if reply and reply in by_msg and text:
+            if reply and reply in by_msg and text.lower().strip(" .!") in APPROVE_WORDS:
+                e = by_msg[reply]  # "approve" as a reply = same as tapping ✅
+                if e.get("status") != "posted":
+                    e["status"] = "approved"
+                    e["decided_at"] = datetime.now(timezone.utc).isoformat()
+                    try:
+                        _tg("editMessageCaption", chat_id=m["chat"]["id"], message_id=e["msg_id"],
+                            caption=_caption(e), reply_markup=_buttons(e["id"]))
+                        if not (cfg.get("approvals") or {}).get("relay_url"):  # the relay already said so
+                            _tg("sendMessage", chat_id=m["chat"]["id"], reply_to_message_id=m["message_id"],
+                                text="Approved ✅ it will post at its time.")
+                    except Exception:
+                        pass
+            elif reply and reply in by_msg and text:
                 e = by_msg[reply]
                 e.setdefault("feedback", []).append(text)
                 fb.append({"at": datetime.now(timezone.utc).isoformat(), "item_id": e["item_id"],
