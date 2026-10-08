@@ -98,7 +98,7 @@ render:
 # --- Sound: trending audio from Instagram's music library (picked fresh for each reel) ---
 sound:
   enabled: true
-  type: music                  # music | original_sound
+  type: original_sound         # music | original_sound (business accounts often can't use licensed music)
   search: ""                   # optional keyword (e.g. "sexy", "chill"); empty = trending
   top_n: 10                    # pick randomly among the top N trending sounds
   avoid_last: 6                # don't reuse a sound from the last N reels
