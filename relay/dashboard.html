@@ -156,13 +156,28 @@ function render(){
   if(!S) return renderLogin();
   const g = grouped();
   const days = view==="week" ? [...Array(7)].map((_,i)=>addDays(weekStart(anchor),i)) : [anchor, addDays(anchor,1)];
-  const rangeText = view==="week" ? `${fmtDay(days[0])} – ${fmtDay(days[6])}` : `${fmtDay(days[0],true)}`;
+  const rangeText = view==="topics" ? "Topics" : view==="week" ? `${fmtDay(days[0])} – ${fmtDay(days[6])}` : `${fmtDay(days[0],true)}`;
   const gen = S.generated_at ? new Date(S.generated_at).toLocaleTimeString([], {hour:"numeric",minute:"2-digit"}) : "–";
   let html = `<header><div class="bar"><div class="brand"><span class="dot"></span>Lexi Reels</div>
-    <div class="seg"><button data-view="day" class="${view==="day"?"on":""}">Day</button><button data-view="week" class="${view==="week"?"on":""}">Week</button></div>
+    <div class="seg"><button data-view="day" class="${view==="day"?"on":""}">Day</button><button data-view="week" class="${view==="week"?"on":""}">Week</button><button data-view="topics" class="${view==="topics"?"on":""}">Topics${(S.topics?.review||[]).length?` (${S.topics.review.length})`:""}</button></div>
     <div class="nav"><button class="btn sm" data-nav="-1" aria-label="Back">‹</button><span class="range">${rangeText}</span><button class="btn sm" data-nav="1" aria-label="Forward">›</button><button class="btn sm" data-nav="0">Today</button></div>
     <span class="sync">Synced ${gen}</span></div></header><div class="wrap">`;
-  if(view==="week"){
+  if(view==="topics"){
+    const t=S.topics||{counts:{winner:{},new:{}},review:[]}, cw=t.counts.winner||{}, cn=t.counts.new||{};
+    html += `<h2 class="day">Topic pool</h2><div class="stats" style="margin-bottom:6px">
+      <div class="stat"><b>${cw.free??"–"} / ${cw.active??"–"}</b>Winners free this week</div>
+      <div class="stat"><b>${cn.free??"–"} / ${cn.active??"–"}</b>New topics free this week</div></div>
+      <p class="hint">Rules: every day is half winners, half new topics. A topic can't repeat within ${t.cooldown_days||7} days. You need about 21 of each to fill a full week without repeats.</p>
+      <h2 class="day">New topics to review (${t.review.length})</h2>`;
+    if(!t.review.length) html += `<div class="empty-day">Nothing to review right now.</div>`;
+    html += t.review.map(it=>`<article class="card" style="grid-template-columns:1fr"><div class="info">
+      <div class="row"><span class="tag">${esc(it.category||"")}</span><span class="hint">${esc(it.id)}</span></div>
+      <div class="title">${esc(it.hook)}</div>
+      ${(it.beats||[]).length?`<ol class="beats">${it.beats.map(b=>`<li>${esc(b)}</li>`).join("")}</ol>`:""}
+      ${it.caption?`<div class="hint">Caption: ${esc(it.caption)}</div>`:""}
+      <div class="actions"><button class="btn ok" data-topic="topic_keep" data-item="${esc(it.id)}">✅ Keep</button><button class="btn bad" data-topic="topic_toss" data-item="${esc(it.id)}">🗑 Toss</button></div>
+    </div></article>`).join("");
+  } else if(view==="week"){
     html += `<div class="week">` + days.map(d=>{
       const times = slotTimes(d,g);
       return `<div class="col ${d===todayKey()?"today":""}"><h3 data-goto="${d}">${fmtDay(d)} <span>open ›</span></h3>` + times.map(t=>{
@@ -255,6 +270,9 @@ document.addEventListener("click", async ev=>{
   if(b.dataset.view){ view=b.dataset.view; localStore("view",view); render(); return; }
   if(b.dataset.nav!==undefined){ const n=+b.dataset.nav; anchor = n===0? todayKey() : addDays(anchor, n*(view==="week"?7:1)); render(); return; }
   if(b.dataset.goto){ anchor=b.dataset.goto; view="day"; localStore("view",view); render(); const s=b.dataset.slot; if(s){ const el=document.getElementById(`slot-${anchor}-${s.replace(":","")}`); el && el.scrollIntoView({behavior:"smooth",block:"start"}); } return; }
+  if(b.dataset.topic){ if(busy) return; busy=true; b.disabled=true;
+    try{ await api("/api/action",{method:"POST",body:JSON.stringify({kind:b.dataset.topic,item_id:b.dataset.item})}); toast(b.dataset.topic==="topic_keep"?"Kept ✅ — it can be picked from now on":"Tossed"); await load(true); }
+    catch(e){ if(e.message!=="login") toast("Didn't work: "+e.message); } finally{ busy=false; } return; }
   if(b.dataset.act){ const kind=b.dataset.act, id=b.dataset.id; const body={entry_id:id, kind};
     if(kind==="note"){ const ta=document.querySelector(`textarea[data-note="${id}"]`); body.text=(ta&&ta.value||"").trim(); if(!body.text) return toast("Type your notes first."); }
     if(kind==="move"){ const sel=document.querySelector(`select[data-move="${id}"]`); let v=sel.value;
