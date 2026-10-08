@@ -54,7 +54,8 @@ scoring:
 picker:
   explore_rate: 0.25           # regular reels: share that test new / unproven topics
   trial_explore_rate: 0.60     # trial reels are for testing, so they try new topics more
-  topic_cooldown_days: 3       # don't repeat the same topic sooner than this (proven winners come back often)
+  topic_cooldown_days: 7       # Nick: never repeat a topic within 7 days
+  daily_mix: {winner: 3, new: 3}   # Nick: every day half proven winners, half brand-new topics (any slot)
   clip_cooldown_posts: 4       # don't reuse a clip within the last N posts
   max_same_category_in_row: 2
 
