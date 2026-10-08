@@ -4,10 +4,11 @@ name: Post reel
 # Slots (ET): 09:30 R, 11:00 T, 13:00 R, 16:00 T, 19:30 R, 21:30 T -> edit if you change post_times.
 on:
   schedule:
-    - cron: "30 13,14,23,0 * * *"     # 09:30 + 19:30 ET (regular)
-    - cron: "0 17,18 * * *"           # 13:00 ET (regular)
-    - cron: "0 15,16,20,21 * * *"     # 11:00 + 16:00 ET (trial)
-    - cron: "30 1,2 * * *"            # 21:30 ET (trial)
+    # GitHub often delays or drops runs at :00/:30, so each slot gets a check at +3 min and a backup at +18.
+    - cron: "33,48 13,14,23,0 * * *"  # 09:30 + 19:30 ET (regular)
+    - cron: "3,18 17,18 * * *"        # 13:00 ET (regular)
+    - cron: "3,18 15,16,20,21 * * *"  # 11:00 + 16:00 ET (trial)
+    - cron: "33,48 1,2 * * *"         # 21:30 ET (trial)
   workflow_dispatch:
     inputs:
       force:
