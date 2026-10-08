@@ -30,6 +30,20 @@ export default {
       await env.KV.put("state", await req.text());
       return new Response("ok");
     }
+    // trial reels must be posted from a public video URL (Meta ignores trial_params on resumable uploads)
+    if (p === "/media" && req.method === "POST") {
+      if (!bearer(req, c)) return no();
+      const key = [...crypto.getRandomValues(new Uint8Array(16))].map((x) => x.toString(16).padStart(2, "0")).join("");
+      await env.KV.put("m:" + key, await req.arrayBuffer(), { expirationTtl: 86400 });
+      return Response.json({ url: url.origin + "/m/" + key + ".mp4" });
+    }
+    if (p.startsWith("/m/")) {
+      const key = p.slice(3).replace(/\.mp4$/, "");
+      const v = await env.KV.get("m:" + key, "arrayBuffer");
+      if (!v) return new Response("not found", { status: 404 });
+      const h = { "content-type": "video/mp4", "content-length": String(v.byteLength), "cache-control": "no-store" };
+      return new Response(req.method === "HEAD" ? null : v, { headers: h });
+    }
     if (p === "/setup") {
       const r = await c.tg("setWebhook", { url: url.origin + "/tg", secret_token: c.secret, allowed_updates: ["message", "callback_query"] });
       return Response.json({ webhook_set: r.ok, info: r.description });
