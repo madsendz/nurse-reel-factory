@@ -50,20 +50,23 @@ def pick_track(cfg, avoid: set[str] | None = None, rng=None) -> dict | None:
 
 
 JAMENDO = "https://api.jamendo.com/v3.0/tracks/"
-DEFAULT_TAGS = ["lounge", "hiphop", "chillout", "rnb", "house", "electronic", "pop", "funk"]
+DEFAULT_TAGS = ["hiphop", "rnb", "pop", "electronic", "chillout", "lounge", "dance", "trap"]
 
 
 def _pick_jamendo(cfg, avoid: set[str], rng) -> dict | None:
     s = _settings(cfg)
     tags = list(s.get("jamendo_tags") or DEFAULT_TAGS)
     rng.shuffle(tags)
-    for tag in tags[:4]:
+    tries = [(t, "popularity_week", s.get("vocal", "instrumental")) for t in tags[:3]]
+    tries += [(t, "popularity_month", None) for t in tags[:3]]  # wider net if this week is thin
+    for tag, order, vocal in tries:
+        params = {"client_id": os.environ["JAMENDO_CLIENT_ID"], "format": "json", "limit": 30,
+                  "order": order, "tags": tag, "ccnc": "false", "ccnd": "false", "ccsa": "false",  # CC BY only
+                  "audioformat": "mp32", "include": "licenses"}
+        if vocal:
+            params["vocalinstrumental"] = vocal
         try:
-            r = requests.get(JAMENDO, headers=HEADERS, timeout=30, params={
-                "client_id": os.environ["JAMENDO_CLIENT_ID"], "format": "json", "limit": 30,
-                "order": "popularity_week", "tags": tag, "vocalinstrumental": s.get("vocal", "instrumental"),
-                "ccnc": "false", "ccnd": "false", "ccsa": "false",  # = CC BY only: ok for business use
-                "audioformat": "mp32", "include": "licenses"})
+            r = requests.get(JAMENDO, headers=HEADERS, timeout=30, params=params)
             body = r.json()
             res = body.get("results") or []
             if (body.get("headers") or {}).get("status") != "success":
@@ -73,7 +76,7 @@ def _pick_jamendo(cfg, avoid: set[str], rng) -> dict | None:
             continue
         ok = [t for t in res if t.get("audio") and f"jamendo-{t.get('id')}" not in avoid
               and (t.get("duration") or 0) >= 40]
-        print(f"[music] jamendo '{tag}' (popular this week): {len(res)} results, {len(ok)} usable")
+        print(f"[music] jamendo '{tag}' ({order}, {vocal or 'any'}): {len(res)} results, {len(ok)} usable")
         if not ok:
             continue
         t = rng.choice(ok[: s.get("top_n", 8)])
