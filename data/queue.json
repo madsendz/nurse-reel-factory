@@ -338,7 +338,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.46,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-20236",
       "title": "Ambiphonic",
@@ -353,7 +353,8 @@
     },
     "msg_id": 64,
     "file_id": "BAACAgEAAxkDAANAasfmUtuCm9pXrgYORtCin9oIjygAAsoHAAIGPkBGazngR6bd0FI9BA",
-    "replaces": "fed3cad4"
+    "replaces": "fed3cad4",
+    "decided_at": "2026-10-08T19:06:49.494564+00:00"
   },
   {
     "id": "7bd1f04a",
@@ -367,7 +368,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 6.83,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2026412",
       "title": "In For Future Bass",
@@ -382,7 +383,13 @@
     },
     "msg_id": 65,
     "file_id": "BAACAgEAAxkDAANBasfmca0EHX08ZLEo3E2ABQOM8zgAAssHAAIGPkBG6i1ICnOpNm49BA",
-    "replaces": "960028b4"
+    "replaces": "960028b4",
+    "feedback": [
+      "title text is too high."
+    ],
+    "decided_at": "2026-10-08T19:06:49.494564+00:00",
+    "needs_replacement": false,
+    "replaced_by": "9eb79340"
   },
   {
     "id": "3467a511",
@@ -396,7 +403,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 6.86,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1093615",
       "title": "Everybody On Your Block",
@@ -412,6 +419,36 @@
     "msg_id": 66,
     "file_id": "BAACAgEAAxkDAANCasfmjXBAq8YlJrstxvK_3ycZWMQAAs0HAAIGPkBGVF8QPWHJ3fI9BA",
     "extra": true,
-    "replaces": "f1f9190f"
+    "replaces": "f1f9190f",
+    "decided_at": "2026-10-08T19:06:49.494564+00:00"
+  },
+  {
+    "id": "9eb79340",
+    "slot_key": "2026-10-08 21:30",
+    "slot_iso": "2026-10-09T01:30:00+00:00",
+    "slot_label": "Thu Oct 08, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "pr-precum",
+    "category": "sex_ed",
+    "clip_id": "clip35",
+    "cta": 1,
+    "mode": "explore",
+    "seconds": 7.35,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1129271",
+      "title": "Energy",
+      "creator": "Pokki DJ",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1129271/mp32/",
+      "source": "jamendo",
+      "duration_ms": 230000,
+      "page": "https://www.jamendo.com/track/1129271",
+      "genre": "electronic"
+    },
+    "msg_id": 69,
+    "file_id": "BAACAgEAAxkDAANFasfqDFqWrx5cu49Zy1xPKOs3Z1wAAtQHAAIGPkBG-XGRf389XT89BA",
+    "replaces": "7bd1f04a"
   }
 ]
