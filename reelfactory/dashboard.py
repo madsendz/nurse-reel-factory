@@ -51,9 +51,28 @@ def build_state(cfg, q=None) -> dict:
         notes.setdefault(f.get("clip_id"), []).append({"at": f.get("at"), "text": f.get("text"),
                                                        "item_id": f.get("item_id")})
     notes = {k: v[-6:] for k, v in notes.items()}
+    # topics: the weekly no-repeat rule + the daily winners/new mix
+    from datetime import timedelta
+    from .picker import topic_kind
+    from .scoring import parse_ts
+    now = datetime.now(timezone.utc)
+    days = (cfg.get("picker") or {}).get("topic_cooldown_days", 7)
+    used = {p["item_id"] for p in posts if p.get("posted_at") and parse_ts(p["posted_at"]) > now - timedelta(days=days)}
+    used |= {e["item_id"] for e in q if e.get("status") in ("pending", "approved")}
+    counts = {"winner": {"active": 0, "free": 0}, "new": {"active": 0, "free": 0}}
+    review = []
+    for it in bank.values():
+        k = topic_kind(it)
+        if it.get("status", "active") == "active":
+            counts[k]["active"] += 1
+            counts[k]["free"] += it["id"] not in used
+        elif it.get("status") == "review" and it["id"].startswith("nw-"):
+            review.append({"id": it["id"], "hook": it.get("hook"), "beats": it.get("beats", []),
+                           "caption": it.get("caption"), "category": it.get("category")})
     return {"generated_at": datetime.now(timezone.utc).isoformat(), "timezone": cfg.get("timezone", "America/New_York"),
             "chat_id": chat_id(cfg), "schedule": [{"time": t, "type": k} for t, k in _slots(cfg)],
-            "entries": entries, "clip_notes": notes}
+            "entries": entries, "clip_notes": notes,
+            "topics": {"counts": counts, "cooldown_days": days, "review": review}}
 
 
 def push(cfg, q=None) -> None:
