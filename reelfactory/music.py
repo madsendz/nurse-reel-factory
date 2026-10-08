@@ -55,7 +55,9 @@ def pick_track(cfg, avoid: set[str] | None = None, rng=None) -> dict | None:
             print(f"[music] search '{genre}' failed: {ex}")
             continue
         ok = [t for t in res if t.get("url") and str(t.get("id")) not in avoid
-              and (t.get("duration") or 0) >= 20000 and (t.get("filetype") or "mp3") in ("mp3", "ogg", "wav", "m4a", "flac")]
+              and (t.get("duration") is None or t.get("duration") >= 15000)]
+        print(f"[music] '{genre}': {len(res)} results, {len(ok)} usable "
+              f"{[(t.get('filetype'), t.get('duration'), t.get('source')) for t in res[:3]]}")
         if not ok:
             continue
         t = rng.choice(ok[: s.get("top_n", 8)])  # results come ranked by relevance + popularity
