@@ -123,8 +123,10 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 7.85,
-    "status": "pending",
-    "msg_id": 36
+    "status": "posted",
+    "msg_id": 36,
+    "decided_at": "2026-10-08T14:31:39.449455+00:00",
+    "permalink": "https://www.instagram.com/reel/DePKCHaF3yP/"
   },
   {
     "id": "604f4fca",
@@ -138,8 +140,13 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 10.03,
-    "status": "pending",
-    "msg_id": 37
+    "status": "skipped",
+    "msg_id": 37,
+    "decided_at": "2026-10-08T14:31:43.057528+00:00",
+    "feedback": [
+      "skip this topic and send replacement."
+    ],
+    "needs_replacement": true
   },
   {
     "id": "ff040362",
@@ -153,8 +160,13 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 13.7,
-    "status": "pending",
-    "msg_id": 38
+    "status": "skipped",
+    "msg_id": 38,
+    "decided_at": "2026-10-08T14:31:42.600672+00:00",
+    "feedback": [
+      "the payoff text pops up way too soon. the final text box (in this case there is only 1) shouldn’t show up until 1-2 seconds from\nthe end of the video."
+    ],
+    "needs_replacement": true
   },
   {
     "id": "8cfa90b2",
@@ -168,8 +180,9 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 6.04,
-    "status": "pending",
-    "msg_id": 39
+    "status": "approved",
+    "msg_id": 39,
+    "decided_at": "2026-10-08T14:31:43.519627+00:00"
   },
   {
     "id": "7d781812",
@@ -183,8 +196,13 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 11.27,
-    "status": "pending",
-    "msg_id": 40
+    "status": "skipped",
+    "msg_id": 40,
+    "feedback": [
+      "this video is meant for 3 text box pop ups. 2 at the top after points, and one final reveal the bottom. only use topics that fit this layout."
+    ],
+    "decided_at": "2026-10-08T14:31:44.673698+00:00",
+    "needs_replacement": true
   },
   {
     "id": "61c67ff1",
@@ -198,7 +216,12 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 11.12,
-    "status": "pending",
-    "msg_id": 41
+    "status": "skipped",
+    "msg_id": 41,
+    "feedback": [
+      "the text timing of the first pop up is too late. it should happen when i point."
+    ],
+    "decided_at": "2026-10-08T14:31:45.252998+00:00",
+    "needs_replacement": true
   }
 ]
