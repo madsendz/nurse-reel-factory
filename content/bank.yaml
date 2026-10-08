@@ -882,3 +882,378 @@ items:
     - "About 1 in 200 baby boys, usually fixed in infancy"
   caption: "One of the more common birth differences in boys, and very treatable."
   status: review
+# ---- new topic ideas (2026-10-08) — keep or toss them on the dashboard ----
+- id: nw-clit-nerves
+  category: anatomy
+  style: stat_men
+  hook: most men don't know THIS about the cl*toris 🤯
+  beats:
+  - it has around 8,000 nerve endings (newer research says 10,000!)
+  - and most of it is INSIDE the body, not just the part you see
+  caption: the visible tip is only a small part of it. the rest extends inside the body, about 4 inches, which is why so much
+    more than "one spot" can feel good.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-orgasm-gap
+  category: sex_ed
+  style: what_they_dont_tell
+  hook: the "orgasm gap" is REAL 😳
+  beats:
+  - in one big study, 95% of straight men usually finished
+  - but only 65% of straight women did
+  - the fix? more cl*toral stimulation and more communication
+  caption: a 2018 study of over 52,000 adults found a big gap between men and women. talking about what feels good closes
+    it faster than anything.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-penetration-alone
+  category: sex_ed
+  style: stat_men
+  hook: most women CAN'T finish from this alone 👀
+  beats:
+  - penetration only
+  - just about 1 in 5 women can
+  - most need direct cl*toral stimulation
+  caption: in a national survey only about 18% of women said intercourse alone was enough. nothing is "wrong" with the other
+    80%, that's just how most bodies work.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-kegels-women
+  category: sexual_wellness
+  style: hack_steps
+  hook: this tiny exercise can make HER O's stronger 🔥
+  beats:
+  - kegels (squeeze like you're stopping pee)
+  - stronger pelvic floor muscles are linked to stronger orgasms
+  - hold 3 seconds, relax 3 seconds, 10 times a day
+  caption: the pelvic floor muscles are the ones that contract during an orgasm. training them is linked to better sensation
+    and better bladder control too.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-ed-heart
+  category: mens_health
+  style: what_they_dont_tell
+  hook: ED can be an early warning sign of THIS ❤️
+  beats:
+  - heart disease
+  - the arteries down there are smaller, so they can show problems first
+  - if it keeps happening, see a doctor
+  caption: erectile problems can show up years before heart symptoms because the blood vessels are smaller. it's worth a checkup,
+    not embarrassment.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-cardio-erections
+  category: mens_health
+  style: hack_steps
+  hook: the best NATURAL boost for erections 🏃
+  beats:
+  - regular cardio
+  - it improves blood flow everywhere (yes, there too)
+  - studies show exercise can improve ED
+  caption: around 40 minutes of moderate to vigorous exercise 4 times a week has been shown to help with erectile function.
+    your heart and your bedroom both win.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-smoking-ed
+  category: mens_health
+  style: what_they_dont_tell
+  hook: smoking does THIS to your 🍆
+  beats:
+  - damages the blood vessels it needs
+  - raises your risk of ED
+  - the good news? quitting can help it recover
+  caption: smoking narrows and damages blood vessels, and erections are all about blood flow. men who quit often see improvement.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-alcohol-ed
+  category: mens_health
+  style: here_why_she
+  hook: why too many drinks can ruin the night 🍺
+  beats:
+  - alcohol slows down your nervous system
+  - it can make it harder to get hard
+  - AND harder to finish
+  caption: a drink or two might lower nerves, but more than that slows the signals your body needs. it's not you, it's the
+    alcohol.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-shower-grower
+  category: mens_health
+  style: average_man_thinks
+  hook: '"shower" vs "grower" is REAL 🚿🌱'
+  beats:
+  - soft size doesn't predict hard size
+  - some grow a lot, some barely change
+  - both are completely normal
+  caption: research has found that flaccid length is a poor predictor of erect length. so comparing in the locker room tells
+    you almost nothing.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-heat-sperm
+  category: mens_health
+  style: what_they_dont_tell
+  hook: your laptop could be hurting your swimmers 😳
+  beats:
+  - sperm HATE heat
+  - that's why they're kept outside the body to stay cooler
+  - hot tubs and laptops on your lap can lower sperm count
+  caption: sperm production works best a few degrees below body temperature. the good news is it usually bounces back once
+    the heat stops.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-boxers-briefs
+  category: mens_health
+  style: stat_men
+  hook: boxers vs briefs actually MATTERS 🩲
+  beats:
+  - in a Harvard study, men in loose boxers had about 25% higher sperm concentration
+  - tight underwear keeps things too warm
+  caption: looser underwear keeps the temperature down, which is what sperm production needs. a small swap if you're trying
+    for a baby.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-sperm-five-days
+  category: sex_ed
+  style: what_they_dont_tell
+  hook: sperm can survive up to 5 days inside her 😱
+  beats:
+  - up to 5 days!
+  - so "safe days" aren't as safe as you think
+  caption: sperm can live up to 5 days in the reproductive tract, which is why s*x before ovulation can still lead to pregnancy.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-pee-after
+  category: sexual_wellness
+  style: here_why_she
+  hook: why she should ALWAYS pee after 🚽
+  beats:
+  - it helps flush out bacteria
+  - which can lower her risk of a UTI
+  caption: bacteria can get pushed toward the urethra during s*x. peeing afterward is a simple habit that can help prevent
+    infections.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-g-spot-where
+  category: anatomy
+  style: hack_steps
+  hook: where the G spot ACTUALLY is 📍
+  beats:
+  - about 2-3 inches inside
+  - on the front wall (toward the belly button)
+  - use a "come here" motion
+  caption: it's not a magic button and it feels different for everyone, but this is where most people find it. go slow and
+    ask what feels good.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-wet-not-arousal
+  category: sex_ed
+  style: average_man_thinks
+  hook: the average man thinks wet = turned on... not always 👀
+  beats:
+  - arousal and wetness don't always match
+  - it's called arousal non-concordance
+  - lube isn't a sign anything is wrong
+  caption: her body and her mind don't always line up, and that's normal. lube just makes things more comfortable for both
+    of you.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-condom-break
+  category: sex_ed
+  style: here_why_she
+  hook: the real reasons condoms break 😬
+  beats:
+  - 1. the wrong size
+  - 2. not enough lube
+  - 3. using oil-based lube with latex
+  caption: oil breaks down latex fast. use water or silicone based lube and a condom that actually fits.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-hpv-common
+  category: sex_ed
+  style: what_they_dont_tell
+  hook: almost every s*xually active person will get THIS 😳
+  beats:
+  - HPV
+  - most infections clear on their own
+  - the vaccine protects against the risky types
+  caption: the CDC says nearly all s*xually active people who aren't vaccinated will get HPV at some point. the vaccine is
+    the best protection.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-sti-no-symptoms
+  category: sex_ed
+  style: what_they_dont_tell
+  hook: many STIs show NO symptoms 👀
+  beats:
+  - chlamydia often has no symptoms at all
+  - you can feel totally fine and still pass it on
+  - testing is the only way to know
+  caption: no symptoms doesn't mean no infection. regular testing is just part of taking care of yourself and your partner.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-t-morning
+  category: mens_health
+  style: stat_men
+  hook: your testosterone is highest at THIS time ⏰
+  beats:
+  - in the morning!
+  - it peaks early and drops through the day
+  caption: testosterone follows a daily rhythm, highest in the early morning. that's part of why mornings can feel... different
+    😏
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-sleep-t
+  category: mens_health
+  style: what_they_dont_tell
+  hook: skipping sleep does THIS to your testosterone 😴
+  beats:
+  - one week of 5-hour nights
+  - lowered testosterone by 10-15% in a study
+  - sleep is free testosterone
+  caption: a study of young healthy men found that just one week of short sleep dropped their testosterone 10-15%. protect
+    your sleep.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-oxytocin
+  category: sexual_wellness
+  style: what_they_dont_tell
+  hook: why you feel SO close after 🥰
+  beats:
+  - oxytocin, the "bonding hormone"
+  - it's released during touch and intimacy
+  - that's why cuddling after matters
+  caption: oxytocin rises with touch, kissing and intimacy, and it helps people feel connected. don't skip the aftercare.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-kissing
+  category: sexual_wellness
+  style: secret_list
+  hook: 3 things kissing does to your body 💋
+  beats:
+  - 3. raises your heart rate
+  - 2. releases feel-good chemicals
+  - 1. helps you tell if the chemistry is there
+  caption: a kiss is basically a chemistry test. your brain picks up a lot more than you think.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-headache-myth
+  category: health_bait
+  style: what_they_dont_tell
+  hook: '"not tonight, I have a headache"? 🤕'
+  beats:
+  - for some people, s*x can actually ease migraines
+  - about 60% felt relief in one study
+  caption: in one study, about 60% of people with migraines said s*x during an attack helped. not everyone, but it's not a
+    myth.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-calories
+  category: health_bait
+  style: average_stat
+  hook: how many calories s*x actually burns 🔥
+  beats:
+  - about 4 per minute for men
+  - about 3 per minute for women
+  - so around 100 in a 25 minute session
+  caption: a study measured it and found about 100 calories for men and about 70 for women in an average session. not a gym
+    replacement, but not nothing 😂
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-once-a-week
+  category: sex_ed
+  style: average_man_thinks
+  hook: couples who do it more than THIS aren't any happier 👀
+  beats:
+  - once a week
+  - happiness levels off after once a week
+  - quality beats quantity
+  caption: a study of over 30,000 people found happiness rose with frequency up to about once a week, then leveled off.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-vibrators
+  category: sexual_wellness
+  style: stat_men
+  hook: over HALF of women have used THIS 🤫
+  beats:
+  - a vibrator
+  - about 53% in a US study
+  - it's not competition, it's a tool
+  caption: a national study found about half of women had used one. most said it helped, not hurt, their s*x life with a partner.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-faked-it
+  category: sex_ed
+  style: average_man_thinks
+  hook: most women have done THIS at least once 🎭
+  beats:
+  - faked it
+  - more than half say they have
+  - usually to end it or to protect his feelings
+  caption: surveys keep finding that more than half of women have faked it at some point. honest communication beats guessing.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-snuggling-bait
+  category: health_bait
+  style: bait_reveal
+  hook: health benefits of S*******G 😍
+  beats:
+  - 1. S*******g lowers your stress hormones.
+  - 2. S*******g releases oxytocin and helps you bond.
+  - 3. S*******g can even help you fall asleep faster.
+  - 4. If you are not following me, I know what you thought after reading this ;)
+  caption: give me a follow if you didn't realize this post was about….. SNUGGLING 🥰😄
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-prostate-21
+  category: mens_health
+  style: stat_men
+  hook: doing THIS often may lower prostate cancer risk 👀
+  beats:
+  - finishing 21+ times a month
+  - was linked to lower prostate cancer risk
+  - in a Harvard study of 30,000 men
+  caption: men who ejaculated 21 or more times a month had a lower risk of prostate cancer than men who did 4 to 7 times.
+    doctor's orders? 😏
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
+- id: nw-wet-dreams
+  category: mens_health
+  style: average_man_thinks
+  hook: the average man thinks THIS stops after puberty 😴
+  beats:
+  - wet dreams
+  - adult men can still have them
+  - it's a normal way the body releases semen
+  caption: nocturnal emissions can happen at any age, especially after a while without ejaculating. totally normal.
+  prior: 0
+  source: written by Claude 2026-10-08 (review)
+  status: review
