@@ -3,6 +3,7 @@
 paused: false            # true = never post
 # Approve each reel in Telegram before it posts (the evening before). Unapproved reels never post.
 approvals:
+  relay_url: "https://lexi-reels-relay.mrsendzik.workers.dev"
   enabled: true
   telegram_chat_id: ""   # filled in automatically after you press Start in your bot
 timezone: America/New_York
