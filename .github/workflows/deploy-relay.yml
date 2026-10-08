@@ -1,0 +1,62 @@
+name: Deploy Telegram relay (instant buttons)
+# One-time setup (re-run any time): deploys relay/worker.js to Cloudflare, gives it the
+# bot token, points Telegram at it, and saves its URL in config.yaml.
+# Needs secret CF_WORKERS_TOKEN (Cloudflare API token, "Edit Cloudflare Workers" template).
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reel-state
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CF_WORKERS_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - name: Deploy worker
+        run: |
+          set -e
+          API="https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID"
+          AUTH="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
+          NS=$(curl -s -H "$AUTH" "$API/storage/kv/namespaces?per_page=100" | python3 -c "import json,sys;print(next((n['id'] for n in json.load(sys.stdin)['result'] if n['title']=='lexi-reels-relay'),''))")
+          if [ -z "$NS" ]; then
+            NS=$(curl -s -H "$AUTH" -H "Content-Type: application/json" -X POST "$API/storage/kv/namespaces" -d '{"title":"lexi-reels-relay"}' | python3 -c "import json,sys;print(json.load(sys.stdin)['result']['id'])")
+          fi
+          cd relay
+          printf 'name = "lexi-reels-relay"\nmain = "worker.js"\ncompatibility_date = "2025-01-01"\nworkers_dev = true\n\n[[kv_namespaces]]\nbinding = "KV"\nid = "%s"\n' "$NS" > wrangler.toml
+          npx -y wrangler@3 deploy
+          python3 -c "import os,re;t=os.environ['TELEGRAM_BOT_TOKEN'];m=re.search(r'\d{6,}:[A-Za-z0-9_-]{30,}',t);print(m.group(0) if m else t.strip())" | npx -y wrangler@3 secret put BOT_TOKEN
+          SUB=$(curl -s -H "$AUTH" "$API/workers/subdomain" | python3 -c "import json,sys;print(json.load(sys.stdin)['result']['subdomain'])")
+          URL="https://lexi-reels-relay.$SUB.workers.dev"
+          echo "URL=$URL" >> "$GITHUB_ENV"
+          sleep 10
+          for i in 1 2 3 4 5 6; do R=$(curl -s "$URL/setup"); echo "$R"; echo "$R" | grep -q '"webhook_set":true' && break; sleep 10; done
+          echo "$R" | grep -q '"webhook_set":true'
+      - name: Save relay URL in config.yaml
+        run: |
+          python3 - <<'PY'
+          import os, re
+          p = "config.yaml"; s = open(p).read(); url = os.environ["URL"]
+          if "relay_url:" in s:
+              s = re.sub(r'relay_url:.*', f'relay_url: "{url}"', s)
+          else:
+              s = s.replace("approvals:\n", f'approvals:\n  relay_url: "{url}"\n', 1)
+          open(p, "w").write(s)
+          PY
+          grep -n -A3 "approvals:" config.yaml
+          git config user.name "reel-bot"; git config user.email "reel-bot@users.noreply.github.com"
+          git add config.yaml
+          git diff --cached --quiet && exit 0
+          git commit -m "bot: telegram relay url"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
