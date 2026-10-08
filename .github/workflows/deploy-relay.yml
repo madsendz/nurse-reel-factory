@@ -2,6 +2,8 @@ name: Deploy Telegram relay (instant buttons)
 # One-time setup (re-run any time): deploys relay/worker.js to Cloudflare, gives it the
 # bot token, points Telegram at it, and saves its URL in config.yaml.
 # Needs secret CF_WORKERS_TOKEN (Cloudflare API token, "Edit Cloudflare Workers" template).
+# Dashboard: secrets DASH_PASSWORD (your login) and GH_DISPATCH_TOKEN (lets it start the post /
+# replacement jobs on time: fine-grained token, this repo only, Actions = Read and write).
 on:
   workflow_dispatch:
 
@@ -20,6 +22,8 @@ jobs:
       CLOUDFLARE_API_TOKEN: ${{ secrets.CF_WORKERS_TOKEN }}
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      DASH_PASSWORD: ${{ secrets.DASH_PASSWORD }}
+      GH_DISPATCH_TOKEN: ${{ secrets.GH_DISPATCH_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -34,9 +38,32 @@ jobs:
             NS=$(curl -s -H "$AUTH" -H "Content-Type: application/json" -X POST "$API/storage/kv/namespaces" -d '{"title":"lexi-reels-relay"}' | python3 -c "import json,sys;print(json.load(sys.stdin)['result']['id'])")
           fi
           cd relay
-          printf 'name = "lexi-reels-relay"\nmain = "worker.js"\ncompatibility_date = "2025-01-01"\nworkers_dev = true\n\n[[kv_namespaces]]\nbinding = "KV"\nid = "%s"\n' "$NS" > wrangler.toml
+          cat > wrangler.toml <<EOF
+          name = "lexi-reels-relay"
+          main = "worker.js"
+          compatibility_date = "2025-01-01"
+          workers_dev = true
+
+          [vars]
+          GH_REPO = "${{ github.repository }}"
+
+          [triggers]
+          crons = ["*/5 * * * *"]
+
+          [[rules]]
+          type = "Text"
+          globs = ["**/*.html"]
+          fallthrough = true
+
+          [[kv_namespaces]]
+          binding = "KV"
+          id = "$NS"
+          EOF
+          sed -i 's/^          //' wrangler.toml
           npx -y wrangler@3 deploy
           python3 -c "import os,re;t=os.environ['TELEGRAM_BOT_TOKEN'];m=re.search(r'\d{6,}:[A-Za-z0-9_-]{30,}',t);print(m.group(0) if m else t.strip())" | npx -y wrangler@3 secret put BOT_TOKEN
+          if [ -n "$DASH_PASSWORD" ]; then printf '%s' "$DASH_PASSWORD" | npx -y wrangler@3 secret put DASH_PASSWORD; else echo "::warning::DASH_PASSWORD secret not set — dashboard login disabled"; fi
+          if [ -n "$GH_DISPATCH_TOKEN" ]; then printf '%s' "$GH_DISPATCH_TOKEN" | npx -y wrangler@3 secret put GH_TOKEN; else echo "::warning::GH_DISPATCH_TOKEN not set — dashboard can't start jobs"; fi
           SUB=$(curl -s -H "$AUTH" "$API/workers/subdomain" | python3 -c "import json,sys;print(json.load(sys.stdin)['result']['subdomain'])")
           URL="https://lexi-reels-relay.$SUB.workers.dev"
           echo "URL=$URL" >> "$GITHUB_ENV"
