@@ -274,5 +274,33 @@
     "status": "pending",
     "msg_id": 53,
     "replaces": "61c67ff1"
+  },
+  {
+    "id": "f1f9190f",
+    "slot_key": "2026-10-08 22:30 extra1-35c3",
+    "slot_iso": "2026-10-09T02:30:00+00:00",
+    "slot_label": "Thu Oct 08, 10:30 PM",
+    "post_type": "trial",
+    "item_id": "pr-a-spot",
+    "category": "anatomy",
+    "clip_id": "clip61",
+    "cta": 2,
+    "mode": "exploit",
+    "seconds": 12.35,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1182292",
+      "title": "Spasm",
+      "creator": "Suedey",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1182292/mp32/",
+      "source": "jamendo",
+      "duration_ms": 208000,
+      "page": "https://www.jamendo.com/track/1182292",
+      "genre": "hiphop"
+    },
+    "msg_id": 60,
+    "extra": true
   }
 ]
