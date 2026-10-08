@@ -70,9 +70,11 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 8.21,
-    "status": "pending",
+    "status": "posted",
     "msg_id": 15,
-    "extra": true
+    "extra": true,
+    "decided_at": "2026-10-08T02:51:32.217048+00:00",
+    "permalink": "https://www.instagram.com/reel/DeN6oh_CjOO/"
   },
   {
     "id": "6a8b3fd3",
@@ -86,9 +88,11 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 6.48,
-    "status": "pending",
+    "status": "posted",
     "msg_id": 20,
-    "replaces": "35cf752a"
+    "replaces": "35cf752a",
+    "decided_at": "2026-10-08T02:51:28.321185+00:00",
+    "permalink": "https://www.instagram.com/reel/DeN6eNpiudz/"
   },
   {
     "id": "bf10865c",
