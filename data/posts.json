@@ -19,8 +19,8 @@
     "timestamp": "2026-10-08T02:58:18+0000",
     "posted_at": "2026-10-08T02:58:18+00:00",
     "metrics": {},
-    "metrics_updated_at": "2026-10-08T20:01:11.748873+00:00",
-    "clicks_attr": 19.89
+    "metrics_updated_at": "2026-10-08T23:31:28.688023+00:00",
+    "clicks_attr": 21.57
   },
   {
     "id": "d052e07c2d",
@@ -42,18 +42,18 @@
     "timestamp": "2026-10-08T02:59:44+0000",
     "posted_at": "2026-10-08T02:59:44+00:00",
     "metrics": {
-      "views": 121868,
-      "reach": 56477,
-      "shares": 13,
-      "saved": 136,
-      "likes": 340,
+      "views": 147314,
+      "reach": 68950,
+      "shares": 16,
+      "saved": 149,
+      "likes": 383,
       "comments": 13,
-      "total_interactions": 522,
-      "ig_reels_avg_watch_time": 11764,
-      "reels_skip_rate": 25.4
+      "total_interactions": 585,
+      "ig_reels_avg_watch_time": 11847,
+      "reels_skip_rate": 25.6
     },
-    "metrics_updated_at": "2026-10-08T20:01:11.748873+00:00",
-    "clicks_attr": 336.39
+    "metrics_updated_at": "2026-10-08T23:31:28.688023+00:00",
+    "clicks_attr": 370.75
   },
   {
     "id": "0c828d52a3",
@@ -75,8 +75,8 @@
     "timestamp": "2026-10-08T14:33:26+0000",
     "posted_at": "2026-10-08T14:33:26+00:00",
     "metrics": {},
-    "metrics_updated_at": "2026-10-08T20:01:11.748873+00:00",
-    "clicks_attr": 13.73
+    "metrics_updated_at": "2026-10-08T23:31:28.688023+00:00",
+    "clicks_attr": 17.39
   },
   {
     "id": "fd2c59a302",
@@ -97,6 +97,40 @@
     "ig_media_id": "18178630588443805",
     "permalink": "https://www.instagram.com/reel/DePvtBrk7eA/",
     "timestamp": "2026-10-08T20:02:38+0000",
-    "posted_at": "2026-10-08T20:02:38+00:00"
+    "posted_at": "2026-10-08T20:02:38+00:00",
+    "metrics": {
+      "views": 37922,
+      "reach": 19257,
+      "shares": 7,
+      "saved": 18,
+      "likes": 106,
+      "comments": 3,
+      "total_interactions": 136,
+      "ig_reels_avg_watch_time": 7688,
+      "reels_skip_rate": 26.7
+    },
+    "metrics_updated_at": "2026-10-08T23:31:28.688023+00:00",
+    "clicks_attr": 80.29
+  },
+  {
+    "id": "719f52ac3d",
+    "slot": "2026-10-08 19:30",
+    "item_id": "pr-average-size",
+    "post_type": "regular",
+    "category": "mens_health",
+    "style": "average_stat",
+    "clip_id": "clip63",
+    "cta": "1",
+    "mode": "exploit",
+    "seconds": 9.46,
+    "caption": "the average 🍆 size in the United States is...\n\n✔️ 3.5-5.2 inches! (9-13cm)\n✔️ are you above average?\n\nare you below average, average, or above average? let me know in the comments 🤭\n\nThe full lesson is in my bio 💉\n\n#nurselexi #sexualhealth #nursetok #healthfacts #menshealth #mensfacts\n\n🎵 Ambiphonic by Zeropage (CC BY 3.0)",
+    "music_id": "jamendo-20236",
+    "music_title": "Ambiphonic",
+    "music_creator": "Zeropage",
+    "music_license": "by",
+    "ig_media_id": "18117577531784172",
+    "permalink": "https://www.instagram.com/reel/DeQHxDaDK8E/",
+    "timestamp": "2026-10-08T23:32:59+0000",
+    "posted_at": "2026-10-08T23:32:59+00:00"
   }
 ]

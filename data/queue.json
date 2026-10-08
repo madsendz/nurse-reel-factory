@@ -339,7 +339,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.46,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-20236",
       "title": "Ambiphonic",
@@ -355,7 +355,8 @@
     "msg_id": 64,
     "file_id": "BAACAgEAAxkDAANAasfmUtuCm9pXrgYORtCin9oIjygAAsoHAAIGPkBGazngR6bd0FI9BA",
     "replaces": "fed3cad4",
-    "decided_at": "2026-10-08T19:06:49.494564+00:00"
+    "decided_at": "2026-10-08T19:06:49.494564+00:00",
+    "permalink": "https://www.instagram.com/reel/DeQHxDaDK8E/"
   },
   {
     "id": "7bd1f04a",
