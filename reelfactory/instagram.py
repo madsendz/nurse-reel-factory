@@ -105,9 +105,8 @@ class Instagram:
         params = {"media_type": "REELS", "upload_type": "resumable", "caption": caption,
                   "share_to_feed": "true" if self.share_to_feed else "false"}
         if audio:  # music from Instagram's library (e.g. a trending sound)
-            params["audio_configuration"] = json.dumps({
-                "audio_id": audio["audio_id"], "audio_volume": audio.get("audio_volume", 100),
-                "video_volume": audio.get("video_volume", 0)})
+            # only the sound id: custom volume values seemed to leave the reel silent
+            params["audio_configuration"] = json.dumps({"audio_id": str(audio["audio_id"])})
         if trial_strategy:  # trial reel: shown to non-followers first
             params["trial_params"] = json.dumps({"graduation_strategy": trial_strategy})
         if thumb_offset_ms is not None:
