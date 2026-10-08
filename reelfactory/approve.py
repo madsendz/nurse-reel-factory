@@ -183,7 +183,8 @@ def _caption(e: dict) -> str:
     if e.get("replaces"):
         status += "\n🔁 replacement"
     kind = "TRIAL reel" if e["post_type"] == "trial" else "Regular reel"
-    return (f"{e['slot_label']} · {kind}\n{e['item_id']} on {e['clip_id']}\nStatus: {status}\n\n"
+    mu = f"\n🎵 {e['music']['title']} — {e['music']['creator']}" if e.get("music") else ""
+    return (f"{e['slot_label']} · {kind}\n{e['item_id']} on {e['clip_id']}{mu}\nStatus: {status}\n\n"
             "Tap ✅ to post it or ❌ to skip. Reply to this video with any notes (text placement, timing).")
 
 
@@ -237,6 +238,8 @@ def _queue_one(cfg, cid, dt, key, kind, bank, clips, hist, q, rng, out_dir, extr
          "slot_label": dt.strftime("%a %b %d, %-I:%M %p"), "post_type": kind,
          "item_id": choice["item"]["id"], "category": choice["item"]["category"], "clip_id": choice["clip"]["id"],
          "cta": choice["cta"], "mode": choice["mode"], "seconds": meta["seconds"], "status": "pending"}
+    if meta.get("music"):  # keep the same track for posting
+        e["music"] = meta["music"]
     with open(out, "rb") as f:
         msg = _tg("sendVideo", files={"video": (out.name, f, "video/mp4")}, chat_id=cid, caption=_caption(e),
                   supports_streaming="true", reply_markup=_buttons(e["id"]))
