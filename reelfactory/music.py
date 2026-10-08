@@ -6,6 +6,7 @@ best-ranked results, skipping tracks used recently.
 """
 from __future__ import annotations
 
+import os
 import random
 import subprocess
 from pathlib import Path
@@ -39,6 +40,54 @@ def recent_ids(items: list[dict], n: int = 15) -> set[str]:
 
 
 def pick_track(cfg, avoid: set[str] | None = None, rng=None) -> dict | None:
+    """Jamendo's most-played-this-week tracks when a JAMENDO_CLIENT_ID is set; else Openverse."""
+    rng = rng or random.Random()
+    if os.environ.get("JAMENDO_CLIENT_ID"):
+        t = _pick_jamendo(cfg, avoid or set(), rng)
+        if t:
+            return t
+    return _pick_openverse(cfg, avoid, rng)
+
+
+JAMENDO = "https://api.jamendo.com/v3.0/tracks/"
+DEFAULT_TAGS = ["lounge", "hiphop", "chillout", "rnb", "house", "electronic", "pop", "funk"]
+
+
+def _pick_jamendo(cfg, avoid: set[str], rng) -> dict | None:
+    s = _settings(cfg)
+    tags = list(s.get("jamendo_tags") or DEFAULT_TAGS)
+    rng.shuffle(tags)
+    for tag in tags[:4]:
+        try:
+            r = requests.get(JAMENDO, headers=HEADERS, timeout=30, params={
+                "client_id": os.environ["JAMENDO_CLIENT_ID"], "format": "json", "limit": 30,
+                "order": "popularity_week", "tags": tag, "vocalinstrumental": s.get("vocal", "instrumental"),
+                "ccnc": "false", "ccnd": "false", "ccsa": "false",  # = CC BY only: ok for business use
+                "audioformat": "mp32", "include": "licenses"})
+            body = r.json()
+            res = body.get("results") or []
+            if (body.get("headers") or {}).get("status") != "success":
+                print(f"[music] jamendo: {str((body.get('headers') or {}).get('error_message'))[:120]}")
+        except Exception as ex:
+            print(f"[music] jamendo '{tag}' failed: {ex}")
+            continue
+        ok = [t for t in res if t.get("audio") and f"jamendo-{t.get('id')}" not in avoid
+              and (t.get("duration") or 0) >= 40]
+        print(f"[music] jamendo '{tag}' (popular this week): {len(res)} results, {len(ok)} usable")
+        if not ok:
+            continue
+        t = rng.choice(ok[: s.get("top_n", 8)])
+        lic = (t.get("license_ccurl") or "").rstrip("/").split("/")
+        ver = lic[-1] if len(lic) >= 2 else ""
+        print(f"[music] {tag}: {t.get('name')} by {t.get('artist_name')} (CC BY {ver}, jamendo)")
+        return {"id": f"jamendo-{t['id']}", "title": t.get("name") or "untitled", "creator": t.get("artist_name") or "unknown",
+                "license": "by", "license_version": ver, "url": t.get("audiodownload") or t["audio"],
+                "source": "jamendo", "duration_ms": int(t.get("duration") or 0) * 1000,
+                "page": t.get("shareurl"), "genre": tag}
+    return None
+
+
+def _pick_openverse(cfg, avoid: set[str] | None = None, rng=None) -> dict | None:
     s = _settings(cfg)
     rng = rng or random.Random()
     genres = list(s.get("genres") or DEFAULT_GENRES)
@@ -58,7 +107,7 @@ def pick_track(cfg, avoid: set[str] | None = None, rng=None) -> dict | None:
             if res:
                 break
         ok = [t for t in res if t.get("url") and str(t.get("id")) not in avoid
-              and (t.get("duration") is None or t.get("duration") >= 15000)]
+              and (t.get("duration") or 0) >= 45000 and t.get("source") in ("jamendo", "ccmixter")]
         print(f"[music] '{genre}': {len(res)} results, {len(ok)} usable "
               f"{[(t.get('filetype'), t.get('duration'), t.get('source')) for t in res[:3]]}")
         if not ok:
