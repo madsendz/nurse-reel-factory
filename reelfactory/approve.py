@@ -165,7 +165,8 @@ def sync_updates(cfg) -> None:
                     except Exception as ex:
                         print(f"[telegram] couldn't update message: {ex}")
                 try:
-                    _tg("sendMessage", chat_id=m["chat"]["id"], reply_to_message_id=m["message_id"], text=note)
+                    if not (cfg.get("approvals") or {}).get("relay_url"):  # the relay already answered
+                        _tg("sendMessage", chat_id=m["chat"]["id"], reply_to_message_id=m["message_id"], text=note)
                 except Exception:
                     pass
     save_json(TG_STATE, st)
