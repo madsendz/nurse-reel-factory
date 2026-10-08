@@ -27,6 +27,13 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12", cache: pip }
       - run: pip install -q -r requirements.txt
+      - name: Telegram check
+        run: |
+          python - <<'PY'
+          from reelfactory.approve import _tg
+          me = _tg("getMe"); w = _tg("getWebhookInfo")
+          print("bot:", me.get("username"), "| webhook:", w.get("url") or "none", "| pending:", w.get("pending_update_count"), "| last error:", w.get("last_error_message"))
+          PY
       - name: Read Telegram replies
         id: check
         run: |
