@@ -142,9 +142,10 @@
     "seconds": 10.03,
     "status": "skipped",
     "msg_id": 37,
-    "decided_at": "2026-10-08T14:31:43.057528+00:00",
+    "decided_at": "2026-10-08T19:03:31.432063+00:00",
     "feedback": [
-      "skip this topic and send replacement."
+      "skip this topic and send replacement.",
+      "dont use this topic"
     ],
     "needs_replacement": false
   },
