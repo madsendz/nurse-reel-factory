@@ -101,9 +101,14 @@ class Instagram:
         return data
 
     def publish_reel(self, video: Path, caption: str, thumb_offset_ms: int | None = None,
-                     trial_strategy: str | None = None, audio: dict | None = None) -> dict:
-        params = {"media_type": "REELS", "upload_type": "resumable", "caption": caption,
+                     trial_strategy: str | None = None, audio: dict | None = None,
+                     video_url: str | None = None) -> dict:
+        params = {"media_type": "REELS", "caption": caption,
                   "share_to_feed": "true" if self.share_to_feed else "false"}
+        if video_url:  # standard upload (needed for trial reels: Meta ignores trial_params on resumable uploads)
+            params["video_url"] = video_url
+        else:
+            params["upload_type"] = "resumable"
         if audio:  # music from Instagram's library (e.g. a trending sound)
             # only the sound id: custom volume values seemed to leave the reel silent
             params["audio_configuration"] = json.dumps({"audio_id": str(audio["audio_id"])})
@@ -114,11 +119,12 @@ class Instagram:
         container = self.post(f"{self.user_id}/media", **params)
         cid = container["id"]
 
-        size = video.stat().st_size
-        with open(video, "rb") as f:
-            r = requests.post(f"{RUPLOAD}/{self.version}/{cid}", data=f, timeout=600, headers={
-                "Authorization": f"OAuth {self.token}", "offset": "0", "file_size": str(size)})
-        self._check(r)
+        if not video_url:
+            size = video.stat().st_size
+            with open(video, "rb") as f:
+                r = requests.post(f"{RUPLOAD}/{self.version}/{cid}", data=f, timeout=600, headers={
+                    "Authorization": f"OAuth {self.token}", "offset": "0", "file_size": str(size)})
+            self._check(r)
 
         # Wait for Meta to process the video (up to ~10 min)
         status = None
