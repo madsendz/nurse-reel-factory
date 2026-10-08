@@ -11,8 +11,14 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 8.88,
-    "status": "pending",
-    "msg_id": 3
+    "status": "skipped",
+    "msg_id": 3,
+    "feedback": [
+      "Intercourse Hack isn’t really a title text, it’s more of a subtitle. It doesn’t stand alone on its own if that makes sense. This one would be better if intercourse hack was smaller white text, highlighted black and you added a different title called “3 steps on how to give her a nipple-gasm”\nTHEN make steps 1 and 2 pop up at the top when i point, step 3 should show under the title when i point towards the middle/bottom of screen."
+    ],
+    "decided_at": "2026-10-07T23:59:35.012988+00:00",
+    "needs_replacement": false,
+    "replaced_by": "6a8b3fd3"
   },
   {
     "id": "f90a8391",
@@ -26,9 +32,15 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 10.03,
-    "status": "pending",
+    "status": "skipped",
     "msg_id": 13,
-    "extra": true
+    "extra": true,
+    "feedback": [
+      "the payoff text placement and timing for this video should be 1 text box in the top left after point upwards followed by 2nd text box under the title when i point towards the bottom."
+    ],
+    "decided_at": "2026-10-07T23:59:36.220465+00:00",
+    "needs_replacement": false,
+    "replaced_by": "bf10865c"
   },
   {
     "id": "e0c36790",
@@ -61,5 +73,38 @@
     "status": "pending",
     "msg_id": 15,
     "extra": true
+  },
+  {
+    "id": "6a8b3fd3",
+    "slot_key": "2026-10-07 21:30",
+    "slot_iso": "2026-10-08T01:30:00+00:00",
+    "slot_label": "Wed Oct 07, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "pr-avg-man-normal",
+    "category": "sex_ed",
+    "clip_id": "clip54",
+    "cta": 0,
+    "mode": "explore",
+    "seconds": 6.48,
+    "status": "pending",
+    "msg_id": 20,
+    "replaces": "35cf752a"
+  },
+  {
+    "id": "bf10865c",
+    "slot_key": "2026-10-07 20:30 extra1-b13a",
+    "slot_iso": "2026-10-08T00:30:00+00:00",
+    "slot_label": "Wed Oct 07, 8:30 PM",
+    "post_type": "regular",
+    "item_id": "pr-frequency-age",
+    "category": "sexual_wellness",
+    "clip_id": "clip19",
+    "cta": 2,
+    "mode": "explore",
+    "seconds": 9.57,
+    "status": "pending",
+    "msg_id": 21,
+    "extra": true,
+    "replaces": "f90a8391"
   }
 ]
