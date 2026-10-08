@@ -45,15 +45,18 @@ def pick_track(cfg, avoid: set[str] | None = None, rng=None) -> dict | None:
     rng.shuffle(genres)
     avoid = avoid or set()
     for genre in genres[:4]:
-        try:
-            r = requests.get(API, headers=HEADERS, timeout=30, params={
-                "q": genre, "license": s.get("licenses", "cc0,by"), "category": "music",
-                "page_size": 20, "mature": "false"})
-            r.raise_for_status()
-            res = r.json().get("results", [])
-        except Exception as ex:
-            print(f"[music] search '{genre}' failed: {ex}")
-            continue
+        res = []
+        for params in ({"q": genre, "license": s.get("licenses", "cc0,by"), "category": "music", "page_size": 20},
+                       {"q": genre, "license": s.get("licenses", "cc0,by"), "page_size": 20}):
+            try:
+                r = requests.get(API, headers=HEADERS, timeout=30, params=params)
+                body = r.json() if r.headers.get("content-type", "").startswith("application/json") else {}
+                print(f"[music] openverse {r.status_code} count={body.get('result_count')} {str(body.get('detail') or '')[:120]}")
+                res = body.get("results", []) or []
+            except Exception as ex:
+                print(f"[music] search '{genre}' failed: {ex}")
+            if res:
+                break
         ok = [t for t in res if t.get("url") and str(t.get("id")) not in avoid
               and (t.get("duration") is None or t.get("duration") >= 15000)]
         print(f"[music] '{genre}': {len(res)} results, {len(ok)} usable "
