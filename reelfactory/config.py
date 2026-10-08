@@ -57,8 +57,16 @@ def load_config() -> dict:
     return cfg
 
 
+TOPIC_STATUS_PATH = ROOT / "data" / "topic_status.json"
+
+
 def load_bank() -> list[dict]:
-    return load_yaml(BANK_PATH, {"items": []}).get("items", [])
+    items = load_yaml(BANK_PATH, {"items": []}).get("items", [])
+    over = load_json(TOPIC_STATUS_PATH, {})  # keep / toss decisions made on the dashboard
+    for i in items:
+        if i.get("id") in over:
+            i["status"] = over[i["id"]]
+    return items
 
 
 def save_bank(items: list[dict]) -> None:
