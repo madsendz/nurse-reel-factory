@@ -251,15 +251,19 @@ def _post_one(cfg, args, posts, now, slot, post_type, entry):
                        "audio_artist": audio.get("artist")})
         print(f"[sound] {audio.get('title')} - {audio.get('artist')}")
     thumb = int(meta["stages"][-1] * 1000) + 500
+    video_url = _host_video(cfg, out) if strategy else None
+    if strategy and not video_url:
+        raise SystemExit("[trial] couldn't host the video for a trial upload — not posting it as a regular reel")
     try:
-        res = ig.publish_reel(out, caption, thumb_offset_ms=thumb, trial_strategy=strategy, audio=audio)
+        res = ig.publish_reel(out, caption, thumb_offset_ms=thumb, trial_strategy=strategy, audio=audio,
+                              video_url=video_url)
     except Exception as e:
         if not audio:
             raise
         print(f"[sound] posting with the sound failed ({e}); posting with the clip's own audio instead")
         for k in ("audio_id", "audio_title", "audio_artist"):
             record.pop(k, None)
-        res = ig.publish_reel(out, caption, thumb_offset_ms=thumb, trial_strategy=strategy)
+        res = ig.publish_reel(out, caption, thumb_offset_ms=thumb, trial_strategy=strategy, video_url=video_url)
     record.update(res)
     record["posted_at"] = (res.get("timestamp") or now.isoformat()).replace("+0000", "+00:00")
     posts.append(record)
@@ -270,6 +274,27 @@ def _post_one(cfg, args, posts, now, slot, post_type, entry):
     msg = f"Posted {post_type} reel **{record['item_id']}** on {record['clip_id']} ({record['mode']}) → {record.get('permalink')}"
     print(msg)
     _summary(msg)
+
+
+def _host_video(cfg, path) -> str | None:
+    """Put the reel on the relay for a day so Instagram can fetch it by URL (trial reels need this)."""
+    relay = (cfg.get("approvals") or {}).get("relay_url")
+    if not relay:
+        return None
+    import hashlib
+    import requests
+    from .approve import _token
+    try:
+        r = requests.post(relay.rstrip("/") + "/media", data=open(path, "rb").read(), timeout=120,
+                          headers={"Authorization": "Bearer " + hashlib.sha256(_token().encode()).hexdigest(),
+                                   "content-type": "video/mp4"})
+        r.raise_for_status()
+        u = r.json()["url"]
+        print("[trial] video hosted for upload")
+        return u
+    except Exception as ex:
+        print(f"[trial] hosting failed: {ex}")
+        return None
 
 
 def cmd_preview(cfg, args):
