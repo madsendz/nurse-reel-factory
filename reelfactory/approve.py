@@ -337,7 +337,7 @@ def _queue_one(cfg, cid, dt, key, kind, bank, clips, hist, q, rng, out_dir, extr
     from .cli import _make
     choice = choice or pk.pick_next(bank, clips, hist, cfg, now=dt.astimezone(timezone.utc), rng=rng, post_type=kind,
                                     topic_class=topic_class)
-    out, caption, meta = _make(cfg, choice, out_dir, key.replace(" ", "_").replace(":", ""))
+    out, caption, meta = _make(cfg, choice, out_dir, key.replace(" ", "_").replace(":", ""), kind)
     e = {"id": os.urandom(4).hex(), "slot_key": key, "slot_iso": dt.astimezone(timezone.utc).isoformat(),
          "slot_label": dt.strftime("%a %b %d, %-I:%M %p"), "post_type": kind,
          "item_id": choice["item"]["id"], "category": choice["item"]["category"], "clip_id": choice["clip"]["id"],
