@@ -269,12 +269,21 @@ def _post_one(cfg, args, posts, now, slot, post_type, entry):
         res = ig.publish_reel(out, caption, thumb_offset_ms=thumb, trial_strategy=strategy, video_url=video_url)
     record.update(res)
     record["posted_at"] = (res.get("timestamp") or now.isoformat()).replace("+0000", "+00:00")
+    from . import facebook
+    if facebook.enabled(cfg) and (post_type != "trial" or (cfg.get("facebook") or {}).get("trials", True)):
+        try:  # same reel + caption on the Facebook Page (Instagram API posts never share to Facebook on their own)
+            record.update(facebook.publish_reel(out, caption, cfg))
+            print(f"[facebook] cross-posted → {record.get('fb_permalink')}")
+        except Exception as ex:  # never let Facebook block the Instagram post
+            print(f"[facebook] cross-post FAILED: {ex}")
     posts.append(record)
     save_posts(posts)
     if entry:
         from . import approve
         approve.mark(slot, "posted", record.get("permalink"), cfg)
     msg = f"Posted {post_type} reel **{record['item_id']}** on {record['clip_id']} ({record['mode']}) → {record.get('permalink')}"
+    if record.get("fb_permalink"):
+        msg += f"  · Facebook: {record['fb_permalink']}"
     print(msg)
     _summary(msg)
 
