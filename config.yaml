@@ -125,6 +125,13 @@ caption:
     sex_ed: ["#sexed", "#sexeducation"]
     anatomy: ["#anatomy", "#medicalfacts"]
   max_hashtags: 6
+  # Nick: every TRIAL reel's caption starts with one of these "follow me if..." lines (edit/add freely)
+  trial_openers:
+    - "follow me if you want more nurse-approved facts like this 🩺"
+    - "follow me if nobody taught you this in school 📚"
+    - "follow me if you'd rather hear it from a nurse than from the internet 💉"
+    - "follow me if you want the facts your doctor doesn't have time for 🩺"
+    - "follow me if you learned something new today ✅"
 
 # --- Optional: Claude writes new topic ideas based on your winners ---
 ideas:
