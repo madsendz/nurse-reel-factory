@@ -650,7 +650,7 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 9.77,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1405870",
       "title": "808 BASS BEAT",
@@ -665,7 +665,13 @@
     },
     "msg_id": 79,
     "file_id": "BAACAgEAAxkDAANPashbRWV7jKDOuJRT1rKfttLJX60AAosIAAIGPkBG3Fh0sxHECmw9BA",
-    "replaces": "64732e32"
+    "replaces": "64732e32",
+    "feedback": [
+      "this is perfect EXCEPT the emojis are showing up like a box with an X through it"
+    ],
+    "decided_at": "2026-10-09T03:14:28.339959+00:00",
+    "needs_replacement": false,
+    "replaced_by": "9e98b54c"
   },
   {
     "id": "8279f099",
@@ -695,5 +701,34 @@
     "msg_id": 82,
     "file_id": "BAACAgEAAxkDAANSashb_BXTwoZu0EJX2InmGnTPz8cAAo0IAAIGPkBG0QH069-eu6s9BA",
     "replaces": "c07ba94b"
+  },
+  {
+    "id": "9e98b54c",
+    "slot_key": "2026-10-09 11:00",
+    "slot_iso": "2026-10-09T15:00:00+00:00",
+    "slot_label": "Fri Oct 09, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "pr-size-by-country",
+    "category": "mens_health",
+    "clip_id": "clip66",
+    "cta": 0,
+    "mode": "explore",
+    "seconds": 6.83,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2037702",
+      "title": "Nostalgia Drive (Lofi Hip-hop)",
+      "creator": "Moonwalk",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2037702/mp32/",
+      "source": "jamendo",
+      "duration_ms": 294000,
+      "page": "https://www.jamendo.com/track/2037702",
+      "genre": "lounge"
+    },
+    "msg_id": 84,
+    "file_id": "BAACAgEAAxkDAANUashcRXZvILaAAcZWWNcbO1YG2wADkAgAAgY-QEbdez7Hb94rHT0E",
+    "replaces": "13f626c4"
   }
 ]
