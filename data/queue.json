@@ -788,7 +788,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 8.39,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1871345",
       "title": "TP4",
@@ -803,7 +803,13 @@
     },
     "msg_id": 92,
     "file_id": "BAACAgEAAxkDAANcashd0xpX8wb0wE1KiZT69X7hbsYAApcIAAIGPkBGL_yR9fHlZr89BA",
-    "replaces": "9e98b54c"
+    "replaces": "9e98b54c",
+    "feedback": [
+      "text should not show up above the title. make 1-4 show up from top to bottom in a vertical alignment"
+    ],
+    "decided_at": "2026-10-09T03:27:14.417755+00:00",
+    "needs_replacement": false,
+    "replaced_by": "3737664d"
   },
   {
     "id": "d312c7fc",
@@ -833,5 +839,34 @@
     "msg_id": 96,
     "file_id": "BAACAgEAAxkDAANgasheopb9dJpbczF9T4g8f-f2TYAAApsIAAIGPkBGrpGWX-h-X6w9BA",
     "replaces": "3a9de931"
+  },
+  {
+    "id": "3737664d",
+    "slot_key": "2026-10-09 11:00",
+    "slot_iso": "2026-10-09T15:00:00+00:00",
+    "slot_label": "Fri Oct 09, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "pr-bigger-positions",
+    "category": "sexual_wellness",
+    "clip_id": "clip66",
+    "cta": 0,
+    "mode": "explore",
+    "seconds": 6.83,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1961617",
+      "title": "Memoirs",
+      "creator": "John Vanick",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1961617/mp32/",
+      "source": "jamendo",
+      "duration_ms": 341000,
+      "page": "https://www.jamendo.com/track/1961617",
+      "genre": "dance"
+    },
+    "msg_id": 99,
+    "file_id": "BAACAgEAAxkDAANjashfUegwax9wh7rlPHjpDxWjaLcAAp0IAAIGPkBGJLP4v6RppSs9BA",
+    "replaces": "38be7a98"
   }
 ]

@@ -124,5 +124,13 @@
     "slot": "2026-10-09 11:00",
     "text": "title text too close to face, plus emoji doing weird box with X thing.",
     "via": "dashboard"
+  },
+  {
+    "at": "2026-10-09T03:27:14.417755+00:00",
+    "item_id": "pr-mood-killer-foods",
+    "clip_id": "clip28",
+    "slot": "2026-10-09 11:00",
+    "text": "text should not show up above the title. make 1-4 show up from top to bottom in a vertical alignment",
+    "via": "dashboard"
   }
 ]
