@@ -162,12 +162,12 @@ def _due_slot(cfg, posts, now_utc):
     return key, kind
 
 
-def _make(cfg, choice, out_dir: Path, tag: str):
+def _make(cfg, choice, out_dir: Path, tag: str, post_type: str = "regular"):
     from .render import render_reel
     item, clip = choice["item"], choice["clip"]
     out = out_dir / f"{tag}_{item['id']}_{clip['id']}.mp4"
     meta = render_reel(item, clip, _clip_file(clip), out, cfg)
-    caption = pk.build_caption(item, choice["cta"], cfg)
+    caption = pk.build_caption(item, choice["cta"], cfg, post_type)
     from . import music
     if music.baked(cfg):  # royalty-free track mixed into the video (same track at post time as in Telegram)
         track = choice.get("music")
@@ -228,7 +228,7 @@ def _post_one(cfg, args, posts, now, slot, post_type, entry):
                   "music": entry.get("music")}
     else:
         choice = pk.pick_next(load_bank(), load_clips(), posts, cfg, now, post_type=post_type)
-    out, caption, meta = _make(cfg, choice, OUT_DIR, "post_" + slot.replace(" ", "_").replace(":", ""))
+    out, caption, meta = _make(cfg, choice, OUT_DIR, "post_" + slot.replace(" ", "_").replace(":", ""), post_type)
     print(f"[{post_type}] Picked {choice['item']['id']} on {choice['clip']['id']} ({choice['mode']}); rendered {meta['seconds']}s")
     record = {"id": uuid.uuid4().hex[:10], "slot": slot, "item_id": choice["item"]["id"],
               "post_type": post_type, "category": choice["item"]["category"], "style": choice["item"].get("style"),
@@ -250,7 +250,10 @@ def _post_one(cfg, args, posts, now, slot, post_type, entry):
         record.update({"audio_id": audio["audio_id"], "audio_title": audio.get("title"),
                        "audio_artist": audio.get("artist")})
         print(f"[sound] {audio.get('title')} - {audio.get('artist')}")
-    thumb = int(meta["stages"][-1] * 1000) + 500
+    # Nick: the cover photo shows the title only (before the first fact box pops up), never the last fully revealed frame
+    stages = meta["stages"]
+    cover_s = min(stages[1] * 0.5, 1.5) if len(stages) > 1 else 0.6
+    thumb = int(max(cover_s, 0.2) * 1000)
     video_url = _host_video(cfg, out) if strategy else None
     if strategy and not video_url:
         raise SystemExit("[trial] couldn't host the video for a trial upload — not posting it as a regular reel")
