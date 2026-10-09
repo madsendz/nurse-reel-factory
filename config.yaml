@@ -33,6 +33,13 @@ instagram:
   ig_user_id: ""         # set during setup (also can come from IG_USER_ID secret)
   share_to_feed: true
 
+# --- Facebook: also post every reel to the Lexi Love Page (reels posted through the Instagram API
+# never share to Facebook on their own). Needs secrets FB_PAGE_ID + FB_PAGE_TOKEN. A Facebook failure
+# is logged and never blocks the Instagram post.
+facebook:
+  crosspost: true
+  trials: true   # false = only regular reels go to Facebook
+
 # --- Link click tracking (Cloudflare Web Analytics) ---
 clicks:
   host: nurselexi.com
