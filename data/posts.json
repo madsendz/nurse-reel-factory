@@ -19,8 +19,8 @@
     "timestamp": "2026-10-08T02:58:18+0000",
     "posted_at": "2026-10-08T02:58:18+00:00",
     "metrics": {},
-    "metrics_updated_at": "2026-10-08T23:31:28.688023+00:00",
-    "clicks_attr": 21.57
+    "metrics_updated_at": "2026-10-09T01:30:43.874279+00:00",
+    "clicks_attr": 22.33
   },
   {
     "id": "d052e07c2d",
@@ -42,18 +42,18 @@
     "timestamp": "2026-10-08T02:59:44+0000",
     "posted_at": "2026-10-08T02:59:44+00:00",
     "metrics": {
-      "views": 147314,
-      "reach": 68950,
+      "views": 149455,
+      "reach": 70215,
       "shares": 16,
-      "saved": 149,
-      "likes": 383,
+      "saved": 153,
+      "likes": 388,
       "comments": 13,
-      "total_interactions": 585,
-      "ig_reels_avg_watch_time": 11847,
+      "total_interactions": 595,
+      "ig_reels_avg_watch_time": 11841,
       "reels_skip_rate": 25.6
     },
-    "metrics_updated_at": "2026-10-08T23:31:28.688023+00:00",
-    "clicks_attr": 370.75
+    "metrics_updated_at": "2026-10-09T01:30:43.874279+00:00",
+    "clicks_attr": 384.25
   },
   {
     "id": "0c828d52a3",
@@ -75,8 +75,8 @@
     "timestamp": "2026-10-08T14:33:26+0000",
     "posted_at": "2026-10-08T14:33:26+00:00",
     "metrics": {},
-    "metrics_updated_at": "2026-10-08T23:31:28.688023+00:00",
-    "clicks_attr": 17.39
+    "metrics_updated_at": "2026-10-09T01:30:43.874279+00:00",
+    "clicks_attr": 18.9
   },
   {
     "id": "fd2c59a302",
@@ -99,18 +99,18 @@
     "timestamp": "2026-10-08T20:02:38+0000",
     "posted_at": "2026-10-08T20:02:38+00:00",
     "metrics": {
-      "views": 37922,
-      "reach": 19257,
-      "shares": 7,
-      "saved": 18,
-      "likes": 106,
+      "views": 55234,
+      "reach": 26805,
+      "shares": 11,
+      "saved": 22,
+      "likes": 147,
       "comments": 3,
-      "total_interactions": 136,
-      "ig_reels_avg_watch_time": 7688,
-      "reels_skip_rate": 26.7
+      "total_interactions": 186,
+      "ig_reels_avg_watch_time": 7993,
+      "reels_skip_rate": 25
     },
-    "metrics_updated_at": "2026-10-08T23:31:28.688023+00:00",
-    "clicks_attr": 80.29
+    "metrics_updated_at": "2026-10-09T01:30:43.874279+00:00",
+    "clicks_attr": 116.07
   },
   {
     "id": "719f52ac3d",
@@ -131,6 +131,40 @@
     "ig_media_id": "18117577531784172",
     "permalink": "https://www.instagram.com/reel/DeQHxDaDK8E/",
     "timestamp": "2026-10-08T23:32:59+0000",
-    "posted_at": "2026-10-08T23:32:59+00:00"
+    "posted_at": "2026-10-08T23:32:59+00:00",
+    "metrics": {
+      "views": 20624,
+      "reach": 8553,
+      "shares": 0,
+      "saved": 30,
+      "likes": 124,
+      "comments": 36,
+      "total_interactions": 193,
+      "ig_reels_avg_watch_time": 8898,
+      "reels_skip_rate": 20.1
+    },
+    "metrics_updated_at": "2026-10-09T01:30:43.874279+00:00",
+    "clicks_attr": 38.46
+  },
+  {
+    "id": "77aff04658",
+    "slot": "2026-10-08 21:30",
+    "item_id": "pr-precum",
+    "post_type": "trial",
+    "category": "sex_ed",
+    "style": "average_man_thinks",
+    "clip_id": "clip35",
+    "cta": "1",
+    "mode": "explore",
+    "seconds": 7.35,
+    "caption": "the average man thinks THIS can't get her pregnant 👀\n\n✔️ pre-ejaculate doesn't always contain sperm\n✔️ but it CAN\n✔️ which means pregnancy is still possible without finishing\n\npre-ejaculate doesn't always contain sperm, but it can, which means pregnancy is still possible even without ejaculation.\n\nThe full lesson is in my bio 💉\n\n#nurselexi #sexualhealth #nursetok #healthfacts #sexed #sexeducation\n\n🎵 Energy by Pokki DJ (CC BY 3.0)",
+    "music_id": "jamendo-1129271",
+    "music_title": "Energy",
+    "music_creator": "Pokki DJ",
+    "music_license": "by",
+    "ig_media_id": "18114727628088695",
+    "permalink": "https://www.instagram.com/reel/DeQVaYkDwQw/",
+    "timestamp": "2026-10-09T01:31:59+0000",
+    "posted_at": "2026-10-09T01:31:59+00:00"
   }
 ]
