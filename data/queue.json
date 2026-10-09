@@ -685,7 +685,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 10.03,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2173154",
       "title": "Coffee Lounge",
@@ -700,7 +700,13 @@
     },
     "msg_id": 82,
     "file_id": "BAACAgEAAxkDAANSashb_BXTwoZu0EJX2InmGnTPz8cAAo0IAAIGPkBG0QH069-eu6s9BA",
-    "replaces": "c07ba94b"
+    "replaces": "c07ba94b",
+    "feedback": [
+      "3 and 4 shouldnt pop up before the title. there is a missed \"point\" in the beginning. title can be \"ways to avoid \"planmting the seed\". then when i point up, the text should maybe say **ranked by how well they work. then the rest 1-4 can pop at the bottom on the second point"
+    ],
+    "decided_at": "2026-10-09T03:16:31.105816+00:00",
+    "needs_replacement": false,
+    "replaced_by": "a174c25b"
   },
   {
     "id": "9e98b54c",
@@ -730,5 +736,34 @@
     "msg_id": 84,
     "file_id": "BAACAgEAAxkDAANUashcRXZvILaAAcZWWNcbO1YG2wADkAgAAgY-QEbdez7Hb94rHT0E",
     "replaces": "13f626c4"
+  },
+  {
+    "id": "a174c25b",
+    "slot_key": "2026-10-09 16:00",
+    "slot_iso": "2026-10-09T20:00:00+00:00",
+    "slot_label": "Fri Oct 09, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "pr-fasting-bait",
+    "category": "health_bait",
+    "clip_id": "clip45",
+    "cta": 0,
+    "mode": "explore",
+    "seconds": 11.12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-384173",
+      "title": "Mind drifting back (Leaving paradise)",
+      "creator": "K4MMERER",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/384173/mp32/",
+      "source": "jamendo",
+      "duration_ms": 312000,
+      "page": "https://www.jamendo.com/track/384173",
+      "genre": "lounge"
+    },
+    "msg_id": 87,
+    "file_id": "BAACAgEAAxkDAANXashc0JOgY7Rt-Lefirnug7noAAGwAAKTCAACBj5ARho6YXgfsaqcPQQ",
+    "replaces": "8279f099"
   }
 ]
