@@ -19,8 +19,8 @@
     "timestamp": "2026-10-08T02:58:18+0000",
     "posted_at": "2026-10-08T02:58:18+00:00",
     "metrics": {},
-    "metrics_updated_at": "2026-10-09T13:31:10.819389+00:00",
-    "clicks_attr": 23.73
+    "metrics_updated_at": "2026-10-09T15:01:08.177569+00:00",
+    "clicks_attr": 23.99
   },
   {
     "id": "d052e07c2d",
@@ -42,18 +42,18 @@
     "timestamp": "2026-10-08T02:59:44+0000",
     "posted_at": "2026-10-08T02:59:44+00:00",
     "metrics": {
-      "views": 156731,
-      "reach": 74086,
-      "shares": 18,
-      "saved": 162,
-      "likes": 413,
+      "views": 158742,
+      "reach": 74779,
+      "shares": 19,
+      "saved": 163,
+      "likes": 415,
       "comments": 16,
-      "total_interactions": 634,
-      "ig_reels_avg_watch_time": 11823,
-      "reels_skip_rate": 25.8
+      "total_interactions": 640,
+      "ig_reels_avg_watch_time": 11829,
+      "reels_skip_rate": 25.7
     },
-    "metrics_updated_at": "2026-10-09T13:31:10.819389+00:00",
-    "clicks_attr": 410.06
+    "metrics_updated_at": "2026-10-09T15:01:08.177569+00:00",
+    "clicks_attr": 414.93
   },
   {
     "id": "0c828d52a3",
@@ -75,8 +75,8 @@
     "timestamp": "2026-10-08T14:33:26+0000",
     "posted_at": "2026-10-08T14:33:26+00:00",
     "metrics": {},
-    "metrics_updated_at": "2026-10-09T13:31:10.819389+00:00",
-    "clicks_attr": 21.74
+    "metrics_updated_at": "2026-10-09T15:01:08.177569+00:00",
+    "clicks_attr": 22.26
   },
   {
     "id": "fd2c59a302",
@@ -99,18 +99,18 @@
     "timestamp": "2026-10-08T20:02:38+0000",
     "posted_at": "2026-10-08T20:02:38+00:00",
     "metrics": {
-      "views": 115701,
-      "reach": 56090,
+      "views": 116635,
+      "reach": 56564,
       "shares": 85,
       "saved": 57,
-      "likes": 302,
+      "likes": 308,
       "comments": 10,
-      "total_interactions": 463,
+      "total_interactions": 469,
       "ig_reels_avg_watch_time": 8531,
       "reels_skip_rate": 23.6
     },
-    "metrics_updated_at": "2026-10-09T13:31:10.819389+00:00",
-    "clicks_attr": 190.48
+    "metrics_updated_at": "2026-10-09T15:01:08.177569+00:00",
+    "clicks_attr": 203.03
   },
   {
     "id": "719f52ac3d",
@@ -133,18 +133,18 @@
     "timestamp": "2026-10-08T23:32:59+0000",
     "posted_at": "2026-10-08T23:32:59+00:00",
     "metrics": {
-      "views": 143174,
-      "reach": 91130,
-      "shares": 160,
-      "saved": 211,
-      "likes": 703,
-      "comments": 199,
-      "total_interactions": 1283,
-      "ig_reels_avg_watch_time": 8822,
-      "reels_skip_rate": 27.6
+      "views": 163055,
+      "reach": 104684,
+      "shares": 183,
+      "saved": 240,
+      "likes": 788,
+      "comments": 231,
+      "total_interactions": 1458,
+      "ig_reels_avg_watch_time": 8815,
+      "reels_skip_rate": 28.2
     },
-    "metrics_updated_at": "2026-10-09T13:31:10.819389+00:00",
-    "clicks_attr": 133.82
+    "metrics_updated_at": "2026-10-09T15:01:08.177569+00:00",
+    "clicks_attr": 151.01
   },
   {
     "id": "77aff04658",
@@ -167,18 +167,18 @@
     "timestamp": "2026-10-09T01:31:59+0000",
     "posted_at": "2026-10-09T01:31:59+00:00",
     "metrics": {
-      "views": 10027,
-      "reach": 5682,
+      "views": 14121,
+      "reach": 7637,
       "shares": 2,
       "saved": 3,
-      "likes": 10,
-      "comments": 1,
-      "total_interactions": 16,
-      "ig_reels_avg_watch_time": 8178,
-      "reels_skip_rate": 27
+      "likes": 14,
+      "comments": 2,
+      "total_interactions": 21,
+      "ig_reels_avg_watch_time": 8203,
+      "reels_skip_rate": 24.7
     },
-    "metrics_updated_at": "2026-10-09T13:31:10.819389+00:00",
-    "clicks_attr": 80.17
+    "metrics_updated_at": "2026-10-09T15:01:08.177569+00:00",
+    "clicks_attr": 97.39
   },
   {
     "id": "3761509dae",
@@ -199,6 +199,40 @@
     "ig_media_id": "18129312679768299",
     "permalink": "https://www.instagram.com/reel/DeRn3TnjUta/",
     "timestamp": "2026-10-09T13:32:38+0000",
-    "posted_at": "2026-10-09T13:32:38+00:00"
+    "posted_at": "2026-10-09T13:32:38+00:00",
+    "metrics": {
+      "views": 6077,
+      "reach": 3620,
+      "shares": 0,
+      "saved": 6,
+      "likes": 33,
+      "comments": 2,
+      "total_interactions": 42,
+      "ig_reels_avg_watch_time": 7893,
+      "reels_skip_rate": 30.9
+    },
+    "metrics_updated_at": "2026-10-09T15:01:08.177569+00:00",
+    "clicks_attr": 27.4
+  },
+  {
+    "id": "eedf66b9e5",
+    "slot": "2026-10-09 11:00",
+    "item_id": "pr-bigger-positions",
+    "post_type": "trial",
+    "category": "sexual_wellness",
+    "style": "tip",
+    "clip_id": "clip66",
+    "cta": "0",
+    "mode": "explore",
+    "seconds": 6.83,
+    "caption": "4 positions that make you feel BIGGER 🙈\n\n✔️ 1. doggy (deeper angle)\n✔️ 2. her legs on your shoulders\n✔️ 3. missionary with her legs closed (tighter fit)\n✔️ 4. her on top leaning back\n\nWant to be sure you're hitting all the right spots? Save this for later or send it to your girl so you can remember ♥️🔥 go slow, deeper isn't comfortable for everyone.\n\nMore nurse-approved facts at the link in my bio 🩺\n\n#nurselexi #sexualhealth #nursetok #healthfacts #sexualwellness #selfcare\n\n🎵 Memoirs by John Vanick (CC BY 3.0)",
+    "music_id": "jamendo-1961617",
+    "music_title": "Memoirs",
+    "music_creator": "John Vanick",
+    "music_license": "by",
+    "ig_media_id": "18116378035795583",
+    "permalink": "https://www.instagram.com/reel/DeRyL5LCGem/",
+    "timestamp": "2026-10-09T15:02:37+0000",
+    "posted_at": "2026-10-09T15:02:37+00:00"
   }
 ]
