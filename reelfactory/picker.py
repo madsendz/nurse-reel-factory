@@ -116,7 +116,7 @@ def clip_fit(item: dict, clip: dict) -> float:
     return -0.25 * (slots - nb)          # she'd point at nothing
 
 
-def build_caption(item: dict, cta_idx: int, cfg: dict) -> str:
+def build_caption(item: dict, cta_idx: int, cfg: dict, post_type: str = "regular") -> str:
     c = cfg["caption"]
     tags = list(c.get("base_hashtags", [])) + list(c.get("category_hashtags", {}).get(item["category"], []))
     seen, uniq = set(), []
@@ -127,4 +127,7 @@ def build_caption(item: dict, cta_idx: int, cfg: dict) -> str:
     tags = uniq[: c.get("max_hashtags", 6)]
     facts = "\n".join(f"✔️ {b}" for b in item.get("beats", []))
     parts = [item["hook"], facts, item.get("caption", "").strip(), c["ctas"][cta_idx], " ".join(tags)]
+    if post_type == "trial":  # Nick: every trial reel's caption starts with "follow me if..."
+        openers = [o for o in c.get("trial_openers", []) if o] or ["follow me if you want more nurse-approved facts 🩺"]
+        parts.insert(0, openers[sum(map(ord, item["id"])) % len(openers)])  # same opener for the same topic
     return "\n\n".join(p for p in parts if p)[:2200]
