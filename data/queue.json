@@ -467,7 +467,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 9.57,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-247156",
       "title": "Silence Apart",
@@ -481,7 +481,8 @@
       "genre": "pop"
     },
     "msg_id": 70,
-    "file_id": "BAACAgEAAxkDAANGashYFlE4VVNGlK0MAhcmiwiOP14AAoEIAAIGPkBGltBEJVbBb9c9BA"
+    "file_id": "BAACAgEAAxkDAANGashYFlE4VVNGlK0MAhcmiwiOP14AAoEIAAIGPkBGltBEJVbBb9c9BA",
+    "decided_at": "2026-10-09T03:33:36.266012+00:00"
   },
   {
     "id": "64732e32",
@@ -807,7 +808,7 @@
     "feedback": [
       "text should not show up above the title. make 1-4 show up from top to bottom in a vertical alignment"
     ],
-    "decided_at": "2026-10-09T03:27:14.417755+00:00",
+    "decided_at": "2026-10-09T03:33:36.266012+00:00",
     "needs_replacement": false,
     "replaced_by": "3737664d"
   },
