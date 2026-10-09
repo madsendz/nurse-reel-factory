@@ -529,7 +529,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 8.3,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1580397",
       "title": "Slow motion",
@@ -543,7 +543,8 @@
       "genre": "chillout"
     },
     "msg_id": 72,
-    "file_id": "BAACAgEAAxkDAANIashYSBvxthMZ4ERwnfyWehXSHH4AAoMIAAIGPkBGQRxnerMjOvU9BA"
+    "file_id": "BAACAgEAAxkDAANIashYSBvxthMZ4ERwnfyWehXSHH4AAoMIAAIGPkBGQRxnerMjOvU9BA",
+    "decided_at": "2026-10-09T03:12:54.225532+00:00"
   },
   {
     "id": "c07ba94b",
@@ -557,7 +558,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 7.5,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2304778",
       "title": "Middle of the Night",
@@ -571,7 +572,13 @@
       "genre": "rnb"
     },
     "msg_id": 73,
-    "file_id": "BAACAgEAAxkDAANJashYav4FItywgV2PlC7ff9RsiesAAoQIAAIGPkBG6WsufoS2n_M9BA"
+    "file_id": "BAACAgEAAxkDAANJashYav4FItywgV2PlC7ff9RsiesAAoQIAAIGPkBG6WsufoS2n_M9BA",
+    "feedback": [
+      "3 and 4 shouldnt show up above the title. and if you ever use \"intercourse fact\" i want you to make the text white on black background"
+    ],
+    "decided_at": "2026-10-09T03:12:54.225532+00:00",
+    "needs_replacement": false,
+    "replaced_by": "8279f099"
   },
   {
     "id": "c4d1b3dc",
@@ -585,7 +592,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 4.73,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384090",
       "title": "Manta-dive",
@@ -599,7 +606,8 @@
       "genre": "electronic"
     },
     "msg_id": 74,
-    "file_id": "BAACAgEAAxkDAANKashYgQviyvEcDmFxi8shZO9DVQUAAoUIAAIGPkBG1IfjUlgPyHM9BA"
+    "file_id": "BAACAgEAAxkDAANKashYgQviyvEcDmFxi8shZO9DVQUAAoUIAAIGPkBG1IfjUlgPyHM9BA",
+    "decided_at": "2026-10-09T03:12:54.225532+00:00"
   },
   {
     "id": "3a9de931",
@@ -613,7 +621,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 6.63,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2037721",
       "title": "Downtempo Delights (Lofi Hip-hop)",
@@ -627,7 +635,8 @@
       "genre": "hiphop"
     },
     "msg_id": 75,
-    "file_id": "BAACAgEAAxkDAANLashYnzTGpNDciIcXbJOaxHNrkxcAAoYIAAIGPkBGQNYvhYxp8aI9BA"
+    "file_id": "BAACAgEAAxkDAANLashYnzTGpNDciIcXbJOaxHNrkxcAAoYIAAIGPkBGQNYvhYxp8aI9BA",
+    "decided_at": "2026-10-09T03:13:29.722708+00:00"
   },
   {
     "id": "13f626c4",
@@ -657,5 +666,34 @@
     "msg_id": 79,
     "file_id": "BAACAgEAAxkDAANPashbRWV7jKDOuJRT1rKfttLJX60AAosIAAIGPkBG3Fh0sxHECmw9BA",
     "replaces": "64732e32"
+  },
+  {
+    "id": "8279f099",
+    "slot_key": "2026-10-09 16:00",
+    "slot_iso": "2026-10-09T20:00:00+00:00",
+    "slot_label": "Fri Oct 09, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "pr-birth-control-ranked",
+    "category": "sex_ed",
+    "clip_id": "clip23",
+    "cta": 2,
+    "mode": "exploit",
+    "seconds": 10.03,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2173154",
+      "title": "Coffee Lounge",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2173154/mp32/",
+      "source": "jamendo",
+      "duration_ms": 121000,
+      "page": "https://www.jamendo.com/track/2173154",
+      "genre": "lounge"
+    },
+    "msg_id": 82,
+    "file_id": "BAACAgEAAxkDAANSashb_BXTwoZu0EJX2InmGnTPz8cAAo0IAAIGPkBG0QH069-eu6s9BA",
+    "replaces": "c07ba94b"
   }
 ]
