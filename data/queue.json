@@ -636,7 +636,10 @@
     },
     "msg_id": 75,
     "file_id": "BAACAgEAAxkDAANLashYnzTGpNDciIcXbJOaxHNrkxcAAoYIAAIGPkBGQNYvhYxp8aI9BA",
-    "decided_at": "2026-10-09T03:13:29.722708+00:00"
+    "decided_at": "2026-10-09T03:24:20.774109+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "d312c7fc"
   },
   {
     "id": "13f626c4",
@@ -739,9 +742,10 @@
     "feedback": [
       "title text too close to face, plus emoji doing weird box with X thing."
     ],
-    "decided_at": "2026-10-09T03:20:57.584032+00:00",
+    "decided_at": "2026-10-09T03:24:20.774109+00:00",
     "needs_replacement": false,
-    "replaced_by": "38be7a98"
+    "replaced_by": "38be7a98",
+    "redo": "new_topic"
   },
   {
     "id": "a174c25b",
@@ -800,5 +804,34 @@
     "msg_id": 92,
     "file_id": "BAACAgEAAxkDAANcashd0xpX8wb0wE1KiZT69X7hbsYAApcIAAIGPkBGL_yR9fHlZr89BA",
     "replaces": "9e98b54c"
+  },
+  {
+    "id": "d312c7fc",
+    "slot_key": "2026-10-09 21:30",
+    "slot_iso": "2026-10-10T01:30:00+00:00",
+    "slot_label": "Fri Oct 09, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "pr-a-spot",
+    "category": "anatomy",
+    "clip_id": "clip15",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 6.63,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-43679",
+      "title": "Ocean fantasy",
+      "creator": "St Adam",
+      "license": "by",
+      "license_version": "",
+      "url": "https://prod-1.storage.jamendo.com/download/track/43679/mp32/",
+      "source": "jamendo",
+      "duration_ms": 186000,
+      "page": "https://www.jamendo.com/track/43679",
+      "genre": "electronic"
+    },
+    "msg_id": 96,
+    "file_id": "BAACAgEAAxkDAANgasheopb9dJpbczF9T4g8f-f2TYAAApsIAAIGPkBGrpGWX-h-X6w9BA",
+    "replaces": "3a9de931"
   }
 ]
