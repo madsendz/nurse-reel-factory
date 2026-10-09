@@ -495,7 +495,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 4.73,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1917024",
       "title": "Dorila y Mello",
@@ -509,7 +509,13 @@
       "genre": "hiphop"
     },
     "msg_id": 71,
-    "file_id": "BAACAgEAAxkDAANHashYK6M_xBC0y_X4vO8NvRM95uYAAoIIAAIGPkBGQ0PgqHfW1Ew9BA"
+    "file_id": "BAACAgEAAxkDAANHashYK6M_xBC0y_X4vO8NvRM95uYAAoIIAAIGPkBGQ0PgqHfW1Ew9BA",
+    "feedback": [
+      "the 4th text box should not pop up above the title. 1-4 could be in the same text box"
+    ],
+    "decided_at": "2026-10-09T03:10:04.800274+00:00",
+    "needs_replacement": false,
+    "replaced_by": "13f626c4"
   },
   {
     "id": "7fa2f217",
@@ -622,5 +628,34 @@
     },
     "msg_id": 75,
     "file_id": "BAACAgEAAxkDAANLashYnzTGpNDciIcXbJOaxHNrkxcAAoYIAAIGPkBGQNYvhYxp8aI9BA"
+  },
+  {
+    "id": "13f626c4",
+    "slot_key": "2026-10-09 11:00",
+    "slot_iso": "2026-10-09T15:00:00+00:00",
+    "slot_label": "Fri Oct 09, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "pr-make-noise",
+    "category": "sexual_wellness",
+    "clip_id": "clip81",
+    "cta": 2,
+    "mode": "explore",
+    "seconds": 9.77,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1405870",
+      "title": "808 BASS BEAT",
+      "creator": "manik seth",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1405870/mp32/",
+      "source": "jamendo",
+      "duration_ms": 158000,
+      "page": "https://www.jamendo.com/track/1405870",
+      "genre": "rnb"
+    },
+    "msg_id": 79,
+    "file_id": "BAACAgEAAxkDAANPashbRWV7jKDOuJRT1rKfttLJX60AAosIAAIGPkBG3Fh0sxHECmw9BA",
+    "replaces": "64732e32"
   }
 ]

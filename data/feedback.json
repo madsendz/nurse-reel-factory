@@ -84,5 +84,13 @@
     "slot": "2026-10-08 21:30",
     "text": "title text is too high.",
     "via": "dashboard"
+  },
+  {
+    "at": "2026-10-09T03:10:04.800274+00:00",
+    "item_id": "pr-mood-killer-foods",
+    "clip_id": "clip49",
+    "slot": "2026-10-09 11:00",
+    "text": "the 4th text box should not pop up above the title. 1-4 could be in the same text box",
+    "via": "dashboard"
   }
 ]
