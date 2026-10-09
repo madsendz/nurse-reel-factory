@@ -595,7 +595,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 4.73,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-384090",
       "title": "Manta-dive",
@@ -610,7 +610,8 @@
     },
     "msg_id": 74,
     "file_id": "BAACAgEAAxkDAANKashYgQviyvEcDmFxi8shZO9DVQUAAoUIAAIGPkBG1IfjUlgPyHM9BA",
-    "decided_at": "2026-10-09T03:12:54.225532+00:00"
+    "decided_at": "2026-10-09T03:12:54.225532+00:00",
+    "permalink": "https://www.instagram.com/reel/DeSse8yE5ne/"
   },
   {
     "id": "3a9de931",
