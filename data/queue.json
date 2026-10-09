@@ -720,7 +720,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 6.83,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2037702",
       "title": "Nostalgia Drive (Lofi Hip-hop)",
@@ -735,7 +735,13 @@
     },
     "msg_id": 84,
     "file_id": "BAACAgEAAxkDAANUashcRXZvILaAAcZWWNcbO1YG2wADkAgAAgY-QEbdez7Hb94rHT0E",
-    "replaces": "13f626c4"
+    "replaces": "13f626c4",
+    "feedback": [
+      "title text too close to face, plus emoji doing weird box with X thing."
+    ],
+    "decided_at": "2026-10-09T03:20:57.584032+00:00",
+    "needs_replacement": false,
+    "replaced_by": "38be7a98"
   },
   {
     "id": "a174c25b",
@@ -765,5 +771,34 @@
     "msg_id": 87,
     "file_id": "BAACAgEAAxkDAANXashc0JOgY7Rt-Lefirnug7noAAGwAAKTCAACBj5ARho6YXgfsaqcPQQ",
     "replaces": "8279f099"
+  },
+  {
+    "id": "38be7a98",
+    "slot_key": "2026-10-09 11:00",
+    "slot_iso": "2026-10-09T15:00:00+00:00",
+    "slot_label": "Fri Oct 09, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "pr-mood-killer-foods",
+    "category": "sexual_wellness",
+    "clip_id": "clip28",
+    "cta": 2,
+    "mode": "exploit",
+    "seconds": 8.39,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1871345",
+      "title": "TP4",
+      "creator": "orangeicebear",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1871345/mp32/",
+      "source": "jamendo",
+      "duration_ms": 280000,
+      "page": "https://www.jamendo.com/track/1871345",
+      "genre": "trap"
+    },
+    "msg_id": 92,
+    "file_id": "BAACAgEAAxkDAANcashd0xpX8wb0wE1KiZT69X7hbsYAApcIAAIGPkBGL_yR9fHlZr89BA",
+    "replaces": "9e98b54c"
   }
 ]
