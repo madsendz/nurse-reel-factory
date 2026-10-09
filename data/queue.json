@@ -531,7 +531,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 8.3,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1580397",
       "title": "Slow motion",
@@ -546,7 +546,8 @@
     },
     "msg_id": 72,
     "file_id": "BAACAgEAAxkDAANIashYSBvxthMZ4ERwnfyWehXSHH4AAoMIAAIGPkBGQRxnerMjOvU9BA",
-    "decided_at": "2026-10-09T03:12:54.225532+00:00"
+    "decided_at": "2026-10-09T03:12:54.225532+00:00",
+    "permalink": "https://www.instagram.com/reel/DeR_4RIAi7e/"
   },
   {
     "id": "c07ba94b",
