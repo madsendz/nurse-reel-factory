@@ -1014,7 +1014,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 6.47,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -1028,7 +1028,8 @@
       "genre": "electronic"
     },
     "msg_id": 107,
-    "file_id": "BAACAgEAAxkDAANrasmhcvAJYdyvpzMlLdvAa2Dp18QAAg8IAALPoFFGUBpVJLRKEjQ9BA"
+    "file_id": "BAACAgEAAxkDAANrasmhcvAJYdyvpzMlLdvAa2Dp18QAAg8IAALPoFFGUBpVJLRKEjQ9BA",
+    "decided_at": "2026-10-10T13:25:36.900673+00:00"
   },
   {
     "id": "7c2b53b0",
@@ -1042,7 +1043,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.0,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-384091",
       "title": "Lazy beach breaks",
@@ -1056,7 +1057,13 @@
       "genre": "lounge"
     },
     "msg_id": 108,
-    "file_id": "BAACAgEAAxkDAANsasmhm3-sbMZP_x8k9pwGl11dNpMAAhAIAALPoFFGHq3s8TASK5c9BA"
+    "file_id": "BAACAgEAAxkDAANsasmhm3-sbMZP_x8k9pwGl11dNpMAAhAIAALPoFFGHq3s8TASK5c9BA",
+    "feedback": [
+      "this video has an upward point and a downward point, but only the up point has text. break away some text from the upward point and make it pop up for the downward point."
+    ],
+    "decided_at": "2026-10-10T13:25:37.825332+00:00",
+    "needs_replacement": false,
+    "replaced_by": "81361e3a"
   },
   {
     "id": "cff655a5",
@@ -1070,7 +1077,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 29.97,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1490752",
       "title": "Free Post Malone | RnB Type Beat",
@@ -1084,6 +1091,70 @@
       "genre": "pop"
     },
     "msg_id": 109,
-    "file_id": "BAACAgEAAxkDAANtasmiAAFjxjYPb7KuWTXL_RJ1deDAAAIRCAACz6BRRjIfK6rF9c-_PQQ"
+    "file_id": "BAACAgEAAxkDAANtasmiAAFjxjYPb7KuWTXL_RJ1deDAAAIRCAACz6BRRjIfK6rF9c-_PQQ",
+    "decided_at": "2026-10-10T13:25:39.259435+00:00",
+    "feedback": [
+      "this clip is too long. if we use clip 69 it needs to be trimmed to 10 seconds"
+    ],
+    "needs_replacement": false,
+    "replaced_by": "9edf8680"
+  },
+  {
+    "id": "81361e3a",
+    "slot_key": "2026-10-10 19:30",
+    "slot_iso": "2026-10-10T23:30:00+00:00",
+    "slot_label": "Sat Oct 10, 7:30 PM",
+    "post_type": "regular",
+    "item_id": "nw-kegels-women",
+    "category": "sexual_wellness",
+    "clip_id": "clip42",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 6.9,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1702676",
+      "title": "Daydream",
+      "creator": "zero-project",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1702676/mp32/",
+      "source": "jamendo",
+      "duration_ms": 258000,
+      "page": "https://www.jamendo.com/track/1702676",
+      "genre": "chillout"
+    },
+    "msg_id": 117,
+    "file_id": "BAACAgEAAxkDAAN1aso9DIKdr6lyJ_-o0VBvrsg78-IAAjoJAALPoFFGObUEQNP7XI49BA",
+    "replaces": "7c2b53b0"
+  },
+  {
+    "id": "9edf8680",
+    "slot_key": "2026-10-10 21:30",
+    "slot_iso": "2026-10-11T01:30:00+00:00",
+    "slot_label": "Sat Oct 10, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "pr-size-birth-month",
+    "category": "mens_health",
+    "clip_id": "clip72",
+    "cta": 0,
+    "mode": "explore",
+    "seconds": 8.12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1856950",
+      "title": "RnB Chill Trap",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1856950/mp32/",
+      "source": "jamendo",
+      "duration_ms": 123000,
+      "page": "https://www.jamendo.com/track/1856950",
+      "genre": "rnb"
+    },
+    "msg_id": 118,
+    "file_id": "BAACAgEAAxkDAAN2aso9ITyRIqZnoY4Upr1gBnaoi7cAAjsJAALPoFFG_NGfS8k9gRg9BA",
+    "replaces": "cff655a5"
   }
 ]

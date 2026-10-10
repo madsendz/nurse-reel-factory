@@ -139,5 +139,19 @@
     "clip_id": "clip06",
     "slot": "2026-10-10 09:30",
     "text": "this video has 3 upward points, plus one down below, so there should be 4 text boxes."
+  },
+  {
+    "at": "2026-10-10T13:25:37.825312+00:00",
+    "item_id": "nw-g-spot-where",
+    "clip_id": "clip55",
+    "slot": "2026-10-10 19:30",
+    "text": "this video has an upward point and a downward point, but only the up point has text. break away some text from the upward point and make it pop up for the downward point."
+  },
+  {
+    "at": "2026-10-10T13:25:39.259418+00:00",
+    "item_id": "pr-men-secretly-like",
+    "clip_id": "clip69",
+    "slot": "2026-10-10 21:30",
+    "text": "this clip is too long. if we use clip 69 it needs to be trimmed to 10 seconds"
   }
 ]
