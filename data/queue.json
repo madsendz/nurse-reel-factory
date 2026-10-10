@@ -1111,7 +1111,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.9,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1702676",
       "title": "Daydream",
@@ -1126,7 +1126,8 @@
     },
     "msg_id": 117,
     "file_id": "BAACAgEAAxkDAAN1aso9DIKdr6lyJ_-o0VBvrsg78-IAAjoJAALPoFFGObUEQNP7XI49BA",
-    "replaces": "7c2b53b0"
+    "replaces": "7c2b53b0",
+    "decided_at": "2026-10-10T13:35:25.846973+00:00"
   },
   {
     "id": "9edf8680",
@@ -1140,7 +1141,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 8.12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1856950",
       "title": "RnB Chill Trap",
@@ -1155,6 +1156,41 @@
     },
     "msg_id": 118,
     "file_id": "BAACAgEAAxkDAAN2aso9ITyRIqZnoY4Upr1gBnaoi7cAAjsJAALPoFFG_NGfS8k9gRg9BA",
-    "replaces": "cff655a5"
+    "replaces": "cff655a5",
+    "feedback": [
+      "new topic"
+    ],
+    "decided_at": "2026-10-10T13:35:26.681732+00:00",
+    "needs_replacement": false,
+    "replaced_by": "81d261d6"
+  },
+  {
+    "id": "81d261d6",
+    "slot_key": "2026-10-10 21:30",
+    "slot_iso": "2026-10-11T01:30:00+00:00",
+    "slot_label": "Sat Oct 10, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "pr-birth-control-ranked",
+    "category": "sex_ed",
+    "clip_id": "clip64",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 9.42,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2173154",
+      "title": "Coffee Lounge",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2173154/mp32/",
+      "source": "jamendo",
+      "duration_ms": 121000,
+      "page": "https://www.jamendo.com/track/2173154",
+      "genre": "lounge"
+    },
+    "msg_id": 121,
+    "file_id": "BAACAgEAAxkDAAN5aso_UvPv-h7bm20h6uR_n2R5oLUAAkAJAALPoFFGWUYbFuTFPUY9BA",
+    "replaces": "9edf8680"
   }
 ]
