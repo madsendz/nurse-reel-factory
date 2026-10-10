@@ -362,7 +362,8 @@ def cmd_queue(cfg, args):
     if args.extra.strip():
         n = approve.add_extras(cfg, args.extra)
     else:
-        n = approve.make_queue(cfg, days_ahead=args.days_ahead)
+        days = str(args.days_ahead).strip()
+        n = approve.make_queue(cfg, days_ahead=int(days) if days else int((cfg.get("queue") or {}).get("days_ahead", 1)))
     _summary(f"Sent {n} reel(s) to Telegram for approval.")
 
 
@@ -418,7 +419,7 @@ def main(argv=None):
     p.add_argument("--item", help="only use this topic id")
     sub.add_parser("report")
     p = sub.add_parser("queue")
-    p.add_argument("--days-ahead", type=int, default=1, help="1 = tomorrow, 0 = rest of today")
+    p.add_argument("--days-ahead", default="", help="N = fill the next N days, 0 = rest of today; empty = config queue.days_ahead")
     p.add_argument("--extra", default="", help='extra reels today, e.g. "regular@21:30,trial@22:30"')
     sub.add_parser("approvals")
     sub.add_parser("replies")
