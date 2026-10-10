@@ -238,6 +238,11 @@ def _apply_dashboard_actions(cfg, q, by_id, st, fb) -> None:
             e["slot_key"] = f"{dt:%Y-%m-%d %H:%M} moved-{os.urandom(2).hex()}"
             e["status"] = "pending"  # any change = approve again
             e.pop("post_now", None)
+        elif kind == "swap_type":  # trial <-> regular (Nick); the reel is re-captioned at post time
+            e["post_type"] = "regular" if e.get("post_type") == "trial" else "trial"
+            e["status"] = "pending"  # any change = approve again
+            e["decided_at"] = now.isoformat()
+            e.pop("post_now", None)
         elif kind == "post_now":
             if e.get("status") == "approved":
                 e["post_now"] = True
@@ -277,7 +282,8 @@ def _slot_list(cfg, day: datetime):
 
 
 def make_queue(cfg, days_ahead: int = 1) -> int:
-    """Render tomorrow's reels and send them to Telegram for approval."""
+    """Render the reels for the next `days_ahead` days (only the slots not made yet) and send them
+    to Telegram for approval. 0 = the rest of today. Nick approves several days at a time."""
     from .cli import _make
     try:
         sync_updates(cfg)  # pick up approvals and dashboard topic decisions first
@@ -287,7 +293,9 @@ def make_queue(cfg, days_ahead: int = 1) -> int:
     if not cid:
         raise RuntimeError("Telegram chat not connected yet: open your bot in Telegram and press Start, then run again")
     tz = ZoneInfo(cfg.get("timezone", "America/New_York"))
-    day = (datetime.now(timezone.utc).astimezone(tz) + timedelta(days=days_ahead)).date()
+    today = datetime.now(timezone.utc).astimezone(tz).date()
+    offsets = range(1, days_ahead + 1) if days_ahead >= 1 else [0]
+    days = [today + timedelta(days=k) for k in offsets]
     q = load_queue()
     have = {e["slot_key"] for e in q}
     posts = load_posts()
@@ -298,15 +306,17 @@ def make_queue(cfg, days_ahead: int = 1) -> int:
     rng = random.Random()
     made = 0
     out_dir = OUT_DIR / "queue"
-    slots = [s for s in _slot_list(cfg, datetime(day.year, day.month, day.day))
-             if s[1] not in have and s[0] > datetime.now(timezone.utc) + timedelta(minutes=10)]
-    plan = _daily_mix(cfg, q, bank, day, len(slots), rng, tz)
-    for (dt, key, kind), cls in zip(slots, plan):
-        e = _queue_one(cfg, cid, dt, key, kind, bank, clips, hist, q, rng, out_dir, topic_class=cls)
-        made += 1
-        print(f"[queue] {key} {kind}: {e['item_id']} on {e['clip_id']} -> sent to Telegram")
+    for day in days:
+        slots = [s for s in _slot_list(cfg, datetime(day.year, day.month, day.day))
+                 if s[1] not in have and s[0] > datetime.now(timezone.utc) + timedelta(minutes=10)]
+        plan = _daily_mix(cfg, q, bank, day, len(slots), rng, tz)
+        for (dt, key, kind), cls in zip(slots, plan):
+            e = _queue_one(cfg, cid, dt, key, kind, bank, clips, hist, q, rng, out_dir, topic_class=cls)
+            made += 1
+            print(f"[queue] {key} {kind}: {e['item_id']} on {e['clip_id']} -> sent to Telegram")
     if made:
-        _tg("sendMessage", chat_id=cid, text=f"👆 {made} reels for {day:%A}. Approve the ones you like — "
+        span = f"{days[0]:%a %b %-d}" if len(days) == 1 else f"{days[0]:%a %b %-d} – {days[-1]:%a %b %-d}"
+        _tg("sendMessage", chat_id=cid, text=f"👆 {made} new reel(s) for {span}. Approve the ones you like — "
                                               "only approved reels get posted. No answer = not posted.")
     return made
 
