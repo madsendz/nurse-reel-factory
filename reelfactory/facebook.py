@@ -36,6 +36,13 @@ def resolve_page(cfg: dict) -> tuple[str, str]:
     ig_id = os.environ.get("IG_USER_ID") or (cfg.get("instagram") or {}).get("ig_user_id")
     if not ig_tok:
         raise RuntimeError("no FB_PAGE_TOKEN and no IG_ACCESS_TOKEN")
+    pid = pid or str((cfg.get("facebook") or {}).get("page_id") or "").strip()
+    if pid:  # known Page: ask for its token directly (me/accounts can come back empty even when the token has access)
+        page = _check(requests.get(f"{GRAPH}/{v}/{pid}", timeout=60, params={
+            "fields": "id,name,access_token", "access_token": ig_tok}))
+        if page.get("access_token"):
+            print(f"[facebook] using Page {page.get('name')} ({pid})")
+            return pid, page["access_token"]
     pages = _check(requests.get(f"{GRAPH}/{v}/me/accounts", timeout=60, params={
         "fields": "id,name,access_token,instagram_business_account", "limit": 100, "access_token": ig_tok})).get("data", [])
     if not pages:
