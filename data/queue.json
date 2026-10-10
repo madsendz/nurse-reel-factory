@@ -831,7 +831,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.63,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-43679",
       "title": "Ocean fantasy",
@@ -847,7 +847,8 @@
     "msg_id": 96,
     "file_id": "BAACAgEAAxkDAANgasheopb9dJpbczF9T4g8f-f2TYAAApsIAAIGPkBGrpGWX-h-X6w9BA",
     "replaces": "3a9de931",
-    "decided_at": "2026-10-09T03:45:39.334026+00:00"
+    "decided_at": "2026-10-09T03:45:39.334026+00:00",
+    "permalink": "https://www.instagram.com/reel/DeS6PAciLkU/"
   },
   {
     "id": "3737664d",
