@@ -1114,7 +1114,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.9,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1702676",
       "title": "Daydream",
@@ -1130,7 +1130,8 @@
     "msg_id": 117,
     "file_id": "BAACAgEAAxkDAAN1aso9DIKdr6lyJ_-o0VBvrsg78-IAAjoJAALPoFFGObUEQNP7XI49BA",
     "replaces": "7c2b53b0",
-    "decided_at": "2026-10-10T13:35:25.846973+00:00"
+    "decided_at": "2026-10-10T13:35:25.846973+00:00",
+    "permalink": "https://www.instagram.com/reel/DeVRSdgkS2G/"
   },
   {
     "id": "9edf8680",
