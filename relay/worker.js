@@ -250,7 +250,7 @@ async function topicAction(a, env) {
 
 async function dashboardAction(a, env, c) {
   if (a && (a.kind === "topic_keep" || a.kind === "topic_toss") && a.item_id) return topicAction(a, env);
-  const kinds = ["approve", "skip", "note", "swap_music", "new_clip", "new_topic", "move", "post_now"];
+  const kinds = ["approve", "skip", "note", "swap_music", "new_clip", "new_topic", "move", "post_now", "swap_type"];
   if (!a || !kinds.includes(a.kind) || !a.entry_id) return Response.json({ ok: false, error: "bad action" }, { status: 400 });
   const st = await liveState(env);
   const e = (st.entries || []).find((x) => x.id === a.entry_id);
@@ -285,6 +285,12 @@ async function dashboardAction(a, env, c) {
     say = `🕑 Moved from the dashboard to ${label}. Approve it again when you're ready.`;
   }
   if (a.kind === "post_now") { patch = { post_now: true }; say = "🚀 Posting this one now (from the dashboard)."; }
+  if (a.kind === "swap_type") { // trial <-> regular; same video, re-captioned at post time
+    const nt = e.post_type === "trial" ? "regular" : "trial";
+    patch = { post_type: nt, status: "pending", post_now: false };
+    statusText = STATUS.pending;
+    say = `🔄 Switched to a ${nt === "trial" ? "TRIAL" : "regular"} reel from the dashboard. Approve it again when you're ready.`;
+  }
   await overlay(env, e.id, patch);
 
   if (chat && e.msg_id) {
