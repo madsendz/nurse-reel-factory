@@ -1016,7 +1016,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 6.47,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -1031,7 +1031,8 @@
     },
     "msg_id": 107,
     "file_id": "BAACAgEAAxkDAANrasmhcvAJYdyvpzMlLdvAa2Dp18QAAg8IAALPoFFGUBpVJLRKEjQ9BA",
-    "decided_at": "2026-10-10T13:25:36.900673+00:00"
+    "decided_at": "2026-10-10T13:25:36.900673+00:00",
+    "permalink": "https://www.instagram.com/reel/DeU5RH4Da8R/"
   },
   {
     "id": "7c2b53b0",
