@@ -18,6 +18,11 @@ post_times:
   - { time: "19:30", type: regular }
   - { time: "21:30", type: trial }
 
+# --- Evening queue job (7:15 PM ET): how many days of reels to have waiting for approval ---
+# Only the slots that aren't made yet get rendered, so every night it tops the week up.
+queue:
+  days_ahead: 3
+
 # Trial reels: MANUAL = stays trial-only until you tap "share to followers" in the IG app.
 #              SS_PERFORMANCE = Instagram shares it automatically if it does well.
 trial:
