@@ -924,7 +924,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 13.03,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-366912",
       "title": "Club's House DJ",
@@ -938,7 +938,11 @@
       "genre": "dance"
     },
     "msg_id": 104,
-    "file_id": "BAACAgEAAxkDAANoasmhGeOWFTz_Zg5DEYNMho6yzjAAAgoIAALPoFFGncyMsl-9WeM9BA"
+    "file_id": "BAACAgEAAxkDAANoasmhGeOWFTz_Zg5DEYNMho6yzjAAAgoIAALPoFFGncyMsl-9WeM9BA",
+    "feedback": [
+      "this video has 3 upward points, plus one down below, so there should be 4 text boxes."
+    ],
+    "decided_at": "2026-10-10T13:15:36.424253+00:00"
   },
   {
     "id": "d0efccb6",
@@ -952,7 +956,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 9.57,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1871345",
       "title": "TP4",
@@ -966,7 +970,8 @@
       "genre": "trap"
     },
     "msg_id": 105,
-    "file_id": "BAACAgEAAxkDAANpasmhOJOjX5KKvSLkVRJdC5YgPuQAAgwIAALPoFFGPRWJSEU0FB49BA"
+    "file_id": "BAACAgEAAxkDAANpasmhOJOjX5KKvSLkVRJdC5YgPuQAAgwIAALPoFFGPRWJSEU0FB49BA",
+    "decided_at": "2026-10-10T13:15:36.942153+00:00"
   },
   {
     "id": "d9a014b8",
@@ -980,7 +985,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.33,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384095",
       "title": "Like King Cool in a sunbed",
@@ -994,7 +999,8 @@
       "genre": "pop"
     },
     "msg_id": 106,
-    "file_id": "BAACAgEAAxkDAANqasmhXPT_paEbQyJCytEdJunOMQ4AAg4IAALPoFFGpwvFihLm07k9BA"
+    "file_id": "BAACAgEAAxkDAANqasmhXPT_paEbQyJCytEdJunOMQ4AAg4IAALPoFFGpwvFihLm07k9BA",
+    "decided_at": "2026-10-10T13:15:37.941793+00:00"
   },
   {
     "id": "b9614944",

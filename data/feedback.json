@@ -132,5 +132,12 @@
     "slot": "2026-10-09 11:00",
     "text": "text should not show up above the title. make 1-4 show up from top to bottom in a vertical alignment",
     "via": "dashboard"
+  },
+  {
+    "at": "2026-10-10T13:15:36.424235+00:00",
+    "item_id": "nw-condom-break",
+    "clip_id": "clip06",
+    "slot": "2026-10-10 09:30",
+    "text": "this video has 3 upward points, plus one down below, so there should be 4 text boxes."
   }
 ]
