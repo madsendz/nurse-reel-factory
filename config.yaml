@@ -38,6 +38,7 @@ instagram:
 # is logged and never blocks the Instagram post.
 facebook:
   crosspost: true
+  page_id: "1399610569896610"   # Lexi - Sexual Health and Wellness Nurse (the Page linked to the IG account)
   trials: true   # false = only regular reels go to Facebook
 
 # --- Link click tracking (Cloudflare Web Analytics) ---
