@@ -956,7 +956,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 9.57,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1871345",
       "title": "TP4",
@@ -971,7 +971,8 @@
     },
     "msg_id": 105,
     "file_id": "BAACAgEAAxkDAANpasmhOJOjX5KKvSLkVRJdC5YgPuQAAgwIAALPoFFGPRWJSEU0FB49BA",
-    "decided_at": "2026-10-10T13:15:36.942153+00:00"
+    "decided_at": "2026-10-10T13:15:36.942153+00:00",
+    "permalink": "https://www.instagram.com/reel/DeUW9MSAUlg/"
   },
   {
     "id": "d9a014b8",
@@ -1176,7 +1177,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.42,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2173154",
       "title": "Coffee Lounge",
@@ -1191,6 +1192,7 @@
     },
     "msg_id": 121,
     "file_id": "BAACAgEAAxkDAAN5aso_UvPv-h7bm20h6uR_n2R5oLUAAkAJAALPoFFGWUYbFuTFPUY9BA",
-    "replaces": "9edf8680"
+    "replaces": "9edf8680",
+    "decided_at": "2026-10-10T15:00:30.283756+00:00"
   }
 ]
