@@ -194,7 +194,7 @@ function render(){
       for(const t of times){
         const list=(g[d]||{})[t]||[];
         html += `<section class="slot" id="slot-${d}-${t.replace(":","")}"><div class="slot-h"><span class="t">${fmtTime(t)}</span><span class="tag ${(list[0]?.post_type||schedType(t))==="trial"?"trial":""}">${(list[0]?.post_type||schedType(t))==="trial"?"Trial reel":"Regular reel"}</span></div>`;
-        if(!list.length){ html += `<div class="empty-day">Nothing made for this slot yet. The evening job makes tomorrow's reels around 7:15 PM.</div>`; }
+        if(!list.length){ html += `<div class="empty-day">Nothing made for this slot yet. The evening job (around 7:15 PM) keeps the next few days filled.</div>`; }
         const cur = list.filter(e=>rank(e)<3), old = list.filter(e=>rank(e)>=3);
         html += cur.map(card).join("");
         if(old.length) html += `<details style="margin-top:8px"><summary>Earlier versions (${old.length})</summary>${old.map(e=>card(e,true)).join("")}</details>`;
@@ -257,11 +257,13 @@ function card(e, old){
         <button class="btn sm" data-act="swap_music" data-id="${e.id}">🎵 New music</button>
         <button class="btn sm" data-act="new_clip" data-id="${e.id}">🎬 Same topic, new clip</button>
         <button class="btn sm" data-act="new_topic" data-id="${e.id}">💡 Same clip, new topic</button></div>
+<div class="actions"><span class="hint" style="align-self:center">Type:</span>
+<button class="btn sm" data-act="swap_type" data-id="${e.id}">🔄 ${e.post_type==="trial"?"Make it a regular reel":"Make it a trial reel"}</button></div>
       <div class="actions"><span class="hint" style="align-self:center">Move to:</span>
         <select data-move="${e.id}"><option value="">Pick a time…</option>${moveOptions(e)}<option value="custom">Custom time…</option></select>
         <input type="datetime-local" data-custom="${e.id}" hidden>
         <button class="btn sm" data-act="move" data-id="${e.id}">Move</button></div>
-      <div class="hint">Every change (notes, redo, move) needs your approval again. Telegram stays in sync with what you do here.</div>`:""}
+      <div class="hint">Every change (notes, redo, move, type) needs your approval again. Telegram stays in sync with what you do here.</div>`:""}
     </div></article>`;
 }
 
@@ -282,7 +284,7 @@ document.addEventListener("click", async ev=>{
     if(REDO[kind] && !confirm(`Make a new version with ${REDO[kind]}? This one will be skipped.`)) return;
     if(busy) return; busy=true; b.disabled=true;
     try{ const r=await api("/api/action",{method:"POST",body:JSON.stringify(body)});
-      const msg={approve:"Approved ✅", skip:"Skipped", note:"Notes sent — new version coming (~10 min)", post_now:"Posting now 🚀 (a few minutes)", move:"Moved — approve it again when ready"}[kind] || "New version coming (~10 min)";
+      const msg={approve:"Approved ✅", skip:"Skipped", note:"Notes sent — new version coming (~10 min)", post_now:"Posting now 🚀 (a few minutes)", move:"Moved — approve it again when ready", swap_type:"Type switched — approve it again when ready"}[kind] || "New version coming (~10 min)";
       toast(msg + (r.job==="queued"?" · will start within 5 min":""));
       if(kind==="note"){ const ta=document.querySelector(`textarea[data-note="${id}"]`); if(ta) ta.value=""; }
       await load(true);
