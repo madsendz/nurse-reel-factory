@@ -113,6 +113,12 @@ def cmd_refresh(cfg, args):
                   f"publishing quota: {quota.get('data', [{}])[0]}")
         except Exception as e:
             print(f"[instagram] CONNECTION CHECK FAILED: {e}")
+        try:
+            from . import facebook
+            if facebook.enabled(cfg):
+                print(f"[facebook] cross-posting to Page {facebook.check(cfg)}")
+        except Exception as e:
+            print(f"[facebook] CONNECTION CHECK FAILED: {e}")
         for p in posts:
             if not p.get("ig_media_id"):
                 continue
