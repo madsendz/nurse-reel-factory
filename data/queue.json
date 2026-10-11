@@ -1648,7 +1648,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 10.43,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1395053",
       "title": "Ninu - I feel this",
@@ -1662,7 +1662,13 @@
       "genre": "trap"
     },
     "msg_id": 137,
-    "file_id": "BAACAgEAAxkDAAOJasqmdILsgRYpdwpF_xtgNKDjnwADUAcAAs-gWUbJYBLJgiW2ZD0E"
+    "file_id": "BAACAgEAAxkDAAOJasqmdILsgRYpdwpF_xtgNKDjnwADUAcAAs-gWUbJYBLJgiW2ZD0E",
+    "feedback": [
+      "this clip has an upward point and a downward point. the final reveal should be in the downward point. for example you could put 3 and 2 in the text box on the top left, and then 1 pops up when the final lower point occurs."
+    ],
+    "decided_at": "2026-10-11T01:47:45.315915+00:00",
+    "needs_replacement": false,
+    "replaced_by": "daf53ea9"
   },
   {
     "id": "1921690f",
@@ -1676,7 +1682,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 7.67,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1591558",
       "title": "199-s8rec",
@@ -1690,7 +1696,8 @@
       "genre": "trap"
     },
     "msg_id": 138,
-    "file_id": "BAACAgEAAxkDAAOKasqmnRc3a9yDFxmIv23ULZw3jqEAAlEHAALPoFlGGanNVOl2MvA9BA"
+    "file_id": "BAACAgEAAxkDAAOKasqmnRc3a9yDFxmIv23ULZw3jqEAAlEHAALPoFlGGanNVOl2MvA9BA",
+    "decided_at": "2026-10-11T01:47:45.315915+00:00"
   },
   {
     "id": "8888e4be",
@@ -1813,5 +1820,34 @@
     "msg_id": 149,
     "file_id": "BAACAgEAAxkDAAOVasrqYwdJeT1gLHFZ141_lujRjsAAAp8HAALPoFlG1lcVtaowaEE9BA",
     "replaces": "8888e4be"
+  },
+  {
+    "id": "daf53ea9",
+    "slot_key": "2026-10-13 16:00",
+    "slot_iso": "2026-10-13T20:00:00+00:00",
+    "slot_label": "Tue Oct 13, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-wet-dreams",
+    "category": "mens_health",
+    "clip_id": "clip51",
+    "cta": 1,
+    "mode": "explore",
+    "seconds": 11.3,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1525343",
+      "title": "FAS - heda",
+      "creator": "FAS",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1525343/mp32/",
+      "source": "jamendo",
+      "duration_ms": 165000,
+      "page": "https://www.jamendo.com/track/1525343",
+      "genre": "trap"
+    },
+    "msg_id": 152,
+    "file_id": "BAACAgEAAxkDAAOYasrq_KtTDm6BNoI4qCMXtSyqutIAAqAHAALPoFlGrWQFmTB6yxM9BA",
+    "replaces": "fdd99312"
   }
 ]

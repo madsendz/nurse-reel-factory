@@ -184,5 +184,13 @@
     "slot": "2026-10-13 21:30",
     "text": "i dont want text pop ups to occur above the title on this particular clip",
     "via": "dashboard"
+  },
+  {
+    "at": "2026-10-11T01:47:45.315915+00:00",
+    "item_id": "nw-kissing",
+    "clip_id": "clip80",
+    "slot": "2026-10-13 16:00",
+    "text": "this clip has an upward point and a downward point. the final reveal should be in the downward point. for example you could put 3 and 2 in the text box on the top left, and then 1 pops up when the final lower point occurs.",
+    "via": "dashboard"
   }
 ]
