@@ -1211,7 +1211,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 4.33,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1331970",
       "title": "Faith",
@@ -1225,7 +1225,13 @@
       "genre": "pop"
     },
     "msg_id": 122,
-    "file_id": "BAACAgEAAxkDAAN6asqkqNesE4ItWtGxsvW8g8j2gZsAAkAHAALPoFlGBd35xaZPEU89BA"
+    "file_id": "BAACAgEAAxkDAAN6asqkqNesE4ItWtGxsvW8g8j2gZsAAkAHAALPoFlGBd35xaZPEU89BA",
+    "decided_at": "2026-10-11T01:37:29.232666+00:00",
+    "feedback": [
+      "text placement should not go above the title"
+    ],
+    "needs_replacement": false,
+    "replaced_by": "bc256f49"
   },
   {
     "id": "13b19c01",
@@ -1702,5 +1708,34 @@
     },
     "msg_id": 139,
     "file_id": "BAACAgEAAxkDAAOLasqmu3_nV-JMMB2qsgbyjohDK80AAlIHAALPoFlGcnj17TWotGw9BA"
+  },
+  {
+    "id": "bc256f49",
+    "slot_key": "2026-10-11 09:30",
+    "slot_iso": "2026-10-11T13:30:00+00:00",
+    "slot_label": "Sun Oct 11, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "nw-smoking-ed",
+    "category": "mens_health",
+    "clip_id": "clip71",
+    "cta": 2,
+    "mode": "exploit",
+    "seconds": 8.21,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-384092",
+      "title": "Such a place!",
+      "creator": "K4MMERER",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/384092/mp32/",
+      "source": "jamendo",
+      "duration_ms": 258000,
+      "page": "https://www.jamendo.com/track/384092",
+      "genre": "lounge"
+    },
+    "msg_id": 143,
+    "file_id": "BAACAgEAAxkDAAOPasron-3JC5wWTsHMRCU-a3rTlhUAApsHAALPoFlGTICdXxgB59Y9BA",
+    "replaces": "49a8afc6"
   }
 ]
