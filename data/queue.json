@@ -1245,7 +1245,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.33,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1922534",
       "title": "Luxury Hip-Hop",
@@ -1259,7 +1259,8 @@
       "genre": "rnb"
     },
     "msg_id": 123,
-    "file_id": "BAACAgEAAxkDAAN7asqkxNQvrdKSY87IuMKXduElxKsAAkEHAALPoFlGTQABNmnEVERUPQQ"
+    "file_id": "BAACAgEAAxkDAAN7asqkxNQvrdKSY87IuMKXduElxKsAAkEHAALPoFlGTQABNmnEVERUPQQ",
+    "decided_at": "2026-10-11T01:42:14.146573+00:00"
   },
   {
     "id": "b4a1da39",
@@ -1273,7 +1274,7 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 9.46,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037757",
       "title": "Density (Background Ambient Techno)",
@@ -1287,7 +1288,8 @@
       "genre": "dance"
     },
     "msg_id": 124,
-    "file_id": "BAACAgEAAxkDAAN8asqk47f40m2X81HnfL8cLNbPFFoAAkIHAALPoFlGdhlpIdG_kzg9BA"
+    "file_id": "BAACAgEAAxkDAAN8asqk47f40m2X81HnfL8cLNbPFFoAAkIHAALPoFlGdhlpIdG_kzg9BA",
+    "decided_at": "2026-10-11T01:42:14.146573+00:00"
   },
   {
     "id": "d8a725ba",
@@ -1301,7 +1303,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 18.23,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1992651",
       "title": "Emotional Dancing",
@@ -1315,7 +1317,8 @@
       "genre": "hiphop"
     },
     "msg_id": 125,
-    "file_id": "BAACAgEAAxkDAAN9asqlFirWzH4Vcg3S28bz1fFzKxYAAkMHAALPoFlGYE6R_KfWJUo9BA"
+    "file_id": "BAACAgEAAxkDAAN9asqlFirWzH4Vcg3S28bz1fFzKxYAAkMHAALPoFlGYE6R_KfWJUo9BA",
+    "decided_at": "2026-10-11T01:42:14.146573+00:00"
   },
   {
     "id": "b3348ae6",
@@ -1329,7 +1332,7 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 8.1,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037702",
       "title": "Nostalgia Drive (Lofi Hip-hop)",
@@ -1343,21 +1346,22 @@
       "genre": "lounge"
     },
     "msg_id": 126,
-    "file_id": "BAACAgEAAxkDAAN-asqlMiI-DxyZ5wUm3ViO3RrxmGUAAkQHAALPoFlGlrfqdSM7FpI9BA"
+    "file_id": "BAACAgEAAxkDAAN-asqlMiI-DxyZ5wUm3ViO3RrxmGUAAkQHAALPoFlGlrfqdSM7FpI9BA",
+    "decided_at": "2026-10-11T01:42:14.146573+00:00"
   },
   {
     "id": "979ca720",
     "slot_key": "2026-10-11 21:30",
     "slot_iso": "2026-10-12T01:30:00+00:00",
     "slot_label": "Sun Oct 11, 9:30 PM",
-    "post_type": "trial",
+    "post_type": "regular",
     "item_id": "pr-make-noise",
     "category": "sexual_wellness",
     "clip_id": "clip44",
     "cta": 1,
     "mode": "exploit",
     "seconds": 7.31,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037721",
       "title": "Downtempo Delights (Lofi Hip-hop)",
@@ -1371,7 +1375,8 @@
       "genre": "hiphop"
     },
     "msg_id": 127,
-    "file_id": "BAACAgEAAxkDAAN_asqlRXgdd5yMl8VHYKumPVkJJjIAAkUHAALPoFlGJgWZ93irhNg9BA"
+    "file_id": "BAACAgEAAxkDAAN_asqlRXgdd5yMl8VHYKumPVkJJjIAAkUHAALPoFlGJgWZ93irhNg9BA",
+    "decided_at": "2026-10-11T01:42:14.146573+00:00"
   },
   {
     "id": "34de9ffc",
@@ -1385,7 +1390,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 4.64,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-489246",
       "title": "Back 2 UR",
@@ -1399,7 +1404,13 @@
       "genre": "chillout"
     },
     "msg_id": 128,
-    "file_id": "BAACAgEAAxkDAAOAasqlW8I1S2axW191QJbE9357XyoAAkYHAALPoFlGTYzUbb7AQfc9BA"
+    "file_id": "BAACAgEAAxkDAAOAasqlW8I1S2axW191QJbE9357XyoAAkYHAALPoFlGTYzUbb7AQfc9BA",
+    "feedback": [
+      "dont like this topic."
+    ],
+    "decided_at": "2026-10-11T01:42:14.146573+00:00",
+    "needs_replacement": false,
+    "replaced_by": "50069e07"
   },
   {
     "id": "216e76ab",
@@ -1721,7 +1732,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 8.21,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384092",
       "title": "Such a place!",
@@ -1736,6 +1747,36 @@
     },
     "msg_id": 143,
     "file_id": "BAACAgEAAxkDAAOPasron-3JC5wWTsHMRCU-a3rTlhUAApsHAALPoFlGTICdXxgB59Y9BA",
-    "replaces": "49a8afc6"
+    "replaces": "49a8afc6",
+    "decided_at": "2026-10-11T01:42:14.146573+00:00"
+  },
+  {
+    "id": "50069e07",
+    "slot_key": "2026-10-12 09:30",
+    "slot_iso": "2026-10-12T13:30:00+00:00",
+    "slot_label": "Mon Oct 12, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-male-g-spot",
+    "category": "anatomy",
+    "clip_id": "clip43",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 11.63,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2037757",
+      "title": "Density (Background Ambient Techno)",
+      "creator": "Moonwalk",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2037757/mp32/",
+      "source": "jamendo",
+      "duration_ms": 272000,
+      "page": "https://www.jamendo.com/track/2037757",
+      "genre": "dance"
+    },
+    "msg_id": 147,
+    "file_id": "BAACAgEAAxkDAAOTasrpwOU8fexWAlL-kRmTLYHcSiwAAp4HAALPoFlGRPUjpZeL-wk9BA",
+    "replaces": "34de9ffc"
   }
 ]
