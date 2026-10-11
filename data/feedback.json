@@ -176,5 +176,13 @@
     "slot": "2026-10-12 09:30",
     "text": "dont like this topic.",
     "via": "dashboard"
+  },
+  {
+    "at": "2026-10-11T01:45:07.791524+00:00",
+    "item_id": "pr-release-often",
+    "clip_id": "clip17",
+    "slot": "2026-10-13 21:30",
+    "text": "i dont want text pop ups to occur above the title on this particular clip",
+    "via": "dashboard"
   }
 ]
