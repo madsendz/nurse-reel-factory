@@ -1275,7 +1275,7 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 9.46,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2037757",
       "title": "Density (Background Ambient Techno)",
@@ -1290,7 +1290,8 @@
     },
     "msg_id": 124,
     "file_id": "BAACAgEAAxkDAAN8asqk47f40m2X81HnfL8cLNbPFFoAAkIHAALPoFlGdhlpIdG_kzg9BA",
-    "decided_at": "2026-10-11T01:42:14.146573+00:00"
+    "decided_at": "2026-10-11T01:42:14.146573+00:00",
+    "permalink": "https://www.instagram.com/reel/DeXJgcUgPRq/"
   },
   {
     "id": "d8a725ba",
