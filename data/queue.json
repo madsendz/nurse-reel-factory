@@ -1745,7 +1745,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 8.21,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-384092",
       "title": "Such a place!",
@@ -1761,7 +1761,8 @@
     "msg_id": 143,
     "file_id": "BAACAgEAAxkDAAOPasron-3JC5wWTsHMRCU-a3rTlhUAApsHAALPoFlGTICdXxgB59Y9BA",
     "replaces": "49a8afc6",
-    "decided_at": "2026-10-11T01:42:14.146573+00:00"
+    "decided_at": "2026-10-11T01:42:14.146573+00:00",
+    "permalink": "https://www.instagram.com/reel/DeWxb2SgsVW/"
   },
   {
     "id": "50069e07",
