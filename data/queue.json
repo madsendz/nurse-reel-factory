@@ -1245,7 +1245,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.33,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1922534",
       "title": "Luxury Hip-Hop",
@@ -1260,7 +1260,8 @@
     },
     "msg_id": 123,
     "file_id": "BAACAgEAAxkDAAN7asqkxNQvrdKSY87IuMKXduElxKsAAkEHAALPoFlGTQABNmnEVERUPQQ",
-    "decided_at": "2026-10-11T01:42:14.146573+00:00"
+    "decided_at": "2026-10-11T01:42:14.146573+00:00",
+    "permalink": "https://www.instagram.com/reel/DeW7w_Dic4E/"
   },
   {
     "id": "b4a1da39",
