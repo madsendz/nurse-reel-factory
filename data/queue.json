@@ -1365,7 +1365,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 7.31,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2037721",
       "title": "Downtempo Delights (Lofi Hip-hop)",
@@ -1380,7 +1380,8 @@
     },
     "msg_id": 127,
     "file_id": "BAACAgEAAxkDAAN_asqlRXgdd5yMl8VHYKumPVkJJjIAAkUHAALPoFlGJgWZ93irhNg9BA",
-    "decided_at": "2026-10-11T01:42:14.146573+00:00"
+    "decided_at": "2026-10-11T01:42:14.146573+00:00",
+    "permalink": "https://www.instagram.com/reel/DeYDzLjjHae/"
   },
   {
     "id": "34de9ffc",
