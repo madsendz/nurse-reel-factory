@@ -6,12 +6,12 @@ Judged reels: **6** · score = link clicks first, then views/shares/saves
 
 | Score | Type | Clicks | Views | Shares | Topic | Clip | Posted |
 |---|---|---|---|---|---|---|---|
-| +1.19 | regular | 1410.2 | 30450 | 49 | [nw-cardio-erections](https://www.instagram.com/reel/DeUkq0XEyxf/) | clip32 | 2026-10-10 |
-| +1.00 | trial | 580.0 | 521265 | 60 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
-| -0.26 | regular | 508.6 | 39008 | 10 | [nw-sperm-months](https://www.instagram.com/reel/DeR_4RIAi7e/) | clip27 | 2026-10-09 |
-| -0.34 | regular | 448.1 | 47984 | 15 | [nw-faked-it](https://www.instagram.com/reel/DeRn3TnjUta/) | clip19 | 2026-10-09 |
-| -0.59 | regular | 670.0 | 21616 | 1 | [nw-sti-no-symptoms](https://www.instagram.com/reel/DeSse8yE5ne/) | clip57 | 2026-10-09 |
-| -1.00 | trial | 311.0 | 22058 | 2 | [pr-precum](https://www.instagram.com/reel/DeQVaYkDwQw/) | clip35 | 2026-10-09 |
+| +1.19 | regular | 1410.2 | 30488 | 49 | [nw-cardio-erections](https://www.instagram.com/reel/DeUkq0XEyxf/) | clip32 | 2026-10-10 |
+| +1.00 | trial | 580.0 | 523262 | 60 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
+| -0.26 | regular | 508.6 | 39035 | 10 | [nw-sperm-months](https://www.instagram.com/reel/DeR_4RIAi7e/) | clip27 | 2026-10-09 |
+| -0.34 | regular | 448.1 | 48010 | 15 | [nw-faked-it](https://www.instagram.com/reel/DeRn3TnjUta/) | clip19 | 2026-10-09 |
+| -0.59 | regular | 670.0 | 21634 | 1 | [nw-sti-no-symptoms](https://www.instagram.com/reel/DeSse8yE5ne/) | clip57 | 2026-10-09 |
+| -1.00 | trial | 311.0 | 22063 | 2 | [pr-precum](https://www.instagram.com/reel/DeQVaYkDwQw/) | clip35 | 2026-10-09 |
 
 ## Hook styles
 
