@@ -644,7 +644,11 @@ clips:
   drive_id: 1VwkeHzCyYF0mZGLtlIIvsHA-QnjeEqN-
   name: Facetune7F2ADC8A-421A-46AA-B579-0EF5E2E4AB39.MOV
   status: active
-  events_manual: [{t: 4.4, dir: down, x: 0.5, y: 0.85}]
+  events_manual:
+  - t: 4.4
+    dir: down
+    x: 0.5
+    y: 0.85
   point: ''
   zone:
     x: 0.33
@@ -1880,7 +1884,11 @@ clips:
   name: a96f9b2c110c46ff98e616f77fd02bfb.MP4
   status: active
   title_y: 0.52
-  events_manual: [{t: 5.2, dir: down, x: 0.3, y: 0.88}]
+  events_manual:
+  - t: 5.2
+    dir: down
+    x: 0.3
+    y: 0.88
   point: ''
   zone:
     x: 0.33
@@ -2092,7 +2100,11 @@ clips:
   drive_id: 18XKyY7igJpRn1-psFWu1NqhEbyedpHHe
   name: 320e7c6d10f2466d850479f005a5ba9b.MP4
   status: active
-  events_manual: [{t: 3.5, dir: down, x: 0.3, y: 0.85}]
+  events_manual:
+  - t: 3.5
+    dir: down
+    x: 0.3
+    y: 0.85
   point: ''
   zone:
     x: 0.33
@@ -2188,7 +2200,11 @@ clips:
   drive_id: 1ll_vpgCbUs1_UnxeOX_nuHjnLvMOEkLe
   name: f049404cb91e4b6b977ad19c400f320b.MP4
   status: active
-  events_manual: [{t: 4, dir: down, x: 0.3, y: 0.85}]
+  events_manual:
+  - t: 4
+    dir: down
+    x: 0.3
+    y: 0.85
   point: ''
   zone:
     x: 0.08
@@ -4323,7 +4339,19 @@ clips:
   drive_id: 1dsm6_jNNaOlZD-x5zIh4yg_GJR287e5v
   name: FacetuneA1E108BE-6373-421F-9A47-7528FC03A193.MOV
   status: active
-  events_manual: [{t: 1.62, dir: up, x: 0.756, y: 0.221}, {t: 3.88, dir: up, x: 0.296, y: 0.218}, {t: 6.75, dir: center, x: 0.543, y: 0.587}]
+  events_manual:
+  - t: 1.62
+    dir: up
+    x: 0.756
+    y: 0.221
+  - t: 3.88
+    dir: up
+    x: 0.296
+    y: 0.218
+  - t: 6.75
+    dir: center
+    x: 0.543
+    y: 0.587
   point: ''
   zone:
     x: 0.05
@@ -4484,7 +4512,11 @@ clips:
   drive_id: 1tLyNZgAupAALRgfa4Bh9k9lbJIEti0hT
   name: Facetune37BD25B6-316B-4F73-8820-65881B47D423.MOV
   status: active
-  events_manual: [{t: 4.5, dir: up, x: 0.819, y: 0.253}]
+  events_manual:
+  - t: 4.5
+    dir: up
+    x: 0.819
+    y: 0.253
   point: ''
   zone:
     x: 0.05
@@ -4891,7 +4923,11 @@ clips:
   drive_id: 1dGprv3QicbR9lchIiqXwQ0zS0N6sfCXp
   name: video.mov
   status: active
-  events_manual: [{t: 3.88, dir: up, x: 0.137, y: 0.265}]
+  events_manual:
+  - t: 3.88
+    dir: up
+    x: 0.137
+    y: 0.265
   point: ''
   zone:
     x: 0.05
@@ -5781,7 +5817,19 @@ clips:
   drive_id: 1YYbRcU0tZbwMkq1m78VrITwwI3oe2QTI
   name: Facetune582A3ECF-ECAE-4F1C-A7B4-C0E88E0A00DC.MOV
   status: active
-  events_manual: [{t: 0.9, dir: up, x: 0.8, y: 0.19}, {t: 3.5, dir: up, x: 0.38, y: 0.18}, {t: 5.9, dir: center, x: 0.5, y: 0.58}]
+  events_manual:
+  - t: 0.9
+    dir: up
+    x: 0.8
+    y: 0.19
+  - t: 3.5
+    dir: up
+    x: 0.38
+    y: 0.18
+  - t: 5.9
+    dir: center
+    x: 0.5
+    y: 0.58
   point: ''
   zone:
     x: 0.08
@@ -5902,7 +5950,15 @@ clips:
   drive_id: 1OW64UsWGgvDbtgbSbCJMKHwdED8qAuB9
   name: IMG_2791.mov
   status: active
-  events_manual: [{t: 3.25, dir: up, x: 0.036, y: 0.264}, {t: 5.5, dir: up, x: 0.949, y: 0.254}]
+  events_manual:
+  - t: 3.25
+    dir: up
+    x: 0.036
+    y: 0.264
+  - t: 5.5
+    dir: up
+    x: 0.949
+    y: 0.254
   point: ''
   zone:
     x: 0.05
@@ -6994,7 +7050,15 @@ clips:
   drive_id: 1rwdb8Qmam5x1YPr5K9opGfGoG25j6Yy1
   name: IMG_2791.MOV
   status: active
-  events_manual: [{t: 0.6, dir: up, x: 0.94, y: 0.25}, {t: 3.8, dir: down, x: 0.5, y: 0.85}]
+  events_manual:
+  - t: 0.6
+    dir: up
+    x: 0.94
+    y: 0.25
+  - t: 3.8
+    dir: down
+    x: 0.5
+    y: 0.85
   point: ''
   zone:
     x: 0.05
@@ -7095,7 +7159,11 @@ clips:
   drive_id: 1vDc-LbojorIiGPmjS_SmbGzzJ-ZN5OJk
   name: 52b080873bed4850bdad8ded14b2bbe6.MP4
   status: active
-  events_manual: [{t: 0.5, dir: up, x: 0.2, y: 0.15}]
+  events_manual:
+  - t: 0.5
+    dir: up
+    x: 0.2
+    y: 0.15
   point: ''
   zone:
     x: 0.05
@@ -7929,7 +7997,11 @@ clips:
   drive_id: 1ZzDRL9oLjfhSzGugW1uOUBnNKMd0cEKd
   name: 057c0b05a6af40879200b41976884f41.MP4
   status: active
-  events_manual: [{t: 0, dir: up, x: 0.071, y: 0.309}]
+  events_manual:
+  - t: 0
+    dir: up
+    x: 0.071
+    y: 0.309
   point: ''
   zone:
     x: 0.33
@@ -11139,7 +11211,11 @@ clips:
   drive_id: 10lFXbW2-vAxSjU4_w3rQreUIJE5eCP5p
   name: a84cba64982b4436bece551ac0a10d30.MP4
   status: active
-  events_manual: [{t: 5.62, dir: up, x: 0.17, y: 0.418}]
+  events_manual:
+  - t: 5.62
+    dir: up
+    x: 0.17
+    y: 0.418
   point: ''
   zone:
     x: 0.33
@@ -11270,7 +11346,11 @@ clips:
   drive_id: 1bjsp-S7aBkouvatq7hZvhl1RO-eNFEuO
   name: 77c87b31a930426887637c7fba0ec10b.MP4
   status: active
-  events_manual: [{t: 5.6, dir: center, x: 0.25, y: 0.75}]
+  events_manual:
+  - t: 5.6
+    dir: center
+    x: 0.25
+    y: 0.75
   point: ''
   zone:
     x: 0.33
@@ -11462,7 +11542,11 @@ clips:
   drive_id: 1osLbrfc18n8u1BiIchAYg8cu-yeqCxh-
   name: 68869a468e7a4b0aa6bf49f4b953d029.mp4
   status: active
-  events_manual: [{t: 1, dir: up, x: 0.2, y: 0.15}]
+  events_manual:
+  - t: 1
+    dir: up
+    x: 0.2
+    y: 0.15
   point: ''
   zone:
     x: 0.05
