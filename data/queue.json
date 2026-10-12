@@ -1429,7 +1429,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 8.21,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-181806",
       "title": "Alexandra 02",
@@ -1443,7 +1443,13 @@
       "genre": "pop"
     },
     "msg_id": 129,
-    "file_id": "BAACAgEAAxkDAAOBasqle-wQgnK6lQ4bC74qMA1JR0kAAkcHAALPoFlGPc56gf7RlB49BA"
+    "file_id": "BAACAgEAAxkDAAOBasqle-wQgnK6lQ4bC74qMA1JR0kAAkcHAALPoFlGPc56gf7RlB49BA",
+    "feedback": [
+      "used this clip too much lately"
+    ],
+    "decided_at": "2026-10-12T13:26:54.598535+00:00",
+    "needs_replacement": false,
+    "replaced_by": "fe2544b2"
   },
   {
     "id": "9b33ada1",
@@ -1457,7 +1463,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 8.39,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2026412",
       "title": "In For Future Bass",
@@ -1471,7 +1477,13 @@
       "genre": "rnb"
     },
     "msg_id": 130,
-    "file_id": "BAACAgEAAxkDAAOCasqlk2J1bBPZ01qS7dEzcvg55u0AAkgHAALPoFlGG3BGlLbqBiw9BA"
+    "file_id": "BAACAgEAAxkDAAOCasqlk2J1bBPZ01qS7dEzcvg55u0AAkgHAALPoFlGG3BGlLbqBiw9BA",
+    "feedback": [
+      "skip this topic."
+    ],
+    "decided_at": "2026-10-12T13:26:54.598535+00:00",
+    "needs_replacement": false,
+    "replaced_by": "6449e93b"
   },
   {
     "id": "21895b34",
@@ -1781,7 +1793,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 11.63,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2037757",
       "title": "Density (Background Ambient Techno)",
@@ -1796,7 +1808,8 @@
     },
     "msg_id": 147,
     "file_id": "BAACAgEAAxkDAAOTasrpwOU8fexWAlL-kRmTLYHcSiwAAp4HAALPoFlGRPUjpZeL-wk9BA",
-    "replaces": "34de9ffc"
+    "replaces": "34de9ffc",
+    "decided_at": "2026-10-12T13:26:54.598535+00:00"
   },
   {
     "id": "330d6c91",
@@ -2023,5 +2036,63 @@
     },
     "msg_id": 161,
     "file_id": "BAACAgEAAxkDAAOhasxFrXCA9NpBTYsJ1cWuYoFu6_UAAr8HAAIGhGlGtfYVl4TP5Mc9BA"
+  },
+  {
+    "id": "fe2544b2",
+    "slot_key": "2026-10-12 11:00",
+    "slot_iso": "2026-10-12T15:00:00+00:00",
+    "slot_label": "Mon Oct 12, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "pr-male-g-spot",
+    "category": "anatomy",
+    "clip_id": "clip31",
+    "cta": 2,
+    "mode": "explore",
+    "seconds": 11.76,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1945492",
+      "title": "Do not disturb",
+      "creator": "zero-project",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1945492/mp32/",
+      "source": "jamendo",
+      "duration_ms": 280000,
+      "page": "https://www.jamendo.com/track/1945492",
+      "genre": "chillout"
+    },
+    "msg_id": 166,
+    "file_id": "BAACAgEAAxkDAAOmaszgYsWAGx8vPUl8xW44qgWUAAE1AALaCAACBoRpRpFKhfAZPYyHPQQ",
+    "replaces": "216e76ab"
+  },
+  {
+    "id": "6449e93b",
+    "slot_key": "2026-10-12 13:00",
+    "slot_iso": "2026-10-12T17:00:00+00:00",
+    "slot_label": "Mon Oct 12, 1:00 PM",
+    "post_type": "regular",
+    "item_id": "nw-blue-balls",
+    "category": "mens_health",
+    "clip_id": "clip65",
+    "cta": 2,
+    "mode": "exploit",
+    "seconds": 8.1,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1182292",
+      "title": "Spasm",
+      "creator": "Suedey",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1182292/mp32/",
+      "source": "jamendo",
+      "duration_ms": 208000,
+      "page": "https://www.jamendo.com/track/1182292",
+      "genre": "hiphop"
+    },
+    "msg_id": 167,
+    "file_id": "BAACAgEAAxkDAAOnaszghWYvWvLoYIFoNoWP0VwrB0AAAtsIAAIGhGlGq3-UUUHP_wQ9BA",
+    "replaces": "9b33ada1"
   }
 ]
