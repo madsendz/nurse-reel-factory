@@ -1497,7 +1497,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 8.3,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1129271",
       "title": "Energy",
@@ -1511,7 +1511,8 @@
       "genre": "electronic"
     },
     "msg_id": 131,
-    "file_id": "BAACAgEAAxkDAAODasqlrBW7gGoMyxQMEPWuEKS_yYkAAkkHAALPoFlGldvVVEq0E6Q9BA"
+    "file_id": "BAACAgEAAxkDAAODasqlrBW7gGoMyxQMEPWuEKS_yYkAAkkHAALPoFlGldvVVEq0E6Q9BA",
+    "decided_at": "2026-10-12T17:00:36.453429+00:00"
   },
   {
     "id": "b6344284",
@@ -1525,7 +1526,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 7.31,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1199532",
       "title": "Stefan The Poker Player",
@@ -1539,7 +1540,8 @@
       "genre": "electronic"
     },
     "msg_id": 132,
-    "file_id": "BAACAgEAAxkDAAOEasqlwpLZCLq9FvpUL1KAkdOLP58AAkoHAALPoFlGXxrV47o75SQ9BA"
+    "file_id": "BAACAgEAAxkDAAOEasqlwpLZCLq9FvpUL1KAkdOLP58AAkoHAALPoFlGXxrV47o75SQ9BA",
+    "decided_at": "2026-10-12T17:00:36.453429+00:00"
   },
   {
     "id": "ae4464f9",
@@ -1553,7 +1555,7 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 6.47,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037627",
       "title": "We Made It (Soft Drum And Bass)",
@@ -1567,7 +1569,8 @@
       "genre": "electronic"
     },
     "msg_id": 133,
-    "file_id": "BAACAgEAAxkDAAOFasql2JlfCywv3xz3-BgTL-y8o0EAAksHAALPoFlGewapDn6L6Eg9BA"
+    "file_id": "BAACAgEAAxkDAAOFasql2JlfCywv3xz3-BgTL-y8o0EAAksHAALPoFlGewapDn6L6Eg9BA",
+    "decided_at": "2026-10-12T17:00:36.453429+00:00"
   },
   {
     "id": "23999a49",
@@ -2083,7 +2086,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 8.1,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-1182292",
       "title": "Spasm",
@@ -2098,6 +2101,8 @@
     },
     "msg_id": 167,
     "file_id": "BAACAgEAAxkDAAOnaszghWYvWvLoYIFoNoWP0VwrB0AAAtsIAAIGhGlGq3-UUUHP_wQ9BA",
-    "replaces": "9b33ada1"
+    "replaces": "9b33ada1",
+    "decided_at": "2026-10-12T17:00:36.453429+00:00",
+    "permalink": "https://www.instagram.com/reel/DeZuTq2AIvW/"
   }
 ]
