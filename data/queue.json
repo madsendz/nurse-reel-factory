@@ -2052,7 +2052,7 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 11.76,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-1945492",
       "title": "Do not disturb",
@@ -2067,7 +2067,9 @@
     },
     "msg_id": 166,
     "file_id": "BAACAgEAAxkDAAOmaszgYsWAGx8vPUl8xW44qgWUAAE1AALaCAACBoRpRpFKhfAZPYyHPQQ",
-    "replaces": "216e76ab"
+    "replaces": "216e76ab",
+    "decided_at": "2026-10-12T15:00:39.379701+00:00",
+    "permalink": "https://www.instagram.com/reel/DeZgopTigiB/"
   },
   {
     "id": "6449e93b",
