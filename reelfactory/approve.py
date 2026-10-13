@@ -430,13 +430,18 @@ def make_replacements(cfg) -> int:
 
 
 def _redo_choice(cfg, e, bank, clips, hist, dt, rng):
-    """None = normal fresh pick. Otherwise keep part of the old reel (dashboard redo buttons)."""
+    """Dashboard redo buttons keep part of the old reel. A plain note (no redo) keeps the SAME topic,
+    clip and music (Nick, 2026-10-13): the new version just picks up the current clip settings /
+    fixes, instead of throwing his note away with a random new pick."""
     redo = e.get("redo")
-    if not redo:
-        return None
     item = next((i for i in bank if i["id"] == e["item_id"]), None)
     clip = next((c for c in clips if c["id"] == e["clip_id"]), None)
     now = dt.astimezone(timezone.utc)
+    if not redo:
+        if item and clip:
+            return {"item": item, "clip": clip, "cta": int(e.get("cta") or 0), "mode": "note",
+                    "music": e.get("music")}
+        return None
     try:
         if redo == "swap_music" and item and clip:
             return {"item": item, "clip": clip, "cta": int(e.get("cta") or 0), "mode": e.get("mode", "redo"),
