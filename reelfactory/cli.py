@@ -384,6 +384,12 @@ def cmd_replies(cfg, args):
     _summary(f"Sent {n} replacement reel(s) to Telegram.")
 
 
+def cmd_clip_previews(cfg, args):
+    from .previews import push_previews
+    n = push_previews(cfg, force=args.force, only=args.clip)
+    print(f"[previews] {n} preview(s) uploaded to the relay")
+
+
 def cmd_report(cfg, args):
     posts = load_posts()
     s = score_posts(posts, cfg)
@@ -422,6 +428,9 @@ def main(argv=None):
     p.add_argument("--clip", help="only use this clip id")
     p.add_argument("--item", help="only use this topic id")
     sub.add_parser("report")
+    p = sub.add_parser("clip-previews")
+    p.add_argument("--force", action="store_true", help="remake every preview, not just the missing ones")
+    p.add_argument("--clip", help="only this clip id")
     p = sub.add_parser("queue")
     p.add_argument("--days-ahead", default="", help="N = fill the next N days, 0 = rest of today; empty = config queue.days_ahead")
     p.add_argument("--extra", default="", help='extra reels today, e.g. "regular@21:30,trial@22:30"')
@@ -433,7 +442,7 @@ def main(argv=None):
     args = ap.parse_args(argv)
     cfg = load_config()
     {"sync-clips": cmd_sync_clips, "auto-tag": cmd_auto_tag, "refresh": cmd_refresh, "post": cmd_post, "preview": cmd_preview,
-     "report": cmd_report, "ideas": cmd_ideas, "queue": cmd_queue, "approvals": cmd_approvals,
+     "report": cmd_report, "ideas": cmd_ideas, "queue": cmd_queue, "approvals": cmd_approvals, "clip-previews": cmd_clip_previews,
      "replies": cmd_replies}[args.cmd](cfg, args)
     if args.cmd in ("post", "queue", "replies", "refresh"):
         try:  # keep the dashboard current
