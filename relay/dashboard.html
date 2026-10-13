@@ -271,7 +271,7 @@ function card(e, old){
         <button class="btn bad" data-act="skip" data-id="${e.id}" ${e.status==="skipped"?"disabled":""}>❌ Skip</button>
         <button class="btn" data-act="post_now" data-id="${e.id}" ${e.status!=="approved"?"disabled title='Approve it first'":""}>🚀 Post now</button>
       </div>
-      <div><textarea data-note="${e.id}" placeholder="Notes (text placement, timing…). Sending notes skips this reel and makes a new version for you to approve."></textarea>
+      <div><textarea data-note="${e.id}" placeholder="Notes (text placement, timing…). Sending notes skips this reel and makes a new version with the SAME topic + clip. For box placement/timing, set the clip on the Clips tab first — the new version uses it."></textarea>
         <div class="actions" style="margin-top:6px"><button class="btn primary" data-act="note" data-id="${e.id}">Send notes + new version</button></div></div>
       <div class="actions"><span class="hint" style="align-self:center">Redo:</span>
         <button class="btn sm" data-act="swap_music" data-id="${e.id}">🎵 New music</button>
@@ -386,7 +386,7 @@ document.addEventListener("click", async ev=>{
     if(REDO[kind] && !confirm(`Make a new version with ${REDO[kind]}? This one will be skipped.`)) return;
     if(busy) return; busy=true; b.disabled=true;
     try{ const r=await api("/api/action",{method:"POST",body:JSON.stringify(body)});
-      const msg={approve:"Approved ✅", skip:"Skipped", note:"Notes sent — new version coming (~10 min)", post_now:"Posting now 🚀 (a few minutes)", move:"Moved — approve it again when ready", swap_type:"Type switched — approve it again when ready"}[kind] || "New version coming (~10 min)";
+      const msg={approve:"Approved ✅", skip:"Skipped", note:"Notes sent — new version (same topic + clip) coming (~10 min)", post_now:"Posting now 🚀 (a few minutes)", move:"Moved — approve it again when ready", swap_type:"Type switched — approve it again when ready"}[kind] || "New version coming (~10 min)";
       toast(msg + (r.job==="queued"?" · will start within 5 min":""));
       if(kind==="note"){ const ta=document.querySelector(`textarea[data-note="${id}"]`); if(ta) ta.value=""; }
       await load(true);
