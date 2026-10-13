@@ -216,5 +216,13 @@
     "slot": "2026-10-12 09:30",
     "text": "give me a new one",
     "via": "dashboard"
+  },
+  {
+    "at": "2026-10-13T14:34:52.292240+00:00",
+    "item_id": "pr-morning-wood",
+    "clip_id": "clip62",
+    "slot": "2026-10-13 11:00",
+    "text": "the first text reveals too fast and waits too long for the second to pop up",
+    "via": "dashboard"
   }
 ]
