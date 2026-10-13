@@ -44,6 +44,13 @@ export default {
       const h = { "content-type": "video/mp4", "content-length": String(v.byteLength), "cache-control": "no-store" };
       return new Response(req.method === "HEAD" ? null : v, { headers: h });
     }
+    // clip previews for the dashboard's Clips tab (small 9:16 copies, uploaded by the jobs, kept for good)
+    if (p === "/clips" && req.method === "GET") return bearer(req, c) ? Response.json(await listIds(env, "c:")) : no();
+    if (p.startsWith("/clip/") && req.method === "POST") {
+      if (!bearer(req, c)) return no();
+      await env.KV.put("c:" + p.slice(6).replace(/[^A-Za-z0-9_-]/g, ""), await req.arrayBuffer());
+      return new Response("ok");
+    }
     if (p === "/setup") {
       const r = await c.tg("setWebhook", { url: url.origin + "/tg", secret_token: c.secret, allowed_updates: ["message", "callback_query"] });
       return Response.json({ webhook_set: r.ok, info: r.description });
@@ -58,7 +65,8 @@ export default {
     if (p === "/" || p === "/app") return new Response(DASHBOARD, { headers: { "content-type": "text/html; charset=utf-8", "cache-control": "no-store" } });
     if (p.startsWith("/api/")) {
       if (!(await loggedIn(req, c))) return Response.json({ error: "login" }, { status: 401 });
-      if (p === "/api/state") return Response.json(await liveState(env), { headers: { "cache-control": "no-store" } });
+      if (p === "/api/state") return Response.json(await dashState(env), { headers: { "cache-control": "no-store" } });
+      if (p.startsWith("/api/clip/")) return clipVideo(p.split("/").pop().replace(/\.mp4$/, ""), env, req);
       if (p === "/api/action" && req.method === "POST") return dashboardAction(await req.json(), env, c);
       if (p.startsWith("/api/video/")) return video(p.split("/").pop(), env, c, req);
     }
@@ -175,6 +183,28 @@ async function liveState(env) {
   }
   return st;
 }
+async function listIds(env, prefix) {
+  const out = [];
+  let cursor;
+  do {
+    const l = await env.KV.list({ prefix, cursor });
+    for (const k of l.keys) out.push(k.name.slice(prefix.length));
+    cursor = l.list_complete ? null : l.cursor;
+  } while (cursor);
+  return out;
+}
+// state for the page: entries + clips, both with the changes made on the dashboard since the last push
+async function dashState(env) {
+  const st = await liveState(env);
+  const gen = Date.parse(st.generated_at || 0) || 0;
+  const ov = JSON.parse((await env.KV.get("clipov")) || "{}");
+  for (const cl of st.clips || []) {
+    const o = ov[cl.id];
+    if (o && o.at > gen) Object.assign(cl, o.patch, { pending_sync: true });
+  }
+  st.clip_previews = await listIds(env, "c:");
+  return st;
+}
 async function overlay(env, id, patch) {
   const ov = JSON.parse((await env.KV.get("overlay")) || "{}");
   const cut = Date.now() - 3 * 86400000;
@@ -248,8 +278,52 @@ async function topicAction(a, env) {
   return Response.json({ ok: true });
 }
 
+// Clips tab: where/when the boxes pop, title height, trim — saved to clips.yaml by the next job
+async function clipAction(a, env, c) {
+  const st = JSON.parse((await env.KV.get("state")) || '{"entries":[]}');
+  const cl = (st.clips || []).find((x) => x.id === a.clip_id);
+  if (!cl) return Response.json({ ok: false, error: "clip not found" }, { status: 404 });
+  const num = (v, lo, hi) => (v === null || v === undefined || v === "" || isNaN(Number(v)) ? null : Math.min(hi, Math.max(lo, Number(v))));
+  const patch = {};
+  if ("events" in a) {
+    patch.events_manual = a.events === null ? null : (Array.isArray(a.events) ? a.events : []).slice(0, 6).map((e) => ({
+      t: +(num(e.t, 0, 600) ?? 0).toFixed(2), dir: ["up", "center", "down"].includes(e.dir) ? e.dir : "center",
+      x: +(num(e.x, 0, 1) ?? 0.5).toFixed(3), y: +(num(e.y, 0, 1) ?? 0.6).toFixed(3),
+    })).sort((p, q) => p.t - q.t);
+  }
+  if ("title_y" in a) patch.title_y = num(a.title_y, 0.1, 0.9);
+  if ("start" in a) patch.start = num(a.start, 0, 600) || 0;
+  if ("end" in a) patch.end = num(a.end, 0.5, 600);
+  const key = "a:" + new Date().toISOString() + ":" + Math.random().toString(36).slice(2, 6);
+  await env.KV.put(key, JSON.stringify({ kind: "clip_edit", clip_id: a.clip_id, patch, at: new Date().toISOString() }), { expirationTtl: 14 * 86400 });
+  const ov = JSON.parse((await env.KV.get("clipov")) || "{}");
+  const cut = Date.now() - 3 * 86400000;
+  for (const k of Object.keys(ov)) if (ov[k].at < cut) delete ov[k];
+  ov[a.clip_id] = { at: Date.now(), patch: { ...((ov[a.clip_id] || {}).patch || {}), ...patch } };
+  await env.KV.put("clipov", JSON.stringify(ov));
+  if (st.chat_id) await c.tg("sendMessage", { chat_id: st.chat_id, text: `✏️ ${a.clip_id}: settings saved from the dashboard — used from the next render on.` });
+  return Response.json({ ok: true });
+}
+
+async function clipVideo(id, env, req) {
+  const v = await env.KV.get("c:" + id, "arrayBuffer");
+  if (!v) return new Response("no preview", { status: 404 });
+  const total = v.byteLength, range = req.headers.get("Range");
+  const h = new Headers({ "content-type": "video/mp4", "accept-ranges": "bytes", "cache-control": "private, max-age=86400" });
+  if (range) { // iPhone Safari needs 206 answers
+    const m = range.match(/bytes=(\d*)-(\d*)/);
+    const s = m && m[1] ? +m[1] : 0, e = Math.min(m && m[2] ? +m[2] : total - 1, total - 1);
+    h.set("content-range", `bytes ${s}-${e}/${total}`);
+    h.set("content-length", String(e - s + 1));
+    return new Response(v.slice(s, e + 1), { status: 206, headers: h });
+  }
+  h.set("content-length", String(total));
+  return new Response(v, { headers: h });
+}
+
 async function dashboardAction(a, env, c) {
   if (a && (a.kind === "topic_keep" || a.kind === "topic_toss") && a.item_id) return topicAction(a, env);
+  if (a && a.kind === "clip_edit" && a.clip_id) return clipAction(a, env, c);
   const kinds = ["approve", "skip", "note", "swap_music", "new_clip", "new_topic", "move", "post_now", "swap_type"];
   if (!a || !kinds.includes(a.kind) || !a.entry_id) return Response.json({ ok: false, error: "bad action" }, { status: 400 });
   const st = await liveState(env);
