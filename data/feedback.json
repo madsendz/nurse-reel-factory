@@ -224,5 +224,21 @@
     "slot": "2026-10-13 11:00",
     "text": "the first text reveals too fast and waits too long for the second to pop up",
     "via": "dashboard"
+  },
+  {
+    "at": "2026-10-13T14:39:44.533693+00:00",
+    "item_id": "pr-size-birth-month",
+    "clip_id": "clip71",
+    "slot": "2026-10-13 21:30",
+    "text": "this clip has been used too many times recently",
+    "via": "dashboard"
+  },
+  {
+    "at": "2026-10-13T14:39:44.533693+00:00",
+    "item_id": "nw-ick",
+    "clip_id": "clip87",
+    "slot": "2026-10-13 09:30",
+    "text": "this clip has 2 upward points plus one downward points. this should be 3 text boxes.",
+    "via": "dashboard"
   }
 ]

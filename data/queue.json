@@ -1587,7 +1587,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 14.03,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-384091",
       "title": "Lazy beach breaks",
@@ -1601,7 +1601,11 @@
       "genre": "lounge"
     },
     "msg_id": 134,
-    "file_id": "BAACAgEAAxkDAAOGasqmBU68kDyPD1yKuvSsx8hB5tAAAk0HAALPoFlGqobMTanRiaw9BA"
+    "file_id": "BAACAgEAAxkDAAOGasqmBU68kDyPD1yKuvSsx8hB5tAAAk0HAALPoFlGqobMTanRiaw9BA",
+    "feedback": [
+      "this clip has 2 upward points plus one downward points. this should be 3 text boxes."
+    ],
+    "decided_at": "2026-10-13T14:39:44.533693+00:00"
   },
   {
     "id": "d4453897",
@@ -1615,7 +1619,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.55,
-    "status": "skipped",
+    "status": "approved",
     "music": {
       "id": "jamendo-1206517",
       "title": "DJ Smallest - Chill",
@@ -1633,7 +1637,7 @@
     "feedback": [
       "the first text reveals too fast and waits too long for the second to pop up"
     ],
-    "decided_at": "2026-10-13T14:34:52.292240+00:00",
+    "decided_at": "2026-10-13T14:39:44.533693+00:00",
     "needs_replacement": false,
     "replaced_by": "74758c64"
   },
@@ -1838,7 +1842,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 8.21,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2176699",
       "title": "Relax Chill Lofi",
@@ -1853,7 +1857,12 @@
     },
     "msg_id": 149,
     "file_id": "BAACAgEAAxkDAAOVasrqYwdJeT1gLHFZ141_lujRjsAAAp8HAALPoFlG1lcVtaowaEE9BA",
-    "replaces": "8888e4be"
+    "replaces": "8888e4be",
+    "feedback": [
+      "this clip has been used too many times recently"
+    ],
+    "decided_at": "2026-10-13T14:39:44.533693+00:00",
+    "needs_replacement": true
   },
   {
     "id": "daf53ea9",
