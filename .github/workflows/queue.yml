@@ -12,6 +12,9 @@ on:
       extra:
         description: 'Extra test reels today, e.g. regular@21:30,trial@22:30 (leave empty for normal)'
         default: ""
+      rerender:
+        description: "yes = redraw every queued reel with the current look (same topic/clip/music, approvals kept)"
+        default: ""
 
 permissions:
   contents: write
@@ -35,7 +38,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12", cache: pip }
       - run: pip install -r requirements.txt && (command -v ffmpeg || brew install -q ffmpeg)
-      - run: python -m reelfactory queue --days-ahead "${{ inputs.days_ahead }}" --extra "${{ inputs.extra }}"
+      - run: python -m reelfactory queue --days-ahead "${{ inputs.days_ahead }}" --extra "${{ inputs.extra }}" --rerender "${{ inputs.rerender }}"
       - name: Save state
         if: always()
         run: |
