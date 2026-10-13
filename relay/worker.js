@@ -252,7 +252,7 @@ async function telegramWebhook(req, env, c, ctx) {
       await c.tg("sendMessage", { chat_id: msg.chat.id, reply_to_message_id: msg.message_id, text: "Got it 👍 notes saved for the next fixes." });
     } else {
       await c.tg("editMessageCaption", { chat_id: msg.chat.id, message_id: r.message_id, caption: setStatus(r.caption, "❌ skipped (your notes) — new version coming"), reply_markup: r.reply_markup });
-      await c.tg("sendMessage", { chat_id: msg.chat.id, reply_to_message_id: msg.message_id, text: "Got it 👍 notes saved. This one is skipped and a new version is coming (about 10 min). You'll approve it like the others." });
+      await c.tg("sendMessage", { chat_id: msg.chat.id, reply_to_message_id: msg.message_id, text: "Got it 👍 notes saved. This one is skipped and a new version with the same topic + clip is coming (about 10 min). If it's about where or when the boxes pop up, set that clip on the dashboard's Clips tab first — the new version uses it." });
       if (e) await overlay(env, e.id, { status: "skipped", needs_replacement: true, feedback: [...(e.feedback || []), msg.text] });
       await env.KV.put("needjob", "1", { expirationTtl: 86400 });
     }
@@ -345,7 +345,7 @@ async function dashboardAction(a, env, c) {
   if (a.kind === "note") {
     patch = { status: "skipped", needs_replacement: true, feedback: [...(e.feedback || []), rec.text] };
     statusText = "❌ skipped (your notes) — new version coming";
-    say = `📝 Notes from the dashboard:\n${rec.text}\n\nSkipped — a new version is coming (about 10 min).`;
+    say = `📝 Notes from the dashboard:\n${rec.text}\n\nSkipped — a new version with the same topic + clip is coming (about 10 min).`;
   }
   if (REDO[a.kind]) {
     patch = { status: "skipped", needs_replacement: true, redo: a.kind };
