@@ -85,10 +85,22 @@ def pick_next(bank: list[dict], clips: list[dict], posts: list[dict], cfg: dict,
     usable = [c for c in clips if c.get("status", "active") == "active"]
     if not usable:
         raise RuntimeError("No active clips in clips/clips.yaml — run sync-clips and tag them")
+    # Nick's rule (2026-10-13): every active clip gets used once before any clip is used again.
+    # Candidates = the clips with the fewest uses so far (posted + queued); among those, the ones whose
+    # pointing matches the topic's facts best, least-recently-used first, with a little randomness.
+    uses, last_use = {}, {}
+    for p in history:
+        cid = p.get("clip_id")
+        if cid:
+            uses[cid] = uses.get(cid, 0) + 1
+            last_use[cid] = max(last_use.get(cid, ""), p.get("posted_at") or "")
+    fewest = min(uses.get(c["id"], 0) for c in usable)
+    pool = [c for c in usable if uses.get(c["id"], 0) == fewest]
     recent_clips = [p.get("clip_id") for p in history[-pc.get("clip_cooldown_posts", 4):]]
-    fresh_clips = [c for c in usable if c["id"] not in recent_clips] or usable
-    fits = [c for c in fresh_clips if not c.get("categories") or item["category"] in c["categories"]] or fresh_clips
-    clip = max(fits, key=lambda c: _sample(est["clip_id"], c["id"], 0.0, rng) + clip_fit(item, c))
+    pool = [c for c in pool if c["id"] not in recent_clips] or pool
+    fits = [c for c in pool if not c.get("categories") or item["category"] in c["categories"]] or pool
+    order = sorted(fits, key=lambda c: last_use.get(c["id"], ""))  # oldest use first
+    clip = max(order, key=lambda c: round(clip_fit(item, c), 2) + rng.random() * 0.1 - 0.001 * order.index(c))
 
     # ---- CTA ----
     ctas = cfg["caption"]["ctas"]
