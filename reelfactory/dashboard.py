@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from .config import load_bank, load_json, load_posts
+from .config import load_bank, load_clips, load_json, load_posts
 
 KEEP = ["id", "slot_key", "slot_iso", "slot_label", "post_type", "status", "item_id", "clip_id", "category",
         "mode", "seconds", "msg_id", "file_id", "replaces", "replaced_by", "redo", "needs_replacement",
@@ -69,9 +69,22 @@ def build_state(cfg, q=None) -> dict:
         elif it.get("status") == "review" and it["id"].startswith("nw-"):
             review.append({"id": it["id"], "hook": it.get("hook"), "beats": it.get("beats", []),
                            "caption": it.get("caption"), "category": it.get("category")})
+    # clips: Nick's permanent settings (Clips tab) + how often each one has been used
+    uses = {}
+    for p in posts:
+        if p.get("clip_id"):
+            uses.setdefault(p["clip_id"], []).append(p.get("posted_at") or "")
+    clips_out = []
+    for c in load_clips():
+        u = sorted(x for x in uses.get(c["id"], []) if x)
+        clips_out.append({"id": c["id"], "status": c.get("status"), "duration": c.get("duration"),
+                          "title_y": c.get("title_y"), "start": c.get("start") or 0, "end": c.get("end"),
+                          "events_manual": c.get("events_manual"),
+                          "auto_events": [{"t": e.get("t"), "dir": e.get("dir")} for e in ((c.get("auto") or {}).get("events") or [])],
+                          "uses": len(u), "last_used": u[-1] if u else None})
     return {"generated_at": datetime.now(timezone.utc).isoformat(), "timezone": cfg.get("timezone", "America/New_York"),
             "chat_id": chat_id(cfg), "schedule": [{"time": t, "type": k} for t, k in _slots(cfg)],
-            "entries": entries, "clip_notes": notes,
+            "entries": entries, "clip_notes": notes, "clips": clips_out,
             "topics": {"counts": counts, "cooldown_days": days, "review": review}}
 
 
