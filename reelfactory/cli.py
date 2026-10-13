@@ -359,6 +359,10 @@ def cmd_preview(cfg, args):
 
 def cmd_queue(cfg, args):
     from . import approve
+    if str(args.rerender).strip().lower() in ("yes", "true", "1", "y"):
+        n = approve.rerender_pending(cfg)
+        _summary(f"Re-rendered {n} queued reel(s) with the current look.")
+        return
     if args.extra.strip():
         n = approve.add_extras(cfg, args.extra)
     else:
@@ -421,6 +425,7 @@ def main(argv=None):
     p = sub.add_parser("queue")
     p.add_argument("--days-ahead", default="", help="N = fill the next N days, 0 = rest of today; empty = config queue.days_ahead")
     p.add_argument("--extra", default="", help='extra reels today, e.g. "regular@21:30,trial@22:30"')
+    p.add_argument("--rerender", default="", help="yes = redraw every queued reel with the current look (same topic/clip/music)")
     sub.add_parser("approvals")
     sub.add_parser("replies")
     p = sub.add_parser("ideas")
