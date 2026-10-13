@@ -18,7 +18,7 @@ from zoneinfo import ZoneInfo
 import requests
 
 from . import picker as pk
-from .config import ROOT, OUT_DIR, load_bank, load_clips, load_json, load_posts, save_json
+from .config import ROOT, OUT_DIR, load_bank, load_clips, load_json, load_posts, save_clips, save_json
 
 QUEUE_PATH = ROOT / "data" / "queue.json"
 TG_STATE = ROOT / "data" / "telegram.json"
@@ -208,6 +208,20 @@ def _apply_dashboard_actions(cfg, q, by_id, st, fb) -> None:
             ts[a["item_id"]] = "active" if kind == "topic_keep" else "retired"
             save_json(TOPIC_STATUS_PATH, ts)
             print(f"[dashboard] topic {a['item_id']} -> {ts[a['item_id']]}")
+            continue
+        if kind == "clip_edit" and a.get("clip_id"):  # Clips tab: Nick's permanent settings for a clip
+            clips = load_clips()
+            cl = next((x for x in clips if x["id"] == a["clip_id"]), None)
+            if cl:
+                for k, v in (a.get("patch") or {}).items():
+                    if k not in ("events_manual", "title_y", "start", "end"):
+                        continue
+                    if v is None:
+                        cl.pop(k, None)  # back to the default / the bot's own detection
+                    else:
+                        cl[k] = v
+                save_clips(clips)
+                print(f"[dashboard] clip {a['clip_id']} settings saved: {a.get('patch')}")
             continue
         e = by_id.get(a.get("entry_id"))
         if not e or e.get("status") == "posted":
