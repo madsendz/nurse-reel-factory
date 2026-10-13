@@ -77,9 +77,11 @@ def clean_text(text: str, font: ImageFont.FreeTypeFont) -> str:
     for ch in text:
         if ch in _FALLBACK_CHARS and not _font_supports(font, ch):
             out.append(_FALLBACK_CHARS[ch])
+        elif _is_emoji(ch) and not _font_supports(font, ch):
+            continue  # text fonts have no emoji glyphs -> drop it instead of drawing a tofu box
         else:
             out.append(ch)
-    return "".join(out)
+    return re.sub(r"[ \t]{2,}", " ", "".join(out))
 
 
 def _wrap(draw: ImageDraw.ImageDraw, text: str, font, max_w: int) -> list[str]:
@@ -107,12 +109,37 @@ FONT_URLS = {
     "InstrumentSerif-Regular.ttf":
         "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Regular.ttf",
 }
-EMOJI_FONTS = ["/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf", "/usr/share/fonts/noto/NotoColorEmoji.ttf"]
+# Apple Color Emoji on the macOS runner (the look we want); Noto Color Emoji is the Linux fallback.
+EMOJI_FONTS = [
+    "/System/Library/Fonts/Apple Color Emoji.ttc",
+    "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf",
+    "/usr/share/fonts/noto/NotoColorEmoji.ttf",
+]
+EMOJI_SIZES = [160, 109, 96, 64, 48]  # bitmap emoji fonts only open at their built-in strike sizes
+
+
+def load_emoji_font():
+    """Return (font, px) for the first colour emoji font that opens and draws, else (None, 0)."""
+    for f in EMOJI_FONTS:
+        if not Path(f).exists():
+            continue
+        for px in EMOJI_SIZES:
+            try:
+                font = ImageFont.truetype(f, px)
+                tmp = Image.new("RGBA", (px * 2, px * 2), (0, 0, 0, 0))
+                ImageDraw.Draw(tmp).text((0, 0), "\U0001F600", font=font, embedded_color=True)
+                if tmp.getbbox():
+                    return font, px
+            except Exception:
+                continue
+    return None, 0
 
 
 def _is_emoji(ch: str) -> bool:
     o = ord(ch)
-    return o >= 0x1F000 or 0x2600 <= o <= 0x27BF or o in (0xFE0F, 0x200D) or 0x1F1E6 <= o <= 0x1F1FF
+    return (o >= 0x1F000 or 0x2600 <= o <= 0x27BF or 0x2B00 <= o <= 0x2BFF or 0x2300 <= o <= 0x23FF
+            or 0x25AA <= o <= 0x25FE or 0x2934 <= o <= 0x2935
+            or o in (0xFE0F, 0x200D, 0x203C, 0x2049, 0x3030, 0x303D, 0x3297, 0x3299))
 
 
 def style_case(text: str, mode: str) -> str:
@@ -150,19 +177,13 @@ class TitleStyle:
         off = r.get("hook_offset", [0.05, 0.07])
         self.offset = (int(size * off[0]), int(size * off[1]))
         self.shadow = _hex(r.get("hook_outline_color", "#000000"))
-        self.emoji_font = None
-        for f in EMOJI_FONTS:
-            if Path(f).exists():
-                try:
-                    self.emoji_font = ImageFont.truetype(f, 109)  # Noto Color Emoji only renders at 109px
-                except OSError:
-                    pass
-                break
+        self.emoji_font, self.emoji_px = load_emoji_font()
 
     def _emoji_img(self, chunk: str):
         if not self.emoji_font:
             return None
-        tmp = Image.new("RGBA", (140 * len(chunk), 140), (0, 0, 0, 0))
+        cell = int(self.emoji_px * 1.3)
+        tmp = Image.new("RGBA", (cell * max(1, len(chunk)), cell), (0, 0, 0, 0))
         ImageDraw.Draw(tmp).text((0, 0), chunk, font=self.emoji_font, embedded_color=True)
         bbox = tmp.getbbox()
         if not bbox:
