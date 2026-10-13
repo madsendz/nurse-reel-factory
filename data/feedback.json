@@ -240,5 +240,13 @@
     "slot": "2026-10-13 09:30",
     "text": "this clip has 2 upward points plus one downward points. this should be 3 text boxes.",
     "via": "dashboard"
+  },
+  {
+    "at": "2026-10-13T14:47:28.904147+00:00",
+    "item_id": "pr-stamina-foods",
+    "clip_id": "clip59",
+    "slot": "2026-10-13 13:00",
+    "text": "this vid has two upward points plus a downward point…. should be 3 text pop ups max",
+    "via": "dashboard"
   }
 ]

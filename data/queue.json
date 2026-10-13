@@ -1653,7 +1653,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 15.97,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2037715",
       "title": "Study Beats (Lofi Hip-Hop Ensemble)",
@@ -1667,7 +1667,13 @@
       "genre": "hiphop"
     },
     "msg_id": 136,
-    "file_id": "BAACAgEAAxkDAAOIasqmUzj_Jb7vBHhBmw7T-Z7ahpMAAk8HAALPoFlGUVgIGaja6CE9BA"
+    "file_id": "BAACAgEAAxkDAAOIasqmUzj_Jb7vBHhBmw7T-Z7ahpMAAk8HAALPoFlGUVgIGaja6CE9BA",
+    "feedback": [
+      "this vid has two upward points plus a downward point…. should be 3 text pop ups max"
+    ],
+    "decided_at": "2026-10-13T14:47:28.904147+00:00",
+    "needs_replacement": false,
+    "replaced_by": "c66ae421"
   },
   {
     "id": "fdd99312",
@@ -1862,7 +1868,8 @@
       "this clip has been used too many times recently"
     ],
     "decided_at": "2026-10-13T14:39:44.533693+00:00",
-    "needs_replacement": true
+    "needs_replacement": false,
+    "replaced_by": "cf13d2df"
   },
   {
     "id": "daf53ea9",
@@ -2319,5 +2326,63 @@
     "msg_id": 180,
     "file_id": "BAACAgEAAxkDAAO0as5B4ZvkYma2NDo31l4R9eEAAfq0AAJFBwACRolwRonbvTaSIogEPQQ",
     "replaces": "d4453897"
+  },
+  {
+    "id": "c66ae421",
+    "slot_key": "2026-10-13 13:00",
+    "slot_iso": "2026-10-13T17:00:00+00:00",
+    "slot_label": "Tue Oct 13, 1:00 PM",
+    "post_type": "regular",
+    "item_id": "nw-ick",
+    "category": "sexual_wellness",
+    "clip_id": "clip28",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 8.39,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-247156",
+      "title": "Silence Apart",
+      "creator": "ZigiZigi",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/247156/mp32/",
+      "source": "jamendo",
+      "duration_ms": 326000,
+      "page": "https://www.jamendo.com/track/247156",
+      "genre": "pop"
+    },
+    "msg_id": 188,
+    "file_id": "BAACAgEAAxkDAAO8as5EtRjZcIT2eAx1rmaJ-J7omgIAAlAHAAJGiXBGPKz4rNTnEoQ9BA",
+    "replaces": "a520b5a0"
+  },
+  {
+    "id": "cf13d2df",
+    "slot_key": "2026-10-13 21:30",
+    "slot_iso": "2026-10-14T01:30:00+00:00",
+    "slot_label": "Tue Oct 13, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-g-spot-where",
+    "category": "anatomy",
+    "clip_id": "clip31",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 11.76,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1892348",
+      "title": "Georgetown Cafe",
+      "creator": "Popoi",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1892348/mp32/",
+      "source": "jamendo",
+      "duration_ms": 148000,
+      "page": "https://www.jamendo.com/track/1892348",
+      "genre": "hiphop"
+    },
+    "msg_id": 190,
+    "file_id": "BAACAgEAAxkDAAO-as5E2yyroHS2vr8vF4BAlfUrEgIAAlEHAAJGiXBGXrmM4A6qi0w9BA",
+    "replaces": "330d6c91"
   }
 ]
