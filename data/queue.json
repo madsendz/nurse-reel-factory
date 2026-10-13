@@ -1723,7 +1723,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 7.67,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1591558",
       "title": "199-s8rec",
@@ -1738,7 +1738,8 @@
     },
     "msg_id": 138,
     "file_id": "BAACAgEAAxkDAAOKasqmnRc3a9yDFxmIv23ULZw3jqEAAlEHAALPoFlGGanNVOl2MvA9BA",
-    "decided_at": "2026-10-11T01:47:45.315915+00:00"
+    "decided_at": "2026-10-11T01:47:45.315915+00:00",
+    "permalink": "https://www.instagram.com/reel/Dec_t_zjKG9/"
   },
   {
     "id": "8888e4be",
@@ -2400,7 +2401,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 7.8,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037627",
       "title": "We Made It (Soft Drum And Bass)",
@@ -2415,7 +2416,8 @@
     },
     "msg_id": 193,
     "file_id": "BAACAgEAAxkDAAPBas6jRI_FJToQHwcX9wGaHF41DcsAAikIAAJGiXBGWOdFjYJWzjA9BA",
-    "extra": true
+    "extra": true,
+    "decided_at": "2026-10-13T23:30:58.547667+00:00"
   },
   {
     "id": "5b1d4bef",
