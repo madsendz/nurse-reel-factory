@@ -442,6 +442,62 @@ def _redo_choice(cfg, e, bank, clips, hist, dt, rng):
     return None
 
 
+def rerender_pending(cfg) -> int:
+    """Re-render every queued reel that hasn't posted yet, keeping its topic, clip, music, time and
+    approval, and swap the video in Telegram + on the dashboard. For renderer changes (fonts, emoji)."""
+    from .cli import _make
+    try:
+        sync_updates(cfg)
+    except Exception as ex:
+        print(f"[telegram] sync failed: {ex}")
+    cid = chat_id(cfg)
+    q = load_queue()
+    bank, clips = load_bank(), load_clips()
+    now = datetime.now(timezone.utc)
+    done = 0
+    for e in q:
+        if e.get("status") not in ("pending", "approved") or datetime.fromisoformat(e["slot_iso"]) <= now:
+            continue
+        item = next((i for i in bank if i["id"] == e["item_id"]), None)
+        clip = next((k for k in clips if k["id"] == e["clip_id"]), None)
+        if not item or not clip:
+            print(f"[rerender] {e['slot_key']}: topic/clip no longer exists — skipped")
+            continue
+        choice = {"item": item, "clip": clip, "cta": int(e.get("cta") or 0), "mode": e.get("mode", "redo"),
+                  "music": e.get("music")}
+        try:
+            out, _caption_txt, meta = _make(cfg, choice, OUT_DIR / "queue",
+                                            e["slot_key"].replace(" ", "_").replace(":", ""), e["post_type"])
+        except Exception as ex:
+            print(f"[rerender] {e['slot_key']}: render failed: {ex}")
+            continue
+        e["seconds"] = meta["seconds"]
+        if meta.get("music"):
+            e["music"] = meta["music"]
+        if cid:
+            try:
+                with open(out, "rb") as f:
+                    msg = _tg("sendVideo", files={"video": (out.name, f, "video/mp4")}, chat_id=cid,
+                              caption=_caption(e) + "\n🔁 re-rendered (new look, same reel)",
+                              supports_streaming="true", reply_markup=_buttons(e["id"]))
+                old = e.get("msg_id")
+                e["msg_id"] = msg["message_id"]
+                e["file_id"] = (msg.get("video") or msg.get("document") or {}).get("file_id")
+                if old:
+                    try:
+                        _tg("deleteMessage", chat_id=cid, message_id=old)
+                    except Exception:
+                        pass
+            except Exception as ex:
+                print(f"[rerender] {e['slot_key']}: Telegram send failed: {ex}")
+        done += 1
+        save_queue(q)
+        print(f"[rerender] {e['slot_key']}: {e['item_id']} on {e['clip_id']} ({e['status']}) re-rendered")
+    if done and cid:
+        _tg("sendMessage", chat_id=cid, text=f"🔁 {done} queued reel(s) re-rendered with the new look. "
+                                           "Approvals were kept.")
+    return done
+
 def add_extras(cfg, spec: str) -> int:
     """Extra reels for today, e.g. "regular@21:30,trial@22:30" (Eastern time)."""
     cid = chat_id(cfg)
