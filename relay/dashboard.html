@@ -95,7 +95,24 @@ select,input[type=datetime-local]{border:1px solid var(--line);border-radius:10p
 .login{max-width:340px;margin:18vh auto 0;padding:24px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);display:flex;flex-direction:column;gap:12px}
 .login input{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--bg)}
 .empty-day{background:var(--panel);border:1px dashed var(--line);border-radius:var(--radius);padding:14px;color:var(--muted)}
+/* clips tab */
+.clips{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px;margin-top:10px}
+.clipcard{text-align:left;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:10px 12px;cursor:pointer;display:flex;flex-direction:column;gap:4px;box-shadow:var(--shadow)}
+.clipcard:hover{border-color:var(--accent)} .clipcard.dim{opacity:.55}
+.clipcard b{font-size:15px} .tags{display:flex;flex-wrap:wrap;gap:4px} .tag.auto{background:var(--wait-bg);color:var(--wait)}
+.card.ce{grid-template-columns:300px 1fr}
+.cevid{width:300px;position:relative}
+.cevid video{object-fit:contain}
+.overlay{position:absolute;inset:0;cursor:crosshair}
+.mark{position:absolute;width:26px;height:26px;margin:-13px 0 0 -13px;border-radius:50%;background:var(--accent);color:#fff;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 2px #fff;pointer-events:none}
+.tline{position:absolute;left:0;right:0;border-top:2px dashed #fff;opacity:.85;pointer-events:none}
+.tline span{position:absolute;right:4px;top:-18px;font-size:11px;color:#fff;background:rgba(0,0,0,.55);padding:1px 5px;border-radius:6px}
+.evlist{margin:0;padding:0;list-style:none} .evlist li{margin:4px 0;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.placing{background:var(--wait-bg);color:var(--wait);border-radius:10px;padding:8px 10px;font-weight:600}
+input[type=number]{border:1px solid var(--line);border-radius:8px;padding:4px 6px;background:var(--bg)}
 @media (max-width:720px){
+  .card.ce{grid-template-columns:1fr}
+  .cevid{width:100%;max-width:330px;margin:0 auto}
   .card{grid-template-columns:1fr}
   .vid{width:100%;max-width:330px;margin:0 auto}
   .week{grid-template-columns:repeat(7,minmax(118px,1fr))}
@@ -156,10 +173,10 @@ function render(){
   if(!S) return renderLogin();
   const g = grouped();
   const days = view==="week" ? [...Array(7)].map((_,i)=>addDays(weekStart(anchor),i)) : [anchor, addDays(anchor,1)];
-  const rangeText = view==="topics" ? "Topics" : view==="week" ? `${fmtDay(days[0])} – ${fmtDay(days[6])}` : `${fmtDay(days[0],true)}`;
+  const rangeText = view==="clips" ? (CE? CE.id : "Clips") : view==="topics" ? "Topics" : view==="week" ? `${fmtDay(days[0])} – ${fmtDay(days[6])}` : `${fmtDay(days[0],true)}`;
   const gen = S.generated_at ? new Date(S.generated_at).toLocaleTimeString([], {hour:"numeric",minute:"2-digit"}) : "–";
   let html = `<header><div class="bar"><div class="brand"><span class="dot"></span>Lexi Reels</div>
-    <div class="seg"><button data-view="day" class="${view==="day"?"on":""}">Day</button><button data-view="week" class="${view==="week"?"on":""}">Week</button><button data-view="topics" class="${view==="topics"?"on":""}">Topics${(S.topics?.review||[]).length?` (${S.topics.review.length})`:""}</button></div>
+    <div class="seg"><button data-view="day" class="${view==="day"?"on":""}">Day</button><button data-view="week" class="${view==="week"?"on":""}">Week</button><button data-view="topics" class="${view==="topics"?"on":""}">Topics${(S.topics?.review||[]).length?` (${S.topics.review.length})`:""}</button><button data-view="clips" class="${view==="clips"?"on":""}">Clips</button></div>
     <div class="nav"><button class="btn sm" data-nav="-1" aria-label="Back">‹</button><span class="range">${rangeText}</span><button class="btn sm" data-nav="1" aria-label="Forward">›</button><button class="btn sm" data-nav="0">Today</button></div>
     <span class="sync">Synced ${gen}</span></div></header><div class="wrap">`;
   if(view==="topics"){
@@ -177,7 +194,9 @@ function render(){
       ${it.caption?`<div class="hint">Caption: ${esc(it.caption)}</div>`:""}
       <div class="actions"><button class="btn ok" data-topic="topic_keep" data-item="${esc(it.id)}">✅ Keep</button><button class="btn bad" data-topic="topic_toss" data-item="${esc(it.id)}">🗑 Toss</button></div>
     </div></article>`).join("");
-  } else if(view==="week"){
+  } else if(view==="clips"){
+html += clipsView();
+} else if(view==="week"){
     html += `<div class="week">` + days.map(d=>{
       const times = slotTimes(d,g);
       return `<div class="col ${d===todayKey()?"today":""}"><h3 data-goto="${d}">${fmtDay(d)} <span>open ›</span></h3>` + times.map(t=>{
@@ -207,6 +226,7 @@ function render(){
   document.getElementById("app").innerHTML = html;
   document.querySelectorAll("textarea[data-note]").forEach(x=>{ if(ta[x.dataset.note]) x.value=ta[x.dataset.note]; });
   window.scrollTo(0,y);
+if(view==="clips" && CE) bindClipEditor();
 }
 function short(s){ s=String(s); return s.length>70? s.slice(0,68)+"…" : s; }
 
@@ -267,8 +287,90 @@ function card(e, old){
     </div></article>`;
 }
 
+// ───────── Clips tab: Nick's permanent settings per clip (box times + spots, title height, trim) ─────────
+let CE = null; // open clip editor (draft): {id, events|null, auto, title_y, start, end, placing, dirty, t}
+function clipsView(){
+  const clips = (S.clips||[]).slice().sort((a,b)=>a.id.localeCompare(b.id,undefined,{numeric:true}));
+  const prev = new Set(S.clip_previews||[]);
+  if(CE){ const c = clips.find(x=>x.id===CE.id); if(c) return clipEditor(c, prev.has(c.id)); CE=null; }
+  const set = clips.filter(c=>c.events_manual!=null||c.title_y!=null||c.end!=null).length;
+  let h = `<h2 class="day">Clips (${clips.length})</h2><p class="hint">Tap a clip to set when and where the fact boxes pop up, the title height and where the reel should end. Settings are saved for good and used every time that clip is picked. ${set} of ${clips.length} have your settings.</p><div class="clips">`;
+  h += clips.map(c=>{ const tags=[]; const ev=c.events_manual;
+    if(ev!=null) tags.push(ev.length?`📍 ${ev.length} pop-up${ev.length>1?"s":""}`:"📍 no pointing");
+    if(c.end!=null) tags.push(`✂️ ends ${(+c.end).toFixed(1)}s`); if(c.title_y!=null) tags.push(`↕ title ${Math.round(c.title_y*100)}%`);
+    const notes=((S.clip_notes||{})[c.id]||[]).length;
+    return `<button class="clipcard ${c.status!=="active"?"dim":""}" data-clip="${esc(c.id)}"><b>${esc(c.id)}${c.pending_sync?' <span class="hint">saving…</span>':""}</b><span class="hint">${c.duration?(+c.duration).toFixed(1)+"s · ":""}${c.uses} use${c.uses===1?"":"s"}${c.last_used?" · last "+new Date(c.last_used).toLocaleDateString(undefined,{month:"short",day:"numeric"}):""}${c.status!=="active"?" · "+esc(c.status):""}</span><span class="tags">${tags.length?tags.map(t=>`<span class="tag">${t}</span>`).join(""):`<span class="tag auto">bot decides${(c.auto_events||[]).length?" · "+c.auto_events.length+" detected":""}</span>`}${notes?`<span class="tag">📝 ${notes}</span>`:""}${prev.has(c.id)?"":`<span class="tag">no preview yet</span>`}</span></button>`; }).join("");
+  return h + `</div>`;
+}
+function openClip(c){ CE = {id:c.id, events: c.events_manual==null? null : c.events_manual.map(e=>({...e})), auto: c.auto_events||[], title_y: c.title_y??null, start: c.start||0, end: c.end??null, placing:null, dirty:false, t:0}; }
+function dirFor(y){ return y<0.42? "up" : y>0.68? "down" : "center"; }
+function clipEditor(c, hasPrev){
+  const ev = CE.events, dur = +(c.duration||0);
+  const notes = ((S.clip_notes||{})[c.id]||[]).slice().reverse();
+  const marks = (ev||[]).map((e,i)=>`<div class="mark" style="left:${(e.x*100).toFixed(1)}%;top:${(e.y*100).toFixed(1)}%">${i+1}</div>`).join("");
+  const tline = `<div class="tline" id="cetline" style="top:${((CE.title_y??0.5)*100).toFixed(1)}%"><span>title</span></div>`;
+  const vid = hasPrev ? `<video id="cv" playsinline preload="auto" src="/api/clip/${esc(c.id)}.mp4"></video>` : `<div class="novid">No preview of this clip yet — the evening job makes one (or run the queue job once). You can still type the times.</div>`;
+  const evRows = ev===null ? `<div class="hint">Bot decides: it uses the pointing it detected${CE.auto.length?` (${CE.auto.map(e=>`${(+e.t).toFixed(1)}s ${e.dir}`).join(", ")})`:" — none found, so boxes spread out and the last one lands ~1.5 s before the end"}.</div>`
+    : (ev.length ? `<ol class="evlist">${ev.map((e,i)=>`<li><b>${i+1}</b> pops at <input type="number" step="0.1" min="0" value="${(+e.t).toFixed(1)}" data-evt="${i}" style="width:64px">s · box ${e.dir} <button class="btn sm" data-cact="ev_go" data-i="${i}">▶ go</button> <button class="btn sm" data-cact="ev_place" data-i="${i}">📍 move box</button> <button class="btn sm bad" data-cact="ev_del" data-i="${i}">✕</button></li>`).join("")}</ol>` : `<div class="hint">No pointing in this clip: the boxes spread out on their own and the last one lands ~1.5 s before the end.</div>`);
+  return `<div class="row" style="margin:14px 0 8px"><button class="btn" data-cact="back">‹ All clips</button><span class="title">${esc(c.id)}</span><span class="hint">${dur?dur.toFixed(1)+"s · ":""}${c.uses} use${c.uses===1?"":"s"}</span></div>
+<article class="card ce"><div><div class="vid cevid">${vid}${hasPrev?`<div class="overlay" id="ceov">${marks}${tline}</div>`:""}</div>
+${hasPrev?`<div class="row" style="margin-top:8px;justify-content:center"><button class="btn sm" data-cact="play">▶ / ❚❚</button><button class="btn sm" data-cact="back_s">−0.5s</button><button class="btn sm" data-cact="fwd_s">+0.5s</button><span class="hint" id="cetime">${CE.t.toFixed(1)}s</span></div>
+<input type="range" id="cescrub" min="0" max="${dur||10}" step="0.05" value="${CE.t}" style="width:100%;margin-top:6px">`:""}
+</div><div class="info">
+${CE.placing!=null?`<div class="placing">👆 Tap on the video where box ${CE.placing+1} should sit (next to where she points).</div>`:""}
+<div><div class="hint">Fact boxes</div>${evRows}
+<div class="actions" style="margin-top:6px"><button class="btn primary sm" data-cact="ev_add">📍 A box pops up here</button>${ev===null?`<button class="btn sm" data-cact="ev_none">No pointing in this clip</button>`:`<button class="btn sm" data-cact="ev_auto">Let the bot decide</button>`}</div>
+<div class="hint">Scrub to the moment she points, press "A box pops up here", then tap where the box should sit. Facts get grouped to fit the number of boxes.</div></div>
+<div><div class="hint">Title height: ${Math.round((CE.title_y??0.5)*100)}% down the frame${CE.title_y==null?" (default — it moves off her face on its own)":""}</div>
+<div class="row"><input type="range" id="cetitle" min="0.15" max="0.85" step="0.01" value="${CE.title_y??0.5}" style="flex:1;min-width:140px"> <button class="btn sm" data-cact="title_clear">Use default</button></div></div>
+<div><div class="hint">Trim</div><div class="row">Start <input type="number" step="0.1" min="0" id="cestart" value="${(+CE.start).toFixed(1)}" style="width:64px">s · End ${CE.end!=null?`<b>${(+CE.end).toFixed(1)}s</b>${dur?` <span class="hint">(cuts ${Math.max(0,dur-CE.end).toFixed(1)}s off the end)</span>`:""}`:`<span class="muted">full clip</span>`}
+<button class="btn sm" data-cact="end_here">✂️ End the reel here</button>${CE.end!=null?`<button class="btn sm" data-cact="end_clear">Full clip</button>`:""}</div></div>
+${notes.length?`<details open><summary>Your notes on this clip (${notes.length})</summary><ul class="notes">${notes.map(n=>`<li>${esc(n.text)}<small>${esc(n.item_id||"")} · ${n.at?new Date(n.at).toLocaleDateString():""}</small></li>`).join("")}</ul></details>`:""}
+<div class="actions"><button class="btn ok" data-cact="save" ${CE.dirty?"":"disabled"}>💾 Save clip settings</button><button class="btn" data-cact="back">${CE.dirty?"Cancel":"Back"}</button></div>
+<div class="hint">Saved settings apply to every future reel on this clip. Reels already in the queue pick them up when they're re-rendered or posted.</div>
+</div></article>`;
+}
+function cvid(){ return document.getElementById("cv"); }
+function bindClipEditor(){
+  const v = cvid(); if(!v) return;
+  const scrub = document.getElementById("cescrub"), tm = document.getElementById("cetime");
+  const seek = t => { CE.t = Math.max(0, t); try{ v.currentTime = CE.t; }catch(e){} };
+  if(CE.t>0){ if(v.readyState>=1) v.currentTime = CE.t; else v.addEventListener("loadedmetadata", ()=>{ v.currentTime = CE.t; }, {once:true}); }
+  v.addEventListener("timeupdate", ()=>{ CE.t = v.currentTime; if(tm) tm.textContent = v.currentTime.toFixed(1)+"s"; if(scrub && document.activeElement!==scrub) scrub.value = v.currentTime; });
+  if(scrub) scrub.oninput = ()=> seek(+scrub.value);
+  const ts = document.getElementById("cetitle"); if(ts) ts.oninput = ()=>{ CE.title_y = +ts.value; CE.dirty = true; const l=document.getElementById("cetline"); if(l) l.style.top = (CE.title_y*100).toFixed(1)+"%"; const sv=document.querySelector('[data-cact="save"]'); if(sv) sv.disabled=false; };
+  const ov = document.getElementById("ceov"); if(ov) ov.onclick = ev => { if(CE.placing==null){ if(v.paused) v.play(); else v.pause(); return; }
+    const r = ov.getBoundingClientRect(); const x = Math.min(1,Math.max(0,(ev.clientX-r.left)/r.width)), y = Math.min(1,Math.max(0,(ev.clientY-r.top)/r.height));
+    const e = CE.events[CE.placing]; if(e){ e.x=+x.toFixed(3); e.y=+y.toFixed(3); e.dir=dirFor(y); } CE.placing=null; CE.dirty=true; render(); };
+}
+document.addEventListener("change", ev=>{ const i=ev.target.closest("input[data-evt]"); if(i && CE && CE.events){ const e=CE.events[+i.dataset.evt]; if(e){ e.t=Math.max(0,+i.value||0); CE.events.sort((a,b)=>a.t-b.t); CE.dirty=true; render(); } return; }
+  const s=ev.target.closest("#cestart"); if(s && CE){ CE.start=Math.max(0,+s.value||0); CE.dirty=true; render(); } });
+async function clipAct(kind, b){
+  const v = cvid(), c = (S.clips||[]).find(x=>x.id===CE.id) || {};
+  const now = () => +( (v? v.currentTime : CE.t) || 0 ).toFixed(1);
+  if(kind==="back"){ if(CE.dirty && !confirm("Leave without saving your changes?")) return; CE=null; render(); return; }
+  if(kind==="play"){ if(v){ if(v.paused) v.play(); else v.pause(); } return; }
+  if(kind==="back_s"||kind==="fwd_s"){ if(v){ v.currentTime = Math.max(0, v.currentTime + (kind==="fwd_s"?0.5:-0.5)); } return; }
+  if(kind==="ev_go"){ const e=CE.events[+b.dataset.i]; if(v && e){ v.pause(); v.currentTime=e.t; } return; }
+  if(kind==="ev_place"){ CE.placing=+b.dataset.i; if(v) v.pause(); render(); return; }
+  if(kind==="ev_del"){ CE.events.splice(+b.dataset.i,1); CE.placing=null; CE.dirty=true; render(); return; }
+  if(kind==="ev_add"){ if(v) v.pause(); if(CE.events===null) CE.events=[]; if(CE.events.length>=6) return toast("6 boxes is the most a reel can hold.");
+    const e={t:now(), dir:"center", x:0.5, y:0.6}; CE.events.push(e); CE.events.sort((a,b)=>a.t-b.t); CE.placing=CE.events.indexOf(e); CE.dirty=true; render(); return; }
+  if(kind==="ev_none"){ CE.events=[]; CE.placing=null; CE.dirty=true; render(); return; }
+  if(kind==="ev_auto"){ CE.events=null; CE.placing=null; CE.dirty=true; render(); return; }
+  if(kind==="title_clear"){ CE.title_y=null; CE.dirty=true; render(); return; }
+  if(kind==="end_here"){ let t = v? now() : +prompt("End the reel at how many seconds?", c.duration? (c.duration-0.7).toFixed(1) : "6.0"); if(!(t>0.5)) return toast("Scrub to where the reel should end first."); CE.end=t; CE.dirty=true; render(); return; }
+  if(kind==="end_clear"){ CE.end=null; CE.dirty=true; render(); return; }
+  if(kind==="save"){ if(busy) return; busy=true; b.disabled=true;
+    try{ await api("/api/action",{method:"POST",body:JSON.stringify({kind:"clip_edit", clip_id:CE.id, events:CE.events, title_y:CE.title_y, start:CE.start, end:CE.end})});
+      toast("Saved ✅ — every new reel on "+CE.id+" uses this."); CE=null; await load(true); }
+    catch(e){ if(e.message!=="login") toast("Didn't work: "+e.message); } finally{ busy=false; } return; }
+}
+
 document.addEventListener("click", async ev=>{
   const b = ev.target.closest("button"); if(!b) return;
+  if(b.dataset.clip){ const c=(S.clips||[]).find(x=>x.id===b.dataset.clip); if(c){ openClip(c); render(); } return; }
+  if(b.dataset.cact){ if(!CE) return; await clipAct(b.dataset.cact, b); return; }
   if(b.dataset.view){ view=b.dataset.view; localStore("view",view); render(); return; }
   if(b.dataset.nav!==undefined){ const n=+b.dataset.nav; anchor = n===0? todayKey() : addDays(anchor, n*(view==="week"?7:1)); render(); return; }
   if(b.dataset.goto){ anchor=b.dataset.goto; view="day"; localStore("view",view); render(); const s=b.dataset.slot; if(s){ const el=document.getElementById(`slot-${anchor}-${s.replace(":","")}`); el && el.scrollIntoView({behavior:"smooth",block:"start"}); } return; }
@@ -293,7 +395,7 @@ document.addEventListener("click", async ev=>{
   }
 });
 document.addEventListener("change", ev=>{ const s=ev.target.closest("select[data-move]"); if(s){ const inp=document.querySelector(`input[data-custom="${s.dataset.move}"]`); inp.hidden = s.value!=="custom"; } });
-setInterval(()=>{ const playing=[...document.querySelectorAll("video")].some(v=>!v.paused); if(S && !document.hidden && !playing && !document.activeElement?.matches("textarea,select,input")) load(true); }, 20000);
+setInterval(()=>{ const playing=[...document.querySelectorAll("video")].some(v=>!v.paused); if(S && !document.hidden && !playing && !CE && !document.activeElement?.matches("textarea,select,input")) load(true); }, 20000);
 document.addEventListener("visibilitychange", ()=>{ if(!document.hidden && S) load(true); });
 load();
 </script>
