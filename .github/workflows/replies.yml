@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   replies:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest  # macOS = Apple Color Emoji in the reels
     timeout-minutes: 45
     env:
       GDRIVE_SERVICE_ACCOUNT_JSON: ${{ secrets.GDRIVE_SERVICE_ACCOUNT_JSON }}
@@ -51,7 +51,7 @@ jobs:
           print("need=" + ("true" if need else "false"))
           PY
       - if: steps.check.outputs.need == 'true'
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji
+        run: command -v ffmpeg || brew install -q ffmpeg
       - if: steps.check.outputs.need == 'true'
         run: python -m reelfactory replies
       - name: Save state
