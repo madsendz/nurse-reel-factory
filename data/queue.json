@@ -1945,7 +1945,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 8.9,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-384095",
       "title": "Like King Cool in a sunbed",
@@ -1960,7 +1960,8 @@
     },
     "msg_id": 157,
     "file_id": "BAACAgEAAxkDAAOdasxFJn4N-0rbjKoUUygkjBcHW94AArsHAAIGhGlGcAbd7-4vvEY9BA",
-    "decided_at": "2026-10-14T05:14:25.865215+00:00"
+    "decided_at": "2026-10-14T05:14:25.865215+00:00",
+    "permalink": "https://www.instagram.com/reel/DeeqvEzCICS/"
   },
   {
     "id": "0dc70045",
