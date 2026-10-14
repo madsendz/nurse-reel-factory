@@ -3,7 +3,11 @@ clips:
   drive_id: 1toXmdXUKHV565Y1uBfcZiBGUN8TUN72M
   name: 40dd8b81752a40b3894af2a639f2122b.MP4
   status: active
-  events_manual: []
+  events_manual:
+  - t: 7.6
+    dir: down
+    x: 0.485
+    y: 0.709
   point: ''
   zone:
     x: 0.08
@@ -11,7 +15,7 @@ clips:
     w: 0.84
     h: 0.269
   start: 0
-  end: null
+  end: 9
   auto:
     method: pose
     face:
@@ -145,6 +149,7 @@ clips:
       - 0.323
       - 0.247
   duration: 10.5
+  title_y: 0.57
 - id: clip02
   drive_id: 1TqNa8MmbVZa3MhgiJH0STK2S02Mz87tX
   name: 3cc6a63be83a4f81a7bb0e3b8e57e184.MP4

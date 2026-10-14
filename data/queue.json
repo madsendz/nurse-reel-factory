@@ -1915,7 +1915,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 11.27,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2290117",
       "title": "Soul Hop Music",
@@ -1929,7 +1929,8 @@
       "genre": "hiphop"
     },
     "msg_id": 156,
-    "file_id": "BAACAgEAAxkDAAOcasxE_8KfJoR7DKNfIYD9zx3PWOIAAroHAAIGhGlG_1bAAdU8iIk9BA"
+    "file_id": "BAACAgEAAxkDAAOcasxE_8KfJoR7DKNfIYD9zx3PWOIAAroHAAIGhGlG_1bAAdU8iIk9BA",
+    "decided_at": "2026-10-14T05:14:25.865215+00:00"
   },
   {
     "id": "7ddcb488",
@@ -1943,7 +1944,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 8.9,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384095",
       "title": "Like King Cool in a sunbed",
@@ -1957,7 +1958,8 @@
       "genre": "pop"
     },
     "msg_id": 157,
-    "file_id": "BAACAgEAAxkDAAOdasxFJn4N-0rbjKoUUygkjBcHW94AArsHAAIGhGlGcAbd7-4vvEY9BA"
+    "file_id": "BAACAgEAAxkDAAOdasxFJn4N-0rbjKoUUygkjBcHW94AArsHAAIGhGlGcAbd7-4vvEY9BA",
+    "decided_at": "2026-10-14T05:14:25.865215+00:00"
   },
   {
     "id": "0dc70045",
@@ -1971,7 +1973,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.86,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1342479",
       "title": "Breathe",
@@ -1985,7 +1987,8 @@
       "genre": "hiphop"
     },
     "msg_id": 158,
-    "file_id": "BAACAgEAAxkDAAOeasxFQGIT4kPtUhh1VBMezWcsA6cAArwHAAIGhGlGQXx6JZ8OywM9BA"
+    "file_id": "BAACAgEAAxkDAAOeasxFQGIT4kPtUhh1VBMezWcsA6cAArwHAAIGhGlGQXx6JZ8OywM9BA",
+    "decided_at": "2026-10-14T05:14:25.865215+00:00"
   },
   {
     "id": "11c6a9f2",
@@ -1999,7 +2002,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.5,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1093608",
       "title": "Strictly Luxury",
@@ -2013,7 +2016,11 @@
       "genre": "electronic"
     },
     "msg_id": 159,
-    "file_id": "BAACAgEAAxkDAAOfasxFaL176tE7yt2EFBNclZR0htEAAr0HAAIGhGlGKorlD2a30Ms9BA"
+    "file_id": "BAACAgEAAxkDAAOfasxFaL176tE7yt2EFBNclZR0htEAAr0HAAIGhGlGKorlD2a30Ms9BA",
+    "decided_at": "2026-10-14T05:14:25.865215+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "52ba561f"
   },
   {
     "id": "51cac788",
@@ -2588,5 +2595,34 @@
     },
     "msg_id": 200,
     "file_id": "BAACAgEAAxkDAAPIas6n0ZT9Wqy-V7cZiQhOjoLRaYMAAj4IAAJGiXBGSgtKrgVxFMw9BA"
+  },
+  {
+    "id": "52ba561f",
+    "slot_key": "2026-10-14 16:00",
+    "slot_iso": "2026-10-14T20:00:00+00:00",
+    "slot_label": "Wed Oct 14, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-condom-break",
+    "category": "sex_ed",
+    "clip_id": "clip81",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 9.77,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1206517",
+      "title": "DJ Smallest - Chill",
+      "creator": "Smallest",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1206517/mp32/",
+      "source": "jamendo",
+      "duration_ms": 170000,
+      "page": "https://www.jamendo.com/track/1206517",
+      "genre": "chillout"
+    },
+    "msg_id": 205,
+    "file_id": "BAACAgEAAxkDAAPNas8P0pSAyDhX9morB8ih5LHt4JEAAtYGAAJGiXhGAAFEY1WV57atPQQ",
+    "replaces": "11c6a9f2"
   }
 ]
