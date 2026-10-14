@@ -1975,7 +1975,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.86,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1342479",
       "title": "Breathe",
@@ -1990,7 +1990,8 @@
     },
     "msg_id": 158,
     "file_id": "BAACAgEAAxkDAAOeasxFQGIT4kPtUhh1VBMezWcsA6cAArwHAAIGhGlGQXx6JZ8OywM9BA",
-    "decided_at": "2026-10-14T05:14:25.865215+00:00"
+    "decided_at": "2026-10-14T05:14:25.865215+00:00",
+    "permalink": "https://www.instagram.com/reel/Dee36Hckm1i/"
   },
   {
     "id": "11c6a9f2",
