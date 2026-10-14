@@ -2402,7 +2402,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 7.8,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2037627",
       "title": "We Made It (Soft Drum And Bass)",
@@ -2418,7 +2418,8 @@
     "msg_id": 193,
     "file_id": "BAACAgEAAxkDAAPBas6jRI_FJToQHwcX9wGaHF41DcsAAikIAAJGiXBGWOdFjYJWzjA9BA",
     "extra": true,
-    "decided_at": "2026-10-13T23:30:58.547667+00:00"
+    "decided_at": "2026-10-13T23:30:58.547667+00:00",
+    "permalink": "https://www.instagram.com/reel/Dedc32xDs80/"
   },
   {
     "id": "5b1d4bef",
