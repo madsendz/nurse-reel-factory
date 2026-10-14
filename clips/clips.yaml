@@ -2409,8 +2409,8 @@ clips:
   events_manual:
   - t: 5.2
     dir: down
-    x: 0.43
-    y: 0.859
+    x: 0.53
+    y: 0.864
   point: ''
   zone:
     x: 0.33
