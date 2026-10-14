@@ -6,16 +6,16 @@ Judged reels: **11** · score = link clicks first, then views/shares/saves
 
 | Score | Type | Clicks | Views | Shares | Topic | Clip | Posted |
 |---|---|---|---|---|---|---|---|
-| +1.04 | regular | 1411.8 | 34607 | 53 | [nw-cardio-erections](https://www.instagram.com/reel/DeUkq0XEyxf/) | clip32 | 2026-10-10 |
-| +0.85 | regular | 1759.3 | 21753 | 20 | [nw-kegels-women](https://www.instagram.com/reel/DeVRSdgkS2G/) | clip42 | 2026-10-10 |
-| +0.45 | trial | 1456.7 | 4017 | 0 | [pr-birth-control-ranked](https://www.instagram.com/reel/DeVfCTLiVdi/) | clip64 | 2026-10-11 |
-| +0.39 | trial | 581.8 | 631423 | 70 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
-| -0.12 | trial | 263.8 | 549309 | 15493 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
-| -0.21 | regular | 473.6 | 51879 | 29 | [nw-notice-first](https://www.instagram.com/reel/DeXJgcUgPRq/) | clip63 | 2026-10-11 |
-| -0.21 | regular | 1000.6 | 14874 | 4 | [nw-smoking-ed](https://www.instagram.com/reel/DeWxb2SgsVW/) | clip71 | 2026-10-11 |
-| -0.35 | regular | 507.5 | 42068 | 10 | [nw-sperm-months](https://www.instagram.com/reel/DeR_4RIAi7e/) | clip27 | 2026-10-09 |
-| -0.47 | regular | 447.1 | 51016 | 16 | [nw-faked-it](https://www.instagram.com/reel/DeRn3TnjUta/) | clip19 | 2026-10-09 |
-| -0.65 | regular | 670.6 | 24039 | 1 | [nw-sti-no-symptoms](https://www.instagram.com/reel/DeSse8yE5ne/) | clip57 | 2026-10-09 |
+| +1.04 | regular | 1411.9 | 34831 | 53 | [nw-cardio-erections](https://www.instagram.com/reel/DeUkq0XEyxf/) | clip32 | 2026-10-10 |
+| +0.85 | regular | 1759.8 | 21933 | 20 | [nw-kegels-women](https://www.instagram.com/reel/DeVRSdgkS2G/) | clip42 | 2026-10-10 |
+| +0.45 | trial | 1455.9 | 4020 | 0 | [pr-birth-control-ranked](https://www.instagram.com/reel/DeVfCTLiVdi/) | clip64 | 2026-10-11 |
+| +0.39 | trial | 581.9 | 636724 | 70 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
+| -0.12 | trial | 263.8 | 560405 | 16035 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
+| -0.21 | regular | 473.5 | 52219 | 29 | [nw-notice-first](https://www.instagram.com/reel/DeXJgcUgPRq/) | clip63 | 2026-10-11 |
+| -0.21 | regular | 1001.1 | 15059 | 4 | [nw-smoking-ed](https://www.instagram.com/reel/DeWxb2SgsVW/) | clip71 | 2026-10-11 |
+| -0.35 | regular | 507.4 | 42240 | 10 | [nw-sperm-months](https://www.instagram.com/reel/DeR_4RIAi7e/) | clip27 | 2026-10-09 |
+| -0.47 | regular | 447.0 | 51185 | 16 | [nw-faked-it](https://www.instagram.com/reel/DeRn3TnjUta/) | clip19 | 2026-10-09 |
+| -0.65 | regular | 670.7 | 24190 | 1 | [nw-sti-no-symptoms](https://www.instagram.com/reel/DeSse8yE5ne/) | clip57 | 2026-10-09 |
 
 ## Hook styles
 

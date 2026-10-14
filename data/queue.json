@@ -2371,7 +2371,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 11.76,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -2387,7 +2387,8 @@
     "msg_id": 190,
     "file_id": "BAACAgEAAxkDAAO-as5E2yyroHS2vr8vF4BAlfUrEgIAAlEHAAJGiXBGXrmM4A6qi0w9BA",
     "replaces": "330d6c91",
-    "decided_at": "2026-10-13T21:47:45.442487+00:00"
+    "decided_at": "2026-10-13T21:47:45.442487+00:00",
+    "permalink": "https://www.instagram.com/reel/DedNm1llFkY/"
   },
   {
     "id": "302e692b",
