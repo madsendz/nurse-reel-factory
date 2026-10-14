@@ -2034,7 +2034,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 7.5,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1922534",
       "title": "Luxury Hip-Hop",
@@ -2048,7 +2048,13 @@
       "genre": "hiphop"
     },
     "msg_id": 160,
-    "file_id": "BAACAgEAAxkDAAOgasxFhk3-jESWQXg2AfBapAj8LJsAAr4HAAIGhGlGuDORdoO89ys9BA"
+    "file_id": "BAACAgEAAxkDAAOgasxFhk3-jESWQXg2AfBapAj8LJsAAr4HAAIGhGlGuDORdoO89ys9BA",
+    "feedback": [
+      "wrong placement"
+    ],
+    "decided_at": "2026-10-14T05:17:24.595144+00:00",
+    "needs_replacement": false,
+    "replaced_by": "50bab3c1"
   },
   {
     "id": "f98a9326",
@@ -2608,7 +2614,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 9.77,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1206517",
       "title": "DJ Smallest - Chill",
@@ -2623,6 +2629,36 @@
     },
     "msg_id": 205,
     "file_id": "BAACAgEAAxkDAAPNas8P0pSAyDhX9morB8ih5LHt4JEAAtYGAAJGiXhGAAFEY1WV57atPQQ",
-    "replaces": "11c6a9f2"
+    "replaces": "11c6a9f2",
+    "decided_at": "2026-10-14T05:17:24.595144+00:00"
+  },
+  {
+    "id": "50bab3c1",
+    "slot_key": "2026-10-14 19:30",
+    "slot_iso": "2026-10-14T23:30:00+00:00",
+    "slot_label": "Wed Oct 14, 7:30 PM",
+    "post_type": "regular",
+    "item_id": "nw-erections-vary",
+    "category": "mens_health",
+    "clip_id": "clip18",
+    "cta": 1,
+    "mode": "note",
+    "seconds": 6.8,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1922534",
+      "title": "Luxury Hip-Hop",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1922534/mp32/",
+      "source": "jamendo",
+      "duration_ms": 131000,
+      "page": "https://www.jamendo.com/track/1922534",
+      "genre": "hiphop"
+    },
+    "msg_id": 208,
+    "file_id": "BAACAgEAAxkDAAPQas8QgorrfIne9OHl3A8c0M-vm3YAAtkGAAJGiXhGd6oKu2Xh6rw9BA",
+    "replaces": "51cac788"
   }
 ]
