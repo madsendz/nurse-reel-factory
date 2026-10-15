@@ -2937,7 +2937,7 @@
     "cta": 1,
     "mode": "note",
     "seconds": 9.17,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2151100",
       "title": "Deep Fashion Electronic",
@@ -2953,7 +2953,8 @@
     "msg_id": 223,
     "file_id": "BAACAgEAAxkDAAPfatDBfkFZEdDJwjmMc1Uh1zdWka4AAusHAALTC4hGz-gQixJLTj89BA",
     "replaces": "262dacc0",
-    "decided_at": "2026-10-15T12:07:09.229097+00:00"
+    "decided_at": "2026-10-15T12:07:09.229097+00:00",
+    "permalink": "https://www.instagram.com/reel/DehEr2Pj756/"
   },
   {
     "id": "77e0ede5",
