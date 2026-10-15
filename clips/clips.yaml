@@ -3010,7 +3010,15 @@ clips:
   drive_id: 13QDY9kX3r3MByzmiitISJRi82FXUrWg0
   name: Facetune80DEE378-9075-4EA0-A8B8-21B8B422E831.MOV
   status: active
-  events_manual: []
+  events_manual:
+  - t: 4.2
+    dir: up
+    x: 0.127
+    y: 0.198
+  - t: 8.2
+    dir: center
+    x: 0.464
+    y: 0.666
   point: ''
   zone:
     x: 0.05
@@ -3018,7 +3026,6 @@ clips:
     w: 0.62
     h: 0.408
   start: 0
-  end: null
   auto:
     method: pose
     face:

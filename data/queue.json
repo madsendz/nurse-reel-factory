@@ -2233,7 +2233,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.03,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1403270",
       "title": "Just laugh at it",
@@ -2247,7 +2247,13 @@
       "genre": "rnb"
     },
     "msg_id": 172,
-    "file_id": "BAACAgEAAxkDAAOsas2m8CIo1ZJM2zA1uGpcebVCA3UAAlkIAAJGiWhG4QaZiOrhrf09BA"
+    "file_id": "BAACAgEAAxkDAAOsas2m8CIo1ZJM2zA1uGpcebVCA3UAAlkIAAJGiWhG4QaZiOrhrf09BA",
+    "feedback": [
+      "try again"
+    ],
+    "decided_at": "2026-10-15T12:08:43.736225+00:00",
+    "needs_replacement": false,
+    "replaced_by": "3ce98b41"
   },
   {
     "id": "7fc29b57",
@@ -2971,5 +2977,34 @@
     "msg_id": 226,
     "file_id": "BAACAgEAAxkDAAPiatDCBNiRKrXFr4H5d-cqxG_exqgAAu0HAALTC4hGo18abQts-jk9BA",
     "replaces": "84b42051"
+  },
+  {
+    "id": "3ce98b41",
+    "slot_key": "2026-10-15 13:00",
+    "slot_iso": "2026-10-15T17:00:00+00:00",
+    "slot_label": "Thu Oct 15, 1:00 PM",
+    "post_type": "regular",
+    "item_id": "pr-men-secretly-like",
+    "category": "sexual_wellness",
+    "clip_id": "clip23",
+    "cta": 1,
+    "mode": "note",
+    "seconds": 10.03,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1403270",
+      "title": "Just laugh at it",
+      "creator": "Buzzy Boys",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1403270/mp32/",
+      "source": "jamendo",
+      "duration_ms": 242000,
+      "page": "https://www.jamendo.com/track/1403270",
+      "genre": "rnb"
+    },
+    "msg_id": 229,
+    "file_id": "BAACAgEAAxkDAAPlatDCb46GNcvisX0rbksOpYNy7zcAAu4HAALTC4hGCUHu1QABieqMPQQ",
+    "replaces": "1f58bad1"
   }
 ]
