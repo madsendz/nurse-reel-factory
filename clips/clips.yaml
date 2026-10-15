@@ -11103,7 +11103,6 @@ clips:
     w: 0.84
     h: 0.234
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -11217,6 +11216,12 @@ clips:
       - 0.276
       - 0.218
   duration: 9.17
+  events_manual:
+  - t: 7.8
+    dir: down
+    x: 0.533
+    y: 0.741
+  title_y: 0.57
 - id: clip84
   drive_id: 10lFXbW2-vAxSjU4_w3rQreUIJE5eCP5p
   name: a84cba64982b4436bece551ac0a10d30.MP4
