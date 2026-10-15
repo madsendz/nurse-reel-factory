@@ -7929,7 +7929,6 @@ clips:
     w: 0.62
     h: 0.157
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -8003,6 +8002,16 @@ clips:
       - 0.309
       - 0.231
   duration: 5.46
+  events_manual:
+  - t: 0.5
+    dir: up
+    x: 0.727
+    y: 0.113
+  - t: 5
+    dir: down
+    x: 0.476
+    y: 0.854
+  title_y: 0.61
 - id: clip61
   drive_id: 1ZzDRL9oLjfhSzGugW1uOUBnNKMd0cEKd
   name: 057c0b05a6af40879200b41976884f41.MP4
