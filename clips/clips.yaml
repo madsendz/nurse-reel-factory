@@ -5102,7 +5102,6 @@ clips:
     w: 0.62
     h: 0.306
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -5211,6 +5210,16 @@ clips:
       - 0.186
       - 0.129
   duration: 8.88
+  events_manual:
+  - t: 4.1
+    dir: up
+    x: 0.358
+    y: 0.121
+  - t: 7
+    dir: center
+    x: 0.391
+    y: 0.653
+  title_y: 0.53
 - id: clip39
   drive_id: 1g5jXTXjFg6NKMkZGxkYRtdh3EQ6B163O
   name: video.MP4

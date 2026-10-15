@@ -2967,7 +2967,7 @@
     "cta": 1,
     "mode": "note",
     "seconds": 5.46,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037757",
       "title": "Density (Background Ambient Techno)",
@@ -2982,7 +2982,8 @@
     },
     "msg_id": 226,
     "file_id": "BAACAgEAAxkDAAPiatDCBNiRKrXFr4H5d-cqxG_exqgAAu0HAALTC4hGo18abQts-jk9BA",
-    "replaces": "84b42051"
+    "replaces": "84b42051",
+    "decided_at": "2026-10-15T12:24:03.618545+00:00"
   },
   {
     "id": "3ce98b41",
@@ -2996,7 +2997,7 @@
     "cta": 1,
     "mode": "note",
     "seconds": 10.03,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1403270",
       "title": "Just laugh at it",
@@ -3011,7 +3012,8 @@
     },
     "msg_id": 229,
     "file_id": "BAACAgEAAxkDAAPlatDCb46GNcvisX0rbksOpYNy7zcAAu4HAALTC4hGCUHu1QABieqMPQQ",
-    "replaces": "1f58bad1"
+    "replaces": "1f58bad1",
+    "decided_at": "2026-10-15T12:24:03.618545+00:00"
   },
   {
     "id": "9d6180b4",
@@ -3025,7 +3027,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 8.88,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1547998",
       "title": "podnebo prod. - spark | FREE BEAT | 2018 | FULL | 96bpm",
@@ -3040,6 +3042,41 @@
     },
     "msg_id": 232,
     "file_id": "BAACAgEAAxkDAAPoatDDTj2w9Jndj69QpjFFbgls3ZIAAvUHAALTC4hGYCShwP3i4Zk9BA",
-    "replaces": "d07b5ea4"
+    "replaces": "d07b5ea4",
+    "feedback": [
+      "send another"
+    ],
+    "decided_at": "2026-10-15T12:24:03.618545+00:00",
+    "needs_replacement": false,
+    "replaced_by": "ee635282"
+  },
+  {
+    "id": "ee635282",
+    "slot_key": "2026-10-15 19:30",
+    "slot_iso": "2026-10-15T23:30:00+00:00",
+    "slot_label": "Thu Oct 15, 7:30 PM",
+    "post_type": "regular",
+    "item_id": "nw-sleep-t",
+    "category": "mens_health",
+    "clip_id": "clip38",
+    "cta": 1,
+    "mode": "note",
+    "seconds": 8.88,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1547998",
+      "title": "podnebo prod. - spark | FREE BEAT | 2018 | FULL | 96bpm",
+      "creator": "podnebo prod.",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1547998/mp32/",
+      "source": "jamendo",
+      "duration_ms": 181000,
+      "page": "https://www.jamendo.com/track/1547998",
+      "genre": "trap"
+    },
+    "msg_id": 235,
+    "file_id": "BAACAgEAAxkDAAPratDGEK5lHLyIfxHR7VDpPdgivcQAAv4HAALTC4hGO23YkWLdCjs9BA",
+    "replaces": "9d6180b4"
   }
 ]

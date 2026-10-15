@@ -288,5 +288,13 @@
     "slot": "2026-10-15 13:00",
     "text": "try again",
     "via": "dashboard"
+  },
+  {
+    "at": "2026-10-15T12:24:03.618545+00:00",
+    "item_id": "nw-sleep-t",
+    "clip_id": "clip38",
+    "slot": "2026-10-15 19:30",
+    "text": "send another",
+    "via": "dashboard"
   }
 ]
