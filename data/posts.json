@@ -19,8 +19,8 @@
     "timestamp": "2026-10-08T02:58:18+0000",
     "posted_at": "2026-10-08T02:58:18+00:00",
     "metrics": {},
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 39.19
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 29.94
   },
   {
     "id": "d052e07c2d",
@@ -42,18 +42,18 @@
     "timestamp": "2026-10-08T02:59:44+0000",
     "posted_at": "2026-10-08T02:59:44+00:00",
     "metrics": {
-      "views": 706795,
-      "reach": 337711,
-      "shares": 80,
-      "saved": 525,
-      "likes": 1042,
+      "views": 711975,
+      "reach": 341949,
+      "shares": 81,
+      "saved": 528,
+      "likes": 1046,
       "comments": 22,
-      "total_interactions": 1760,
-      "ig_reels_avg_watch_time": 11847,
+      "total_interactions": 1768,
+      "ig_reels_avg_watch_time": 11843,
       "reels_skip_rate": 26.2
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 762.49
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 582.88
   },
   {
     "id": "0c828d52a3",
@@ -75,8 +75,8 @@
     "timestamp": "2026-10-08T14:33:26+0000",
     "posted_at": "2026-10-08T14:33:26+00:00",
     "metrics": {},
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 47.89
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 37.61
   },
   {
     "id": "fd2c59a302",
@@ -99,8 +99,8 @@
     "timestamp": "2026-10-08T20:02:38+0000",
     "posted_at": "2026-10-08T20:02:38+00:00",
     "metrics": {},
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 30.09
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 35.54
   },
   {
     "id": "719f52ac3d",
@@ -123,8 +123,8 @@
     "timestamp": "2026-10-08T23:32:59+0000",
     "posted_at": "2026-10-08T23:32:59+00:00",
     "metrics": {},
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 25.07
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 28.54
   },
   {
     "id": "77aff04658",
@@ -147,18 +147,18 @@
     "timestamp": "2026-10-09T01:31:59+0000",
     "posted_at": "2026-10-09T01:31:59+00:00",
     "metrics": {
-      "views": 22680,
-      "reach": 13020,
+      "views": 22720,
+      "reach": 13042,
       "shares": 2,
       "saved": 6,
       "likes": 28,
       "comments": 2,
       "total_interactions": 38,
-      "ig_reels_avg_watch_time": 8185,
+      "ig_reels_avg_watch_time": 8186,
       "reels_skip_rate": 25.7
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 227.31
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 308.76
   },
   {
     "id": "3761509dae",
@@ -181,18 +181,18 @@
     "timestamp": "2026-10-09T13:32:38+0000",
     "posted_at": "2026-10-09T13:32:38+00:00",
     "metrics": {
-      "views": 54247,
-      "reach": 34392,
+      "views": 54392,
+      "reach": 34475,
       "shares": 16,
       "saved": 25,
       "likes": 175,
       "comments": 13,
       "total_interactions": 233,
-      "ig_reels_avg_watch_time": 8061,
-      "reels_skip_rate": 31.3
+      "ig_reels_avg_watch_time": 8058,
+      "reels_skip_rate": 31.4
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 387.54
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 446.21
   },
   {
     "id": "eedf66b9e5",
@@ -215,8 +215,8 @@
     "timestamp": "2026-10-09T15:02:37+0000",
     "posted_at": "2026-10-09T15:02:37+00:00",
     "metrics": {},
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 24.02
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 29.77
   },
   {
     "id": "4ce1120f82",
@@ -239,18 +239,18 @@
     "timestamp": "2026-10-09T17:02:33+0000",
     "posted_at": "2026-10-09T17:02:33+00:00",
     "metrics": {
-      "views": 45527,
-      "reach": 30474,
+      "views": 45662,
+      "reach": 30569,
       "shares": 11,
       "saved": 52,
-      "likes": 219,
+      "likes": 221,
       "comments": 9,
-      "total_interactions": 299,
-      "ig_reels_avg_watch_time": 6639,
+      "total_interactions": 301,
+      "ig_reels_avg_watch_time": 6638,
       "reels_skip_rate": 34.9
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 426.83
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 506.96
   },
   {
     "id": "61849231ec",
@@ -273,8 +273,8 @@
     "timestamp": "2026-10-09T20:02:17+0000",
     "posted_at": "2026-10-09T20:02:17+00:00",
     "metrics": {},
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 34.13
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 38.43
   },
   {
     "id": "3e9d7c4381",
@@ -297,18 +297,18 @@
     "timestamp": "2026-10-09T23:32:15+0000",
     "posted_at": "2026-10-09T23:32:15+00:00",
     "metrics": {
-      "views": 26812,
-      "reach": 16661,
+      "views": 26905,
+      "reach": 16741,
       "shares": 1,
       "saved": 10,
       "likes": 70,
       "comments": 4,
       "total_interactions": 86,
-      "ig_reels_avg_watch_time": 4617,
-      "reels_skip_rate": 48.2
+      "ig_reels_avg_watch_time": 4615,
+      "reels_skip_rate": 48.3
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 560.31
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 671.94
   },
   {
     "id": "f00417f63a",
@@ -331,8 +331,8 @@
     "timestamp": "2026-10-10T01:32:12+0000",
     "posted_at": "2026-10-10T01:32:12+00:00",
     "metrics": {},
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 42.9
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 50.26
   },
   {
     "id": "4094de4236",
@@ -355,8 +355,8 @@
     "timestamp": "2026-10-10T15:02:27+0000",
     "posted_at": "2026-10-10T15:02:27+00:00",
     "metrics": {},
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 82.19
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 86.39
   },
   {
     "id": "524ecfb21e",
@@ -379,18 +379,18 @@
     "timestamp": "2026-10-10T17:02:24+0000",
     "posted_at": "2026-10-10T17:02:24+00:00",
     "metrics": {
-      "views": 38804,
-      "reach": 24904,
+      "views": 38927,
+      "reach": 24993,
       "shares": 55,
       "saved": 131,
-      "likes": 341,
+      "likes": 343,
       "comments": 17,
-      "total_interactions": 549,
-      "ig_reels_avg_watch_time": 7336,
+      "total_interactions": 551,
+      "ig_reels_avg_watch_time": 7334,
       "reels_skip_rate": 29.7
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 1406.27
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 1413.79
   },
   {
     "id": "7a258051e8",
@@ -413,8 +413,8 @@
     "timestamp": "2026-10-10T20:02:17+0000",
     "posted_at": "2026-10-10T20:02:17+00:00",
     "metrics": {},
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 105.88
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 108.05
   },
   {
     "id": "0bd09932de",
@@ -439,18 +439,18 @@
     "fb_video_id": "1812108870068989",
     "fb_permalink": "https://www.facebook.com/reel/1812108870068989/",
     "metrics": {
-      "views": 25025,
-      "reach": 16508,
+      "views": 25137,
+      "reach": 16540,
       "shares": 20,
       "saved": 50,
       "likes": 134,
       "comments": 2,
       "total_interactions": 212,
-      "ig_reels_avg_watch_time": 6364,
-      "reels_skip_rate": 35
+      "ig_reels_avg_watch_time": 6355,
+      "reels_skip_rate": 35.1
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 1628.62
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 1767.18
   },
   {
     "id": "cf4c7554d6",
@@ -476,17 +476,17 @@
     "fb_permalink": "https://www.facebook.com/reel/1403205351414257/",
     "metrics": {
       "views": 4043,
-      "reach": 2660,
+      "reach": 2661,
       "shares": 0,
       "saved": 2,
       "likes": 11,
       "comments": 1,
       "total_interactions": 15,
-      "ig_reels_avg_watch_time": 8439,
+      "ig_reels_avg_watch_time": 8440,
       "reels_skip_rate": 25.3
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 1356.9
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 1443.58
   },
   {
     "id": "f8de8b00d9",
@@ -511,18 +511,18 @@
     "fb_video_id": "1850110035980931",
     "fb_permalink": "https://www.facebook.com/reel/1850110035980931/",
     "metrics": {
-      "views": 18186,
-      "reach": 13029,
+      "views": 18317,
+      "reach": 13073,
       "shares": 4,
       "saved": 23,
       "likes": 73,
       "comments": 3,
       "total_interactions": 104,
-      "ig_reels_avg_watch_time": 5682,
-      "reels_skip_rate": 39.9
+      "ig_reels_avg_watch_time": 5681,
+      "reels_skip_rate": 40
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 770.7
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 1008.86
   },
   {
     "id": "66be9755bf",
@@ -547,8 +547,8 @@
     "fb_video_id": "29760626303524141",
     "fb_permalink": "https://www.facebook.com/reel/29760626303524141/",
     "metrics": {},
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 31.96
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 42.24
   },
   {
     "id": "d72c229d85",
@@ -573,18 +573,18 @@
     "fb_video_id": "2788575378210974",
     "fb_permalink": "https://www.facebook.com/reel/2788575378210974/",
     "metrics": {
-      "views": 57530,
-      "reach": 39949,
+      "views": 57890,
+      "reach": 40181,
       "shares": 29,
       "saved": 67,
       "likes": 294,
       "comments": 12,
       "total_interactions": 407,
-      "ig_reels_avg_watch_time": 7438,
+      "ig_reels_avg_watch_time": 7440,
       "reels_skip_rate": 37.2
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 465.66
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 472.2
   },
   {
     "id": "f33becd507",
@@ -609,18 +609,18 @@
     "fb_video_id": "1649126443392225",
     "fb_permalink": "https://www.facebook.com/reel/1649126443392225/",
     "metrics": {
-      "views": 674425,
-      "reach": 472998,
-      "shares": 21038,
-      "saved": 3658,
-      "likes": 7708,
-      "comments": 278,
-      "total_interactions": 32970,
-      "ig_reels_avg_watch_time": 12050,
+      "views": 682483,
+      "reach": 477871,
+      "shares": 21521,
+      "saved": 3704,
+      "likes": 7825,
+      "comments": 281,
+      "total_interactions": 33624,
+      "ig_reels_avg_watch_time": 12055,
       "reels_skip_rate": 28
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 222.18
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 264.15
   },
   {
     "id": "2123efb2f1",
@@ -645,8 +645,8 @@
     "fb_video_id": "2000945410493703",
     "fb_permalink": "https://www.facebook.com/reel/2000945410493703/",
     "metrics": {},
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 8.3
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 11.96
   },
   {
     "id": "f915633a56",
@@ -671,8 +671,8 @@
     "fb_video_id": "2108674663341656",
     "fb_permalink": "https://www.facebook.com/reel/2108674663341656/",
     "metrics": {},
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 7.09
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 12.83
   },
   {
     "id": "81087c9564",
@@ -697,18 +697,18 @@
     "fb_video_id": "1098215229745725",
     "fb_permalink": "https://www.facebook.com/reel/1098215229745725/",
     "metrics": {
-      "views": 14336,
-      "reach": 9215,
+      "views": 14347,
+      "reach": 9230,
       "shares": 13,
       "saved": 27,
       "likes": 33,
       "comments": 1,
       "total_interactions": 76,
-      "ig_reels_avg_watch_time": 10133,
+      "ig_reels_avg_watch_time": 10130,
       "reels_skip_rate": 25.9
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 237.01
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 227.28
   },
   {
     "id": "e85a19b443",
@@ -733,18 +733,18 @@
     "fb_video_id": "1770177184133946",
     "fb_permalink": "https://www.facebook.com/reel/1770177184133946/",
     "metrics": {
-      "views": 22764,
-      "reach": 14940,
+      "views": 22944,
+      "reach": 15063,
       "shares": 3,
       "saved": 20,
-      "likes": 105,
+      "likes": 106,
       "comments": 6,
-      "total_interactions": 138,
-      "ig_reels_avg_watch_time": 7127,
+      "total_interactions": 139,
+      "ig_reels_avg_watch_time": 7119,
       "reels_skip_rate": 29.1
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 280.79
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 244.49
   },
   {
     "id": "4a7f145770",
@@ -779,8 +779,8 @@
       "ig_reels_avg_watch_time": 4699,
       "reels_skip_rate": 45.5
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 262.16
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 197.66
   },
   {
     "id": "bd876ce25c",
@@ -805,18 +805,18 @@
     "fb_video_id": "3356001801251117",
     "fb_permalink": "https://www.facebook.com/reel/3356001801251117/",
     "metrics": {
-      "views": 31037,
-      "reach": 20688,
+      "views": 31231,
+      "reach": 20821,
       "shares": 4,
       "saved": 14,
       "likes": 109,
       "comments": 6,
       "total_interactions": 134,
-      "ig_reels_avg_watch_time": 6191,
-      "reels_skip_rate": 36.9
+      "ig_reels_avg_watch_time": 6184,
+      "reels_skip_rate": 37
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 429.69
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 310.98
   },
   {
     "id": "5182145f11",
@@ -841,18 +841,18 @@
     "fb_video_id": "2620069235174500",
     "fb_permalink": "https://www.facebook.com/reel/2620069235174500/",
     "metrics": {
-      "views": 6138,
-      "reach": 3454,
+      "views": 6146,
+      "reach": 3458,
       "shares": 8,
       "saved": 6,
       "likes": 8,
       "comments": 0,
       "total_interactions": 23,
-      "ig_reels_avg_watch_time": 7075,
+      "ig_reels_avg_watch_time": 7076,
       "reels_skip_rate": 32.6
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 352.22
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 285.24
   },
   {
     "id": "c597a9b3ea",
@@ -877,18 +877,18 @@
     "fb_video_id": "1080112931500297",
     "fb_permalink": "https://www.facebook.com/reel/1080112931500297/",
     "metrics": {
-      "views": 9634,
-      "reach": 6490,
+      "views": 9641,
+      "reach": 6495,
       "shares": 2,
       "saved": 11,
       "likes": 25,
       "comments": 2,
       "total_interactions": 41,
-      "ig_reels_avg_watch_time": 9005,
-      "reels_skip_rate": 27.2
+      "ig_reels_avg_watch_time": 9006,
+      "reels_skip_rate": 27.3
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 385.54
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 347.12
   },
   {
     "id": "a388091542",
@@ -913,18 +913,18 @@
     "fb_video_id": "1121881620290712",
     "fb_permalink": "https://www.facebook.com/reel/1121881620290712/",
     "metrics": {
-      "views": 12971,
-      "reach": 8403,
+      "views": 13244,
+      "reach": 8645,
       "shares": 1,
       "saved": 10,
-      "likes": 71,
+      "likes": 73,
       "comments": 3,
-      "total_interactions": 86,
-      "ig_reels_avg_watch_time": 6685,
-      "reels_skip_rate": 37.4
+      "total_interactions": 88,
+      "ig_reels_avg_watch_time": 6647,
+      "reels_skip_rate": 37.6
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 296.36
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 225.3
   },
   {
     "id": "234a3eb752",
@@ -949,18 +949,18 @@
     "fb_video_id": "2214354325797457",
     "fb_permalink": "https://www.facebook.com/reel/2214354325797457/",
     "metrics": {
-      "views": 1611,
+      "views": 1614,
       "reach": 1095,
       "shares": 6,
       "saved": 12,
       "likes": 3,
       "comments": 1,
       "total_interactions": 22,
-      "ig_reels_avg_watch_time": 8613,
-      "reels_skip_rate": 36.9
+      "ig_reels_avg_watch_time": 8623,
+      "reels_skip_rate": 36.8
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 193.9
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 170.38
   },
   {
     "id": "c236c7e604",
@@ -985,18 +985,18 @@
     "fb_video_id": "1823426272016464",
     "fb_permalink": "https://www.facebook.com/reel/1823426272016464/",
     "metrics": {
-      "views": 131884,
-      "reach": 81018,
-      "shares": 553,
-      "saved": 1702,
-      "likes": 891,
+      "views": 133241,
+      "reach": 81692,
+      "shares": 559,
+      "saved": 1725,
+      "likes": 906,
       "comments": 9,
-      "total_interactions": 3177,
+      "total_interactions": 3221,
       "ig_reels_avg_watch_time": 7407,
       "reels_skip_rate": 33.2
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 352.05
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 295.46
   },
   {
     "id": "2a83cd862d",
@@ -1021,18 +1021,18 @@
     "fb_video_id": "1099030479645175",
     "fb_permalink": "https://www.facebook.com/reel/1099030479645175/",
     "metrics": {
-      "views": 20792,
-      "reach": 16801,
-      "shares": 38,
-      "saved": 34,
-      "likes": 139,
+      "views": 21806,
+      "reach": 17786,
+      "shares": 39,
+      "saved": 35,
+      "likes": 144,
       "comments": 3,
-      "total_interactions": 215,
-      "ig_reels_avg_watch_time": 6230,
-      "reels_skip_rate": 39
+      "total_interactions": 223,
+      "ig_reels_avg_watch_time": 6235,
+      "reels_skip_rate": 38.8
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 196.89
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 212.41
   },
   {
     "id": "84a55a093c",
@@ -1057,18 +1057,18 @@
     "fb_video_id": "1133801882631642",
     "fb_permalink": "https://www.facebook.com/reel/1133801882631642/",
     "metrics": {
-      "views": 826,
-      "reach": 621,
+      "views": 875,
+      "reach": 664,
       "shares": 0,
       "saved": 1,
       "likes": 3,
       "comments": 0,
       "total_interactions": 4,
-      "ig_reels_avg_watch_time": 5831,
+      "ig_reels_avg_watch_time": 5779,
       "reels_skip_rate": 37.9
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 122.82
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 141.36
   },
   {
     "id": "224e7bad22",
@@ -1093,18 +1093,18 @@
     "fb_video_id": "1833385771683798",
     "fb_permalink": "https://www.facebook.com/reel/1833385771683798/",
     "metrics": {
-      "views": 55214,
-      "reach": 26513,
-      "shares": 33,
-      "saved": 233,
-      "likes": 345,
+      "views": 58123,
+      "reach": 27658,
+      "shares": 34,
+      "saved": 236,
+      "likes": 361,
       "comments": 13,
-      "total_interactions": 635,
-      "ig_reels_avg_watch_time": 9754,
-      "reels_skip_rate": 33.2
+      "total_interactions": 655,
+      "ig_reels_avg_watch_time": 9775,
+      "reels_skip_rate": 33.1
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 188.02
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 217.67
   },
   {
     "id": "7d8e952c5b",
@@ -1129,18 +1129,18 @@
     "fb_video_id": "4648993058652999",
     "fb_permalink": "https://www.facebook.com/reel/4648993058652999/",
     "metrics": {
-      "views": 14854,
-      "reach": 8566,
+      "views": 14895,
+      "reach": 8572,
       "shares": 0,
-      "saved": 13,
-      "likes": 21,
+      "saved": 14,
+      "likes": 22,
       "comments": 0,
-      "total_interactions": 37,
+      "total_interactions": 39,
       "ig_reels_avg_watch_time": 9373,
       "reels_skip_rate": 32.2
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 141.59
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 169.27
   },
   {
     "id": "91c8269bc1",
@@ -1165,18 +1165,18 @@
     "fb_video_id": "1543078144170262",
     "fb_permalink": "https://www.facebook.com/reel/1543078144170262/",
     "metrics": {
-      "views": 155823,
-      "reach": 100483,
-      "shares": 17,
-      "saved": 41,
-      "likes": 234,
-      "comments": 20,
-      "total_interactions": 327,
-      "ig_reels_avg_watch_time": 8868,
-      "reels_skip_rate": 19.3
+      "views": 184963,
+      "reach": 120540,
+      "shares": 21,
+      "saved": 51,
+      "likes": 284,
+      "comments": 28,
+      "total_interactions": 403,
+      "ig_reels_avg_watch_time": 8869,
+      "reels_skip_rate": 19.7
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 167.47
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 141.5
   },
   {
     "id": "5b5e27b53f",
@@ -1201,18 +1201,18 @@
     "fb_video_id": "1111705778278881",
     "fb_permalink": "https://www.facebook.com/reel/1111705778278881/",
     "metrics": {
-      "views": 15083,
-      "reach": 8841,
-      "shares": 5,
-      "saved": 27,
-      "likes": 113,
+      "views": 20899,
+      "reach": 12511,
+      "shares": 7,
+      "saved": 32,
+      "likes": 160,
       "comments": 3,
-      "total_interactions": 150,
-      "ig_reels_avg_watch_time": 9027,
-      "reels_skip_rate": 23.1
+      "total_interactions": 204,
+      "ig_reels_avg_watch_time": 8969,
+      "reels_skip_rate": 23.8
     },
-    "metrics_updated_at": "2026-10-15T17:00:59.907393+00:00",
-    "clicks_attr": 0.0
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 34.49
   },
   {
     "id": "d1096f1333",
@@ -1235,6 +1235,42 @@
     "timestamp": "2026-10-15T17:03:02+0000",
     "posted_at": "2026-10-15T17:03:02+00:00",
     "fb_video_id": "1295766939343017",
-    "fb_permalink": "https://www.facebook.com/reel/1295766939343017/"
+    "fb_permalink": "https://www.facebook.com/reel/1295766939343017/",
+    "metrics": {
+      "views": 21069,
+      "reach": 11274,
+      "shares": 24,
+      "saved": 45,
+      "likes": 164,
+      "comments": 3,
+      "total_interactions": 240,
+      "ig_reels_avg_watch_time": 8029,
+      "reels_skip_rate": 27.4
+    },
+    "metrics_updated_at": "2026-10-15T20:00:53.465992+00:00",
+    "clicks_attr": 11.31
+  },
+  {
+    "id": "e555154cb3",
+    "slot": "2026-10-15 16:00",
+    "item_id": "pr-fasting-bait",
+    "post_type": "trial",
+    "category": "health_bait",
+    "style": "bait_reveal",
+    "clip_id": "clip73",
+    "cta": "1",
+    "mode": "explore",
+    "seconds": 6.04,
+    "caption": "follow me if you want more nurse-approved facts like this 🩺\n\n🔥Health benefits of f**sting they won't tell you 😱\n\n✔️ 1. F***ing twice a week is good for your health.\n✔️ 2. F***ing gives proper relaxation for your mind and body.\n✔️ 3. F***ing can even reduce your cholesterol level.\n✔️ 4. If you are not following me, I know what you thought after reading this ;)\n\ngive me a follow if you didn't realize this post was actually about….. FASTING 👀😄\n\nThe full lesson is in my bio 💉\n\n#nurselexi #sexualhealth #nursetok #healthfacts\n\n🎵 Born Free by Pokki DJ (CC BY 3.0)",
+    "music_id": "jamendo-1179546",
+    "music_title": "Born Free",
+    "music_creator": "Pokki DJ",
+    "music_license": "by",
+    "ig_media_id": "18623473420005574",
+    "permalink": "https://www.instagram.com/reel/DehxbjIlN4D/",
+    "timestamp": "2026-10-15T20:03:51+0000",
+    "posted_at": "2026-10-15T20:03:51+00:00",
+    "fb_video_id": "1392639346242890",
+    "fb_permalink": "https://www.facebook.com/reel/1392639346242890/"
   }
 ]
