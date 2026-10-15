@@ -8361,7 +8361,6 @@ clips:
     w: 0.62
     h: 0.079
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -8480,6 +8479,20 @@ clips:
       - 0.385
       - 0.296
   duration: 9.46
+  events_manual:
+  - t: 2.5
+    dir: up
+    x: 0.536
+    y: 0.123
+  - t: 4
+    dir: up
+    x: 0.5
+    y: 0.114
+  - t: 7.2
+    dir: down
+    x: 0.503
+    y: 0.89
+  title_y: 0.72
 - id: clip64
   drive_id: 1YOAND0MUUHPsrOoVubXkENgBIqKVQ4jL
   name: 56671612e2ca42f3a24b5d92d095bb5e.MP4

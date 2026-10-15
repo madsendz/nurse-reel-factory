@@ -2267,7 +2267,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 6.04,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -2281,7 +2281,8 @@
       "genre": "electronic"
     },
     "msg_id": 173,
-    "file_id": "BAACAgEAAxkDAAOtas2nBfMfAqd5Ld08p08DYjcph6EAAloIAAJGiWhGlKMydPVzQLM9BA"
+    "file_id": "BAACAgEAAxkDAAOtas2nBfMfAqd5Ld08p08DYjcph6EAAloIAAJGiWhGlKMydPVzQLM9BA",
+    "decided_at": "2026-10-15T12:12:27.433343+00:00"
   },
   {
     "id": "d07b5ea4",
@@ -2295,7 +2296,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 9.46,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1992651",
       "title": "Emotional Dancing",
@@ -2309,7 +2310,11 @@
       "genre": "electronic"
     },
     "msg_id": 174,
-    "file_id": "BAACAgEAAxkDAAOuas2nHqi5GzBXGgUalWyySr3mcmAAAlsIAAJGiWhGmc6OPIIfw749BA"
+    "file_id": "BAACAgEAAxkDAAOuas2nHqi5GzBXGgUalWyySr3mcmAAAlsIAAJGiWhGmc6OPIIfw749BA",
+    "decided_at": "2026-10-15T12:12:27.433343+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "9d6180b4"
   },
   {
     "id": "0bf74065",
@@ -2323,7 +2328,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 7.85,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037702",
       "title": "Nostalgia Drive (Lofi Hip-hop)",
@@ -2337,7 +2342,8 @@
       "genre": "lounge"
     },
     "msg_id": 175,
-    "file_id": "BAACAgEAAxkDAAOvas2nOPZ-qRp_k7Ll1liA28vTIiUAAlwIAAJGiWhGRtccA6JKK1E9BA"
+    "file_id": "BAACAgEAAxkDAAOvas2nOPZ-qRp_k7Ll1liA28vTIiUAAlwIAAJGiWhGRtccA6JKK1E9BA",
+    "decided_at": "2026-10-15T12:12:27.433343+00:00"
   },
   {
     "id": "74758c64",
@@ -3006,5 +3012,34 @@
     "msg_id": 229,
     "file_id": "BAACAgEAAxkDAAPlatDCb46GNcvisX0rbksOpYNy7zcAAu4HAALTC4hGCUHu1QABieqMPQQ",
     "replaces": "1f58bad1"
+  },
+  {
+    "id": "9d6180b4",
+    "slot_key": "2026-10-15 19:30",
+    "slot_iso": "2026-10-15T23:30:00+00:00",
+    "slot_label": "Thu Oct 15, 7:30 PM",
+    "post_type": "regular",
+    "item_id": "nw-sleep-t",
+    "category": "mens_health",
+    "clip_id": "clip38",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 8.88,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1547998",
+      "title": "podnebo prod. - spark | FREE BEAT | 2018 | FULL | 96bpm",
+      "creator": "podnebo prod.",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1547998/mp32/",
+      "source": "jamendo",
+      "duration_ms": 181000,
+      "page": "https://www.jamendo.com/track/1547998",
+      "genre": "trap"
+    },
+    "msg_id": 232,
+    "file_id": "BAACAgEAAxkDAAPoatDDTj2w9Jndj69QpjFFbgls3ZIAAvUHAALTC4hGYCShwP3i4Zk9BA",
+    "replaces": "d07b5ea4"
   }
 ]
