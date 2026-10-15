@@ -2998,7 +2998,7 @@
     "cta": 1,
     "mode": "note",
     "seconds": 10.03,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1403270",
       "title": "Just laugh at it",
@@ -3014,7 +3014,8 @@
     "msg_id": 229,
     "file_id": "BAACAgEAAxkDAAPlatDCb46GNcvisX0rbksOpYNy7zcAAu4HAALTC4hGCUHu1QABieqMPQQ",
     "replaces": "1f58bad1",
-    "decided_at": "2026-10-15T12:24:03.618545+00:00"
+    "decided_at": "2026-10-15T12:24:03.618545+00:00",
+    "permalink": "https://www.instagram.com/reel/Dehct5ADuQk/"
   },
   {
     "id": "9d6180b4",
