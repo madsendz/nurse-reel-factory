@@ -2478,7 +2478,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 18.23,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-43679",
       "title": "Ocean fantasy",
@@ -2492,7 +2492,8 @@
       "genre": "chillout"
     },
     "msg_id": 195,
-    "file_id": "BAACAgEAAxkDAAPDas6nOSBSjZvtnsgf88UTpqg7QhAAAjYIAAJGiXBG0Nrfj8V4eMk9BA"
+    "file_id": "BAACAgEAAxkDAAPDas6nOSBSjZvtnsgf88UTpqg7QhAAAjYIAAJGiXBG0Nrfj8V4eMk9BA",
+    "decided_at": "2026-10-15T23:23:59.352619+00:00"
   },
   {
     "id": "4b50fb3f",
@@ -2506,7 +2507,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 10.03,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1961617",
       "title": "Memoirs",
@@ -2520,7 +2521,13 @@
       "genre": "dance"
     },
     "msg_id": 196,
-    "file_id": "BAACAgEAAxkDAAPEas6nV1LXieewOzCTLiatHA92ehsAAjcIAAJGiXBG3aUmz9xGAqk9BA"
+    "file_id": "BAACAgEAAxkDAAPEas6nV1LXieewOzCTLiatHA92ehsAAjcIAAJGiXBG3aUmz9xGAqk9BA",
+    "feedback": [
+      "wrong points need to fix"
+    ],
+    "decided_at": "2026-10-15T23:23:59.352619+00:00",
+    "needs_replacement": false,
+    "replaced_by": "cc90ee31"
   },
   {
     "id": "f5e6619e",
@@ -3065,7 +3072,7 @@
     "cta": 1,
     "mode": "note",
     "seconds": 8.88,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1547998",
       "title": "podnebo prod. - spark | FREE BEAT | 2018 | FULL | 96bpm",
@@ -3080,6 +3087,36 @@
     },
     "msg_id": 235,
     "file_id": "BAACAgEAAxkDAAPratDGEK5lHLyIfxHR7VDpPdgivcQAAv4HAALTC4hGO23YkWLdCjs9BA",
-    "replaces": "9d6180b4"
+    "replaces": "9d6180b4",
+    "decided_at": "2026-10-15T23:23:59.352619+00:00"
+  },
+  {
+    "id": "cc90ee31",
+    "slot_key": "2026-10-16 11:00",
+    "slot_iso": "2026-10-16T15:00:00+00:00",
+    "slot_label": "Fri Oct 16, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-sperm-five-days",
+    "category": "sex_ed",
+    "clip_id": "clip23",
+    "cta": 1,
+    "mode": "note",
+    "seconds": 10.03,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1961617",
+      "title": "Memoirs",
+      "creator": "John Vanick",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1961617/mp32/",
+      "source": "jamendo",
+      "duration_ms": 341000,
+      "page": "https://www.jamendo.com/track/1961617",
+      "genre": "dance"
+    },
+    "msg_id": 238,
+    "file_id": "BAACAgEAAxkDAAPuatFgtPZTMeOFnLnidlK5-O4J52IAAicJAALTC5BGWnMJzjZOyf09BA",
+    "replaces": "4b50fb3f"
   }
 ]
