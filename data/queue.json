@@ -3342,7 +3342,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.03,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1405870",
       "title": "808 BASS BEAT",
@@ -3358,6 +3358,7 @@
     "msg_id": 251,
     "file_id": "BAACAgEAAxkDAAP7atGrcJ5_s9Q0YqQ2uzH-Z0y3Mn0AAj8IAAIcEYhGODq98_WvmH89BA",
     "replaces": "daa606f9",
-    "decided_at": "2026-10-16T04:56:06.961848+00:00"
+    "decided_at": "2026-10-16T04:56:06.961848+00:00",
+    "permalink": "https://www.instagram.com/reel/DejqFngDpCj/"
   }
 ]
