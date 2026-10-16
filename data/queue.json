@@ -2577,7 +2577,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 11.13,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2176699",
       "title": "Relax Chill Lofi",
@@ -2592,7 +2592,8 @@
     },
     "msg_id": 198,
     "file_id": "BAACAgEAAxkDAAPGas6nkNH2y4w-JTc4ir20t0bEt_gAAjoIAAJGiXBGVdZU5N5fSTA9BA",
-    "decided_at": "2026-10-16T04:45:30.643300+00:00"
+    "decided_at": "2026-10-16T04:45:30.643300+00:00",
+    "permalink": "https://www.instagram.com/reel/DekWO-JCF-I/"
   },
   {
     "id": "5e55d12e",
