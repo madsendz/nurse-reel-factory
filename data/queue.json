@@ -2547,7 +2547,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 11.12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384090",
       "title": "Manta-dive",
@@ -2561,7 +2561,8 @@
       "genre": "lounge"
     },
     "msg_id": 197,
-    "file_id": "BAACAgEAAxkDAAPFas6ndl_WiqZ2P2wCGa89UnAdcW4AAjkIAAJGiXBGbOf9wGAggtY9BA"
+    "file_id": "BAACAgEAAxkDAAPFas6ndl_WiqZ2P2wCGa89UnAdcW4AAjkIAAJGiXBGbOf9wGAggtY9BA",
+    "decided_at": "2026-10-16T04:56:06.961848+00:00"
   },
   {
     "id": "dd0389d9",
@@ -2632,7 +2633,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 12.33,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-367026",
       "title": "Drink's Afterhouse",
@@ -2646,7 +2647,8 @@
       "genre": "dance"
     },
     "msg_id": 200,
-    "file_id": "BAACAgEAAxkDAAPIas6n0ZT9Wqy-V7cZiQhOjoLRaYMAAj4IAAJGiXBGSgtKrgVxFMw9BA"
+    "file_id": "BAACAgEAAxkDAAPIas6n0ZT9Wqy-V7cZiQhOjoLRaYMAAj4IAAJGiXBGSgtKrgVxFMw9BA",
+    "decided_at": "2026-10-16T04:56:06.961848+00:00"
   },
   {
     "id": "52ba561f",
@@ -3109,7 +3111,7 @@
     "cta": 1,
     "mode": "note",
     "seconds": 10.03,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1961617",
       "title": "Memoirs",
@@ -3124,7 +3126,8 @@
     },
     "msg_id": 238,
     "file_id": "BAACAgEAAxkDAAPuatFgtPZTMeOFnLnidlK5-O4J52IAAicJAALTC5BGWnMJzjZOyf09BA",
-    "replaces": "4b50fb3f"
+    "replaces": "4b50fb3f",
+    "decided_at": "2026-10-16T04:56:06.961848+00:00"
   },
   {
     "id": "efdc0905",
@@ -3339,7 +3342,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.03,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1405870",
       "title": "808 BASS BEAT",
@@ -3354,6 +3357,7 @@
     },
     "msg_id": 251,
     "file_id": "BAACAgEAAxkDAAP7atGrcJ5_s9Q0YqQ2uzH-Z0y3Mn0AAj8IAAIcEYhGODq98_WvmH89BA",
-    "replaces": "daa606f9"
+    "replaces": "daa606f9",
+    "decided_at": "2026-10-16T04:56:06.961848+00:00"
   }
 ]
