@@ -3305,7 +3305,7 @@
     "cta": 1,
     "mode": "note",
     "seconds": 18.23,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-43679",
       "title": "Ocean fantasy",
@@ -3320,6 +3320,39 @@
     },
     "msg_id": 248,
     "file_id": "BAACAgEAAxkDAAP4atGrIJEw9hvgko4PYNnJ3wJvz64AAj4IAAIcEYhGApuLB98eiGs9BA",
-    "replaces": "5b1d4bef"
+    "replaces": "5b1d4bef",
+    "decided_at": "2026-10-16T04:43:03.523979+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "7c458d7b"
+  },
+  {
+    "id": "7c458d7b",
+    "slot_key": "2026-10-16 09:30",
+    "slot_iso": "2026-10-16T13:30:00+00:00",
+    "slot_label": "Fri Oct 16, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-backdoor-refuse",
+    "category": "sexual_wellness",
+    "clip_id": "clip39",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 9.03,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1405870",
+      "title": "808 BASS BEAT",
+      "creator": "manik seth",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1405870/mp32/",
+      "source": "jamendo",
+      "duration_ms": 158000,
+      "page": "https://www.jamendo.com/track/1405870",
+      "genre": "rnb"
+    },
+    "msg_id": 251,
+    "file_id": "BAACAgEAAxkDAAP7atGrcJ5_s9Q0YqQ2uzH-Z0y3Mn0AAj8IAAIcEYhGODq98_WvmH89BA",
+    "replaces": "daa606f9"
   }
 ]
