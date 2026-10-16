@@ -2479,7 +2479,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 18.23,
-    "status": "approved",
+    "status": "skipped",
     "music": {
       "id": "jamendo-43679",
       "title": "Ocean fantasy",
@@ -2494,7 +2494,12 @@
     },
     "msg_id": 195,
     "file_id": "BAACAgEAAxkDAAPDas6nOSBSjZvtnsgf88UTpqg7QhAAAjYIAAJGiXBG0Nrfj8V4eMk9BA",
-    "decided_at": "2026-10-15T23:23:59.352619+00:00"
+    "decided_at": "2026-10-16T04:41:12.715384+00:00",
+    "feedback": [
+      "new one"
+    ],
+    "needs_replacement": false,
+    "replaced_by": "daa606f9"
   },
   {
     "id": "4b50fb3f",
@@ -3287,5 +3292,34 @@
     },
     "msg_id": 245,
     "file_id": "BAACAgEAAxkDAAP1atF8ILpV9vTwOOgOR9h9disHwNkAAp4JAALTC5BG4l0GLsFWGxk9BA"
+  },
+  {
+    "id": "daa606f9",
+    "slot_key": "2026-10-16 09:30",
+    "slot_iso": "2026-10-16T13:30:00+00:00",
+    "slot_label": "Fri Oct 16, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-backdoor-refuse",
+    "category": "sexual_wellness",
+    "clip_id": "clip56",
+    "cta": 1,
+    "mode": "note",
+    "seconds": 18.23,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-43679",
+      "title": "Ocean fantasy",
+      "creator": "St Adam",
+      "license": "by",
+      "license_version": "",
+      "url": "https://prod-1.storage.jamendo.com/download/track/43679/mp32/",
+      "source": "jamendo",
+      "duration_ms": 186000,
+      "page": "https://www.jamendo.com/track/43679",
+      "genre": "chillout"
+    },
+    "msg_id": 248,
+    "file_id": "BAACAgEAAxkDAAP4atGrIJEw9hvgko4PYNnJ3wJvz64AAj4IAAIcEYhGApuLB98eiGs9BA",
+    "replaces": "5b1d4bef"
   }
 ]
