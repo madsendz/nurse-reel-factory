@@ -2923,7 +2923,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 9.77,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -2938,7 +2938,8 @@
     },
     "msg_id": 274,
     "file_id": "BAACAgEAAxkDAAIBEmrTT_Xv5Lf0PJsu3fZjKfu3QQWxAALuBwACHBGYRqgZrAcqZQ70PQQ",
-    "decided_at": "2026-10-17T11:50:14.882530+00:00"
+    "decided_at": "2026-10-17T11:50:14.882530+00:00",
+    "permalink": "https://www.instagram.com/reel/DenS9rvlGCz/"
   },
   {
     "id": "95da7b2f",
