@@ -141,7 +141,7 @@ caption:
     sexual_wellness: ["#sexualwellness", "#selfcare"]
     sex_ed: ["#sexed", "#sexeducation"]
     anatomy: ["#anatomy", "#medicalfacts"]
-  max_hashtags: 6
+  max_hashtags: 0   # Nick 2026-10-17: TEST - no hashtags at all (some reels got flagged); was 6. Compare flags/reach, then decide.
   # Nick: every TRIAL reel's caption starts with one of these "follow me if..." lines (edit/add freely)
   trial_openers:
     - "follow me if you want more nurse-approved facts like this 🩺"
