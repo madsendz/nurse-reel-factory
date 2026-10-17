@@ -42,7 +42,11 @@ instagram:
 # never share to Facebook on their own). Needs secrets FB_PAGE_ID + FB_PAGE_TOKEN. A Facebook failure
 # is logged and never blocks the Instagram post.
 facebook:
-  crosspost: true
+  # API uploads to the Page show "posted by Nurse reel bot" and get ~0 views; only Instagram's own
+  # "share to Facebook" (from the IG app) reaches the Facebook Reels feed. So: no bot uploads,
+  # just a Telegram reminder with an "Open reel" button after every post -> tap ⋯ -> Share to Facebook.
+  crosspost: false
+  share_nudge: true
   page_id: "1399610569896610"   # Lexi - Sexual Health and Wellness Nurse (the Page linked to the IG account)
   trials: true   # false = only regular reels go to Facebook
 

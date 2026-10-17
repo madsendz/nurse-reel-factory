@@ -1,5 +1,5 @@
 PyYAML>=6.0
 requests>=2.31
-Pillow>=10.0
+Pillow>=10.0,<12   # 12.x wheels ship a FreeType that can't open Apple Color Emoji.ttc
 google-api-python-client>=2.100
 google-auth>=2.23
