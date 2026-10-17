@@ -2915,7 +2915,7 @@
     "slot_key": "2026-10-17 19:30",
     "slot_iso": "2026-10-17T23:30:00+00:00",
     "slot_label": "Sat Oct 17, 7:30 PM",
-    "post_type": "regular",
+    "post_type": "trial",
     "item_id": "pr-harden-foods",
     "category": "mens_health",
     "clip_id": "clip20",
@@ -2936,7 +2936,8 @@
       "genre": "electronic"
     },
     "msg_id": 218,
-    "file_id": "BAACAgEAAxkDAAPaatAssMki5zyi-HBTsyk7srBzfRcAAq8IAALTC4BGZupgz-OgH589BA"
+    "file_id": "BAACAgEAAxkDAAPaatAssMki5zyi-HBTsyk7srBzfRcAAq8IAALTC4BGZupgz-OgH589BA",
+    "decided_at": "2026-10-17T04:56:12.467398+00:00"
   },
   {
     "id": "95da7b2f",
@@ -3594,7 +3595,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.9,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037715",
       "title": "Study Beats (Lofi Hip-Hop Ensemble)",
@@ -3609,7 +3610,8 @@
     },
     "msg_id": 266,
     "file_id": "BAACAgEAAxkDAAIBCmrS8xnhXYgKwByhi1LZi_J7JBWTAAJNBwACHBGYRksf-0lAycwcPQQ",
-    "replaces": "12d77068"
+    "replaces": "12d77068",
+    "decided_at": "2026-10-17T04:56:12.467398+00:00"
   },
   {
     "id": "e600b21a",
@@ -3623,7 +3625,7 @@
     "cta": 0,
     "mode": "note",
     "seconds": 10.17,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1206274",
       "title": "Made In Italy",
@@ -3638,7 +3640,8 @@
     },
     "msg_id": 268,
     "file_id": "BAACAgEAAxkDAAIBDGrS83ggH2xvHgvW5cQkGbeu89waAAJQBwACHBGYRo81fXTu3g5PPQQ",
-    "replaces": "9760e235"
+    "replaces": "9760e235",
+    "decided_at": "2026-10-17T04:56:12.467398+00:00"
   },
   {
     "id": "5731bb67",
