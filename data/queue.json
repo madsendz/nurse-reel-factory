@@ -3658,7 +3658,7 @@
     "cta": 0,
     "mode": "note",
     "seconds": 13.53,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1307225",
       "title": "This Ain't Love",
@@ -3673,7 +3673,11 @@
     },
     "msg_id": 291,
     "file_id": "BAACAgEAAxkDAAIBI2rTUVSUEf72NaPAN86Up7L3eYTHAAICCAACHBGYRliA1pfyZWPuPQQ",
-    "replaces": "6aaad56d"
+    "replaces": "6aaad56d",
+    "decided_at": "2026-10-17T11:25:47.728024+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "8449aac3"
   },
   {
     "id": "bd6a4995",
@@ -3687,7 +3691,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 10.17,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1206274",
       "title": "Made In Italy",
@@ -3702,6 +3706,36 @@
     },
     "msg_id": 294,
     "file_id": "BAACAgEAAxkDAAIBJmrTWix13SGJrYijPxuqKlqBkXg-AAIOCAACHBGYRlba-F4JJ580PQQ",
-    "replaces": "e600b21a"
+    "replaces": "e600b21a",
+    "decided_at": "2026-10-17T11:25:47.728024+00:00"
+  },
+  {
+    "id": "8449aac3",
+    "slot_key": "2026-10-17 16:00",
+    "slot_iso": "2026-10-17T20:00:00+00:00",
+    "slot_label": "Sat Oct 17, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-cardio-erections",
+    "category": "mens_health",
+    "clip_id": "clip34",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 10.96,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-384173",
+      "title": "Mind drifting back (Leaving paradise)",
+      "creator": "K4MMERER",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/384173/mp32/",
+      "source": "jamendo",
+      "duration_ms": 312000,
+      "page": "https://www.jamendo.com/track/384173",
+      "genre": "chillout"
+    },
+    "msg_id": 296,
+    "file_id": "BAACAgEAAxkDAAIBKGrTW16KSKhdz8cC10jdA5EjCaEUAAIRCAACHBGYRjQ62r4FEvqHPQQ",
+    "replaces": "5731bb67"
   }
 ]
