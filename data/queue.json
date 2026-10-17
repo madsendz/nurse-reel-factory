@@ -2825,7 +2825,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.17,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1206274",
       "title": "Made In Italy",
@@ -2839,7 +2839,13 @@
       "genre": "dance"
     },
     "msg_id": 215,
-    "file_id": "BAACAgEAAxkDAAPXatAsYlTsJazqq9QzYocOQ19LQwADqwgAAtMLgEaJMGbgAAEv0Z09BA"
+    "file_id": "BAACAgEAAxkDAAPXatAsYlTsJazqq9QzYocOQ19LQwADqwgAAtMLgEaJMGbgAAEv0Z09BA",
+    "feedback": [
+      "number 1 should say this: “lasting 20 minutes”"
+    ],
+    "decided_at": "2026-10-17T04:02:13.314829+00:00",
+    "needs_replacement": false,
+    "replaced_by": "e600b21a"
   },
   {
     "id": "42d3422c",
@@ -3597,5 +3603,34 @@
     "msg_id": 266,
     "file_id": "BAACAgEAAxkDAAIBCmrS8xnhXYgKwByhi1LZi_J7JBWTAAJNBwACHBGYRksf-0lAycwcPQQ",
     "replaces": "12d77068"
+  },
+  {
+    "id": "e600b21a",
+    "slot_key": "2026-10-17 11:00",
+    "slot_iso": "2026-10-17T15:00:00+00:00",
+    "slot_label": "Sat Oct 17, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "pr-avg-man-normal",
+    "category": "sex_ed",
+    "clip_id": "clip40",
+    "cta": 0,
+    "mode": "note",
+    "seconds": 10.17,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1206274",
+      "title": "Made In Italy",
+      "creator": "Pokki DJ",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1206274/mp32/",
+      "source": "jamendo",
+      "duration_ms": 154000,
+      "page": "https://www.jamendo.com/track/1206274",
+      "genre": "dance"
+    },
+    "msg_id": 268,
+    "file_id": "BAACAgEAAxkDAAIBDGrS83ggH2xvHgvW5cQkGbeu89waAAJQBwACHBGYRo81fXTu3g5PPQQ",
+    "replaces": "9760e235"
   }
 ]
