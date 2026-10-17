@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   replies:
-    runs-on: macos-latest  # macOS = Apple Color Emoji in the reels
+    runs-on: macos-15  # macOS = Apple Color Emoji in the reels (pinned: macos-latest became macOS 26, where the emoji font stopped opening)
     timeout-minutes: 45
     env:
       GDRIVE_SERVICE_ACCOUNT_JSON: ${{ secrets.GDRIVE_SERVICE_ACCOUNT_JSON }}

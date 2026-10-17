@@ -33,7 +33,7 @@ concurrency:
 
 jobs:
   post:
-    runs-on: macos-latest  # macOS = Apple Color Emoji in the reels (the reel is rendered again here)
+    runs-on: macos-15  # macOS = Apple Color Emoji in the reels (pinned: macos-latest became macOS 26, where the emoji font stopped opening) (the reel is rendered again here)
     timeout-minutes: 30
     env:
       IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
