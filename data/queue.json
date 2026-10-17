@@ -2793,7 +2793,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.9,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1230857",
       "title": "Indios",
@@ -2807,7 +2807,11 @@
       "genre": "chillout"
     },
     "msg_id": 214,
-    "file_id": "BAACAgEAAxkDAAPWatAsUdbrZYeFDZQ6dMWpG_uDdOcAAqkIAALTC4BG-pNm70EFSMI9BA"
+    "file_id": "BAACAgEAAxkDAAPWatAsUdbrZYeFDZQ6dMWpG_uDdOcAAqkIAALTC4BG-pNm70EFSMI9BA",
+    "decided_at": "2026-10-17T04:00:39.040094+00:00",
+    "redo": "swap_music",
+    "needs_replacement": false,
+    "replaced_by": "9afd86f8"
   },
   {
     "id": "9760e235",
@@ -3564,5 +3568,34 @@
     },
     "msg_id": 263,
     "file_id": "BAACAgEAAxkDAAIBB2rSzZ7dGGqYExNR1U-2--iQlYFOAAJiCQACHBGQRjYxRUJ_XsJ2PQQ"
+  },
+  {
+    "id": "9afd86f8",
+    "slot_key": "2026-10-17 09:30",
+    "slot_iso": "2026-10-17T13:30:00+00:00",
+    "slot_label": "Sat Oct 17, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-a-spot",
+    "category": "anatomy",
+    "clip_id": "clip05",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 6.9,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2037715",
+      "title": "Study Beats (Lofi Hip-Hop Ensemble)",
+      "creator": "Moonwalk",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2037715/mp32/",
+      "source": "jamendo",
+      "duration_ms": 293000,
+      "page": "https://www.jamendo.com/track/2037715",
+      "genre": "hiphop"
+    },
+    "msg_id": 266,
+    "file_id": "BAACAgEAAxkDAAIBCmrS8xnhXYgKwByhi1LZi_J7JBWTAAJNBwACHBGYRksf-0lAycwcPQQ",
+    "replaces": "12d77068"
   }
 ]
