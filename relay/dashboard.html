@@ -141,7 +141,8 @@ function esc(s){ return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&
 function toast(t){ const el=document.getElementById("toast"); el.textContent=t; el.classList.add("on"); clearTimeout(toast.h); toast.h=setTimeout(()=>el.classList.remove("on"),3200); }
 
 const LABEL = {pending:"⏳ Waiting for you", approved:"✅ Approved", posted:"📤 Posted", skipped:"❌ Skipped", missed:"⏭ Not posted", expired:"⌛ Not approved in time"};
-const REDO = {swap_music:"new music", new_clip:"same topic, new clip", new_topic:"same clip, new topic"};
+const REDO = {swap_music:"new music", new_clip:"same topic, new clip", new_topic:"same clip, new topic", text_edit:"your text edit"};
+const ED = {}; // open text editors: entry id -> {hook, beats} (kept across re-renders)
 function statusOf(e){ if(e.status==="skipped" && (e.needs_replacement||e.replaced_by)) return {cls:"s-redo", text: e.replaced_by ? `🔁 Replaced (${REDO[e.redo]||"your notes"})` : `🔁 New version coming (${REDO[e.redo]||"your notes"})`};
   return {cls:"s-"+(e.status||"pending"), text: LABEL[e.status]||e.status}; }
 function fmtNum(n){ if(n==null) return "–"; n=Number(n); return n>=10000? (n/1000).toFixed(n>=100000?0:1)+"k" : n.toLocaleString(); }
@@ -253,8 +254,20 @@ function card(e, old){
     <div class="vid ${e.file_id?"":"none"}">${vid}</div>
     <div class="info">
       <div class="row"><span class="pill ${st.cls}">${st.text}</span>${e.pending_sync?`<span class="hint">saving…</span>`:""}${e.post_now?`<span class="tag">🚀 posting now</span>`:""}${e.replaces?`<span class="tag">🔁 replacement</span>`:""}${e.extra?`<span class="tag">extra</span>`:""}</div>
-      <div class="title">${esc(e.title||e.item_id)}</div>
-      ${(e.beats||[]).length?`<ol class="beats">${e.beats.map(b=>`<li>${esc(b)}</li>`).join("")}</ol>`:""}
+      ${ED[e.id]?`
+      <div class="editor">
+        <div class="hint">Title (the big first line)</div>
+        <input data-edhook="${e.id}" value="${esc(ED[e.id].hook)}" maxlength="200" style="width:100%;border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:var(--bg)">
+        <div class="hint" style="margin-top:6px">Fact lines — one per line, in the order they pop up (blank line = remove)</div>
+        <textarea data-edbeats="${e.id}" style="min-height:${Math.max(62, 24*ED[e.id].beats.length+28)}px">${esc(ED[e.id].beats.join("\n"))}</textarea>
+        <div class="actions" style="margin-top:6px">
+          <button class="btn primary" data-act="text_edit" data-id="${e.id}">Save text + new version</button>
+          <button class="btn sm" data-edcancel="${e.id}">Cancel</button>
+          <span class="hint" style="align-self:center">The new wording is kept for this topic from now on.</span>
+        </div>
+      </div>`:`
+      <div class="title">${esc(e.title||e.item_id)}${e.text_edited?` <span class="tag" title="your wording">✏️</span>`:""}</div>
+      ${(e.beats||[]).length?`<ol class="beats">${e.beats.map(b=>`<li>${esc(b)}</li>`).join("")}</ol>`:""}`}
       <dl class="meta">
         <dt>Clip</dt><dd>${esc(e.clip_id)}</dd>
         <dt>Music</dt><dd>${e.music?`🎵 ${esc(e.music.title)} — ${esc(e.music.creator)}${e.music.genre?` <span class="muted">(${esc(e.music.genre)})</span>`:""}`:`<span class="muted">picked at post time</span>`}</dd>
@@ -274,6 +287,7 @@ function card(e, old){
       <div><textarea data-note="${e.id}" placeholder="Notes (text placement, timing…). Sending notes skips this reel and makes a new version with the SAME topic + clip. For box placement/timing, set the clip on the Clips tab first — the new version uses it."></textarea>
         <div class="actions" style="margin-top:6px"><button class="btn primary" data-act="note" data-id="${e.id}">Send notes + new version</button></div></div>
       <div class="actions"><span class="hint" style="align-self:center">Redo:</span>
+        <button class="btn sm" data-edit="${e.id}" ${ED[e.id]?"disabled":""}>✏️ Edit text</button>
         <button class="btn sm" data-act="swap_music" data-id="${e.id}">🎵 New music</button>
         <button class="btn sm" data-act="new_clip" data-id="${e.id}">🎬 Same topic, new clip</button>
         <button class="btn sm" data-act="new_topic" data-id="${e.id}">💡 Same clip, new topic</button></div>
@@ -377,7 +391,13 @@ document.addEventListener("click", async ev=>{
   if(b.dataset.topic){ if(busy) return; busy=true; b.disabled=true;
     try{ await api("/api/action",{method:"POST",body:JSON.stringify({kind:b.dataset.topic,item_id:b.dataset.item})}); toast(b.dataset.topic==="topic_keep"?"Kept ✅ — it can be picked from now on":"Tossed"); await load(true); }
     catch(e){ if(e.message!=="login") toast("Didn't work: "+e.message); } finally{ busy=false; } return; }
+  if(b.dataset.edit){ const e=(S.entries||[]).find(x=>x.id===b.dataset.edit); if(!e) return; ED[e.id]={hook:e.title||"", beats:(e.beats||[]).slice()}; render();
+    const inp=document.querySelector(`input[data-edhook="${e.id}"]`); if(inp){ inp.focus(); inp.setSelectionRange(inp.value.length, inp.value.length); } return; }
+  if(b.dataset.edcancel){ delete ED[b.dataset.edcancel]; render(); return; }
   if(b.dataset.act){ const kind=b.dataset.act, id=b.dataset.id; const body={entry_id:id, kind};
+    if(kind==="text_edit"){ const d=ED[id]; if(!d) return; body.hook=d.hook.trim(); body.beats=d.beats.map(x=>x.trim()).filter(Boolean);
+      if(!body.hook) return toast("The title can't be empty.");
+      const e=(S.entries||[]).find(x=>x.id===id); if(e && body.hook===(e.title||"") && JSON.stringify(body.beats)===JSON.stringify(e.beats||[])) return toast("Nothing changed yet."); }
     if(kind==="note"){ const ta=document.querySelector(`textarea[data-note="${id}"]`); body.text=(ta&&ta.value||"").trim(); if(!body.text) return toast("Type your notes first."); }
     if(kind==="move"){ const sel=document.querySelector(`select[data-move="${id}"]`); let v=sel.value;
       if(v==="custom"){ const inp=document.querySelector(`input[data-custom="${id}"]`); if(!inp.value) return toast("Pick the custom time."); const [dd,tt]=inp.value.split("T"); v=isoFor(dd,tt.slice(0,5)); }
@@ -386,14 +406,18 @@ document.addEventListener("click", async ev=>{
     if(REDO[kind] && !confirm(`Make a new version with ${REDO[kind]}? This one will be skipped.`)) return;
     if(busy) return; busy=true; b.disabled=true;
     try{ const r=await api("/api/action",{method:"POST",body:JSON.stringify(body)});
-      const msg={approve:"Approved ✅", skip:"Skipped", note:"Notes sent — new version (same topic + clip) coming (~10 min)", post_now:"Posting now 🚀 (a few minutes)", move:"Moved — approve it again when ready", swap_type:"Type switched — approve it again when ready"}[kind] || "New version coming (~10 min)";
+      const msg={approve:"Approved ✅", skip:"Skipped", note:"Notes sent — new version (same topic + clip) coming (~10 min)", post_now:"Posting now 🚀 (a few minutes)", move:"Moved — approve it again when ready", swap_type:"Type switched — approve it again when ready", text_edit:"Text saved ✏️ — same reel with the new words coming (~10 min)"}[kind] || "New version coming (~10 min)";
       toast(msg + (r.job==="queued"?" · will start within 5 min":""));
       if(kind==="note"){ const ta=document.querySelector(`textarea[data-note="${id}"]`); if(ta) ta.value=""; }
+      if(kind==="text_edit") delete ED[id];
       await load(true);
     }catch(e){ if(e.message!=="login") toast("Didn't work: "+e.message); }
     finally{ busy=false; b.disabled=false; }
   }
 });
+document.addEventListener("input", ev=>{ const t=ev.target; // keep the text-editor draft across re-renders
+  if(t.dataset.edhook && ED[t.dataset.edhook]) ED[t.dataset.edhook].hook=t.value;
+  if(t.dataset.edbeats && ED[t.dataset.edbeats]) ED[t.dataset.edbeats].beats=t.value.split("\n"); });
 document.addEventListener("change", ev=>{ const s=ev.target.closest("select[data-move]"); if(s){ const inp=document.querySelector(`input[data-custom="${s.dataset.move}"]`); inp.hidden = s.value!=="custom"; } });
 setInterval(()=>{ const playing=[...document.querySelectorAll("video")].some(v=>!v.paused); if(S && !document.hidden && !playing && !CE && !document.activeElement?.matches("textarea,select,input")) load(true); }, 20000);
 document.addEventListener("visibilitychange", ()=>{ if(!document.hidden && S) load(true); });

@@ -9,7 +9,7 @@
 import DASHBOARD from "./dashboard.html";
 
 const APPROVE = ["approve", "approved", "yes", "post", "post it", "ok", "good", "✅", "👍"];
-const REDO = { swap_music: "new music", new_clip: "same topic, new clip", new_topic: "same clip, new topic" };
+const REDO = { swap_music: "new music", new_clip: "same topic, new clip", new_topic: "same clip, new topic", text_edit: "your text edit" };
 const STATUS = {
   pending: "⏳ waiting for you", approved: "✅ approved — will post", skipped: "❌ skipped", posted: "📤 posted",
   expired: "⌛ not approved in time", missed: "⏭ not posted (another reel took this time slot)",
@@ -324,18 +324,26 @@ async function clipVideo(id, env, req) {
 async function dashboardAction(a, env, c) {
   if (a && (a.kind === "topic_keep" || a.kind === "topic_toss") && a.item_id) return topicAction(a, env);
   if (a && a.kind === "clip_edit" && a.clip_id) return clipAction(a, env, c);
-  const kinds = ["approve", "skip", "note", "swap_music", "new_clip", "new_topic", "move", "post_now", "swap_type"];
+  const kinds = ["approve", "skip", "note", "swap_music", "new_clip", "new_topic", "move", "post_now", "swap_type", "text_edit"];
   if (!a || !kinds.includes(a.kind) || !a.entry_id) return Response.json({ ok: false, error: "bad action" }, { status: 400 });
   const st = await liveState(env);
   const e = (st.entries || []).find((x) => x.id === a.entry_id);
   if (!e) return Response.json({ ok: false, error: "reel not found" }, { status: 404 });
   if (e.status === "posted") return Response.json({ ok: false, error: "already posted" }, { status: 400 });
   if (a.kind === "note" && !(a.text || "").trim()) return Response.json({ ok: false, error: "empty note" }, { status: 400 });
+  let hook = null, beats = null;
+  if (a.kind === "text_edit") { // title + fact lines edited on the card; saved for the topic by the next job
+    hook = String(a.hook || "").trim().slice(0, 200);
+    beats = (Array.isArray(a.beats) ? a.beats : []).map((b) => String(b || "").trim().slice(0, 160)).filter(Boolean).slice(0, 8);
+    if (!hook) return Response.json({ ok: false, error: "the title can't be empty" }, { status: 400 });
+    if (hook === (e.title || "") && JSON.stringify(beats) === JSON.stringify(e.beats || [])) return Response.json({ ok: false, error: "nothing changed" }, { status: 400 });
+  }
   if (a.kind === "post_now" && e.status !== "approved") return Response.json({ ok: false, error: "approve it first" }, { status: 400 });
   if (a.kind === "move" && !(a.slot_iso && Date.parse(a.slot_iso) > Date.now())) return Response.json({ ok: false, error: "pick a future time" }, { status: 400 });
 
   const key = "a:" + new Date().toISOString() + ":" + Math.random().toString(36).slice(2, 6);
   const rec = { entry_id: a.entry_id, kind: a.kind, text: (a.text || "").slice(0, 2000), slot_iso: a.slot_iso || null, at: new Date().toISOString() };
+  if (hook !== null) Object.assign(rec, { hook, beats });
   await env.KV.put(key, JSON.stringify(rec), { expirationTtl: 14 * 86400 });
 
   const chat = st.chat_id, tz = st.timezone;
@@ -347,7 +355,11 @@ async function dashboardAction(a, env, c) {
     statusText = "❌ skipped (your notes) — new version coming";
     say = `📝 Notes from the dashboard:\n${rec.text}\n\nSkipped — a new version with the same topic + clip is coming (about 10 min).`;
   }
-  if (REDO[a.kind]) {
+  if (a.kind === "text_edit") {
+    patch = { status: "skipped", needs_replacement: true, redo: "text_edit", title: hook, beats, text_edited: true };
+    statusText = "❌ skipped (your text edit) — new version coming";
+    say = `✏️ Text edited on the dashboard:\n${hook}\n${beats.map((b) => "• " + b).join("\n")}\n\nRe-drawing the same reel with the new words (about 10 min). This wording is saved for the topic from now on.`;
+  } else if (REDO[a.kind]) {
     patch = { status: "skipped", needs_replacement: true, redo: a.kind };
     statusText = `❌ skipped (${REDO[a.kind]}) — new version coming`;
     say = `🔁 From the dashboard: making a new version with ${REDO[a.kind]} (about 10 min).`;
