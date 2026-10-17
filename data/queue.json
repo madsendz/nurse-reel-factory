@@ -2859,7 +2859,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 9.33,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1591558",
       "title": "199-s8rec",
@@ -2873,7 +2873,8 @@
       "genre": "trap"
     },
     "msg_id": 216,
-    "file_id": "BAACAgEAAxkDAAPYatAsf6iiAYbQHFK7hXcViZhq4egAAqwIAALTC4BG-YECvsgIByo9BA"
+    "file_id": "BAACAgEAAxkDAAPYatAsf6iiAYbQHFK7hXcViZhq4egAAqwIAALTC4BG-YECvsgIByo9BA",
+    "decided_at": "2026-10-17T04:09:45.290121+00:00"
   },
   {
     "id": "6aaad56d",
@@ -2887,7 +2888,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 13.53,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1307225",
       "title": "This Ain't Love",
@@ -2901,7 +2902,13 @@
       "genre": "rnb"
     },
     "msg_id": 217,
-    "file_id": "BAACAgEAAxkDAAPZatAsm6bzFF-SpuiyVScL7XA3ATsAAq4IAALTC4BGykks8tI-d_s9BA"
+    "file_id": "BAACAgEAAxkDAAPZatAsm6bzFF-SpuiyVScL7XA3ATsAAq4IAALTC4BGykks8tI-d_s9BA",
+    "feedback": [
+      "clip settings changed"
+    ],
+    "decided_at": "2026-10-17T04:09:45.290121+00:00",
+    "needs_replacement": false,
+    "replaced_by": "5731bb67"
   },
   {
     "id": "07976481",
@@ -3632,5 +3639,34 @@
     "msg_id": 268,
     "file_id": "BAACAgEAAxkDAAIBDGrS83ggH2xvHgvW5cQkGbeu89waAAJQBwACHBGYRo81fXTu3g5PPQQ",
     "replaces": "9760e235"
+  },
+  {
+    "id": "5731bb67",
+    "slot_key": "2026-10-17 16:00",
+    "slot_iso": "2026-10-17T20:00:00+00:00",
+    "slot_label": "Sat Oct 17, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-cardio-erections",
+    "category": "mens_health",
+    "clip_id": "clip03",
+    "cta": 0,
+    "mode": "note",
+    "seconds": 13.53,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1307225",
+      "title": "This Ain't Love",
+      "creator": "Jyant",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1307225/mp32/",
+      "source": "jamendo",
+      "duration_ms": 220000,
+      "page": "https://www.jamendo.com/track/1307225",
+      "genre": "rnb"
+    },
+    "msg_id": 272,
+    "file_id": "BAACAgEAAxkDAAIBEGrS9Uc1hyjE62BUQULLWMtaSyoTAAJVBwACHBGYRrGwlEjmLgc8PQQ",
+    "replaces": "6aaad56d"
   }
 ]
