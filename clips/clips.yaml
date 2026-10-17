@@ -4547,10 +4547,18 @@ clips:
   name: Facetune37BD25B6-316B-4F73-8820-65881B47D423.MOV
   status: active
   events_manual:
-  - t: 4.5
+  - t: 4.8
     dir: up
-    x: 0.819
-    y: 0.253
+    x: 0.724
+    y: 0.164
+  - t: 7.4
+    dir: up
+    x: 0.358
+    y: 0.174
+  - t: 9.8
+    dir: down
+    x: 0.452
+    y: 0.759
   point: ''
   zone:
     x: 0.05
@@ -4558,7 +4566,6 @@ clips:
     w: 0.62
     h: 0.271
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -4702,6 +4709,7 @@ clips:
       - 0.183
       - 0.155
   duration: 10.96
+  title_y: 0.64
 - id: clip35
   drive_id: 1uZv3P7y4AluckEeBGe_CdDk2UGwxnqVz
   name: FacetuneF130047A-9B9E-474D-A46D-2C94E69930D1.MOV
