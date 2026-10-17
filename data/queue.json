@@ -3692,7 +3692,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 10.17,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1206274",
       "title": "Made In Italy",
@@ -3708,7 +3708,8 @@
     "msg_id": 294,
     "file_id": "BAACAgEAAxkDAAIBJmrTWix13SGJrYijPxuqKlqBkXg-AAIOCAACHBGYRlba-F4JJ580PQQ",
     "replaces": "e600b21a",
-    "decided_at": "2026-10-17T11:25:47.728024+00:00"
+    "decided_at": "2026-10-17T11:25:47.728024+00:00",
+    "permalink": "https://www.instagram.com/reel/DemYnnKk5d3/"
   },
   {
     "id": "8449aac3",
