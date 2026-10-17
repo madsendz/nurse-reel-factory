@@ -120,6 +120,7 @@ EMOJI_SIZES = [160, 109, 96, 64, 48]  # bitmap emoji fonts only open at their bu
 
 def load_emoji_font():
     """Return (font, px) for the first colour emoji font that opens and draws, else (None, 0)."""
+    last = None
     for f in EMOJI_FONTS:
         if not Path(f).exists():
             continue
@@ -129,9 +130,13 @@ def load_emoji_font():
                 tmp = Image.new("RGBA", (px * 2, px * 2), (0, 0, 0, 0))
                 ImageDraw.Draw(tmp).text((0, 0), "\U0001F600", font=font, embedded_color=True)
                 if tmp.getbbox():
+                    print(f"[render] emoji font: {Path(f).name} @ {px}px")
                     return font, px
-            except Exception:
+            except Exception as ex:
+                last = f"{Path(f).name} @ {px}px: {ex}"
                 continue
+    print(f"[render] WARNING: no colour emoji font could be opened ({last or 'none found'}) "
+          "- emoji will be dropped from the reels")
     return None, 0
 
 

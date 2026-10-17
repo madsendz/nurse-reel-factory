@@ -614,6 +614,28 @@ def approved_for(cfg, slot_key: str) -> dict | None:
     return e
 
 
+def nudge_share(cfg, permalink: str | None, item_id: str, post_type: str = "regular") -> bool:
+    """Telegram reminder to share the reel to Facebook from the Instagram app.
+
+    Reels published through the API never get Instagram's "share to Facebook" lane (the one that
+    actually gets Facebook views); only a share from the app does. So after each post the bot sends
+    a message with an "Open reel" button: tap it, then ⋯ → Share to Facebook."""
+    cid = chat_id(cfg or {})
+    if not cid:
+        print("[nudge] no Telegram chat id yet — press Start in the bot")
+        return False
+    text = (f"📣 Share to Facebook: the {post_type} reel {item_id} just went up on Instagram.\n"
+            f"Open it → tap ⋯ → *Share to Facebook*.")
+    kw = {"reply_markup": {"inline_keyboard": [[{"text": "▶️ Open reel on Instagram", "url": permalink}]]}} \
+        if permalink else {}
+    try:
+        _tg("sendMessage", chat_id=cid, text=text, parse_mode="Markdown", disable_web_page_preview=True, **kw)
+        return True
+    except Exception as ex:  # a failed reminder must never fail the post
+        print(f"[nudge] Telegram reminder failed: {ex}")
+        return False
+
+
 def mark(slot_key: str, status: str, permalink: str | None = None, cfg=None) -> None:
     q = load_queue()
     same = [e for e in q if e["slot_key"] == slot_key]

@@ -290,6 +290,13 @@ def _post_one(cfg, args, posts, now, slot, post_type, entry):
     msg = f"Posted {post_type} reel **{record['item_id']}** on {record['clip_id']} ({record['mode']}) → {record.get('permalink')}"
     if record.get("fb_permalink"):
         msg += f"  · Facebook: {record['fb_permalink']}"
+    elif (cfg.get("facebook") or {}).get("share_nudge", True):
+        # Nick: API posts never reach Facebook's Reels feed; a share from the IG app does -> remind him in Telegram
+        from . import approve
+        if approve.nudge_share(cfg, record.get("permalink"), record["item_id"], post_type):
+            record["fb_nudged_at"] = now.isoformat()
+            save_posts(posts)
+            msg += "  · Telegram: share-to-Facebook reminder sent"
     print(msg)
     _summary(msg)
 
