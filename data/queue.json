@@ -2922,7 +2922,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 9.77,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -2937,7 +2937,7 @@
     },
     "msg_id": 274,
     "file_id": "BAACAgEAAxkDAAIBEmrTT_Xv5Lf0PJsu3fZjKfu3QQWxAALuBwACHBGYRqgZrAcqZQ70PQQ",
-    "decided_at": "2026-10-17T04:56:12.467398+00:00"
+    "decided_at": "2026-10-17T11:50:14.882530+00:00"
   },
   {
     "id": "95da7b2f",
@@ -3721,7 +3721,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.96,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-384173",
       "title": "Mind drifting back (Leaving paradise)",
@@ -3736,6 +3736,41 @@
     },
     "msg_id": 296,
     "file_id": "BAACAgEAAxkDAAIBKGrTW16KSKhdz8cC10jdA5EjCaEUAAIRCAACHBGYRjQ62r4FEvqHPQQ",
-    "replaces": "5731bb67"
+    "replaces": "5731bb67",
+    "feedback": [
+      "this is all bad, give me a new one"
+    ],
+    "decided_at": "2026-10-17T11:50:14.882530+00:00",
+    "needs_replacement": false,
+    "replaced_by": "299b6670"
+  },
+  {
+    "id": "299b6670",
+    "slot_key": "2026-10-17 16:00",
+    "slot_iso": "2026-10-17T20:00:00+00:00",
+    "slot_label": "Sat Oct 17, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-cardio-erections",
+    "category": "mens_health",
+    "clip_id": "clip34",
+    "cta": 1,
+    "mode": "note",
+    "seconds": 10.96,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-384173",
+      "title": "Mind drifting back (Leaving paradise)",
+      "creator": "K4MMERER",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/384173/mp32/",
+      "source": "jamendo",
+      "duration_ms": 312000,
+      "page": "https://www.jamendo.com/track/384173",
+      "genre": "chillout"
+    },
+    "msg_id": 300,
+    "file_id": "BAACAgEAAxkDAAIBLGrTYSU54MGefOlQT9SgsHJwjGUyAAIdCAACHBGYRuSse9jEI01APQQ",
+    "replaces": "8449aac3"
   }
 ]
