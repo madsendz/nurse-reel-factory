@@ -31,6 +31,8 @@ def build_state(cfg, q=None) -> dict:
         it = bank.get(e["item_id"], {})
         d["title"] = it.get("hook")
         d["beats"] = it.get("beats", [])
+        if it.get("text_edited_at"):
+            d["text_edited"] = True  # Nick's wording (dashboard "Edit text"), not the bank's
         if e.get("music"):
             m = e["music"]
             d["music"] = {"title": m.get("title"), "creator": m.get("creator"), "genre": m.get("genre"),

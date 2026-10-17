@@ -58,14 +58,23 @@ def load_config() -> dict:
 
 
 TOPIC_STATUS_PATH = ROOT / "data" / "topic_status.json"
+TOPIC_TEXT_PATH = ROOT / "data" / "topic_text.json"  # Nick's text edits from the dashboard ("Edit text")
 
 
 def load_bank() -> list[dict]:
     items = load_yaml(BANK_PATH, {"items": []}).get("items", [])
     over = load_json(TOPIC_STATUS_PATH, {})  # keep / toss decisions made on the dashboard
+    text = load_json(TOPIC_TEXT_PATH, {})    # edited hook / fact lines: {item_id: {hook, beats, at}}
     for i in items:
         if i.get("id") in over:
             i["status"] = over[i["id"]]
+        t = text.get(i.get("id"))
+        if t:
+            if t.get("hook"):
+                i["hook"] = t["hook"]
+            if isinstance(t.get("beats"), list):
+                i["beats"] = t["beats"]
+            i["text_edited_at"] = t.get("at")
     return items
 
 

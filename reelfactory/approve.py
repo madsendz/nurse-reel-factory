@@ -180,7 +180,8 @@ def sync_updates(cfg) -> None:
         print(f"[dashboard] push failed: {ex}")
 
 
-REDO = {"swap_music": "new music", "new_clip": "same topic, new clip", "new_topic": "same clip, new topic"}
+REDO = {"swap_music": "new music", "new_clip": "same topic, new clip", "new_topic": "same clip, new topic",
+        "text_edit": "your text edit"}
 
 
 def _apply_dashboard_actions(cfg, q, by_id, st, fb) -> None:
@@ -227,7 +228,22 @@ def _apply_dashboard_actions(cfg, q, by_id, st, fb) -> None:
         if not e or e.get("status") == "posted":
             continue
         print(f"[dashboard] {kind} on {e['slot_key']} ({e['item_id']})")
-        if kind in ("approve", "skip"):
+        if kind == "text_edit":  # Nick changed the title / fact lines on the dashboard
+            hook = str(a.get("hook") or "").strip()
+            beats = [str(b).strip() for b in (a.get("beats") or []) if str(b).strip()]
+            if not hook:
+                continue
+            from .config import TOPIC_TEXT_PATH
+            tt = load_json(TOPIC_TEXT_PATH, {})
+            tt[e["item_id"]] = {"hook": hook, "beats": beats, "at": now.isoformat()}  # sticks for this topic from now on
+            save_json(TOPIC_TEXT_PATH, tt)
+            print(f"[dashboard] text for {e['item_id']} saved: {hook!r} + {len(beats)} line(s)")
+            e["status"] = "skipped"
+            e["decided_at"] = now.isoformat()
+            e["redo"] = "text_edit"
+            if not e.get("replaced_by"):
+                e["needs_replacement"] = True
+        elif kind in ("approve", "skip"):
             e["status"] = "approved" if kind == "approve" else "skipped"
             e["decided_at"] = now.isoformat()
         elif kind == "note" and (a.get("text") or "").strip():
@@ -437,10 +453,10 @@ def _redo_choice(cfg, e, bank, clips, hist, dt, rng):
     item = next((i for i in bank if i["id"] == e["item_id"]), None)
     clip = next((c for c in clips if c["id"] == e["clip_id"]), None)
     now = dt.astimezone(timezone.utc)
-    if not redo:
+    if not redo or redo == "text_edit":  # a text edit = same reel, re-drawn with the new words
         if item and clip:
-            return {"item": item, "clip": clip, "cta": int(e.get("cta") or 0), "mode": "note",
-                    "music": e.get("music")}
+            return {"item": item, "clip": clip, "cta": int(e.get("cta") or 0),
+                    "mode": "edited" if redo else "note", "music": e.get("music")}
         return None
     try:
         if redo == "swap_music" and item and clip:
