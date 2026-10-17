@@ -3595,7 +3595,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.9,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2037715",
       "title": "Study Beats (Lofi Hip-Hop Ensemble)",
@@ -3611,7 +3611,8 @@
     "msg_id": 289,
     "file_id": "BAACAgEAAxkDAAIBIWrTUSlgLf_tK7NuGf3PSpgrllWbAAMIAAIcEZhGfvD-ICHQISg9BA",
     "replaces": "12d77068",
-    "decided_at": "2026-10-17T04:56:12.467398+00:00"
+    "decided_at": "2026-10-17T04:56:12.467398+00:00",
+    "permalink": "https://www.instagram.com/reel/DemOV4iiZm2/"
   },
   {
     "id": "e600b21a",
