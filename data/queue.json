@@ -3924,7 +3924,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 6.13,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-247156",
       "title": "Silence Apart",
@@ -3939,7 +3939,8 @@
     },
     "msg_id": 331,
     "file_id": "BAACAgEAAxkDAAIBS2rU2bG1xSXCaI1kFlJRvvapdhHDAAIHCAACl3CoRhoSgDUblIKsPQQ",
-    "replaces": "bc9a9d2f"
+    "replaces": "bc9a9d2f",
+    "decided_at": "2026-10-18T16:47:04.367550+00:00"
   },
   {
     "id": "8145610f",
@@ -3953,7 +3954,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.5,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037627",
       "title": "We Made It (Soft Drum And Bass)",
@@ -3968,6 +3969,7 @@
     },
     "msg_id": 333,
     "file_id": "BAACAgEAAxkDAAIBTWrU2f302KQL4PnqSoD3A7kVAAHJjwACCQgAApdwqEa26ly8v4QZ_D0E",
-    "replaces": "99aefcc1"
+    "replaces": "99aefcc1",
+    "decided_at": "2026-10-18T16:47:04.367550+00:00"
   }
 ]
