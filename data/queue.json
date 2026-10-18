@@ -1,22 +1,5 @@
 [
   {
-    "id": "8cfa90b2",
-    "slot_key": "2026-10-08 16:00",
-    "slot_iso": "2026-10-08T20:00:00+00:00",
-    "slot_label": "Thu Oct 08, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "pr-backdoor-refuse",
-    "category": "sexual_wellness",
-    "clip_id": "clip73",
-    "cta": 2,
-    "mode": "explore",
-    "seconds": 6.04,
-    "status": "posted",
-    "msg_id": 39,
-    "decided_at": "2026-10-08T14:31:43.519627+00:00",
-    "permalink": "https://www.instagram.com/reel/DePvtBrk7eA/"
-  },
-  {
     "id": "7d781812",
     "slot_key": "2026-10-08 19:30",
     "slot_iso": "2026-10-08T23:30:00+00:00",
@@ -3914,7 +3897,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.5,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2037627",
       "title": "We Made It (Soft Drum And Bass)",
@@ -3930,6 +3913,7 @@
     "msg_id": 333,
     "file_id": "BAACAgEAAxkDAAIBTWrU2f302KQL4PnqSoD3A7kVAAHJjwACCQgAApdwqEa26ly8v4QZ_D0E",
     "replaces": "99aefcc1",
-    "decided_at": "2026-10-18T16:47:04.367550+00:00"
+    "decided_at": "2026-10-18T16:47:04.367550+00:00",
+    "permalink": "https://www.instagram.com/reel/Depf2JmCOXg/"
   }
 ]
