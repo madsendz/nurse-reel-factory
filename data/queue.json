@@ -3242,7 +3242,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.63,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-43679",
       "title": "Ocean fantasy",
@@ -3256,7 +3256,11 @@
       "genre": "chillout"
     },
     "msg_id": 283,
-    "file_id": "BAACAgEAAxkDAAIBG2rTUKZLVtt33w-2smjrsJ84tNQrAAL4BwACHBGYRrRv-E6ce0gdPQQ"
+    "file_id": "BAACAgEAAxkDAAIBG2rTUKZLVtt33w-2smjrsJ84tNQrAAL4BwACHBGYRrRv-E6ce0gdPQQ",
+    "decided_at": "2026-10-18T22:52:54.403142+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "2410e9a1"
   },
   {
     "id": "d9c0bbc0",
@@ -3915,5 +3919,34 @@
     "replaces": "99aefcc1",
     "decided_at": "2026-10-18T16:47:04.367550+00:00",
     "permalink": "https://www.instagram.com/reel/Depf2JmCOXg/"
+  },
+  {
+    "id": "2410e9a1",
+    "slot_key": "2026-10-19 09:30",
+    "slot_iso": "2026-10-19T13:30:00+00:00",
+    "slot_label": "Mon Oct 19, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-frequency-age",
+    "category": "sexual_wellness",
+    "clip_id": "clip43",
+    "cta": 0,
+    "mode": "edited",
+    "seconds": 11.63,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-43679",
+      "title": "Ocean fantasy",
+      "creator": "St Adam",
+      "license": "by",
+      "license_version": "",
+      "url": "https://prod-1.storage.jamendo.com/download/track/43679/mp32/",
+      "source": "jamendo",
+      "duration_ms": 186000,
+      "page": "https://www.jamendo.com/track/43679",
+      "genre": "chillout"
+    },
+    "msg_id": 338,
+    "file_id": "BAACAgEAAxkDAAIBUmrVTegfOWaJD8KssYHzbBiQLCXWAAIOCQACl3CoRqBFB2wSubsCPQQ",
+    "replaces": "a84537a3"
   }
 ]
