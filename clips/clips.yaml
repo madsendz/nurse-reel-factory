@@ -2030,7 +2030,11 @@ clips:
   drive_id: 1MF6-VldpERNrIYHtzdvIx_m9kKSkID-D
   name: 27f32f38b0ad43d59893d28df0a4c6ed.MP4
   status: active
-  events_manual: []
+  events_manual:
+  - t: 4.6
+    dir: down
+    x: 0.479
+    y: 0.88
   point: ''
   zone:
     x: 0.33
@@ -2038,7 +2042,7 @@ clips:
     w: 0.62
     h: 0.182
   start: 0
-  end: null
+  end: 6.6
   auto:
     method: pose
     face:
@@ -2122,6 +2126,7 @@ clips:
       - 0.437
       - 0.35
   duration: 6.97
+  title_y: 0.63
 - id: clip15
   drive_id: 18XKyY7igJpRn1-psFWu1NqhEbyedpHHe
   name: 320e7c6d10f2466d850479f005a5ba9b.MP4
@@ -2334,7 +2339,7 @@ clips:
     w: 0.62
     h: 0.18
   start: 0
-  end: null
+  end: 6.5
   auto:
     method: pose
     face:
@@ -2423,6 +2428,7 @@ clips:
       - 0.412
       - 0.325
   duration: 7.5
+  title_y: 0.56
 - id: clip18
   drive_id: 1icWLH47uILuh0qIN9LREZuaf7m6LzmCh
   name: ba0df9f407c5457e806a6f6c2b91b655.MP4
@@ -4713,7 +4719,7 @@ clips:
       - 0.183
       - 0.155
   duration: 10.96
-  title_y: 0.64
+  title_y: 0.66
 - id: clip35
   drive_id: 1uZv3P7y4AluckEeBGe_CdDk2UGwxnqVz
   name: FacetuneF130047A-9B9E-474D-A46D-2C94E69930D1.MOV
