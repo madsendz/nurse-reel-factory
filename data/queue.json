@@ -1,26 +1,5 @@
 [
   {
-    "id": "604f4fca",
-    "slot_key": "2026-10-08 11:00",
-    "slot_iso": "2026-10-08T15:00:00+00:00",
-    "slot_label": "Thu Oct 08, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "pr-sleeping-bait",
-    "category": "health_bait",
-    "clip_id": "clip23",
-    "cta": 2,
-    "mode": "explore",
-    "seconds": 10.03,
-    "status": "skipped",
-    "msg_id": 37,
-    "decided_at": "2026-10-08T19:03:31.432063+00:00",
-    "feedback": [
-      "skip this topic and send replacement.",
-      "dont use this topic"
-    ],
-    "needs_replacement": false
-  },
-  {
     "id": "ff040362",
     "slot_key": "2026-10-08 13:00",
     "slot_iso": "2026-10-08T17:00:00+00:00",
@@ -3170,7 +3149,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.97,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-618057",
       "title": "Bulletproof Feat. J Dog (Original Mix)",
@@ -3184,7 +3163,8 @@
       "genre": "dance"
     },
     "msg_id": 280,
-    "file_id": "BAACAgEAAxkDAAIBGGrTUH0iQ8XFfvZON-mrCICyGEWHAAL1BwACHBGYRj0c8lT6jCucPQQ"
+    "file_id": "BAACAgEAAxkDAAIBGGrTUH0iQ8XFfvZON-mrCICyGEWHAAL1BwACHBGYRj0c8lT6jCucPQQ",
+    "decided_at": "2026-10-18T15:01:09.747162+00:00"
   },
   {
     "id": "c0c8f8c4",
@@ -3198,7 +3178,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.5,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2173154",
       "title": "Coffee Lounge",
@@ -3212,7 +3192,8 @@
       "genre": "lounge"
     },
     "msg_id": 282,
-    "file_id": "BAACAgEAAxkDAAIBGmrTUJEfR4kAAVEqZwAB1ahCIvCaq9sAAvYHAAIcEZhGzN14kwe2BYs9BA"
+    "file_id": "BAACAgEAAxkDAAIBGmrTUJEfR4kAAVEqZwAB1ahCIvCaq9sAAvYHAAIcEZhGzN14kwe2BYs9BA",
+    "decided_at": "2026-10-18T15:01:09.747162+00:00"
   },
   {
     "id": "daa606f9",
@@ -3848,7 +3829,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 9.4,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2290117",
       "title": "Soul Hop Music",
@@ -3864,7 +3845,8 @@
     "msg_id": 319,
     "file_id": "BAACAgEAAxkDAAIBP2rUxQrRm_gVn67sKquEg3D97iUwAALQBwACl3CoRuUytaAmceu-PQQ",
     "replaces": "efdc0905",
-    "decided_at": "2026-10-18T14:37:13.624951+00:00"
+    "decided_at": "2026-10-18T14:37:13.624951+00:00",
+    "permalink": "https://www.instagram.com/reel/Deo9fSSiMd1/"
   },
   {
     "id": "dd4f2dbc",
