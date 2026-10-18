@@ -410,8 +410,13 @@ def cmd_ideas(cfg, args):
         return
     bank = load_bank()
     s = score_posts(load_posts(), cfg)
-    new = generate(bank, feature_estimates(s), cfg)
+    new = generate(bank, feature_estimates(s), cfg, n=getattr(args, "n", None))
     save_bank(bank + new)
+    try:  # Topics tab shows them right away
+        from . import dashboard
+        dashboard.push(cfg)
+    except Exception as ex:
+        print(f"[dashboard] push failed: {ex}")
     md = "## New topic ideas (status: review)\n\n" + "\n".join(f"- **{i['id']}**: {i['hook']}" for i in new)
     _summary(md)
     print(md)
@@ -446,6 +451,7 @@ def main(argv=None):
     sub.add_parser("replies")
     p = sub.add_parser("ideas")
     p.add_argument("--force", action="store_true")
+    p.add_argument("--n", type=int, default=None, help="how many ideas (default: ideas.per_run in config.yaml)")
     args = ap.parse_args(argv)
     cfg = load_config()
     {"sync-clips": cmd_sync_clips, "auto-tag": cmd_auto_tag, "refresh": cmd_refresh, "post": cmd_post, "preview": cmd_preview,
