@@ -1,26 +1,5 @@
 [
   {
-    "id": "ff040362",
-    "slot_key": "2026-10-08 13:00",
-    "slot_iso": "2026-10-08T17:00:00+00:00",
-    "slot_label": "Thu Oct 08, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "pr-a-spot",
-    "category": "anatomy",
-    "clip_id": "clip08",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 13.7,
-    "status": "skipped",
-    "msg_id": 38,
-    "decided_at": "2026-10-08T14:31:42.600672+00:00",
-    "feedback": [
-      "the payoff text pops up way too soon. the final text box (in this case there is only 1) shouldn’t show up until 1-2 seconds from\nthe end of the video."
-    ],
-    "needs_replacement": false,
-    "replaced_by": "559177cc"
-  },
-  {
     "id": "8cfa90b2",
     "slot_key": "2026-10-08 16:00",
     "slot_iso": "2026-10-08T20:00:00+00:00",
@@ -78,26 +57,6 @@
     "decided_at": "2026-10-08T14:31:45.252998+00:00",
     "needs_replacement": false,
     "replaced_by": "960028b4"
-  },
-  {
-    "id": "559177cc",
-    "slot_key": "2026-10-08 13:00",
-    "slot_iso": "2026-10-08T17:00:00+00:00",
-    "slot_label": "Thu Oct 08, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "pr-average-size",
-    "category": "mens_health",
-    "clip_id": "clip48",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 7.85,
-    "status": "skipped",
-    "msg_id": 51,
-    "replaces": "ff040362",
-    "decided_at": "2026-10-08T18:51:03.691535+00:00",
-    "feedback": [
-      "we’ve done this topic too recently…"
-    ]
   },
   {
     "id": "fed3cad4",
@@ -3924,7 +3883,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 6.13,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-247156",
       "title": "Silence Apart",
@@ -3940,7 +3899,8 @@
     "msg_id": 331,
     "file_id": "BAACAgEAAxkDAAIBS2rU2bG1xSXCaI1kFlJRvvapdhHDAAIHCAACl3CoRhoSgDUblIKsPQQ",
     "replaces": "bc9a9d2f",
-    "decided_at": "2026-10-18T16:47:04.367550+00:00"
+    "decided_at": "2026-10-18T16:47:04.367550+00:00",
+    "permalink": "https://www.instagram.com/reel/DepLNJwAM45/"
   },
   {
     "id": "8145610f",
