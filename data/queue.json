@@ -3138,7 +3138,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 7.5,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1922534",
       "title": "Luxury Hip-Hop",
@@ -3152,7 +3152,11 @@
       "genre": "rnb"
     },
     "msg_id": 279,
-    "file_id": "BAACAgEAAxkDAAIBF2rTUGtVIuRip70p4kIyj_eXhyDWAAL0BwACHBGYRmcdcBF4sj43PQQ"
+    "file_id": "BAACAgEAAxkDAAIBF2rTUGtVIuRip70p4kIyj_eXhyDWAAL0BwACHBGYRmcdcBF4sj43PQQ",
+    "decided_at": "2026-10-18T14:38:19.602754+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "8145610f"
   },
   {
     "id": "4271baad",
@@ -3954,5 +3958,34 @@
     "msg_id": 331,
     "file_id": "BAACAgEAAxkDAAIBS2rU2bG1xSXCaI1kFlJRvvapdhHDAAIHCAACl3CoRhoSgDUblIKsPQQ",
     "replaces": "bc9a9d2f"
+  },
+  {
+    "id": "8145610f",
+    "slot_key": "2026-10-18 16:00",
+    "slot_iso": "2026-10-18T20:00:00+00:00",
+    "slot_label": "Sun Oct 18, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "pr-sleeping-bait",
+    "category": "health_bait",
+    "clip_id": "clip17",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 6.5,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2037627",
+      "title": "We Made It (Soft Drum And Bass)",
+      "creator": "Moonwalk",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2037627/mp32/",
+      "source": "jamendo",
+      "duration_ms": 223000,
+      "page": "https://www.jamendo.com/track/2037627",
+      "genre": "electronic"
+    },
+    "msg_id": 333,
+    "file_id": "BAACAgEAAxkDAAIBTWrU2f302KQL4PnqSoD3A7kVAAHJjwACCQgAApdwqEa26ly8v4QZ_D0E",
+    "replaces": "99aefcc1"
   }
 ]
