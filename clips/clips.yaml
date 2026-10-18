@@ -1274,7 +1274,6 @@ clips:
     w: 0.62
     h: 0.052
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -1433,6 +1432,24 @@ clips:
       - 0.441
       - 0.33
   duration: 13.8
+  events_manual:
+  - t: 1
+    dir: up
+    x: 0.152
+    y: 0.128
+  - t: 3.9
+    dir: up
+    x: 0.476
+    y: 0.119
+  - t: 7.1
+    dir: up
+    x: 0.809
+    y: 0.121
+  - t: 12.3
+    dir: down
+    x: 0.515
+    y: 0.851
+  title_y: 0.75
 - id: clip10
   drive_id: 1IMMv3dz_7O3KuuvpXQo3W1XoXlAlLWnx
   name: 4aade41b4d0848ff8d401e9a589a22d5.MP4
@@ -1603,7 +1620,11 @@ clips:
   drive_id: 1Om9p1DqI9QvHwyQqj-rfgKzjKC9symGc
   name: ca624ed5561a4caa880333c18bb51554.MP4
   status: active
-  events_manual: []
+  events_manual:
+  - t: 7.2
+    dir: down
+    x: 0.488
+    y: 0.684
   point: ''
   zone:
     x: 0.33
@@ -1611,7 +1632,6 @@ clips:
     w: 0.62
     h: 0.4
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -1745,6 +1765,7 @@ clips:
       - 0.51
       - 0.388
   duration: 11.47
+  title_y: 0.57
 - id: clip12
   drive_id: 130C467ui2aLkcN8PnSnS7tXhh-SADW4r
   name: 8761f1213eb64b2e8298edd9b9ebabd7.MP4

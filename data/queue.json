@@ -3362,7 +3362,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 8.13,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1440522",
       "title": "Wait",
@@ -3376,7 +3376,11 @@
       "genre": "hiphop"
     },
     "msg_id": 287,
-    "file_id": "BAACAgEAAxkDAAIBH2rTUQNP5AABcFN_9Kfbe1tA7nT6mwAC_gcAAhwRmEZqGKGFhDZbxD0E"
+    "file_id": "BAACAgEAAxkDAAIBH2rTUQNP5AABcFN_9Kfbe1tA7nT6mwAC_gcAAhwRmEZqGKGFhDZbxD0E",
+    "decided_at": "2026-10-18T22:58:14.204103+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "3eaf655c"
   },
   {
     "id": "5cb0d4ba",
@@ -3981,5 +3985,34 @@
     "msg_id": 340,
     "file_id": "BAACAgEAAxkDAAIBVGrVTjq7-nbJ1WYCsp3YUCykmNrXAAIQCQACl3CoRjgkg9W6fdLdPQQ",
     "replaces": "fdb3ebc8"
+  },
+  {
+    "id": "3eaf655c",
+    "slot_key": "2026-10-19 19:30",
+    "slot_iso": "2026-10-19T23:30:00+00:00",
+    "slot_label": "Mon Oct 19, 7:30 PM",
+    "post_type": "regular",
+    "item_id": "nw-penetration-alone",
+    "category": "sex_ed",
+    "clip_id": "clip50",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 8.13,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1685784",
+      "title": "Stacks",
+      "creator": "Wordsmith",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1685784/mp32/",
+      "source": "jamendo",
+      "duration_ms": 193000,
+      "page": "https://www.jamendo.com/track/1685784",
+      "genre": "trap"
+    },
+    "msg_id": 344,
+    "file_id": "BAACAgEAAxkDAAIBWGrVTyjU3qRyqxZnrQcHGekEC0dLAAISCQACl3CoRrkmXVzkQcfKPQQ",
+    "replaces": "bd3ea526"
   }
 ]
