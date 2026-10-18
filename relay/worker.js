@@ -9,7 +9,7 @@
 import DASHBOARD from "./dashboard.html";
 
 const APPROVE = ["approve", "approved", "yes", "post", "post it", "ok", "good", "✅", "👍"];
-const REDO = { swap_music: "new music", new_clip: "same topic, new clip", new_topic: "same clip, new topic", text_edit: "your text edit" };
+const REDO = { swap_music: "new music", new_clip: "same topic, new clip", new_topic: "same clip, new topic", never_topic: "a new topic (that one is retired for good)", text_edit: "your text edit" };
 const STATUS = {
   pending: "⏳ waiting for you", approved: "✅ approved — will post", skipped: "❌ skipped", posted: "📤 posted",
   expired: "⌛ not approved in time", missed: "⏭ not posted (another reel took this time slot)",
@@ -324,7 +324,11 @@ async function clipVideo(id, env, req) {
 async function dashboardAction(a, env, c) {
   if (a && (a.kind === "topic_keep" || a.kind === "topic_toss") && a.item_id) return topicAction(a, env);
   if (a && a.kind === "clip_edit" && a.clip_id) return clipAction(a, env, c);
-  const kinds = ["approve", "skip", "note", "swap_music", "new_clip", "new_topic", "move", "post_now", "swap_type", "text_edit"];
+  if (a && a.kind === "new_ideas") { // ✨ Topics tab: have Claude write new topics into the review list
+    const job = (await dispatch(env, "ideas.yml")) ? "started" : "unavailable";
+    return Response.json({ ok: job === "started", job, error: job === "started" ? undefined : "the relay can't start GitHub jobs (GH_DISPATCH_TOKEN not set)" }, { status: job === "started" ? 200 : 503 });
+  }
+  const kinds = ["approve", "skip", "note", "swap_music", "new_clip", "new_topic", "never_topic", "move", "post_now", "swap_type", "text_edit"];
   if (!a || !kinds.includes(a.kind) || !a.entry_id) return Response.json({ ok: false, error: "bad action" }, { status: 400 });
   const st = await liveState(env);
   const e = (st.entries || []).find((x) => x.id === a.entry_id);
@@ -361,6 +365,12 @@ async function dashboardAction(a, env, c) {
     say = `✏️ Text edited on the dashboard:\n${hook}\n${beats.map((b) => "• " + b).join("\n")}\n\nRe-drawing the same reel with the new words (about 10 min). This wording is saved for the topic from now on.`;
   } else if (REDO[a.kind]) {
     patch = { status: "skipped", needs_replacement: true, redo: a.kind };
+    if (a.kind === "never_topic") {
+      const t = st.topics || {}, kind = (e.item_id || "").startsWith("pr-") ? "winner" : "new", cnt = ((t.counts || {})[kind]) || {};
+      if (cnt.active) cnt.active -= 1;
+      if (cnt.free) cnt.free -= 1;
+      await env.KV.put("state", JSON.stringify(st));
+    }
     statusText = `❌ skipped (${REDO[a.kind]}) — new version coming`;
     say = `🔁 From the dashboard: making a new version with ${REDO[a.kind]} (about 10 min).`;
   }
