@@ -3302,7 +3302,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 9.0,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1490752",
       "title": "Free Post Malone | RnB Type Beat",
@@ -3316,7 +3316,11 @@
       "genre": "pop"
     },
     "msg_id": 285,
-    "file_id": "BAACAgEAAxkDAAIBHWrTUNcmQhpYKJqzJIclb-rOgMVxAAL7BwACHBGYRjcJAV3ikt9KPQQ"
+    "file_id": "BAACAgEAAxkDAAIBHWrTUNcmQhpYKJqzJIclb-rOgMVxAAL7BwACHBGYRjcJAV3ikt9KPQQ",
+    "decided_at": "2026-10-18T22:54:16.119360+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "edf43c8d"
   },
   {
     "id": "2771d1a8",
@@ -3948,5 +3952,34 @@
     "msg_id": 338,
     "file_id": "BAACAgEAAxkDAAIBUmrVTegfOWaJD8KssYHzbBiQLCXWAAIOCQACl3CoRqBFB2wSubsCPQQ",
     "replaces": "a84537a3"
+  },
+  {
+    "id": "edf43c8d",
+    "slot_key": "2026-10-19 13:00",
+    "slot_iso": "2026-10-19T17:00:00+00:00",
+    "slot_label": "Mon Oct 19, 1:00 PM",
+    "post_type": "regular",
+    "item_id": "pr-make-noise",
+    "category": "sexual_wellness",
+    "clip_id": "clip01",
+    "cta": 0,
+    "mode": "edited",
+    "seconds": 9.0,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1490752",
+      "title": "Free Post Malone | RnB Type Beat",
+      "creator": "Adi Rambo",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1490752/mp32/",
+      "source": "jamendo",
+      "duration_ms": 213000,
+      "page": "https://www.jamendo.com/track/1490752",
+      "genre": "pop"
+    },
+    "msg_id": 340,
+    "file_id": "BAACAgEAAxkDAAIBVGrVTjq7-nbJ1WYCsp3YUCykmNrXAAIQCQACl3CoRjgkg9W6fdLdPQQ",
+    "replaces": "fdb3ebc8"
   }
 ]
