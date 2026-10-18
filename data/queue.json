@@ -3830,9 +3830,9 @@
   },
   {
     "id": "5cb233bc",
-    "slot_key": "2026-10-18 09:30",
-    "slot_iso": "2026-10-18T13:30:00+00:00",
-    "slot_label": "Sun Oct 18, 9:30 AM",
+    "slot_key": "2026-10-18 11:00 moved-ccfd",
+    "slot_iso": "2026-10-18T15:00:00+00:00",
+    "slot_label": "Sun Oct 18, 11:00 AM",
     "post_type": "regular",
     "item_id": "nw-masturbation-t",
     "category": "mens_health",
@@ -3869,7 +3869,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12.57,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1320534",
       "title": "Neith",
@@ -3884,6 +3884,41 @@
     },
     "msg_id": 321,
     "file_id": "BAACAgEAAxkDAAIBQWrUxSs_JWiODN33PxaFfvSjA_1tAALRBwACl3CoRtkjSwe9kp8ZPQQ",
-    "replaces": "67a913c7"
+    "replaces": "67a913c7",
+    "feedback": [
+      "this should have 4 pop up boxes and it doesn’t"
+    ],
+    "decided_at": "2026-10-18T14:35:27.152488+00:00",
+    "needs_replacement": false,
+    "replaced_by": "9987ad5e"
+  },
+  {
+    "id": "9987ad5e",
+    "slot_key": "2026-10-18 11:00",
+    "slot_iso": "2026-10-18T15:00:00+00:00",
+    "slot_label": "Sun Oct 18, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-vibrators",
+    "category": "sexual_wellness",
+    "clip_id": "clip02",
+    "cta": 0,
+    "mode": "note",
+    "seconds": 12.57,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1320534",
+      "title": "Neith",
+      "creator": "CyberSDF",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1320534/mp32/",
+      "source": "jamendo",
+      "duration_ms": 269000,
+      "page": "https://www.jamendo.com/track/1320534",
+      "genre": "trap"
+    },
+    "msg_id": 329,
+    "file_id": "BAACAgEAAxkDAAIBSWrU2VgCyGYNO5ssKsBdfNpmksjRAAIDCAACl3CoRp3b8WfOUHotPQQ",
+    "replaces": "dd4f2dbc"
   }
 ]
