@@ -3106,7 +3106,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.13,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-247156",
       "title": "Silence Apart",
@@ -3120,7 +3120,11 @@
       "genre": "pop"
     },
     "msg_id": 278,
-    "file_id": "BAACAgEAAxkDAAIBFmrTUFgb_09CBLQw0uAFWZoCLitfAALzBwACHBGYRijCIwZ0CKfRPQQ"
+    "file_id": "BAACAgEAAxkDAAIBFmrTUFgb_09CBLQw0uAFWZoCLitfAALzBwACHBGYRijCIwZ0CKfRPQQ",
+    "decided_at": "2026-10-18T14:37:13.624951+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "7a2bff2b"
   },
   {
     "id": "99aefcc1",
@@ -3840,7 +3844,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 9.4,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2290117",
       "title": "Soul Hop Music",
@@ -3855,7 +3859,8 @@
     },
     "msg_id": 319,
     "file_id": "BAACAgEAAxkDAAIBP2rUxQrRm_gVn67sKquEg3D97iUwAALQBwACl3CoRuUytaAmceu-PQQ",
-    "replaces": "efdc0905"
+    "replaces": "efdc0905",
+    "decided_at": "2026-10-18T14:37:13.624951+00:00"
   },
   {
     "id": "dd4f2dbc",
@@ -3920,5 +3925,34 @@
     "msg_id": 329,
     "file_id": "BAACAgEAAxkDAAIBSWrU2VgCyGYNO5ssKsBdfNpmksjRAAIDCAACl3CoRp3b8WfOUHotPQQ",
     "replaces": "dd4f2dbc"
+  },
+  {
+    "id": "7a2bff2b",
+    "slot_key": "2026-10-18 13:00",
+    "slot_iso": "2026-10-18T17:00:00+00:00",
+    "slot_label": "Sun Oct 18, 1:00 PM",
+    "post_type": "regular",
+    "item_id": "pr-women-secretly-attractive",
+    "category": "sexual_wellness",
+    "clip_id": "clip21",
+    "cta": 0,
+    "mode": "edited",
+    "seconds": 6.13,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-247156",
+      "title": "Silence Apart",
+      "creator": "ZigiZigi",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/247156/mp32/",
+      "source": "jamendo",
+      "duration_ms": 326000,
+      "page": "https://www.jamendo.com/track/247156",
+      "genre": "pop"
+    },
+    "msg_id": 331,
+    "file_id": "BAACAgEAAxkDAAIBS2rU2bG1xSXCaI1kFlJRvvapdhHDAAIHCAACl3CoRhoSgDUblIKsPQQ",
+    "replaces": "bc9a9d2f"
   }
 ]
