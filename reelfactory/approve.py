@@ -181,7 +181,7 @@ def sync_updates(cfg) -> None:
 
 
 REDO = {"swap_music": "new music", "new_clip": "same topic, new clip", "new_topic": "same clip, new topic",
-        "text_edit": "your text edit"}
+        "never_topic": "a new topic (that one is retired for good)", "text_edit": "your text edit"}
 
 
 def _apply_dashboard_actions(cfg, q, by_id, st, fb) -> None:
@@ -228,6 +228,12 @@ def _apply_dashboard_actions(cfg, q, by_id, st, fb) -> None:
         if not e or e.get("status") == "posted":
             continue
         print(f"[dashboard] {kind} on {e['slot_key']} ({e['item_id']})")
+        if kind == "never_topic":  # 🚫 on a reel card: retire this topic for good, then redo like "new topic"
+            from .config import TOPIC_STATUS_PATH
+            ts = load_json(TOPIC_STATUS_PATH, {})
+            ts[e["item_id"]] = "retired"
+            save_json(TOPIC_STATUS_PATH, ts)
+            print(f"[dashboard] topic {e['item_id']} retired for good")
         if kind == "text_edit":  # Nick changed the title / fact lines on the dashboard
             hook = str(a.get("hook") or "").strip()
             beats = [str(b).strip() for b in (a.get("beats") or []) if str(b).strip()]
@@ -467,7 +473,7 @@ def _redo_choice(cfg, e, bank, clips, hist, dt, rng):
             ch = pk.pick_next([item], others, hist, cfg, now=now, rng=rng, post_type=e["post_type"])
             ch["item"] = item
             return ch
-        if redo == "new_topic" and clip:
+        if redo in ("new_topic", "never_topic") and clip:
             ch = pk.pick_next(bank, [clip], hist, cfg, now=now, rng=rng, post_type=e["post_type"],
                               exclude_items={e["item_id"]}, topic_class=_kind_of(bank, e["item_id"]))
             ch["clip"] = clip
