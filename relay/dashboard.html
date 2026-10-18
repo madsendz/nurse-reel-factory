@@ -141,7 +141,7 @@ function esc(s){ return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&
 function toast(t){ const el=document.getElementById("toast"); el.textContent=t; el.classList.add("on"); clearTimeout(toast.h); toast.h=setTimeout(()=>el.classList.remove("on"),3200); }
 
 const LABEL = {pending:"⏳ Waiting for you", approved:"✅ Approved", posted:"📤 Posted", skipped:"❌ Skipped", missed:"⏭ Not posted", expired:"⌛ Not approved in time"};
-const REDO = {swap_music:"new music", new_clip:"same topic, new clip", new_topic:"same clip, new topic", text_edit:"your text edit"};
+const REDO = {swap_music:"new music", new_clip:"same topic, new clip", new_topic:"same clip, new topic", never_topic:"a new topic (that one is retired for good)", text_edit:"your text edit"};
 const ED = {}; // open text editors: entry id -> {hook, beats} (kept across re-renders)
 function statusOf(e){ if(e.status==="skipped" && (e.needs_replacement||e.replaced_by)) return {cls:"s-redo", text: e.replaced_by ? `🔁 Replaced (${REDO[e.redo]||"your notes"})` : `🔁 New version coming (${REDO[e.redo]||"your notes"})`};
   return {cls:"s-"+(e.status||"pending"), text: LABEL[e.status]||e.status}; }
@@ -186,6 +186,7 @@ function render(){
       <div class="stat"><b>${cw.free??"–"} / ${cw.active??"–"}</b>Winners free this week</div>
       <div class="stat"><b>${cn.free??"–"} / ${cn.active??"–"}</b>New topics free this week</div></div>
       <p class="hint">Rules: every day is half winners, half new topics. A topic can't repeat within ${t.cooldown_days||7} days. You need about 21 of each to fill a full week without repeats.</p>
+      <div class="actions" style="margin:6px 0 10px"><button class="btn primary" data-ideas="1">✨ Write me new topics</button><span class="hint" style="align-self:center">Claude writes 3 new ones into the list below (about 2 min). Keep or toss each.</span></div>
       <h2 class="day">New topics to review (${t.review.length})</h2>`;
     if(!t.review.length) html += `<div class="empty-day">Nothing to review right now.</div>`;
     html += t.review.map(it=>`<article class="card" style="grid-template-columns:1fr"><div class="info">
@@ -290,7 +291,8 @@ function card(e, old){
         <button class="btn sm" data-edit="${e.id}" ${ED[e.id]?"disabled":""}>✏️ Edit text</button>
         <button class="btn sm" data-act="swap_music" data-id="${e.id}">🎵 New music</button>
         <button class="btn sm" data-act="new_clip" data-id="${e.id}">🎬 Same topic, new clip</button>
-        <button class="btn sm" data-act="new_topic" data-id="${e.id}">💡 Same clip, new topic</button></div>
+        <button class="btn sm" data-act="new_topic" data-id="${e.id}">💡 Same clip, new topic</button>
+        <button class="btn sm bad" data-act="never_topic" data-id="${e.id}" title="Retires this topic for good and makes a new reel on the same clip">🚫 Never this topic again</button></div>
 <div class="actions"><span class="hint" style="align-self:center">Type:</span>
 <button class="btn sm" data-act="swap_type" data-id="${e.id}">🔄 ${e.post_type==="trial"?"Make it a regular reel":"Make it a trial reel"}</button></div>
       <div class="actions"><span class="hint" style="align-self:center">Move to:</span>
@@ -388,6 +390,9 @@ document.addEventListener("click", async ev=>{
   if(b.dataset.view){ view=b.dataset.view; localStore("view",view); render(); return; }
   if(b.dataset.nav!==undefined){ const n=+b.dataset.nav; anchor = n===0? todayKey() : addDays(anchor, n*(view==="week"?7:1)); render(); return; }
   if(b.dataset.goto){ anchor=b.dataset.goto; view="day"; localStore("view",view); render(); const s=b.dataset.slot; if(s){ const el=document.getElementById(`slot-${anchor}-${s.replace(":","")}`); el && el.scrollIntoView({behavior:"smooth",block:"start"}); } return; }
+  if(b.dataset.ideas){ if(busy) return; busy=true; b.disabled=true;
+    try{ await api("/api/action",{method:"POST",body:JSON.stringify({kind:"new_ideas"})}); toast("Asking Claude for new topics — check back in about 2 min ✨"); }
+    catch(e){ if(e.message!=="login") toast("Didn't work: "+e.message); } finally{ busy=false; b.disabled=false; } return; }
   if(b.dataset.topic){ if(busy) return; busy=true; b.disabled=true;
     try{ await api("/api/action",{method:"POST",body:JSON.stringify({kind:b.dataset.topic,item_id:b.dataset.item})}); toast(b.dataset.topic==="topic_keep"?"Kept ✅ — it can be picked from now on":"Tossed"); await load(true); }
     catch(e){ if(e.message!=="login") toast("Didn't work: "+e.message); } finally{ busy=false; } return; }
