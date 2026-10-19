@@ -1,35 +1,5 @@
 [
   {
-    "id": "c4d1b3dc",
-    "slot_key": "2026-10-09 19:30",
-    "slot_iso": "2026-10-09T23:30:00+00:00",
-    "slot_label": "Fri Oct 09, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-sti-no-symptoms",
-    "category": "sex_ed",
-    "clip_id": "clip57",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 4.73,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-384090",
-      "title": "Manta-dive",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384090/mp32/",
-      "source": "jamendo",
-      "duration_ms": 197000,
-      "page": "https://www.jamendo.com/track/384090",
-      "genre": "electronic"
-    },
-    "msg_id": 74,
-    "file_id": "BAACAgEAAxkDAANKashYgQviyvEcDmFxi8shZO9DVQUAAoUIAAIGPkBG1IfjUlgPyHM9BA",
-    "decided_at": "2026-10-09T03:12:54.225532+00:00",
-    "permalink": "https://www.instagram.com/reel/DeSse8yE5ne/"
-  },
-  {
     "id": "3a9de931",
     "slot_key": "2026-10-09 21:30",
     "slot_iso": "2026-10-10T01:30:00+00:00",
