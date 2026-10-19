@@ -4172,7 +4172,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 29.97,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-384173",
       "title": "Mind drifting back (Leaving paradise)",
@@ -4187,7 +4187,11 @@
     },
     "msg_id": 377,
     "file_id": "BAACAgEAAxkDAAIBeWrWEIvHmg4uAc1KykqxlGYlU7hUAAJnBwACihqwRughNGWN9rxrPQQ",
-    "replaces": "c1681deb"
+    "replaces": "c1681deb",
+    "decided_at": "2026-10-19T16:13:55.929130+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "ba8ec660"
   },
   {
     "id": "f5579297",
@@ -4201,7 +4205,7 @@
     "cta": 1,
     "mode": "edited",
     "seconds": 6.23,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-43679",
       "title": "Ocean fantasy",
@@ -4216,7 +4220,8 @@
     },
     "msg_id": 378,
     "file_id": "BAACAgEAAxkDAAIBemrWEJ2VAXHmTXwhyqOE9cmosRuKAAJoBwACihqwRo16_b41AcWLPQQ",
-    "replaces": "b93eeac4"
+    "replaces": "b93eeac4",
+    "decided_at": "2026-10-19T16:13:55.929130+00:00"
   },
   {
     "id": "4e3778e1",
@@ -4246,5 +4251,34 @@
     "msg_id": 382,
     "file_id": "BAACAgEAAxkDAAIBfmrWESAT0q3u8Hb-0u99npCufdM_AAJpBwACihqwRmd2K360t6laPQQ",
     "replaces": "3eaf655c"
+  },
+  {
+    "id": "ba8ec660",
+    "slot_key": "2026-10-19 17:30",
+    "slot_iso": "2026-10-19T21:30:00+00:00",
+    "slot_label": "Mon Oct 19, 5:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-t-decline-age",
+    "category": "mens_health",
+    "clip_id": "clip50",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 8.13,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-384092",
+      "title": "Such a place!",
+      "creator": "K4MMERER",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/384092/mp32/",
+      "source": "jamendo",
+      "duration_ms": 258000,
+      "page": "https://www.jamendo.com/track/384092",
+      "genre": "lounge"
+    },
+    "msg_id": 387,
+    "file_id": "BAACAgEAAxkDAAIBg2rWQfJRujkcJ9sMzb3TVGR--boYAALEBwACihqwRhafQVp1-JF0PQQ",
+    "replaces": "adaba33d"
   }
 ]
