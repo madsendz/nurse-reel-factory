@@ -1407,3 +1407,243 @@ items:
   - 4. a huge heavy dinner 😴
   caption: These foods can definitely ruin the mood! save this for date night 😂
   status: active
+- id: nw-t-decline-age
+  category: mens_health
+  style: average_stat
+  hook: testosterone drops THIS much every year after 30 📉
+  beats:
+  - about 1% a year on average
+  - that's normal, not a disease
+  - sleep, lifting and body fat matter more than age
+  caption: Testosterone falls roughly 1% per year after 30 — lifestyle moves the needle more than birthdays
+    do.
+  status: review
+  prior: 0.0
+- id: nw-sperm-count-drop
+  category: mens_health
+  style: what_they_dont_tell
+  hook: sperm counts have dropped THIS much since the 70s 😳
+  beats:
+  - studies show roughly 50% lower worldwide
+  - likely weight, chemicals and lifestyle
+  - most men are still well within fertile range
+  caption: Large reviews show average sperm counts have fallen about half in 50 years. Most men are still
+    fertile — but it's a reason to look after your swimmers.
+  status: review
+  prior: 0.0
+- id: nw-night-erections
+  category: mens_health
+  style: stat_men
+  hook: men get THIS many erections every night 😴
+  beats:
+  - about 3 to 5, during REM sleep
+  - it keeps the tissue healthy and oxygenated
+  - losing them can be an early health flag
+  caption: Nighttime erections are your body's maintenance check — 3 to 5 a night is normal. If they stop,
+    it's worth telling a doctor.
+  status: review
+  prior: 0.0
+- id: nw-foreplay-time
+  category: sexual_wellness
+  style: average_stat
+  hook: women say the ideal amount of foreplay is... ⏱️
+  beats:
+  - about 15 to 20 minutes, in studies
+  - men said almost the same number
+  - the gap is in what actually happens
+  caption: Survey research puts the ideal at roughly 15–20 minutes for both men and women — the wish is
+    the same, the reality usually isn't.
+  status: review
+  prior: 0.0
+- id: nw-ed-under-40
+  category: mens_health
+  style: stat_men
+  hook: ED isn't just an 'old guy' problem 👀
+  beats:
+  - about 1 in 4 men seeking ED care are under 40
+  - stress, sleep, drinking and porn habits are big drivers
+  - it's treatable, talk to a doctor
+  caption: In one clinic study about a quarter of men seeking help for ED were under 40. Younger ED is
+    common and very treatable.
+  status: review
+  prior: 0.0
+- id: nw-prostate-walnut
+  category: mens_health
+  style: average_stat
+  hook: the prostate is about the size of THIS 🌰
+  beats:
+  - a walnut, sitting right under the bladder
+  - it makes most of the fluid you release
+  - it slowly grows with age, that's normal
+  caption: The prostate is walnut-sized and makes most of the fluid in semen. Growing with age is normal
+    — sudden symptoms are what to get checked.
+  status: review
+  prior: 0.0
+- id: nw-orgasm-brain
+  category: sexual_wellness
+  style: what_they_dont_tell
+  hook: an orgasm does THIS to your brain 🧠
+  beats:
+  - a flood of dopamine and oxytocin
+  - the fear and anxiety centers quiet down
+  - that's why you feel calm and sleepy after
+  caption: Brain imaging shows a dopamine/oxytocin surge and a quieter fear center during orgasm — the
+    calm afterwards is real chemistry.
+  status: review
+  prior: 0.0
+- id: nw-lube-myth
+  category: sex_ed
+  style: average_man_thinks
+  hook: the average man thinks needing lube = not into it 👀
+  beats:
+  - wetness is NOT a reliable turn-on meter
+  - stress, meds and where she is in her cycle all change it
+  - lube makes it better for both of you
+  caption: Natural lubrication varies with hormones, medications and stress — it's not a measure of desire.
+    Lube is a tool, not a verdict.
+  status: review
+  prior: 0.0
+- id: nw-balls-temp
+  category: mens_health
+  style: what_they_dont_tell
+  hook: your 🥜 hang low for a reason 🌡️
+  beats:
+  - sperm needs about 2-4°F cooler than body temp
+  - that's why they pull up when it's cold
+  - tight heat sources can lower the count
+  caption: The testicles sit outside the body because sperm production needs to run a few degrees cooler.
+    Heat from laptops, hot tubs and tight clothing works against that.
+  status: review
+  prior: 0.0
+- id: nw-sti-window
+  category: sex_ed
+  style: what_they_dont_tell
+  hook: getting tested the day after won't catch THIS 😬
+  beats:
+  - most STIs need a 'window period' to show up
+  - chlamydia/gonorrhea about 2 weeks, HIV up to 6 weeks
+  - retest if the timing was tight
+  caption: 'Tests can''t detect an infection right away. Window periods: roughly 2 weeks for chlamydia
+    and gonorrhea, several weeks for HIV and syphilis. Ask the clinic when to retest.'
+  status: review
+  prior: 0.0
+- id: nw-stress-libido
+  category: mens_health
+  style: what_they_dont_tell
+  hook: stress does THIS to your drive 😮‍💨
+  beats:
+  - cortisol pushes testosterone down
+  - the brain deprioritizes it when it feels under threat
+  - fix sleep first, it's the biggest lever
+  caption: Chronic stress raises cortisol, which suppresses testosterone and desire. Sleep and stress
+    management do more for libido than most supplements.
+  status: review
+  prior: 0.0
+- id: nw-cycle-desire
+  category: sex_ed
+  style: average_man_thinks
+  hook: the average man doesn't know THIS about her cycle 📅
+  beats:
+  - desire often rises around ovulation
+  - that's mid-cycle, about 2 weeks before her period
+  - it's also when pregnancy risk is highest
+  caption: Many women notice higher desire around ovulation, mid-cycle — which is also the most fertile
+    window. Good to know either way.
+  status: review
+  prior: 0.0
+- id: nw-refractory-age
+  category: mens_health
+  style: average_stat
+  hook: the 'recharge' time after finishing, by age ⏳
+  beats:
+  - 'teens and 20s: minutes'
+  - '30s-40s: often 30 min to a few hours'
+  - '60+: can be a day, totally normal'
+  caption: The refractory period gets longer with age — minutes in your 20s, hours in your 40s, sometimes
+    a day or more later on. Normal, not a problem.
+  status: review
+  prior: 0.0
+- id: nw-vasectomy-myth
+  category: mens_health
+  style: average_man_thinks
+  hook: the average man thinks a vasectomy changes THIS 👀
+  beats:
+  - it doesn't change testosterone, drive or performance
+  - you still finish the same, just no swimmers
+  - takes about 3 months to be fully effective
+  caption: A vasectomy only blocks sperm. Hormones, desire and performance stay the same — and you need
+    a follow-up test ~3 months later before it counts as effective.
+  status: review
+  prior: 0.0
+- id: nw-women-solo
+  category: sexual_wellness
+  style: stat_men
+  hook: most men don't know THIS many women do it solo 🤫
+  beats:
+  - surveys say the majority of women have
+  - it's linked to better sleep and less stress
+  - it's normal, not a replacement for you
+  caption: Large surveys find most women have masturbated — it's normal, healthy and says nothing about
+    her partner.
+  status: review
+  prior: 0.0
+- id: nw-blue-pill-myth
+  category: mens_health
+  style: average_man_thinks
+  hook: the average man thinks the blue pill works like THIS 👀
+  beats:
+  - it does NOT cause an erection on its own
+  - you still need arousal, it just helps blood flow
+  - never mix it with nitrates, it can crash your blood pressure
+  caption: ED meds improve blood flow but still need arousal to work. They're dangerous with nitrate heart
+    meds — always tell your doctor.
+  status: review
+  prior: 0.0
+- id: nw-sex-heart
+  category: health_bait
+  style: bait_reveal
+  hook: can s*x cause a heart attack? ❤️
+  beats:
+  - the risk is tiny, about like climbing 2 flights of stairs
+  - if you can do that comfortably, you're usually fine
+  - chest pain or breathlessness? get checked first
+  caption: Heart groups compare the effort to a brisk walk or two flights of stairs. If that's easy for
+    you, it's considered safe — if not, see a doctor first.
+  status: review
+  prior: 0.0
+- id: nw-swimmer-nutrients
+  category: mens_health
+  style: secret_list
+  hook: 3 nutrients your swimmers need 🥜
+  beats:
+  - 1. zinc (oysters, beef, pumpkin seeds)
+  - 2. folate (leafy greens, beans)
+  - 3. omega-3s + antioxidants (fish, berries)
+  caption: Zinc, folate and omega-3s all show up in sperm-quality research. Food first — supplements only
+    fill gaps.
+  status: review
+  prior: 0.0
+- id: nw-peyronies
+  category: mens_health
+  style: what_they_dont_tell
+  hook: a curve that's NEW or hurts is different 🚩
+  beats:
+  - a lifelong gentle curve is normal
+  - a new bend, pain or hard lump can be Peyronie's
+  - it's treatable, see a urologist early
+  caption: A curve you've always had is normal. A new curve, pain or a firm lump can be Peyronie's disease
+    — early treatment works best.
+  status: review
+  prior: 0.0
+- id: nw-pregnancy-safe
+  category: sex_ed
+  style: average_man_thinks
+  hook: the average man thinks THIS can hurt the baby 👀
+  beats:
+  - it can't, the baby is behind muscle, fluid and the cervix
+  - safe in a normal pregnancy
+  - ask the doctor if there are complications
+  caption: In a healthy pregnancy, intimacy is safe — the baby is protected by the uterus, amniotic fluid
+    and a closed cervix. Complications are the exception; ask the OB.
+  status: review
+  prior: 0.0
