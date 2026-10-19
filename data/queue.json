@@ -1,48 +1,5 @@
 [
   {
-    "id": "61c67ff1",
-    "slot_key": "2026-10-08 21:30",
-    "slot_iso": "2026-10-09T01:30:00+00:00",
-    "slot_label": "Thu Oct 08, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-period-sex",
-    "category": "sex_ed",
-    "clip_id": "clip45",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 11.12,
-    "status": "skipped",
-    "msg_id": 41,
-    "feedback": [
-      "the text timing of the first pop up is too late. it should happen when i point."
-    ],
-    "decided_at": "2026-10-08T14:31:45.252998+00:00",
-    "needs_replacement": false,
-    "replaced_by": "960028b4"
-  },
-  {
-    "id": "960028b4",
-    "slot_key": "2026-10-08 21:30",
-    "slot_iso": "2026-10-09T01:30:00+00:00",
-    "slot_label": "Thu Oct 08, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-sleeping-bait",
-    "category": "health_bait",
-    "clip_id": "clip04",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 12.33,
-    "status": "skipped",
-    "msg_id": 53,
-    "replaces": "61c67ff1",
-    "feedback": [
-      "i don’t want this topic to be used in this format. this topic is more for infographic style reels"
-    ],
-    "decided_at": "2026-10-08T18:51:04.118150+00:00",
-    "needs_replacement": false,
-    "replaced_by": "7bd1f04a"
-  },
-  {
     "id": "f1f9190f",
     "slot_key": "2026-10-08 22:30 extra1-35c3",
     "slot_iso": "2026-10-09T02:30:00+00:00",
@@ -77,41 +34,6 @@
     "replaced_by": "3467a511"
   },
   {
-    "id": "7bd1f04a",
-    "slot_key": "2026-10-08 21:30",
-    "slot_iso": "2026-10-09T01:30:00+00:00",
-    "slot_label": "Thu Oct 08, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-period-sex",
-    "category": "sex_ed",
-    "clip_id": "clip66",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 6.83,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-2026412",
-      "title": "In For Future Bass",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2026412/mp32/",
-      "source": "jamendo",
-      "duration_ms": 105000,
-      "page": "https://www.jamendo.com/track/2026412",
-      "genre": "rnb"
-    },
-    "msg_id": 65,
-    "file_id": "BAACAgEAAxkDAANBasfmca0EHX08ZLEo3E2ABQOM8zgAAssHAAIGPkBG6i1ICnOpNm49BA",
-    "replaces": "960028b4",
-    "feedback": [
-      "title text is too high."
-    ],
-    "decided_at": "2026-10-08T19:06:49.494564+00:00",
-    "needs_replacement": false,
-    "replaced_by": "9eb79340"
-  },
-  {
     "id": "3467a511",
     "slot_key": "2026-10-08 22:30 extra1-35c3",
     "slot_iso": "2026-10-09T02:30:00+00:00",
@@ -141,37 +63,6 @@
     "extra": true,
     "replaces": "f1f9190f",
     "decided_at": "2026-10-08T19:06:49.494564+00:00"
-  },
-  {
-    "id": "9eb79340",
-    "slot_key": "2026-10-08 21:30",
-    "slot_iso": "2026-10-09T01:30:00+00:00",
-    "slot_label": "Thu Oct 08, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-precum",
-    "category": "sex_ed",
-    "clip_id": "clip35",
-    "cta": 1,
-    "mode": "explore",
-    "seconds": 7.35,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1129271",
-      "title": "Energy",
-      "creator": "Pokki DJ",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1129271/mp32/",
-      "source": "jamendo",
-      "duration_ms": 230000,
-      "page": "https://www.jamendo.com/track/1129271",
-      "genre": "electronic"
-    },
-    "msg_id": 69,
-    "file_id": "BAACAgEAAxkDAANFasfqDFqWrx5cu49Zy1xPKOs3Z1wAAtQHAAIGPkBG-XGRf389XT89BA",
-    "replaces": "7bd1f04a",
-    "decided_at": "2026-10-08T19:24:49.192101+00:00",
-    "permalink": "https://www.instagram.com/reel/DeQVaYkDwQw/"
   },
   {
     "id": "7fe89c99",
@@ -3047,7 +2938,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.5,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2173154",
       "title": "Coffee Lounge",
@@ -3062,7 +2953,8 @@
     },
     "msg_id": 282,
     "file_id": "BAACAgEAAxkDAAIBGmrTUJEfR4kAAVEqZwAB1ahCIvCaq9sAAvYHAAIcEZhGzN14kwe2BYs9BA",
-    "decided_at": "2026-10-18T15:01:09.747162+00:00"
+    "decided_at": "2026-10-18T15:01:09.747162+00:00",
+    "permalink": "https://www.instagram.com/reel/DeqGD-uDXzA/"
   },
   {
     "id": "daa606f9",
