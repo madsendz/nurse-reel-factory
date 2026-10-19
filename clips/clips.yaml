@@ -5761,7 +5761,7 @@ clips:
     w: 0.84
     h: 0.408
   start: 0
-  end: null
+  end: 10.6
   auto:
     method: pose
     face:
