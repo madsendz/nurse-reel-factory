@@ -423,7 +423,10 @@ def render_reel(item: dict, clip: dict, clip_path: Path, out_path: Path, cfg: di
             cmd += ["-map", "0:a:0", "-c:a", "aac", "-b:a", "128k", "-ar", "44100"]
         else:
             cmd += ["-an"]
-        cmd += ["-t", f"{total}", "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
+        # bitrate cap: Telegram's bot API can't serve files over 20 MB to the dashboard, so a 30 s reel must stay
+        # under ~18 MB (4.5 Mbit/s * 30 s = 17 MB + audio). Instagram re-compresses harder than this anyway.
+        cmd += ["-t", f"{total}", "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-maxrate", "4500k",
+                "-bufsize", "9000k", "-pix_fmt", "yuv420p",
                 "-profile:v", "high", "-movflags", "+faststart", str(out_path)]
         subprocess.run(cmd, check=True)
         # keep a thumbnail of the full card for previews
