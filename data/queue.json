@@ -3954,7 +3954,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 8.4,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2026412",
       "title": "In For Future Bass",
@@ -3969,7 +3969,8 @@
     },
     "msg_id": 355,
     "file_id": "BAACAgEAAxkDAAIBY2rVfjSZha9So_tuAAEZ1O2Uwz-BLAACfAkAApdwqEZiTAFulbSk5j0E",
-    "decided_at": "2026-10-19T02:29:51.662174+00:00"
+    "decided_at": "2026-10-19T02:29:51.662174+00:00",
+    "permalink": "https://www.instagram.com/reel/DerNpGTAMqD/"
   },
   {
     "id": "46dc8eb9",
