@@ -3089,7 +3089,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.47,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-489246",
       "title": "Back 2 UR",
@@ -3103,7 +3103,11 @@
       "genre": "chillout"
     },
     "msg_id": 286,
-    "file_id": "BAACAgEAAxkDAAIBHmrTUPAzqmb60I0zx2i_kOZyN_H-AAL8BwACHBGYRteDTBVZ0WHrPQQ"
+    "file_id": "BAACAgEAAxkDAAIBHmrTUPAzqmb60I0zx2i_kOZyN_H-AAL8BwACHBGYRteDTBVZ0WHrPQQ",
+    "decided_at": "2026-10-19T12:33:16.589942+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "b93eeac4"
   },
   {
     "id": "bd3ea526",
@@ -3728,7 +3732,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 9.0,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1490752",
       "title": "Free Post Malone | RnB Type Beat",
@@ -3743,7 +3747,8 @@
     },
     "msg_id": 340,
     "file_id": "BAACAgEAAxkDAAIBVGrVTjq7-nbJ1WYCsp3YUCykmNrXAAIQCQACl3CoRjgkg9W6fdLdPQQ",
-    "replaces": "fdb3ebc8"
+    "replaces": "fdb3ebc8",
+    "decided_at": "2026-10-19T12:33:16.589942+00:00"
   },
   {
     "id": "3eaf655c",
@@ -3984,7 +3989,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 11.0,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-384095",
       "title": "Like King Cool in a sunbed",
@@ -3998,7 +4003,8 @@
       "genre": "pop"
     },
     "msg_id": 356,
-    "file_id": "BAACAgEAAxkDAAIBZGrVflR90zPC_zi1EWEnx0iK87noAAJ-CQACl3CoRj2eadGVkyFLPQQ"
+    "file_id": "BAACAgEAAxkDAAIBZGrVflR90zPC_zi1EWEnx0iK87noAAJ-CQACl3CoRj2eadGVkyFLPQQ",
+    "decided_at": "2026-10-19T12:33:16.589942+00:00"
   },
   {
     "id": "0c79cfc8",
@@ -4012,7 +4018,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 7.93,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2290117",
       "title": "Soul Hop Music",
@@ -4026,7 +4032,8 @@
       "genre": "hiphop"
     },
     "msg_id": 357,
-    "file_id": "BAACAgEAAxkDAAIBZWrVfmpq14rW7oVau8LM25Tm1OrHAAJ_CQACl3CoRgN8HKyfZ8gVPQQ"
+    "file_id": "BAACAgEAAxkDAAIBZWrVfmpq14rW7oVau8LM25Tm1OrHAAJ_CQACl3CoRgN8HKyfZ8gVPQQ",
+    "decided_at": "2026-10-19T12:33:16.589942+00:00"
   },
   {
     "id": "c1681deb",
@@ -4309,5 +4316,34 @@
     "file_id": "BAACAgEAAxkDAAIBcmrVgL3qBr59nlSrMwlxwO166XfzAAKOCQACl3CoRooad3YSuNmNPQQ",
     "replaces": "2410e9a1",
     "decided_at": "2026-10-19T05:14:34.273575+00:00"
+  },
+  {
+    "id": "b93eeac4",
+    "slot_key": "2026-10-19 16:00",
+    "slot_iso": "2026-10-19T20:00:00+00:00",
+    "slot_label": "Mon Oct 19, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "pr-mood-killer-foods",
+    "category": "sexual_wellness",
+    "clip_id": "clip52",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 6.23,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-43679",
+      "title": "Ocean fantasy",
+      "creator": "St Adam",
+      "license": "by",
+      "license_version": "",
+      "url": "https://prod-1.storage.jamendo.com/download/track/43679/mp32/",
+      "source": "jamendo",
+      "duration_ms": 186000,
+      "page": "https://www.jamendo.com/track/43679",
+      "genre": "lounge"
+    },
+    "msg_id": 374,
+    "file_id": "BAACAgEAAxkDAAIBdmrWDir_3vtAmQPzHTMMEElbbsp4AAJfBwACihqwRkyZKrddGnMkPQQ",
+    "replaces": "2771d1a8"
   }
 ]

@@ -1621,10 +1621,10 @@ clips:
   name: ca624ed5561a4caa880333c18bb51554.MP4
   status: active
   events_manual:
-  - t: 7.2
+  - t: 7.4
     dir: down
-    x: 0.488
-    y: 0.684
+    x: 0.503
+    y: 0.702
   point: ''
   zone:
     x: 0.33
@@ -1766,6 +1766,7 @@ clips:
       - 0.388
   duration: 11.47
   title_y: 0.57
+  end: 9.2
 - id: clip12
   drive_id: 130C467ui2aLkcN8PnSnS7tXhh-SADW4r
   name: 8761f1213eb64b2e8298edd9b9ebabd7.MP4
