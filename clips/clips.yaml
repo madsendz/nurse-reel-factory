@@ -6653,7 +6653,6 @@ clips:
     w: 0.84
     h: 0.337
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -6757,6 +6756,7 @@ clips:
       - 0.235
       - 0.185
   duration: 8.13
+  title_y: 0.56
 - id: clip51
   drive_id: 1OpCpSOuxDrfMmL4QXp1-FsTA8NLTIoBs
   name: IMG_9250.mov

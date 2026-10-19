@@ -3762,7 +3762,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 8.13,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1685784",
       "title": "Stacks",
@@ -3777,7 +3777,11 @@
     },
     "msg_id": 344,
     "file_id": "BAACAgEAAxkDAAIBWGrVTyjU3qRyqxZnrQcHGekEC0dLAAISCQACl3CoRrkmXVzkQcfKPQQ",
-    "replaces": "bd3ea526"
+    "replaces": "bd3ea526",
+    "decided_at": "2026-10-19T12:45:42.376154+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "4e3778e1"
   },
   {
     "id": "707ad71a",
@@ -4411,5 +4415,34 @@
     "msg_id": 378,
     "file_id": "BAACAgEAAxkDAAIBemrWEJ2VAXHmTXwhyqOE9cmosRuKAAJoBwACihqwRo16_b41AcWLPQQ",
     "replaces": "b93eeac4"
+  },
+  {
+    "id": "4e3778e1",
+    "slot_key": "2026-10-19 19:30",
+    "slot_iso": "2026-10-19T23:30:00+00:00",
+    "slot_label": "Mon Oct 19, 7:30 PM",
+    "post_type": "regular",
+    "item_id": "nw-penetration-alone",
+    "category": "sex_ed",
+    "clip_id": "clip87",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 14.03,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1490752",
+      "title": "Free Post Malone | RnB Type Beat",
+      "creator": "Adi Rambo",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1490752/mp32/",
+      "source": "jamendo",
+      "duration_ms": 213000,
+      "page": "https://www.jamendo.com/track/1490752",
+      "genre": "rnb"
+    },
+    "msg_id": 382,
+    "file_id": "BAACAgEAAxkDAAIBfmrWESAT0q3u8Hb-0u99npCufdM_AAJpBwACihqwRmd2K360t6laPQQ",
+    "replaces": "3eaf655c"
   }
 ]
