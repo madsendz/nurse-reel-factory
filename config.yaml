@@ -10,11 +10,15 @@ timezone: America/New_York
 
 # Times to post each day (Eastern). type: regular (followers + feed) or trial
 # (shown to non-followers first). The GitHub schedule checks these.
-post_times:
+post_times:   # Nick, Oct 19 2026: one-week test at 10/day (3 regular + 7 trial). Previous: 09:30R 11:00T 13:00R 16:00T 19:30R 21:30T
+  - { time: "08:00", type: trial }
   - { time: "09:30", type: regular }
   - { time: "11:00", type: trial }
+  - { time: "12:00", type: trial }
   - { time: "13:00", type: regular }
+  - { time: "14:30", type: trial }
   - { time: "16:00", type: trial }
+  - { time: "17:30", type: trial }
   - { time: "19:30", type: regular }
   - { time: "21:30", type: trial }
 
@@ -72,7 +76,7 @@ picker:
   explore_rate: 0.25           # regular reels: share that test new / unproven topics
   trial_explore_rate: 0.60     # trial reels are for testing, so they try new topics more
   topic_cooldown_days: 7       # Nick: never repeat a topic within 7 days
-  daily_mix: {winner: 3, new: 3}   # Nick: every day half proven winners, half brand-new topics (any slot)
+  daily_mix: {winner: 3, new: 7}   # Nick: 10/day test week — 3 proven winners + 7 brand-new topics (was 3 + 3)
   clip_cooldown_posts: 4       # don't reuse a clip within the last N posts
   max_same_category_in_row: 2
 
