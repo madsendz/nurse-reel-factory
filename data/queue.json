@@ -1,35 +1,5 @@
 [
   {
-    "id": "7fa2f217",
-    "slot_key": "2026-10-09 13:00",
-    "slot_iso": "2026-10-09T17:00:00+00:00",
-    "slot_label": "Fri Oct 09, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "nw-sperm-months",
-    "category": "mens_health",
-    "clip_id": "clip27",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 8.3,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1580397",
-      "title": "Slow motion",
-      "creator": "zero-project",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1580397/mp32/",
-      "source": "jamendo",
-      "duration_ms": 267000,
-      "page": "https://www.jamendo.com/track/1580397",
-      "genre": "chillout"
-    },
-    "msg_id": 72,
-    "file_id": "BAACAgEAAxkDAANIashYSBvxthMZ4ERwnfyWehXSHH4AAoMIAAIGPkBGQRxnerMjOvU9BA",
-    "decided_at": "2026-10-09T03:12:54.225532+00:00",
-    "permalink": "https://www.instagram.com/reel/DeR_4RIAi7e/"
-  },
-  {
     "id": "c07ba94b",
     "slot_key": "2026-10-09 16:00",
     "slot_iso": "2026-10-09T20:00:00+00:00",
@@ -3533,7 +3503,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 9.0,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1490752",
       "title": "Free Post Malone | RnB Type Beat",
@@ -3549,7 +3519,8 @@
     "msg_id": 340,
     "file_id": "BAACAgEAAxkDAAIBVGrVTjq7-nbJ1WYCsp3YUCykmNrXAAIQCQACl3CoRjgkg9W6fdLdPQQ",
     "replaces": "fdb3ebc8",
-    "decided_at": "2026-10-19T12:33:16.589942+00:00"
+    "decided_at": "2026-10-19T12:33:16.589942+00:00",
+    "permalink": "https://www.instagram.com/reel/DerwW8rCK1L/"
   },
   {
     "id": "3eaf655c",
