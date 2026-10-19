@@ -3028,7 +3028,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 13.8,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1871345",
       "title": "TP4",
@@ -3042,7 +3042,8 @@
       "genre": "trap"
     },
     "msg_id": 284,
-    "file_id": "BAACAgEAAxkDAAIBHGrTUMMgvunWNHKe1HlheA0Q8CStAAL5BwACHBGYRp82DP2j7HqLPQQ"
+    "file_id": "BAACAgEAAxkDAAIBHGrTUMMgvunWNHKe1HlheA0Q8CStAAL5BwACHBGYRp82DP2j7HqLPQQ",
+    "decided_at": "2026-10-19T05:14:34.273575+00:00"
   },
   {
     "id": "fdb3ebc8",
@@ -4290,7 +4291,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.16,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1267753",
       "title": "Ghosts",
@@ -4305,6 +4306,7 @@
     },
     "msg_id": 370,
     "file_id": "BAACAgEAAxkDAAIBcmrVgL3qBr59nlSrMwlxwO166XfzAAKOCQACl3CoRooad3YSuNmNPQQ",
-    "replaces": "2410e9a1"
+    "replaces": "2410e9a1",
+    "decided_at": "2026-10-19T05:14:34.273575+00:00"
   }
 ]
