@@ -3794,7 +3794,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 7.93,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2290117",
       "title": "Soul Hop Music",
@@ -3809,7 +3809,8 @@
     },
     "msg_id": 357,
     "file_id": "BAACAgEAAxkDAAIBZWrVfmpq14rW7oVau8LM25Tm1OrHAAJ_CQACl3CoRgN8HKyfZ8gVPQQ",
-    "decided_at": "2026-10-19T12:33:16.589942+00:00"
+    "decided_at": "2026-10-19T12:33:16.589942+00:00",
+    "permalink": "https://www.instagram.com/reel/Der6X1EkqlF/"
   },
   {
     "id": "c1681deb",
