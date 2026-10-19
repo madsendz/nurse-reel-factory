@@ -4045,7 +4045,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 14.03,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1490752",
       "title": "Free Post Malone | RnB Type Beat",
@@ -4060,7 +4060,10 @@
     },
     "msg_id": 382,
     "file_id": "BAACAgEAAxkDAAIBfmrWESAT0q3u8Hb-0u99npCufdM_AAJpBwACihqwRmd2K360t6laPQQ",
-    "replaces": "3eaf655c"
+    "replaces": "3eaf655c",
+    "decided_at": "2026-10-19T23:57:21.338816+00:00",
+    "redo": "new_clip",
+    "needs_replacement": true
   },
   {
     "id": "ba8ec660",
