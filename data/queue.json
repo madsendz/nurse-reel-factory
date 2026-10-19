@@ -4047,7 +4047,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 29.97,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2037757",
       "title": "Density (Background Ambient Techno)",
@@ -4061,7 +4061,11 @@
       "genre": "dance"
     },
     "msg_id": 358,
-    "file_id": "BAACAgEAAxkDAAIBZmrVfqgPwljOVsF0n0B8y3n1x5wyAAKACQACl3CoRq2_h5LBY2O1PQQ"
+    "file_id": "BAACAgEAAxkDAAIBZmrVfqgPwljOVsF0n0B8y3n1x5wyAAKACQACl3CoRq2_h5LBY2O1PQQ",
+    "decided_at": "2026-10-19T12:42:38.586047+00:00",
+    "redo": "never_topic",
+    "needs_replacement": false,
+    "replaced_by": "adaba33d"
   },
   {
     "id": "0e8dd9fd",
@@ -4329,7 +4333,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 6.23,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-43679",
       "title": "Ocean fantasy",
@@ -4344,6 +4348,68 @@
     },
     "msg_id": 374,
     "file_id": "BAACAgEAAxkDAAIBdmrWDir_3vtAmQPzHTMMEElbbsp4AAJfBwACihqwRkyZKrddGnMkPQQ",
-    "replaces": "2771d1a8"
+    "replaces": "2771d1a8",
+    "decided_at": "2026-10-19T12:42:38.586047+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "f5579297"
+  },
+  {
+    "id": "adaba33d",
+    "slot_key": "2026-10-19 17:30",
+    "slot_iso": "2026-10-19T21:30:00+00:00",
+    "slot_label": "Mon Oct 19, 5:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-t-decline-age",
+    "category": "mens_health",
+    "clip_id": "clip69",
+    "cta": 1,
+    "mode": "explore",
+    "seconds": 29.97,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-384173",
+      "title": "Mind drifting back (Leaving paradise)",
+      "creator": "K4MMERER",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/384173/mp32/",
+      "source": "jamendo",
+      "duration_ms": 312000,
+      "page": "https://www.jamendo.com/track/384173",
+      "genre": "lounge"
+    },
+    "msg_id": 377,
+    "file_id": "BAACAgEAAxkDAAIBeWrWEIvHmg4uAc1KykqxlGYlU7hUAAJnBwACihqwRughNGWN9rxrPQQ",
+    "replaces": "c1681deb"
+  },
+  {
+    "id": "f5579297",
+    "slot_key": "2026-10-19 16:00",
+    "slot_iso": "2026-10-19T20:00:00+00:00",
+    "slot_label": "Mon Oct 19, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "pr-mood-killer-foods",
+    "category": "sexual_wellness",
+    "clip_id": "clip52",
+    "cta": 1,
+    "mode": "edited",
+    "seconds": 6.23,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-43679",
+      "title": "Ocean fantasy",
+      "creator": "St Adam",
+      "license": "by",
+      "license_version": "",
+      "url": "https://prod-1.storage.jamendo.com/download/track/43679/mp32/",
+      "source": "jamendo",
+      "duration_ms": 186000,
+      "page": "https://www.jamendo.com/track/43679",
+      "genre": "lounge"
+    },
+    "msg_id": 378,
+    "file_id": "BAACAgEAAxkDAAIBemrWEJ2VAXHmTXwhyqOE9cmosRuKAAJoBwACihqwRo16_b41AcWLPQQ",
+    "replaces": "b93eeac4"
   }
 ]
