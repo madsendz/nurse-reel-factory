@@ -1,35 +1,5 @@
 [
   {
-    "id": "7fe89c99",
-    "slot_key": "2026-10-09 09:30",
-    "slot_iso": "2026-10-09T13:30:00+00:00",
-    "slot_label": "Fri Oct 09, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "nw-faked-it",
-    "category": "sex_ed",
-    "clip_id": "clip19",
-    "cta": 0,
-    "mode": "explore",
-    "seconds": 9.57,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-247156",
-      "title": "Silence Apart",
-      "creator": "ZigiZigi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/247156/mp32/",
-      "source": "jamendo",
-      "duration_ms": 326000,
-      "page": "https://www.jamendo.com/track/247156",
-      "genre": "pop"
-    },
-    "msg_id": 70,
-    "file_id": "BAACAgEAAxkDAANGashYFlE4VVNGlK0MAhcmiwiOP14AAoEIAAIGPkBGltBEJVbBb9c9BA",
-    "decided_at": "2026-10-09T03:33:36.266012+00:00",
-    "permalink": "https://www.instagram.com/reel/DeRn3TnjUta/"
-  },
-  {
     "id": "64732e32",
     "slot_key": "2026-10-09 11:00",
     "slot_iso": "2026-10-09T15:00:00+00:00",
@@ -3146,14 +3116,14 @@
     "slot_key": "2026-10-19 21:30",
     "slot_iso": "2026-10-20T01:30:00+00:00",
     "slot_label": "Mon Oct 19, 9:30 PM",
-    "post_type": "trial",
+    "post_type": "regular",
     "item_id": "nw-ed-heart",
     "category": "mens_health",
     "clip_id": "clip22",
     "cta": 2,
     "mode": "exploit",
     "seconds": 9.0,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1992651",
       "title": "Emotional Dancing",
@@ -3167,7 +3137,8 @@
       "genre": "electronic"
     },
     "msg_id": 288,
-    "file_id": "BAACAgEAAxkDAAIBIGrTURWFxtezDtgO4cKZP_QtSb7FAAL_BwACHBGYRsIYKpt_WJGVPQQ"
+    "file_id": "BAACAgEAAxkDAAIBIGrTURWFxtezDtgO4cKZP_QtSb7FAAL_BwACHBGYRsIYKpt_WJGVPQQ",
+    "decided_at": "2026-10-19T13:31:20.826957+00:00"
   },
   {
     "id": "9afd86f8",
@@ -4307,7 +4278,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.16,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1267753",
       "title": "Ghosts",
@@ -4323,7 +4294,8 @@
     "msg_id": 370,
     "file_id": "BAACAgEAAxkDAAIBcmrVgL3qBr59nlSrMwlxwO166XfzAAKOCQACl3CoRooad3YSuNmNPQQ",
     "replaces": "2410e9a1",
-    "decided_at": "2026-10-19T05:14:34.273575+00:00"
+    "decided_at": "2026-10-19T05:14:34.273575+00:00",
+    "permalink": "https://www.instagram.com/reel/DerX_HogTAh/"
   },
   {
     "id": "b93eeac4",
