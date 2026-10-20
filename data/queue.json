@@ -1,35 +1,5 @@
 [
   {
-    "id": "b9614944",
-    "slot_key": "2026-10-10 16:00",
-    "slot_iso": "2026-10-10T20:00:00+00:00",
-    "slot_label": "Sat Oct 10, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "pr-sleeping-bait",
-    "category": "health_bait",
-    "clip_id": "clip29",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 6.47,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1179546",
-      "title": "Born Free",
-      "creator": "Pokki DJ",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1179546/mp32/",
-      "source": "jamendo",
-      "duration_ms": 212000,
-      "page": "https://www.jamendo.com/track/1179546",
-      "genre": "electronic"
-    },
-    "msg_id": 107,
-    "file_id": "BAACAgEAAxkDAANrasmhcvAJYdyvpzMlLdvAa2Dp18QAAg8IAALPoFFGUBpVJLRKEjQ9BA",
-    "decided_at": "2026-10-10T13:25:36.900673+00:00",
-    "permalink": "https://www.instagram.com/reel/DeU5RH4Da8R/"
-  },
-  {
     "id": "7c2b53b0",
     "slot_key": "2026-10-10 19:30",
     "slot_iso": "2026-10-10T23:30:00+00:00",
@@ -4422,7 +4392,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 8.2,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1331970",
       "title": "Faith",
@@ -4438,7 +4408,8 @@
     "msg_id": 433,
     "file_id": "BAACAgEAAxkDAAIBsWrXXINKQGisumuI3TNPTwp0RrQ0AAKEDQACihq4RkID0DilWVrAPQQ",
     "replaces": "326e7c10",
-    "decided_at": "2026-10-20T19:34:41.111726+00:00"
+    "decided_at": "2026-10-20T19:34:41.111726+00:00",
+    "permalink": "https://www.instagram.com/reel/DeupdIflYrM/"
   },
   {
     "id": "b13ca05d",
