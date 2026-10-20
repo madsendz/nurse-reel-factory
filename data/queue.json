@@ -2982,7 +2982,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 13.53,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1931328",
       "title": "Dreaming of better days",
@@ -2996,7 +2996,11 @@
       "genre": "chillout"
     },
     "msg_id": 309,
-    "file_id": "BAACAgEAAxkDAAIBNWrUGqNrWz2qTqUqGp_2Xejan75XAAIECQACl3CgRs0gaKYZW71qPQQ"
+    "file_id": "BAACAgEAAxkDAAIBNWrUGqNrWz2qTqUqGp_2Xejan75XAAIECQACl3CgRs0gaKYZW71qPQQ",
+    "decided_at": "2026-10-20T00:11:12.648516+00:00",
+    "redo": "swap_music",
+    "needs_replacement": false,
+    "replaced_by": "6472c3ce"
   },
   {
     "id": "27862364",
@@ -4063,7 +4067,7 @@
     "replaces": "3eaf655c",
     "decided_at": "2026-10-19T23:57:21.338816+00:00",
     "redo": "new_clip",
-    "needs_replacement": true
+    "needs_replacement": false
   },
   {
     "id": "ba8ec660",
@@ -4096,5 +4100,34 @@
     "decided_at": "2026-10-19T23:58:06.162137+00:00",
     "post_now": true,
     "permalink": "https://www.instagram.com/reel/Desfzh8ldH6/"
+  },
+  {
+    "id": "6472c3ce",
+    "slot_key": "2026-10-20 09:30",
+    "slot_iso": "2026-10-20T13:30:00+00:00",
+    "slot_label": "Tue Oct 20, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-period-sex",
+    "category": "sex_ed",
+    "clip_id": "clip03",
+    "cta": 2,
+    "mode": "exploit",
+    "seconds": 13.53,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-43679",
+      "title": "Ocean fantasy",
+      "creator": "St Adam",
+      "license": "by",
+      "license_version": "",
+      "url": "https://prod-1.storage.jamendo.com/download/track/43679/mp32/",
+      "source": "jamendo",
+      "duration_ms": 186000,
+      "page": "https://www.jamendo.com/track/43679",
+      "genre": "chillout"
+    },
+    "msg_id": 398,
+    "file_id": "BAACAgEAAxkDAAIBjmrWscCgIvaEPT4Lyahv2VJSM3ahAAKpCAACihqwRmL5y-R60PdYPQQ",
+    "replaces": "12a167ae"
   }
 ]
