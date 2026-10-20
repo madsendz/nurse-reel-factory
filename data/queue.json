@@ -1,35 +1,5 @@
 [
   {
-    "id": "d9a014b8",
-    "slot_key": "2026-10-10 13:00",
-    "slot_iso": "2026-10-10T17:00:00+00:00",
-    "slot_label": "Sat Oct 10, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "nw-cardio-erections",
-    "category": "mens_health",
-    "clip_id": "clip32",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 9.33,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-384095",
-      "title": "Like King Cool in a sunbed",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384095/mp32/",
-      "source": "jamendo",
-      "duration_ms": 289000,
-      "page": "https://www.jamendo.com/track/384095",
-      "genre": "pop"
-    },
-    "msg_id": 106,
-    "file_id": "BAACAgEAAxkDAANqasmhXPT_paEbQyJCytEdJunOMQ4AAg4IAALPoFFGpwvFihLm07k9BA",
-    "decided_at": "2026-10-10T13:15:37.941793+00:00",
-    "permalink": "https://www.instagram.com/reel/DeUkq0XEyxf/"
-  },
-  {
     "id": "b9614944",
     "slot_key": "2026-10-10 16:00",
     "slot_iso": "2026-10-10T20:00:00+00:00",
@@ -2922,7 +2892,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 13.7,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-384090",
       "title": "Manta-dive",
@@ -2937,7 +2907,8 @@
     },
     "msg_id": 311,
     "file_id": "BAACAgEAAxkDAAIBN2rUGtVQ9sbs0YlBustPwtoy2JgvAAIGCQACl3CgRq10QypxW_ijPQQ",
-    "decided_at": "2026-10-20T00:59:50.641253+00:00"
+    "decided_at": "2026-10-20T00:59:50.641253+00:00",
+    "permalink": "https://www.instagram.com/reel/DeuU9sEjfCr/"
   },
   {
     "id": "61b97b53",
