@@ -3645,7 +3645,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 16.2,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1961617",
       "title": "Memoirs",
@@ -3660,7 +3660,8 @@
     },
     "msg_id": 359,
     "file_id": "BAACAgEAAxkDAAIBZ2rVftUuW-OyZktMbd61fj672ZgIAAKBCQACl3CoRsaCRgTiN-80PQQ",
-    "decided_at": "2026-10-20T00:57:04.784926+00:00"
+    "decided_at": "2026-10-20T00:57:04.784926+00:00",
+    "permalink": "https://www.instagram.com/reel/Detyp77lMF_/"
   },
   {
     "id": "988b5935",
