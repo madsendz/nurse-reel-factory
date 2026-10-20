@@ -3046,7 +3046,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 13.7,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384090",
       "title": "Manta-dive",
@@ -3060,7 +3060,8 @@
       "genre": "electronic"
     },
     "msg_id": 311,
-    "file_id": "BAACAgEAAxkDAAIBN2rUGtVQ9sbs0YlBustPwtoy2JgvAAIGCQACl3CgRq10QypxW_ijPQQ"
+    "file_id": "BAACAgEAAxkDAAIBN2rUGtVQ9sbs0YlBustPwtoy2JgvAAIGCQACl3CgRq10QypxW_ijPQQ",
+    "decided_at": "2026-10-20T00:59:50.641253+00:00"
   },
   {
     "id": "61b97b53",
@@ -3730,7 +3731,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 9.16,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2173192",
       "title": "Summer Light Pop",
@@ -3744,7 +3745,8 @@
       "genre": "lounge"
     },
     "msg_id": 360,
-    "file_id": "BAACAgEAAxkDAAIBaGrVfudQ-CJ_MSStxgbYNpX0Oc0pAAKDCQACl3CoRvSrDfUmLUilPQQ"
+    "file_id": "BAACAgEAAxkDAAIBaGrVfudQ-CJ_MSStxgbYNpX0Oc0pAAKDCQACl3CoRvSrDfUmLUilPQQ",
+    "decided_at": "2026-10-20T00:59:50.641253+00:00"
   },
   {
     "id": "18998dde",
@@ -3758,7 +3760,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.82,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -3772,7 +3774,10 @@
       "genre": "dance"
     },
     "msg_id": 361,
-    "file_id": "BAACAgEAAxkDAAIBaWrVfv3lN6wvIF3D2C7qF6etseABAAKFCQACl3CoRsvRwZwhcVeKPQQ"
+    "file_id": "BAACAgEAAxkDAAIBaWrVfv3lN6wvIF3D2C7qF6etseABAAKFCQACl3CoRsvRwZwhcVeKPQQ",
+    "decided_at": "2026-10-20T00:59:50.641253+00:00",
+    "redo": "new_clip",
+    "needs_replacement": true
   },
   {
     "id": "3c46988a",
