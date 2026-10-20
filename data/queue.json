@@ -4472,7 +4472,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 8.2,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1331970",
       "title": "Faith",
@@ -4487,6 +4487,39 @@
     },
     "msg_id": 428,
     "file_id": "BAACAgEAAxkDAAIBrGrW5FdcTNdo4u4qF92kaNLmh2yXAAKfDAACihq4RmD0Jcg0XQ9GPQQ",
-    "replaces": "61b97b53"
+    "replaces": "61b97b53",
+    "decided_at": "2026-10-20T12:19:41.754397+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "88a373c6"
+  },
+  {
+    "id": "88a373c6",
+    "slot_key": "2026-10-20 16:00",
+    "slot_iso": "2026-10-20T20:00:00+00:00",
+    "slot_label": "Tue Oct 20, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "pr-male-g-spot",
+    "category": "anatomy",
+    "clip_id": "clip67",
+    "cta": 0,
+    "mode": "edited",
+    "seconds": 8.2,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1331970",
+      "title": "Faith",
+      "creator": "Neon NiteClub",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1331970/mp32/",
+      "source": "jamendo",
+      "duration_ms": 248000,
+      "page": "https://www.jamendo.com/track/1331970",
+      "genre": "pop"
+    },
+    "msg_id": 433,
+    "file_id": "BAACAgEAAxkDAAIBsWrXXINKQGisumuI3TNPTwp0RrQ0AAKEDQACihq4RkID0DilWVrAPQQ",
+    "replaces": "326e7c10"
   }
 ]
