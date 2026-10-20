@@ -3013,7 +3013,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 8.2,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1331970",
       "title": "Faith",
@@ -3027,7 +3027,11 @@
       "genre": "pop"
     },
     "msg_id": 312,
-    "file_id": "BAACAgEAAxkDAAIBOGrUGuvn7F5HXU8wn31G_nP_PVpjAAIHCQACl3CgRq3wC0biObxCPQQ"
+    "file_id": "BAACAgEAAxkDAAIBOGrUGuvn7F5HXU8wn31G_nP_PVpjAAIHCQACl3CgRq3wC0biObxCPQQ",
+    "decided_at": "2026-10-20T03:47:04.594906+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "326e7c10"
   },
   {
     "id": "22ebf257",
@@ -3730,7 +3734,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 5.12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384091",
       "title": "Lazy beach breaks",
@@ -3744,7 +3748,8 @@
       "genre": "lounge"
     },
     "msg_id": 362,
-    "file_id": "BAACAgEAAxkDAAIBamrVfw9maoZDGIkXEJ3eGKCqiZrJAAKGCQACl3CoRkPiW2ADlxtfPQQ"
+    "file_id": "BAACAgEAAxkDAAIBamrVfw9maoZDGIkXEJ3eGKCqiZrJAAKGCQACl3CoRkPiW2ADlxtfPQQ",
+    "decided_at": "2026-10-20T03:47:04.594906+00:00"
   },
   {
     "id": "23307b18",
@@ -4095,7 +4100,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.6,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1342479",
       "title": "Breathe",
@@ -4110,7 +4115,8 @@
     },
     "msg_id": 402,
     "file_id": "BAACAgEAAxkDAAIBkmrWsmzO-IYXat-KyISngCjVbbKmAAKtCAACihqwRk6oNbKegTMEPQQ",
-    "replaces": "27862364"
+    "replaces": "27862364",
+    "decided_at": "2026-10-20T03:47:04.594906+00:00"
   },
   {
     "id": "36d276f7",
@@ -4404,7 +4410,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 11.27,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037702",
       "title": "Nostalgia Drive (Lofi Hip-hop)",
@@ -4419,7 +4425,8 @@
     },
     "msg_id": 424,
     "file_id": "BAACAgEAAxkDAAIBqGrW3qwnZswNB8_O2VF-bEvRFOpFAAKVDAACihq4Ri05gHUv73PNPQQ",
-    "replaces": "18998dde"
+    "replaces": "18998dde",
+    "decided_at": "2026-10-20T03:47:04.594906+00:00"
   },
   {
     "id": "3900eb0b",
@@ -4433,7 +4440,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.96,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1471214",
       "title": "Igor Sensor - Argo",
@@ -4448,6 +4455,36 @@
     },
     "msg_id": 425,
     "file_id": "BAACAgEAAxkDAAIBqWrW3sL8AljXgu2iRQNp_ivbEGgsAAKXDAACihq4Rh9BxAJzvBayPQQ",
-    "replaces": "6472c3ce"
+    "replaces": "6472c3ce",
+    "decided_at": "2026-10-20T03:47:04.594906+00:00"
+  },
+  {
+    "id": "326e7c10",
+    "slot_key": "2026-10-20 16:00",
+    "slot_iso": "2026-10-20T20:00:00+00:00",
+    "slot_label": "Tue Oct 20, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "pr-male-g-spot",
+    "category": "anatomy",
+    "clip_id": "clip67",
+    "cta": 0,
+    "mode": "edited",
+    "seconds": 8.2,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1331970",
+      "title": "Faith",
+      "creator": "Neon NiteClub",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1331970/mp32/",
+      "source": "jamendo",
+      "duration_ms": 248000,
+      "page": "https://www.jamendo.com/track/1331970",
+      "genre": "pop"
+    },
+    "msg_id": 428,
+    "file_id": "BAACAgEAAxkDAAIBrGrW5FdcTNdo4u4qF92kaNLmh2yXAAKfDAACihq4RmD0Jcg0XQ9GPQQ",
+    "replaces": "61b97b53"
   }
 ]
