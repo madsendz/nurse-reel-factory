@@ -2954,7 +2954,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 12.35,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1403270",
       "title": "Just laugh at it",
@@ -2968,7 +2968,11 @@
       "genre": "rnb"
     },
     "msg_id": 313,
-    "file_id": "BAACAgEAAxkDAAIBOWrUGwhMv568uQ7FwLA9gtVxBSOlAAIICQACl3CgRhiyMPlcAS_LPQQ"
+    "file_id": "BAACAgEAAxkDAAIBOWrUGwhMv568uQ7FwLA9gtVxBSOlAAIICQACl3CgRhiyMPlcAS_LPQQ",
+    "decided_at": "2026-10-20T19:34:41.111726+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "b13ca05d"
   },
   {
     "id": "f6fd4c4b",
@@ -4418,7 +4422,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 8.2,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1331970",
       "title": "Faith",
@@ -4433,6 +4437,36 @@
     },
     "msg_id": 433,
     "file_id": "BAACAgEAAxkDAAIBsWrXXINKQGisumuI3TNPTwp0RrQ0AAKEDQACihq4RkID0DilWVrAPQQ",
-    "replaces": "326e7c10"
+    "replaces": "326e7c10",
+    "decided_at": "2026-10-20T19:34:41.111726+00:00"
+  },
+  {
+    "id": "b13ca05d",
+    "slot_key": "2026-10-20 19:30",
+    "slot_iso": "2026-10-20T23:30:00+00:00",
+    "slot_label": "Tue Oct 20, 7:30 PM",
+    "post_type": "regular",
+    "item_id": "pr-average-size",
+    "category": "mens_health",
+    "clip_id": "clip03",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 13.53,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-43679",
+      "title": "Ocean fantasy",
+      "creator": "St Adam",
+      "license": "by",
+      "license_version": "",
+      "url": "https://prod-1.storage.jamendo.com/download/track/43679/mp32/",
+      "source": "jamendo",
+      "duration_ms": 186000,
+      "page": "https://www.jamendo.com/track/43679",
+      "genre": "electronic"
+    },
+    "msg_id": 440,
+    "file_id": "BAACAgEAAxkDAAIBuGrXwnTaxnBsd5ShyI97zNQXjeMKAAK4BwACZufBRlHQYDgV9FI_PQQ",
+    "replaces": "22ebf257"
   }
 ]
