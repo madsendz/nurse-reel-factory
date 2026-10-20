@@ -3715,7 +3715,8 @@
     "file_id": "BAACAgEAAxkDAAIBaWrVfv3lN6wvIF3D2C7qF6etseABAAKFCQACl3CoRsvRwZwhcVeKPQQ",
     "decided_at": "2026-10-20T00:59:50.641253+00:00",
     "redo": "new_clip",
-    "needs_replacement": true
+    "needs_replacement": false,
+    "replaced_by": "36dd9334"
   },
   {
     "id": "3c46988a",
@@ -4061,7 +4062,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 13.53,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-43679",
       "title": "Ocean fantasy",
@@ -4076,7 +4077,11 @@
     },
     "msg_id": 398,
     "file_id": "BAACAgEAAxkDAAIBjmrWscCgIvaEPT4Lyahv2VJSM3ahAAKpCAACihqwRmL5y-R60PdYPQQ",
-    "replaces": "12a167ae"
+    "replaces": "12a167ae",
+    "decided_at": "2026-10-20T03:22:54.295820+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "3900eb0b"
   },
   {
     "id": "f0b7e11c",
@@ -4386,5 +4391,63 @@
     },
     "msg_id": 421,
     "file_id": "BAACAgEAAxkDAAIBpWrWyfmZSXcKCdPdyyRLcPWJL4WOAAJuDAACihq4RoaKc1waDpYlPQQ"
+  },
+  {
+    "id": "36dd9334",
+    "slot_key": "2026-10-20 14:30",
+    "slot_iso": "2026-10-20T18:30:00+00:00",
+    "slot_label": "Tue Oct 20, 2:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-prostate-21",
+    "category": "mens_health",
+    "clip_id": "clip33",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 11.27,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2037702",
+      "title": "Nostalgia Drive (Lofi Hip-hop)",
+      "creator": "Moonwalk",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2037702/mp32/",
+      "source": "jamendo",
+      "duration_ms": 294000,
+      "page": "https://www.jamendo.com/track/2037702",
+      "genre": "lounge"
+    },
+    "msg_id": 424,
+    "file_id": "BAACAgEAAxkDAAIBqGrW3qwnZswNB8_O2VF-bEvRFOpFAAKVDAACihq4Ri05gHUv73PNPQQ",
+    "replaces": "18998dde"
+  },
+  {
+    "id": "3900eb0b",
+    "slot_key": "2026-10-20 09:30",
+    "slot_iso": "2026-10-20T13:30:00+00:00",
+    "slot_label": "Tue Oct 20, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-period-sex",
+    "category": "sex_ed",
+    "clip_id": "clip34",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 10.96,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1471214",
+      "title": "Igor Sensor - Argo",
+      "creator": "Igor Sensor",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1471214/mp32/",
+      "source": "jamendo",
+      "duration_ms": 202000,
+      "page": "https://www.jamendo.com/track/1471214",
+      "genre": "lounge"
+    },
+    "msg_id": 425,
+    "file_id": "BAACAgEAAxkDAAIBqWrW3sL8AljXgu2iRQNp_ivbEGgsAAKXDAACihq4Rh9BxAJzvBayPQQ",
+    "replaces": "6472c3ce"
   }
 ]
