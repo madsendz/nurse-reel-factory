@@ -3620,7 +3620,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 5.12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-384091",
       "title": "Lazy beach breaks",
@@ -3635,7 +3635,8 @@
     },
     "msg_id": 362,
     "file_id": "BAACAgEAAxkDAAIBamrVfw9maoZDGIkXEJ3eGKCqiZrJAAKGCQACl3CoRkPiW2ADlxtfPQQ",
-    "decided_at": "2026-10-20T03:51:24.397859+00:00"
+    "decided_at": "2026-10-20T03:51:24.397859+00:00",
+    "permalink": "https://www.instagram.com/reel/Deuzs1Nk_FX/"
   },
   {
     "id": "23307b18",
