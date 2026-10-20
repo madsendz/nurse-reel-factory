@@ -3014,7 +3014,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 13.7,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2173192",
       "title": "Summer Light Pop",
@@ -3028,7 +3028,11 @@
       "genre": "lounge"
     },
     "msg_id": 310,
-    "file_id": "BAACAgEAAxkDAAIBNmrUGr26ss1cRryTpFaNlvs0N3EjAAIFCQACl3CgRqxHYMx1xjEBPQQ"
+    "file_id": "BAACAgEAAxkDAAIBNmrUGr26ss1cRryTpFaNlvs0N3EjAAIFCQACl3CgRqxHYMx1xjEBPQQ",
+    "decided_at": "2026-10-20T00:14:04.382487+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "f0b7e11c"
   },
   {
     "id": "30263729",
@@ -3697,7 +3701,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 16.2,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1961617",
       "title": "Memoirs",
@@ -3711,7 +3715,8 @@
       "genre": "dance"
     },
     "msg_id": 359,
-    "file_id": "BAACAgEAAxkDAAIBZ2rVftUuW-OyZktMbd61fj672ZgIAAKBCQACl3CoRsaCRgTiN-80PQQ"
+    "file_id": "BAACAgEAAxkDAAIBZ2rVftUuW-OyZktMbd61fj672ZgIAAKBCQACl3CoRsaCRgTiN-80PQQ",
+    "decided_at": "2026-10-20T00:14:04.382487+00:00"
   },
   {
     "id": "988b5935",
@@ -4129,5 +4134,34 @@
     "msg_id": 398,
     "file_id": "BAACAgEAAxkDAAIBjmrWscCgIvaEPT4Lyahv2VJSM3ahAAKpCAACihqwRmL5y-R60PdYPQQ",
     "replaces": "12a167ae"
+  },
+  {
+    "id": "f0b7e11c",
+    "slot_key": "2026-10-20 11:00",
+    "slot_iso": "2026-10-20T15:00:00+00:00",
+    "slot_label": "Tue Oct 20, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-erections-vary",
+    "category": "mens_health",
+    "clip_id": "clip43",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 10.6,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1342479",
+      "title": "Breathe",
+      "creator": "Axl &amp; Arth",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1342479/mp32/",
+      "source": "jamendo",
+      "duration_ms": 233000,
+      "page": "https://www.jamendo.com/track/1342479",
+      "genre": "electronic"
+    },
+    "msg_id": 402,
+    "file_id": "BAACAgEAAxkDAAIBkmrWsmzO-IYXat-KyISngCjVbbKmAAKtCAACihqwRk6oNbKegTMEPQQ",
+    "replaces": "27862364"
   }
 ]
