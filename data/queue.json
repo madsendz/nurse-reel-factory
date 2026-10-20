@@ -1,39 +1,5 @@
 [
   {
-    "id": "7c2b53b0",
-    "slot_key": "2026-10-10 19:30",
-    "slot_iso": "2026-10-10T23:30:00+00:00",
-    "slot_label": "Sat Oct 10, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-g-spot-where",
-    "category": "anatomy",
-    "clip_id": "clip55",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 11.0,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-384091",
-      "title": "Lazy beach breaks",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384091/mp32/",
-      "source": "jamendo",
-      "duration_ms": 327000,
-      "page": "https://www.jamendo.com/track/384091",
-      "genre": "lounge"
-    },
-    "msg_id": 108,
-    "file_id": "BAACAgEAAxkDAANsasmhm3-sbMZP_x8k9pwGl11dNpMAAhAIAALPoFFGHq3s8TASK5c9BA",
-    "feedback": [
-      "this video has an upward point and a downward point, but only the up point has text. break away some text from the upward point and make it pop up for the downward point."
-    ],
-    "decided_at": "2026-10-10T13:25:37.825332+00:00",
-    "needs_replacement": false,
-    "replaced_by": "81361e3a"
-  },
-  {
     "id": "cff655a5",
     "slot_key": "2026-10-10 21:30",
     "slot_iso": "2026-10-11T01:30:00+00:00",
@@ -66,37 +32,6 @@
     ],
     "needs_replacement": false,
     "replaced_by": "9edf8680"
-  },
-  {
-    "id": "81361e3a",
-    "slot_key": "2026-10-10 19:30",
-    "slot_iso": "2026-10-10T23:30:00+00:00",
-    "slot_label": "Sat Oct 10, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-kegels-women",
-    "category": "sexual_wellness",
-    "clip_id": "clip42",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 6.9,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1702676",
-      "title": "Daydream",
-      "creator": "zero-project",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1702676/mp32/",
-      "source": "jamendo",
-      "duration_ms": 258000,
-      "page": "https://www.jamendo.com/track/1702676",
-      "genre": "chillout"
-    },
-    "msg_id": 117,
-    "file_id": "BAACAgEAAxkDAAN1aso9DIKdr6lyJ_-o0VBvrsg78-IAAjoJAALPoFFGObUEQNP7XI49BA",
-    "replaces": "7c2b53b0",
-    "decided_at": "2026-10-10T13:35:25.846973+00:00",
-    "permalink": "https://www.instagram.com/reel/DeVRSdgkS2G/"
   },
   {
     "id": "9edf8680",
