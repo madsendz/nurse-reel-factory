@@ -10820,7 +10820,6 @@ clips:
     w: 0.84
     h: 0.338
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -10944,6 +10943,15 @@ clips:
       - 0.305
       - 0.226
   duration: 10.43
+  events_manual:
+  - t: 2.6
+    dir: up
+    x: 0.139
+    y: 0.121
+  - t: 7.4
+    dir: center
+    x: 0.5
+    y: 0.678
 - id: clip81
   drive_id: 10tnTIufG_Nn4T9nf-drZGFs6m51kp9Un
   name: e848cf080be445f491d2986d1be5763b.MP4
