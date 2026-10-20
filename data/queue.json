@@ -1,37 +1,5 @@
 [
   {
-    "id": "be985fce",
-    "slot_key": "2026-10-10 09:30",
-    "slot_iso": "2026-10-10T13:30:00+00:00",
-    "slot_label": "Sat Oct 10, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "nw-condom-break",
-    "category": "sex_ed",
-    "clip_id": "clip06",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 13.03,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-366912",
-      "title": "Club's House DJ",
-      "creator": "Felixjd",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/366912/mp32/",
-      "source": "jamendo",
-      "duration_ms": 396000,
-      "page": "https://www.jamendo.com/track/366912",
-      "genre": "dance"
-    },
-    "msg_id": 104,
-    "file_id": "BAACAgEAAxkDAANoasmhGeOWFTz_Zg5DEYNMho6yzjAAAgoIAALPoFFGncyMsl-9WeM9BA",
-    "feedback": [
-      "this video has 3 upward points, plus one down below, so there should be 4 text boxes."
-    ],
-    "decided_at": "2026-10-10T13:15:36.424253+00:00"
-  },
-  {
     "id": "d0efccb6",
     "slot_key": "2026-10-10 11:00",
     "slot_iso": "2026-10-10T15:00:00+00:00",
@@ -4442,7 +4410,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.96,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1471214",
       "title": "Igor Sensor - Argo",
@@ -4458,7 +4426,8 @@
     "msg_id": 425,
     "file_id": "BAACAgEAAxkDAAIBqWrW3sL8AljXgu2iRQNp_ivbEGgsAAKXDAACihq4Rh9BxAJzvBayPQQ",
     "replaces": "6472c3ce",
-    "decided_at": "2026-10-20T03:51:24.397859+00:00"
+    "decided_at": "2026-10-20T03:51:24.397859+00:00",
+    "permalink": "https://www.instagram.com/reel/Det9Z_YgBvZ/"
   },
   {
     "id": "326e7c10",
