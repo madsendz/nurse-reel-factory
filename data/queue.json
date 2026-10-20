@@ -1,68 +1,5 @@
 [
   {
-    "id": "3a9de931",
-    "slot_key": "2026-10-09 21:30",
-    "slot_iso": "2026-10-10T01:30:00+00:00",
-    "slot_label": "Fri Oct 09, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-size-by-country",
-    "category": "mens_health",
-    "clip_id": "clip15",
-    "cta": 1,
-    "mode": "explore",
-    "seconds": 6.63,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-2037721",
-      "title": "Downtempo Delights (Lofi Hip-hop)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037721/mp32/",
-      "source": "jamendo",
-      "duration_ms": 144000,
-      "page": "https://www.jamendo.com/track/2037721",
-      "genre": "hiphop"
-    },
-    "msg_id": 75,
-    "file_id": "BAACAgEAAxkDAANLashYnzTGpNDciIcXbJOaxHNrkxcAAoYIAAIGPkBGQNYvhYxp8aI9BA",
-    "decided_at": "2026-10-09T03:24:20.774109+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "d312c7fc"
-  },
-  {
-    "id": "d312c7fc",
-    "slot_key": "2026-10-09 21:30",
-    "slot_iso": "2026-10-10T01:30:00+00:00",
-    "slot_label": "Fri Oct 09, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-a-spot",
-    "category": "anatomy",
-    "clip_id": "clip15",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 6.63,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-43679",
-      "title": "Ocean fantasy",
-      "creator": "St Adam",
-      "license": "by",
-      "license_version": "",
-      "url": "https://prod-1.storage.jamendo.com/download/track/43679/mp32/",
-      "source": "jamendo",
-      "duration_ms": 186000,
-      "page": "https://www.jamendo.com/track/43679",
-      "genre": "electronic"
-    },
-    "msg_id": 96,
-    "file_id": "BAACAgEAAxkDAANgasheopb9dJpbczF9T4g8f-f2TYAAApsIAAIGPkBGrpGWX-h-X6w9BA",
-    "replaces": "3a9de931",
-    "decided_at": "2026-10-09T03:45:39.334026+00:00",
-    "permalink": "https://www.instagram.com/reel/DeS6PAciLkU/"
-  },
-  {
     "id": "be985fce",
     "slot_key": "2026-10-10 09:30",
     "slot_iso": "2026-10-10T13:30:00+00:00",
@@ -2760,7 +2697,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 9.0,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1992651",
       "title": "Emotional Dancing",
@@ -2775,7 +2712,8 @@
     },
     "msg_id": 288,
     "file_id": "BAACAgEAAxkDAAIBIGrTURWFxtezDtgO4cKZP_QtSb7FAAL_BwACHBGYRsIYKpt_WJGVPQQ",
-    "decided_at": "2026-10-19T13:31:20.826957+00:00"
+    "decided_at": "2026-10-19T13:31:20.826957+00:00",
+    "permalink": "https://www.instagram.com/reel/Desqb3RkR2_/"
   },
   {
     "id": "9afd86f8",
