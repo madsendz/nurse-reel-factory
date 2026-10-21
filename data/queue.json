@@ -3078,7 +3078,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 11.7,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1099",
       "title": "Leave Me, Let Me Die",
@@ -3092,7 +3092,11 @@
       "genre": "pop"
     },
     "msg_id": 351,
-    "file_id": "BAACAgEAAxkDAAIBX2rVcA5DISBHZWaKoGByD5Ml1yrQAAJdCQACl3CoRuXuyH0qzEj2PQQ"
+    "file_id": "BAACAgEAAxkDAAIBX2rVcA5DISBHZWaKoGByD5Ml1yrQAAJdCQACl3CoRuXuyH0qzEj2PQQ",
+    "decided_at": "2026-10-21T20:14:16.264081+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "18c762d7"
   },
   {
     "id": "b885c021",
@@ -4633,7 +4637,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 4.73,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1267753",
       "title": "Ghosts",
@@ -4648,7 +4652,8 @@
     },
     "msg_id": 480,
     "file_id": "BAACAgEAAxkDAAIB4GrYu0p1tAoiott18mvTx9wtBUsUAAK9CAACZufJRtYkzY8rxJdoPQQ",
-    "replaces": "7122ff02"
+    "replaces": "7122ff02",
+    "decided_at": "2026-10-21T20:14:16.264081+00:00"
   },
   {
     "id": "0f055ebc",
@@ -4691,7 +4696,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 4.64,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384173",
       "title": "Mind drifting back (Leaving paradise)",
@@ -4706,6 +4711,36 @@
     },
     "msg_id": 487,
     "file_id": "BAACAgEAAxkDAAIB52rZAxmWsizcNGHc9qcVjHKp9FZPAAIuCQACZufJRpubz6tBbQABdz0E",
-    "replaces": "975f2779"
+    "replaces": "975f2779",
+    "decided_at": "2026-10-21T20:14:16.264081+00:00"
+  },
+  {
+    "id": "18c762d7",
+    "slot_key": "2026-10-21 21:30",
+    "slot_iso": "2026-10-22T01:30:00+00:00",
+    "slot_label": "Wed Oct 21, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-ick",
+    "category": "sexual_wellness",
+    "clip_id": "clip70",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 26.57,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1319541",
+      "title": "Gone Crasy (4-Track-Recording-1991)",
+      "creator": "Christian Zell",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1319541/mp32/",
+      "source": "jamendo",
+      "duration_ms": 222000,
+      "page": "https://www.jamendo.com/track/1319541",
+      "genre": "pop"
+    },
+    "msg_id": 494,
+    "file_id": "BAACAgEAAxkDAAIB7mrZHVCsGsREBJRbPKnJQzK5vIRGAALlCAACZufRRudBS5KlyW2zPQQ",
+    "replaces": "378ceeb7"
   }
 ]
