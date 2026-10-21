@@ -3585,7 +3585,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 26.57,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-366912",
       "title": "Club's House DJ",
@@ -3599,7 +3599,11 @@
       "genre": "dance"
     },
     "msg_id": 366,
-    "file_id": "BAACAgEAAxkDAAIBbmrVf399f3ejMZ_GN7oDX7vDc-5gAAKLCQACl3CoRn-LJ7brcDmrPQQ"
+    "file_id": "BAACAgEAAxkDAAIBbmrVf399f3ejMZ_GN7oDX7vDc-5gAAKLCQACl3CoRn-LJ7brcDmrPQQ",
+    "decided_at": "2026-10-21T13:13:26.561785+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "975f2779"
   },
   {
     "id": "e39eb6d7",
@@ -4726,5 +4730,34 @@
     "msg_id": 473,
     "file_id": "BAACAgEAAxkDAAIB2WrYujx23FHjwxEWe0wOJUBHlK-PAAK6CAACZufJRr3juwn4y17XPQQ",
     "replaces": "bc40d615"
+  },
+  {
+    "id": "975f2779",
+    "slot_key": "2026-10-21 17:30",
+    "slot_iso": "2026-10-21T21:30:00+00:00",
+    "slot_label": "Wed Oct 21, 5:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-sti-no-symptoms",
+    "category": "sex_ed",
+    "clip_id": "clip70",
+    "cta": 2,
+    "mode": "exploit",
+    "seconds": 26.57,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1230857",
+      "title": "Indios",
+      "creator": "Claudiozara",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1230857/mp32/",
+      "source": "jamendo",
+      "duration_ms": 357000,
+      "page": "https://www.jamendo.com/track/1230857",
+      "genre": "chillout"
+    },
+    "msg_id": 476,
+    "file_id": "BAACAgEAAxkDAAIB3GrYusaK2wugZRfTnOEvlRo355NBAAK7CAACZufJRoB05tl_h-cBPQQ",
+    "replaces": "9d174bf8"
   }
 ]
