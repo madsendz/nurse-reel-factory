@@ -4696,7 +4696,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 4.64,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-384173",
       "title": "Mind drifting back (Leaving paradise)",
@@ -4712,7 +4712,8 @@
     "msg_id": 487,
     "file_id": "BAACAgEAAxkDAAIB52rZAxmWsizcNGHc9qcVjHKp9FZPAAIuCQACZufJRpubz6tBbQABdz0E",
     "replaces": "975f2779",
-    "decided_at": "2026-10-21T20:14:16.264081+00:00"
+    "decided_at": "2026-10-21T20:14:16.264081+00:00",
+    "permalink": "https://www.instagram.com/reel/DexYgjsjl7f/"
   },
   {
     "id": "18c762d7",
