@@ -4578,7 +4578,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 9.8,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1702676",
       "title": "Daydream",
@@ -4593,7 +4593,11 @@
     },
     "msg_id": 459,
     "file_id": "BAACAgEAAxkDAAIBy2rYtTpPss0SlM6WtFXlxXdCQ8AbAAKrCAACZufJRsToHTdMtSmfPQQ",
-    "replaces": "707ad71a"
+    "replaces": "707ad71a",
+    "decided_at": "2026-10-21T13:03:16.175747+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "d511eeca"
   },
   {
     "id": "bc40d615",
@@ -4623,5 +4627,34 @@
     "msg_id": 464,
     "file_id": "BAACAgEAAxkDAAIB0GrYtnXOkgK8wtB4OPJXyYlOurMdAAKuCAACZufJRhsetwufdB58PQQ",
     "replaces": "2512a9ea"
+  },
+  {
+    "id": "d511eeca",
+    "slot_key": "2026-10-21 09:30",
+    "slot_iso": "2026-10-21T13:30:00+00:00",
+    "slot_label": "Wed Oct 21, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-size-by-country",
+    "category": "mens_health",
+    "clip_id": "clip36",
+    "cta": 2,
+    "mode": "edited",
+    "seconds": 9.8,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1702676",
+      "title": "Daydream",
+      "creator": "zero-project",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1702676/mp32/",
+      "source": "jamendo",
+      "duration_ms": 258000,
+      "page": "https://www.jamendo.com/track/1702676",
+      "genre": "chillout"
+    },
+    "msg_id": 467,
+    "file_id": "BAACAgEAAxkDAAIB02rYuDmZGM5eBNlTEwABPKP9yRe9PAACswgAAmbnyUa6UT91vB84uz0E",
+    "replaces": "02aa7ef4"
   }
 ]
