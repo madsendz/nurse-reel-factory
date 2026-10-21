@@ -4617,7 +4617,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 13.53,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1945492",
       "title": "Do not disturb",
@@ -4632,7 +4632,11 @@
     },
     "msg_id": 464,
     "file_id": "BAACAgEAAxkDAAIB0GrYtnXOkgK8wtB4OPJXyYlOurMdAAKuCAACZufJRhsetwufdB58PQQ",
-    "replaces": "2512a9ea"
+    "replaces": "2512a9ea",
+    "decided_at": "2026-10-21T13:11:48.395178+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "ac0609ce"
   },
   {
     "id": "d511eeca",
@@ -4662,7 +4666,7 @@
     "msg_id": 467,
     "file_id": "BAACAgEAAxkDAAIB02rYuDmZGM5eBNlTEwABPKP9yRe9PAACswgAAmbnyUa6UT91vB84uz0E",
     "replaces": "02aa7ef4",
-    "decided_at": "2026-10-21T13:08:34.448894+00:00"
+    "decided_at": "2026-10-21T13:11:48.395178+00:00"
   },
   {
     "id": "92b34910",
@@ -4676,7 +4680,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.4,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-181806",
       "title": "Alexandra 02",
@@ -4691,6 +4695,36 @@
     },
     "msg_id": 470,
     "file_id": "BAACAgEAAxkDAAIB1mrYuYICEvk5AUAQXHmhUrYX7smzAAK3CAACZufJRmtJ1Ki6EHKQPQQ",
-    "replaces": "0a8f65e2"
+    "replaces": "0a8f65e2",
+    "decided_at": "2026-10-21T13:11:47.111027+00:00"
+  },
+  {
+    "id": "ac0609ce",
+    "slot_key": "2026-10-21 11:00",
+    "slot_iso": "2026-10-21T15:00:00+00:00",
+    "slot_label": "Wed Oct 21, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-clit-nerves",
+    "category": "anatomy",
+    "clip_id": "clip03",
+    "cta": 1,
+    "mode": "explore",
+    "seconds": 13.53,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1916401",
+      "title": "RnB Chill Trap",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1916401/mp32/",
+      "source": "jamendo",
+      "duration_ms": 123000,
+      "page": "https://www.jamendo.com/track/1916401",
+      "genre": "hiphop"
+    },
+    "msg_id": 473,
+    "file_id": "BAACAgEAAxkDAAIB2WrYujx23FHjwxEWe0wOJUBHlK-PAAK6CAACZufJRr3juwn4y17XPQQ",
+    "replaces": "bc40d615"
   }
 ]
