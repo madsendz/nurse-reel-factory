@@ -1,35 +1,5 @@
 [
   {
-    "id": "b3348ae6",
-    "slot_key": "2026-10-11 19:30",
-    "slot_iso": "2026-10-11T23:30:00+00:00",
-    "slot_label": "Sun Oct 11, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "pr-mood-killer-foods",
-    "category": "sexual_wellness",
-    "clip_id": "clip65",
-    "cta": 2,
-    "mode": "explore",
-    "seconds": 8.1,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2037702",
-      "title": "Nostalgia Drive (Lofi Hip-hop)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037702/mp32/",
-      "source": "jamendo",
-      "duration_ms": 294000,
-      "page": "https://www.jamendo.com/track/2037702",
-      "genre": "lounge"
-    },
-    "msg_id": 126,
-    "file_id": "BAACAgEAAxkDAAN-asqlMiI-DxyZ5wUm3ViO3RrxmGUAAkQHAALPoFlGlrfqdSM7FpI9BA",
-    "decided_at": "2026-10-11T01:42:14.146573+00:00",
-    "permalink": "https://www.instagram.com/reel/DeX2GSZjeMH/"
-  },
-  {
     "id": "979ca720",
     "slot_key": "2026-10-11 21:30",
     "slot_iso": "2026-10-12T01:30:00+00:00",
@@ -4649,7 +4619,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 4.73,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1267753",
       "title": "Ghosts",
@@ -4665,7 +4635,8 @@
     "msg_id": 480,
     "file_id": "BAACAgEAAxkDAAIB4GrYu0p1tAoiott18mvTx9wtBUsUAAK9CAACZufJRtYkzY8rxJdoPQQ",
     "replaces": "7122ff02",
-    "decided_at": "2026-10-21T20:14:16.264081+00:00"
+    "decided_at": "2026-10-21T20:14:16.264081+00:00",
+    "permalink": "https://www.instagram.com/reel/DexmKk_DF8q/"
   },
   {
     "id": "0f055ebc",
