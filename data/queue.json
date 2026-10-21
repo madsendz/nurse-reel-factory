@@ -3122,7 +3122,7 @@
     },
     "msg_id": 347,
     "file_id": "BAACAgEAAxkDAAIBW2rVb6nu6hTggtVQpVeoU5aEwWXpAAJXCQACl3CoRlurleox-NWDPQQ",
-    "decided_at": "2026-10-21T12:55:40.825398+00:00",
+    "decided_at": "2026-10-21T13:08:36.268481+00:00",
     "redo": "new_clip",
     "needs_replacement": false,
     "replaced_by": "bc40d615"
@@ -3139,7 +3139,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 8.12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2290118",
       "title": "Fashion Week",
@@ -3153,7 +3153,8 @@
       "genre": "electronic"
     },
     "msg_id": 348,
-    "file_id": "BAACAgEAAxkDAAIBXGrVb7_dUUHzzK4VnphnFRiZfPoyAAJYCQACl3CoRtnIDhIY-PCNPQQ"
+    "file_id": "BAACAgEAAxkDAAIBXGrVb7_dUUHzzK4VnphnFRiZfPoyAAJYCQACl3CoRtnIDhIY-PCNPQQ",
+    "decided_at": "2026-10-21T13:08:36.268481+00:00"
   },
   {
     "id": "0a8f65e2",
@@ -3167,7 +3168,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 4.73,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1305161",
       "title": "Give U My Name",
@@ -3181,7 +3182,11 @@
       "genre": "hiphop"
     },
     "msg_id": 349,
-    "file_id": "BAACAgEAAxkDAAIBXWrVb9QpDaXfTy4NahP0zKdK9p4XAAJaCQACl3CoRtKktfABUiVtPQQ"
+    "file_id": "BAACAgEAAxkDAAIBXWrVb9QpDaXfTy4NahP0zKdK9p4XAAJaCQACl3CoRtKktfABUiVtPQQ",
+    "decided_at": "2026-10-21T13:08:36.268481+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "92b34910"
   },
   {
     "id": "7122ff02",
@@ -3551,7 +3556,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 6.17,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384090",
       "title": "Manta-dive",
@@ -3565,7 +3570,8 @@
       "genre": "lounge"
     },
     "msg_id": 365,
-    "file_id": "BAACAgEAAxkDAAIBbWrVf0cNdDqaXXlVPuExXc2U1GUHAAKJCQACl3CoRkP38wSihkWjPQQ"
+    "file_id": "BAACAgEAAxkDAAIBbWrVf0cNdDqaXXlVPuExXc2U1GUHAAKJCQACl3CoRkP38wSihkWjPQQ",
+    "decided_at": "2026-10-21T13:08:36.268481+00:00"
   },
   {
     "id": "9d174bf8",
@@ -4640,7 +4646,7 @@
     "cta": 2,
     "mode": "edited",
     "seconds": 9.8,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1702676",
       "title": "Daydream",
@@ -4655,6 +4661,36 @@
     },
     "msg_id": 467,
     "file_id": "BAACAgEAAxkDAAIB02rYuDmZGM5eBNlTEwABPKP9yRe9PAACswgAAmbnyUa6UT91vB84uz0E",
-    "replaces": "02aa7ef4"
+    "replaces": "02aa7ef4",
+    "decided_at": "2026-10-21T13:08:34.448894+00:00"
+  },
+  {
+    "id": "92b34910",
+    "slot_key": "2026-10-21 16:00",
+    "slot_iso": "2026-10-21T20:00:00+00:00",
+    "slot_label": "Wed Oct 21, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "pr-stamina-foods",
+    "category": "mens_health",
+    "clip_id": "clip07",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 10.4,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-181806",
+      "title": "Alexandra 02",
+      "creator": "Löhstana David",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/181806/mp32/",
+      "source": "jamendo",
+      "duration_ms": 233000,
+      "page": "https://www.jamendo.com/track/181806",
+      "genre": "pop"
+    },
+    "msg_id": 470,
+    "file_id": "BAACAgEAAxkDAAIB1mrYuYICEvk5AUAQXHmhUrYX7smzAAK3CAACZufJRmtJ1Ki6EHKQPQQ",
+    "replaces": "0a8f65e2"
   }
 ]
