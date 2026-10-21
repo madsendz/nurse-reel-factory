@@ -1,105 +1,5 @@
 [
   {
-    "id": "cff655a5",
-    "slot_key": "2026-10-10 21:30",
-    "slot_iso": "2026-10-11T01:30:00+00:00",
-    "slot_label": "Sat Oct 10, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-men-secretly-like",
-    "category": "sexual_wellness",
-    "clip_id": "clip69",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 29.97,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1490752",
-      "title": "Free Post Malone | RnB Type Beat",
-      "creator": "Adi Rambo",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1490752/mp32/",
-      "source": "jamendo",
-      "duration_ms": 213000,
-      "page": "https://www.jamendo.com/track/1490752",
-      "genre": "pop"
-    },
-    "msg_id": 109,
-    "file_id": "BAACAgEAAxkDAANtasmiAAFjxjYPb7KuWTXL_RJ1deDAAAIRCAACz6BRRjIfK6rF9c-_PQQ",
-    "decided_at": "2026-10-10T13:25:39.259435+00:00",
-    "feedback": [
-      "this clip is too long. if we use clip 69 it needs to be trimmed to 10 seconds"
-    ],
-    "needs_replacement": false,
-    "replaced_by": "9edf8680"
-  },
-  {
-    "id": "9edf8680",
-    "slot_key": "2026-10-10 21:30",
-    "slot_iso": "2026-10-11T01:30:00+00:00",
-    "slot_label": "Sat Oct 10, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-size-birth-month",
-    "category": "mens_health",
-    "clip_id": "clip72",
-    "cta": 0,
-    "mode": "explore",
-    "seconds": 8.12,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1856950",
-      "title": "RnB Chill Trap",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1856950/mp32/",
-      "source": "jamendo",
-      "duration_ms": 123000,
-      "page": "https://www.jamendo.com/track/1856950",
-      "genre": "rnb"
-    },
-    "msg_id": 118,
-    "file_id": "BAACAgEAAxkDAAN2aso9ITyRIqZnoY4Upr1gBnaoi7cAAjsJAALPoFFG_NGfS8k9gRg9BA",
-    "replaces": "cff655a5",
-    "feedback": [
-      "new topic"
-    ],
-    "decided_at": "2026-10-10T13:35:26.681732+00:00",
-    "needs_replacement": false,
-    "replaced_by": "81d261d6"
-  },
-  {
-    "id": "81d261d6",
-    "slot_key": "2026-10-10 21:30",
-    "slot_iso": "2026-10-11T01:30:00+00:00",
-    "slot_label": "Sat Oct 10, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-birth-control-ranked",
-    "category": "sex_ed",
-    "clip_id": "clip64",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 9.42,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2173154",
-      "title": "Coffee Lounge",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2173154/mp32/",
-      "source": "jamendo",
-      "duration_ms": 121000,
-      "page": "https://www.jamendo.com/track/2173154",
-      "genre": "lounge"
-    },
-    "msg_id": 121,
-    "file_id": "BAACAgEAAxkDAAN5aso_UvPv-h7bm20h6uR_n2R5oLUAAkAJAALPoFFGWUYbFuTFPUY9BA",
-    "replaces": "9edf8680",
-    "decided_at": "2026-10-10T15:00:30.283756+00:00",
-    "permalink": "https://www.instagram.com/reel/DeVfCTLiVdi/"
-  },
-  {
     "id": "49a8afc6",
     "slot_key": "2026-10-11 09:30",
     "slot_iso": "2026-10-11T13:30:00+00:00",
@@ -2891,7 +2791,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 6.9,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1576336",
       "title": "White Walls",
@@ -2906,7 +2806,8 @@
     },
     "msg_id": 314,
     "file_id": "BAACAgEAAxkDAAIBOmrUGx_TzClaKg0Ss_8T8M610KFsAAIMCQACl3CgRi41Lbcs0EkuPQQ",
-    "decided_at": "2026-10-20T03:51:24.397859+00:00"
+    "decided_at": "2026-10-20T03:51:24.397859+00:00",
+    "permalink": "https://www.instagram.com/reel/DevPMNBgdIv/"
   },
   {
     "id": "5cb233bc",
