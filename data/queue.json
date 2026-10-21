@@ -1,35 +1,5 @@
 [
   {
-    "id": "b4a1da39",
-    "slot_key": "2026-10-11 13:00",
-    "slot_iso": "2026-10-11T17:00:00+00:00",
-    "slot_label": "Sun Oct 11, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "nw-notice-first",
-    "category": "sexual_wellness",
-    "clip_id": "clip63",
-    "cta": 2,
-    "mode": "explore",
-    "seconds": 9.46,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2037757",
-      "title": "Density (Background Ambient Techno)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037757/mp32/",
-      "source": "jamendo",
-      "duration_ms": 272000,
-      "page": "https://www.jamendo.com/track/2037757",
-      "genre": "dance"
-    },
-    "msg_id": 124,
-    "file_id": "BAACAgEAAxkDAAN8asqk47f40m2X81HnfL8cLNbPFFoAAkIHAALPoFlGdhlpIdG_kzg9BA",
-    "decided_at": "2026-10-11T01:42:14.146573+00:00",
-    "permalink": "https://www.instagram.com/reel/DeXJgcUgPRq/"
-  },
-  {
     "id": "d8a725ba",
     "slot_key": "2026-10-11 16:00",
     "slot_iso": "2026-10-11T20:00:00+00:00",
@@ -3044,7 +3014,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 8.12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2290118",
       "title": "Fashion Week",
@@ -3059,7 +3029,8 @@
     },
     "msg_id": 348,
     "file_id": "BAACAgEAAxkDAAIBXGrVb7_dUUHzzK4VnphnFRiZfPoyAAJYCQACl3CoRtnIDhIY-PCNPQQ",
-    "decided_at": "2026-10-21T13:08:36.268481+00:00"
+    "decided_at": "2026-10-21T13:08:36.268481+00:00",
+    "permalink": "https://www.instagram.com/reel/Dew5vGBDH_b/"
   },
   {
     "id": "0a8f65e2",
