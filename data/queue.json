@@ -3200,7 +3200,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 4.64,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1702676",
       "title": "Daydream",
@@ -3214,7 +3214,11 @@
       "genre": "lounge"
     },
     "msg_id": 350,
-    "file_id": "BAACAgEAAxkDAAIBXmrVb-nfeaH-IPdhnvfduwHJsHx7AAJbCQACl3CoRsQoKpuy0m8gPQQ"
+    "file_id": "BAACAgEAAxkDAAIBXmrVb-nfeaH-IPdhnvfduwHJsHx7AAJbCQACl3CoRsQoKpuy0m8gPQQ",
+    "decided_at": "2026-10-21T13:16:29.982601+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "57fcc04b"
   },
   {
     "id": "378ceeb7",
@@ -3528,7 +3532,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 11.17,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1230857",
       "title": "Indios",
@@ -3542,7 +3546,11 @@
       "genre": "chillout"
     },
     "msg_id": 364,
-    "file_id": "BAACAgEAAxkDAAIBbGrVfzXF3TECb89zoSPvjuir8rd-AAKICQACl3CoRgyvQBKSo43ZPQQ"
+    "file_id": "BAACAgEAAxkDAAIBbGrVfzXF3TECb89zoSPvjuir8rd-AAKICQACl3CoRgyvQBKSo43ZPQQ",
+    "decided_at": "2026-10-21T13:16:29.982601+00:00",
+    "redo": "swap_music",
+    "needs_replacement": false,
+    "replaced_by": "0f055ebc"
   },
   {
     "id": "b0919696",
@@ -4759,5 +4767,63 @@
     "msg_id": 476,
     "file_id": "BAACAgEAAxkDAAIB3GrYusaK2wugZRfTnOEvlRo355NBAAK7CAACZufJRoB05tl_h-cBPQQ",
     "replaces": "9d174bf8"
+  },
+  {
+    "id": "57fcc04b",
+    "slot_key": "2026-10-21 19:30",
+    "slot_iso": "2026-10-21T23:30:00+00:00",
+    "slot_label": "Wed Oct 21, 7:30 PM",
+    "post_type": "regular",
+    "item_id": "pr-release-often",
+    "category": "sexual_wellness",
+    "clip_id": "clip49",
+    "cta": 2,
+    "mode": "exploit",
+    "seconds": 4.73,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1267753",
+      "title": "Ghosts",
+      "creator": "Lyvo",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1267753/mp32/",
+      "source": "jamendo",
+      "duration_ms": 173000,
+      "page": "https://www.jamendo.com/track/1267753",
+      "genre": "electronic"
+    },
+    "msg_id": 480,
+    "file_id": "BAACAgEAAxkDAAIB4GrYu0p1tAoiott18mvTx9wtBUsUAAK9CAACZufJRtYkzY8rxJdoPQQ",
+    "replaces": "7122ff02"
+  },
+  {
+    "id": "0f055ebc",
+    "slot_key": "2026-10-21 12:00",
+    "slot_iso": "2026-10-21T16:00:00+00:00",
+    "slot_label": "Wed Oct 21, 12:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-alcohol-ed",
+    "category": "mens_health",
+    "clip_id": "clip47",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 11.17,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2173154",
+      "title": "Coffee Lounge",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2173154/mp32/",
+      "source": "jamendo",
+      "duration_ms": 121000,
+      "page": "https://www.jamendo.com/track/2173154",
+      "genre": "lounge"
+    },
+    "msg_id": 481,
+    "file_id": "BAACAgEAAxkDAAIB4WrYu3FICHtq5aDIFJzfvq2tk1TgAAK-CAACZufJRijuLT3YdqCOPQQ",
+    "replaces": "7375c3a2"
   }
 ]
