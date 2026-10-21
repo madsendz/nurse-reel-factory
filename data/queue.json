@@ -4628,7 +4628,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 26.57,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1230857",
       "title": "Indios",
@@ -4643,7 +4643,11 @@
     },
     "msg_id": 476,
     "file_id": "BAACAgEAAxkDAAIB3GrYusaK2wugZRfTnOEvlRo355NBAAK7CAACZufJRoB05tl_h-cBPQQ",
-    "replaces": "9d174bf8"
+    "replaces": "9d174bf8",
+    "decided_at": "2026-10-21T18:22:51.343754+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "281b29bb"
   },
   {
     "id": "57fcc04b",
@@ -4702,5 +4706,34 @@
     "msg_id": 481,
     "file_id": "BAACAgEAAxkDAAIB4WrYu3FICHtq5aDIFJzfvq2tk1TgAAK-CAACZufJRijuLT3YdqCOPQQ",
     "replaces": "7375c3a2"
+  },
+  {
+    "id": "281b29bb",
+    "slot_key": "2026-10-21 17:30",
+    "slot_iso": "2026-10-21T21:30:00+00:00",
+    "slot_label": "Wed Oct 21, 5:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-sti-no-symptoms",
+    "category": "sex_ed",
+    "clip_id": "clip74",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 4.64,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-384173",
+      "title": "Mind drifting back (Leaving paradise)",
+      "creator": "K4MMERER",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/384173/mp32/",
+      "source": "jamendo",
+      "duration_ms": 312000,
+      "page": "https://www.jamendo.com/track/384173",
+      "genre": "chillout"
+    },
+    "msg_id": 487,
+    "file_id": "BAACAgEAAxkDAAIB52rZAxmWsizcNGHc9qcVjHKp9FZPAAIuCQACZufJRpubz6tBbQABdz0E",
+    "replaces": "975f2779"
   }
 ]
