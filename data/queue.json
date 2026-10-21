@@ -3793,7 +3793,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 12.1,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1440522",
       "title": "Wait",
@@ -3807,7 +3807,8 @@
       "genre": "hiphop"
     },
     "msg_id": 414,
-    "file_id": "BAACAgEAAxkDAAIBnmrWyQw67d-dNvhmefTUKa1CGC8WAAJlDAACihq4Rje2ckhZTJENPQQ"
+    "file_id": "BAACAgEAAxkDAAIBnmrWyQw67d-dNvhmefTUKa1CGC8WAAJlDAACihq4Rje2ckhZTJENPQQ",
+    "decided_at": "2026-10-21T22:43:20.684470+00:00"
   },
   {
     "id": "0f61df07",
@@ -3821,7 +3822,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 29.97,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-384173",
       "title": "Mind drifting back (Leaving paradise)",
@@ -3835,7 +3836,13 @@
       "genre": "chillout"
     },
     "msg_id": 415,
-    "file_id": "BAACAgEAAxkDAAIBn2rWyUmQ0zVNmFm16cVH09weUknrAAJmDAACihq4RjkTJqQaUz6CPQQ"
+    "file_id": "BAACAgEAAxkDAAIBn2rWyUmQ0zVNmFm16cVH09weUknrAAJmDAACihq4RjkTJqQaUz6CPQQ",
+    "feedback": [
+      "this clip is 29 seconds, it actually needs to be broken up into 2 or 3 different clips"
+    ],
+    "decided_at": "2026-10-21T22:43:20.684470+00:00",
+    "needs_replacement": false,
+    "replaced_by": "66cdcbaa"
   },
   {
     "id": "3a43f76b",
@@ -4811,5 +4818,34 @@
     "msg_id": 499,
     "file_id": "BAACAgEAAxkDAAIB82rZP3AohogVmemrpLd1EiKP3TXFAAIXCQACZufRRq538XnuRplxPQQ",
     "replaces": "1b5171da"
+  },
+  {
+    "id": "66cdcbaa",
+    "slot_key": "2026-10-22 12:00",
+    "slot_iso": "2026-10-22T16:00:00+00:00",
+    "slot_label": "Thu Oct 22, 12:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-lube-myth",
+    "category": "sex_ed",
+    "clip_id": "clip69",
+    "cta": 1,
+    "mode": "note",
+    "seconds": 29.97,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-384173",
+      "title": "Mind drifting back (Leaving paradise)",
+      "creator": "K4MMERER",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/384173/mp32/",
+      "source": "jamendo",
+      "duration_ms": 312000,
+      "page": "https://www.jamendo.com/track/384173",
+      "genre": "chillout"
+    },
+    "msg_id": 501,
+    "file_id": "BAACAgEAAxkDAAIB9WrZQFjCrcTHCdwKidrU4RodBZKoAAIZCQACZufRRsEsxLw7L9tIPQQ",
+    "replaces": "0f61df07"
   }
 ]

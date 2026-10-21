@@ -360,5 +360,13 @@
     "slot": "2026-10-18 11:00",
     "text": "this should have 4 pop up boxes and it doesn’t",
     "via": "dashboard"
+  },
+  {
+    "at": "2026-10-21T22:43:20.684470+00:00",
+    "item_id": "nw-lube-myth",
+    "clip_id": "clip69",
+    "slot": "2026-10-22 12:00",
+    "text": "this clip is 29 seconds, it actually needs to be broken up into 2 or 3 different clips",
+    "via": "dashboard"
   }
 ]
