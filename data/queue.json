@@ -1,35 +1,5 @@
 [
   {
-    "id": "13b19c01",
-    "slot_key": "2026-10-11 11:00",
-    "slot_iso": "2026-10-11T15:00:00+00:00",
-    "slot_label": "Sun Oct 11, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-calories",
-    "category": "health_bait",
-    "clip_id": "clip32",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 9.33,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1922534",
-      "title": "Luxury Hip-Hop",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1922534/mp32/",
-      "source": "jamendo",
-      "duration_ms": 131000,
-      "page": "https://www.jamendo.com/track/1922534",
-      "genre": "rnb"
-    },
-    "msg_id": 123,
-    "file_id": "BAACAgEAAxkDAAN7asqkxNQvrdKSY87IuMKXduElxKsAAkEHAALPoFlGTQABNmnEVERUPQQ",
-    "decided_at": "2026-10-11T01:42:14.146573+00:00",
-    "permalink": "https://www.instagram.com/reel/DeW7w_Dic4E/"
-  },
-  {
     "id": "b4a1da39",
     "slot_key": "2026-10-11 13:00",
     "slot_iso": "2026-10-11T17:00:00+00:00",
