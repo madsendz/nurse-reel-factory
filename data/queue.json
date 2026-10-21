@@ -4727,7 +4727,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 26.57,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1319541",
       "title": "Gone Crasy (4-Track-Recording-1991)",
@@ -4742,6 +4742,39 @@
     },
     "msg_id": 494,
     "file_id": "BAACAgEAAxkDAAIB7mrZHVCsGsREBJRbPKnJQzK5vIRGAALlCAACZufRRudBS5KlyW2zPQQ",
-    "replaces": "378ceeb7"
+    "replaces": "378ceeb7",
+    "decided_at": "2026-10-21T22:39:06.198166+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "f5248b95"
+  },
+  {
+    "id": "f5248b95",
+    "slot_key": "2026-10-21 21:30",
+    "slot_iso": "2026-10-22T01:30:00+00:00",
+    "slot_label": "Wed Oct 21, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-ick",
+    "category": "sexual_wellness",
+    "clip_id": "clip10",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 10.1,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1129271",
+      "title": "Energy",
+      "creator": "Pokki DJ",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1129271/mp32/",
+      "source": "jamendo",
+      "duration_ms": 230000,
+      "page": "https://www.jamendo.com/track/1129271",
+      "genre": "electronic"
+    },
+    "msg_id": 497,
+    "file_id": "BAACAgEAAxkDAAIB8WrZPzGQDJvP8hE5PhTK6flG1DJVAAIWCQACZufRRsNKT-A0r5UJPQQ",
+    "replaces": "18c762d7"
   }
 ]
