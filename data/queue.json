@@ -3075,7 +3075,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 11.4,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-247156",
       "title": "Silence Apart",
@@ -3089,7 +3089,11 @@
       "genre": "pop"
     },
     "msg_id": 346,
-    "file_id": "BAACAgEAAxkDAAIBWmrVb4ZosL_l4GrHBNinCcmozIG_AAJWCQACl3CoRgbJPp-9090yPQQ"
+    "file_id": "BAACAgEAAxkDAAIBWmrVb4ZosL_l4GrHBNinCcmozIG_AAJWCQACl3CoRgbJPp-9090yPQQ",
+    "decided_at": "2026-10-21T12:50:17.163798+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "02aa7ef4"
   },
   {
     "id": "2512a9ea",
@@ -3479,7 +3483,7 @@
     "slot_key": "2026-10-21 08:00",
     "slot_iso": "2026-10-21T12:00:00+00:00",
     "slot_label": "Wed Oct 21, 8:00 AM",
-    "post_type": "trial",
+    "post_type": "regular",
     "item_id": "nw-g-spot-where",
     "category": "anatomy",
     "clip_id": "clip86",
@@ -3500,7 +3504,8 @@
       "genre": "trap"
     },
     "msg_id": 363,
-    "file_id": "BAACAgEAAxkDAAIBa2rVfx2Jp6aRzwFPQ8OfWwABUslTygAChwkAApdwqEbvH0naOCcRJD0E"
+    "file_id": "BAACAgEAAxkDAAIBa2rVfx2Jp6aRzwFPQ8OfWwABUslTygAChwkAApdwqEbvH0naOCcRJD0E",
+    "decided_at": "2026-10-21T12:50:17.163798+00:00"
   },
   {
     "id": "7375c3a2",
@@ -4556,5 +4561,34 @@
     },
     "msg_id": 453,
     "file_id": "BAACAgEAAxkDAAIBxWrYGCL_2WpIHwtj2DYIAjovaNM0AAK3BwACZufJRp2zXNWKodm0PQQ"
+  },
+  {
+    "id": "02aa7ef4",
+    "slot_key": "2026-10-21 09:30",
+    "slot_iso": "2026-10-21T13:30:00+00:00",
+    "slot_label": "Wed Oct 21, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-size-by-country",
+    "category": "mens_health",
+    "clip_id": "clip36",
+    "cta": 2,
+    "mode": "exploit",
+    "seconds": 9.8,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1702676",
+      "title": "Daydream",
+      "creator": "zero-project",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1702676/mp32/",
+      "source": "jamendo",
+      "duration_ms": 258000,
+      "page": "https://www.jamendo.com/track/1702676",
+      "genre": "chillout"
+    },
+    "msg_id": 459,
+    "file_id": "BAACAgEAAxkDAAIBy2rYtTpPss0SlM6WtFXlxXdCQ8AbAAKrCAACZufJRsToHTdMtSmfPQQ",
+    "replaces": "707ad71a"
   }
 ]
