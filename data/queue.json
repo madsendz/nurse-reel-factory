@@ -1,35 +1,5 @@
 [
   {
-    "id": "d8a725ba",
-    "slot_key": "2026-10-11 16:00",
-    "slot_iso": "2026-10-11T20:00:00+00:00",
-    "slot_label": "Sun Oct 11, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "pr-period-sex",
-    "category": "sex_ed",
-    "clip_id": "clip56",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 18.23,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1992651",
-      "title": "Emotional Dancing",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1992651/mp32/",
-      "source": "jamendo",
-      "duration_ms": 126000,
-      "page": "https://www.jamendo.com/track/1992651",
-      "genre": "hiphop"
-    },
-    "msg_id": 125,
-    "file_id": "BAACAgEAAxkDAAN9asqlFirWzH4Vcg3S28bz1fFzKxYAAkMHAALPoFlGYE6R_KfWJUo9BA",
-    "decided_at": "2026-10-11T01:42:14.146573+00:00",
-    "permalink": "https://www.instagram.com/reel/DeXeH87jEjE/"
-  },
-  {
     "id": "b3348ae6",
     "slot_key": "2026-10-11 19:30",
     "slot_iso": "2026-10-11T23:30:00+00:00",
@@ -4570,7 +4540,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.4,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-181806",
       "title": "Alexandra 02",
@@ -4586,7 +4556,8 @@
     "msg_id": 470,
     "file_id": "BAACAgEAAxkDAAIB1mrYuYICEvk5AUAQXHmhUrYX7smzAAK3CAACZufJRmtJ1Ki6EHKQPQQ",
     "replaces": "0a8f65e2",
-    "decided_at": "2026-10-21T13:11:47.111027+00:00"
+    "decided_at": "2026-10-21T13:11:47.111027+00:00",
+    "permalink": "https://www.instagram.com/reel/DexOUQKCWgN/"
   },
   {
     "id": "ac0609ce",
