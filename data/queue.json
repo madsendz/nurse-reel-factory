@@ -3732,7 +3732,7 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 10.43,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1129271",
       "title": "Energy",
@@ -3746,7 +3746,8 @@
       "genre": "electronic"
     },
     "msg_id": 412,
-    "file_id": "BAACAgEAAxkDAAIBnGrWyNUSwvJVuzfNoTuYbO7YhubOAAJjDAACihq4RoXohOEhREXhPQQ"
+    "file_id": "BAACAgEAAxkDAAIBnGrWyNUSwvJVuzfNoTuYbO7YhubOAAJjDAACihq4RoXohOEhREXhPQQ",
+    "decided_at": "2026-10-21T22:40:20.396965+00:00"
   },
   {
     "id": "1b5171da",
@@ -3760,7 +3761,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 9.2,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2160840",
       "title": "Ambient Inspirational Music",
@@ -3774,7 +3775,11 @@
       "genre": "pop"
     },
     "msg_id": 413,
-    "file_id": "BAACAgEAAxkDAAIBnWrWyOv0McUmh98NOouqwVAeBjrMAAJkDAACihq4RvBEzbs55Cr_PQQ"
+    "file_id": "BAACAgEAAxkDAAIBnWrWyOv0McUmh98NOouqwVAeBjrMAAJkDAACihq4RvBEzbs55Cr_PQQ",
+    "decided_at": "2026-10-21T22:40:20.396965+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "a5e9e9f9"
   },
   {
     "id": "375f0bdf",
@@ -4776,5 +4781,34 @@
     "msg_id": 497,
     "file_id": "BAACAgEAAxkDAAIB8WrZPzGQDJvP8hE5PhTK6flG1DJVAAIWCQACZufRRsNKT-A0r5UJPQQ",
     "replaces": "18c762d7"
+  },
+  {
+    "id": "a5e9e9f9",
+    "slot_key": "2026-10-22 09:30",
+    "slot_iso": "2026-10-22T13:30:00+00:00",
+    "slot_label": "Thu Oct 22, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-morning-wood",
+    "category": "mens_health",
+    "clip_id": "clip11",
+    "cta": 2,
+    "mode": "edited",
+    "seconds": 9.2,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2160840",
+      "title": "Ambient Inspirational Music",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2160840/mp32/",
+      "source": "jamendo",
+      "duration_ms": 93000,
+      "page": "https://www.jamendo.com/track/2160840",
+      "genre": "pop"
+    },
+    "msg_id": 499,
+    "file_id": "BAACAgEAAxkDAAIB82rZP3AohogVmemrpLd1EiKP3TXFAAIXCQACZufRRq538XnuRplxPQQ",
+    "replaces": "1b5171da"
   }
 ]
