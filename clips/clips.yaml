@@ -926,7 +926,11 @@ clips:
   drive_id: 1w909DU5engutl8YlxV12MBsX5tnvwZF1
   name: 25671c8771524872adde406ca8d1158a.MP4
   status: active
-  events_manual: []
+  events_manual:
+  - t: 8.9
+    dir: center
+    x: 0.5
+    y: 0.6
   point: ''
   zone:
     x: 0.08
@@ -934,7 +938,7 @@ clips:
     w: 0.84
     h: 0.42
   start: 0
-  end: null
+  end: 10.4
   auto:
     method: pose
     face:

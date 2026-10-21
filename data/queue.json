@@ -3090,8 +3090,8 @@
     },
     "msg_id": 346,
     "file_id": "BAACAgEAAxkDAAIBWmrVb4ZosL_l4GrHBNinCcmozIG_AAJWCQACl3CoRgbJPp-9090yPQQ",
-    "decided_at": "2026-10-21T12:50:17.163798+00:00",
-    "redo": "new_topic",
+    "decided_at": "2026-10-21T12:55:40.825398+00:00",
+    "redo": "new_clip",
     "needs_replacement": false,
     "replaced_by": "02aa7ef4"
   },
@@ -3107,7 +3107,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 12.23,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1319541",
       "title": "Gone Crasy (4-Track-Recording-1991)",
@@ -3121,7 +3121,11 @@
       "genre": "pop"
     },
     "msg_id": 347,
-    "file_id": "BAACAgEAAxkDAAIBW2rVb6nu6hTggtVQpVeoU5aEwWXpAAJXCQACl3CoRlurleox-NWDPQQ"
+    "file_id": "BAACAgEAAxkDAAIBW2rVb6nu6hTggtVQpVeoU5aEwWXpAAJXCQACl3CoRlurleox-NWDPQQ",
+    "decided_at": "2026-10-21T12:55:40.825398+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "bc40d615"
   },
   {
     "id": "bfb5140e",
@@ -4590,5 +4594,34 @@
     "msg_id": 459,
     "file_id": "BAACAgEAAxkDAAIBy2rYtTpPss0SlM6WtFXlxXdCQ8AbAAKrCAACZufJRsToHTdMtSmfPQQ",
     "replaces": "707ad71a"
+  },
+  {
+    "id": "bc40d615",
+    "slot_key": "2026-10-21 11:00",
+    "slot_iso": "2026-10-21T15:00:00+00:00",
+    "slot_label": "Wed Oct 21, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-sti-no-symptoms",
+    "category": "sex_ed",
+    "clip_id": "clip03",
+    "cta": 2,
+    "mode": "exploit",
+    "seconds": 13.53,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1945492",
+      "title": "Do not disturb",
+      "creator": "zero-project",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1945492/mp32/",
+      "source": "jamendo",
+      "duration_ms": 280000,
+      "page": "https://www.jamendo.com/track/1945492",
+      "genre": "chillout"
+    },
+    "msg_id": 464,
+    "file_id": "BAACAgEAAxkDAAIB0GrYtnXOkgK8wtB4OPJXyYlOurMdAAKuCAACZufJRhsetwufdB58PQQ",
+    "replaces": "2512a9ea"
   }
 ]
