@@ -3824,7 +3824,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.82,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1206517",
       "title": "DJ Smallest - Chill",
@@ -3838,7 +3838,11 @@
       "genre": "chillout"
     },
     "msg_id": 417,
-    "file_id": "BAACAgEAAxkDAAIBoWrWyYnjcynlxCsFQZcgVlbETLtVAAJpDAACihq4RpuEG1YwkQUFPQQ"
+    "file_id": "BAACAgEAAxkDAAIBoWrWyYnjcynlxCsFQZcgVlbETLtVAAJpDAACihq4RpuEG1YwkQUFPQQ",
+    "decided_at": "2026-10-22T02:40:02.583264+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "089083ae"
   },
   {
     "id": "53461931",
@@ -3936,7 +3940,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 9.77,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2173192",
       "title": "Summer Light Pop",
@@ -3950,7 +3954,8 @@
       "genre": "lounge"
     },
     "msg_id": 421,
-    "file_id": "BAACAgEAAxkDAAIBpWrWyfmZSXcKCdPdyyRLcPWJL4WOAAJuDAACihq4RoaKc1waDpYlPQQ"
+    "file_id": "BAACAgEAAxkDAAIBpWrWyfmZSXcKCdPdyyRLcPWJL4WOAAJuDAACihq4RoaKc1waDpYlPQQ",
+    "decided_at": "2026-10-22T02:40:02.583264+00:00"
   },
   {
     "id": "36dd9334",
@@ -4744,7 +4749,7 @@
     "cta": 2,
     "mode": "edited",
     "seconds": 9.2,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2160840",
       "title": "Ambient Inspirational Music",
@@ -4759,7 +4764,8 @@
     },
     "msg_id": 499,
     "file_id": "BAACAgEAAxkDAAIB82rZP3AohogVmemrpLd1EiKP3TXFAAIXCQACZufRRq538XnuRplxPQQ",
-    "replaces": "1b5171da"
+    "replaces": "1b5171da",
+    "decided_at": "2026-10-22T02:40:02.583264+00:00"
   },
   {
     "id": "66cdcbaa",
@@ -5102,5 +5108,34 @@
     "msg_id": 517,
     "file_id": "BAACAgEAAxkDAAICBWrZdPu9JH21T1v56THBPGs78t7-AAJ5CQACZufRRuchBe0MdVzBPQQ",
     "replaces": "66cdcbaa"
+  },
+  {
+    "id": "089083ae",
+    "slot_key": "2026-10-22 14:30",
+    "slot_iso": "2026-10-22T18:30:00+00:00",
+    "slot_label": "Thu Oct 22, 2:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-sperm-count-drop",
+    "category": "mens_health",
+    "clip_id": "clip69",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 29.97,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1099",
+      "title": "Leave Me, Let Me Die",
+      "creator": "Religionnaire",
+      "license": "by",
+      "license_version": "2.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1099/mp32/",
+      "source": "jamendo",
+      "duration_ms": 522000,
+      "page": "https://www.jamendo.com/track/1099",
+      "genre": "pop"
+    },
+    "msg_id": 526,
+    "file_id": "BAACAgEAAxkDAAICDmrZd8v-qd5s76ucwcl5LKy6bKBDAAJ9CQACZufRRjwJhbeAxoWBPQQ",
+    "replaces": "d81acc97"
   }
 ]

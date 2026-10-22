@@ -5025,10 +5025,14 @@ clips:
   name: video.mov
   status: active
   events_manual:
-  - t: 3.88
+  - t: 4
     dir: up
-    x: 0.137
-    y: 0.265
+    x: 0.536
+    y: 0.152
+  - t: 8.8
+    dir: down
+    x: 0.445
+    y: 0.827
   point: ''
   zone:
     x: 0.05
@@ -5036,7 +5040,6 @@ clips:
     w: 0.62
     h: 0.204
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -5175,6 +5178,7 @@ clips:
       - 0.258
       - 0.184
   duration: 10.82
+  title_y: 0.66
 - id: clip38
   drive_id: 1EzofwmXIJQ2A1gE0NaZ7jQrFnCAOanmV
   name: Facetune721836A1-25B8-4930-B469-A348625477DB.MOV
@@ -7274,6 +7278,14 @@ clips:
     dir: up
     x: 0.2
     y: 0.15
+  - t: 4.7
+    dir: up
+    x: 0.736
+    y: 0.136
+  - t: 9.6
+    dir: down
+    x: 0.476
+    y: 0.84
   point: ''
   zone:
     x: 0.05
@@ -7281,7 +7293,6 @@ clips:
     w: 0.62
     h: 0.072
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -7405,6 +7416,7 @@ clips:
       - 0.377
       - 0.313
   duration: 11.0
+  title_y: 0.7
 - id: clip56
   drive_id: 1P5nWa92VjE29Ea4a2VeCG6TBQevf8l2i
   name: 548a0f2fae174c6c8cb5c7a561854634.MP4
@@ -8119,8 +8131,16 @@ clips:
   events_manual:
   - t: 0
     dir: up
-    x: 0.071
-    y: 0.309
+    x: 0.23
+    y: 0.099
+  - t: 5.5
+    dir: up
+    x: 0.782
+    y: 0.097
+  - t: 10.4
+    dir: down
+    x: 0.548
+    y: 0.733
   point: ''
   zone:
     x: 0.33
@@ -8128,7 +8148,6 @@ clips:
     w: 0.62
     h: 0.188
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -8287,6 +8306,7 @@ clips:
       - 0.4
       - 0.281
   duration: 12.35
+  title_y: 0.59
 - id: clip62
   drive_id: 1o5VHH4SSAmGHVsIlCIw-NUmA36IwfvE9
   name: 71e8c9f395154821a88f9b06062c6a3d.MP4
@@ -10368,7 +10388,11 @@ clips:
   drive_id: 1gfYs0Ngn16g4KkmzdFMCdwWwRKntABi-
   name: bb8f7a4a7ccb43f8b6da8ba52af8f11f.MP4
   status: active
-  events_manual: []
+  events_manual:
+  - t: 3
+    dir: down
+    x: 0.494
+    y: 0.784
   point: ''
   zone:
     x: 0.05
@@ -10376,7 +10400,6 @@ clips:
     w: 0.62
     h: 0.192
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -10435,6 +10458,7 @@ clips:
       - 0.344
       - 0.272
   duration: 4.33
+  title_y: 0.57
 - id: clip77
   drive_id: 1_p7i4KxGINgrNcSvqjovNor-TNtqngnz
   name: 86a878eb676149109393bc504d25403f.MP4
