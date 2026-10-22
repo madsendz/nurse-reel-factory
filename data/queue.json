@@ -5163,7 +5163,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.82,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1320534",
       "title": "Neith",
@@ -5178,7 +5178,11 @@
     },
     "msg_id": 530,
     "file_id": "BAACAgEAAxkDAAICEmrZeH9xFYyvAUV-vg4vkGZOMq3-AAKACQACZufRRiwRUA6NiwxLPQQ",
-    "replaces": "c00de0a3"
+    "replaces": "c00de0a3",
+    "decided_at": "2026-10-22T11:33:03.897787+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "0d0f4273"
   },
   {
     "id": "60b7db51",
@@ -5271,5 +5275,34 @@
     "msg_id": 543,
     "file_id": "BAACAgEAAxkDAAICH2rZ89oQgV2OIdWiMKx76RrIAgljAAKPCQACyfHQRqPFl4aUzRJsPQQ",
     "replaces": "91c346da"
+  },
+  {
+    "id": "0d0f4273",
+    "slot_key": "2026-10-22 19:30",
+    "slot_iso": "2026-10-22T23:30:00+00:00",
+    "slot_label": "Thu Oct 22, 7:30 PM",
+    "post_type": "regular",
+    "item_id": "nw-orgasm-brain",
+    "category": "sexual_wellness",
+    "clip_id": "clip37",
+    "cta": 0,
+    "mode": "edited",
+    "seconds": 10.82,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1320534",
+      "title": "Neith",
+      "creator": "CyberSDF",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1320534/mp32/",
+      "source": "jamendo",
+      "duration_ms": 269000,
+      "page": "https://www.jamendo.com/track/1320534",
+      "genre": "trap"
+    },
+    "msg_id": 547,
+    "file_id": "BAACAgEAAxkDAAICI2rZ9J9HObJrA0s9N02PK5XkLbBeAAKSCQACyfHQRiLYVofMUyvPPQQ",
+    "replaces": "d508a072"
   }
 ]
