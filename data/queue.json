@@ -1,35 +1,5 @@
 [
   {
-    "id": "b6344284",
-    "slot_key": "2026-10-12 19:30",
-    "slot_iso": "2026-10-12T23:30:00+00:00",
-    "slot_label": "Mon Oct 12, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-alcohol-ed",
-    "category": "mens_health",
-    "clip_id": "clip44",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 7.31,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1199532",
-      "title": "Stefan The Poker Player",
-      "creator": "REC",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1199532/mp32/",
-      "source": "jamendo",
-      "duration_ms": 303000,
-      "page": "https://www.jamendo.com/track/1199532",
-      "genre": "electronic"
-    },
-    "msg_id": 132,
-    "file_id": "BAACAgEAAxkDAAOEasqlwpLZCLq9FvpUL1KAkdOLP58AAkoHAALPoFlGXxrV47o75SQ9BA",
-    "decided_at": "2026-10-12T17:00:36.453429+00:00",
-    "permalink": "https://www.instagram.com/reel/Deaa_R3HXOg/"
-  },
-  {
     "id": "ae4464f9",
     "slot_key": "2026-10-12 21:30",
     "slot_iso": "2026-10-13T01:30:00+00:00",
@@ -3911,7 +3881,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 12.35,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2037702",
       "title": "Nostalgia Drive (Lofi Hip-hop)",
@@ -3925,7 +3895,11 @@
       "genre": "lounge"
     },
     "msg_id": 444,
-    "file_id": "BAACAgEAAxkDAAIBvGrYFwnCRXOs_mBdg7x2VvADwpToAAKsBwACZufJRmFWyUCmnLGnPQQ"
+    "file_id": "BAACAgEAAxkDAAIBvGrYFwnCRXOs_mBdg7x2VvADwpToAAKsBwACZufJRmFWyUCmnLGnPQQ",
+    "decided_at": "2026-10-22T23:33:03.056923+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "0e55e771"
   },
   {
     "id": "1b420590",
@@ -5074,7 +5048,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 10.82,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1320534",
       "title": "Neith",
@@ -5090,7 +5064,8 @@
     "msg_id": 547,
     "file_id": "BAACAgEAAxkDAAICI2rZ9J9HObJrA0s9N02PK5XkLbBeAAKSCQACyfHQRiLYVofMUyvPPQQ",
     "replaces": "d508a072",
-    "decided_at": "2026-10-22T15:13:49.528266+00:00"
+    "decided_at": "2026-10-22T15:13:49.528266+00:00",
+    "permalink": "https://www.instagram.com/reel/De0LDImDaIT/"
   },
   {
     "id": "976e80ff",
@@ -5151,5 +5126,34 @@
     "msg_id": 559,
     "file_id": "BAACAgEAAxkDAAICL2raKnW8_eT__PdwAAFexK2cU03SagAC_AkAAsnx0EaDmNw35ILe8j0E",
     "replaces": "28acac48"
+  },
+  {
+    "id": "0e55e771",
+    "slot_key": "2026-10-23 08:00",
+    "slot_iso": "2026-10-23T12:00:00+00:00",
+    "slot_label": "Fri Oct 23, 8:00 AM",
+    "post_type": "trial",
+    "item_id": "pr-small-normal",
+    "category": "mens_health",
+    "clip_id": "clip69b",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 10.0,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1395053",
+      "title": "Ninu - I feel this",
+      "creator": "Ninu",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1395053/mp32/",
+      "source": "jamendo",
+      "duration_ms": 175000,
+      "page": "https://www.jamendo.com/track/1395053",
+      "genre": "trap"
+    },
+    "msg_id": 566,
+    "file_id": "BAACAgEAAxkDAAICNmranZ-n_B_NKoHIqRJ6vZri-HedAAK7CAACyfHYRryNfUeAAAHXuT0E",
+    "replaces": "5792e2a3"
   }
 ]
