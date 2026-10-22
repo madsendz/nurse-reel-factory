@@ -137,8 +137,13 @@ def build_caption(item: dict, cta_idx: int, cfg: dict, post_type: str = "regular
             seen.add(t.lower())
             uniq.append(t)
     tags = uniq[: c.get("max_hashtags", 6)]
-    facts = "\n".join(f"✔️ {b}" for b in item.get("beats", []))
-    parts = [item["hook"], facts, item.get("caption", "").strip(), c["ctas"][cta_idx], " ".join(tags)]
+    # Nick 2026-10-22: minimal captions — the title + one CTA (comment or follow), never "link in bio",
+    # no fact list, no topic blurb. Trials still open with "follow me if...", so they get a comment CTA.
+    ctas = [x for x in c.get("ctas", []) if x]
+    if post_type == "trial":
+        ctas = [x for x in ctas if not x.lower().startswith("follow")] or ctas
+    cta = ctas[cta_idx % len(ctas)] if ctas else ""
+    parts = [item["hook"], cta, " ".join(tags)]
     if post_type == "trial":  # Nick: every trial reel's caption starts with "follow me if..."
         openers = [o for o in c.get("trial_openers", []) if o] or ["follow me if you want more nurse-approved facts 🩺"]
         parts.insert(0, openers[sum(map(ord, item["id"])) % len(openers)])  # same opener for the same topic
