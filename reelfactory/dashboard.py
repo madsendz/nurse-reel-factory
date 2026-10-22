@@ -84,7 +84,11 @@ def build_state(cfg, q=None) -> dict:
                           "events_manual": c.get("events_manual"),
                           "auto_events": [{"t": e.get("t"), "dir": e.get("dir")} for e in ((c.get("auto") or {}).get("events") or [])],
                           "uses": len(u), "last_used": u[-1] if u else None})
+    from .approve import _state
+    tg = _state()  # how far the jobs have applied dashboard actions / Telegram taps (the relay keeps
+    # newer clicks visible until these catch up, instead of hiding them at every push)
     return {"generated_at": datetime.now(timezone.utc).isoformat(), "timezone": cfg.get("timezone", "America/New_York"),
+            "action_after": tg.get("action_after", ""), "offset": tg.get("offset", 0),
             "chat_id": chat_id(cfg), "schedule": [{"time": t, "type": k} for t, k in _slots(cfg)],
             "entries": entries, "clip_notes": notes, "clips": clips_out,
             "topics": {"counts": counts, "cooldown_days": days, "review": review}}
