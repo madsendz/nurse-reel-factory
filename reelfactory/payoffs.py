@@ -116,7 +116,17 @@ def clip_events(clip: dict) -> list[dict]:
     ev = clip.get("events_manual")
     if ev is None:
         ev = (clip.get("auto") or {}).get("events") or []
-    return sorted(ev, key=lambda e: float(e["t"]))
+    # event times are clip-file times (what the dashboard scrubber shows); the reel starts at clip["start"],
+    # so shift them and drop the ones outside this clip's start..end window
+    start = float(clip.get("start") or 0)
+    end = float(clip["end"]) if clip.get("end") else None
+    out = []
+    for e in ev:
+        t = float(e["t"])
+        if t < start or (end is not None and t >= end - 0.3):
+            continue
+        out.append({**e, "t": round(t - start, 2)})
+    return sorted(out, key=lambda e: float(e["t"]))
 
 
 def slots_for(clip: dict) -> int:
