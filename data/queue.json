@@ -3758,7 +3758,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.52,
-    "status": "skipped",
+    "status": "approved",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -3773,7 +3773,7 @@
     },
     "msg_id": 419,
     "file_id": "BAACAgEAAxkDAAIBo2rWybsNFj4CnNlNhi72RJq2HcKHAAJrDAACihq4RuH85XQx96iNPQQ",
-    "decided_at": "2026-10-22T15:13:49.528266+00:00",
+    "decided_at": "2026-10-22T15:22:55.320581+00:00",
     "redo": "never_topic",
     "needs_replacement": false,
     "replaced_by": "976e80ff"
@@ -5134,7 +5134,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 29.97,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2146790",
       "title": "Touching The Sky",
@@ -5149,7 +5149,11 @@
     },
     "msg_id": 543,
     "file_id": "BAACAgEAAxkDAAICH2rZ89oQgV2OIdWiMKx76RrIAgljAAKPCQACyfHQRqPFl4aUzRJsPQQ",
-    "replaces": "91c346da"
+    "replaces": "91c346da",
+    "decided_at": "2026-10-22T15:22:55.320581+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "937b530e"
   },
   {
     "id": "0d0f4273",
@@ -5193,7 +5197,7 @@
     "cta": 4,
     "mode": "explore",
     "seconds": 10.52,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1076858",
       "title": "Something a Little Different",
@@ -5208,6 +5212,36 @@
     },
     "msg_id": 553,
     "file_id": "BAACAgEAAxkDAAICKWraKFkIu1KnJCqk6VCg5zTtX6cfAALzCQACyfHQRmIwi638mFaCPQQ",
-    "replaces": "bcad5469"
+    "replaces": "bcad5469",
+    "decided_at": "2026-10-22T15:22:55.320581+00:00"
+  },
+  {
+    "id": "937b530e",
+    "slot_key": "2026-10-22 14:30",
+    "slot_iso": "2026-10-22T18:30:00+00:00",
+    "slot_label": "Thu Oct 22, 2:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-sperm-count-drop",
+    "category": "mens_health",
+    "clip_id": "clip87",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 14.03,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-43679",
+      "title": "Ocean fantasy",
+      "creator": "St Adam",
+      "license": "by",
+      "license_version": "",
+      "url": "https://prod-1.storage.jamendo.com/download/track/43679/mp32/",
+      "source": "jamendo",
+      "duration_ms": 186000,
+      "page": "https://www.jamendo.com/track/43679",
+      "genre": "electronic"
+    },
+    "msg_id": 559,
+    "file_id": "BAACAgEAAxkDAAICL2raKnW8_eT__PdwAAFexK2cU03SagAC_AkAAsnx0EaDmNw35ILe8j0E",
+    "replaces": "28acac48"
   }
 ]
