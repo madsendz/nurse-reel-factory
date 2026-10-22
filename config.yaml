@@ -135,10 +135,14 @@ sound:
 
 # --- Caption ---
 caption:
+  # Nick 2026-10-22: captions are minimal (title + one of these). Comment or follow only — NEVER "link in bio".
   ctas:
-    - "More nurse-approved facts at the link in my bio 🩺"
-    - "The full lesson is in my bio 💉"
-    - "Nurse Lexi's private notes → link in bio"
+    - "comment 🩺 if you learned something new"
+    - "comment the one that surprised you 👇"
+    - "comment if you already knew this 😏"
+    - "follow for more nurse-approved facts 🩺"
+    - "follow so you don't miss the next one 💉"
+    - "follow if you'd rather hear it from a nurse 🩺"
   base_hashtags: ["#nurselexi", "#sexualhealth", "#nursetok", "#healthfacts"]
   category_hashtags:
     mens_health: ["#menshealth", "#mensfacts"]
