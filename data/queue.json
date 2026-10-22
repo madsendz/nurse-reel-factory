@@ -1,39 +1,5 @@
 [
   {
-    "id": "9b33ada1",
-    "slot_key": "2026-10-12 13:00",
-    "slot_iso": "2026-10-12T17:00:00+00:00",
-    "slot_label": "Mon Oct 12, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "pr-fasting-bait",
-    "category": "health_bait",
-    "clip_id": "clip28",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 8.39,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-2026412",
-      "title": "In For Future Bass",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2026412/mp32/",
-      "source": "jamendo",
-      "duration_ms": 105000,
-      "page": "https://www.jamendo.com/track/2026412",
-      "genre": "rnb"
-    },
-    "msg_id": 130,
-    "file_id": "BAACAgEAAxkDAAOCasqlk2J1bBPZ01qS7dEzcvg55u0AAkgHAALPoFlGG3BGlLbqBiw9BA",
-    "feedback": [
-      "skip this topic."
-    ],
-    "decided_at": "2026-10-12T13:26:54.598535+00:00",
-    "needs_replacement": false,
-    "replaced_by": "6449e93b"
-  },
-  {
     "id": "21895b34",
     "slot_key": "2026-10-12 16:00",
     "slot_iso": "2026-10-12T20:00:00+00:00",
@@ -574,37 +540,6 @@
     "redo": "new_topic",
     "needs_replacement": false,
     "replaced_by": "f3d39a5f"
-  },
-  {
-    "id": "6449e93b",
-    "slot_key": "2026-10-12 13:00",
-    "slot_iso": "2026-10-12T17:00:00+00:00",
-    "slot_label": "Mon Oct 12, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "nw-blue-balls",
-    "category": "mens_health",
-    "clip_id": "clip65",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 8.1,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1182292",
-      "title": "Spasm",
-      "creator": "Suedey",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1182292/mp32/",
-      "source": "jamendo",
-      "duration_ms": 208000,
-      "page": "https://www.jamendo.com/track/1182292",
-      "genre": "hiphop"
-    },
-    "msg_id": 167,
-    "file_id": "BAACAgEAAxkDAAOnaszghWYvWvLoYIFoNoWP0VwrB0AAAtsIAAIGhGlGq3-UUUHP_wQ9BA",
-    "replaces": "9b33ada1",
-    "decided_at": "2026-10-12T17:00:36.453429+00:00",
-    "permalink": "https://www.instagram.com/reel/DeZuTq2AIvW/"
   },
   {
     "id": "262dacc0",
@@ -5072,7 +5007,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 11.0,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-384173",
       "title": "Mind drifting back (Leaving paradise)",
@@ -5088,7 +5023,8 @@
     "msg_id": 532,
     "file_id": "BAACAgEAAxkDAAICFGrZeeJP2uRLMZJDOGBpoG-7_iTgAAKCCQACZufRRg-eCnJIt2wPPQQ",
     "replaces": "3a43f76b",
-    "decided_at": "2026-10-22T05:18:18.091742+00:00"
+    "decided_at": "2026-10-22T05:18:18.091742+00:00",
+    "permalink": "https://www.instagram.com/reel/Dezeg8ACssI/"
   },
   {
     "id": "91c346da",
