@@ -5222,7 +5222,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 14.03,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1267753",
       "title": "Ghosts",
@@ -5237,6 +5237,39 @@
     },
     "msg_id": 536,
     "file_id": "BAACAgEAAxkDAAICGGrZnb183e2WOxAG3tk7z9KOcQK-AAI6CQACyfHQRhXPxd5YcbdfPQQ",
-    "replaces": "089083ae"
+    "replaces": "089083ae",
+    "decided_at": "2026-10-22T11:29:22.235888+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "28acac48"
+  },
+  {
+    "id": "28acac48",
+    "slot_key": "2026-10-22 14:30",
+    "slot_iso": "2026-10-22T18:30:00+00:00",
+    "slot_label": "Thu Oct 22, 2:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-sperm-count-drop",
+    "category": "mens_health",
+    "clip_id": "clip69",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 29.97,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2146790",
+      "title": "Touching The Sky",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2146790/mp32/",
+      "source": "jamendo",
+      "duration_ms": 152000,
+      "page": "https://www.jamendo.com/track/2146790",
+      "genre": "lounge"
+    },
+    "msg_id": 543,
+    "file_id": "BAACAgEAAxkDAAICH2rZ89oQgV2OIdWiMKx76RrIAgljAAKPCQACyfHQRqPFl4aUzRJsPQQ",
+    "replaces": "91c346da"
   }
 ]
