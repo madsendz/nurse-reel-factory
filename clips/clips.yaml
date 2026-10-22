@@ -11712,10 +11712,18 @@ clips:
   name: 68869a468e7a4b0aa6bf49f4b953d029.mp4
   status: active
   events_manual:
-  - t: 1
+  - t: 1.4
     dir: up
-    x: 0.2
-    y: 0.15
+    x: 0.242
+    y: 0.143
+  - t: 4.9
+    dir: up
+    x: 0.658
+    y: 0.138
+  - t: 9.9
+    dir: down
+    x: 0.506
+    y: 0.82
   point: ''
   zone:
     x: 0.05
@@ -11723,7 +11731,7 @@ clips:
     w: 0.62
     h: 0.023
   start: 0
-  end: null
+  end: 13.5
   auto:
     method: pose
     face:
@@ -11877,6 +11885,7 @@ clips:
       - 0.435
       - 0.359
   duration: 14.03
+  title_y: 0.73
 - id: clip88
   drive_id: 13ezvzWn4u9MsUifZbHMC6srXw3QHuXBS
   name: ce10ca1427cb4c51a7ab78726b6489d2.mp4
