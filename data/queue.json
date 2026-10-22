@@ -3912,7 +3912,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 11.0,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1403270",
       "title": "Just laugh at it",
@@ -3926,7 +3926,11 @@
       "genre": "rnb"
     },
     "msg_id": 420,
-    "file_id": "BAACAgEAAxkDAAIBpGrWydxnOvs-OesGk2PL08R05OeEAAJsDAACihq4RsYbDGhA7MjmPQQ"
+    "file_id": "BAACAgEAAxkDAAIBpGrWydxnOvs-OesGk2PL08R05OeEAAJsDAACihq4RsYbDGhA7MjmPQQ",
+    "decided_at": "2026-10-22T02:43:42.788150+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "d508a072"
   },
   {
     "id": "9d087daf",
@@ -3955,7 +3959,7 @@
     },
     "msg_id": 421,
     "file_id": "BAACAgEAAxkDAAIBpWrWyfmZSXcKCdPdyyRLcPWJL4WOAAJuDAACihq4RoaKc1waDpYlPQQ",
-    "decided_at": "2026-10-22T02:40:02.583264+00:00"
+    "decided_at": "2026-10-22T02:43:42.788150+00:00"
   },
   {
     "id": "36dd9334",
@@ -5137,5 +5141,34 @@
     "msg_id": 526,
     "file_id": "BAACAgEAAxkDAAICDmrZd8v-qd5s76ucwcl5LKy6bKBDAAJ9CQACZufRRjwJhbeAxoWBPQQ",
     "replaces": "d81acc97"
+  },
+  {
+    "id": "d508a072",
+    "slot_key": "2026-10-22 19:30",
+    "slot_iso": "2026-10-22T23:30:00+00:00",
+    "slot_label": "Thu Oct 22, 7:30 PM",
+    "post_type": "regular",
+    "item_id": "nw-orgasm-brain",
+    "category": "sexual_wellness",
+    "clip_id": "clip37",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 10.82,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1320534",
+      "title": "Neith",
+      "creator": "CyberSDF",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1320534/mp32/",
+      "source": "jamendo",
+      "duration_ms": 269000,
+      "page": "https://www.jamendo.com/track/1320534",
+      "genre": "trap"
+    },
+    "msg_id": 530,
+    "file_id": "BAACAgEAAxkDAAICEmrZeH9xFYyvAUV-vg4vkGZOMq3-AAKACQACZufRRiwRUA6NiwxLPQQ",
+    "replaces": "c00de0a3"
   }
 ]
