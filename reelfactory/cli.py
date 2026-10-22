@@ -457,6 +457,15 @@ def main(argv=None):
     {"sync-clips": cmd_sync_clips, "auto-tag": cmd_auto_tag, "refresh": cmd_refresh, "post": cmd_post, "preview": cmd_preview,
      "report": cmd_report, "ideas": cmd_ideas, "queue": cmd_queue, "approvals": cmd_approvals, "clip-previews": cmd_clip_previews,
      "replies": cmd_replies}[args.cmd](cfg, args)
+    if args.cmd == "post":
+        # GitHub runs one job at a time and cancels a queued replies job when a post job is queued behind it,
+        # so a "new clip / new topic / notes" click could leave a skipped reel with no new version. Make them here.
+        try:
+            from . import approve
+            if approve.enabled(cfg) and approve.pending_replacements():
+                print(f"[replace] made {approve.make_replacements(cfg)} replacement(s) after posting")
+        except Exception as ex:
+            print(f"[replace] failed: {ex}")
     if args.cmd in ("post", "queue", "replies", "refresh"):
         try:  # keep the dashboard current
             from . import dashboard
