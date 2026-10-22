@@ -1,39 +1,5 @@
 [
   {
-    "id": "216e76ab",
-    "slot_key": "2026-10-12 11:00",
-    "slot_iso": "2026-10-12T15:00:00+00:00",
-    "slot_label": "Mon Oct 12, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "pr-men-secretly-like",
-    "category": "sexual_wellness",
-    "clip_id": "clip71",
-    "cta": 1,
-    "mode": "explore",
-    "seconds": 8.21,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-181806",
-      "title": "Alexandra 02",
-      "creator": "Löhstana David",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/181806/mp32/",
-      "source": "jamendo",
-      "duration_ms": 233000,
-      "page": "https://www.jamendo.com/track/181806",
-      "genre": "pop"
-    },
-    "msg_id": 129,
-    "file_id": "BAACAgEAAxkDAAOBasqle-wQgnK6lQ4bC74qMA1JR0kAAkcHAALPoFlGPc56gf7RlB49BA",
-    "feedback": [
-      "used this clip too much lately"
-    ],
-    "decided_at": "2026-10-12T13:26:54.598535+00:00",
-    "needs_replacement": false,
-    "replaced_by": "fe2544b2"
-  },
-  {
     "id": "9b33ada1",
     "slot_key": "2026-10-12 13:00",
     "slot_iso": "2026-10-12T17:00:00+00:00",
@@ -608,37 +574,6 @@
     "redo": "new_topic",
     "needs_replacement": false,
     "replaced_by": "f3d39a5f"
-  },
-  {
-    "id": "fe2544b2",
-    "slot_key": "2026-10-12 11:00",
-    "slot_iso": "2026-10-12T15:00:00+00:00",
-    "slot_label": "Mon Oct 12, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "pr-male-g-spot",
-    "category": "anatomy",
-    "clip_id": "clip31",
-    "cta": 2,
-    "mode": "explore",
-    "seconds": 11.76,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1945492",
-      "title": "Do not disturb",
-      "creator": "zero-project",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1945492/mp32/",
-      "source": "jamendo",
-      "duration_ms": 280000,
-      "page": "https://www.jamendo.com/track/1945492",
-      "genre": "chillout"
-    },
-    "msg_id": 166,
-    "file_id": "BAACAgEAAxkDAAOmaszgYsWAGx8vPUl8xW44qgWUAAE1AALaCAACBoRpRpFKhfAZPYyHPQQ",
-    "replaces": "216e76ab",
-    "decided_at": "2026-10-12T15:00:39.379701+00:00",
-    "permalink": "https://www.instagram.com/reel/DeZgopTigiB/"
   },
   {
     "id": "6449e93b",
@@ -3667,7 +3602,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 12.1,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1440522",
       "title": "Wait",
@@ -3682,7 +3617,8 @@
     },
     "msg_id": 414,
     "file_id": "BAACAgEAAxkDAAIBnmrWyQw67d-dNvhmefTUKa1CGC8WAAJlDAACihq4Rje2ckhZTJENPQQ",
-    "decided_at": "2026-10-21T22:43:20.684470+00:00"
+    "decided_at": "2026-10-21T22:43:20.684470+00:00",
+    "permalink": "https://www.instagram.com/reel/DezQ2tkifUO/"
   },
   {
     "id": "0f61df07",
