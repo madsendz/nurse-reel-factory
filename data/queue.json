@@ -3672,7 +3672,7 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 10.43,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1129271",
       "title": "Energy",
@@ -3687,7 +3687,8 @@
     },
     "msg_id": 412,
     "file_id": "BAACAgEAAxkDAAIBnGrWyNUSwvJVuzfNoTuYbO7YhubOAAJjDAACihq4RoXohOEhREXhPQQ",
-    "decided_at": "2026-10-21T22:40:20.396965+00:00"
+    "decided_at": "2026-10-21T22:40:20.396965+00:00",
+    "permalink": "https://www.instagram.com/reel/Dey8LHGFW5I/"
   },
   {
     "id": "1b5171da",
