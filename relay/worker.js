@@ -27,7 +27,12 @@ export default {
     if (p === "/actions") return bearer(req, c) ? listActions(env, url.searchParams.get("after") || "") : no();
     if (p === "/state" && req.method === "POST") {
       if (!bearer(req, c)) return no();
-      await env.KV.put("state", await req.text());
+      const body = await req.text();
+      await env.KV.put("state", body);
+      try { // the jobs made every replacement that was waiting -> stop re-dispatching replies.yml
+        const st = JSON.parse(body);
+        if (st.action_after && !(st.entries || []).some((e) => e.needs_replacement && e.status !== "posted")) await env.KV.delete("needjob");
+      } catch (e) {}
       return new Response("ok");
     }
     // trial reels must be posted from a public video URL (Meta ignores trial_params on resumable uploads)
@@ -93,7 +98,8 @@ export default {
       const last = Number((await env.KV.get("lastjob")) || 0);
       if (now - last > 6 * 60000 && (await dispatch(env, "replies.yml"))) {
         await env.KV.put("lastjob", String(now), { expirationTtl: 86400 });
-        await env.KV.delete("needjob");
+        // needjob stays set: a queued job can be cancelled by GitHub (one job at a time), so we keep
+        // re-dispatching every ~6 min until a finished job reports nothing waiting (see /state)
       }
     }
   },
@@ -176,13 +182,21 @@ async function listActions(env, after) {
 async function liveState(env) {
   const st = JSON.parse((await env.KV.get("state")) || '{"entries":[]}');
   const ov = JSON.parse((await env.KV.get("overlay")) || "{}");
-  const gen = Date.parse(st.generated_at || 0) || 0;
   for (const e of st.entries || []) {
     const o = ov[e.id];
-    if (o && o.at > gen) Object.assign(e, o.patch, { pending_sync: true });
+    if (o && !applied(o, st)) Object.assign(e, o.patch, { pending_sync: true });
   }
   return st;
 }
+// Has the jobs' state caught up with this change? Dashboard actions carry their a:* key and the jobs
+// report the last key they applied (action_after); Telegram taps carry the update_id and the jobs
+// report their offset. Older records (no key) fall back to "newer than the push".
+function applied(o, st) {
+  if (o.key) return st.action_after ? o.key <= st.action_after : o.at <= (Date.parse(st.generated_at || 0) || 0);
+  if (o.uid != null && st.offset != null) return o.uid < st.offset;
+  return o.at <= (Date.parse(st.generated_at || 0) || 0);
+}
+const actionKey = () => "a:" + new Date().toISOString() + ":" + Math.random().toString(36).slice(2, 6);
 async function listIds(env, prefix) {
   const out = [];
   let cursor;
@@ -196,20 +210,34 @@ async function listIds(env, prefix) {
 // state for the page: entries + clips, both with the changes made on the dashboard since the last push
 async function dashState(env) {
   const st = await liveState(env);
-  const gen = Date.parse(st.generated_at || 0) || 0;
   const ov = JSON.parse((await env.KV.get("clipov")) || "{}");
   for (const cl of st.clips || []) {
     const o = ov[cl.id];
-    if (o && o.at > gen) Object.assign(cl, o.patch, { pending_sync: true });
+    if (o && !applied(o, st)) Object.assign(cl, o.patch, { pending_sync: true });
+  }
+  // topics: Keep / Toss / Never-again clicks the jobs haven't saved yet
+  const t = st.topics || (st.topics = { review: [], counts: { winner: {}, new: {} } });
+  const tov = JSON.parse((await env.KV.get("topicov")) || "{}");
+  for (const o of Object.values(tov)) {
+    if (applied(o, st)) continue;
+    if (o.kind === "topic_keep" || o.kind === "topic_toss") {
+      if (!(t.review || []).some((x) => x.id === o.item_id)) continue;
+      t.review = t.review.filter((x) => x.id !== o.item_id);
+      if (o.kind === "topic_keep") { t.counts.new.active = (t.counts.new.active || 0) + 1; t.counts.new.free = (t.counts.new.free || 0) + 1; }
+    } else if (o.kind === "never_topic") {
+      const cnt = (t.counts || {})[o.tkind] || {};
+      if (cnt.active) cnt.active -= 1;
+      if (cnt.free) cnt.free -= 1;
+    }
   }
   st.clip_previews = await listIds(env, "c:");
   return st;
 }
-async function overlay(env, id, patch) {
+async function overlay(env, id, patch, mark) {
   const ov = JSON.parse((await env.KV.get("overlay")) || "{}");
   const cut = Date.now() - 3 * 86400000;
   for (const k of Object.keys(ov)) if (ov[k].at < cut) delete ov[k];
-  ov[id] = { at: Date.now(), patch: { ...((ov[id] || {}).patch || {}), ...patch } };
+  ov[id] = { at: Date.now(), ...(mark || {}), patch: { ...((ov[id] || {}).patch || {}), ...patch } };
   await env.KV.put("overlay", JSON.stringify(ov));
 }
 
@@ -236,7 +264,7 @@ async function telegramWebhook(req, env, c, ctx) {
       const cap = setStatus(m.caption, ok ? STATUS.approved : STATUS.skipped);
       if (cap !== m.caption) await c.tg("editMessageCaption", { chat_id: m.chat.id, message_id: m.message_id, caption: cap, reply_markup: m.reply_markup });
     }
-    if (id) await overlay(env, id, { status: ok ? "approved" : "skipped" });
+    if (id) await overlay(env, id, { status: ok ? "approved" : "skipped" }, { uid: u.update_id });
   }
   const msg = u.message;
   const r = msg && msg.reply_to_message;
@@ -247,13 +275,13 @@ async function telegramWebhook(req, env, c, ctx) {
     if (APPROVE.includes(t)) {
       await c.tg("editMessageCaption", { chat_id: msg.chat.id, message_id: r.message_id, caption: setStatus(r.caption, STATUS.approved), reply_markup: r.reply_markup });
       await c.tg("sendMessage", { chat_id: msg.chat.id, reply_to_message_id: msg.message_id, text: "Approved ✅ it will post at its time." });
-      if (e) await overlay(env, e.id, { status: "approved" });
+      if (e) await overlay(env, e.id, { status: "approved" }, { uid: u.update_id });
     } else if (/📤 posted/.test(r.caption)) {
       await c.tg("sendMessage", { chat_id: msg.chat.id, reply_to_message_id: msg.message_id, text: "Got it 👍 notes saved for the next fixes." });
     } else {
       await c.tg("editMessageCaption", { chat_id: msg.chat.id, message_id: r.message_id, caption: setStatus(r.caption, "❌ skipped (your notes) — new version coming"), reply_markup: r.reply_markup });
       await c.tg("sendMessage", { chat_id: msg.chat.id, reply_to_message_id: msg.message_id, text: "Got it 👍 notes saved. This one is skipped and a new version with the same topic + clip is coming (about 10 min). If it's about where or when the boxes pop up, set that clip on the dashboard's Clips tab first — the new version uses it." });
-      if (e) await overlay(env, e.id, { status: "skipped", needs_replacement: true, feedback: [...(e.feedback || []), msg.text] });
+      if (e) await overlay(env, e.id, { status: "skipped", needs_replacement: true, feedback: [...(e.feedback || []), msg.text] }, { uid: u.update_id });
       await env.KV.put("needjob", "1", { expirationTtl: 86400 });
     }
   }
@@ -266,16 +294,17 @@ async function topicAction(a, env) {
   const t = st.topics || { review: [], counts: { winner: {}, new: {} } };
   const it = (t.review || []).find((x) => x.id === a.item_id);
   if (!it) return Response.json({ ok: false, error: "topic not found" }, { status: 404 });
-  const key = "a:" + new Date().toISOString() + ":" + Math.random().toString(36).slice(2, 6);
+  const key = actionKey();
   await env.KV.put(key, JSON.stringify({ kind: a.kind, item_id: a.item_id, at: new Date().toISOString() }), { expirationTtl: 14 * 86400 });
-  t.review = t.review.filter((x) => x.id !== a.item_id);
-  if (a.kind === "topic_keep") {
-    t.counts.new.active = (t.counts.new.active || 0) + 1;
-    t.counts.new.free = (t.counts.new.free || 0) + 1;
-  }
-  st.topics = t;
-  await env.KV.put("state", JSON.stringify(st));
+  await topicOverlay(env, a.item_id, { kind: a.kind, item_id: a.item_id, key });
   return Response.json({ ok: true });
+}
+async function topicOverlay(env, id, rec) {
+  const ov = JSON.parse((await env.KV.get("topicov")) || "{}");
+  const cut = Date.now() - 3 * 86400000;
+  for (const k of Object.keys(ov)) if (ov[k].at < cut) delete ov[k];
+  ov[id] = { at: Date.now(), ...rec };
+  await env.KV.put("topicov", JSON.stringify(ov));
 }
 
 // Clips tab: where/when the boxes pop, title height, trim — saved to clips.yaml by the next job
@@ -294,12 +323,12 @@ async function clipAction(a, env, c) {
   if ("title_y" in a) patch.title_y = num(a.title_y, 0.1, 0.9);
   if ("start" in a) patch.start = num(a.start, 0, 600) || 0;
   if ("end" in a) patch.end = num(a.end, 0.5, 600);
-  const key = "a:" + new Date().toISOString() + ":" + Math.random().toString(36).slice(2, 6);
+  const key = actionKey();
   await env.KV.put(key, JSON.stringify({ kind: "clip_edit", clip_id: a.clip_id, patch, at: new Date().toISOString() }), { expirationTtl: 14 * 86400 });
   const ov = JSON.parse((await env.KV.get("clipov")) || "{}");
   const cut = Date.now() - 3 * 86400000;
   for (const k of Object.keys(ov)) if (ov[k].at < cut) delete ov[k];
-  ov[a.clip_id] = { at: Date.now(), patch: { ...((ov[a.clip_id] || {}).patch || {}), ...patch } };
+  ov[a.clip_id] = { at: Date.now(), key, patch: { ...((ov[a.clip_id] || {}).patch || {}), ...patch } };
   await env.KV.put("clipov", JSON.stringify(ov));
   if (st.chat_id) await c.tg("sendMessage", { chat_id: st.chat_id, text: `✏️ ${a.clip_id}: settings saved from the dashboard — used from the next render on.` });
   return Response.json({ ok: true });
@@ -344,8 +373,10 @@ async function dashboardAction(a, env, c) {
   }
   if (a.kind === "post_now" && e.status !== "approved") return Response.json({ ok: false, error: "approve it first" }, { status: 400 });
   if (a.kind === "move" && !(a.slot_iso && Date.parse(a.slot_iso) > Date.now())) return Response.json({ ok: false, error: "pick a future time" }, { status: 400 });
+  if ((REDO[a.kind] || a.kind === "note") && Date.parse(e.slot_iso) < Date.now() + 20 * 60000) // the jobs need ~15 min to make a new one
+    return Response.json({ ok: false, error: "too close to its post time to make a new version — move it to a later time first (or skip it)" }, { status: 400 });
 
-  const key = "a:" + new Date().toISOString() + ":" + Math.random().toString(36).slice(2, 6);
+  const key = actionKey();
   const rec = { entry_id: a.entry_id, kind: a.kind, text: (a.text || "").slice(0, 2000), slot_iso: a.slot_iso || null, at: new Date().toISOString() };
   if (hook !== null) Object.assign(rec, { hook, beats });
   await env.KV.put(key, JSON.stringify(rec), { expirationTtl: 14 * 86400 });
@@ -365,12 +396,7 @@ async function dashboardAction(a, env, c) {
     say = `✏️ Text edited on the dashboard:\n${hook}\n${beats.map((b) => "• " + b).join("\n")}\n\nRe-drawing the same reel with the new words (about 10 min). This wording is saved for the topic from now on.`;
   } else if (REDO[a.kind]) {
     patch = { status: "skipped", needs_replacement: true, redo: a.kind };
-    if (a.kind === "never_topic") {
-      const t = st.topics || {}, kind = (e.item_id || "").startsWith("pr-") ? "winner" : "new", cnt = ((t.counts || {})[kind]) || {};
-      if (cnt.active) cnt.active -= 1;
-      if (cnt.free) cnt.free -= 1;
-      await env.KV.put("state", JSON.stringify(st));
-    }
+    if (a.kind === "never_topic") await topicOverlay(env, e.item_id, { kind: "never_topic", item_id: e.item_id, key, tkind: (e.item_id || "").startsWith("pr-") ? "winner" : "new" });
     statusText = `❌ skipped (${REDO[a.kind]}) — new version coming`;
     say = `🔁 From the dashboard: making a new version with ${REDO[a.kind]} (about 10 min).`;
   }
@@ -387,7 +413,7 @@ async function dashboardAction(a, env, c) {
     statusText = STATUS.pending;
     say = `🔄 Switched to a ${nt === "trial" ? "TRIAL" : "regular"} reel from the dashboard. Approve it again when you're ready.`;
   }
-  await overlay(env, e.id, patch);
+  await overlay(env, e.id, patch, { key });
 
   if (chat && e.msg_id) {
     if (statusText) await c.tg("editMessageCaption", { chat_id: chat, message_id: e.msg_id, caption: captionFor({ ...e, ...patch }, statusText, tz), reply_markup: buttons(e.id) });
@@ -397,7 +423,7 @@ async function dashboardAction(a, env, c) {
   if (a.kind === "note" || REDO[a.kind] || a.kind === "move") {
     job = (await dispatch(env, "replies.yml")) ? "started" : "queued";
     if (job === "started") await env.KV.put("lastjob", String(Date.now()), { expirationTtl: 86400 });
-    else await env.KV.put("needjob", "1", { expirationTtl: 86400 });
+    await env.KV.put("needjob", "1", { expirationTtl: 86400 }); // the cron keeps trying until a job reports it's done
   }
   if (a.kind === "post_now") {
     job = (await dispatch(env, "post.yml")) ? "started" : "queued";
