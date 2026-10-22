@@ -3758,7 +3758,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.52,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -3772,7 +3772,11 @@
       "genre": "hiphop"
     },
     "msg_id": 419,
-    "file_id": "BAACAgEAAxkDAAIBo2rWybsNFj4CnNlNhi72RJq2HcKHAAJrDAACihq4RuH85XQx96iNPQQ"
+    "file_id": "BAACAgEAAxkDAAIBo2rWybsNFj4CnNlNhi72RJq2HcKHAAJrDAACihq4RuH85XQx96iNPQQ",
+    "decided_at": "2026-10-22T15:13:49.528266+00:00",
+    "redo": "never_topic",
+    "needs_replacement": false,
+    "replaced_by": "976e80ff"
   },
   {
     "id": "c00de0a3",
@@ -5159,7 +5163,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 10.82,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1320534",
       "title": "Neith",
@@ -5174,6 +5178,36 @@
     },
     "msg_id": 547,
     "file_id": "BAACAgEAAxkDAAICI2rZ9J9HObJrA0s9N02PK5XkLbBeAAKSCQACyfHQRiLYVofMUyvPPQQ",
-    "replaces": "d508a072"
+    "replaces": "d508a072",
+    "decided_at": "2026-10-22T15:13:49.528266+00:00"
+  },
+  {
+    "id": "976e80ff",
+    "slot_key": "2026-10-22 17:30",
+    "slot_iso": "2026-10-22T21:30:00+00:00",
+    "slot_label": "Thu Oct 22, 5:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-blue-pill-myth",
+    "category": "mens_health",
+    "clip_id": "clip89",
+    "cta": 4,
+    "mode": "explore",
+    "seconds": 10.52,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1076858",
+      "title": "Something a Little Different",
+      "creator": "TheBlackParrot",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1076858/mp32/",
+      "source": "jamendo",
+      "duration_ms": 315000,
+      "page": "https://www.jamendo.com/track/1076858",
+      "genre": "dance"
+    },
+    "msg_id": 553,
+    "file_id": "BAACAgEAAxkDAAICKWraKFkIu1KnJCqk6VCg5zTtX6cfAALzCQACyfHQRmIwi638mFaCPQQ",
+    "replaces": "bcad5469"
   }
 ]
