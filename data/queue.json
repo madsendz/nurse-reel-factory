@@ -3663,7 +3663,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.52,
-    "status": "approved",
+    "status": "missed",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -5104,7 +5104,7 @@
     "cta": 4,
     "mode": "explore",
     "seconds": 10.52,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1076858",
       "title": "Something a Little Different",
@@ -5120,7 +5120,8 @@
     "msg_id": 553,
     "file_id": "BAACAgEAAxkDAAICKWraKFkIu1KnJCqk6VCg5zTtX6cfAALzCQACyfHQRmIwi638mFaCPQQ",
     "replaces": "bcad5469",
-    "decided_at": "2026-10-22T15:22:55.320581+00:00"
+    "decided_at": "2026-10-22T15:22:55.320581+00:00",
+    "permalink": "https://www.instagram.com/reel/Dez9Vb3EdnD/"
   },
   {
     "id": "937b530e",
