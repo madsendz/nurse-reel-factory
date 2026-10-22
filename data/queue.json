@@ -5188,7 +5188,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 11.0,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384173",
       "title": "Mind drifting back (Leaving paradise)",
@@ -5203,6 +5203,7 @@
     },
     "msg_id": 532,
     "file_id": "BAACAgEAAxkDAAICFGrZeeJP2uRLMZJDOGBpoG-7_iTgAAKCCQACZufRRg-eCnJIt2wPPQQ",
-    "replaces": "3a43f76b"
+    "replaces": "3a43f76b",
+    "decided_at": "2026-10-22T05:18:18.091742+00:00"
   }
 ]
