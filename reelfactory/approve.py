@@ -419,6 +419,14 @@ def make_replacements(cfg) -> int:
     for e in q:  # too late for these
         if e.get("needs_replacement") and e not in todo:
             e["needs_replacement"] = False
+            print(f"[replace] {e['slot_key']}: too close to post time, no new version")
+            if cid and e.get("msg_id"):
+                try:  # say so instead of silently doing nothing
+                    _tg("sendMessage", chat_id=cid, reply_to_message_id=e["msg_id"],
+                        text="⏰ Too close to its post time to make a new version — this slot stays skipped. "
+                             "Move the reel to a later time first if you want a redo.")
+                except Exception:
+                    pass
     if not todo or not cid:
         save_queue(q)
         return 0
