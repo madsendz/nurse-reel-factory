@@ -3796,7 +3796,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 14.03,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2304778",
       "title": "Middle of the Night",
@@ -3810,7 +3810,11 @@
       "genre": "rnb"
     },
     "msg_id": 416,
-    "file_id": "BAACAgEAAxkDAAIBoGrWyW8k8fjdA0xem1cCKO-kYVxAAAJnDAACihq4Rlw4ejDPbT6PPQQ"
+    "file_id": "BAACAgEAAxkDAAIBoGrWyW8k8fjdA0xem1cCKO-kYVxAAAJnDAACihq4Rlw4ejDPbT6PPQQ",
+    "decided_at": "2026-10-22T02:49:18.907335+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "60b7db51"
   },
   {
     "id": "d81acc97",
@@ -5096,7 +5100,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 6.9,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1537059",
       "title": "FREE Tyga Type Beat | Hip Hop Instrumental | Rap Beat",
@@ -5111,7 +5115,8 @@
     },
     "msg_id": 517,
     "file_id": "BAACAgEAAxkDAAICBWrZdPu9JH21T1v56THBPGs78t7-AAJ5CQACZufRRuchBe0MdVzBPQQ",
-    "replaces": "66cdcbaa"
+    "replaces": "66cdcbaa",
+    "decided_at": "2026-10-22T02:49:18.907335+00:00"
   },
   {
     "id": "089083ae",
@@ -5170,5 +5175,34 @@
     "msg_id": 530,
     "file_id": "BAACAgEAAxkDAAICEmrZeH9xFYyvAUV-vg4vkGZOMq3-AAKACQACZufRRiwRUA6NiwxLPQQ",
     "replaces": "c00de0a3"
+  },
+  {
+    "id": "60b7db51",
+    "slot_key": "2026-10-22 13:00",
+    "slot_iso": "2026-10-22T17:00:00+00:00",
+    "slot_label": "Thu Oct 22, 1:00 PM",
+    "post_type": "regular",
+    "item_id": "nw-kegels-men",
+    "category": "mens_health",
+    "clip_id": "clip55",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 11.0,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-384173",
+      "title": "Mind drifting back (Leaving paradise)",
+      "creator": "K4MMERER",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/384173/mp32/",
+      "source": "jamendo",
+      "duration_ms": 312000,
+      "page": "https://www.jamendo.com/track/384173",
+      "genre": "lounge"
+    },
+    "msg_id": 532,
+    "file_id": "BAACAgEAAxkDAAICFGrZeeJP2uRLMZJDOGBpoG-7_iTgAAKCCQACZufRRg-eCnJIt2wPPQQ",
+    "replaces": "3a43f76b"
   }
 ]
