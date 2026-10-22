@@ -5130,7 +5130,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 29.97,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1099",
       "title": "Leave Me, Let Me Die",
@@ -5145,7 +5145,11 @@
     },
     "msg_id": 526,
     "file_id": "BAACAgEAAxkDAAICDmrZd8v-qd5s76ucwcl5LKy6bKBDAAJ9CQACZufRRjwJhbeAxoWBPQQ",
-    "replaces": "d81acc97"
+    "replaces": "d81acc97",
+    "decided_at": "2026-10-22T05:22:34.734985+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "91c346da"
   },
   {
     "id": "d508a072",
@@ -5205,5 +5209,34 @@
     "file_id": "BAACAgEAAxkDAAICFGrZeeJP2uRLMZJDOGBpoG-7_iTgAAKCCQACZufRRg-eCnJIt2wPPQQ",
     "replaces": "3a43f76b",
     "decided_at": "2026-10-22T05:18:18.091742+00:00"
+  },
+  {
+    "id": "91c346da",
+    "slot_key": "2026-10-22 14:30",
+    "slot_iso": "2026-10-22T18:30:00+00:00",
+    "slot_label": "Thu Oct 22, 2:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-sperm-count-drop",
+    "category": "mens_health",
+    "clip_id": "clip87",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 14.03,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1267753",
+      "title": "Ghosts",
+      "creator": "Lyvo",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1267753/mp32/",
+      "source": "jamendo",
+      "duration_ms": 173000,
+      "page": "https://www.jamendo.com/track/1267753",
+      "genre": "electronic"
+    },
+    "msg_id": 536,
+    "file_id": "BAACAgEAAxkDAAICGGrZnb183e2WOxAG3tk7z9KOcQK-AAI6CQACyfHQRhXPxd5YcbdfPQQ",
+    "replaces": "089083ae"
   }
 ]
