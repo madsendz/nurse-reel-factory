@@ -3667,7 +3667,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 9.77,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2173192",
       "title": "Summer Light Pop",
@@ -3682,7 +3682,8 @@
     },
     "msg_id": 421,
     "file_id": "BAACAgEAAxkDAAIBpWrWyfmZSXcKCdPdyyRLcPWJL4WOAAJuDAACihq4RoaKc1waDpYlPQQ",
-    "decided_at": "2026-10-22T02:43:42.788150+00:00"
+    "decided_at": "2026-10-22T02:43:42.788150+00:00",
+    "permalink": "https://www.instagram.com/reel/De0ZcgajUiY/"
   },
   {
     "id": "36dd9334",
