@@ -3977,7 +3977,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 7.35,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2037627",
       "title": "We Made It (Soft Drum And Bass)",
@@ -3991,7 +3991,11 @@
       "genre": "electronic"
     },
     "msg_id": 448,
-    "file_id": "BAACAgEAAxkDAAIBwGrYF3dzd__uWNJY92q81OIImDP6AAKwBwACZufJRqkjrfAniKNnPQQ"
+    "file_id": "BAACAgEAAxkDAAIBwGrYF3dzd__uWNJY92q81OIImDP6AAKwBwACZufJRqkjrfAniKNnPQQ",
+    "decided_at": "2026-10-23T10:37:12.069607+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "9840f688"
   },
   {
     "id": "10eb0dc7",
@@ -4005,7 +4009,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 5.46,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1214517",
       "title": "Thank U Two",
@@ -4019,7 +4023,8 @@
       "genre": "chillout"
     },
     "msg_id": 449,
-    "file_id": "BAACAgEAAxkDAAIBwWrYF4ygm8q0WEqvhRA1Vs4XQEwEAAKxBwACZufJRql_6xYyWbXEPQQ"
+    "file_id": "BAACAgEAAxkDAAIBwWrYF4ygm8q0WEqvhRA1Vs4XQEwEAAKxBwACZufJRql_6xYyWbXEPQQ",
+    "decided_at": "2026-10-23T10:37:12.069607+00:00"
   },
   {
     "id": "179e02dc",
@@ -5525,7 +5530,7 @@
     "cta": 1,
     "mode": "edited",
     "seconds": 8.88,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -5540,6 +5545,36 @@
     },
     "msg_id": 589,
     "file_id": "BAACAgEAAxkDAAICTWrbNgxCphaewBuJD6yQK2fbhSE2AALJCQACyfHYRkhP68Sf8omMPQQ",
-    "replaces": "0725f6b1"
+    "replaces": "0725f6b1",
+    "decided_at": "2026-10-23T10:37:12.069607+00:00"
+  },
+  {
+    "id": "9840f688",
+    "slot_key": "2026-10-23 13:00",
+    "slot_iso": "2026-10-23T17:00:00+00:00",
+    "slot_label": "Fri Oct 23, 1:00 PM",
+    "post_type": "regular",
+    "item_id": "nw-boxers-briefs",
+    "category": "mens_health",
+    "clip_id": "clip35",
+    "cta": 3,
+    "mode": "exploit",
+    "seconds": 7.35,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1206274",
+      "title": "Made In Italy",
+      "creator": "Pokki DJ",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1206274/mp32/",
+      "source": "jamendo",
+      "duration_ms": 154000,
+      "page": "https://www.jamendo.com/track/1206274",
+      "genre": "dance"
+    },
+    "msg_id": 591,
+    "file_id": "BAACAgEAAxkDAAICT2rbOP9rCLkHONHpiyAmrpWDkY1tAALNCQACyfHYRuBMzSxY0M3DPQQ",
+    "replaces": "5db580e1"
   }
 ]
