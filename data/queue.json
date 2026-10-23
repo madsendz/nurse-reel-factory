@@ -5457,7 +5457,7 @@
     "cta": 4,
     "mode": "exploit",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1917024",
       "title": "Dorila y Mello",
@@ -5472,6 +5472,39 @@
     },
     "msg_id": 585,
     "file_id": "BAACAgEAAxkDAAICSWrbMSAD1X5uwBHV6jCFnMD4ierLAALACQACyfHYRgLsxDG1zTndPQQ",
-    "replaces": "1b420590"
+    "replaces": "1b420590",
+    "decided_at": "2026-10-23T10:11:15.299168+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "0788e0ee"
+  },
+  {
+    "id": "0788e0ee",
+    "slot_key": "2026-10-23 09:30",
+    "slot_iso": "2026-10-23T13:30:00+00:00",
+    "slot_label": "Fri Oct 23, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-intercourse-hack",
+    "category": "sexual_wellness",
+    "clip_id": "clip53",
+    "cta": 5,
+    "mode": "exploit",
+    "seconds": 9.33,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1702676",
+      "title": "Daydream",
+      "creator": "zero-project",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1702676/mp32/",
+      "source": "jamendo",
+      "duration_ms": 258000,
+      "page": "https://www.jamendo.com/track/1702676",
+      "genre": "lounge"
+    },
+    "msg_id": 587,
+    "file_id": "BAACAgEAAxkDAAICS2rbMuWtae_xFlukZYnzydUfBZAxAALECQACyfHYRqlMd2-TzC_qPQQ",
+    "replaces": "cdfbbbab"
   }
 ]
