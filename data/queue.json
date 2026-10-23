@@ -5507,7 +5507,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 7.35,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1363926",
       "title": "Drake- Still Here instrumental (reprod. J Blanked On This Beat)",
@@ -5522,6 +5522,39 @@
     },
     "msg_id": 606,
     "file_id": "BAACAgEAAxkDAAICXmrbskiOdp0IGS4Jeze3VIcmY_beAALTCAAC3QPhRjt7ohh9IUSnPQQ",
-    "replaces": "5708d1e3"
+    "replaces": "5708d1e3",
+    "decided_at": "2026-10-23T19:20:49.886136+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "16fbfe73"
+  },
+  {
+    "id": "16fbfe73",
+    "slot_key": "2026-10-23 21:30",
+    "slot_iso": "2026-10-24T01:30:00+00:00",
+    "slot_label": "Fri Oct 23, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-prostate-walnut",
+    "category": "mens_health",
+    "clip_id": "clip13",
+    "cta": 5,
+    "mode": "exploit",
+    "seconds": 8.9,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1267753",
+      "title": "Ghosts",
+      "creator": "Lyvo",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1267753/mp32/",
+      "source": "jamendo",
+      "duration_ms": 173000,
+      "page": "https://www.jamendo.com/track/1267753",
+      "genre": "electronic"
+    },
+    "msg_id": 609,
+    "file_id": "BAACAgEAAxkDAAICYWrbs7wbbHp34xzWchfsvqKRZyXzAALYCAAC3QPhRv8S85kBmN4tPQQ",
+    "replaces": "08565425"
   }
 ]

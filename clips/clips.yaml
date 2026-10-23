@@ -4780,7 +4780,6 @@ clips:
     w: 0.62
     h: 0.288
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -4879,6 +4878,16 @@ clips:
       - 0.113
       - 0.092
   duration: 7.35
+  events_manual:
+  - t: 1.9
+    dir: up
+    x: 0.485
+    y: 0.201
+  - t: 5.4
+    dir: down
+    x: 0.479
+    y: 0.733
+  title_y: 0.51
 - id: clip36
   drive_id: 1eF87KIXdpZDANGapIxj3GpbgNjKKM6z0
   name: Facetune660A79B5-9847-4D8B-AAFD-CCDCF9E6F115.MOV
