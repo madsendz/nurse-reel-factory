@@ -4038,7 +4038,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.17,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-384090",
       "title": "Manta-dive",
@@ -4052,7 +4052,11 @@
       "genre": "lounge"
     },
     "msg_id": 450,
-    "file_id": "BAACAgEAAxkDAAIBwmrYF6c0esKJoN0OyD3EspZYMs13AAKyBwACZufJRubej16B-7Q0PQQ"
+    "file_id": "BAACAgEAAxkDAAIBwmrYF6c0esKJoN0OyD3EspZYMs13AAKyBwACZufJRubej16B-7Q0PQQ",
+    "decided_at": "2026-10-23T10:39:51.897594+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "a6ad3ebe"
   },
   {
     "id": "86b826a0",
@@ -5576,5 +5580,34 @@
     "msg_id": 591,
     "file_id": "BAACAgEAAxkDAAICT2rbOP9rCLkHONHpiyAmrpWDkY1tAALNCQACyfHYRuBMzSxY0M3DPQQ",
     "replaces": "5db580e1"
+  },
+  {
+    "id": "a6ad3ebe",
+    "slot_key": "2026-10-23 16:00",
+    "slot_iso": "2026-10-23T20:00:00+00:00",
+    "slot_label": "Fri Oct 23, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-pregnancy-safe",
+    "category": "sex_ed",
+    "clip_id": "clip40",
+    "cta": 1,
+    "mode": "edited",
+    "seconds": 10.17,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-384090",
+      "title": "Manta-dive",
+      "creator": "K4MMERER",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/384090/mp32/",
+      "source": "jamendo",
+      "duration_ms": 197000,
+      "page": "https://www.jamendo.com/track/384090",
+      "genre": "lounge"
+    },
+    "msg_id": 594,
+    "file_id": "BAACAgEAAxkDAAICUmrbOZcRe4WBIH6zL_y96Rd7nG8qAALOCQACyfHYRsJVnibm9funPQQ",
+    "replaces": "179e02dc"
   }
 ]

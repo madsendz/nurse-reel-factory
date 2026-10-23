@@ -5435,7 +5435,6 @@ clips:
     w: 0.62
     h: 0.287
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -5564,6 +5563,16 @@ clips:
       - 0.193
       - 0.161
   duration: 10.17
+  events_manual:
+  - t: 4.3
+    dir: up
+    x: 0.521
+    y: 0.141
+  - t: 8.4
+    dir: down
+    x: 0.473
+    y: 0.728
+  title_y: 0.58
 - id: clip41
   drive_id: 1nAW_yd7orBRl3rxnr-yOazXSyI75Px_8
   name: Facetune39B350BF-F7AD-4BC3-9741-7B70DABCCF0F.MOV
