@@ -5564,7 +5564,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 7.35,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1206274",
       "title": "Made In Italy",
@@ -5579,7 +5579,11 @@
     },
     "msg_id": 591,
     "file_id": "BAACAgEAAxkDAAICT2rbOP9rCLkHONHpiyAmrpWDkY1tAALNCQACyfHYRuBMzSxY0M3DPQQ",
-    "replaces": "5db580e1"
+    "replaces": "5db580e1",
+    "decided_at": "2026-10-23T11:48:41.160862+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "ece52d47"
   },
   {
     "id": "a6ad3ebe",
@@ -5609,5 +5613,34 @@
     "msg_id": 594,
     "file_id": "BAACAgEAAxkDAAICUmrbOZcRe4WBIH6zL_y96Rd7nG8qAALOCQACyfHYRsJVnibm9funPQQ",
     "replaces": "179e02dc"
+  },
+  {
+    "id": "ece52d47",
+    "slot_key": "2026-10-23 13:00",
+    "slot_iso": "2026-10-23T17:00:00+00:00",
+    "slot_label": "Fri Oct 23, 1:00 PM",
+    "post_type": "regular",
+    "item_id": "nw-boxers-briefs",
+    "category": "mens_health",
+    "clip_id": "clip69b",
+    "cta": 5,
+    "mode": "exploit",
+    "seconds": 10.0,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-384095",
+      "title": "Like King Cool in a sunbed",
+      "creator": "K4MMERER",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/384095/mp32/",
+      "source": "jamendo",
+      "duration_ms": 289000,
+      "page": "https://www.jamendo.com/track/384095",
+      "genre": "pop"
+    },
+    "msg_id": 596,
+    "file_id": "BAACAgEAAxkDAAICVGrbSb0FqA2DtmpMu7tba6SjjxjjAALlCQACyfHYRu_K640BnFNQPQQ",
+    "replaces": "9840f688"
   }
 ]
