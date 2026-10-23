@@ -3850,7 +3850,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 5.46,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1214517",
       "title": "Thank U Two",
@@ -3865,7 +3865,8 @@
     },
     "msg_id": 449,
     "file_id": "BAACAgEAAxkDAAIBwWrYF4ygm8q0WEqvhRA1Vs4XQEwEAAKxBwACZufJRql_6xYyWbXEPQQ",
-    "decided_at": "2026-10-23T10:37:12.069607+00:00"
+    "decided_at": "2026-10-23T10:37:12.069607+00:00",
+    "permalink": "https://www.instagram.com/reel/De2NqUyF48L/"
   },
   {
     "id": "179e02dc",
@@ -3911,7 +3912,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 15.97,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2176699",
       "title": "Relax Chill Lofi",
@@ -3925,7 +3926,8 @@
       "genre": "rnb"
     },
     "msg_id": 451,
-    "file_id": "BAACAgEAAxkDAAIBw2rYF9AIhr0_HGlp5nwslI2C22RpAAK0BwACZufJRp8tIDrEO2oGPQQ"
+    "file_id": "BAACAgEAAxkDAAIBw2rYF9AIhr0_HGlp5nwslI2C22RpAAK0BwACZufJRp8tIDrEO2oGPQQ",
+    "decided_at": "2026-10-23T18:32:37.479980+00:00"
   },
   {
     "id": "587717f0",
@@ -3939,7 +3941,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 10.43,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384091",
       "title": "Lazy beach breaks",
@@ -3953,7 +3955,8 @@
       "genre": "lounge"
     },
     "msg_id": 452,
-    "file_id": "BAACAgEAAxkDAAIBxGrYF_c1e7Ak4vmHOvx4GNgmUhHbAAK1BwACZufJRos5MZh0zqP5PQQ"
+    "file_id": "BAACAgEAAxkDAAIBxGrYF_c1e7Ak4vmHOvx4GNgmUhHbAAK1BwACZufJRos5MZh0zqP5PQQ",
+    "decided_at": "2026-10-23T18:32:37.479980+00:00"
   },
   {
     "id": "5708d1e3",
