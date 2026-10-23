@@ -3884,7 +3884,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.33,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1992651",
       "title": "Emotional Dancing",
@@ -3898,7 +3898,11 @@
       "genre": "electronic"
     },
     "msg_id": 445,
-    "file_id": "BAACAgEAAxkDAAIBvWrYFyTdEqF2sXpKobyqBSnskrboAAKtBwACZufJRvOVlveUgxk4PQQ"
+    "file_id": "BAACAgEAAxkDAAIBvWrYFyTdEqF2sXpKobyqBSnskrboAAKtBwACZufJRvOVlveUgxk4PQQ",
+    "decided_at": "2026-10-23T10:03:38.559015+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "cdfbbbab"
   },
   {
     "id": "e2df3a8d",
@@ -5423,7 +5427,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 9.0,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1945492",
       "title": "Do not disturb",
@@ -5438,6 +5442,36 @@
     },
     "msg_id": 582,
     "file_id": "BAACAgEAAxkDAAICRmrbMJ1rsqeO09r9nESG36ozvv6qAAK_CQACyfHYRgrFLlYOjw20PQQ",
-    "replaces": "0e55e771"
+    "replaces": "0e55e771",
+    "decided_at": "2026-10-23T10:03:38.559015+00:00"
+  },
+  {
+    "id": "cdfbbbab",
+    "slot_key": "2026-10-23 09:30",
+    "slot_iso": "2026-10-23T13:30:00+00:00",
+    "slot_label": "Fri Oct 23, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-intercourse-hack",
+    "category": "sexual_wellness",
+    "clip_id": "clip69b",
+    "cta": 4,
+    "mode": "exploit",
+    "seconds": 10.0,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1917024",
+      "title": "Dorila y Mello",
+      "creator": "Popoi",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1917024/mp32/",
+      "source": "jamendo",
+      "duration_ms": 165000,
+      "page": "https://www.jamendo.com/track/1917024",
+      "genre": "hiphop"
+    },
+    "msg_id": 585,
+    "file_id": "BAACAgEAAxkDAAICSWrbMSAD1X5uwBHV6jCFnMD4ierLAALACQACyfHYRgLsxDG1zTndPQQ",
+    "replaces": "1b420590"
   }
 ]
