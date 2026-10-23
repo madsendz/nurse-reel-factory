@@ -5110,7 +5110,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1395053",
       "title": "Ninu - I feel this",
@@ -5125,7 +5125,11 @@
     },
     "msg_id": 566,
     "file_id": "BAACAgEAAxkDAAICNmranZ-n_B_NKoHIqRJ6vZri-HedAAK7CAACyfHYRryNfUeAAAHXuT0E",
-    "replaces": "5792e2a3"
+    "replaces": "5792e2a3",
+    "decided_at": "2026-10-23T10:00:39.155224+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "31eb2f93"
   },
   {
     "id": "73721302",
@@ -5406,5 +5410,34 @@
     },
     "msg_id": 576,
     "file_id": "BAACAgEAAxkDAAICQGraug8Szv5SDqZfTWoFSGlfk_JkAAL4CAACyfHYRmHyRC0rqd8pPQQ"
+  },
+  {
+    "id": "31eb2f93",
+    "slot_key": "2026-10-23 08:00",
+    "slot_iso": "2026-10-23T12:00:00+00:00",
+    "slot_label": "Fri Oct 23, 8:00 AM",
+    "post_type": "trial",
+    "item_id": "pr-small-normal",
+    "category": "mens_health",
+    "clip_id": "clip22",
+    "cta": 5,
+    "mode": "exploit",
+    "seconds": 9.0,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1945492",
+      "title": "Do not disturb",
+      "creator": "zero-project",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1945492/mp32/",
+      "source": "jamendo",
+      "duration_ms": 280000,
+      "page": "https://www.jamendo.com/track/1945492",
+      "genre": "chillout"
+    },
+    "msg_id": 582,
+    "file_id": "BAACAgEAAxkDAAICRmrbMJ1rsqeO09r9nESG36ozvv6qAAK_CQACyfHYRgrFLlYOjw20PQQ",
+    "replaces": "0e55e771"
   }
 ]
