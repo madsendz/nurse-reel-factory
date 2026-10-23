@@ -3916,7 +3916,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 6.48,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-618057",
       "title": "Bulletproof Feat. J Dog (Original Mix)",
@@ -3930,7 +3930,8 @@
       "genre": "dance"
     },
     "msg_id": 446,
-    "file_id": "BAACAgEAAxkDAAIBvmrYFz4iz0egzIIbU1NWQqXlNTiIAAKuBwACZufJRqduer0P06vbPQQ"
+    "file_id": "BAACAgEAAxkDAAIBvmrYFz4iz0egzIIbU1NWQqXlNTiIAAKuBwACZufJRqduer0P06vbPQQ",
+    "decided_at": "2026-10-23T10:24:39.507662+00:00"
   },
   {
     "id": "0725f6b1",
@@ -3944,7 +3945,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 8.88,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -3958,7 +3959,11 @@
       "genre": "dance"
     },
     "msg_id": 447,
-    "file_id": "BAACAgEAAxkDAAIBv2rYF1tNpASmYX-OlvR8xneqVBF6AAKvBwACZufJRomDjs8DtcAqPQQ"
+    "file_id": "BAACAgEAAxkDAAIBv2rYF1tNpASmYX-OlvR8xneqVBF6AAKvBwACZufJRomDjs8DtcAqPQQ",
+    "decided_at": "2026-10-23T10:24:39.507662+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "b97f9cd7"
   },
   {
     "id": "5db580e1",
@@ -5490,7 +5495,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 9.33,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1702676",
       "title": "Daydream",
@@ -5505,6 +5510,36 @@
     },
     "msg_id": 587,
     "file_id": "BAACAgEAAxkDAAICS2rbMuWtae_xFlukZYnzydUfBZAxAALECQACyfHYRqlMd2-TzC_qPQQ",
-    "replaces": "cdfbbbab"
+    "replaces": "cdfbbbab",
+    "decided_at": "2026-10-23T10:24:39.507662+00:00"
+  },
+  {
+    "id": "b97f9cd7",
+    "slot_key": "2026-10-23 12:00",
+    "slot_iso": "2026-10-23T16:00:00+00:00",
+    "slot_label": "Fri Oct 23, 12:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-condom-break",
+    "category": "sex_ed",
+    "clip_id": "clip38",
+    "cta": 1,
+    "mode": "edited",
+    "seconds": 8.88,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1179546",
+      "title": "Born Free",
+      "creator": "Pokki DJ",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1179546/mp32/",
+      "source": "jamendo",
+      "duration_ms": 212000,
+      "page": "https://www.jamendo.com/track/1179546",
+      "genre": "dance"
+    },
+    "msg_id": 589,
+    "file_id": "BAACAgEAAxkDAAICTWrbNgxCphaewBuJD6yQK2fbhSE2AALJCQACyfHYRkhP68Sf8omMPQQ",
+    "replaces": "0725f6b1"
   }
 ]
