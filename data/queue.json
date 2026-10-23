@@ -1,40 +1,5 @@
 [
   {
-    "id": "d4453897",
-    "slot_key": "2026-10-13 11:00",
-    "slot_iso": "2026-10-13T15:00:00+00:00",
-    "slot_label": "Tue Oct 13, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "pr-morning-wood",
-    "category": "mens_health",
-    "clip_id": "clip62",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 11.55,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1206517",
-      "title": "DJ Smallest - Chill",
-      "creator": "Smallest",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1206517/mp32/",
-      "source": "jamendo",
-      "duration_ms": 170000,
-      "page": "https://www.jamendo.com/track/1206517",
-      "genre": "chillout"
-    },
-    "msg_id": 135,
-    "file_id": "BAACAgEAAxkDAAOHasqmJaVdwZVRhZ1V2pLmvTxHrHsAAk4HAALPoFlGlgnJOoGe3sc9BA",
-    "feedback": [
-      "the first text reveals too fast and waits too long for the second to pop up"
-    ],
-    "decided_at": "2026-10-13T14:39:44.533693+00:00",
-    "needs_replacement": false,
-    "replaced_by": "74758c64",
-    "permalink": "https://www.instagram.com/reel/DecFbtonNZm/"
-  },
-  {
     "id": "a520b5a0",
     "slot_key": "2026-10-13 13:00",
     "slot_iso": "2026-10-13T17:00:00+00:00",
@@ -612,35 +577,6 @@
     "file_id": "BAACAgEAAxkDAAOvas2nOPZ-qRp_k7Ll1liA28vTIiUAAlwIAAJGiWhGRtccA6JKK1E9BA",
     "decided_at": "2026-10-15T12:12:27.433343+00:00",
     "permalink": "https://www.instagram.com/reel/DeiXNdtj8o2/"
-  },
-  {
-    "id": "74758c64",
-    "slot_key": "2026-10-13 11:00",
-    "slot_iso": "2026-10-13T15:00:00+00:00",
-    "slot_label": "Tue Oct 13, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-prostate-21",
-    "category": "mens_health",
-    "clip_id": "clip59",
-    "cta": 1,
-    "mode": "explore",
-    "seconds": 15.97,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1076858",
-      "title": "Something a Little Different",
-      "creator": "TheBlackParrot",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1076858/mp32/",
-      "source": "jamendo",
-      "duration_ms": 315000,
-      "page": "https://www.jamendo.com/track/1076858",
-      "genre": "dance"
-    },
-    "msg_id": 180,
-    "file_id": "BAACAgEAAxkDAAO0as5B4ZvkYma2NDo31l4R9eEAAfq0AAJFBwACRolwRonbvTaSIogEPQQ",
-    "replaces": "d4453897"
   },
   {
     "id": "c66ae421",
@@ -3884,7 +3820,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 6.48,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-618057",
       "title": "Bulletproof Feat. J Dog (Original Mix)",
@@ -3899,7 +3835,8 @@
     },
     "msg_id": 446,
     "file_id": "BAACAgEAAxkDAAIBvmrYFz4iz0egzIIbU1NWQqXlNTiIAAKuBwACZufJRqduer0P06vbPQQ",
-    "decided_at": "2026-10-23T10:24:39.507662+00:00"
+    "decided_at": "2026-10-23T10:24:39.507662+00:00",
+    "permalink": "https://www.instagram.com/reel/De12JWAFHyI/"
   },
   {
     "id": "0725f6b1",
