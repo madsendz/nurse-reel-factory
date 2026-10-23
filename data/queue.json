@@ -1,40 +1,5 @@
 [
   {
-    "id": "a520b5a0",
-    "slot_key": "2026-10-13 13:00",
-    "slot_iso": "2026-10-13T17:00:00+00:00",
-    "slot_label": "Tue Oct 13, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "pr-stamina-foods",
-    "category": "mens_health",
-    "clip_id": "clip59",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 15.97,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-2037715",
-      "title": "Study Beats (Lofi Hip-Hop Ensemble)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037715/mp32/",
-      "source": "jamendo",
-      "duration_ms": 293000,
-      "page": "https://www.jamendo.com/track/2037715",
-      "genre": "hiphop"
-    },
-    "msg_id": 136,
-    "file_id": "BAACAgEAAxkDAAOIasqmUzj_Jb7vBHhBmw7T-Z7ahpMAAk8HAALPoFlGUVgIGaja6CE9BA",
-    "feedback": [
-      "this vid has two upward points plus a downward point…. should be 3 text pop ups max",
-      "need a new one"
-    ],
-    "decided_at": "2026-10-13T15:00:07.938048+00:00",
-    "needs_replacement": false,
-    "replaced_by": "c66ae421"
-  },
-  {
     "id": "fdd99312",
     "slot_key": "2026-10-13 16:00",
     "slot_iso": "2026-10-13T20:00:00+00:00",
@@ -577,35 +542,6 @@
     "file_id": "BAACAgEAAxkDAAOvas2nOPZ-qRp_k7Ll1liA28vTIiUAAlwIAAJGiWhGRtccA6JKK1E9BA",
     "decided_at": "2026-10-15T12:12:27.433343+00:00",
     "permalink": "https://www.instagram.com/reel/DeiXNdtj8o2/"
-  },
-  {
-    "id": "c66ae421",
-    "slot_key": "2026-10-13 13:00",
-    "slot_iso": "2026-10-13T17:00:00+00:00",
-    "slot_label": "Tue Oct 13, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "nw-ick",
-    "category": "sexual_wellness",
-    "clip_id": "clip28",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 8.39,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-247156",
-      "title": "Silence Apart",
-      "creator": "ZigiZigi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/247156/mp32/",
-      "source": "jamendo",
-      "duration_ms": 326000,
-      "page": "https://www.jamendo.com/track/247156",
-      "genre": "pop"
-    },
-    "msg_id": 188,
-    "file_id": "BAACAgEAAxkDAAO8as5EtRjZcIT2eAx1rmaJ-J7omgIAAlAHAAJGiXBGPKz4rNTnEoQ9BA",
-    "replaces": "a520b5a0"
   },
   {
     "id": "cf13d2df",
