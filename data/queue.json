@@ -1,35 +1,5 @@
 [
   {
-    "id": "1921690f",
-    "slot_key": "2026-10-13 19:30",
-    "slot_iso": "2026-10-13T23:30:00+00:00",
-    "slot_label": "Tue Oct 13, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-online-not-normal",
-    "category": "sex_ed",
-    "clip_id": "clip41",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 7.67,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1591558",
-      "title": "199-s8rec",
-      "creator": "orangeicebear",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1591558/mp32/",
-      "source": "jamendo",
-      "duration_ms": 671000,
-      "page": "https://www.jamendo.com/track/1591558",
-      "genre": "trap"
-    },
-    "msg_id": 138,
-    "file_id": "BAACAgEAAxkDAAOKasqmnRc3a9yDFxmIv23ULZw3jqEAAlEHAALPoFlGGanNVOl2MvA9BA",
-    "decided_at": "2026-10-11T01:47:45.315915+00:00",
-    "permalink": "https://www.instagram.com/reel/Dec_t_zjKG9/"
-  },
-  {
     "id": "8888e4be",
     "slot_key": "2026-10-13 21:30",
     "slot_iso": "2026-10-14T01:30:00+00:00",
@@ -3879,7 +3849,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 10.43,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-384091",
       "title": "Lazy beach breaks",
@@ -3894,7 +3864,8 @@
     },
     "msg_id": 452,
     "file_id": "BAACAgEAAxkDAAIBxGrYF_c1e7Ak4vmHOvx4GNgmUhHbAAK1BwACZufJRos5MZh0zqP5PQQ",
-    "decided_at": "2026-10-23T18:32:37.479980+00:00"
+    "decided_at": "2026-10-23T18:32:37.479980+00:00",
+    "permalink": "https://www.instagram.com/reel/De2vwMJjDYd/"
   },
   {
     "id": "5708d1e3",
