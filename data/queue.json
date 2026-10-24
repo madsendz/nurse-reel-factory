@@ -4189,7 +4189,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 26.57,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1342479",
       "title": "Breathe",
@@ -4203,7 +4203,11 @@
       "genre": "electronic"
     },
     "msg_id": 504,
-    "file_id": "BAACAgEAAxkDAAIB-GrZaGebSrNJ3ldMwbikAAGyEs2EbAACXAkAAmbn0UbhPWjA8gVK3j0E"
+    "file_id": "BAACAgEAAxkDAAIB-GrZaGebSrNJ3ldMwbikAAGyEs2EbAACXAkAAmbn0UbhPWjA8gVK3j0E",
+    "decided_at": "2026-10-24T05:16:34.290899+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "aa174415"
   },
   {
     "id": "c11b2fda",
@@ -5615,5 +5619,34 @@
     },
     "msg_id": 622,
     "file_id": "BAACAgEAAxkDAAICbmrcDCsAAXQVqvxQzfPoMUPPh0lsdwAC4AkAAt0D4UabOeo_5J1YMj0E"
+  },
+  {
+    "id": "aa174415",
+    "slot_key": "2026-10-24 08:00",
+    "slot_iso": "2026-10-24T12:00:00+00:00",
+    "slot_label": "Sat Oct 24, 8:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-headache-myth",
+    "category": "health_bait",
+    "clip_id": "clip70",
+    "cta": 4,
+    "mode": "exploit",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1206274",
+      "title": "Made In Italy",
+      "creator": "Pokki DJ",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1206274/mp32/",
+      "source": "jamendo",
+      "duration_ms": 154000,
+      "page": "https://www.jamendo.com/track/1206274",
+      "genre": "dance"
+    },
+    "msg_id": 625,
+    "file_id": "BAACAgEAAxkDAAICcWrcP1J2rDDByZGG7TXOMEWPyMhNAAJxBgAC3QPpRvccbUgL8ZqgPQQ",
+    "replaces": "1fde95b0"
   }
 ]
