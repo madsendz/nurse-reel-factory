@@ -5720,7 +5720,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 10.4,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1319541",
       "title": "Gone Crasy (4-Track-Recording-1991)",
@@ -5736,7 +5736,8 @@
     "msg_id": 638,
     "file_id": "BAACAgEAAxkDAAICfmrcrWWAAAE3NVL2u97xKMezIda7pgAClAcAAt0D6Ua2XphGv87kQD0E",
     "replaces": "ff82fe9c",
-    "decided_at": "2026-10-24T13:10:38.140173+00:00"
+    "decided_at": "2026-10-24T13:10:38.140173+00:00",
+    "permalink": "https://www.instagram.com/reel/De4hK1KkVcA/"
   },
   {
     "id": "74ef53c7",
