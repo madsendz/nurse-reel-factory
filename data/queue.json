@@ -5736,7 +5736,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -5751,6 +5751,39 @@
     },
     "msg_id": 636,
     "file_id": "BAACAgEAAxkDAAICfGrcrM3pL8G6O-Ouy007oQ110pqjAAKRBwAC3QPpRqKHQ5dsxLF1PQQ",
-    "replaces": "5ca568bf"
+    "replaces": "5ca568bf",
+    "decided_at": "2026-10-24T13:06:01.560337+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "b8c3474c"
+  },
+  {
+    "id": "b8c3474c",
+    "slot_key": "2026-10-24 12:00",
+    "slot_iso": "2026-10-24T16:00:00+00:00",
+    "slot_label": "Sat Oct 24, 12:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-headache-myth",
+    "category": "health_bait",
+    "clip_id": "clip07",
+    "cta": 5,
+    "mode": "exploit",
+    "seconds": 10.4,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1319541",
+      "title": "Gone Crasy (4-Track-Recording-1991)",
+      "creator": "Christian Zell",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1319541/mp32/",
+      "source": "jamendo",
+      "duration_ms": 222000,
+      "page": "https://www.jamendo.com/track/1319541",
+      "genre": "pop"
+    },
+    "msg_id": 638,
+    "file_id": "BAACAgEAAxkDAAICfmrcrWWAAAE3NVL2u97xKMezIda7pgAClAcAAt0D6Ua2XphGv87kQD0E",
+    "replaces": "ff82fe9c"
   }
 ]
