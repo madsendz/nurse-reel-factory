@@ -4314,7 +4314,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12.1,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1922534",
       "title": "Luxury Hip-Hop",
@@ -4328,7 +4328,8 @@
       "genre": "hiphop"
     },
     "msg_id": 508,
-    "file_id": "BAACAgEAAxkDAAIB_GrZaOqjPjszAXV1EwjjkHvjis3WAAJgCQACZufRRlohPBn6p-BJPQQ"
+    "file_id": "BAACAgEAAxkDAAIB_GrZaOqjPjszAXV1EwjjkHvjis3WAAJgCQACZufRRlohPBn6p-BJPQQ",
+    "decided_at": "2026-10-24T13:10:38.140173+00:00"
   },
   {
     "id": "fe9c8c6e",
@@ -4342,7 +4343,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 4.73,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1230857",
       "title": "Indios",
@@ -4356,7 +4357,8 @@
       "genre": "chillout"
     },
     "msg_id": 509,
-    "file_id": "BAACAgEAAxkDAAIB_WrZaP6LZg10drD2bKU_BXjJ03FuAAJhCQACZufRRvLAnmYhaPEMPQQ"
+    "file_id": "BAACAgEAAxkDAAIB_WrZaP6LZg10drD2bKU_BXjJ03FuAAJhCQACZufRRvLAnmYhaPEMPQQ",
+    "decided_at": "2026-10-24T13:10:38.140173+00:00"
   },
   {
     "id": "4b9183b7",
@@ -4370,7 +4372,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 7.8,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2290118",
       "title": "Fashion Week",
@@ -4384,7 +4386,8 @@
       "genre": "electronic"
     },
     "msg_id": 510,
-    "file_id": "BAACAgEAAxkDAAIB_mrZaRCKYFFoK_yreiGm-Kvp21cjAAJjCQACZufRRjaaIycwUShQPQQ"
+    "file_id": "BAACAgEAAxkDAAIB_mrZaRCKYFFoK_yreiGm-Kvp21cjAAJjCQACZufRRjaaIycwUShQPQQ",
+    "decided_at": "2026-10-24T13:10:38.140173+00:00"
   },
   {
     "id": "13bd7d9a",
@@ -4398,7 +4401,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 9.42,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1199532",
       "title": "Stefan The Poker Player",
@@ -4412,7 +4415,11 @@
       "genre": "electronic"
     },
     "msg_id": 511,
-    "file_id": "BAACAgEAAxkDAAIB_2rZaSqpn7gPtiULhOTyT-UPvYYtAAJkCQACZufRRjkNFnc4M_zqPQQ"
+    "file_id": "BAACAgEAAxkDAAIB_2rZaSqpn7gPtiULhOTyT-UPvYYtAAJkCQACZufRRjkNFnc4M_zqPQQ",
+    "decided_at": "2026-10-24T13:10:38.140173+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "74ef53c7"
   },
   {
     "id": "5c2c3376",
@@ -5333,7 +5340,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 8.9,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1267753",
       "title": "Ghosts",
@@ -5348,7 +5355,8 @@
     },
     "msg_id": 609,
     "file_id": "BAACAgEAAxkDAAICYWrbs7wbbHp34xzWchfsvqKRZyXzAALYCAAC3QPhRv8S85kBmN4tPQQ",
-    "replaces": "08565425"
+    "replaces": "08565425",
+    "decided_at": "2026-10-24T13:10:38.140173+00:00"
   },
   {
     "id": "e1e12bf1",
@@ -5769,7 +5777,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 10.4,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1319541",
       "title": "Gone Crasy (4-Track-Recording-1991)",
@@ -5784,6 +5792,36 @@
     },
     "msg_id": 638,
     "file_id": "BAACAgEAAxkDAAICfmrcrWWAAAE3NVL2u97xKMezIda7pgAClAcAAt0D6Ua2XphGv87kQD0E",
-    "replaces": "ff82fe9c"
+    "replaces": "ff82fe9c",
+    "decided_at": "2026-10-24T13:10:38.140173+00:00"
+  },
+  {
+    "id": "74ef53c7",
+    "slot_key": "2026-10-24 17:30",
+    "slot_iso": "2026-10-24T21:30:00+00:00",
+    "slot_label": "Sat Oct 24, 5:30 PM",
+    "post_type": "trial",
+    "item_id": "pr-precum",
+    "category": "sex_ed",
+    "clip_id": "clip64",
+    "cta": 0,
+    "mode": "edited",
+    "seconds": 9.42,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1199532",
+      "title": "Stefan The Poker Player",
+      "creator": "REC",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1199532/mp32/",
+      "source": "jamendo",
+      "duration_ms": 303000,
+      "page": "https://www.jamendo.com/track/1199532",
+      "genre": "electronic"
+    },
+    "msg_id": 640,
+    "file_id": "BAACAgEAAxkDAAICgGrcrmstldLXN11kiGcUTUG12IsfAAKcBwAC3QPpRu5u90dc5oCPPQQ",
+    "replaces": "13bd7d9a"
   }
 ]
