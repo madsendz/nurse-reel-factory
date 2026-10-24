@@ -5661,7 +5661,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 9.42,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1199532",
       "title": "Stefan The Poker Player",
@@ -5677,6 +5677,7 @@
     "msg_id": 640,
     "file_id": "BAACAgEAAxkDAAICgGrcrmstldLXN11kiGcUTUG12IsfAAKcBwAC3QPpRu5u90dc5oCPPQQ",
     "replaces": "13bd7d9a",
-    "decided_at": "2026-10-24T15:01:10.010372+00:00"
+    "decided_at": "2026-10-24T15:01:10.010372+00:00",
+    "permalink": "https://www.instagram.com/reel/De5G3KHkeIW/"
   }
 ]
