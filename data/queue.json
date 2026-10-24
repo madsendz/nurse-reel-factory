@@ -1,39 +1,5 @@
 [
   {
-    "id": "51cac788",
-    "slot_key": "2026-10-14 19:30",
-    "slot_iso": "2026-10-14T23:30:00+00:00",
-    "slot_label": "Wed Oct 14, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-erections-vary",
-    "category": "mens_health",
-    "clip_id": "clip18",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 7.5,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1922534",
-      "title": "Luxury Hip-Hop",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1922534/mp32/",
-      "source": "jamendo",
-      "duration_ms": 131000,
-      "page": "https://www.jamendo.com/track/1922534",
-      "genre": "hiphop"
-    },
-    "msg_id": 160,
-    "file_id": "BAACAgEAAxkDAAOgasxFhk3-jESWQXg2AfBapAj8LJsAAr4HAAIGhGlGuDORdoO89ys9BA",
-    "feedback": [
-      "wrong placement"
-    ],
-    "decided_at": "2026-10-14T05:17:24.595144+00:00",
-    "needs_replacement": false,
-    "replaced_by": "50bab3c1"
-  },
-  {
     "id": "f98a9326",
     "slot_key": "2026-10-14 21:30",
     "slot_iso": "2026-10-15T01:30:00+00:00",
@@ -450,39 +416,6 @@
     "permalink": "https://www.instagram.com/reel/Dek8CnKAP69/"
   },
   {
-    "id": "50bab3c1",
-    "slot_key": "2026-10-14 19:30",
-    "slot_iso": "2026-10-14T23:30:00+00:00",
-    "slot_label": "Wed Oct 14, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-erections-vary",
-    "category": "mens_health",
-    "clip_id": "clip18",
-    "cta": 1,
-    "mode": "note",
-    "seconds": 6.8,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1922534",
-      "title": "Luxury Hip-Hop",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1922534/mp32/",
-      "source": "jamendo",
-      "duration_ms": 131000,
-      "page": "https://www.jamendo.com/track/1922534",
-      "genre": "hiphop"
-    },
-    "msg_id": 208,
-    "file_id": "BAACAgEAAxkDAAPQas8QgorrfIne9OHl3A8c0M-vm3YAAtkGAAJGiXhGd6oKu2Xh6rw9BA",
-    "replaces": "51cac788",
-    "decided_at": "2026-10-14T11:15:07.382532+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "c39d4346"
-  },
-  {
     "id": "f3d39a5f",
     "slot_key": "2026-10-14 21:30",
     "slot_iso": "2026-10-15T01:30:00+00:00",
@@ -512,35 +445,6 @@
     "replaces": "f98a9326",
     "decided_at": "2026-10-14T13:30:49.278643+00:00",
     "permalink": "https://www.instagram.com/reel/DefyUWAgF2C/"
-  },
-  {
-    "id": "c39d4346",
-    "slot_key": "2026-10-14 19:30",
-    "slot_iso": "2026-10-14T23:30:00+00:00",
-    "slot_label": "Wed Oct 14, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-boxers-briefs",
-    "category": "mens_health",
-    "clip_id": "clip18",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 6.8,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1331970",
-      "title": "Faith",
-      "creator": "Neon NiteClub",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1331970/mp32/",
-      "source": "jamendo",
-      "duration_ms": 248000,
-      "page": "https://www.jamendo.com/track/1331970",
-      "genre": "pop"
-    },
-    "msg_id": 213,
-    "file_id": "BAACAgEAAxkDAAPVas9kWpU0-_waorjTqlyZjnbUJrkAApEHAAJGiXhGDWGwSGxgSRA9BA",
-    "replaces": "50bab3c1"
   },
   {
     "id": "12d77068",
@@ -4284,7 +4188,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 8.39,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1375003",
       "title": "White_beach",
@@ -4299,7 +4203,8 @@
     },
     "msg_id": 512,
     "file_id": "BAACAgEAAxkDAAICAAFq2WlBxRbe1w26unKc3G5KyEHu-gACZgkAAmbn0UaPwTEx9TTyfT0E",
-    "decided_at": "2026-10-24T12:01:08.395557+00:00"
+    "decided_at": "2026-10-24T12:01:08.395557+00:00",
+    "permalink": "https://www.instagram.com/reel/De5UqPyjFKu/"
   },
   {
     "id": "a19008fb",
