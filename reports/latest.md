@@ -6,16 +6,16 @@ Judged reels: **43** · score = link clicks first, then views/shares/saves
 
 | Score | Type | Clicks | Views | Shares | Topic | Clip | Posted |
 |---|---|---|---|---|---|---|---|
-| +1.56 | trial | 598.6 | 814871 | 98 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
-| +1.53 | trial | 318.3 | 974085 | 33445 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
+| +1.56 | trial | 598.6 | 814975 | 98 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
+| +1.53 | trial | 318.3 | 974959 | 33511 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
 | +1.32 | trial | 1289.0 | 22637 | 3 | [nw-orgasm-gap](https://www.instagram.com/reel/Dek8CnKAP69/) | clip04 | 2026-10-17 |
-| +1.18 | trial | 471.3 | 339499 | 36 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
-| +1.09 | trial | 1425.9 | 4119 | 0 | [pr-birth-control-ranked](https://www.instagram.com/reel/DeVfCTLiVdi/) | clip64 | 2026-10-11 |
-| +1.09 | regular | 1416.7 | 48429 | 68 | [nw-cardio-erections](https://www.instagram.com/reel/DeUkq0XEyxf/) | clip32 | 2026-10-10 |
-| +1.02 | regular | 1782.3 | 32126 | 25 | [nw-kegels-women](https://www.instagram.com/reel/DeVRSdgkS2G/) | clip42 | 2026-10-10 |
-| +0.86 | regular | 387.4 | 171296 | 851 | [pr-stamina-foods](https://www.instagram.com/reel/Dedc32xDs80/) | clip26 | 2026-10-14 |
-| +0.52 | trial | 362.5 | 15977 | 5 | [nw-condom-break](https://www.instagram.com/reel/DefMhfXDWOO/) | clip81 | 2026-10-14 |
-| +0.51 | regular | 1034.5 | 25179 | 9 | [nw-smoking-ed](https://www.instagram.com/reel/DeWxb2SgsVW/) | clip71 | 2026-10-11 |
+| +1.18 | trial | 471.3 | 339515 | 36 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
+| +1.09 | trial | 1425.8 | 4119 | 0 | [pr-birth-control-ranked](https://www.instagram.com/reel/DeVfCTLiVdi/) | clip64 | 2026-10-11 |
+| +1.09 | regular | 1416.8 | 48470 | 68 | [nw-cardio-erections](https://www.instagram.com/reel/DeUkq0XEyxf/) | clip32 | 2026-10-10 |
+| +1.02 | regular | 1782.3 | 32138 | 25 | [nw-kegels-women](https://www.instagram.com/reel/DeVRSdgkS2G/) | clip42 | 2026-10-10 |
+| +0.86 | regular | 387.4 | 171341 | 851 | [pr-stamina-foods](https://www.instagram.com/reel/Dedc32xDs80/) | clip26 | 2026-10-14 |
+| +0.52 | trial | 362.5 | 15981 | 5 | [nw-condom-break](https://www.instagram.com/reel/DefMhfXDWOO/) | clip81 | 2026-10-14 |
+| +0.51 | regular | 1034.5 | 25196 | 9 | [nw-smoking-ed](https://www.instagram.com/reel/DeWxb2SgsVW/) | clip71 | 2026-10-11 |
 
 ## Hook styles
 
@@ -97,4 +97,4 @@ Judged reels: **43** · score = link clicks first, then views/shares/saves
 
 - pr-release-often (-1.17)
 - nw-ed-heart (-1.17)
-- pr-morning-wood (-1.18)
+- pr-morning-wood (-1.17)
