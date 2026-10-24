@@ -4221,7 +4221,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 18.23,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-367026",
       "title": "Drink's Afterhouse",
@@ -4235,7 +4235,8 @@
       "genre": "dance"
     },
     "msg_id": 505,
-    "file_id": "BAACAgEAAxkDAAIB-WrZaJIUpUItCAqx3KSgK4_03tQ_AAJdCQACZufRRp-eZDbjx_4ZPQQ"
+    "file_id": "BAACAgEAAxkDAAIB-WrZaJIUpUItCAqx3KSgK4_03tQ_AAJdCQACZufRRp-eZDbjx_4ZPQQ",
+    "decided_at": "2026-10-24T05:17:54.819177+00:00"
   },
   {
     "id": "c809276c",
@@ -4249,7 +4250,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.83,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1702676",
       "title": "Daydream",
@@ -4263,7 +4264,11 @@
       "genre": "chillout"
     },
     "msg_id": 506,
-    "file_id": "BAACAgEAAxkDAAIB-mrZaKi_2A5wdGeo74aDkDJUhPMoAAJeCQACZufRRkNdJW0M5yS5PQQ"
+    "file_id": "BAACAgEAAxkDAAIB-mrZaKi_2A5wdGeo74aDkDJUhPMoAAJeCQACZufRRkNdJW0M5yS5PQQ",
+    "decided_at": "2026-10-24T05:17:54.819177+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "1d66833c"
   },
   {
     "id": "5ca568bf",
@@ -5648,5 +5653,34 @@
     "msg_id": 625,
     "file_id": "BAACAgEAAxkDAAICcWrcP1J2rDDByZGG7TXOMEWPyMhNAAJxBgAC3QPpRvccbUgL8ZqgPQQ",
     "replaces": "1fde95b0"
+  },
+  {
+    "id": "1d66833c",
+    "slot_key": "2026-10-24 11:00",
+    "slot_iso": "2026-10-24T15:00:00+00:00",
+    "slot_label": "Sat Oct 24, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-blue-balls",
+    "category": "mens_health",
+    "clip_id": "clip66",
+    "cta": 5,
+    "mode": "exploit",
+    "seconds": 6.83,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1440522",
+      "title": "Wait",
+      "creator": "Lyvo",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1440522/mp32/",
+      "source": "jamendo",
+      "duration_ms": 214000,
+      "page": "https://www.jamendo.com/track/1440522",
+      "genre": "hiphop"
+    },
+    "msg_id": 628,
+    "file_id": "BAACAgEAAxkDAAICdGrcP595hE78Y6ket93g3Gv5nIbEAAJyBgAC3QPpRprHWYnOqQcVPQQ",
+    "replaces": "c809276c"
   }
 ]
