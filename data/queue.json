@@ -5637,7 +5637,7 @@
     "cta": 4,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1206274",
       "title": "Made In Italy",
@@ -5652,7 +5652,11 @@
     },
     "msg_id": 625,
     "file_id": "BAACAgEAAxkDAAICcWrcP1J2rDDByZGG7TXOMEWPyMhNAAJxBgAC3QPpRvccbUgL8ZqgPQQ",
-    "replaces": "1fde95b0"
+    "replaces": "1fde95b0",
+    "decided_at": "2026-10-24T08:15:52.946943+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "f494b407"
   },
   {
     "id": "1d66833c",
@@ -5682,5 +5686,34 @@
     "msg_id": 628,
     "file_id": "BAACAgEAAxkDAAICdGrcP595hE78Y6ket93g3Gv5nIbEAAJyBgAC3QPpRprHWYnOqQcVPQQ",
     "replaces": "c809276c"
+  },
+  {
+    "id": "f494b407",
+    "slot_key": "2026-10-24 08:00",
+    "slot_iso": "2026-10-24T12:00:00+00:00",
+    "slot_label": "Sat Oct 24, 8:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-kissing",
+    "category": "sexual_wellness",
+    "clip_id": "clip70",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1206274",
+      "title": "Made In Italy",
+      "creator": "Pokki DJ",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1206274/mp32/",
+      "source": "jamendo",
+      "duration_ms": 154000,
+      "page": "https://www.jamendo.com/track/1206274",
+      "genre": "dance"
+    },
+    "msg_id": 633,
+    "file_id": "BAACAgEAAxkDAAICeWrcaWEut74i_5N5JWCL51lSYeS4AALnBgAC3QPpRvE5mMTzK_7BPQQ",
+    "replaces": "aa174415"
   }
 ]
