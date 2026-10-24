@@ -1,37 +1,5 @@
 [
   {
-    "id": "11c6a9f2",
-    "slot_key": "2026-10-14 16:00",
-    "slot_iso": "2026-10-14T20:00:00+00:00",
-    "slot_label": "Wed Oct 14, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-condom-break",
-    "category": "sex_ed",
-    "clip_id": "clip01",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 10.5,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1093608",
-      "title": "Strictly Luxury",
-      "creator": "Lilly Wolf",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1093608/mp32/",
-      "source": "jamendo",
-      "duration_ms": 268000,
-      "page": "https://www.jamendo.com/track/1093608",
-      "genre": "electronic"
-    },
-    "msg_id": 159,
-    "file_id": "BAACAgEAAxkDAAOfasxFaL176tE7yt2EFBNclZR0htEAAr0HAAIGhGlGKorlD2a30Ms9BA",
-    "decided_at": "2026-10-14T05:14:25.865215+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "52ba561f"
-  },
-  {
     "id": "51cac788",
     "slot_key": "2026-10-14 19:30",
     "slot_iso": "2026-10-14T23:30:00+00:00",
@@ -480,37 +448,6 @@
     "file_id": "BAACAgEAAxkDAAPIas6n0ZT9Wqy-V7cZiQhOjoLRaYMAAj4IAAJGiXBGSgtKrgVxFMw9BA",
     "decided_at": "2026-10-16T04:56:06.961848+00:00",
     "permalink": "https://www.instagram.com/reel/Dek8CnKAP69/"
-  },
-  {
-    "id": "52ba561f",
-    "slot_key": "2026-10-14 16:00",
-    "slot_iso": "2026-10-14T20:00:00+00:00",
-    "slot_label": "Wed Oct 14, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-condom-break",
-    "category": "sex_ed",
-    "clip_id": "clip81",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 9.77,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1206517",
-      "title": "DJ Smallest - Chill",
-      "creator": "Smallest",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1206517/mp32/",
-      "source": "jamendo",
-      "duration_ms": 170000,
-      "page": "https://www.jamendo.com/track/1206517",
-      "genre": "chillout"
-    },
-    "msg_id": 205,
-    "file_id": "BAACAgEAAxkDAAPNas8P0pSAyDhX9morB8ih5LHt4JEAAtYGAAJGiXhGAAFEY1WV57atPQQ",
-    "replaces": "11c6a9f2",
-    "decided_at": "2026-10-14T05:17:24.595144+00:00",
-    "permalink": "https://www.instagram.com/reel/DefMhfXDWOO/"
   },
   {
     "id": "50bab3c1",
@@ -4285,7 +4222,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 7.8,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2290118",
       "title": "Fashion Week",
@@ -4300,7 +4237,8 @@
     },
     "msg_id": 510,
     "file_id": "BAACAgEAAxkDAAIB_mrZaRCKYFFoK_yreiGm-Kvp21cjAAJjCQACZufRRjaaIycwUShQPQQ",
-    "decided_at": "2026-10-24T13:10:38.140173+00:00"
+    "decided_at": "2026-10-24T13:10:38.140173+00:00",
+    "permalink": "https://www.instagram.com/reel/De483AalluJ/"
   },
   {
     "id": "13bd7d9a",
