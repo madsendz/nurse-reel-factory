@@ -4422,7 +4422,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 8.39,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1375003",
       "title": "White_beach",
@@ -4436,7 +4436,8 @@
       "genre": "chillout"
     },
     "msg_id": 512,
-    "file_id": "BAACAgEAAxkDAAICAAFq2WlBxRbe1w26unKc3G5KyEHu-gACZgkAAmbn0UaPwTEx9TTyfT0E"
+    "file_id": "BAACAgEAAxkDAAICAAFq2WlBxRbe1w26unKc3G5KyEHu-gACZgkAAmbn0UaPwTEx9TTyfT0E",
+    "decided_at": "2026-10-24T12:01:08.395557+00:00"
   },
   {
     "id": "a19008fb",
@@ -5670,7 +5671,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 6.83,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1440522",
       "title": "Wait",
@@ -5685,7 +5686,8 @@
     },
     "msg_id": 628,
     "file_id": "BAACAgEAAxkDAAICdGrcP595hE78Y6ket93g3Gv5nIbEAAJyBgAC3QPpRprHWYnOqQcVPQQ",
-    "replaces": "c809276c"
+    "replaces": "c809276c",
+    "decided_at": "2026-10-24T12:01:08.395557+00:00"
   },
   {
     "id": "f494b407",
@@ -5699,7 +5701,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-1206274",
       "title": "Made In Italy",
@@ -5714,6 +5716,8 @@
     },
     "msg_id": 633,
     "file_id": "BAACAgEAAxkDAAICeWrcaWEut74i_5N5JWCL51lSYeS4AALnBgAC3QPpRvE5mMTzK_7BPQQ",
-    "replaces": "aa174415"
+    "replaces": "aa174415",
+    "decided_at": "2026-10-24T12:01:08.395557+00:00",
+    "permalink": "https://www.instagram.com/reel/De4FrrPCFRx/"
   }
 ]
