@@ -4255,7 +4255,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 4.73,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1230857",
       "title": "Indios",
@@ -4270,7 +4270,8 @@
     },
     "msg_id": 509,
     "file_id": "BAACAgEAAxkDAAIB_WrZaP6LZg10drD2bKU_BXjJ03FuAAJhCQACZufRRvLAnmYhaPEMPQQ",
-    "decided_at": "2026-10-24T13:10:38.140173+00:00"
+    "decided_at": "2026-10-24T13:10:38.140173+00:00",
+    "permalink": "https://www.instagram.com/reel/De4ydAwjb6l/"
   },
   {
     "id": "4b9183b7",
