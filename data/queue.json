@@ -4282,7 +4282,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 12.33,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1931328",
       "title": "Dreaming of better days",
@@ -4296,7 +4296,11 @@
       "genre": "electronic"
     },
     "msg_id": 507,
-    "file_id": "BAACAgEAAxkDAAIB-2rZaMs8C14iNZ_5O5nftwjYaxAJAAJfCQACZufRRtdQWw-NxUDIPQQ"
+    "file_id": "BAACAgEAAxkDAAIB-2rZaMs8C14iNZ_5O5nftwjYaxAJAAJfCQACZufRRtdQWw-NxUDIPQQ",
+    "decided_at": "2026-10-24T13:03:36.095040+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "ff82fe9c"
   },
   {
     "id": "ad1e825c",
@@ -5719,5 +5723,34 @@
     "replaces": "aa174415",
     "decided_at": "2026-10-24T12:01:08.395557+00:00",
     "permalink": "https://www.instagram.com/reel/De4FrrPCFRx/"
+  },
+  {
+    "id": "ff82fe9c",
+    "slot_key": "2026-10-24 12:00",
+    "slot_iso": "2026-10-24T16:00:00+00:00",
+    "slot_label": "Sat Oct 24, 12:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-headache-myth",
+    "category": "health_bait",
+    "clip_id": "clip04",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1179546",
+      "title": "Born Free",
+      "creator": "Pokki DJ",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1179546/mp32/",
+      "source": "jamendo",
+      "duration_ms": 212000,
+      "page": "https://www.jamendo.com/track/1179546",
+      "genre": "dance"
+    },
+    "msg_id": 636,
+    "file_id": "BAACAgEAAxkDAAICfGrcrM3pL8G6O-Ouy007oQ110pqjAAKRBwAC3QPpRqKHQ5dsxLF1PQQ",
+    "replaces": "5ca568bf"
   }
 ]
