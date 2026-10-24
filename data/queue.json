@@ -1,35 +1,5 @@
 [
   {
-    "id": "be72957c",
-    "slot_key": "2026-10-14 09:30",
-    "slot_iso": "2026-10-14T13:30:00+00:00",
-    "slot_label": "Wed Oct 14, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "nw-kissing",
-    "category": "sexual_wellness",
-    "clip_id": "clip33",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 11.27,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2290117",
-      "title": "Soul Hop Music",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2290117/mp32/",
-      "source": "jamendo",
-      "duration_ms": 120000,
-      "page": "https://www.jamendo.com/track/2290117",
-      "genre": "hiphop"
-    },
-    "msg_id": 156,
-    "file_id": "BAACAgEAAxkDAAOcasxE_8KfJoR7DKNfIYD9zx3PWOIAAroHAAIGhGlG_1bAAdU8iIk9BA",
-    "decided_at": "2026-10-14T05:14:25.865215+00:00",
-    "permalink": "https://www.instagram.com/reel/Deef4KngtdB/"
-  },
-  {
     "id": "7ddcb488",
     "slot_key": "2026-10-14 11:00",
     "slot_iso": "2026-10-14T15:00:00+00:00",
@@ -4221,7 +4191,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 18.23,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-367026",
       "title": "Drink's Afterhouse",
@@ -4236,7 +4206,8 @@
     },
     "msg_id": 505,
     "file_id": "BAACAgEAAxkDAAIB-WrZaJIUpUItCAqx3KSgK4_03tQ_AAJdCQACZufRRp-eZDbjx_4ZPQQ",
-    "decided_at": "2026-10-24T05:29:57.799894+00:00"
+    "decided_at": "2026-10-24T05:29:57.799894+00:00",
+    "permalink": "https://www.instagram.com/reel/De4QF_jiAK3/"
   },
   {
     "id": "c809276c",
