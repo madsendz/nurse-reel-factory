@@ -5705,7 +5705,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 9.97,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1129271",
       "title": "Energy",
@@ -5720,6 +5720,7 @@
     },
     "msg_id": 673,
     "file_id": "BAACAgEAAxkDAAICoWrea0rMaU5gAxMXz35Qwpdcn4T1AAIKCQACFUjxRn6huIVzyiFoPQQ",
-    "replaces": "840f47a4"
+    "replaces": "840f47a4",
+    "decided_at": "2026-10-25T21:10:09.982754+00:00"
   }
 ]
