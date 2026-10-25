@@ -4548,7 +4548,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 9.4,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1931328",
       "title": "Dreaming of better days",
@@ -4562,7 +4562,8 @@
       "genre": "chillout"
     },
     "msg_id": 576,
-    "file_id": "BAACAgEAAxkDAAICQGraug8Szv5SDqZfTWoFSGlfk_JkAAL4CAACyfHYRmHyRC0rqd8pPQQ"
+    "file_id": "BAACAgEAAxkDAAICQGraug8Szv5SDqZfTWoFSGlfk_JkAAL4CAACyfHYRmHyRC0rqd8pPQQ",
+    "decided_at": "2026-10-25T20:48:30.097388+00:00"
   },
   {
     "id": "31eb2f93",
@@ -5671,7 +5672,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2037702",
       "title": "Nostalgia Drive (Lofi Hip-hop)",
@@ -5686,6 +5687,39 @@
     },
     "msg_id": 671,
     "file_id": "BAACAgEAAxkDAAICn2reap9Zdlr37wIaVjzSfw2T-rP2AAIJCQACFUjxRiDN54gl2XrnPQQ",
-    "replaces": "39332c59"
+    "replaces": "39332c59",
+    "decided_at": "2026-10-25T20:48:30.097388+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "90ba60f9"
+  },
+  {
+    "id": "90ba60f9",
+    "slot_key": "2026-10-25 19:30",
+    "slot_iso": "2026-10-25T23:30:00+00:00",
+    "slot_label": "Sun Oct 25, 7:30 PM",
+    "post_type": "regular",
+    "item_id": "pr-women-secretly-attractive",
+    "category": "sexual_wellness",
+    "clip_id": "clip69c",
+    "cta": 3,
+    "mode": "exploit",
+    "seconds": 9.97,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1129271",
+      "title": "Energy",
+      "creator": "Pokki DJ",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1129271/mp32/",
+      "source": "jamendo",
+      "duration_ms": 230000,
+      "page": "https://www.jamendo.com/track/1129271",
+      "genre": "electronic"
+    },
+    "msg_id": 673,
+    "file_id": "BAACAgEAAxkDAAICoWrea0rMaU5gAxMXz35Qwpdcn4T1AAIKCQACFUjxRn6huIVzyiFoPQQ",
+    "replaces": "840f47a4"
   }
 ]
