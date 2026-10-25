@@ -1,37 +1,5 @@
 [
   {
-    "id": "d07b5ea4",
-    "slot_key": "2026-10-15 19:30",
-    "slot_iso": "2026-10-15T23:30:00+00:00",
-    "slot_label": "Thu Oct 15, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-sleep-t",
-    "category": "mens_health",
-    "clip_id": "clip63",
-    "cta": 1,
-    "mode": "explore",
-    "seconds": 9.46,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1992651",
-      "title": "Emotional Dancing",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1992651/mp32/",
-      "source": "jamendo",
-      "duration_ms": 126000,
-      "page": "https://www.jamendo.com/track/1992651",
-      "genre": "electronic"
-    },
-    "msg_id": 174,
-    "file_id": "BAACAgEAAxkDAAOuas2nHqi5GzBXGgUalWyySr3mcmAAAlsIAAJGiWhGmc6OPIIfw749BA",
-    "decided_at": "2026-10-15T12:12:27.433343+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "9d6180b4"
-  },
-  {
     "id": "0bf74065",
     "slot_key": "2026-10-15 21:30",
     "slot_iso": "2026-10-16T01:30:00+00:00",
@@ -438,71 +406,6 @@
     },
     "msg_id": 275,
     "file_id": "BAACAgEAAxkDAAIBE2rTUAtYH-gaO7ng_DKY-Zb0Y0V2AALvBwACHBGYRr__Qh8qDD7IPQQ"
-  },
-  {
-    "id": "9d6180b4",
-    "slot_key": "2026-10-15 19:30",
-    "slot_iso": "2026-10-15T23:30:00+00:00",
-    "slot_label": "Thu Oct 15, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-sleep-t",
-    "category": "mens_health",
-    "clip_id": "clip38",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 8.88,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1547998",
-      "title": "podnebo prod. - spark | FREE BEAT | 2018 | FULL | 96bpm",
-      "creator": "podnebo prod.",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1547998/mp32/",
-      "source": "jamendo",
-      "duration_ms": 181000,
-      "page": "https://www.jamendo.com/track/1547998",
-      "genre": "trap"
-    },
-    "msg_id": 232,
-    "file_id": "BAACAgEAAxkDAAPoatDDTj2w9Jndj69QpjFFbgls3ZIAAvUHAALTC4hGYCShwP3i4Zk9BA",
-    "replaces": "d07b5ea4",
-    "feedback": [
-      "send another"
-    ],
-    "decided_at": "2026-10-15T12:24:03.618545+00:00",
-    "needs_replacement": false,
-    "replaced_by": "ee635282"
-  },
-  {
-    "id": "ee635282",
-    "slot_key": "2026-10-15 19:30",
-    "slot_iso": "2026-10-15T23:30:00+00:00",
-    "slot_label": "Thu Oct 15, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-sleep-t",
-    "category": "mens_health",
-    "clip_id": "clip38",
-    "cta": 1,
-    "mode": "note",
-    "seconds": 8.88,
-    "status": "approved",
-    "music": {
-      "id": "jamendo-1547998",
-      "title": "podnebo prod. - spark | FREE BEAT | 2018 | FULL | 96bpm",
-      "creator": "podnebo prod.",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1547998/mp32/",
-      "source": "jamendo",
-      "duration_ms": 181000,
-      "page": "https://www.jamendo.com/track/1547998",
-      "genre": "trap"
-    },
-    "msg_id": 235,
-    "file_id": "BAACAgEAAxkDAAPratDGEK5lHLyIfxHR7VDpPdgivcQAAv4HAALTC4hGO23YkWLdCjs9BA",
-    "replaces": "9d6180b4",
-    "decided_at": "2026-10-15T23:23:59.352619+00:00"
   },
   {
     "id": "cc90ee31",
@@ -5705,7 +5608,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 9.97,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1129271",
       "title": "Energy",
@@ -5721,6 +5624,7 @@
     "msg_id": 673,
     "file_id": "BAACAgEAAxkDAAICoWrea0rMaU5gAxMXz35Qwpdcn4T1AAIKCQACFUjxRn6huIVzyiFoPQQ",
     "replaces": "840f47a4",
-    "decided_at": "2026-10-25T21:10:09.982754+00:00"
+    "decided_at": "2026-10-25T21:10:09.982754+00:00",
+    "permalink": "https://www.instagram.com/reel/De75Udakcey/"
   }
 ]
