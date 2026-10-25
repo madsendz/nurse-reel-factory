@@ -1,35 +1,5 @@
 [
   {
-    "id": "7fc29b57",
-    "slot_key": "2026-10-15 16:00",
-    "slot_iso": "2026-10-15T20:00:00+00:00",
-    "slot_label": "Thu Oct 15, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "pr-fasting-bait",
-    "category": "health_bait",
-    "clip_id": "clip73",
-    "cta": 1,
-    "mode": "explore",
-    "seconds": 6.04,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1179546",
-      "title": "Born Free",
-      "creator": "Pokki DJ",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1179546/mp32/",
-      "source": "jamendo",
-      "duration_ms": 212000,
-      "page": "https://www.jamendo.com/track/1179546",
-      "genre": "electronic"
-    },
-    "msg_id": 173,
-    "file_id": "BAACAgEAAxkDAAOtas2nBfMfAqd5Ld08p08DYjcph6EAAloIAAJGiWhGlKMydPVzQLM9BA",
-    "decided_at": "2026-10-15T12:12:27.433343+00:00",
-    "permalink": "https://www.instagram.com/reel/DehxbjIlN4D/"
-  },
-  {
     "id": "d07b5ea4",
     "slot_key": "2026-10-15 19:30",
     "slot_iso": "2026-10-15T23:30:00+00:00",
@@ -4459,7 +4429,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "approved",
+    "status": "missed",
     "music": {
       "id": "jamendo-1862341",
       "title": "The Last Day Of Summer",
