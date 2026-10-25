@@ -4593,7 +4593,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 11.0,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1277462",
       "title": "Demon'mix #9 Best Of Trap Remix",
@@ -4607,7 +4607,8 @@
       "genre": "trap"
     },
     "msg_id": 570,
-    "file_id": "BAACAgEAAxkDAAICOmrauXBQ8aHyO9oXM8uJCFZR9BreAALyCAACyfHYRhh3UcXlb5BjPQQ"
+    "file_id": "BAACAgEAAxkDAAICOmrauXBQ8aHyO9oXM8uJCFZR9BreAALyCAACyfHYRhh3UcXlb5BjPQQ",
+    "decided_at": "2026-10-25T05:25:25.389679+00:00"
   },
   {
     "id": "1edcc705",
@@ -4621,7 +4622,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384092",
       "title": "Such a place!",
@@ -4635,7 +4636,8 @@
       "genre": "lounge"
     },
     "msg_id": 571,
-    "file_id": "BAACAgEAAxkDAAICO2rauY_Y_cttIhGmucbVOhUKxulcAALzCAACyfHYRrDG4pZX3T_xPQQ"
+    "file_id": "BAACAgEAAxkDAAICO2rauY_Y_cttIhGmucbVOhUKxulcAALzCAACyfHYRrDG4pZX3T_xPQQ",
+    "decided_at": "2026-10-25T05:25:25.389679+00:00"
   },
   {
     "id": "92128493",
@@ -4649,7 +4651,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1862341",
       "title": "The Last Day Of Summer",
@@ -4663,7 +4665,8 @@
       "genre": "dance"
     },
     "msg_id": 572,
-    "file_id": "BAACAgEAAxkDAAICPGrauagT6FObqzk7c5oYVoczWrLdAAL0CAACyfHYRl3qt3lCs9srPQQ"
+    "file_id": "BAACAgEAAxkDAAICPGrauagT6FObqzk7c5oYVoczWrLdAAL0CAACyfHYRl3qt3lCs9srPQQ",
+    "decided_at": "2026-10-25T05:25:25.389679+00:00"
   },
   {
     "id": "af9ccaf9",
@@ -4677,7 +4680,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.82,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1525343",
       "title": "FAS - heda",
@@ -4691,7 +4694,8 @@
       "genre": "trap"
     },
     "msg_id": 573,
-    "file_id": "BAACAgEAAxkDAAICPWraub5w0AuJZIqZ2NPZ85fB9qIsAAL1CAACyfHYRqqjRoHfG4spPQQ"
+    "file_id": "BAACAgEAAxkDAAICPWraub5w0AuJZIqZ2NPZ85fB9qIsAAL1CAACyfHYRqqjRoHfG4spPQQ",
+    "decided_at": "2026-10-25T05:25:25.389679+00:00"
   },
   {
     "id": "0fae095e",
@@ -4705,7 +4709,7 @@
     "cta": 3,
     "mode": "explore",
     "seconds": 6.63,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1367800",
       "title": "CRIZ3Y - Facepalm (VIP)",
@@ -4719,7 +4723,8 @@
       "genre": "trap"
     },
     "msg_id": 574,
-    "file_id": "BAACAgEAAxkDAAICPmraudMU7Rsfojg5ldoH0hxB_cSbAAL2CAACyfHYRtG_BAABpuX6Cj0E"
+    "file_id": "BAACAgEAAxkDAAICPmraudMU7Rsfojg5ldoH0hxB_cSbAAL2CAACyfHYRtG_BAABpuX6Cj0E",
+    "decided_at": "2026-10-25T05:25:25.389679+00:00"
   },
   {
     "id": "e1580f46",
@@ -4733,7 +4738,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-384090",
       "title": "Manta-dive",
@@ -4747,7 +4752,11 @@
       "genre": "electronic"
     },
     "msg_id": 575,
-    "file_id": "BAACAgEAAxkDAAICP2raue9vkorfv81kvLcK5tR5FXz1AAL3CAACyfHYRgYDd_26U6KVPQQ"
+    "file_id": "BAACAgEAAxkDAAICP2raue9vkorfv81kvLcK5tR5FXz1AAL3CAACyfHYRgYDd_26U6KVPQQ",
+    "decided_at": "2026-10-25T05:25:25.389679+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "39332c59"
   },
   {
     "id": "f3d362da",
@@ -5821,7 +5830,7 @@
     "cta": 3,
     "mode": "edited",
     "seconds": 9.97,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2173192",
       "title": "Summer Light Pop",
@@ -5836,6 +5845,36 @@
     },
     "msg_id": 665,
     "file_id": "BAACAgEAAxkDAAICmWrdkc6NfEqFWW5QtPRz8DHFerjFAAJvCAAC3QPxRm4Nm1AQNjKFPQQ",
-    "replaces": "e48b6a83"
+    "replaces": "e48b6a83",
+    "decided_at": "2026-10-25T05:25:25.389679+00:00"
+  },
+  {
+    "id": "39332c59",
+    "slot_key": "2026-10-25 19:30",
+    "slot_iso": "2026-10-25T23:30:00+00:00",
+    "slot_label": "Sun Oct 25, 7:30 PM",
+    "post_type": "regular",
+    "item_id": "pr-size-birth-month",
+    "category": "mens_health",
+    "clip_id": "clip06",
+    "cta": 2,
+    "mode": "exploit",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1076858",
+      "title": "Something a Little Different",
+      "creator": "TheBlackParrot",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1076858/mp32/",
+      "source": "jamendo",
+      "duration_ms": 315000,
+      "page": "https://www.jamendo.com/track/1076858",
+      "genre": "dance"
+    },
+    "msg_id": 667,
+    "file_id": "BAACAgEAAxkDAAICm2rdkvKGIdkkhMCIeTS1iX_WMMJ4AAJ1CAAC3QPxRgeLTRPwOrcgPQQ",
+    "replaces": "e1580f46"
   }
 ]
