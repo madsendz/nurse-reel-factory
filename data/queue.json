@@ -1,39 +1,5 @@
 [
   {
-    "id": "262dacc0",
-    "slot_key": "2026-10-15 09:30",
-    "slot_iso": "2026-10-15T13:30:00+00:00",
-    "slot_label": "Thu Oct 15, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "nw-wet-not-arousal",
-    "category": "sex_ed",
-    "clip_id": "clip83",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 9.17,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-2151100",
-      "title": "Deep Fashion Electronic",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2151100/mp32/",
-      "source": "jamendo",
-      "duration_ms": 112000,
-      "page": "https://www.jamendo.com/track/2151100",
-      "genre": "pop"
-    },
-    "msg_id": 170,
-    "file_id": "BAACAgEAAxkDAAOqas2mwNcHBlAdlumH1fjhW1ViF9sAAlYIAAJGiWhGhk2d3CO-MWI9BA",
-    "feedback": [
-      "new one"
-    ],
-    "decided_at": "2026-10-15T12:04:30.740811+00:00",
-    "needs_replacement": false,
-    "replaced_by": "0b0db0b1"
-  },
-  {
     "id": "84b42051",
     "slot_key": "2026-10-15 11:00",
     "slot_iso": "2026-10-15T15:00:00+00:00",
@@ -570,37 +536,6 @@
     },
     "msg_id": 275,
     "file_id": "BAACAgEAAxkDAAIBE2rTUAtYH-gaO7ng_DKY-Zb0Y0V2AALvBwACHBGYRr__Qh8qDD7IPQQ"
-  },
-  {
-    "id": "0b0db0b1",
-    "slot_key": "2026-10-15 09:30",
-    "slot_iso": "2026-10-15T13:30:00+00:00",
-    "slot_label": "Thu Oct 15, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "nw-wet-not-arousal",
-    "category": "sex_ed",
-    "clip_id": "clip83",
-    "cta": 1,
-    "mode": "note",
-    "seconds": 9.17,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2151100",
-      "title": "Deep Fashion Electronic",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2151100/mp32/",
-      "source": "jamendo",
-      "duration_ms": 112000,
-      "page": "https://www.jamendo.com/track/2151100",
-      "genre": "pop"
-    },
-    "msg_id": 223,
-    "file_id": "BAACAgEAAxkDAAPfatDBfkFZEdDJwjmMc1Uh1zdWka4AAusHAALTC4hGz-gQixJLTj89BA",
-    "replaces": "262dacc0",
-    "decided_at": "2026-10-15T12:07:09.229097+00:00",
-    "permalink": "https://www.instagram.com/reel/DehEr2Pj756/"
   },
   {
     "id": "77e0ede5",
