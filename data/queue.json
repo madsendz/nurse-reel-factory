@@ -4525,14 +4525,14 @@
     "slot_key": "2026-10-25 09:30",
     "slot_iso": "2026-10-25T13:30:00+00:00",
     "slot_label": "Sun Oct 25, 9:30 AM",
-    "post_type": "regular",
+    "post_type": "trial",
     "item_id": "pr-avg-man-normal",
     "category": "sex_ed",
     "clip_id": "clip69a",
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384173",
       "title": "Mind drifting back (Leaving paradise)",
@@ -4546,7 +4546,8 @@
       "genre": "electronic"
     },
     "msg_id": 568,
-    "file_id": "BAACAgEAAxkDAAICOGrauSPda2XNa_OVNE1Uh31yrXtxAALvCAACyfHYRski3iA-KkJ8PQQ"
+    "file_id": "BAACAgEAAxkDAAICOGrauSPda2XNa_OVNE1Uh31yrXtxAALvCAACyfHYRski3iA-KkJ8PQQ",
+    "decided_at": "2026-10-25T05:20:34.955766+00:00"
   },
   {
     "id": "e48b6a83",
@@ -4560,7 +4561,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 9.97,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2173192",
       "title": "Summer Light Pop",
@@ -4574,7 +4575,11 @@
       "genre": "lounge"
     },
     "msg_id": 569,
-    "file_id": "BAACAgEAAxkDAAICOWrauTvNirEtn6CshGPtvYwFlasSAALxCAACyfHYRvyqFW23s_ZRPQQ"
+    "file_id": "BAACAgEAAxkDAAICOWrauTvNirEtn6CshGPtvYwFlasSAALxCAACyfHYRvyqFW23s_ZRPQQ",
+    "decided_at": "2026-10-25T05:20:34.955766+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "53bade00"
   },
   {
     "id": "4b78ba0d",
@@ -5803,5 +5808,34 @@
     },
     "msg_id": 660,
     "file_id": "BAACAgEAAxkDAAIClGrdWMIrNyg1qI-zm9_niiInxt3VAALlBwAC3QPxRt4AAVMUTjVckT0E"
+  },
+  {
+    "id": "53bade00",
+    "slot_key": "2026-10-25 11:00",
+    "slot_iso": "2026-10-25T15:00:00+00:00",
+    "slot_label": "Sun Oct 25, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "pr-harden-foods",
+    "category": "mens_health",
+    "clip_id": "clip69c",
+    "cta": 3,
+    "mode": "edited",
+    "seconds": 9.97,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2173192",
+      "title": "Summer Light Pop",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2173192/mp32/",
+      "source": "jamendo",
+      "duration_ms": 118000,
+      "page": "https://www.jamendo.com/track/2173192",
+      "genre": "lounge"
+    },
+    "msg_id": 665,
+    "file_id": "BAACAgEAAxkDAAICmWrdkc6NfEqFWW5QtPRz8DHFerjFAAJvCAAC3QPxRm4Nm1AQNjKFPQQ",
+    "replaces": "e48b6a83"
   }
 ]
