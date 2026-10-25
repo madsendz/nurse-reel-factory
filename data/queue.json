@@ -1,37 +1,5 @@
 [
   {
-    "id": "f98a9326",
-    "slot_key": "2026-10-14 21:30",
-    "slot_iso": "2026-10-15T01:30:00+00:00",
-    "slot_label": "Wed Oct 14, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-frequency-age",
-    "category": "sexual_wellness",
-    "clip_id": "clip82",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 9.6,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1093613",
-      "title": "Disaster",
-      "creator": "Lilly Wolf",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1093613/mp32/",
-      "source": "jamendo",
-      "duration_ms": 269000,
-      "page": "https://www.jamendo.com/track/1093613",
-      "genre": "dance"
-    },
-    "msg_id": 161,
-    "file_id": "BAACAgEAAxkDAAOhasxFrXCA9NpBTYsJ1cWuYoFu6_UAAr8HAAIGhGlGtfYVl4TP5Mc9BA",
-    "decided_at": "2026-10-14T05:18:23.227212+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "f3d39a5f"
-  },
-  {
     "id": "262dacc0",
     "slot_key": "2026-10-15 09:30",
     "slot_iso": "2026-10-15T13:30:00+00:00",
@@ -414,37 +382,6 @@
     "file_id": "BAACAgEAAxkDAAPIas6n0ZT9Wqy-V7cZiQhOjoLRaYMAAj4IAAJGiXBGSgtKrgVxFMw9BA",
     "decided_at": "2026-10-16T04:56:06.961848+00:00",
     "permalink": "https://www.instagram.com/reel/Dek8CnKAP69/"
-  },
-  {
-    "id": "f3d39a5f",
-    "slot_key": "2026-10-14 21:30",
-    "slot_iso": "2026-10-15T01:30:00+00:00",
-    "slot_label": "Wed Oct 14, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-small-normal",
-    "category": "mens_health",
-    "clip_id": "clip82",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 9.6,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1320534",
-      "title": "Neith",
-      "creator": "CyberSDF",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1320534/mp32/",
-      "source": "jamendo",
-      "duration_ms": 269000,
-      "page": "https://www.jamendo.com/track/1320534",
-      "genre": "trap"
-    },
-    "msg_id": 210,
-    "file_id": "BAACAgEAAxkDAAPSas8QzVL4rWYKHBA0TRQ7FYwleysAAtsGAAJGiXhGR5fBiVCZTo49BA",
-    "replaces": "f98a9326",
-    "decided_at": "2026-10-14T13:30:49.278643+00:00",
-    "permalink": "https://www.instagram.com/reel/DefyUWAgF2C/"
   },
   {
     "id": "12d77068",
@@ -4218,7 +4155,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 6.9,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1207848",
       "title": "I Can Be Myself",
@@ -4233,7 +4170,8 @@
     },
     "msg_id": 513,
     "file_id": "BAACAgEAAxkDAAICAWrZaVerGFbp1bdICmZyREvIk1aWAAJnCQACZufRRtV16lwj-batPQQ",
-    "decided_at": "2026-10-24T15:01:10.010372+00:00"
+    "decided_at": "2026-10-24T15:01:10.010372+00:00",
+    "permalink": "https://www.instagram.com/reel/De5ibF9DK44/"
   },
   {
     "id": "654752c5",
