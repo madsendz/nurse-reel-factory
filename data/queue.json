@@ -1,39 +1,5 @@
 [
   {
-    "id": "84b42051",
-    "slot_key": "2026-10-15 11:00",
-    "slot_iso": "2026-10-15T15:00:00+00:00",
-    "slot_label": "Thu Oct 15, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-refractory",
-    "category": "sex_ed",
-    "clip_id": "clip60",
-    "cta": 1,
-    "mode": "explore",
-    "seconds": 5.46,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-2037757",
-      "title": "Density (Background Ambient Techno)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037757/mp32/",
-      "source": "jamendo",
-      "duration_ms": 272000,
-      "page": "https://www.jamendo.com/track/2037757",
-      "genre": "dance"
-    },
-    "msg_id": 171,
-    "file_id": "BAACAgEAAxkDAAOras2m17I-CL9nawJiy7tKZ9hXITsAAlgIAAJGiWhG41EdlfBB4lM9BA",
-    "feedback": [
-      "try again"
-    ],
-    "decided_at": "2026-10-15T12:07:09.229097+00:00",
-    "needs_replacement": false,
-    "replaced_by": "77e0ede5"
-  },
-  {
     "id": "1f58bad1",
     "slot_key": "2026-10-15 13:00",
     "slot_iso": "2026-10-15T17:00:00+00:00",
@@ -536,36 +502,6 @@
     },
     "msg_id": 275,
     "file_id": "BAACAgEAAxkDAAIBE2rTUAtYH-gaO7ng_DKY-Zb0Y0V2AALvBwACHBGYRr__Qh8qDD7IPQQ"
-  },
-  {
-    "id": "77e0ede5",
-    "slot_key": "2026-10-15 11:00",
-    "slot_iso": "2026-10-15T15:00:00+00:00",
-    "slot_label": "Thu Oct 15, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-refractory",
-    "category": "sex_ed",
-    "clip_id": "clip60",
-    "cta": 1,
-    "mode": "note",
-    "seconds": 5.46,
-    "status": "approved",
-    "music": {
-      "id": "jamendo-2037757",
-      "title": "Density (Background Ambient Techno)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037757/mp32/",
-      "source": "jamendo",
-      "duration_ms": 272000,
-      "page": "https://www.jamendo.com/track/2037757",
-      "genre": "dance"
-    },
-    "msg_id": 226,
-    "file_id": "BAACAgEAAxkDAAPiatDCBNiRKrXFr4H5d-cqxG_exqgAAu0HAALTC4hGo18abQts-jk9BA",
-    "replaces": "84b42051",
-    "decided_at": "2026-10-15T12:24:03.618545+00:00"
   },
   {
     "id": "3ce98b41",
@@ -4468,7 +4404,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.0,
-    "status": "approved",
+    "status": "missed",
     "music": {
       "id": "jamendo-384173",
       "title": "Mind drifting back (Leaving paradise)",
