@@ -6,16 +6,16 @@ Judged reels: **52** · score = link clicks first, then views/shares/saves
 
 | Score | Type | Clicks | Views | Shares | Topic | Clip | Posted |
 |---|---|---|---|---|---|---|---|
-| +1.78 | trial | 318.5 | 998345 | 34474 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
-| +1.76 | trial | 598.6 | 818312 | 98 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
+| +1.78 | trial | 318.4 | 998388 | 34474 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
+| +1.76 | trial | 598.6 | 818317 | 98 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
 | +1.46 | trial | 1289.0 | 22675 | 3 | [nw-orgasm-gap](https://www.instagram.com/reel/Dek8CnKAP69/) | clip04 | 2026-10-17 |
 | +1.36 | trial | 471.2 | 340136 | 36 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
 | +1.22 | trial | 1424.8 | 4119 | 0 | [pr-birth-control-ranked](https://www.instagram.com/reel/DeVfCTLiVdi/) | clip64 | 2026-10-11 |
-| +1.10 | regular | 1417.0 | 48922 | 71 | [nw-cardio-erections](https://www.instagram.com/reel/DeUkq0XEyxf/) | clip32 | 2026-10-10 |
-| +1.03 | regular | 1782.8 | 32473 | 25 | [nw-kegels-women](https://www.instagram.com/reel/DeVRSdgkS2G/) | clip42 | 2026-10-10 |
+| +1.10 | regular | 1417.0 | 48929 | 71 | [nw-cardio-erections](https://www.instagram.com/reel/DeUkq0XEyxf/) | clip32 | 2026-10-10 |
+| +1.03 | regular | 1782.8 | 32475 | 25 | [nw-kegels-women](https://www.instagram.com/reel/DeVRSdgkS2G/) | clip42 | 2026-10-10 |
 | +0.92 | regular | 387.2 | 172437 | 855 | [pr-stamina-foods](https://www.instagram.com/reel/Dedc32xDs80/) | clip26 | 2026-10-14 |
 | +0.67 | trial | 362.5 | 16108 | 5 | [nw-condom-break](https://www.instagram.com/reel/DefMhfXDWOO/) | clip81 | 2026-10-14 |
-| +0.56 | regular | 322.1 | 325690 | 30 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DepLNJwAM45/) | clip21 | 2026-10-18 |
+| +0.56 | regular | 322.1 | 325696 | 30 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DepLNJwAM45/) | clip21 | 2026-10-18 |
 
 ## Hook styles
 
@@ -26,7 +26,7 @@ Judged reels: **52** · score = link clicks first, then views/shares/saves
 | stat_reveal | +0.20 | 2 |
 | hack_steps | +0.19 | 5 |
 | what_they_dont_tell | -0.15 | 14 |
-| average_man_thinks | -0.18 | 13 |
+| average_man_thinks | -0.17 | 13 |
 | bait_reveal | -0.20 | 1 |
 | warning_sign | -0.23 | 1 |
 | stat_men | -0.24 | 5 |
@@ -39,7 +39,7 @@ Judged reels: **52** · score = link clicks first, then views/shares/saves
 | sex_ed | +0.16 | 14 |
 | anatomy | +0.03 | 1 |
 | sexual_wellness | -0.12 | 13 |
-| mens_health | -0.13 | 23 |
+| mens_health | -0.14 | 23 |
 | health_bait | -0.20 | 1 |
 
 ## Clips
