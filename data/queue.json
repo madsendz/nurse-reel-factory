@@ -4503,7 +4503,7 @@
     "cta": 5,
     "mode": "explore",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1871345",
       "title": "TP4",
@@ -4517,7 +4517,8 @@
       "genre": "trap"
     },
     "msg_id": 567,
-    "file_id": "BAACAgEAAxkDAAICN2rauQSCQu8xRBV6wbnbg9p8_La-AALtCAACyfHYRmQHCKmbDrSJPQQ"
+    "file_id": "BAACAgEAAxkDAAICN2rauQSCQu8xRBV6wbnbg9p8_La-AALtCAACyfHYRmQHCKmbDrSJPQQ",
+    "decided_at": "2026-10-25T05:13:09.490771+00:00"
   },
   {
     "id": "44e82d61",
