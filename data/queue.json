@@ -5638,7 +5638,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1076858",
       "title": "Something a Little Different",
@@ -5653,6 +5653,39 @@
     },
     "msg_id": 667,
     "file_id": "BAACAgEAAxkDAAICm2rdkvKGIdkkhMCIeTS1iX_WMMJ4AAJ1CAAC3QPxRgeLTRPwOrcgPQQ",
-    "replaces": "e1580f46"
+    "replaces": "e1580f46",
+    "decided_at": "2026-10-25T20:45:46.126035+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "840f47a4"
+  },
+  {
+    "id": "840f47a4",
+    "slot_key": "2026-10-25 19:30",
+    "slot_iso": "2026-10-25T23:30:00+00:00",
+    "slot_label": "Sun Oct 25, 7:30 PM",
+    "post_type": "regular",
+    "item_id": "pr-women-secretly-attractive",
+    "category": "sexual_wellness",
+    "clip_id": "clip06",
+    "cta": 3,
+    "mode": "exploit",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2037702",
+      "title": "Nostalgia Drive (Lofi Hip-hop)",
+      "creator": "Moonwalk",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2037702/mp32/",
+      "source": "jamendo",
+      "duration_ms": 294000,
+      "page": "https://www.jamendo.com/track/2037702",
+      "genre": "hiphop"
+    },
+    "msg_id": 671,
+    "file_id": "BAACAgEAAxkDAAICn2reap9Zdlr37wIaVjzSfw2T-rP2AAIJCQACFUjxRiDN54gl2XrnPQQ",
+    "replaces": "39332c59"
   }
 ]
