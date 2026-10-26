@@ -1,35 +1,5 @@
 [
   {
-    "id": "dd0389d9",
-    "slot_key": "2026-10-16 16:00",
-    "slot_iso": "2026-10-16T20:00:00+00:00",
-    "slot_label": "Fri Oct 16, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-headache-myth",
-    "category": "health_bait",
-    "clip_id": "clip79",
-    "cta": 1,
-    "mode": "explore",
-    "seconds": 11.13,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2176699",
-      "title": "Relax Chill Lofi",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2176699/mp32/",
-      "source": "jamendo",
-      "duration_ms": 106000,
-      "page": "https://www.jamendo.com/track/2176699",
-      "genre": "rnb"
-    },
-    "msg_id": 198,
-    "file_id": "BAACAgEAAxkDAAPGas6nkNH2y4w-JTc4ir20t0bEt_gAAjoIAAJGiXBGVdZU5N5fSTA9BA",
-    "decided_at": "2026-10-16T04:45:30.643300+00:00",
-    "permalink": "https://www.instagram.com/reel/DekWO-JCF-I/"
-  },
-  {
     "id": "5e55d12e",
     "slot_key": "2026-10-16 19:30",
     "slot_iso": "2026-10-16T23:30:00+00:00",
@@ -4727,7 +4697,7 @@
     "cta": 4,
     "mode": "exploit",
     "seconds": 7.67,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2037757",
       "title": "Density (Background Ambient Techno)",
@@ -4742,7 +4712,8 @@
     },
     "msg_id": 619,
     "file_id": "BAACAgEAAxkDAAICa2rcC-Q69r5WkqjaaubB4_bAc0iiAALdCQAC3QPhRs5to_AmsDPiPQQ",
-    "decided_at": "2026-10-26T14:53:19.645591+00:00"
+    "decided_at": "2026-10-26T14:53:19.645591+00:00",
+    "permalink": "https://www.instagram.com/reel/De-GZS3Aivh/"
   },
   {
     "id": "ee0d2cf3",
