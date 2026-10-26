@@ -1657,7 +1657,7 @@ items:
   - it tends to hit 10-15 years earlier than in other men
   - high sugar damages the tiny nerves and vessels down there
   caption: Erection trouble is often the first sign blood sugar has been high for a while. Get it checked, not ignored.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-use-it-or-lose-it
   category: mens_health
@@ -1668,7 +1668,7 @@ items:
   - without regular erections the tissue can scar and lose length
   - that's why urologists push 'rehab' after prostate surgery
   caption: Regular erections keep the tissue healthy. Long stretches without them can cause scarring and shortening — a real reason to treat ED early.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-belly-fat-t
   category: mens_health
@@ -1679,7 +1679,7 @@ items:
   - a bigger waist is linked to lower T levels
   - losing the gut can raise it back up naturally
   caption: Fat tissue contains aromatase, the enzyme that converts testosterone to estrogen. Waist size and T levels move in opposite directions.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-t-shots-fertility
   category: mens_health
@@ -1690,7 +1690,7 @@ items:
   - sperm count can drop to near zero in months
   - it can take a year or more to come back
   caption: Testosterone therapy shuts down the signal that tells the testicles to make sperm. Anyone wanting kids later needs to know this first.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-steroids-shrink
   category: mens_health
@@ -1701,7 +1701,7 @@ items:
   - sperm count can crash
   - some of it may never fully come back
   caption: Anabolic steroids switch off natural testosterone production, so the testicles shrink and sperm production can stall for a long time.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-sperm-per-second
   category: mens_health
@@ -1712,7 +1712,7 @@ items:
   - over 100 million a day
   - but each one takes around 2-3 months to grow
   caption: The testicles produce roughly 1,500 sperm a second, yet each one takes about 74 days to mature. Today's habits show up months from now.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-male-bio-clock
   category: mens_health
@@ -1723,7 +1723,7 @@ items:
   - DNA damage in sperm rises with age
   - it can take longer to get a partner pregnant
   caption: Men's fertility declines too — sperm DNA fragmentation increases with age and conception takes longer on average after 40.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-gum-disease-ed
   category: mens_health
@@ -1734,7 +1734,7 @@ items:
   - both come from the same thing: inflamed blood vessels
   - flossing is weirdly good for your love life
   caption: Multiple studies link chronic gum disease to a higher rate of ED — both are tied to inflammation and blood-vessel damage.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-shoe-size-myth
   category: mens_health
@@ -1745,7 +1745,7 @@ items:
   - result: zero connection
   - same for hand size and height
   caption: Researchers measured feet and length in over 100 men and found no link at all. Shoe size tells you nothing.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-testicular-cancer-young
   category: mens_health
@@ -1756,7 +1756,7 @@ items:
   - it's usually a painless lump
   - caught early it's about 95% curable
   caption: Testicular cancer mostly hits young men and is highly curable when found early. Monthly self-checks matter.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-orgasm-headache
   category: mens_health
@@ -1767,7 +1767,7 @@ items:
   - about 1 in 100 people get it, mostly men
   - a sudden 'thunderclap' one = go to the ER
   caption: Orgasm headaches are a real diagnosis. Most are harmless, but a sudden severe one needs to be checked right away.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-death-during
   category: health_bait
@@ -1778,7 +1778,7 @@ items:
   - almost all cases are men
   - most happened outside their regular relationship
   caption: Sudden cardiac death during sex is very rare. Autopsy studies show it's mostly older men and often not with their usual partner.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-orgasm-pain-relief
   category: sexual_wellness
@@ -1789,7 +1789,7 @@ items:
   - it can ease cramps and migraines for some
   - the brain releases its own painkillers
   caption: Lab studies found pain thresholds rise dramatically during orgasm. It's a natural painkiller.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-ssri-libido
   category: sexual_wellness
@@ -1800,7 +1800,7 @@ items:
   - up to half of people on them notice it
   - there are options, talk to your doctor, don't just quit
   caption: Sexual side effects from SSRIs are very common — lower desire, trouble finishing. Dose changes or switching can help; never stop suddenly.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-bleeding-after
   category: sexual_wellness
@@ -1811,7 +1811,7 @@ items:
   - common causes: infection, cervical polyps, dryness
   - rarely it's an early sign of cervical cancer
   caption: Post-sex bleeding usually has a simple cause, but it's one of the early signs of cervical cancer — get it looked at.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-painful-sex-stat
   category: sexual_wellness
@@ -1822,7 +1822,7 @@ items:
   - for many it's ongoing and they never mention it
   - it's treatable, it's not 'just how it is'
   caption: ACOG says nearly 75% of women have pain during intercourse at some point. It's common, treatable, and worth bringing up.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-bv-not-sti
   category: sexual_wellness
@@ -1833,7 +1833,7 @@ items:
   - fishy smell, thin grey discharge
   - douching and scented soaps raise the risk
   caption: BV is the most common vaginal infection and it's an imbalance, not an STI. Skip the douching — it makes it worse.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-lube-osmolality
   category: sexual_wellness
@@ -1844,7 +1844,7 @@ items:
   - they pull water out of the tissue and irritate it
   - look for water-based, iso-osmotic, glycerin-free
   caption: Hyperosmolar lubes dry out and damage the tissue lining, which can raise infection risk. The WHO recommends lower-osmolality formulas.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-condom-size
   category: sex_ed
@@ -1855,7 +1855,7 @@ items:
   - too tight = more breaks, too loose = slips off
   - measure once, then buy your size
   caption: Condoms come in different widths. The wrong size is a top reason they break or slip — measure and match.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-plan-b-weight
   category: sex_ed
@@ -1866,7 +1866,7 @@ items:
   - ella (prescription) works better at higher weights
   - the copper IUD is the most effective option of all
   caption: Some research shows levonorgestrel pills lose effectiveness at higher body weights. Ella or a copper IUD are stronger options — ask a pharmacist.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-chlamydia-silent
   category: sex_ed
@@ -1877,7 +1877,7 @@ items:
   - untreated it can scar the tubes and cause infertility
   - one urine test, one round of antibiotics, done
   caption: Most chlamydia infections are silent, and untreated ones can cause permanent fertility damage. Testing is simple.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-throat-sti
   category: sex_ed
@@ -1888,7 +1888,7 @@ items:
   - throat infections usually have zero symptoms
   - a standard urine test won't catch them, ask for a swab
   caption: Oral sex spreads STIs too, and throat infections are usually symptom-free. Ask for a throat swab when you test.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-hpv-throat-cancer
   category: sex_ed
@@ -1899,7 +1899,7 @@ items:
   - men get HPV throat cancer far more than women
   - the vaccine is approved up to age 45
   caption: In the US, HPV-related throat cancers now outnumber cervical cancers, mostly in men. The vaccine is approved through age 45.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-herpes-no-sores
   category: sex_ed
@@ -1910,7 +1910,7 @@ items:
   - it's called asymptomatic shedding
   - daily antivirals cut the risk a lot
   caption: Herpes spreads most often when there are no symptoms at all. Daily suppressive therapy and condoms lower the risk.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-syphilis-surge
   category: sex_ed
@@ -1921,7 +1921,7 @@ items:
   - the first sign is a painless sore that heals on its own
   - it's curable with one shot if caught early
   caption: US syphilis cases are the highest since the 1950s. The first sore is painless and disappears, so people miss it — get tested.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-trich-common
   category: sex_ed
@@ -1932,7 +1932,7 @@ items:
   - about 70% of people have no symptoms
   - standard STI panels often don't include it, ask
   caption: Trich is the most common curable STI and usually silent. It's not on every test panel — ask for it specifically.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-vasectomy-vs-tubal
   category: sex_ed
@@ -1943,7 +1943,7 @@ items:
   - tying her tubes: real surgery, higher risk, more cost
   - yet tubals outnumber vasectomies in the US
   caption: Vasectomy is faster, safer and cheaper than tubal ligation, yet far more women get sterilized than men.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-eggs-at-birth
   category: anatomy
@@ -1954,7 +1954,7 @@ items:
   - about 300,000 left by puberty
   - only ~400 ever get released
   caption: Unlike men, women don't make new eggs. The supply is set at birth and shrinks for life — only a few hundred are ever ovulated.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-endometriosis
   category: sexual_wellness
@@ -1965,7 +1965,7 @@ items:
   - it takes 7-10 years on average to get diagnosed
   - painful periods and painful deep s*x are red flags
   caption: Endometriosis affects about 1 in 10 women and takes nearly a decade to diagnose on average. Severe period pain is not normal.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-pcos
   category: sexual_wellness
@@ -1976,7 +1976,7 @@ items:
   - irregular periods, acne, extra hair, weight gain
   - it's the #1 cause of infertility in women, and it's treatable
   caption: PCOS affects roughly 1 in 10 women and up to 70% are undiagnosed. It's the leading cause of female infertility, and very manageable.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-hot-flash-years
   category: sexual_wellness
@@ -1987,7 +1987,7 @@ items:
   - some women get them for a decade+
   - there are real treatments, you don't have to suffer through it
   caption: The SWAN study found hot flashes last a median of 7.4 years. Hormone and non-hormone treatments exist — ask.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-pelvic-floor-pe
   category: mens_health
@@ -1998,7 +1998,7 @@ items:
   - 'step 2: 10 reps, 3 times a day'
   - 'step 3: in a study 8 out of 10 men lasted longer after 12 weeks'
   caption: A 12-week pelvic floor program helped about 80% of men with lifelong premature ejaculation last significantly longer. No pills.
-  status: active
+  status: review
   prior: 0.0
 - id: nw-stretching-bait
   category: health_bait
@@ -2010,7 +2010,7 @@ items:
   - it protects your joints as you age
   - wait... what did you think this was about? 😳
   caption: STRETCHING. this post is about stretching 😁 follow if your mind went somewhere else
-  status: active
+  status: review
   prior: 0.0
 - id: nw-cold-shower-bait
   category: health_bait
@@ -2022,7 +2022,7 @@ items:
   - it may boost your mood for hours
   - it's a COLD SHOWER. what did you think? 🚿
   caption: yes this is about cold showers 🚿 give me a follow if you thought something else 😁
-  status: active
+  status: review
   prior: 0.0
 - id: nw-sunlight-bait
   category: health_bait
@@ -2034,7 +2034,7 @@ items:
   - it lifts your mood
   - "'it' = a 15 minute walk in the sun 🚶"
   caption: walking. outside. in the sun. that's it 😁 follow if you thought this was something else
-  status: active
+  status: review
   prior: 0.0
 - id: nw-laughing-bait
   category: health_bait
@@ -2046,5 +2046,5 @@ items:
   - it boosts your immune system
   - we're talking about LAUGHING 😂
   caption: laughing together. that's the secret 😂 follow if you had a different idea
-  status: active
+  status: review
   prior: 0.0
