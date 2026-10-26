@@ -4818,7 +4818,7 @@
     "cta": 4,
     "mode": "exploit",
     "seconds": 7.67,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037757",
       "title": "Density (Background Ambient Techno)",
@@ -4832,7 +4832,8 @@
       "genre": "dance"
     },
     "msg_id": 619,
-    "file_id": "BAACAgEAAxkDAAICa2rcC-Q69r5WkqjaaubB4_bAc0iiAALdCQAC3QPhRs5to_AmsDPiPQQ"
+    "file_id": "BAACAgEAAxkDAAICa2rcC-Q69r5WkqjaaubB4_bAc0iiAALdCQAC3QPhRs5to_AmsDPiPQQ",
+    "decided_at": "2026-10-26T14:53:19.645591+00:00"
   },
   {
     "id": "ee0d2cf3",
@@ -6005,7 +6006,7 @@
     "cta": 5,
     "mode": "explore",
     "seconds": 7.59,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1922534",
       "title": "Luxury Hip-Hop",
@@ -6020,6 +6021,39 @@
     },
     "msg_id": 704,
     "file_id": "BAACAgEAAxkDAAICwGrfZ0b6u93QIAwpmPsvPYtJsRm2AAIVCAACFUj5RhO6J-9VrCUsPQQ",
-    "replaces": "a2d09b9e"
+    "replaces": "a2d09b9e",
+    "decided_at": "2026-10-26T14:53:19.645591+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "47cb267b"
+  },
+  {
+    "id": "47cb267b",
+    "slot_key": "2026-10-26 21:30",
+    "slot_iso": "2026-10-27T01:30:00+00:00",
+    "slot_label": "Mon Oct 26, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-plan-b-weight",
+    "category": "sex_ed",
+    "clip_id": "clip30",
+    "cta": 3,
+    "mode": "explore",
+    "seconds": 7.59,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1525343",
+      "title": "FAS - heda",
+      "creator": "FAS",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1525343/mp32/",
+      "source": "jamendo",
+      "duration_ms": 165000,
+      "page": "https://www.jamendo.com/track/1525343",
+      "genre": "trap"
+    },
+    "msg_id": 706,
+    "file_id": "BAACAgEAAxkDAAICwmrfaXwyV7QrLBdDdLXiwHCOUycGAAIdCAACFUj5RsSHnVer81VbPQQ",
+    "replaces": "0276c40c"
   }
 ]
