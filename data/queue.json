@@ -4733,7 +4733,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 11.3,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2037702",
       "title": "Nostalgia Drive (Lofi Hip-hop)",
@@ -4747,7 +4747,11 @@
       "genre": "lounge"
     },
     "msg_id": 613,
-    "file_id": "BAACAgEAAxkDAAICZWrcC14MbmXniYA7R82ig7eBd1NPAALUCQAC3QPhRm7hvV0_mjiNPQQ"
+    "file_id": "BAACAgEAAxkDAAICZWrcC14MbmXniYA7R82ig7eBd1NPAALUCQAC3QPhRm7hvV0_mjiNPQQ",
+    "decided_at": "2026-10-26T01:41:03.288935+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "e7b8ece6"
   },
   {
     "id": "669b2cd7",
@@ -5849,5 +5853,34 @@
     },
     "msg_id": 684,
     "file_id": "BAACAgEAAxkDAAICrGreqPjQsU3bV654hObNe1fbAAHTygACiAkAAhVI8UblYI1mMXPWoT0E"
+  },
+  {
+    "id": "e7b8ece6",
+    "slot_key": "2026-10-26 08:00",
+    "slot_iso": "2026-10-26T12:00:00+00:00",
+    "slot_label": "Mon Oct 26, 8:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-pee-after",
+    "category": "sexual_wellness",
+    "clip_id": "clip51",
+    "cta": 2,
+    "mode": "exploit",
+    "seconds": 11.3,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1922534",
+      "title": "Luxury Hip-Hop",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1922534/mp32/",
+      "source": "jamendo",
+      "duration_ms": 131000,
+      "page": "https://www.jamendo.com/track/1922534",
+      "genre": "hiphop"
+    },
+    "msg_id": 687,
+    "file_id": "BAACAgEAAxkDAAICr2rer9xnqPrAkd69JdR85doU3Zc9AAKUCQACFUjxRhD2gAYFSKdnPQQ",
+    "replaces": "e1e12bf1"
   }
 ]
