@@ -5903,7 +5903,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 11.3,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2036899",
       "title": "Lofi Soul Chill RnB",
@@ -5922,7 +5922,8 @@
     "decided_at": "2026-10-26T05:13:48.375505+00:00",
     "redo": "text_edit",
     "needs_replacement": false,
-    "replaced_by": "386b0b10"
+    "replaced_by": "386b0b10",
+    "permalink": "https://www.instagram.com/reel/De9PdlnjqOO/"
   },
   {
     "id": "f2b5ff1c",
