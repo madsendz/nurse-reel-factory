@@ -5999,7 +5999,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.9,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -6014,6 +6014,39 @@
     },
     "msg_id": 698,
     "file_id": "BAACAgEAAxkDAAICumrfS-RO1eCYnUFWZvT8OuAVjaudAALnBwACFUj5RuXyy0vZPIlwPQQ",
-    "replaces": "669b2cd7"
+    "replaces": "669b2cd7",
+    "decided_at": "2026-10-26T12:56:27.265588+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "bc27a29f"
+  },
+  {
+    "id": "bc27a29f",
+    "slot_key": "2026-10-26 09:30",
+    "slot_iso": "2026-10-26T13:30:00+00:00",
+    "slot_label": "Mon Oct 26, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-a-spot",
+    "category": "anatomy",
+    "clip_id": "clip16",
+    "cta": 0,
+    "mode": "edited",
+    "seconds": 6.9,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1892348",
+      "title": "Georgetown Cafe",
+      "creator": "Popoi",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1892348/mp32/",
+      "source": "jamendo",
+      "duration_ms": 148000,
+      "page": "https://www.jamendo.com/track/1892348",
+      "genre": "hiphop"
+    },
+    "msg_id": 700,
+    "file_id": "BAACAgEAAxkDAAICvGrfThbpyLyeMKL_PMWmjVCLfd_nAALuBwACFUj5Ruoucly1HmI4PQQ",
+    "replaces": "970bcb7a"
   }
 ]
