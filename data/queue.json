@@ -4793,7 +4793,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 7.35,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1471214",
       "title": "Igor Sensor - Argo",
@@ -4807,7 +4807,11 @@
       "genre": "lounge"
     },
     "msg_id": 615,
-    "file_id": "BAACAgEAAxkDAAICZ2rcC4es7_tVnrjD5Cls6BNykwjPAALXCQAC3QPhRhu4SNscW0HlPQQ"
+    "file_id": "BAACAgEAAxkDAAICZ2rcC4es7_tVnrjD5Cls6BNykwjPAALXCQAC3QPhRhu4SNscW0HlPQQ",
+    "decided_at": "2026-10-26T01:48:58.731388+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "f2b5ff1c"
   },
   {
     "id": "9945d4e9",
@@ -5899,7 +5903,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 11.3,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2036899",
       "title": "Lofi Soul Chill RnB",
@@ -5914,6 +5918,68 @@
     },
     "msg_id": 690,
     "file_id": "BAACAgEAAxkDAAICsmresSqpYxBc9xJb5W6RGfHT7-wIAAKXCQACFUjxRpQ16tXghlezPQQ",
-    "replaces": "e7b8ece6"
+    "replaces": "e7b8ece6",
+    "decided_at": "2026-10-26T01:48:58.731388+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "386b0b10"
+  },
+  {
+    "id": "f2b5ff1c",
+    "slot_key": "2026-10-26 11:00",
+    "slot_iso": "2026-10-26T15:00:00+00:00",
+    "slot_label": "Mon Oct 26, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-pee-after",
+    "category": "sexual_wellness",
+    "clip_id": "clip35",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 7.35,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1363926",
+      "title": "Drake- Still Here instrumental (reprod. J Blanked On This Beat)",
+      "creator": "JBlanked",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1363926/mp32/",
+      "source": "jamendo",
+      "duration_ms": 241000,
+      "page": "https://www.jamendo.com/track/1363926",
+      "genre": "trap"
+    },
+    "msg_id": 694,
+    "file_id": "BAACAgEAAxkDAAICtmresagXMvkW9LsduMvs2J_Or7V3AAKZCQACFUjxRpkNORb1_GzKPQQ",
+    "replaces": "2e3cce5b"
+  },
+  {
+    "id": "386b0b10",
+    "slot_key": "2026-10-26 08:00",
+    "slot_iso": "2026-10-26T12:00:00+00:00",
+    "slot_label": "Mon Oct 26, 8:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-foreplay-time",
+    "category": "sexual_wellness",
+    "clip_id": "clip51",
+    "cta": 0,
+    "mode": "edited",
+    "seconds": 11.3,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2036899",
+      "title": "Lofi Soul Chill RnB",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2036899/mp32/",
+      "source": "jamendo",
+      "duration_ms": 140000,
+      "page": "https://www.jamendo.com/track/2036899",
+      "genre": "hiphop"
+    },
+    "msg_id": 695,
+    "file_id": "BAACAgEAAxkDAAICt2resb10dCYdvmyANx2oHL8yF0dsAAKaCQACFUjxRmCozCGOiWdGPQQ",
+    "replaces": "8fac3ba4"
   }
 ]
