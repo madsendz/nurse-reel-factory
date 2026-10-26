@@ -4727,7 +4727,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2304778",
       "title": "Middle of the Night",
@@ -4741,7 +4741,11 @@
       "genre": "rnb"
     },
     "msg_id": 620,
-    "file_id": "BAACAgEAAxkDAAICbGrcC_9cnVZxzMmPga41SE13CwoSAALeCQAC3QPhRjExztFrB9ikPQQ"
+    "file_id": "BAACAgEAAxkDAAICbGrcC_9cnVZxzMmPga41SE13CwoSAALeCQAC3QPhRjExztFrB9ikPQQ",
+    "decided_at": "2026-10-26T20:20:20.944125+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "59093460"
   },
   {
     "id": "e7f83243",
@@ -5936,5 +5940,34 @@
     "msg_id": 706,
     "file_id": "BAACAgEAAxkDAAICwmrfaXwyV7QrLBdDdLXiwHCOUycGAAIdCAACFUj5RsSHnVer81VbPQQ",
     "replaces": "0276c40c"
+  },
+  {
+    "id": "59093460",
+    "slot_key": "2026-10-26 17:30",
+    "slot_iso": "2026-10-26T21:30:00+00:00",
+    "slot_label": "Mon Oct 26, 5:30 PM",
+    "post_type": "trial",
+    "item_id": "pr-make-noise",
+    "category": "sexual_wellness",
+    "clip_id": "clip18",
+    "cta": 5,
+    "mode": "exploit",
+    "seconds": 6.8,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1917024",
+      "title": "Dorila y Mello",
+      "creator": "Popoi",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1917024/mp32/",
+      "source": "jamendo",
+      "duration_ms": 165000,
+      "page": "https://www.jamendo.com/track/1917024",
+      "genre": "hiphop"
+    },
+    "msg_id": 714,
+    "file_id": "BAACAgEAAxkDAAICymrftilXQL624_DhvFeKS60BOlMpAAI-CgACKfsBRzIyFwjL-GrzPQQ",
+    "replaces": "ee0d2cf3"
   }
 ]
