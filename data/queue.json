@@ -4759,7 +4759,7 @@
     "cta": 4,
     "mode": "exploit",
     "seconds": 9.77,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1403270",
       "title": "Just laugh at it",
@@ -4773,7 +4773,8 @@
       "genre": "rnb"
     },
     "msg_id": 621,
-    "file_id": "BAACAgEAAxkDAAICbWrcDBU5ZnrRFpzaxaFizOekig0wAALfCQAC3QPhRgKwTkJphqAYPQQ"
+    "file_id": "BAACAgEAAxkDAAICbWrcDBU5ZnrRFpzaxaFizOekig0wAALfCQAC3QPhRgKwTkJphqAYPQQ",
+    "decided_at": "2026-10-26T21:31:20.783373+00:00"
   },
   {
     "id": "a2d09b9e",
@@ -5924,7 +5925,7 @@
     "cta": 3,
     "mode": "explore",
     "seconds": 7.59,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1525343",
       "title": "FAS - heda",
@@ -5939,7 +5940,8 @@
     },
     "msg_id": 706,
     "file_id": "BAACAgEAAxkDAAICwmrfaXwyV7QrLBdDdLXiwHCOUycGAAIdCAACFUj5RsSHnVer81VbPQQ",
-    "replaces": "0276c40c"
+    "replaces": "0276c40c",
+    "decided_at": "2026-10-26T21:31:20.783373+00:00"
   },
   {
     "id": "59093460",
@@ -5953,7 +5955,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 6.8,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1917024",
       "title": "Dorila y Mello",
@@ -5968,6 +5970,7 @@
     },
     "msg_id": 714,
     "file_id": "BAACAgEAAxkDAAICymrftilXQL624_DhvFeKS60BOlMpAAI-CgACKfsBRzIyFwjL-GrzPQQ",
-    "replaces": "ee0d2cf3"
+    "replaces": "ee0d2cf3",
+    "decided_at": "2026-10-26T21:31:20.783373+00:00"
   }
 ]
