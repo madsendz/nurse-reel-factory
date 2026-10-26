@@ -1,39 +1,5 @@
 [
   {
-    "id": "4b50fb3f",
-    "slot_key": "2026-10-16 11:00",
-    "slot_iso": "2026-10-16T15:00:00+00:00",
-    "slot_label": "Fri Oct 16, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-sperm-five-days",
-    "category": "sex_ed",
-    "clip_id": "clip23",
-    "cta": 1,
-    "mode": "explore",
-    "seconds": 10.03,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1961617",
-      "title": "Memoirs",
-      "creator": "John Vanick",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1961617/mp32/",
-      "source": "jamendo",
-      "duration_ms": 341000,
-      "page": "https://www.jamendo.com/track/1961617",
-      "genre": "dance"
-    },
-    "msg_id": 196,
-    "file_id": "BAACAgEAAxkDAAPEas6nV1LXieewOzCTLiatHA92ehsAAjcIAAJGiXBG3aUmz9xGAqk9BA",
-    "feedback": [
-      "wrong points need to fix"
-    ],
-    "decided_at": "2026-10-15T23:23:59.352619+00:00",
-    "needs_replacement": false,
-    "replaced_by": "cc90ee31"
-  },
-  {
     "id": "f5e6619e",
     "slot_key": "2026-10-16 13:00",
     "slot_iso": "2026-10-16T17:00:00+00:00",
@@ -342,36 +308,6 @@
     },
     "msg_id": 275,
     "file_id": "BAACAgEAAxkDAAIBE2rTUAtYH-gaO7ng_DKY-Zb0Y0V2AALvBwACHBGYRr__Qh8qDD7IPQQ"
-  },
-  {
-    "id": "cc90ee31",
-    "slot_key": "2026-10-16 11:00",
-    "slot_iso": "2026-10-16T15:00:00+00:00",
-    "slot_label": "Fri Oct 16, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-sperm-five-days",
-    "category": "sex_ed",
-    "clip_id": "clip23",
-    "cta": 1,
-    "mode": "note",
-    "seconds": 10.03,
-    "status": "approved",
-    "music": {
-      "id": "jamendo-1961617",
-      "title": "Memoirs",
-      "creator": "John Vanick",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1961617/mp32/",
-      "source": "jamendo",
-      "duration_ms": 341000,
-      "page": "https://www.jamendo.com/track/1961617",
-      "genre": "dance"
-    },
-    "msg_id": 238,
-    "file_id": "BAACAgEAAxkDAAPuatFgtPZTMeOFnLnidlK5-O4J52IAAicJAALTC5BGWnMJzjZOyf09BA",
-    "replaces": "4b50fb3f",
-    "decided_at": "2026-10-16T04:56:06.961848+00:00"
   },
   {
     "id": "efdc0905",
@@ -5851,7 +5787,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 7.35,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1363926",
       "title": "Drake- Still Here instrumental (reprod. J Blanked On This Beat)",
@@ -5867,7 +5803,8 @@
     "msg_id": 694,
     "file_id": "BAACAgEAAxkDAAICtmresagXMvkW9LsduMvs2J_Or7V3AAKZCQACFUjxRpkNORb1_GzKPQQ",
     "replaces": "2e3cce5b",
-    "decided_at": "2026-10-26T13:30:57.992206+00:00"
+    "decided_at": "2026-10-26T13:30:57.992206+00:00",
+    "permalink": "https://www.instagram.com/reel/De9j8rZIE6h/"
   },
   {
     "id": "386b0b10",
@@ -5976,7 +5913,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 6.9,
-    "status": "approved",
+    "status": "missed",
     "music": {
       "id": "jamendo-1331970",
       "title": "Faith",
