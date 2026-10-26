@@ -4765,7 +4765,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 6.8,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1405870",
       "title": "808 BASS BEAT",
@@ -4779,7 +4779,11 @@
       "genre": "rnb"
     },
     "msg_id": 614,
-    "file_id": "BAACAgEAAxkDAAICZmrcC3KcOMoMIf78bLrjx7S0u7bDAALWCQAC3QPhRtoVPe02vUVtPQQ"
+    "file_id": "BAACAgEAAxkDAAICZmrcC3KcOMoMIf78bLrjx7S0u7bDAALWCQAC3QPhRtoVPe02vUVtPQQ",
+    "decided_at": "2026-10-26T12:47:03.680466+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "970bcb7a"
   },
   {
     "id": "2e3cce5b",
@@ -5982,5 +5986,34 @@
     "msg_id": 695,
     "file_id": "BAACAgEAAxkDAAICt2resb10dCYdvmyANx2oHL8yF0dsAAKaCQACFUjxRmCozCGOiWdGPQQ",
     "replaces": "8fac3ba4"
+  },
+  {
+    "id": "970bcb7a",
+    "slot_key": "2026-10-26 09:30",
+    "slot_iso": "2026-10-26T13:30:00+00:00",
+    "slot_label": "Mon Oct 26, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-a-spot",
+    "category": "anatomy",
+    "clip_id": "clip16",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 6.9,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1892348",
+      "title": "Georgetown Cafe",
+      "creator": "Popoi",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1892348/mp32/",
+      "source": "jamendo",
+      "duration_ms": 148000,
+      "page": "https://www.jamendo.com/track/1892348",
+      "genre": "hiphop"
+    },
+    "msg_id": 698,
+    "file_id": "BAACAgEAAxkDAAICumrfS-RO1eCYnUFWZvT8OuAVjaudAALnBwACFUj5RuXyy0vZPIlwPQQ",
+    "replaces": "669b2cd7"
   }
 ]
