@@ -5955,7 +5955,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 6.8,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1917024",
       "title": "Dorila y Mello",
@@ -5971,6 +5971,7 @@
     "msg_id": 714,
     "file_id": "BAACAgEAAxkDAAICymrftilXQL624_DhvFeKS60BOlMpAAI-CgACKfsBRzIyFwjL-GrzPQQ",
     "replaces": "ee0d2cf3",
-    "decided_at": "2026-10-26T21:31:20.783373+00:00"
+    "decided_at": "2026-10-26T21:31:20.783373+00:00",
+    "permalink": "https://www.instagram.com/reel/De-c932jsa1/"
   }
 ]
