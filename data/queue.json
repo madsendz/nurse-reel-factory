@@ -4902,7 +4902,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 7.59,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1856950",
       "title": "RnB Chill Trap",
@@ -4916,7 +4916,11 @@
       "genre": "rnb"
     },
     "msg_id": 622,
-    "file_id": "BAACAgEAAxkDAAICbmrcDCsAAXQVqvxQzfPoMUPPh0lsdwAC4AkAAt0D4UabOeo_5J1YMj0E"
+    "file_id": "BAACAgEAAxkDAAICbmrcDCsAAXQVqvxQzfPoMUPPh0lsdwAC4AkAAt0D4UabOeo_5J1YMj0E",
+    "decided_at": "2026-10-26T14:43:53.441436+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "0276c40c"
   },
   {
     "id": "aa174415",
@@ -5988,5 +5992,34 @@
     "file_id": "BAACAgEAAxkDAAICvmrfToE4pGDh0XMSTZUmy_Sk9l_CAALwBwACFUj5RqMNagABCOdcaT0E",
     "replaces": "bc27a29f",
     "decided_at": "2026-10-26T13:30:57.992206+00:00"
+  },
+  {
+    "id": "0276c40c",
+    "slot_key": "2026-10-26 21:30",
+    "slot_iso": "2026-10-27T01:30:00+00:00",
+    "slot_label": "Mon Oct 26, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-painful-sex-stat",
+    "category": "sexual_wellness",
+    "clip_id": "clip30",
+    "cta": 5,
+    "mode": "explore",
+    "seconds": 7.59,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1922534",
+      "title": "Luxury Hip-Hop",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1922534/mp32/",
+      "source": "jamendo",
+      "duration_ms": 131000,
+      "page": "https://www.jamendo.com/track/1922534",
+      "genre": "hiphop"
+    },
+    "msg_id": 704,
+    "file_id": "BAACAgEAAxkDAAICwGrfZ0b6u93QIAwpmPsvPYtJsRm2AAIVCAACFUj5RhO6J-9VrCUsPQQ",
+    "replaces": "a2d09b9e"
   }
 ]
