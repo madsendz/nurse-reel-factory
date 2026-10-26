@@ -6032,7 +6032,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 6.9,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -6047,6 +6047,39 @@
     },
     "msg_id": 700,
     "file_id": "BAACAgEAAxkDAAICvGrfThbpyLyeMKL_PMWmjVCLfd_nAALuBwACFUj5Ruoucly1HmI4PQQ",
-    "replaces": "970bcb7a"
+    "replaces": "970bcb7a",
+    "decided_at": "2026-10-26T12:58:08.438067+00:00",
+    "redo": "swap_music",
+    "needs_replacement": false,
+    "replaced_by": "20df4490"
+  },
+  {
+    "id": "20df4490",
+    "slot_key": "2026-10-26 09:30",
+    "slot_iso": "2026-10-26T13:30:00+00:00",
+    "slot_label": "Mon Oct 26, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-a-spot",
+    "category": "anatomy",
+    "clip_id": "clip16",
+    "cta": 0,
+    "mode": "edited",
+    "seconds": 6.9,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1331970",
+      "title": "Faith",
+      "creator": "Neon NiteClub",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1331970/mp32/",
+      "source": "jamendo",
+      "duration_ms": 248000,
+      "page": "https://www.jamendo.com/track/1331970",
+      "genre": "pop"
+    },
+    "msg_id": 702,
+    "file_id": "BAACAgEAAxkDAAICvmrfToE4pGDh0XMSTZUmy_Sk9l_CAALwBwACFUj5RqMNagABCOdcaT0E",
+    "replaces": "bc27a29f"
   }
 ]
