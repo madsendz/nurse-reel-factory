@@ -1,37 +1,5 @@
 [
   {
-    "id": "5e55d12e",
-    "slot_key": "2026-10-16 19:30",
-    "slot_iso": "2026-10-16T23:30:00+00:00",
-    "slot_label": "Fri Oct 16, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "pr-bigger-positions",
-    "category": "sexual_wellness",
-    "clip_id": "clip18",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 7.5,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1182292",
-      "title": "Spasm",
-      "creator": "Suedey",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1182292/mp32/",
-      "source": "jamendo",
-      "duration_ms": 208000,
-      "page": "https://www.jamendo.com/track/1182292",
-      "genre": "hiphop"
-    },
-    "msg_id": 199,
-    "file_id": "BAACAgEAAxkDAAPHas6nrDNRBBVQkiZ3MqJ1Tib7Ga0AAjsIAAJGiXBGBLP94wmV2zw9BA",
-    "decided_at": "2026-10-16T14:54:56.324764+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "37021f2c"
-  },
-  {
     "id": "0cab6861",
     "slot_key": "2026-10-16 21:30",
     "slot_iso": "2026-10-17T01:30:00+00:00",
@@ -439,35 +407,6 @@
     "file_id": "BAACAgEAAxkDAAIBGmrTUJEfR4kAAVEqZwAB1ahCIvCaq9sAAvYHAAIcEZhGzN14kwe2BYs9BA",
     "decided_at": "2026-10-18T15:01:09.747162+00:00",
     "permalink": "https://www.instagram.com/reel/DeqGD-uDXzA/"
-  },
-  {
-    "id": "37021f2c",
-    "slot_key": "2026-10-16 19:30",
-    "slot_iso": "2026-10-16T23:30:00+00:00",
-    "slot_label": "Fri Oct 16, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "pr-bigger-positions",
-    "category": "sexual_wellness",
-    "clip_id": "clip30",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 7.59,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-384095",
-      "title": "Like King Cool in a sunbed",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384095/mp32/",
-      "source": "jamendo",
-      "duration_ms": 289000,
-      "page": "https://www.jamendo.com/track/384095",
-      "genre": "pop"
-    },
-    "msg_id": 257,
-    "file_id": "BAACAgEAAxkDAAIBAWrSOwLobHJCIBviD6k4StsSgObjAAJCCAACHBGQRiXRxnmqGgypPQQ",
-    "replaces": "5e55d12e"
   },
   {
     "id": "a84537a3",
