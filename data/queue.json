@@ -5159,7 +5159,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 6.23,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -5173,7 +5173,11 @@
       "genre": "electronic"
     },
     "msg_id": 659,
-    "file_id": "BAACAgEAAxkDAAICk2rdWKaKjc1V5e_8YYHuY_JW6cxOAALjBwAC3QPxRpqynOkHGsLdPQQ"
+    "file_id": "BAACAgEAAxkDAAICk2rdWKaKjc1V5e_8YYHuY_JW6cxOAALjBwAC3QPxRpqynOkHGsLdPQQ",
+    "decided_at": "2026-10-27T13:03:22.181313+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "dfb407fc"
   },
   {
     "id": "7ce9c745",
@@ -6328,5 +6332,34 @@
     "msg_id": 741,
     "file_id": "BAACAgEAAxkDAAIC5WrglMjULWxzqIFqkN7gjCb92-B4AAKoBwACKfsJR775_SXEP2AcPQQ",
     "replaces": "f96673e3"
+  },
+  {
+    "id": "dfb407fc",
+    "slot_key": "2026-10-27 19:30",
+    "slot_iso": "2026-10-27T23:30:00+00:00",
+    "slot_label": "Tue Oct 27, 7:30 PM",
+    "post_type": "regular",
+    "item_id": "nw-pelvic-floor-pe",
+    "category": "mens_health",
+    "clip_id": "clip52",
+    "cta": 3,
+    "mode": "explore",
+    "seconds": 6.23,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1182292",
+      "title": "Spasm",
+      "creator": "Suedey",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1182292/mp32/",
+      "source": "jamendo",
+      "duration_ms": 208000,
+      "page": "https://www.jamendo.com/track/1182292",
+      "genre": "hiphop"
+    },
+    "msg_id": 744,
+    "file_id": "BAACAgEAAxkDAAIC6GrgoTpUruGVpBXC6E1ik3C4ZNeuAALCBwACKfsJR6Xg-5P4Y0BNPQQ",
+    "replaces": "0c235265"
   }
 ]
