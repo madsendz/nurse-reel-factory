@@ -4919,7 +4919,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 9.17,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1267753",
       "title": "Ghosts",
@@ -4933,7 +4933,8 @@
       "genre": "electronic"
     },
     "msg_id": 651,
-    "file_id": "BAACAgEAAxkDAAICi2rdVur4K2-fi45-3yabVMnlnOQPAALWBwAC3QPxRrJKKes9C1jFPQQ"
+    "file_id": "BAACAgEAAxkDAAICi2rdVur4K2-fi45-3yabVMnlnOQPAALWBwAC3QPxRrJKKes9C1jFPQQ",
+    "decided_at": "2026-10-27T02:19:00.339380+00:00"
   },
   {
     "id": "6db670a3",
@@ -4947,7 +4948,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2173154",
       "title": "Coffee Lounge",
@@ -4961,7 +4962,11 @@
       "genre": "lounge"
     },
     "msg_id": 652,
-    "file_id": "BAACAgEAAxkDAAICjGrdVwbAkvh2vBOw-2DtrlF-IUIVAALXBwAC3QPxRpWZAd4IFTTqPQQ"
+    "file_id": "BAACAgEAAxkDAAICjGrdVwbAkvh2vBOw-2DtrlF-IUIVAALXBwAC3QPxRpWZAd4IFTTqPQQ",
+    "decided_at": "2026-10-27T02:19:00.339380+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "332cdd7f"
   },
   {
     "id": "1546da56",
@@ -5995,5 +6000,34 @@
     },
     "msg_id": 723,
     "file_id": "BAACAgEAAxkDAAIC02rgByY1wk1J_t3VTSFUoVv0Zy__AAImCwACKfsBR7ja0lEe9WaFPQQ"
+  },
+  {
+    "id": "332cdd7f",
+    "slot_key": "2026-10-27 09:30",
+    "slot_iso": "2026-10-27T13:30:00+00:00",
+    "slot_label": "Tue Oct 27, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-birth-control-ranked",
+    "category": "sex_ed",
+    "clip_id": "clip75",
+    "cta": 3,
+    "mode": "exploit",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1922534",
+      "title": "Luxury Hip-Hop",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1922534/mp32/",
+      "source": "jamendo",
+      "duration_ms": 131000,
+      "page": "https://www.jamendo.com/track/1922534",
+      "genre": "rnb"
+    },
+    "msg_id": 726,
+    "file_id": "BAACAgEAAxkDAAIC1mrgCjz15wlElZoBHjjAYWShxdVaAAItCwACKfsBR0f7eUaoc9mEPQQ",
+    "replaces": "6db670a3"
   }
 ]

@@ -503,7 +503,6 @@ clips:
     w: 0.62
     h: 0.045
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -662,6 +661,7 @@ clips:
       - 0.388
       - 0.309
   duration: 12.33
+  title_y: 0.81
 - id: clip05
   drive_id: 1VwkeHzCyYF0mZGLtlIIvsHA-QnjeEqN-
   name: Facetune7F2ADC8A-421A-46AA-B579-0EF5E2E4AB39.MOV
