@@ -1,35 +1,5 @@
 [
   {
-    "id": "0cab6861",
-    "slot_key": "2026-10-16 21:30",
-    "slot_iso": "2026-10-17T01:30:00+00:00",
-    "slot_label": "Fri Oct 16, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-orgasm-gap",
-    "category": "sex_ed",
-    "clip_id": "clip04",
-    "cta": 1,
-    "mode": "explore",
-    "seconds": 12.33,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-367026",
-      "title": "Drink's Afterhouse",
-      "creator": "Felixjd",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/367026/mp32/",
-      "source": "jamendo",
-      "duration_ms": 404000,
-      "page": "https://www.jamendo.com/track/367026",
-      "genre": "dance"
-    },
-    "msg_id": 200,
-    "file_id": "BAACAgEAAxkDAAPIas6n0ZT9Wqy-V7cZiQhOjoLRaYMAAj4IAAJGiXBGSgtKrgVxFMw9BA",
-    "decided_at": "2026-10-16T04:56:06.961848+00:00",
-    "permalink": "https://www.instagram.com/reel/Dek8CnKAP69/"
-  },
-  {
     "id": "12d77068",
     "slot_key": "2026-10-17 09:30",
     "slot_iso": "2026-10-17T13:30:00+00:00",
@@ -5864,7 +5834,7 @@
     "cta": 3,
     "mode": "explore",
     "seconds": 7.59,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1525343",
       "title": "FAS - heda",
@@ -5880,7 +5850,8 @@
     "msg_id": 706,
     "file_id": "BAACAgEAAxkDAAICwmrfaXwyV7QrLBdDdLXiwHCOUycGAAIdCAACFUj5RsSHnVer81VbPQQ",
     "replaces": "0276c40c",
-    "decided_at": "2026-10-26T21:31:20.783373+00:00"
+    "decided_at": "2026-10-26T21:31:20.783373+00:00",
+    "permalink": "https://www.instagram.com/reel/De-sAstD0Dd/"
   },
   {
     "id": "59093460",
