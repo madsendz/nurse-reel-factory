@@ -1,39 +1,5 @@
 [
   {
-    "id": "9760e235",
-    "slot_key": "2026-10-17 11:00",
-    "slot_iso": "2026-10-17T15:00:00+00:00",
-    "slot_label": "Sat Oct 17, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "pr-avg-man-normal",
-    "category": "sex_ed",
-    "clip_id": "clip40",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 10.17,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1206274",
-      "title": "Made In Italy",
-      "creator": "Pokki DJ",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1206274/mp32/",
-      "source": "jamendo",
-      "duration_ms": 154000,
-      "page": "https://www.jamendo.com/track/1206274",
-      "genre": "dance"
-    },
-    "msg_id": 215,
-    "file_id": "BAACAgEAAxkDAAPXatAsYlTsJazqq9QzYocOQ19LQwADqwgAAtMLgEaJMGbgAAEv0Z09BA",
-    "feedback": [
-      "number 1 should say this: “lasting 20 minutes”"
-    ],
-    "decided_at": "2026-10-17T04:02:13.314829+00:00",
-    "needs_replacement": false,
-    "replaced_by": "e600b21a"
-  },
-  {
     "id": "42d3422c",
     "slot_key": "2026-10-17 13:00",
     "slot_iso": "2026-10-17T17:00:00+00:00",
@@ -535,39 +501,6 @@
     "permalink": "https://www.instagram.com/reel/Desqb3RkR2_/"
   },
   {
-    "id": "e600b21a",
-    "slot_key": "2026-10-17 11:00",
-    "slot_iso": "2026-10-17T15:00:00+00:00",
-    "slot_label": "Sat Oct 17, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "pr-avg-man-normal",
-    "category": "sex_ed",
-    "clip_id": "clip40",
-    "cta": 0,
-    "mode": "note",
-    "seconds": 10.17,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1206274",
-      "title": "Made In Italy",
-      "creator": "Pokki DJ",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1206274/mp32/",
-      "source": "jamendo",
-      "duration_ms": 154000,
-      "page": "https://www.jamendo.com/track/1206274",
-      "genre": "dance"
-    },
-    "msg_id": 290,
-    "file_id": "BAACAgEAAxkDAAIBImrTUTukHeTu2GgNd0RzVblf61YYAAIBCAACHBGYRrQK-u3WN_bCPQQ",
-    "replaces": "9760e235",
-    "decided_at": "2026-10-17T11:20:47.374315+00:00",
-    "redo": "text_edit",
-    "needs_replacement": false,
-    "replaced_by": "bd6a4995"
-  },
-  {
     "id": "5731bb67",
     "slot_key": "2026-10-17 16:00",
     "slot_iso": "2026-10-17T20:00:00+00:00",
@@ -599,37 +532,6 @@
     "redo": "new_clip",
     "needs_replacement": false,
     "replaced_by": "8449aac3"
-  },
-  {
-    "id": "bd6a4995",
-    "slot_key": "2026-10-17 11:00",
-    "slot_iso": "2026-10-17T15:00:00+00:00",
-    "slot_label": "Sat Oct 17, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "pr-avg-man-normal",
-    "category": "sex_ed",
-    "clip_id": "clip40",
-    "cta": 0,
-    "mode": "edited",
-    "seconds": 10.17,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1206274",
-      "title": "Made In Italy",
-      "creator": "Pokki DJ",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1206274/mp32/",
-      "source": "jamendo",
-      "duration_ms": 154000,
-      "page": "https://www.jamendo.com/track/1206274",
-      "genre": "dance"
-    },
-    "msg_id": 294,
-    "file_id": "BAACAgEAAxkDAAIBJmrTWix13SGJrYijPxuqKlqBkXg-AAIOCAACHBGYRlba-F4JJ580PQQ",
-    "replaces": "e600b21a",
-    "decided_at": "2026-10-17T11:25:47.728024+00:00",
-    "permalink": "https://www.instagram.com/reel/DemYnnKk5d3/"
   },
   {
     "id": "8449aac3",
@@ -4918,7 +4820,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 11.13,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1206274",
       "title": "Made In Italy",
@@ -4933,7 +4835,8 @@
     },
     "msg_id": 653,
     "file_id": "BAACAgEAAxkDAAICjWrdV32SZq2VqDKlRir78QWPFGPbAALaBwAC3QPxRrDlsFImietYPQQ",
-    "decided_at": "2026-10-27T12:08:42.186057+00:00"
+    "decided_at": "2026-10-27T12:08:42.186057+00:00",
+    "permalink": "https://www.instagram.com/reel/DfAIpEVFXGV/"
   },
   {
     "id": "2904a2ce",
