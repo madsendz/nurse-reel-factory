@@ -4919,7 +4919,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 9.17,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1267753",
       "title": "Ghosts",
@@ -4934,7 +4934,8 @@
     },
     "msg_id": 651,
     "file_id": "BAACAgEAAxkDAAICi2rdVur4K2-fi45-3yabVMnlnOQPAALWBwAC3QPxRrJKKes9C1jFPQQ",
-    "decided_at": "2026-10-27T02:19:00.339380+00:00"
+    "decided_at": "2026-10-27T02:19:00.339380+00:00",
+    "permalink": "https://www.instagram.com/reel/De_0twgikXo/"
   },
   {
     "id": "6db670a3",
@@ -4980,7 +4981,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 11.13,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1206274",
       "title": "Made In Italy",
@@ -4994,7 +4995,8 @@
       "genre": "dance"
     },
     "msg_id": 653,
-    "file_id": "BAACAgEAAxkDAAICjWrdV32SZq2VqDKlRir78QWPFGPbAALaBwAC3QPxRrDlsFImietYPQQ"
+    "file_id": "BAACAgEAAxkDAAICjWrdV32SZq2VqDKlRir78QWPFGPbAALaBwAC3QPxRrDlsFImietYPQQ",
+    "decided_at": "2026-10-27T12:08:42.186057+00:00"
   },
   {
     "id": "2904a2ce",
@@ -5008,7 +5010,7 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 6.13,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1395053",
       "title": "Ninu - I feel this",
@@ -5022,7 +5024,8 @@
       "genre": "trap"
     },
     "msg_id": 654,
-    "file_id": "BAACAgEAAxkDAAICjmrdV9C9hpAPJ1w5oej27daVIMYVAALbBwAC3QPxRoHHja77uylbPQQ"
+    "file_id": "BAACAgEAAxkDAAICjmrdV9C9hpAPJ1w5oej27daVIMYVAALbBwAC3QPxRoHHja77uylbPQQ",
+    "decided_at": "2026-10-27T12:08:42.186057+00:00"
   },
   {
     "id": "768f89ee",
@@ -5036,7 +5039,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 8.13,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1342479",
       "title": "Breathe",
@@ -5050,7 +5053,11 @@
       "genre": "hiphop"
     },
     "msg_id": 655,
-    "file_id": "BAACAgEAAxkDAAICj2rdV-9Fn1rF5n517c4IW6CMlk9oAALdBwAC3QPxRlqRFZZifzxgPQQ"
+    "file_id": "BAACAgEAAxkDAAICj2rdV-9Fn1rF5n517c4IW6CMlk9oAALdBwAC3QPxRlqRFZZifzxgPQQ",
+    "decided_at": "2026-10-27T12:08:42.186057+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "61468920"
   },
   {
     "id": "f96673e3",
@@ -5064,7 +5071,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 8.4,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1931328",
       "title": "Dreaming of better days",
@@ -5078,7 +5085,11 @@
       "genre": "chillout"
     },
     "msg_id": 656,
-    "file_id": "BAACAgEAAxkDAAICkGrdWBCfZcEzMMzaa4XibshfT93NAALeBwAC3QPxRkhyAAEv1GhNZj0E"
+    "file_id": "BAACAgEAAxkDAAICkGrdWBCfZcEzMMzaa4XibshfT93NAALeBwAC3QPxRkhyAAEv1GhNZj0E",
+    "decided_at": "2026-10-27T12:08:42.186057+00:00",
+    "redo": "never_topic",
+    "needs_replacement": false,
+    "replaced_by": "fe25e6e0"
   },
   {
     "id": "53ef77cc",
@@ -6242,7 +6253,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 6.17,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037627",
       "title": "We Made It (Soft Drum And Bass)",
@@ -6257,6 +6268,65 @@
     },
     "msg_id": 736,
     "file_id": "BAACAgEAAxkDAAIC4GrgkKYME-AmxvBMsH2y11ENM42TAAKXBwACKfsJR9WU7e_xjqd7PQQ",
-    "replaces": "332cdd7f"
+    "replaces": "332cdd7f",
+    "decided_at": "2026-10-27T12:08:42.186057+00:00"
+  },
+  {
+    "id": "61468920",
+    "slot_key": "2026-10-27 13:00",
+    "slot_iso": "2026-10-27T17:00:00+00:00",
+    "slot_label": "Tue Oct 27, 1:00 PM",
+    "post_type": "regular",
+    "item_id": "nw-chlamydia-silent",
+    "category": "sex_ed",
+    "clip_id": "clip50",
+    "cta": 3,
+    "mode": "exploit",
+    "seconds": 8.13,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-384095",
+      "title": "Like King Cool in a sunbed",
+      "creator": "K4MMERER",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/384095/mp32/",
+      "source": "jamendo",
+      "duration_ms": 289000,
+      "page": "https://www.jamendo.com/track/384095",
+      "genre": "pop"
+    },
+    "msg_id": 740,
+    "file_id": "BAACAgEAAxkDAAIC5GrglLAuoRCLalr-IISJEcOm882OAAKnBwACKfsJR8VKFlRP4wlwPQQ",
+    "replaces": "768f89ee"
+  },
+  {
+    "id": "fe25e6e0",
+    "slot_key": "2026-10-27 14:30",
+    "slot_iso": "2026-10-27T18:30:00+00:00",
+    "slot_label": "Tue Oct 27, 2:30 PM",
+    "post_type": "trial",
+    "item_id": "pr-size-birth-month",
+    "category": "mens_health",
+    "clip_id": "clip68",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 8.4,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1547998",
+      "title": "podnebo prod. - spark | FREE BEAT | 2018 | FULL | 96bpm",
+      "creator": "podnebo prod.",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1547998/mp32/",
+      "source": "jamendo",
+      "duration_ms": 181000,
+      "page": "https://www.jamendo.com/track/1547998",
+      "genre": "trap"
+    },
+    "msg_id": 741,
+    "file_id": "BAACAgEAAxkDAAIC5WrglMjULWxzqIFqkN7gjCb92-B4AAKoBwACKfsJR775_SXEP2AcPQQ",
+    "replaces": "f96673e3"
   }
 ]
