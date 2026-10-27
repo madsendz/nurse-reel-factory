@@ -6013,7 +6013,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1922534",
       "title": "Luxury Hip-Hop",
@@ -6028,7 +6028,11 @@
     },
     "msg_id": 726,
     "file_id": "BAACAgEAAxkDAAIC1mrgCjz15wlElZoBHjjAYWShxdVaAAItCwACKfsBR0f7eUaoc9mEPQQ",
-    "replaces": "6db670a3"
+    "replaces": "6db670a3",
+    "decided_at": "2026-10-27T11:52:43.647530+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "3eb60775"
   },
   {
     "id": "57e6cc83",
@@ -6225,5 +6229,34 @@
     },
     "msg_id": 733,
     "file_id": "BAACAgEAAxkDAAIC3WrgEGrbs5JdOcWpin_oVjrgq998AAJDCwACKfsBR51GCBE1luuHPQQ"
+  },
+  {
+    "id": "3eb60775",
+    "slot_key": "2026-10-27 09:30",
+    "slot_iso": "2026-10-27T13:30:00+00:00",
+    "slot_label": "Tue Oct 27, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-birth-control-ranked",
+    "category": "sex_ed",
+    "clip_id": "clip58",
+    "cta": 3,
+    "mode": "exploit",
+    "seconds": 6.17,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2037627",
+      "title": "We Made It (Soft Drum And Bass)",
+      "creator": "Moonwalk",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2037627/mp32/",
+      "source": "jamendo",
+      "duration_ms": 223000,
+      "page": "https://www.jamendo.com/track/2037627",
+      "genre": "electronic"
+    },
+    "msg_id": 736,
+    "file_id": "BAACAgEAAxkDAAIC4GrgkKYME-AmxvBMsH2y11ENM42TAAKXBwACKfsJR9WU7e_xjqd7PQQ",
+    "replaces": "332cdd7f"
   }
 ]
