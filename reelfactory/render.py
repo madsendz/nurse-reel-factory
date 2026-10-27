@@ -380,6 +380,15 @@ def plan_timing(n_beats: int, clip_len: float, cfg: dict) -> tuple[list[float], 
     return starts, round(total, 2)
 
 
+def _beat_text(b) -> str:
+    """A beat written as `key: value` in YAML arrives as a dict -> flatten it back to text."""
+    if isinstance(b, dict):
+        return "; ".join(f"{k}: {v}" for k, v in b.items()).strip()
+    if isinstance(b, list):
+        return " ".join(_beat_text(x) for x in b).strip()
+    return str(b or "").strip()
+
+
 def render_reel(item: dict, clip: dict, clip_path: Path, out_path: Path, cfg: dict) -> dict:
     r = cfg["render"]
     font_path = ensure_font(ROOT / r["font"])
@@ -391,7 +400,7 @@ def render_reel(item: dict, clip: dict, clip_path: Path, out_path: Path, cfg: di
     hook = style_case(soften(item["hook"], cfg), r.get("hook_case", "natural"))
     if r.get("hook_emoji") and not any(_is_emoji(c) for c in hook):
         hook = f"{hook} {r['hook_emoji']}"
-    beats = [soften(b, cfg) for b in item.get("beats", [])]
+    beats = [soften(_beat_text(b), cfg) for b in item.get("beats", []) if _beat_text(b)]
     # the reel is ONE pass of the clip (never loops); facts pop up on her pointing moments
     total = round(min(usable, r.get("max_seconds", 30)), 2)
     title = layout_title(hook, clip, cfg)
