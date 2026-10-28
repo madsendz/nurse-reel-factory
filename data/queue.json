@@ -4999,7 +4999,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2037702",
       "title": "Nostalgia Drive (Lofi Hip-hop)",
@@ -5013,7 +5013,11 @@
       "genre": "lounge"
     },
     "msg_id": 676,
-    "file_id": "BAACAgEAAxkDAAICpGreqEVuW_GfDSDuLSqs8CTFZrc7AAJ9CQACFUjxRkIe0gx-RpDlPQQ"
+    "file_id": "BAACAgEAAxkDAAICpGreqEVuW_GfDSDuLSqs8CTFZrc7AAJ9CQACFUjxRkIe0gx-RpDlPQQ",
+    "decided_at": "2026-10-28T00:10:04.831805+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "9b4ffb71"
   },
   {
     "id": "53d922c5",
@@ -6046,5 +6050,34 @@
     "msg_id": 751,
     "file_id": "BAACAgEAAxkDAAIC72rhPNny9nHRtd-PFqqYiZAy_lOvAAJBCQACKfsJR4CS_ZZUEHlDPQQ",
     "replaces": "7ce9c745"
+  },
+  {
+    "id": "9b4ffb71",
+    "slot_key": "2026-10-28 08:00",
+    "slot_iso": "2026-10-28T12:00:00+00:00",
+    "slot_label": "Wed Oct 28, 8:00 AM",
+    "post_type": "trial",
+    "item_id": "pr-avg-man-normal",
+    "category": "sex_ed",
+    "clip_id": "clip01",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 9.0,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2290118",
+      "title": "Fashion Week",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2290118/mp32/",
+      "source": "jamendo",
+      "duration_ms": 94000,
+      "page": "https://www.jamendo.com/track/2290118",
+      "genre": "electronic"
+    },
+    "msg_id": 754,
+    "file_id": "BAACAgEAAxkDAAIC8mrhPX4dJaCmGshWuMnyYzXoBnZKAAJDCQACKfsJR3CcJOaunjZGPQQ",
+    "replaces": "64b270aa"
   }
 ]

@@ -9256,7 +9256,7 @@ clips:
     w: 0.62
     h: 0.216
   start: 0
-  end: 10.0
+  end: 10
   auto:
     method: pose
     face:
@@ -9385,6 +9385,7 @@ clips:
       - 0.298
       - 0.224
   duration: 29.97
+  title_y: 0.59
 - id: clip69b
   drive_id: 1WX3xjk4dWu7eu9boFItHFN7M7nC61NyM
   name: 6cfb95dae5f54c4daac4d5eaaae0805d.MP4
