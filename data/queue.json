@@ -4865,7 +4865,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 10.82,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1992651",
       "title": "Emotional Dancing",
@@ -4880,7 +4880,8 @@
     },
     "msg_id": 682,
     "file_id": "BAACAgEAAxkDAAICqmreqMtwsx6-c-wUCCHHn5HsZ68xAAKFCQACFUjxRmTVnp5eUCjcPQQ",
-    "decided_at": "2026-10-28T17:07:22.652142+00:00"
+    "decided_at": "2026-10-28T17:07:22.652142+00:00",
+    "permalink": "https://www.instagram.com/reel/DfDQZtiEkIn/"
   },
   {
     "id": "4eaa9cd6",
