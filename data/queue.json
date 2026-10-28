@@ -6044,7 +6044,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.0,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2290118",
       "title": "Fashion Week",
@@ -6060,7 +6060,8 @@
     "msg_id": 754,
     "file_id": "BAACAgEAAxkDAAIC8mrhPX4dJaCmGshWuMnyYzXoBnZKAAJDCQACKfsJR3CcJOaunjZGPQQ",
     "replaces": "64b270aa",
-    "decided_at": "2026-10-28T01:31:08.051235+00:00"
+    "decided_at": "2026-10-28T01:31:08.051235+00:00",
+    "permalink": "https://www.instagram.com/reel/DfCY-NjksaL/"
   },
   {
     "id": "d3df4ff5",
