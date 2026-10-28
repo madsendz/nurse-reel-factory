@@ -4840,7 +4840,7 @@
     "cta": 4,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1547998",
       "title": "podnebo prod. - spark | FREE BEAT | 2018 | FULL | 96bpm",
@@ -4854,7 +4854,11 @@
       "genre": "trap"
     },
     "msg_id": 660,
-    "file_id": "BAACAgEAAxkDAAIClGrdWMIrNyg1qI-zm9_niiInxt3VAALlBwAC3QPxRt4AAVMUTjVckT0E"
+    "file_id": "BAACAgEAAxkDAAIClGrdWMIrNyg1qI-zm9_niiInxt3VAALlBwAC3QPxRt4AAVMUTjVckT0E",
+    "decided_at": "2026-10-28T00:07:20.192160+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "4a2c7573"
   },
   {
     "id": "53bade00",
@@ -6013,5 +6017,34 @@
     "replaces": "0c235265",
     "decided_at": "2026-10-27T23:10:46.602520+00:00",
     "permalink": "https://www.instagram.com/reel/DfBDPahDNdA/"
+  },
+  {
+    "id": "4a2c7573",
+    "slot_key": "2026-10-27 21:30",
+    "slot_iso": "2026-10-28T01:30:00+00:00",
+    "slot_label": "Tue Oct 27, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-erections-vary",
+    "category": "mens_health",
+    "clip_id": "clip24",
+    "cta": 4,
+    "mode": "edited",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1547998",
+      "title": "podnebo prod. - spark | FREE BEAT | 2018 | FULL | 96bpm",
+      "creator": "podnebo prod.",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1547998/mp32/",
+      "source": "jamendo",
+      "duration_ms": 181000,
+      "page": "https://www.jamendo.com/track/1547998",
+      "genre": "trap"
+    },
+    "msg_id": 751,
+    "file_id": "BAACAgEAAxkDAAIC72rhPNny9nHRtd-PFqqYiZAy_lOvAAJBCQACKfsJR4CS_ZZUEHlDPQQ",
+    "replaces": "7ce9c745"
   }
 ]
