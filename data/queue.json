@@ -1,37 +1,5 @@
 [
   {
-    "id": "99aefcc1",
-    "slot_key": "2026-10-18 16:00",
-    "slot_iso": "2026-10-18T20:00:00+00:00",
-    "slot_label": "Sun Oct 18, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "pr-size-by-country",
-    "category": "mens_health",
-    "clip_id": "clip17",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 7.5,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1922534",
-      "title": "Luxury Hip-Hop",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1922534/mp32/",
-      "source": "jamendo",
-      "duration_ms": 131000,
-      "page": "https://www.jamendo.com/track/1922534",
-      "genre": "rnb"
-    },
-    "msg_id": 279,
-    "file_id": "BAACAgEAAxkDAAIBF2rTUGtVIuRip70p4kIyj_eXhyDWAAL0BwACHBGYRmcdcBF4sj43PQQ",
-    "decided_at": "2026-10-18T14:38:19.602754+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "8145610f"
-  },
-  {
     "id": "4271baad",
     "slot_key": "2026-10-18 19:30",
     "slot_iso": "2026-10-18T23:30:00+00:00",
@@ -466,37 +434,6 @@
     "file_id": "BAACAgEAAxkDAAIBOmrUGx_TzClaKg0Ss_8T8M610KFsAAIMCQACl3CgRi41Lbcs0EkuPQQ",
     "decided_at": "2026-10-20T03:51:24.397859+00:00",
     "permalink": "https://www.instagram.com/reel/DevPMNBgdIv/"
-  },
-  {
-    "id": "8145610f",
-    "slot_key": "2026-10-18 16:00",
-    "slot_iso": "2026-10-18T20:00:00+00:00",
-    "slot_label": "Sun Oct 18, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "pr-sleeping-bait",
-    "category": "health_bait",
-    "clip_id": "clip17",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 6.5,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2037627",
-      "title": "We Made It (Soft Drum And Bass)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037627/mp32/",
-      "source": "jamendo",
-      "duration_ms": 223000,
-      "page": "https://www.jamendo.com/track/2037627",
-      "genre": "electronic"
-    },
-    "msg_id": 333,
-    "file_id": "BAACAgEAAxkDAAIBTWrU2f302KQL4PnqSoD3A7kVAAHJjwACCQgAApdwqEa26ly8v4QZ_D0E",
-    "replaces": "99aefcc1",
-    "decided_at": "2026-10-18T16:47:04.367550+00:00",
-    "permalink": "https://www.instagram.com/reel/Depf2JmCOXg/"
   },
   {
     "id": "2410e9a1",
@@ -6178,7 +6115,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 6.5,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1320534",
       "title": "Neith",
@@ -6193,7 +6130,11 @@
     },
     "msg_id": 774,
     "file_id": "BAACAgEAAxkDAAIDBmriK-55Gj03PPrPm8wUmTLMul_KAAKuBwAChhwRR_NkDo10-u7vPQQ",
-    "replaces": "a02aeffd"
+    "replaces": "a02aeffd",
+    "decided_at": "2026-10-28T20:00:12.648393+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "7bcb842f"
   },
   {
     "id": "769ab56c",
@@ -6223,5 +6164,34 @@
     "msg_id": 776,
     "file_id": "BAACAgEAAxkDAAIDCGriLNxeQ7wLbGY0wHS8p-vBxSMjAAKxBwAChhwRR-sgayFpXcAAAT0E",
     "replaces": "57e6cc83"
+  },
+  {
+    "id": "7bcb842f",
+    "slot_key": "2026-10-28 21:30",
+    "slot_iso": "2026-10-29T01:30:00+00:00",
+    "slot_label": "Wed Oct 28, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-sunlight-bait",
+    "category": "health_bait",
+    "clip_id": "clip17",
+    "cta": 5,
+    "mode": "edited",
+    "seconds": 6.5,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1320534",
+      "title": "Neith",
+      "creator": "CyberSDF",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1320534/mp32/",
+      "source": "jamendo",
+      "duration_ms": 269000,
+      "page": "https://www.jamendo.com/track/1320534",
+      "genre": "trap"
+    },
+    "msg_id": 779,
+    "file_id": "BAACAgEAAxkDAAIDC2riVIGRfphVPeBUKbi0ND4CYnY-AALrBwAChhwRRzg3ZKiwWMU9PQQ",
+    "replaces": "59ed811c"
   }
 ]
