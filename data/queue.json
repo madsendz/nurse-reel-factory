@@ -1,37 +1,5 @@
 [
   {
-    "id": "bc9a9d2f",
-    "slot_key": "2026-10-18 13:00",
-    "slot_iso": "2026-10-18T17:00:00+00:00",
-    "slot_label": "Sun Oct 18, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "pr-women-secretly-attractive",
-    "category": "sexual_wellness",
-    "clip_id": "clip21",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 6.13,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-247156",
-      "title": "Silence Apart",
-      "creator": "ZigiZigi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/247156/mp32/",
-      "source": "jamendo",
-      "duration_ms": 326000,
-      "page": "https://www.jamendo.com/track/247156",
-      "genre": "pop"
-    },
-    "msg_id": 278,
-    "file_id": "BAACAgEAAxkDAAIBFmrTUFgb_09CBLQw0uAFWZoCLitfAALzBwACHBGYRijCIwZ0CKfRPQQ",
-    "decided_at": "2026-10-18T14:37:13.624951+00:00",
-    "redo": "text_edit",
-    "needs_replacement": false,
-    "replaced_by": "7a2bff2b"
-  },
-  {
     "id": "99aefcc1",
     "slot_key": "2026-10-18 16:00",
     "slot_iso": "2026-10-18T20:00:00+00:00",
@@ -498,37 +466,6 @@
     "file_id": "BAACAgEAAxkDAAIBOmrUGx_TzClaKg0Ss_8T8M610KFsAAIMCQACl3CgRi41Lbcs0EkuPQQ",
     "decided_at": "2026-10-20T03:51:24.397859+00:00",
     "permalink": "https://www.instagram.com/reel/DevPMNBgdIv/"
-  },
-  {
-    "id": "7a2bff2b",
-    "slot_key": "2026-10-18 13:00",
-    "slot_iso": "2026-10-18T17:00:00+00:00",
-    "slot_label": "Sun Oct 18, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "pr-women-secretly-attractive",
-    "category": "sexual_wellness",
-    "clip_id": "clip21",
-    "cta": 0,
-    "mode": "edited",
-    "seconds": 6.13,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-247156",
-      "title": "Silence Apart",
-      "creator": "ZigiZigi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/247156/mp32/",
-      "source": "jamendo",
-      "duration_ms": 326000,
-      "page": "https://www.jamendo.com/track/247156",
-      "genre": "pop"
-    },
-    "msg_id": 331,
-    "file_id": "BAACAgEAAxkDAAIBS2rU2bG1xSXCaI1kFlJRvvapdhHDAAIHCAACl3CoRhoSgDUblIKsPQQ",
-    "replaces": "bc9a9d2f",
-    "decided_at": "2026-10-18T16:47:04.367550+00:00",
-    "permalink": "https://www.instagram.com/reel/DepLNJwAM45/"
   },
   {
     "id": "8145610f",
@@ -4961,7 +4898,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 5.46,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2290118",
       "title": "Fashion Week",
@@ -4975,7 +4912,8 @@
       "genre": "electronic"
     },
     "msg_id": 681,
-    "file_id": "BAACAgEAAxkDAAICqWreqLY5HBWYCOe6b_3wXNz6LyOYAAKECQACFUjxRiDoqpQeG5nqPQQ"
+    "file_id": "BAACAgEAAxkDAAICqWreqLY5HBWYCOe6b_3wXNz6LyOYAAKECQACFUjxRiDoqpQeG5nqPQQ",
+    "decided_at": "2026-10-28T17:07:22.652142+00:00"
   },
   {
     "id": "2d665e07",
@@ -4989,7 +4927,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 10.82,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1992651",
       "title": "Emotional Dancing",
@@ -5003,7 +4941,8 @@
       "genre": "electronic"
     },
     "msg_id": 682,
-    "file_id": "BAACAgEAAxkDAAICqmreqMtwsx6-c-wUCCHHn5HsZ68xAAKFCQACFUjxRmTVnp5eUCjcPQQ"
+    "file_id": "BAACAgEAAxkDAAICqmreqMtwsx6-c-wUCCHHn5HsZ68xAAKFCQACFUjxRmTVnp5eUCjcPQQ",
+    "decided_at": "2026-10-28T17:07:22.652142+00:00"
   },
   {
     "id": "4eaa9cd6",
@@ -5017,7 +4956,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 8.9,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037757",
       "title": "Density (Background Ambient Techno)",
@@ -5031,7 +4970,8 @@
       "genre": "dance"
     },
     "msg_id": 683,
-    "file_id": "BAACAgEAAxkDAAICq2reqOA_oYQja59hOjhqwBcUF1IIAAKHCQACFUjxRgpvrwzK1R8VPQQ"
+    "file_id": "BAACAgEAAxkDAAICq2reqOA_oYQja59hOjhqwBcUF1IIAAKHCQACFUjxRgpvrwzK1R8VPQQ",
+    "decided_at": "2026-10-28T17:07:22.652142+00:00"
   },
   {
     "id": "2cb7d128",
@@ -5392,7 +5332,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2160840",
       "title": "Ambient Inspirational Music",
@@ -5406,7 +5346,11 @@
       "genre": "pop"
     },
     "msg_id": 720,
-    "file_id": "BAACAgEAAxkDAAIC0GrgBthRTqylQzLycFyIqDeg__4KAAIhCwACKfsBR1utI6ABS5GWPQQ"
+    "file_id": "BAACAgEAAxkDAAIC0GrgBthRTqylQzLycFyIqDeg__4KAAIhCwACKfsBR1utI6ABS5GWPQQ",
+    "decided_at": "2026-10-28T17:07:22.652142+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "59ed811c"
   },
   {
     "id": "40de3f60",
@@ -6213,5 +6157,34 @@
     "replaces": "53d922c5",
     "decided_at": "2026-10-28T06:13:09.133617+00:00",
     "permalink": "https://www.instagram.com/reel/DfCja7jCEHi/"
+  },
+  {
+    "id": "59ed811c",
+    "slot_key": "2026-10-28 21:30",
+    "slot_iso": "2026-10-29T01:30:00+00:00",
+    "slot_label": "Wed Oct 28, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-sunlight-bait",
+    "category": "health_bait",
+    "clip_id": "clip17",
+    "cta": 5,
+    "mode": "exploit",
+    "seconds": 6.5,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1320534",
+      "title": "Neith",
+      "creator": "CyberSDF",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1320534/mp32/",
+      "source": "jamendo",
+      "duration_ms": 269000,
+      "page": "https://www.jamendo.com/track/1320534",
+      "genre": "trap"
+    },
+    "msg_id": 774,
+    "file_id": "BAACAgEAAxkDAAIDBmriK-55Gj03PPrPm8wUmTLMul_KAAKuBwAChhwRR_NkDo10-u7vPQQ",
+    "replaces": "a02aeffd"
   }
 ]
