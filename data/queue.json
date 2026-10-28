@@ -5364,7 +5364,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.03,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2151100",
       "title": "Deep Fashion Electronic",
@@ -5378,7 +5378,8 @@
       "genre": "pop"
     },
     "msg_id": 721,
-    "file_id": "BAACAgEAAxkDAAIC0WrgBvMIGMkOxm1oXRDlFLhG7NX8AAIiCwACKfsBRzwBSZb2S7i5PQQ"
+    "file_id": "BAACAgEAAxkDAAIC0WrgBvMIGMkOxm1oXRDlFLhG7NX8AAIiCwACKfsBRzwBSZb2S7i5PQQ",
+    "decided_at": "2026-10-28T17:11:11.308614+00:00"
   },
   {
     "id": "7ffb76d4",
@@ -5392,7 +5393,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.6,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384090",
       "title": "Manta-dive",
@@ -5406,7 +5407,8 @@
       "genre": "lounge"
     },
     "msg_id": 722,
-    "file_id": "BAACAgEAAxkDAAIC0mrgBw2s-sGXI5GxQI9TYZi7dqMeAAIlCwACKfsBR2_ftMmZqYzYPQQ"
+    "file_id": "BAACAgEAAxkDAAIC0mrgBw2s-sGXI5GxQI9TYZi7dqMeAAIlCwACKfsBR2_ftMmZqYzYPQQ",
+    "decided_at": "2026-10-28T17:11:11.308614+00:00"
   },
   {
     "id": "92350e4b",
@@ -5420,7 +5422,7 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 9.6,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-181806",
       "title": "Alexandra 02",
@@ -5434,7 +5436,8 @@
       "genre": "pop"
     },
     "msg_id": 723,
-    "file_id": "BAACAgEAAxkDAAIC02rgByY1wk1J_t3VTSFUoVv0Zy__AAImCwACKfsBR7ja0lEe9WaFPQQ"
+    "file_id": "BAACAgEAAxkDAAIC02rgByY1wk1J_t3VTSFUoVv0Zy__AAImCwACKfsBR7ja0lEe9WaFPQQ",
+    "decided_at": "2026-10-28T17:11:11.308614+00:00"
   },
   {
     "id": "332cdd7f",
@@ -5481,7 +5484,7 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2037721",
       "title": "Downtempo Delights (Lofi Hip-hop)",
@@ -5495,7 +5498,11 @@
       "genre": "hiphop"
     },
     "msg_id": 727,
-    "file_id": "BAACAgEAAxkDAAIC12rgD5NtDam1mreoJxbTFncESMouAAI4CwACKfsBRzHYBnbT3uziPQQ"
+    "file_id": "BAACAgEAAxkDAAIC12rgD5NtDam1mreoJxbTFncESMouAAI4CwACKfsBRzHYBnbT3uziPQQ",
+    "decided_at": "2026-10-28T17:11:11.308614+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "769ab56c"
   },
   {
     "id": "f0987a16",
@@ -6186,5 +6193,34 @@
     "msg_id": 774,
     "file_id": "BAACAgEAAxkDAAIDBmriK-55Gj03PPrPm8wUmTLMul_KAAKuBwAChhwRR_NkDo10-u7vPQQ",
     "replaces": "a02aeffd"
+  },
+  {
+    "id": "769ab56c",
+    "slot_key": "2026-10-29 12:00",
+    "slot_iso": "2026-10-29T16:00:00+00:00",
+    "slot_label": "Thu Oct 29, 12:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-death-during",
+    "category": "health_bait",
+    "clip_id": "clip89",
+    "cta": 5,
+    "mode": "exploit",
+    "seconds": 10.52,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1129271",
+      "title": "Energy",
+      "creator": "Pokki DJ",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1129271/mp32/",
+      "source": "jamendo",
+      "duration_ms": 230000,
+      "page": "https://www.jamendo.com/track/1129271",
+      "genre": "dance"
+    },
+    "msg_id": 776,
+    "file_id": "BAACAgEAAxkDAAIDCGriLNxeQ7wLbGY0wHS8p-vBxSMjAAKxBwAChhwRR-sgayFpXcAAAT0E",
+    "replaces": "57e6cc83"
   }
 ]
