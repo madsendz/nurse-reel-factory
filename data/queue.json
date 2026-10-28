@@ -5003,7 +5003,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 11.0,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1580397",
       "title": "Slow motion",
@@ -5017,7 +5017,11 @@
       "genre": "chillout"
     },
     "msg_id": 677,
-    "file_id": "BAACAgEAAxkDAAICpWreqF4ZKF1MQ5qdwf0eSlmk9iYLAAJ_CQACFUjxRuCHoq8KRyafPQQ"
+    "file_id": "BAACAgEAAxkDAAICpWreqF4ZKF1MQ5qdwf0eSlmk9iYLAAJ_CQACFUjxRuCHoq8KRyafPQQ",
+    "decided_at": "2026-10-28T02:49:06.415024+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "a973e650"
   },
   {
     "id": "85c7dd50",
@@ -6335,5 +6339,34 @@
     },
     "msg_id": 765,
     "file_id": "BAACAgEAAxkDAAIC_WrhW3qDV8gskxmX0HXJLf2mUt1LAAKICQACKfsJRyNY8LDqcMQBPQQ"
+  },
+  {
+    "id": "a973e650",
+    "slot_key": "2026-10-28 09:30",
+    "slot_iso": "2026-10-28T13:30:00+00:00",
+    "slot_label": "Wed Oct 28, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-mood-killer-foods",
+    "category": "sexual_wellness",
+    "clip_id": "clip55",
+    "cta": 5,
+    "mode": "exploit",
+    "seconds": 11.0,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1342479",
+      "title": "Breathe",
+      "creator": "Axl &amp; Arth",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1342479/mp32/",
+      "source": "jamendo",
+      "duration_ms": 233000,
+      "page": "https://www.jamendo.com/track/1342479",
+      "genre": "hiphop"
+    },
+    "msg_id": 768,
+    "file_id": "BAACAgEAAxkDAAIDAAFq4WLLMJADSuI2vBe9j_vSy1FW0gACmwkAAin7CUfRNQQ9_BJ0qD0E",
+    "replaces": "53d922c5"
   }
 ]
