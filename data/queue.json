@@ -5035,7 +5035,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2026412",
       "title": "In For Future Bass",
@@ -5049,7 +5049,8 @@
       "genre": "rnb"
     },
     "msg_id": 678,
-    "file_id": "BAACAgEAAxkDAAICpmreqHjnML4Iha6BdjoAAdNyh22WiAACgAkAAhVI8UbSXwXoe5qrtz0E"
+    "file_id": "BAACAgEAAxkDAAICpmreqHjnML4Iha6BdjoAAdNyh22WiAACgAkAAhVI8UbSXwXoe5qrtz0E",
+    "decided_at": "2026-10-28T06:13:09.133617+00:00"
   },
   {
     "id": "9f50ec7c",
@@ -5063,7 +5064,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 8.88,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2176699",
       "title": "Relax Chill Lofi",
@@ -5077,7 +5078,8 @@
       "genre": "rnb"
     },
     "msg_id": 679,
-    "file_id": "BAACAgEAAxkDAAICp2reqI5NUEjTrszvEtMgJ_OrpWt2AAKCCQACFUjxRrUNnwsyw0MTPQQ"
+    "file_id": "BAACAgEAAxkDAAICp2reqI5NUEjTrszvEtMgJ_OrpWt2AAKCCQACFUjxRrUNnwsyw0MTPQQ",
+    "decided_at": "2026-10-28T06:13:09.133617+00:00"
   },
   {
     "id": "d86b54c9",
@@ -6352,7 +6354,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 11.0,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1342479",
       "title": "Breathe",
@@ -6367,6 +6369,7 @@
     },
     "msg_id": 768,
     "file_id": "BAACAgEAAxkDAAIDAAFq4WLLMJADSuI2vBe9j_vSy1FW0gACmwkAAin7CUfRNQQ9_BJ0qD0E",
-    "replaces": "53d922c5"
+    "replaces": "53d922c5",
+    "decided_at": "2026-10-28T06:13:09.133617+00:00"
   }
 ]
