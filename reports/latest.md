@@ -6,16 +6,16 @@ Judged reels: **75** · score = link clicks first, then views/shares/saves
 
 | Score | Type | Clicks | Views | Shares | Topic | Clip | Posted |
 |---|---|---|---|---|---|---|---|
-| +1.85 | trial | 319.8 | 1096202 | 38708 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
-| +1.76 | trial | 598.6 | 821870 | 102 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
-| +1.41 | trial | 1293.0 | 22766 | 3 | [nw-orgasm-gap](https://www.instagram.com/reel/Dek8CnKAP69/) | clip04 | 2026-10-17 |
-| +1.41 | trial | 470.9 | 342364 | 36 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
+| +1.85 | trial | 319.8 | 1098792 | 38745 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
+| +1.76 | trial | 598.6 | 821886 | 102 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
+| +1.41 | trial | 1293.0 | 22770 | 3 | [nw-orgasm-gap](https://www.instagram.com/reel/Dek8CnKAP69/) | clip04 | 2026-10-17 |
+| +1.41 | trial | 470.9 | 342582 | 36 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
 | +1.17 | trial | 1423.6 | 4129 | 0 | [pr-birth-control-ranked](https://www.instagram.com/reel/DeVfCTLiVdi/) | clip64 | 2026-10-11 |
-| +1.04 | regular | 1417.1 | 49571 | 71 | [nw-cardio-erections](https://www.instagram.com/reel/DeUkq0XEyxf/) | clip32 | 2026-10-10 |
-| +1.04 | regular | 387.0 | 175069 | 896 | [pr-stamina-foods](https://www.instagram.com/reel/Dedc32xDs80/) | clip26 | 2026-10-14 |
-| +0.93 | regular | 1783.6 | 33001 | 26 | [nw-kegels-women](https://www.instagram.com/reel/DeVRSdgkS2G/) | clip42 | 2026-10-10 |
+| +1.04 | regular | 1417.1 | 49579 | 71 | [nw-cardio-erections](https://www.instagram.com/reel/DeUkq0XEyxf/) | clip32 | 2026-10-10 |
+| +1.04 | regular | 387.0 | 175077 | 896 | [pr-stamina-foods](https://www.instagram.com/reel/Dedc32xDs80/) | clip26 | 2026-10-14 |
+| +0.93 | regular | 1783.6 | 33008 | 26 | [nw-kegels-women](https://www.instagram.com/reel/DeVRSdgkS2G/) | clip42 | 2026-10-10 |
 | +0.79 | trial | 362.5 | 16287 | 5 | [nw-condom-break](https://www.instagram.com/reel/DefMhfXDWOO/) | clip81 | 2026-10-14 |
-| +0.75 | trial | 87.7 | 500012 | 276 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
+| +0.75 | trial | 87.7 | 501821 | 278 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
 
 ## Hook styles
 
@@ -72,7 +72,7 @@ Judged reels: **75** · score = link clicks first, then views/shares/saves
 | clip26 | +0.05 | 2 |
 | clip77 | +0.05 | 1 |
 | clip13 | +0.04 | 1 |
-| clip65 | +0.02 | 1 |
+| clip65 | +0.03 | 1 |
 | clip12 | +0.02 | 1 |
 | clip25 | -0.00 | 1 |
 | clip42 | -0.00 | 2 |
