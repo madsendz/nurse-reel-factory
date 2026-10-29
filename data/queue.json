@@ -1,35 +1,5 @@
 [
   {
-    "id": "d9c0bbc0",
-    "slot_key": "2026-10-19 11:00",
-    "slot_iso": "2026-10-19T15:00:00+00:00",
-    "slot_label": "Mon Oct 19, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-women-time",
-    "category": "sex_ed",
-    "clip_id": "clip09",
-    "cta": 0,
-    "mode": "explore",
-    "seconds": 13.8,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1871345",
-      "title": "TP4",
-      "creator": "orangeicebear",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1871345/mp32/",
-      "source": "jamendo",
-      "duration_ms": 280000,
-      "page": "https://www.jamendo.com/track/1871345",
-      "genre": "trap"
-    },
-    "msg_id": 284,
-    "file_id": "BAACAgEAAxkDAAIBHGrTUMMgvunWNHKe1HlheA0Q8CStAAL5BwACHBGYRp82DP2j7HqLPQQ",
-    "decided_at": "2026-10-19T05:14:34.273575+00:00",
-    "permalink": "https://www.instagram.com/reel/DeriYIRkUIM/"
-  },
-  {
     "id": "fdb3ebc8",
     "slot_key": "2026-10-19 13:00",
     "slot_iso": "2026-10-19T17:00:00+00:00",
@@ -5179,7 +5149,7 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 9.6,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-181806",
       "title": "Alexandra 02",
@@ -5194,7 +5164,8 @@
     },
     "msg_id": 723,
     "file_id": "BAACAgEAAxkDAAIC02rgByY1wk1J_t3VTSFUoVv0Zy__AAImCwACKfsBR7ja0lEe9WaFPQQ",
-    "decided_at": "2026-10-28T17:11:11.308614+00:00"
+    "decided_at": "2026-10-28T17:11:11.308614+00:00",
+    "permalink": "https://www.instagram.com/reel/DfFSfYBlTkr/"
   },
   {
     "id": "332cdd7f",
