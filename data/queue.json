@@ -1,37 +1,5 @@
 [
   {
-    "id": "bd3ea526",
-    "slot_key": "2026-10-19 19:30",
-    "slot_iso": "2026-10-19T23:30:00+00:00",
-    "slot_label": "Mon Oct 19, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-shower-grower",
-    "category": "mens_health",
-    "clip_id": "clip50",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 8.13,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1440522",
-      "title": "Wait",
-      "creator": "Lyvo",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1440522/mp32/",
-      "source": "jamendo",
-      "duration_ms": 214000,
-      "page": "https://www.jamendo.com/track/1440522",
-      "genre": "hiphop"
-    },
-    "msg_id": 287,
-    "file_id": "BAACAgEAAxkDAAIBH2rTUQNP5AABcFN_9Kfbe1tA7nT6mwAC_gcAAhwRmEZqGKGFhDZbxD0E",
-    "decided_at": "2026-10-18T22:58:14.204103+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "3eaf655c"
-  },
-  {
     "id": "5cb0d4ba",
     "slot_key": "2026-10-19 21:30",
     "slot_iso": "2026-10-20T01:30:00+00:00",
@@ -248,39 +216,6 @@
     "file_id": "BAACAgEAAxkDAAIBOmrUGx_TzClaKg0Ss_8T8M610KFsAAIMCQACl3CgRi41Lbcs0EkuPQQ",
     "decided_at": "2026-10-20T03:51:24.397859+00:00",
     "permalink": "https://www.instagram.com/reel/DevPMNBgdIv/"
-  },
-  {
-    "id": "3eaf655c",
-    "slot_key": "2026-10-19 19:30",
-    "slot_iso": "2026-10-19T23:30:00+00:00",
-    "slot_label": "Mon Oct 19, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-penetration-alone",
-    "category": "sex_ed",
-    "clip_id": "clip50",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 8.13,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1685784",
-      "title": "Stacks",
-      "creator": "Wordsmith",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1685784/mp32/",
-      "source": "jamendo",
-      "duration_ms": 193000,
-      "page": "https://www.jamendo.com/track/1685784",
-      "genre": "trap"
-    },
-    "msg_id": 344,
-    "file_id": "BAACAgEAAxkDAAIBWGrVTyjU3qRyqxZnrQcHGekEC0dLAAISCQACl3CoRrkmXVzkQcfKPQQ",
-    "replaces": "bd3ea526",
-    "decided_at": "2026-10-19T12:45:42.376154+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "4e3778e1"
   },
   {
     "id": "707ad71a",
@@ -716,38 +651,6 @@
     "redo": "new_topic",
     "needs_replacement": false,
     "replaced_by": "975f2779"
-  },
-  {
-    "id": "4e3778e1",
-    "slot_key": "2026-10-19 19:30",
-    "slot_iso": "2026-10-19T23:30:00+00:00",
-    "slot_label": "Mon Oct 19, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-penetration-alone",
-    "category": "sex_ed",
-    "clip_id": "clip87",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 14.03,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1490752",
-      "title": "Free Post Malone | RnB Type Beat",
-      "creator": "Adi Rambo",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1490752/mp32/",
-      "source": "jamendo",
-      "duration_ms": 213000,
-      "page": "https://www.jamendo.com/track/1490752",
-      "genre": "rnb"
-    },
-    "msg_id": 382,
-    "file_id": "BAACAgEAAxkDAAIBfmrWESAT0q3u8Hb-0u99npCufdM_AAJpBwACihqwRmd2K360t6laPQQ",
-    "replaces": "3eaf655c",
-    "decided_at": "2026-10-19T23:57:21.338816+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false
   },
   {
     "id": "6472c3ce",
@@ -5049,7 +4952,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.1,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1405870",
       "title": "808 BASS BEAT",
@@ -5064,7 +4967,8 @@
     },
     "msg_id": 732,
     "file_id": "BAACAgEAAxkDAAIC3GrgEE__-WHTllNBWxMZZMZNTnymAAJBCwACKfsBR-r6dwABW9TRMD0E",
-    "decided_at": "2026-10-29T20:35:44.828152+00:00"
+    "decided_at": "2026-10-29T20:35:44.828152+00:00",
+    "permalink": "https://www.instagram.com/reel/DfGMoZNgrjV/"
   },
   {
     "id": "fdd56933",
