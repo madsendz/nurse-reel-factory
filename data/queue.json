@@ -1,37 +1,5 @@
 [
   {
-    "id": "a84537a3",
-    "slot_key": "2026-10-19 09:30",
-    "slot_iso": "2026-10-19T13:30:00+00:00",
-    "slot_label": "Mon Oct 19, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-frequency-age",
-    "category": "sexual_wellness",
-    "clip_id": "clip43",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 11.63,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-43679",
-      "title": "Ocean fantasy",
-      "creator": "St Adam",
-      "license": "by",
-      "license_version": "",
-      "url": "https://prod-1.storage.jamendo.com/download/track/43679/mp32/",
-      "source": "jamendo",
-      "duration_ms": 186000,
-      "page": "https://www.jamendo.com/track/43679",
-      "genre": "chillout"
-    },
-    "msg_id": 283,
-    "file_id": "BAACAgEAAxkDAAIBG2rTUKZLVtt33w-2smjrsJ84tNQrAAL4BwACHBGYRrRv-E6ce0gdPQQ",
-    "decided_at": "2026-10-18T22:52:54.403142+00:00",
-    "redo": "text_edit",
-    "needs_replacement": false,
-    "replaced_by": "2410e9a1"
-  },
-  {
     "id": "d9c0bbc0",
     "slot_key": "2026-10-19 11:00",
     "slot_iso": "2026-10-19T15:00:00+00:00",
@@ -374,39 +342,6 @@
     "file_id": "BAACAgEAAxkDAAIBOmrUGx_TzClaKg0Ss_8T8M610KFsAAIMCQACl3CgRi41Lbcs0EkuPQQ",
     "decided_at": "2026-10-20T03:51:24.397859+00:00",
     "permalink": "https://www.instagram.com/reel/DevPMNBgdIv/"
-  },
-  {
-    "id": "2410e9a1",
-    "slot_key": "2026-10-19 09:30",
-    "slot_iso": "2026-10-19T13:30:00+00:00",
-    "slot_label": "Mon Oct 19, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-frequency-age",
-    "category": "sexual_wellness",
-    "clip_id": "clip43",
-    "cta": 0,
-    "mode": "edited",
-    "seconds": 11.63,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-43679",
-      "title": "Ocean fantasy",
-      "creator": "St Adam",
-      "license": "by",
-      "license_version": "",
-      "url": "https://prod-1.storage.jamendo.com/download/track/43679/mp32/",
-      "source": "jamendo",
-      "duration_ms": 186000,
-      "page": "https://www.jamendo.com/track/43679",
-      "genre": "chillout"
-    },
-    "msg_id": 338,
-    "file_id": "BAACAgEAAxkDAAIBUmrVTegfOWaJD8KssYHzbBiQLCXWAAIOCQACl3CoRqBFB2wSubsCPQQ",
-    "replaces": "a84537a3",
-    "decided_at": "2026-10-19T02:29:51.662174+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "e39eb6d7"
   },
   {
     "id": "edf43c8d",
@@ -997,37 +932,6 @@
     "redo": "new_topic",
     "needs_replacement": false,
     "replaced_by": "975f2779"
-  },
-  {
-    "id": "e39eb6d7",
-    "slot_key": "2026-10-19 09:30",
-    "slot_iso": "2026-10-19T13:30:00+00:00",
-    "slot_label": "Mon Oct 19, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-frequency-age",
-    "category": "sexual_wellness",
-    "clip_id": "clip88",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 6.16,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1267753",
-      "title": "Ghosts",
-      "creator": "Lyvo",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1267753/mp32/",
-      "source": "jamendo",
-      "duration_ms": 173000,
-      "page": "https://www.jamendo.com/track/1267753",
-      "genre": "electronic"
-    },
-    "msg_id": 370,
-    "file_id": "BAACAgEAAxkDAAIBcmrVgL3qBr59nlSrMwlxwO166XfzAAKOCQACl3CoRooad3YSuNmNPQQ",
-    "replaces": "2410e9a1",
-    "decided_at": "2026-10-19T05:14:34.273575+00:00",
-    "permalink": "https://www.instagram.com/reel/DerX_HogTAh/"
   },
   {
     "id": "b93eeac4",
@@ -5245,7 +5149,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.6,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-384090",
       "title": "Manta-dive",
@@ -5260,7 +5164,8 @@
     },
     "msg_id": 722,
     "file_id": "BAACAgEAAxkDAAIC0mrgBw2s-sGXI5GxQI9TYZi7dqMeAAIlCwACKfsBR2_ftMmZqYzYPQQ",
-    "decided_at": "2026-10-28T17:11:11.308614+00:00"
+    "decided_at": "2026-10-28T17:11:11.308614+00:00",
+    "permalink": "https://www.instagram.com/reel/DfFIE84oHaL/"
   },
   {
     "id": "92350e4b",
