@@ -568,35 +568,6 @@
     "replaced_by": "18c762d7"
   },
   {
-    "id": "46dc8eb9",
-    "slot_key": "2026-10-19 12:00",
-    "slot_iso": "2026-10-19T16:00:00+00:00",
-    "slot_label": "Mon Oct 19, 12:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-clit-nerves",
-    "category": "anatomy",
-    "clip_id": "clip55",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 11.0,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-384095",
-      "title": "Like King Cool in a sunbed",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384095/mp32/",
-      "source": "jamendo",
-      "duration_ms": 289000,
-      "page": "https://www.jamendo.com/track/384095",
-      "genre": "pop"
-    },
-    "msg_id": 356,
-    "file_id": "BAACAgEAAxkDAAIBZGrVflR90zPC_zi1EWEnx0iK87noAAJ-CQACl3CoRj2eadGVkyFLPQQ",
-    "decided_at": "2026-10-19T12:33:16.589942+00:00"
-  },
-  {
     "id": "0c79cfc8",
     "slot_key": "2026-10-19 14:30",
     "slot_iso": "2026-10-19T18:30:00+00:00",
