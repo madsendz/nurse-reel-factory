@@ -5243,7 +5243,7 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 6.16,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037702",
       "title": "Nostalgia Drive (Lofi Hip-hop)",
@@ -5257,7 +5257,8 @@
       "genre": "lounge"
     },
     "msg_id": 729,
-    "file_id": "BAACAgEAAxkDAAIC2WrgD9n2PIJlLNPZDKE7_JmiC_OwAAI8CwACKfsBRyd26IvxEApvPQQ"
+    "file_id": "BAACAgEAAxkDAAIC2WrgD9n2PIJlLNPZDKE7_JmiC_OwAAI8CwACKfsBRyd26IvxEApvPQQ",
+    "decided_at": "2026-10-29T16:59:06.787906+00:00"
   },
   {
     "id": "0f46e85c",
@@ -5271,7 +5272,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.8,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1320534",
       "title": "Neith",
@@ -5285,7 +5286,11 @@
       "genre": "trap"
     },
     "msg_id": 730,
-    "file_id": "BAACAgEAAxkDAAIC2mrgD_jN5TB479iKcvnTLVTSgxcgAAI-CwACKfsBR3abdzEWyf5EPQQ"
+    "file_id": "BAACAgEAAxkDAAIC2mrgD_jN5TB479iKcvnTLVTSgxcgAAI-CwACKfsBR3abdzEWyf5EPQQ",
+    "decided_at": "2026-10-29T16:59:06.787906+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "06c59715"
   },
   {
     "id": "30d90924",
@@ -6234,5 +6239,34 @@
     },
     "msg_id": 795,
     "file_id": "BAACAgEAAxkDAAIDG2rir7_qwyYKZ3FufGQVEPIzmeb-AALQBgAChhwZR4NVKUOnYZCfPQQ"
+  },
+  {
+    "id": "06c59715",
+    "slot_key": "2026-10-29 16:00",
+    "slot_iso": "2026-10-29T20:00:00+00:00",
+    "slot_label": "Thu Oct 29, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-lube-myth",
+    "category": "sex_ed",
+    "clip_id": "clip02",
+    "cta": 5,
+    "mode": "exploit",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1547998",
+      "title": "podnebo prod. - spark | FREE BEAT | 2018 | FULL | 96bpm",
+      "creator": "podnebo prod.",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1547998/mp32/",
+      "source": "jamendo",
+      "duration_ms": 181000,
+      "page": "https://www.jamendo.com/track/1547998",
+      "genre": "trap"
+    },
+    "msg_id": 802,
+    "file_id": "BAACAgEAAxkDAAIDImrje4eDSR5jgeDWPFlISbc6JhN8AAILCAAChhwZR7tM8oKXml7uPQQ",
+    "replaces": "0f46e85c"
   }
 ]
