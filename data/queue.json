@@ -6099,7 +6099,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 8.2,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -6114,6 +6114,39 @@
     },
     "msg_id": 805,
     "file_id": "BAACAgEAAxkDAAIDJWrjrmjmfmi1nfKMFi-aortdhefCAAInEQAC1DUYR76iI7VPjqONPQQ",
-    "replaces": "fdd56933"
+    "replaces": "fdd56933",
+    "decided_at": "2026-10-29T21:18:30.331949+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "bef43633"
+  },
+  {
+    "id": "bef43633",
+    "slot_key": "2026-10-29 21:30",
+    "slot_iso": "2026-10-30T01:30:00+00:00",
+    "slot_label": "Thu Oct 29, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "pr-men-secretly-like",
+    "category": "sexual_wellness",
+    "clip_id": "clip86",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 6.03,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1342479",
+      "title": "Breathe",
+      "creator": "Axl &amp; Arth",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1342479/mp32/",
+      "source": "jamendo",
+      "duration_ms": 233000,
+      "page": "https://www.jamendo.com/track/1342479",
+      "genre": "electronic"
+    },
+    "msg_id": 807,
+    "file_id": "BAACAgEAAxkDAAIDJ2rjuEii99zMqqwgYMu1vGaX-9ZLAAJAEQAC1DUYR-F280k4GIMPPQQ",
+    "replaces": "0aef05e3"
   }
 ]
