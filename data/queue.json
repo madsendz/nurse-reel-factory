@@ -6206,7 +6206,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1093608",
       "title": "Strictly Luxury",
@@ -6221,7 +6221,11 @@
     },
     "msg_id": 830,
     "file_id": "BAACAgEAAxkDAAIDPmrkjQEMYvRLJOiRJGj8VZCCNjQXAAIbCQAC1DUgR0d00oC_ysUVPQQ",
-    "replaces": "ed64036e"
+    "replaces": "ed64036e",
+    "decided_at": "2026-10-30T12:41:27.324730+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "989cf3da"
   },
   {
     "id": "50dce22c",
@@ -6280,5 +6284,34 @@
     "msg_id": 832,
     "file_id": "BAACAgEAAxkDAAIDQGrkjSeW2k7nQ4QtQL_8KTRm3i4dAAIdCQAC1DUgR6AQPJkn4eFoPQQ",
     "replaces": "c5ecdc3a"
+  },
+  {
+    "id": "989cf3da",
+    "slot_key": "2026-10-30 09:30",
+    "slot_iso": "2026-10-30T13:30:00+00:00",
+    "slot_label": "Fri Oct 30, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-small-normal",
+    "category": "mens_health",
+    "clip_id": "clip53",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 9.33,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2037702",
+      "title": "Nostalgia Drive (Lofi Hip-hop)",
+      "creator": "Moonwalk",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2037702/mp32/",
+      "source": "jamendo",
+      "duration_ms": 294000,
+      "page": "https://www.jamendo.com/track/2037702",
+      "genre": "hiphop"
+    },
+    "msg_id": 839,
+    "file_id": "BAACAgEAAxkDAAIDR2rkkL75I3LyKGnKTbF8VWBsGxJnAAInCQAC1DUgR-5bDlTCj8uMPQQ",
+    "replaces": "c14c1afe"
   }
 ]
