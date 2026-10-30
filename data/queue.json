@@ -6179,7 +6179,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 11.7,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2290117",
       "title": "Soul Hop Music",
@@ -6194,6 +6194,39 @@
     },
     "msg_id": 846,
     "file_id": "BAACAgEAAxkDAAIDTmrk2AJUPCl60NkW2z3LXnehCKebAAJwBwAC1DUoR4g-cJnPmr-OPQQ",
-    "replaces": "b5f628d6"
+    "replaces": "b5f628d6",
+    "decided_at": "2026-10-30T17:52:01.553489+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "45387e42"
+  },
+  {
+    "id": "45387e42",
+    "slot_key": "2026-10-30 16:00",
+    "slot_iso": "2026-10-30T20:00:00+00:00",
+    "slot_label": "Fri Oct 30, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-steroids-shrink",
+    "category": "mens_health",
+    "clip_id": "clip77",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 5.12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1537059",
+      "title": "FREE Tyga Type Beat | Hip Hop Instrumental | Rap Beat",
+      "creator": "Adi Rambo",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1537059/mp32/",
+      "source": "jamendo",
+      "duration_ms": 202000,
+      "page": "https://www.jamendo.com/track/1537059",
+      "genre": "rnb"
+    },
+    "msg_id": 848,
+    "file_id": "BAACAgEAAxkDAAIDUGrk2XTyhohS6lYNb9SqqkvmYQT6AAJ2BwAC1DUoR5ckSFYtOs9VPQQ",
+    "replaces": "1631bd67"
   }
 ]
