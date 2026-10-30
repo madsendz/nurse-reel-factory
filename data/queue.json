@@ -5164,7 +5164,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-384173",
       "title": "Mind drifting back (Leaving paradise)",
@@ -5178,7 +5178,10 @@
       "genre": "chillout"
     },
     "msg_id": 757,
-    "file_id": "BAACAgEAAxkDAAIC9WrhWtXQhUOfLYMLdelrBQVcmxEfAAKACQACKfsJRxfYjuySJU5HPQQ"
+    "file_id": "BAACAgEAAxkDAAIC9WrhWtXQhUOfLYMLdelrBQVcmxEfAAKACQACKfsJRxfYjuySJU5HPQQ",
+    "decided_at": "2026-10-30T12:23:19.169123+00:00",
+    "redo": "new_topic",
+    "needs_replacement": true
   },
   {
     "id": "552bfc68",
