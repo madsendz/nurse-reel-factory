@@ -5011,7 +5011,7 @@
     "cta": 5,
     "mode": "explore",
     "seconds": 4.64,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1916401",
       "title": "RnB Chill Trap",
@@ -5026,7 +5026,8 @@
     },
     "msg_id": 761,
     "file_id": "BAACAgEAAxkDAAIC-WrhWx2NqTfL46lqxvFIidG4JlWtAAKECQACKfsJR-HEIPgRP10dPQQ",
-    "decided_at": "2026-10-30T12:25:50.835897+00:00"
+    "decided_at": "2026-10-30T12:25:50.835897+00:00",
+    "permalink": "https://www.instagram.com/reel/DfIRcMegVbe/"
   },
   {
     "id": "515afa63",
