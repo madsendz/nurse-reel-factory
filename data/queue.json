@@ -5136,7 +5136,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -5150,7 +5150,10 @@
       "genre": "dance"
     },
     "msg_id": 756,
-    "file_id": "BAACAgEAAxkDAAIC9GrhWrhKiMXJ6Ihptk32cp-RlZjEAAJ_CQACKfsJR1-dukl_YeN9PQQ"
+    "file_id": "BAACAgEAAxkDAAIC9GrhWrhKiMXJ6Ihptk32cp-RlZjEAAJ_CQACKfsJR1-dukl_YeN9PQQ",
+    "decided_at": "2026-10-30T12:32:46.336648+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/DfHmUAsiqS5/"
   },
   {
     "id": "ed64036e",

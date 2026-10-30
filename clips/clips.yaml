@@ -773,7 +773,7 @@ clips:
     w: 0.62
     h: 0.22
   start: 0
-  end: null
+  end: 11.7
   auto:
     method: pose
     face:
@@ -922,6 +922,24 @@ clips:
       - 0.344
       - 0.284
   duration: 13.03
+  events_manual:
+  - t: 1.7
+    dir: up
+    x: 0.209
+    y: 0.152
+  - t: 4
+    dir: up
+    x: 0.488
+    y: 0.159
+  - t: 6.9
+    dir: up
+    x: 0.779
+    y: 0.145
+  - t: 11.2
+    dir: down
+    x: 0.491
+    y: 0.845
+  title_y: 0.77
 - id: clip07
   drive_id: 1w909DU5engutl8YlxV12MBsX5tnvwZF1
   name: 25671c8771524872adde406ca8d1158a.MP4
