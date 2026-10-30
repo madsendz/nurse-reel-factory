@@ -5133,7 +5133,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 5.12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-366912",
       "title": "Club's House DJ",
@@ -5147,7 +5147,11 @@
       "genre": "dance"
     },
     "msg_id": 762,
-    "file_id": "BAACAgEAAxkDAAIC-mrhWzGm_MUefcf1frz7ZtQs0VvAAAKFCQACKfsJRwGRtg-IR9R4PQQ"
+    "file_id": "BAACAgEAAxkDAAIC-mrhWzGm_MUefcf1frz7ZtQs0VvAAAKFCQACKfsJRwGRtg-IR9R4PQQ",
+    "decided_at": "2026-10-30T16:57:57.801224+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "b5f628d6"
   },
   {
     "id": "c83b194a",
@@ -5161,7 +5165,7 @@
     "cta": 5,
     "mode": "explore",
     "seconds": 9.03,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1591558",
       "title": "199-s8rec",
@@ -5175,7 +5179,11 @@
       "genre": "trap"
     },
     "msg_id": 763,
-    "file_id": "BAACAgEAAxkDAAIC-2rhW05aBsL7uf9UrdbyuuAAAQ2gYwAChgkAAin7CUd56AOQBN8YCz0E"
+    "file_id": "BAACAgEAAxkDAAIC-2rhW05aBsL7uf9UrdbyuuAAAQ2gYwAChgkAAin7CUd56AOQBN8YCz0E",
+    "decided_at": "2026-10-30T16:57:57.801224+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "0b0a2b15"
   },
   {
     "id": "8e43f91b",
@@ -6080,7 +6088,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 4.33,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1871345",
       "title": "TP4",
@@ -6095,7 +6103,8 @@
     },
     "msg_id": 832,
     "file_id": "BAACAgEAAxkDAAIDQGrkjSeW2k7nQ4QtQL_8KTRm3i4dAAIdCQAC1DUgR6AQPJkn4eFoPQQ",
-    "replaces": "c5ecdc3a"
+    "replaces": "c5ecdc3a",
+    "decided_at": "2026-10-30T16:57:57.801224+00:00"
   },
   {
     "id": "989cf3da",
@@ -6125,5 +6134,63 @@
     "msg_id": 839,
     "file_id": "BAACAgEAAxkDAAIDR2rkkL75I3LyKGnKTbF8VWBsGxJnAAInCQAC1DUgR-5bDlTCj8uMPQQ",
     "replaces": "c14c1afe"
+  },
+  {
+    "id": "b5f628d6",
+    "slot_key": "2026-10-30 16:00",
+    "slot_iso": "2026-10-30T20:00:00+00:00",
+    "slot_label": "Fri Oct 30, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-trich-common",
+    "category": "sex_ed",
+    "clip_id": "clip06",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 11.7,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1403270",
+      "title": "Just laugh at it",
+      "creator": "Buzzy Boys",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1403270/mp32/",
+      "source": "jamendo",
+      "duration_ms": 242000,
+      "page": "https://www.jamendo.com/track/1403270",
+      "genre": "rnb"
+    },
+    "msg_id": 843,
+    "file_id": "BAACAgEAAxkDAAIDS2rkzNZcbA_UU9osjnZQ7pIx6oXKAAJZBwAC1DUoR7up8Hww3mQPPQQ",
+    "replaces": "515afa63"
+  },
+  {
+    "id": "0b0a2b15",
+    "slot_key": "2026-10-30 17:30",
+    "slot_iso": "2026-10-30T21:30:00+00:00",
+    "slot_label": "Fri Oct 30, 5:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-cold-shower-bait",
+    "category": "health_bait",
+    "clip_id": "clip39",
+    "cta": 5,
+    "mode": "edited",
+    "seconds": 9.03,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1591558",
+      "title": "199-s8rec",
+      "creator": "orangeicebear",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1591558/mp32/",
+      "source": "jamendo",
+      "duration_ms": 671000,
+      "page": "https://www.jamendo.com/track/1591558",
+      "genre": "trap"
+    },
+    "msg_id": 844,
+    "file_id": "BAACAgEAAxkDAAIDTGrkzPP6mnCM40jd5xePtIlk7KW9AAJaBwAC1DUoR3nM-YrFtw1-PQQ",
+    "replaces": "c83b194a"
   }
 ]
