@@ -5181,7 +5181,8 @@
     "file_id": "BAACAgEAAxkDAAIC9WrhWtXQhUOfLYMLdelrBQVcmxEfAAKACQACKfsJRxfYjuySJU5HPQQ",
     "decided_at": "2026-10-30T12:23:19.169123+00:00",
     "redo": "new_topic",
-    "needs_replacement": true
+    "needs_replacement": false,
+    "replaced_by": "c14c1afe"
   },
   {
     "id": "552bfc68",
@@ -5195,7 +5196,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 10.96,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1448162",
       "title": "Nothern Fall X BlackBadBlood - Spring",
@@ -5209,7 +5210,11 @@
       "genre": "trap"
     },
     "msg_id": 758,
-    "file_id": "BAACAgEAAxkDAAIC9mrhWut9G-FQD1sJw5lwVXmn_Wj-AAKBCQACKfsJR5CBsa1LebxBPQQ"
+    "file_id": "BAACAgEAAxkDAAIC9mrhWut9G-FQD1sJw5lwVXmn_Wj-AAKBCQACKfsJR5CBsa1LebxBPQQ",
+    "decided_at": "2026-10-30T12:25:50.835897+00:00",
+    "redo": "swap_music",
+    "needs_replacement": false,
+    "replaced_by": "50dce22c"
   },
   {
     "id": "1d2105a1",
@@ -5223,7 +5228,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.16,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1367800",
       "title": "CRIZ3Y - Facepalm (VIP)",
@@ -5237,7 +5242,8 @@
       "genre": "trap"
     },
     "msg_id": 759,
-    "file_id": "BAACAgEAAxkDAAIC92rhWwFdlIVAuMYeBNWVJZoF6sxiAAKCCQACKfsJRxCND6mZpeFDPQQ"
+    "file_id": "BAACAgEAAxkDAAIC92rhWwFdlIVAuMYeBNWVJZoF6sxiAAKCCQACKfsJRxCND6mZpeFDPQQ",
+    "decided_at": "2026-10-30T12:25:50.835897+00:00"
   },
   {
     "id": "c5ecdc3a",
@@ -5251,7 +5257,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 4.33,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2160840",
       "title": "Ambient Inspirational Music",
@@ -5265,7 +5271,11 @@
       "genre": "pop"
     },
     "msg_id": 760,
-    "file_id": "BAACAgEAAxkDAAIC-GrhWw_MmemkunNm7P_uoGygkYCRAAKDCQACKfsJRxHqHLH8uYwfPQQ"
+    "file_id": "BAACAgEAAxkDAAIC-GrhWw_MmemkunNm7P_uoGygkYCRAAKDCQACKfsJRxHqHLH8uYwfPQQ",
+    "decided_at": "2026-10-30T12:25:50.835897+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "1cedda7a"
   },
   {
     "id": "911d88a1",
@@ -5279,7 +5289,7 @@
     "cta": 5,
     "mode": "explore",
     "seconds": 4.64,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1916401",
       "title": "RnB Chill Trap",
@@ -5293,7 +5303,8 @@
       "genre": "rnb"
     },
     "msg_id": 761,
-    "file_id": "BAACAgEAAxkDAAIC-WrhWx2NqTfL46lqxvFIidG4JlWtAAKECQACKfsJR-HEIPgRP10dPQQ"
+    "file_id": "BAACAgEAAxkDAAIC-WrhWx2NqTfL46lqxvFIidG4JlWtAAKECQACKfsJR-HEIPgRP10dPQQ",
+    "decided_at": "2026-10-30T12:25:50.835897+00:00"
   },
   {
     "id": "515afa63",
@@ -6179,5 +6190,92 @@
     },
     "msg_id": 820,
     "file_id": "BAACAgEAAxkDAAIDNGrkA5FwVQWu7wdbSBzuvnbkhW5hAAISCAAC1DUgR7xb19g4L2mRPQQ"
+  },
+  {
+    "id": "c14c1afe",
+    "slot_key": "2026-10-30 09:30",
+    "slot_iso": "2026-10-30T13:30:00+00:00",
+    "slot_label": "Fri Oct 30, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-small-normal",
+    "category": "mens_health",
+    "clip_id": "clip06",
+    "cta": 5,
+    "mode": "exploit",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1093608",
+      "title": "Strictly Luxury",
+      "creator": "Lilly Wolf",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1093608/mp32/",
+      "source": "jamendo",
+      "duration_ms": 268000,
+      "page": "https://www.jamendo.com/track/1093608",
+      "genre": "electronic"
+    },
+    "msg_id": 830,
+    "file_id": "BAACAgEAAxkDAAIDPmrkjQEMYvRLJOiRJGj8VZCCNjQXAAIbCQAC1DUgR0d00oC_ysUVPQQ",
+    "replaces": "ed64036e"
+  },
+  {
+    "id": "50dce22c",
+    "slot_key": "2026-10-30 11:00",
+    "slot_iso": "2026-10-30T15:00:00+00:00",
+    "slot_label": "Fri Oct 30, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-vasectomy-vs-tubal",
+    "category": "sex_ed",
+    "clip_id": "clip34",
+    "cta": 1,
+    "mode": "explore",
+    "seconds": 10.96,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1206274",
+      "title": "Made In Italy",
+      "creator": "Pokki DJ",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1206274/mp32/",
+      "source": "jamendo",
+      "duration_ms": 154000,
+      "page": "https://www.jamendo.com/track/1206274",
+      "genre": "dance"
+    },
+    "msg_id": 831,
+    "file_id": "BAACAgEAAxkDAAIDP2rkjRXqrtczyhlAU-bL1Z5edKm0AAIcCQAC1DUgR3QmYLcVznUyPQQ",
+    "replaces": "552bfc68"
+  },
+  {
+    "id": "1cedda7a",
+    "slot_key": "2026-10-30 13:00",
+    "slot_iso": "2026-10-30T17:00:00+00:00",
+    "slot_label": "Fri Oct 30, 1:00 PM",
+    "post_type": "regular",
+    "item_id": "nw-sperm-per-second",
+    "category": "mens_health",
+    "clip_id": "clip76",
+    "cta": 1,
+    "mode": "explore",
+    "seconds": 4.33,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1871345",
+      "title": "TP4",
+      "creator": "orangeicebear",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1871345/mp32/",
+      "source": "jamendo",
+      "duration_ms": 280000,
+      "page": "https://www.jamendo.com/track/1871345",
+      "genre": "trap"
+    },
+    "msg_id": 832,
+    "file_id": "BAACAgEAAxkDAAIDQGrkjSeW2k7nQ4QtQL_8KTRm3i4dAAIdCQAC1DUgR6AQPJkn4eFoPQQ",
+    "replaces": "c5ecdc3a"
   }
 ]
