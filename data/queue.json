@@ -190,35 +190,6 @@
     "replaced_by": "18c762d7"
   },
   {
-    "id": "23307b18",
-    "slot_key": "2026-10-21 08:00",
-    "slot_iso": "2026-10-21T12:00:00+00:00",
-    "slot_label": "Wed Oct 21, 8:00 AM",
-    "post_type": "regular",
-    "item_id": "nw-g-spot-where",
-    "category": "anatomy",
-    "clip_id": "clip86",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 6.03,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1395053",
-      "title": "Ninu - I feel this",
-      "creator": "Ninu",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1395053/mp32/",
-      "source": "jamendo",
-      "duration_ms": 175000,
-      "page": "https://www.jamendo.com/track/1395053",
-      "genre": "trap"
-    },
-    "msg_id": 363,
-    "file_id": "BAACAgEAAxkDAAIBa2rVfx2Jp6aRzwFPQ8OfWwABUslTygAChwkAApdwqEbvH0naOCcRJD0E",
-    "decided_at": "2026-10-21T12:50:17.163798+00:00"
-  },
-  {
     "id": "7375c3a2",
     "slot_key": "2026-10-21 12:00",
     "slot_iso": "2026-10-21T16:00:00+00:00",
@@ -5070,7 +5041,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1331970",
       "title": "Faith",
@@ -5085,7 +5056,8 @@
     },
     "msg_id": 784,
     "file_id": "BAACAgEAAxkDAAIDEGrirvi6XGiCIi2pQBL4oSFcCRHYAALGBgAChhwZR8t40aQzmxEFPQQ",
-    "decided_at": "2026-10-31T03:32:28.320898+00:00"
+    "decided_at": "2026-10-31T03:32:28.320898+00:00",
+    "permalink": "https://www.instagram.com/reel/DfKHnALE7GG/"
   },
   {
     "id": "4b360301",
