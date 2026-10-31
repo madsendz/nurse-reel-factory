@@ -96,36 +96,6 @@
     "replaced_by": "18c762d7"
   },
   {
-    "id": "b0919696",
-    "slot_key": "2026-10-21 14:30",
-    "slot_iso": "2026-10-21T18:30:00+00:00",
-    "slot_label": "Wed Oct 21, 2:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-faked-it",
-    "category": "sex_ed",
-    "clip_id": "clip58",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 6.17,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-384090",
-      "title": "Manta-dive",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384090/mp32/",
-      "source": "jamendo",
-      "duration_ms": 197000,
-      "page": "https://www.jamendo.com/track/384090",
-      "genre": "lounge"
-    },
-    "msg_id": 365,
-    "file_id": "BAACAgEAAxkDAAIBbWrVf0cNdDqaXXlVPuExXc2U1GUHAAKJCQACl3CoRkP38wSihkWjPQQ",
-    "decided_at": "2026-10-21T13:08:36.268481+00:00",
-    "permalink": "https://www.instagram.com/reel/DexD6WCiYtF/"
-  },
-  {
     "id": "9d174bf8",
     "slot_key": "2026-10-21 17:30",
     "slot_iso": "2026-10-21T21:30:00+00:00",
@@ -4914,7 +4884,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1945492",
       "title": "Do not disturb",
@@ -4929,7 +4899,8 @@
     },
     "msg_id": 791,
     "file_id": "BAACAgEAAxkDAAIDF2rir3PKfvmcTGrTukFe9Huid206AALLBgAChhwZR37Y8RJtrNQYPQQ",
-    "decided_at": "2026-10-31T03:46:28.251802+00:00"
+    "decided_at": "2026-10-31T03:46:28.251802+00:00",
+    "permalink": "https://www.instagram.com/reel/DfK0RFdk7PG/"
   },
   {
     "id": "bca8fc41",
