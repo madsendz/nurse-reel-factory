@@ -5031,7 +5031,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2026412",
       "title": "In For Future Bass",
@@ -5045,7 +5045,11 @@
       "genre": "rnb"
     },
     "msg_id": 794,
-    "file_id": "BAACAgEAAxkDAAIDGmrir6sxZHXDZsh0zor5A2Lwc2zvAALOBgAChhwZRyvBmUAd6LZbPQQ"
+    "file_id": "BAACAgEAAxkDAAIDGmrir6sxZHXDZsh0zor5A2Lwc2zvAALOBgAChhwZRyvBmUAd6LZbPQQ",
+    "decided_at": "2026-10-31T16:07:28.757110+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "88405a14"
   },
   {
     "id": "60ec9e1d",
@@ -6067,5 +6071,34 @@
     "msg_id": 876,
     "file_id": "BAACAgEAAxkDAAIDbGrmEiHHLDLpsCUQO9S6nrQVm711AALsBwAC9qMwR7xDN3tpxdn6PQQ",
     "replaces": "f596d9a8"
+  },
+  {
+    "id": "88405a14",
+    "slot_key": "2026-10-31 19:30",
+    "slot_iso": "2026-10-31T23:30:00+00:00",
+    "slot_label": "Sat Oct 31, 7:30 PM",
+    "post_type": "regular",
+    "item_id": "pr-bigger-positions",
+    "category": "sexual_wellness",
+    "clip_id": "clip03",
+    "cta": 5,
+    "mode": "exploit",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1961617",
+      "title": "Memoirs",
+      "creator": "John Vanick",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1961617/mp32/",
+      "source": "jamendo",
+      "duration_ms": 341000,
+      "page": "https://www.jamendo.com/track/1961617",
+      "genre": "dance"
+    },
+    "msg_id": 878,
+    "file_id": "BAACAgEAAxkDAAIDbmrmEnnMTStcJ-k-dkByO_wDvQNDAALvBwAC9qMwRxY4f3Z_0hwHPQQ",
+    "replaces": "82e771d4"
   }
 ]
