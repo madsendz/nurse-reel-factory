@@ -5131,7 +5131,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1525343",
       "title": "FAS - heda",
@@ -5145,7 +5145,8 @@
       "genre": "trap"
     },
     "msg_id": 786,
-    "file_id": "BAACAgEAAxkDAAIDEmrirypCCgyzg9n4_vT7xvSSysUuAALIBgAChhwZR-MyRY4j8d6YPQQ"
+    "file_id": "BAACAgEAAxkDAAIDEmrirypCCgyzg9n4_vT7xvSSysUuAALIBgAChhwZR-MyRY4j8d6YPQQ",
+    "decided_at": "2026-10-31T03:46:28.251802+00:00"
   },
   {
     "id": "20ff7402",
@@ -5159,7 +5160,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 8.39,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1199532",
       "title": "Stefan The Poker Player",
@@ -5173,7 +5174,8 @@
       "genre": "electronic"
     },
     "msg_id": 788,
-    "file_id": "BAACAgEAAxkDAAIDFGrirz_XQCzESKVjOW4Od0J0dK00AALJBgAChhwZR0ZRVC43maEIPQQ"
+    "file_id": "BAACAgEAAxkDAAIDFGrirz_XQCzESKVjOW4Od0J0dK00AALJBgAChhwZR0ZRVC43maEIPQQ",
+    "decided_at": "2026-10-31T03:46:28.251802+00:00"
   },
   {
     "id": "45fc2069",
@@ -5187,7 +5189,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.8,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1931328",
       "title": "Dreaming of better days",
@@ -5201,7 +5203,11 @@
       "genre": "chillout"
     },
     "msg_id": 789,
-    "file_id": "BAACAgEAAxkDAAIDFWrir1bLW74aG5N65tFj6dEqkDWYAALKBgAChhwZRy8JTwupOB1bPQQ"
+    "file_id": "BAACAgEAAxkDAAIDFWrir1bLW74aG5N65tFj6dEqkDWYAALKBgAChhwZRy8JTwupOB1bPQQ",
+    "decided_at": "2026-10-31T03:46:28.251802+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "f596d9a8"
   },
   {
     "id": "eb282541",
@@ -5215,7 +5221,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1945492",
       "title": "Do not disturb",
@@ -5229,7 +5235,8 @@
       "genre": "chillout"
     },
     "msg_id": 791,
-    "file_id": "BAACAgEAAxkDAAIDF2rir3PKfvmcTGrTukFe9Huid206AALLBgAChhwZR37Y8RJtrNQYPQQ"
+    "file_id": "BAACAgEAAxkDAAIDF2rir3PKfvmcTGrTukFe9Huid206AALLBgAChhwZR37Y8RJtrNQYPQQ",
+    "decided_at": "2026-10-31T03:46:28.251802+00:00"
   },
   {
     "id": "bca8fc41",
@@ -5243,7 +5250,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 4.73,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-20236",
       "title": "Ambiphonic",
@@ -5257,7 +5264,8 @@
       "genre": "lounge"
     },
     "msg_id": 792,
-    "file_id": "BAACAgEAAxkDAAIDGGrir4O-yCrKXIcxo-MJdz6p127sAALMBgAChhwZR7QizmoYVfiIPQQ"
+    "file_id": "BAACAgEAAxkDAAIDGGrir4O-yCrKXIcxo-MJdz6p127sAALMBgAChhwZR7QizmoYVfiIPQQ",
+    "decided_at": "2026-10-31T03:46:28.251802+00:00"
   },
   {
     "id": "b32e9e60",
@@ -5271,7 +5279,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 7.59,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-247156",
       "title": "Silence Apart",
@@ -5285,7 +5293,8 @@
       "genre": "pop"
     },
     "msg_id": 793,
-    "file_id": "BAACAgEAAxkDAAIDGWrir5YXnnLrD2ajOctgBgP3LC3AAALNBgAChhwZR7oozCwBKgIsPQQ"
+    "file_id": "BAACAgEAAxkDAAIDGWrir5YXnnLrD2ajOctgBgP3LC3AAALNBgAChhwZR7oozCwBKgIsPQQ",
+    "decided_at": "2026-10-31T03:46:28.251802+00:00"
   },
   {
     "id": "82e771d4",
@@ -6255,7 +6264,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -6270,6 +6279,36 @@
     },
     "msg_id": 868,
     "file_id": "BAACAgEAAxkDAAIDZGrlYYSdtUZVYmAUBSVqQfUDEc9HAAKeCAAC1DUoR5Aq5Kz16L6hPQQ",
-    "replaces": "4b360301"
+    "replaces": "4b360301",
+    "decided_at": "2026-10-31T03:46:28.251802+00:00"
+  },
+  {
+    "id": "f596d9a8",
+    "slot_key": "2026-10-31 13:00",
+    "slot_iso": "2026-10-31T17:00:00+00:00",
+    "slot_label": "Sat Oct 31, 1:00 PM",
+    "post_type": "regular",
+    "item_id": "nw-wet-dreams",
+    "category": "mens_health",
+    "clip_id": "clip34",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 10.96,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-384090",
+      "title": "Manta-dive",
+      "creator": "K4MMERER",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/384090/mp32/",
+      "source": "jamendo",
+      "duration_ms": 197000,
+      "page": "https://www.jamendo.com/track/384090",
+      "genre": "lounge"
+    },
+    "msg_id": 870,
+    "file_id": "BAACAgEAAxkDAAIDZmrlZM--gIicyHz4nZ-bvfPw6P-dAAKnCAAC1DUoR6Xpgc4waFzaPQQ",
+    "replaces": "45fc2069"
   }
 ]
