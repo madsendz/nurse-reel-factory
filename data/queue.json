@@ -1,37 +1,5 @@
 [
   {
-    "id": "0a8f65e2",
-    "slot_key": "2026-10-21 16:00",
-    "slot_iso": "2026-10-21T20:00:00+00:00",
-    "slot_label": "Wed Oct 21, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "pr-stamina-foods",
-    "category": "mens_health",
-    "clip_id": "clip49",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 4.73,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1305161",
-      "title": "Give U My Name",
-      "creator": "Jyant",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1305161/mp32/",
-      "source": "jamendo",
-      "duration_ms": 242000,
-      "page": "https://www.jamendo.com/track/1305161",
-      "genre": "hiphop"
-    },
-    "msg_id": 349,
-    "file_id": "BAACAgEAAxkDAAIBXWrVb9QpDaXfTy4NahP0zKdK9p4XAAJaCQACl3CoRtKktfABUiVtPQQ",
-    "decided_at": "2026-10-21T13:08:36.268481+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "92b34910"
-  },
-  {
     "id": "7122ff02",
     "slot_key": "2026-10-21 19:30",
     "slot_iso": "2026-10-21T23:30:00+00:00",
@@ -750,37 +718,6 @@
     "redo": "new_clip",
     "needs_replacement": false,
     "replaced_by": "08565425"
-  },
-  {
-    "id": "92b34910",
-    "slot_key": "2026-10-21 16:00",
-    "slot_iso": "2026-10-21T20:00:00+00:00",
-    "slot_label": "Wed Oct 21, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "pr-stamina-foods",
-    "category": "mens_health",
-    "clip_id": "clip07",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 10.4,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-181806",
-      "title": "Alexandra 02",
-      "creator": "Löhstana David",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/181806/mp32/",
-      "source": "jamendo",
-      "duration_ms": 233000,
-      "page": "https://www.jamendo.com/track/181806",
-      "genre": "pop"
-    },
-    "msg_id": 470,
-    "file_id": "BAACAgEAAxkDAAIB1mrYuYICEvk5AUAQXHmhUrYX7smzAAK3CAACZufJRmtJ1Ki6EHKQPQQ",
-    "replaces": "0a8f65e2",
-    "decided_at": "2026-10-21T13:11:47.111027+00:00",
-    "permalink": "https://www.instagram.com/reel/DexOUQKCWgN/"
   },
   {
     "id": "975f2779",
@@ -4914,7 +4851,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 4.73,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-20236",
       "title": "Ambiphonic",
@@ -4929,7 +4866,8 @@
     },
     "msg_id": 792,
     "file_id": "BAACAgEAAxkDAAIDGGrir4O-yCrKXIcxo-MJdz6p127sAALMBgAChhwZR7QizmoYVfiIPQQ",
-    "decided_at": "2026-10-31T03:46:28.251802+00:00"
+    "decided_at": "2026-10-31T03:46:28.251802+00:00",
+    "permalink": "https://www.instagram.com/reel/DfK-RUcjXdu/"
   },
   {
     "id": "b32e9e60",
