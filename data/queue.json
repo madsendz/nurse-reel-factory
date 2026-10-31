@@ -1,37 +1,5 @@
 [
   {
-    "id": "7122ff02",
-    "slot_key": "2026-10-21 19:30",
-    "slot_iso": "2026-10-21T23:30:00+00:00",
-    "slot_label": "Wed Oct 21, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "pr-release-often",
-    "category": "sexual_wellness",
-    "clip_id": "clip74",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 4.64,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1702676",
-      "title": "Daydream",
-      "creator": "zero-project",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1702676/mp32/",
-      "source": "jamendo",
-      "duration_ms": 258000,
-      "page": "https://www.jamendo.com/track/1702676",
-      "genre": "lounge"
-    },
-    "msg_id": 350,
-    "file_id": "BAACAgEAAxkDAAIBXmrVb-nfeaH-IPdhnvfduwHJsHx7AAJbCQACl3CoRsQoKpuy0m8gPQQ",
-    "decided_at": "2026-10-21T13:16:29.982601+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "57fcc04b"
-  },
-  {
     "id": "378ceeb7",
     "slot_key": "2026-10-21 21:30",
     "slot_iso": "2026-10-22T01:30:00+00:00",
@@ -686,37 +654,6 @@
     "redo": "new_clip",
     "needs_replacement": false,
     "replaced_by": "08565425"
-  },
-  {
-    "id": "57fcc04b",
-    "slot_key": "2026-10-21 19:30",
-    "slot_iso": "2026-10-21T23:30:00+00:00",
-    "slot_label": "Wed Oct 21, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "pr-release-often",
-    "category": "sexual_wellness",
-    "clip_id": "clip49",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 4.73,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1267753",
-      "title": "Ghosts",
-      "creator": "Lyvo",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1267753/mp32/",
-      "source": "jamendo",
-      "duration_ms": 173000,
-      "page": "https://www.jamendo.com/track/1267753",
-      "genre": "electronic"
-    },
-    "msg_id": 480,
-    "file_id": "BAACAgEAAxkDAAIB4GrYu0p1tAoiott18mvTx9wtBUsUAAK9CAACZufJRtYkzY8rxJdoPQQ",
-    "replaces": "7122ff02",
-    "decided_at": "2026-10-21T20:14:16.264081+00:00",
-    "permalink": "https://www.instagram.com/reel/DexmKk_DF8q/"
   },
   {
     "id": "18c762d7",
@@ -5873,7 +5810,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1961617",
       "title": "Memoirs",
@@ -5889,7 +5826,8 @@
     "msg_id": 878,
     "file_id": "BAACAgEAAxkDAAIDbmrmEnnMTStcJ-k-dkByO_wDvQNDAALvBwAC9qMwRxY4f3Z_0hwHPQQ",
     "replaces": "82e771d4",
-    "decided_at": "2026-10-31T21:31:12.447464+00:00"
+    "decided_at": "2026-10-31T21:31:12.447464+00:00",
+    "permalink": "https://www.instagram.com/reel/DfLWk5Tj4ei/"
   },
   {
     "id": "4d475834",
