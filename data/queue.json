@@ -1,35 +1,5 @@
 [
   {
-    "id": "f6fd4c4b",
-    "slot_key": "2026-10-20 21:30",
-    "slot_iso": "2026-10-21T01:30:00+00:00",
-    "slot_label": "Tue Oct 20, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-sperm-months",
-    "category": "mens_health",
-    "clip_id": "clip16",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 6.9,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1576336",
-      "title": "White Walls",
-      "creator": "Circles",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1576336/mp32/",
-      "source": "jamendo",
-      "duration_ms": 292000,
-      "page": "https://www.jamendo.com/track/1576336",
-      "genre": "chillout"
-    },
-    "msg_id": 314,
-    "file_id": "BAACAgEAAxkDAAIBOmrUGx_TzClaKg0Ss_8T8M610KFsAAIMCQACl3CgRi41Lbcs0EkuPQQ",
-    "decided_at": "2026-10-20T03:51:24.397859+00:00",
-    "permalink": "https://www.instagram.com/reel/DevPMNBgdIv/"
-  },
-  {
     "id": "707ad71a",
     "slot_key": "2026-10-21 09:30",
     "slot_iso": "2026-10-21T13:30:00+00:00",
@@ -5906,7 +5876,7 @@
     "cta": 5,
     "mode": "edited",
     "seconds": 9.03,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1591558",
       "title": "199-s8rec",
@@ -5923,7 +5893,8 @@
     "file_id": "BAACAgEAAxkDAAIDTGrkzPP6mnCM40jd5xePtIlk7KW9AAJaBwAC1DUoR3nM-YrFtw1-PQQ",
     "replaces": "c83b194a",
     "decided_at": "2026-10-31T00:08:59.077689+00:00",
-    "post_now": true
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/DfI_e3YlQ2K/"
   },
   {
     "id": "1631bd67",
