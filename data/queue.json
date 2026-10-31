@@ -6018,7 +6018,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.96,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-384090",
       "title": "Manta-dive",
@@ -6033,6 +6033,39 @@
     },
     "msg_id": 870,
     "file_id": "BAACAgEAAxkDAAIDZmrlZM--gIicyHz4nZ-bvfPw6P-dAAKnCAAC1DUoR6Xpgc4waFzaPQQ",
-    "replaces": "45fc2069"
+    "replaces": "45fc2069",
+    "decided_at": "2026-10-31T16:06:07.838571+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "9b4966f2"
+  },
+  {
+    "id": "9b4966f2",
+    "slot_key": "2026-10-31 13:00",
+    "slot_iso": "2026-10-31T17:00:00+00:00",
+    "slot_label": "Sat Oct 31, 1:00 PM",
+    "post_type": "regular",
+    "item_id": "nw-wet-dreams",
+    "category": "mens_health",
+    "clip_id": "clip34",
+    "cta": 0,
+    "mode": "edited",
+    "seconds": 10.96,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-384090",
+      "title": "Manta-dive",
+      "creator": "K4MMERER",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/384090/mp32/",
+      "source": "jamendo",
+      "duration_ms": 197000,
+      "page": "https://www.jamendo.com/track/384090",
+      "genre": "lounge"
+    },
+    "msg_id": 876,
+    "file_id": "BAACAgEAAxkDAAIDbGrmEiHHLDLpsCUQO9S6nrQVm711AALsBwAC9qMwR7xDN3tpxdn6PQQ",
+    "replaces": "f596d9a8"
   }
 ]
