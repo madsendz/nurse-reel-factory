@@ -1,37 +1,5 @@
 [
   {
-    "id": "2512a9ea",
-    "slot_key": "2026-10-21 11:00",
-    "slot_iso": "2026-10-21T15:00:00+00:00",
-    "slot_label": "Wed Oct 21, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-sti-no-symptoms",
-    "category": "sex_ed",
-    "clip_id": "clip07",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 12.23,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1319541",
-      "title": "Gone Crasy (4-Track-Recording-1991)",
-      "creator": "Christian Zell",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1319541/mp32/",
-      "source": "jamendo",
-      "duration_ms": 222000,
-      "page": "https://www.jamendo.com/track/1319541",
-      "genre": "pop"
-    },
-    "msg_id": 347,
-    "file_id": "BAACAgEAAxkDAAIBW2rVb6nu6hTggtVQpVeoU5aEwWXpAAJXCQACl3CoRlurleox-NWDPQQ",
-    "decided_at": "2026-10-21T13:08:36.268481+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "bc40d615"
-  },
-  {
     "id": "bfb5140e",
     "slot_key": "2026-10-21 13:00",
     "slot_iso": "2026-10-21T17:00:00+00:00",
@@ -876,39 +844,6 @@
     "replaced_by": "08565425"
   },
   {
-    "id": "bc40d615",
-    "slot_key": "2026-10-21 11:00",
-    "slot_iso": "2026-10-21T15:00:00+00:00",
-    "slot_label": "Wed Oct 21, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-sti-no-symptoms",
-    "category": "sex_ed",
-    "clip_id": "clip03",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 13.53,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1945492",
-      "title": "Do not disturb",
-      "creator": "zero-project",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1945492/mp32/",
-      "source": "jamendo",
-      "duration_ms": 280000,
-      "page": "https://www.jamendo.com/track/1945492",
-      "genre": "chillout"
-    },
-    "msg_id": 464,
-    "file_id": "BAACAgEAAxkDAAIB0GrYtnXOkgK8wtB4OPJXyYlOurMdAAKuCAACZufJRhsetwufdB58PQQ",
-    "replaces": "2512a9ea",
-    "decided_at": "2026-10-21T13:11:48.395178+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "ac0609ce"
-  },
-  {
     "id": "92b34910",
     "slot_key": "2026-10-21 16:00",
     "slot_iso": "2026-10-21T20:00:00+00:00",
@@ -938,35 +873,6 @@
     "replaces": "0a8f65e2",
     "decided_at": "2026-10-21T13:11:47.111027+00:00",
     "permalink": "https://www.instagram.com/reel/DexOUQKCWgN/"
-  },
-  {
-    "id": "ac0609ce",
-    "slot_key": "2026-10-21 11:00",
-    "slot_iso": "2026-10-21T15:00:00+00:00",
-    "slot_label": "Wed Oct 21, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-clit-nerves",
-    "category": "anatomy",
-    "clip_id": "clip03",
-    "cta": 1,
-    "mode": "explore",
-    "seconds": 13.53,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1916401",
-      "title": "RnB Chill Trap",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1916401/mp32/",
-      "source": "jamendo",
-      "duration_ms": 123000,
-      "page": "https://www.jamendo.com/track/1916401",
-      "genre": "hiphop"
-    },
-    "msg_id": 473,
-    "file_id": "BAACAgEAAxkDAAIB2WrYujx23FHjwxEWe0wOJUBHlK-PAAK6CAACZufJRr3juwn4y17XPQQ",
-    "replaces": "bc40d615"
   },
   {
     "id": "975f2779",
@@ -5007,7 +4913,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.0,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1525343",
       "title": "FAS - heda",
@@ -5022,7 +4928,8 @@
     },
     "msg_id": 786,
     "file_id": "BAACAgEAAxkDAAIDEmrirypCCgyzg9n4_vT7xvSSysUuAALIBgAChhwZR-MyRY4j8d6YPQQ",
-    "decided_at": "2026-10-31T03:46:28.251802+00:00"
+    "decided_at": "2026-10-31T03:46:28.251802+00:00",
+    "permalink": "https://www.instagram.com/reel/DfKcAJJgWUp/"
   },
   {
     "id": "20ff7402",
