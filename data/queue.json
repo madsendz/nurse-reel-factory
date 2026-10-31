@@ -1,37 +1,5 @@
 [
   {
-    "id": "707ad71a",
-    "slot_key": "2026-10-21 09:30",
-    "slot_iso": "2026-10-21T13:30:00+00:00",
-    "slot_label": "Wed Oct 21, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-precum",
-    "category": "sex_ed",
-    "clip_id": "clip36",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 11.4,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-247156",
-      "title": "Silence Apart",
-      "creator": "ZigiZigi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/247156/mp32/",
-      "source": "jamendo",
-      "duration_ms": 326000,
-      "page": "https://www.jamendo.com/track/247156",
-      "genre": "pop"
-    },
-    "msg_id": 346,
-    "file_id": "BAACAgEAAxkDAAIBWmrVb4ZosL_l4GrHBNinCcmozIG_AAJWCQACl3CoRgbJPp-9090yPQQ",
-    "decided_at": "2026-10-21T12:55:40.825398+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "02aa7ef4"
-  },
-  {
     "id": "2512a9ea",
     "slot_key": "2026-10-21 11:00",
     "slot_iso": "2026-10-21T15:00:00+00:00",
@@ -908,39 +876,6 @@
     "replaced_by": "08565425"
   },
   {
-    "id": "02aa7ef4",
-    "slot_key": "2026-10-21 09:30",
-    "slot_iso": "2026-10-21T13:30:00+00:00",
-    "slot_label": "Wed Oct 21, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-size-by-country",
-    "category": "mens_health",
-    "clip_id": "clip36",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 9.8,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1702676",
-      "title": "Daydream",
-      "creator": "zero-project",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1702676/mp32/",
-      "source": "jamendo",
-      "duration_ms": 258000,
-      "page": "https://www.jamendo.com/track/1702676",
-      "genre": "chillout"
-    },
-    "msg_id": 459,
-    "file_id": "BAACAgEAAxkDAAIBy2rYtTpPss0SlM6WtFXlxXdCQ8AbAAKrCAACZufJRsToHTdMtSmfPQQ",
-    "replaces": "707ad71a",
-    "decided_at": "2026-10-21T13:03:16.175747+00:00",
-    "redo": "text_edit",
-    "needs_replacement": false,
-    "replaced_by": "d511eeca"
-  },
-  {
     "id": "bc40d615",
     "slot_key": "2026-10-21 11:00",
     "slot_iso": "2026-10-21T15:00:00+00:00",
@@ -972,37 +907,6 @@
     "redo": "new_topic",
     "needs_replacement": false,
     "replaced_by": "ac0609ce"
-  },
-  {
-    "id": "d511eeca",
-    "slot_key": "2026-10-21 09:30",
-    "slot_iso": "2026-10-21T13:30:00+00:00",
-    "slot_label": "Wed Oct 21, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-size-by-country",
-    "category": "mens_health",
-    "clip_id": "clip36",
-    "cta": 2,
-    "mode": "edited",
-    "seconds": 9.8,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1702676",
-      "title": "Daydream",
-      "creator": "zero-project",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1702676/mp32/",
-      "source": "jamendo",
-      "duration_ms": 258000,
-      "page": "https://www.jamendo.com/track/1702676",
-      "genre": "chillout"
-    },
-    "msg_id": 467,
-    "file_id": "BAACAgEAAxkDAAIB02rYuDmZGM5eBNlTEwABPKP9yRe9PAACswgAAmbnyUa6UT91vB84uz0E",
-    "replaces": "02aa7ef4",
-    "decided_at": "2026-10-21T13:11:48.395178+00:00",
-    "permalink": "https://www.instagram.com/reel/Dewhmthk0iX/"
   },
   {
     "id": "92b34910",
@@ -6236,7 +6140,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -6252,7 +6156,8 @@
     "msg_id": 868,
     "file_id": "BAACAgEAAxkDAAIDZGrlYYSdtUZVYmAUBSVqQfUDEc9HAAKeCAAC1DUoR5Aq5Kz16L6hPQQ",
     "replaces": "4b360301",
-    "decided_at": "2026-10-31T03:46:28.251802+00:00"
+    "decided_at": "2026-10-31T03:46:28.251802+00:00",
+    "permalink": "https://www.instagram.com/reel/DfKRua5ic8S/"
   },
   {
     "id": "f596d9a8",
