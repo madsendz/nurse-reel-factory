@@ -4967,7 +4967,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 9.8,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1230857",
       "title": "Indios",
@@ -4981,7 +4981,11 @@
       "genre": "chillout"
     },
     "msg_id": 810,
-    "file_id": "BAACAgEAAxkDAAIDKmrkAsXonYkhBtGZCxpgJfErj1hMAAIJCAAC1DUgRykb0poP6Fa7PQQ"
+    "file_id": "BAACAgEAAxkDAAIDKmrkAsXonYkhBtGZCxpgJfErj1hMAAIJCAAC1DUgRykb0poP6Fa7PQQ",
+    "decided_at": "2026-10-31T22:58:58.880126+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "4d475834"
   },
   {
     "id": "35815417",
@@ -5886,5 +5890,34 @@
     "file_id": "BAACAgEAAxkDAAIDbmrmEnnMTStcJ-k-dkByO_wDvQNDAALvBwAC9qMwRxY4f3Z_0hwHPQQ",
     "replaces": "82e771d4",
     "decided_at": "2026-10-31T21:31:12.447464+00:00"
+  },
+  {
+    "id": "4d475834",
+    "slot_key": "2026-11-01 08:00",
+    "slot_iso": "2026-11-01T13:00:00+00:00",
+    "slot_label": "Sun Nov 01, 8:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-stress-libido",
+    "category": "mens_health",
+    "clip_id": "clip36",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 9.8,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-489246",
+      "title": "Back 2 UR",
+      "creator": "Keffy Kay",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/489246/mp32/",
+      "source": "jamendo",
+      "duration_ms": 301000,
+      "page": "https://www.jamendo.com/track/489246",
+      "genre": "chillout"
+    },
+    "msg_id": 883,
+    "file_id": "BAACAgEAAxkDAAIDc2rmcubYzChhapu_aGgNICTN-GClAALICAAC9qMwR9uXVF54Cvg6PQQ",
+    "replaces": "2bdc5341"
   }
 ]
