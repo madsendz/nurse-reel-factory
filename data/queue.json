@@ -5781,7 +5781,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 11.7,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1916401",
       "title": "RnB Chill Trap",
@@ -5796,7 +5796,11 @@
     },
     "msg_id": 888,
     "file_id": "BAACAgEAAxkDAAIDeGrmmku8G0DAb3LFW06YDo1SNpIZAAITCQAC9qMwR5q2C-6nEcOGPQQ",
-    "replaces": "848031a7"
+    "replaces": "848031a7",
+    "decided_at": "2026-11-01T03:16:35.364304+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "c0534ae6"
   },
   {
     "id": "52b3be34",
@@ -6077,5 +6081,34 @@
     },
     "msg_id": 898,
     "file_id": "BAACAgEAAxkDAAIDgmrmoTj80jh1hqqssX-mZszvkytEAAIyCQAC9qMwR-Eb_3ZEngNOPQQ"
+  },
+  {
+    "id": "c0534ae6",
+    "slot_key": "2026-11-01 11:00",
+    "slot_iso": "2026-11-01T16:00:00+00:00",
+    "slot_label": "Sun Nov 01, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-orgasm-brain",
+    "category": "sexual_wellness",
+    "clip_id": "clip06",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 11.7,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2160840",
+      "title": "Ambient Inspirational Music",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2160840/mp32/",
+      "source": "jamendo",
+      "duration_ms": 93000,
+      "page": "https://www.jamendo.com/track/2160840",
+      "genre": "pop"
+    },
+    "msg_id": 901,
+    "file_id": "BAACAgEAAxkDAAIDhWrmr03F4SpbWvK3p-Jny8YpXdxBAAJTCQAC9qMwR5OeLkNHXBjUPQQ",
+    "replaces": "b64fa2f6"
   }
 ]
