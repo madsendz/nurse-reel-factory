@@ -5735,7 +5735,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 9.8,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-489246",
       "title": "Back 2 UR",
@@ -5751,7 +5751,8 @@
     "msg_id": 883,
     "file_id": "BAACAgEAAxkDAAIDc2rmcubYzChhapu_aGgNICTN-GClAALICAAC9qMwR9uXVF54Cvg6PQQ",
     "replaces": "2bdc5341",
-    "decided_at": "2026-11-01T01:46:49.740928+00:00"
+    "decided_at": "2026-11-01T01:46:49.740928+00:00",
+    "permalink": "https://www.instagram.com/reel/DfMzDrpEXOn/"
   },
   {
     "id": "b64fa2f6",
