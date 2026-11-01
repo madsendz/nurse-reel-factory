@@ -1,33 +1,5 @@
 [
   {
-    "id": "53461931",
-    "slot_key": "2026-10-22 16:00",
-    "slot_iso": "2026-10-22T20:00:00+00:00",
-    "slot_label": "Thu Oct 22, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "pr-men-secretly-like",
-    "category": "sexual_wellness",
-    "clip_id": "clip76",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 4.33,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-384092",
-      "title": "Such a place!",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384092/mp32/",
-      "source": "jamendo",
-      "duration_ms": 258000,
-      "page": "https://www.jamendo.com/track/384092",
-      "genre": "lounge"
-    },
-    "msg_id": 418,
-    "file_id": "BAACAgEAAxkDAAIBomrWyaBNcE2BWOF6Fj6EiFyRmfJrAAJqDAACihq4Rkf7kkYDYxAnPQQ"
-  },
-  {
     "id": "bcad5469",
     "slot_key": "2026-10-22 17:30",
     "slot_iso": "2026-10-22T21:30:00+00:00",
@@ -4551,7 +4523,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 9.46,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-366912",
       "title": "Club's House DJ",
@@ -4566,7 +4538,8 @@
     },
     "msg_id": 816,
     "file_id": "BAACAgEAAxkDAAIDMGrkA0ZbDrRLNeTkULxhinTUMFHLAAIPCAAC1DUgRwHRQ8_iBOm6PQQ",
-    "decided_at": "2026-11-01T06:46:19.927173+00:00"
+    "decided_at": "2026-11-01T06:46:19.927173+00:00",
+    "permalink": "https://www.instagram.com/reel/DfNp4tFigid/"
   },
   {
     "id": "1f38e955",
