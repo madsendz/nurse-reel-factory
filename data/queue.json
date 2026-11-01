@@ -1,37 +1,5 @@
 [
   {
-    "id": "1b5171da",
-    "slot_key": "2026-10-22 09:30",
-    "slot_iso": "2026-10-22T13:30:00+00:00",
-    "slot_label": "Thu Oct 22, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-morning-wood",
-    "category": "mens_health",
-    "clip_id": "clip11",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 9.2,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-2160840",
-      "title": "Ambient Inspirational Music",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2160840/mp32/",
-      "source": "jamendo",
-      "duration_ms": 93000,
-      "page": "https://www.jamendo.com/track/2160840",
-      "genre": "pop"
-    },
-    "msg_id": 413,
-    "file_id": "BAACAgEAAxkDAAIBnWrWyOv0McUmh98NOouqwVAeBjrMAAJkDAACihq4RvBEzbs55Cr_PQQ",
-    "decided_at": "2026-10-21T22:40:20.396965+00:00",
-    "redo": "text_edit",
-    "needs_replacement": false,
-    "replaced_by": "a5e9e9f9"
-  },
-  {
     "id": "375f0bdf",
     "slot_key": "2026-10-22 11:00",
     "slot_iso": "2026-10-22T15:00:00+00:00",
@@ -592,37 +560,6 @@
     "redo": "new_clip",
     "needs_replacement": false,
     "replaced_by": "08565425"
-  },
-  {
-    "id": "a5e9e9f9",
-    "slot_key": "2026-10-22 09:30",
-    "slot_iso": "2026-10-22T13:30:00+00:00",
-    "slot_label": "Thu Oct 22, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-morning-wood",
-    "category": "mens_health",
-    "clip_id": "clip11",
-    "cta": 2,
-    "mode": "edited",
-    "seconds": 9.2,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2160840",
-      "title": "Ambient Inspirational Music",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2160840/mp32/",
-      "source": "jamendo",
-      "duration_ms": 93000,
-      "page": "https://www.jamendo.com/track/2160840",
-      "genre": "pop"
-    },
-    "msg_id": 499,
-    "file_id": "BAACAgEAAxkDAAIB82rZP3AohogVmemrpLd1EiKP3TXFAAIXCQACZufRRq538XnuRplxPQQ",
-    "replaces": "1b5171da",
-    "decided_at": "2026-10-22T02:40:02.583264+00:00",
-    "permalink": "https://www.instagram.com/reel/DezGa0klUsq/"
   },
   {
     "id": "66cdcbaa",
@@ -4811,7 +4748,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2290118",
       "title": "Fashion Week",
@@ -4826,7 +4763,8 @@
     },
     "msg_id": 811,
     "file_id": "BAACAgEAAxkDAAIDK2rkAtxt0itRkwiUI2Abg_Fjs0JeAAIKCAAC1DUgR9I53oo_HURuPQQ",
-    "decided_at": "2026-11-01T01:46:49.740928+00:00"
+    "decided_at": "2026-11-01T01:46:49.740928+00:00",
+    "permalink": "https://www.instagram.com/reel/DfM-Ekijtvo/"
   },
   {
     "id": "848031a7",
