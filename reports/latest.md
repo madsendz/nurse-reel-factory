@@ -6,16 +6,16 @@ Judged reels: **92** · score = link clicks first, then views/shares/saves
 
 | Score | Type | Clicks | Views | Shares | Topic | Clip | Posted |
 |---|---|---|---|---|---|---|---|
-| +1.89 | trial | 320.8 | 1168798 | 41864 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
-| +1.64 | trial | 598.6 | 822541 | 102 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
-| +1.33 | trial | 471.2 | 347550 | 39 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
-| +1.14 | regular | 386.9 | 175453 | 896 | [pr-stamina-foods](https://www.instagram.com/reel/Dedc32xDs80/) | clip26 | 2026-10-14 |
+| +1.89 | trial | 320.8 | 1170555 | 41911 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
+| +1.64 | trial | 598.6 | 822544 | 102 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
+| +1.33 | trial | 471.2 | 347658 | 39 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
+| +1.14 | regular | 386.9 | 175464 | 896 | [pr-stamina-foods](https://www.instagram.com/reel/Dedc32xDs80/) | clip26 | 2026-10-14 |
 | +1.10 | trial | 1293.1 | 22804 | 3 | [nw-orgasm-gap](https://www.instagram.com/reel/Dek8CnKAP69/) | clip04 | 2026-10-17 |
-| +1.04 | trial | 88.0 | 542321 | 351 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
-| +1.04 | regular | 123.5 | 412551 | 3087 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
-| +0.94 | regular | 126.5 | 488462 | 377 | [nw-notice-first](https://www.instagram.com/reel/DeuU9sEjfCr/) | clip24 | 2026-10-20 |
-| +0.86 | regular | 1417.2 | 49876 | 71 | [nw-cardio-erections](https://www.instagram.com/reel/DeUkq0XEyxf/) | clip32 | 2026-10-10 |
-| +0.85 | regular | 365.8 | 330797 | 30 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DepLNJwAM45/) | clip21 | 2026-10-18 |
+| +1.04 | regular | 123.5 | 412833 | 3088 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
+| +1.04 | trial | 88.0 | 543057 | 354 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
+| +0.94 | regular | 126.5 | 489821 | 382 | [nw-notice-first](https://www.instagram.com/reel/DeuU9sEjfCr/) | clip24 | 2026-10-20 |
+| +0.86 | regular | 1417.2 | 49881 | 71 | [nw-cardio-erections](https://www.instagram.com/reel/DeUkq0XEyxf/) | clip32 | 2026-10-10 |
+| +0.85 | regular | 365.8 | 330830 | 30 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DepLNJwAM45/) | clip21 | 2026-10-18 |
 
 ## Hook styles
 
@@ -62,13 +62,13 @@ Judged reels: **92** · score = link clicks first, then views/shares/saves
 | clip27 | +0.17 | 2 |
 | clip26 | +0.17 | 2 |
 | clip12 | +0.17 | 1 |
-| clip85 | +0.17 | 1 |
+| clip85 | +0.16 | 1 |
 | clip70 | +0.16 | 1 |
 | clip63 | +0.16 | 1 |
 | clip16 | +0.11 | 1 |
 | clip77 | +0.11 | 1 |
-| clip19 | +0.11 | 1 |
 | clip35 | +0.11 | 2 |
+| clip19 | +0.11 | 1 |
 | clip31 | +0.11 | 1 |
 | clip64 | +0.09 | 2 |
 | clip44 | +0.08 | 1 |
@@ -85,33 +85,33 @@ Judged reels: **92** · score = link clicks first, then views/shares/saves
 | clip50 | -0.04 | 1 |
 | clip82 | -0.04 | 2 |
 | clip40 | -0.05 | 1 |
-| clip21 | -0.05 | 2 |
+| clip21 | -0.06 | 2 |
 | clip74 | -0.06 | 1 |
 | clip54 | -0.07 | 1 |
-| clip80 | -0.09 | 2 |
 | clip83 | -0.09 | 1 |
+| clip80 | -0.09 | 2 |
 | clip14 | -0.09 | 2 |
-| clip58 | -0.11 | 2 |
+| clip58 | -0.10 | 2 |
 | clip24 | -0.11 | 2 |
 | clip69c | -0.12 | 1 |
 | clip30 | -0.20 | 1 |
-| clip37 | -0.23 | 2 |
 | clip46 | -0.23 | 1 |
+| clip37 | -0.23 | 2 |
 | clip55 | -0.25 | 2 |
 | clip41 | -0.26 | 2 |
 | clip60 | -0.28 | 2 |
 | clip38 | -0.29 | 2 |
 | clip13 | -0.29 | 2 |
-| clip61 | -0.31 | 2 |
 | clip10 | -0.31 | 1 |
+| clip61 | -0.31 | 2 |
 | clip69a | -0.31 | 1 |
 | clip88 | -0.35 | 1 |
-| clip52 | -0.36 | 2 |
+| clip52 | -0.35 | 2 |
 | clip23 | -0.36 | 1 |
 | clip43 | -0.47 | 1 |
 | clip11 | -0.48 | 2 |
 | clip01 | -0.49 | 1 |
-| clip47 | -0.65 | 1 |
+| clip47 | -0.64 | 1 |
 
 ## CTAs
 
@@ -126,6 +126,6 @@ Judged reels: **92** · score = link clicks first, then views/shares/saves
 
 ## Weakest recent reels
 
-- pr-mood-killer-foods (-1.44)
+- pr-mood-killer-foods (-1.43)
 - pr-a-spot (-1.54)
-- nw-semen-fertility (-1.70)
+- nw-semen-fertility (-1.69)
