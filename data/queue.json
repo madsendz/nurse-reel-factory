@@ -1,37 +1,5 @@
 [
   {
-    "id": "3a43f76b",
-    "slot_key": "2026-10-22 13:00",
-    "slot_iso": "2026-10-22T17:00:00+00:00",
-    "slot_label": "Thu Oct 22, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "nw-kegels-men",
-    "category": "mens_health",
-    "clip_id": "clip87",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 14.03,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-2304778",
-      "title": "Middle of the Night",
-      "creator": "A. Cooper",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2304778/mp32/",
-      "source": "jamendo",
-      "duration_ms": 292000,
-      "page": "https://www.jamendo.com/track/2304778",
-      "genre": "rnb"
-    },
-    "msg_id": 416,
-    "file_id": "BAACAgEAAxkDAAIBoGrWyW8k8fjdA0xem1cCKO-kYVxAAAJnDAACihq4Rlw4ejDPbT6PPQQ",
-    "decided_at": "2026-10-22T02:49:18.907335+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "60b7db51"
-  },
-  {
     "id": "d81acc97",
     "slot_key": "2026-10-22 14:30",
     "slot_iso": "2026-10-22T18:30:00+00:00",
@@ -870,37 +838,6 @@
     "redo": "text_edit",
     "needs_replacement": false,
     "replaced_by": "0d0f4273"
-  },
-  {
-    "id": "60b7db51",
-    "slot_key": "2026-10-22 13:00",
-    "slot_iso": "2026-10-22T17:00:00+00:00",
-    "slot_label": "Thu Oct 22, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "nw-kegels-men",
-    "category": "mens_health",
-    "clip_id": "clip55",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 11.0,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-384173",
-      "title": "Mind drifting back (Leaving paradise)",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384173/mp32/",
-      "source": "jamendo",
-      "duration_ms": 312000,
-      "page": "https://www.jamendo.com/track/384173",
-      "genre": "lounge"
-    },
-    "msg_id": 532,
-    "file_id": "BAACAgEAAxkDAAICFGrZeeJP2uRLMZJDOGBpoG-7_iTgAAKCCQACZufRRg-eCnJIt2wPPQQ",
-    "replaces": "3a43f76b",
-    "decided_at": "2026-10-22T05:18:18.091742+00:00",
-    "permalink": "https://www.instagram.com/reel/Dezeg8ACssI/"
   },
   {
     "id": "91c346da",
@@ -5920,7 +5857,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 5.46,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-384173",
       "title": "Mind drifting back (Leaving paradise)",
@@ -5936,7 +5873,8 @@
     "msg_id": 903,
     "file_id": "BAACAgEAAxkDAAIDh2rmr7Xodb_lsNwAAUkKUBB5Q9VmawACVAkAAvajMEel52AKciXsJj0E",
     "replaces": "862019a3",
-    "decided_at": "2026-11-01T06:46:19.927173+00:00"
+    "decided_at": "2026-11-01T06:46:19.927173+00:00",
+    "permalink": "https://www.instagram.com/reel/DfNOZFzDJoD/"
   },
   {
     "id": "8f1ce73d",
