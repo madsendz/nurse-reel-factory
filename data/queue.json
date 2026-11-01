@@ -4934,7 +4934,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 7.85,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1214977",
       "title": "Satanic Blues",
@@ -4948,7 +4948,8 @@
       "genre": "rnb"
     },
     "msg_id": 814,
-    "file_id": "BAACAgEAAxkDAAIDLmrkAxq8sZk2VG0zq2Zi-SRmHGkoAAINCAAC1DUgR4-RurH9P4SXPQQ"
+    "file_id": "BAACAgEAAxkDAAIDLmrkAxq8sZk2VG0zq2Zi-SRmHGkoAAINCAAC1DUgR4-RurH9P4SXPQQ",
+    "decided_at": "2026-11-01T06:46:19.927173+00:00"
   },
   {
     "id": "0e9f3993",
@@ -4962,7 +4963,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.17,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1992651",
       "title": "Emotional Dancing",
@@ -4976,7 +4977,8 @@
       "genre": "hiphop"
     },
     "msg_id": 815,
-    "file_id": "BAACAgEAAxkDAAIDL2rkAy4TmelTmE787ZSlxBM_8PH9AAIOCAAC1DUgR7Zg3kSdTZpNPQQ"
+    "file_id": "BAACAgEAAxkDAAIDL2rkAy4TmelTmE787ZSlxBM_8PH9AAIOCAAC1DUgR7Zg3kSdTZpNPQQ",
+    "decided_at": "2026-11-01T06:46:19.927173+00:00"
   },
   {
     "id": "2cf89d60",
@@ -4990,7 +4992,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 9.46,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-366912",
       "title": "Club's House DJ",
@@ -5004,7 +5006,8 @@
       "genre": "dance"
     },
     "msg_id": 816,
-    "file_id": "BAACAgEAAxkDAAIDMGrkA0ZbDrRLNeTkULxhinTUMFHLAAIPCAAC1DUgRwHRQ8_iBOm6PQQ"
+    "file_id": "BAACAgEAAxkDAAIDMGrkA0ZbDrRLNeTkULxhinTUMFHLAAIPCAAC1DUgRwHRQ8_iBOm6PQQ",
+    "decided_at": "2026-11-01T06:46:19.927173+00:00"
   },
   {
     "id": "1f38e955",
@@ -5018,7 +5021,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.76,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2173154",
       "title": "Coffee Lounge",
@@ -5032,7 +5035,8 @@
       "genre": "lounge"
     },
     "msg_id": 817,
-    "file_id": "BAACAgEAAxkDAAIDMWrkA1rUIi5Vpcu9EuaZ9DI6gv4xAAIQCAAC1DUgRzo54krjd4sFPQQ"
+    "file_id": "BAACAgEAAxkDAAIDMWrkA1rUIi5Vpcu9EuaZ9DI6gv4xAAIQCAAC1DUgRzo54krjd4sFPQQ",
+    "decided_at": "2026-11-01T06:46:19.927173+00:00"
   },
   {
     "id": "4d978f99",
@@ -5046,7 +5050,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 10.43,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384090",
       "title": "Manta-dive",
@@ -5060,7 +5064,8 @@
       "genre": "lounge"
     },
     "msg_id": 819,
-    "file_id": "BAACAgEAAxkDAAIDM2rkA3BWPmIW8w6v6VfwcNLoD1EVAAIRCAAC1DUgR5fE5oKwxr0LPQQ"
+    "file_id": "BAACAgEAAxkDAAIDM2rkA3BWPmIW8w6v6VfwcNLoD1EVAAIRCAAC1DUgR5fE5oKwxr0LPQQ",
+    "decided_at": "2026-11-01T06:46:19.927173+00:00"
   },
   {
     "id": "d6b213c1",
@@ -6098,7 +6103,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.7,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2160840",
       "title": "Ambient Inspirational Music",
@@ -6113,7 +6118,8 @@
     },
     "msg_id": 901,
     "file_id": "BAACAgEAAxkDAAIDhWrmr03F4SpbWvK3p-Jny8YpXdxBAAJTCQAC9qMwR5OeLkNHXBjUPQQ",
-    "replaces": "b64fa2f6"
+    "replaces": "b64fa2f6",
+    "decided_at": "2026-11-01T06:46:19.927173+00:00"
   },
   {
     "id": "970ac6e8",
@@ -6127,7 +6133,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 5.46,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384173",
       "title": "Mind drifting back (Leaving paradise)",
@@ -6142,6 +6148,7 @@
     },
     "msg_id": 903,
     "file_id": "BAACAgEAAxkDAAIDh2rmr7Xodb_lsNwAAUkKUBB5Q9VmawACVAkAAvajMEel52AKciXsJj0E",
-    "replaces": "862019a3"
+    "replaces": "862019a3",
+    "decided_at": "2026-11-01T06:46:19.927173+00:00"
   }
 ]
