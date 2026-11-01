@@ -4841,7 +4841,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2290118",
       "title": "Fashion Week",
@@ -4855,7 +4855,8 @@
       "genre": "electronic"
     },
     "msg_id": 811,
-    "file_id": "BAACAgEAAxkDAAIDK2rkAtxt0itRkwiUI2Abg_Fjs0JeAAIKCAAC1DUgR9I53oo_HURuPQQ"
+    "file_id": "BAACAgEAAxkDAAIDK2rkAtxt0itRkwiUI2Abg_Fjs0JeAAIKCAAC1DUgR9I53oo_HURuPQQ",
+    "decided_at": "2026-11-01T01:46:49.740928+00:00"
   },
   {
     "id": "848031a7",
@@ -4869,7 +4870,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2176699",
       "title": "Relax Chill Lofi",
@@ -4883,7 +4884,11 @@
       "genre": "rnb"
     },
     "msg_id": 812,
-    "file_id": "BAACAgEAAxkDAAIDLGrkAvRJYAcxisPbnNC7NEvh1E-eAAILCAAC1DUgR6Hm3BbOL0WMPQQ"
+    "file_id": "BAACAgEAAxkDAAIDLGrkAvRJYAcxisPbnNC7NEvh1E-eAAILCAAC1DUgR6Hm3BbOL0WMPQQ",
+    "decided_at": "2026-11-01T01:46:49.740928+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "b64fa2f6"
   },
   {
     "id": "862019a3",
@@ -5746,7 +5751,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 9.8,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-489246",
       "title": "Back 2 UR",
@@ -5761,6 +5766,36 @@
     },
     "msg_id": 883,
     "file_id": "BAACAgEAAxkDAAIDc2rmcubYzChhapu_aGgNICTN-GClAALICAAC9qMwR9uXVF54Cvg6PQQ",
-    "replaces": "2bdc5341"
+    "replaces": "2bdc5341",
+    "decided_at": "2026-11-01T01:46:49.740928+00:00"
+  },
+  {
+    "id": "b64fa2f6",
+    "slot_key": "2026-11-01 11:00",
+    "slot_iso": "2026-11-01T16:00:00+00:00",
+    "slot_label": "Sun Nov 01, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-hot-flash-years",
+    "category": "sexual_wellness",
+    "clip_id": "clip06",
+    "cta": 0,
+    "mode": "explore",
+    "seconds": 11.7,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1916401",
+      "title": "RnB Chill Trap",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1916401/mp32/",
+      "source": "jamendo",
+      "duration_ms": 123000,
+      "page": "https://www.jamendo.com/track/1916401",
+      "genre": "rnb"
+    },
+    "msg_id": 888,
+    "file_id": "BAACAgEAAxkDAAIDeGrmmku8G0DAb3LFW06YDo1SNpIZAAITCQAC9qMwR5q2C-6nEcOGPQQ",
+    "replaces": "848031a7"
   }
 ]
