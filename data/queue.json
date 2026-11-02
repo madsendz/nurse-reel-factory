@@ -1,37 +1,5 @@
 [
   {
-    "id": "1b420590",
-    "slot_key": "2026-10-23 09:30",
-    "slot_iso": "2026-10-23T13:30:00+00:00",
-    "slot_label": "Fri Oct 23, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-intercourse-hack",
-    "category": "sexual_wellness",
-    "clip_id": "clip53",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 9.33,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1992651",
-      "title": "Emotional Dancing",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1992651/mp32/",
-      "source": "jamendo",
-      "duration_ms": 126000,
-      "page": "https://www.jamendo.com/track/1992651",
-      "genre": "electronic"
-    },
-    "msg_id": 445,
-    "file_id": "BAACAgEAAxkDAAIBvWrYFyTdEqF2sXpKobyqBSnskrboAAKtBwACZufJRvOVlveUgxk4PQQ",
-    "decided_at": "2026-10-23T10:03:38.559015+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "cdfbbbab"
-  },
-  {
     "id": "e2df3a8d",
     "slot_key": "2026-10-23 11:00",
     "slot_iso": "2026-10-23T15:00:00+00:00",
@@ -885,70 +853,6 @@
     "file_id": "BAACAgEAAxkDAAICQGraug8Szv5SDqZfTWoFSGlfk_JkAAL4CAACyfHYRmHyRC0rqd8pPQQ",
     "decided_at": "2026-10-25T20:48:30.097388+00:00",
     "permalink": "https://www.instagram.com/reel/De8HV2HAa7R/"
-  },
-  {
-    "id": "cdfbbbab",
-    "slot_key": "2026-10-23 09:30",
-    "slot_iso": "2026-10-23T13:30:00+00:00",
-    "slot_label": "Fri Oct 23, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-intercourse-hack",
-    "category": "sexual_wellness",
-    "clip_id": "clip69b",
-    "cta": 4,
-    "mode": "exploit",
-    "seconds": 10.0,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1917024",
-      "title": "Dorila y Mello",
-      "creator": "Popoi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1917024/mp32/",
-      "source": "jamendo",
-      "duration_ms": 165000,
-      "page": "https://www.jamendo.com/track/1917024",
-      "genre": "hiphop"
-    },
-    "msg_id": 585,
-    "file_id": "BAACAgEAAxkDAAICSWrbMSAD1X5uwBHV6jCFnMD4ierLAALACQACyfHYRgLsxDG1zTndPQQ",
-    "replaces": "1b420590",
-    "decided_at": "2026-10-23T10:11:15.299168+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "0788e0ee"
-  },
-  {
-    "id": "0788e0ee",
-    "slot_key": "2026-10-23 09:30",
-    "slot_iso": "2026-10-23T13:30:00+00:00",
-    "slot_label": "Fri Oct 23, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-intercourse-hack",
-    "category": "sexual_wellness",
-    "clip_id": "clip53",
-    "cta": 5,
-    "mode": "exploit",
-    "seconds": 9.33,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1702676",
-      "title": "Daydream",
-      "creator": "zero-project",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1702676/mp32/",
-      "source": "jamendo",
-      "duration_ms": 258000,
-      "page": "https://www.jamendo.com/track/1702676",
-      "genre": "lounge"
-    },
-    "msg_id": 587,
-    "file_id": "BAACAgEAAxkDAAICS2rbMuWtae_xFlukZYnzydUfBZAxAALECQACyfHYRqlMd2-TzC_qPQQ",
-    "replaces": "cdfbbbab",
-    "decided_at": "2026-10-23T10:24:39.507662+00:00",
-    "permalink": "https://www.instagram.com/reel/De1rcbtCXVD/"
   },
   {
     "id": "b97f9cd7",
@@ -4638,7 +4542,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-43679",
       "title": "Ocean fantasy",
@@ -4653,7 +4557,8 @@
     },
     "msg_id": 857,
     "file_id": "BAACAgEAAxkDAAIDWWrlUSMWGjH1pNc6pR8u3K-M1bNeAAJyCAAC1DUoR2WEilpWFenTPQQ",
-    "decided_at": "2026-11-02T00:31:03.088940+00:00"
+    "decided_at": "2026-11-02T00:31:03.088940+00:00",
+    "permalink": "https://www.instagram.com/reel/DfPiSLTiYvR/"
   },
   {
     "id": "cb6a9484",
@@ -5776,7 +5681,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 11.0,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1591558",
       "title": "199-s8rec",
@@ -5791,6 +5696,7 @@
     },
     "msg_id": 929,
     "file_id": "BAACAgEAAxkDAAIDoWroXrMFwPXrxiFe-_eMmuO6PHNrAAJeDgAC3o1AR60BvpLkUVWLPQQ",
-    "replaces": "e628045d"
+    "replaces": "e628045d",
+    "decided_at": "2026-11-02T14:31:07.242143+00:00"
   }
 ]
