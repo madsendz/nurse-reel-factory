@@ -1,37 +1,5 @@
 [
   {
-    "id": "c00de0a3",
-    "slot_key": "2026-10-22 19:30",
-    "slot_iso": "2026-10-22T23:30:00+00:00",
-    "slot_label": "Thu Oct 22, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-orgasm-brain",
-    "category": "sexual_wellness",
-    "clip_id": "clip55",
-    "cta": 1,
-    "mode": "explore",
-    "seconds": 11.0,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1403270",
-      "title": "Just laugh at it",
-      "creator": "Buzzy Boys",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1403270/mp32/",
-      "source": "jamendo",
-      "duration_ms": 242000,
-      "page": "https://www.jamendo.com/track/1403270",
-      "genre": "rnb"
-    },
-    "msg_id": 420,
-    "file_id": "BAACAgEAAxkDAAIBpGrWydxnOvs-OesGk2PL08R05OeEAAJsDAACihq4RsYbDGhA7MjmPQQ",
-    "decided_at": "2026-10-22T02:43:42.788150+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "d508a072"
-  },
-  {
     "id": "9d087daf",
     "slot_key": "2026-10-22 21:30",
     "slot_iso": "2026-10-23T01:30:00+00:00",
@@ -680,70 +648,6 @@
     "file_id": "BAACAgEAAxkDAAICAWrZaVerGFbp1bdICmZyREvIk1aWAAJnCQACZufRRtV16lwj-batPQQ",
     "decided_at": "2026-10-24T15:01:10.010372+00:00",
     "permalink": "https://www.instagram.com/reel/De5ibF9DK44/"
-  },
-  {
-    "id": "d508a072",
-    "slot_key": "2026-10-22 19:30",
-    "slot_iso": "2026-10-22T23:30:00+00:00",
-    "slot_label": "Thu Oct 22, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-orgasm-brain",
-    "category": "sexual_wellness",
-    "clip_id": "clip37",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 10.82,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1320534",
-      "title": "Neith",
-      "creator": "CyberSDF",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1320534/mp32/",
-      "source": "jamendo",
-      "duration_ms": 269000,
-      "page": "https://www.jamendo.com/track/1320534",
-      "genre": "trap"
-    },
-    "msg_id": 530,
-    "file_id": "BAACAgEAAxkDAAICEmrZeH9xFYyvAUV-vg4vkGZOMq3-AAKACQACZufRRiwRUA6NiwxLPQQ",
-    "replaces": "c00de0a3",
-    "decided_at": "2026-10-22T11:33:03.897787+00:00",
-    "redo": "text_edit",
-    "needs_replacement": false,
-    "replaced_by": "0d0f4273"
-  },
-  {
-    "id": "0d0f4273",
-    "slot_key": "2026-10-22 19:30",
-    "slot_iso": "2026-10-22T23:30:00+00:00",
-    "slot_label": "Thu Oct 22, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-orgasm-brain",
-    "category": "sexual_wellness",
-    "clip_id": "clip37",
-    "cta": 0,
-    "mode": "edited",
-    "seconds": 10.82,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1320534",
-      "title": "Neith",
-      "creator": "CyberSDF",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1320534/mp32/",
-      "source": "jamendo",
-      "duration_ms": 269000,
-      "page": "https://www.jamendo.com/track/1320534",
-      "genre": "trap"
-    },
-    "msg_id": 547,
-    "file_id": "BAACAgEAAxkDAAICI2rZ9J9HObJrA0s9N02PK5XkLbBeAAKSCQACyfHQRiLYVofMUyvPPQQ",
-    "replaces": "d508a072",
-    "decided_at": "2026-10-22T15:13:49.528266+00:00",
-    "permalink": "https://www.instagram.com/reel/De0LDImDaIT/"
   },
   {
     "id": "0e55e771",
@@ -4520,7 +4424,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 10.43,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-384090",
       "title": "Manta-dive",
@@ -4535,7 +4439,8 @@
     },
     "msg_id": 819,
     "file_id": "BAACAgEAAxkDAAIDM2rkA3BWPmIW8w6v6VfwcNLoD1EVAAIRCAAC1DUgR5fE5oKwxr0LPQQ",
-    "decided_at": "2026-11-01T06:46:19.927173+00:00"
+    "decided_at": "2026-11-01T06:46:19.927173+00:00",
+    "permalink": "https://www.instagram.com/reel/DfOCGy4EY1a/"
   },
   {
     "id": "d6b213c1",
@@ -4859,7 +4764,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-43679",
       "title": "Ocean fantasy",
@@ -4873,7 +4778,8 @@
       "genre": "lounge"
     },
     "msg_id": 857,
-    "file_id": "BAACAgEAAxkDAAIDWWrlUSMWGjH1pNc6pR8u3K-M1bNeAAJyCAAC1DUoR2WEilpWFenTPQQ"
+    "file_id": "BAACAgEAAxkDAAIDWWrlUSMWGjH1pNc6pR8u3K-M1bNeAAJyCAAC1DUoR2WEilpWFenTPQQ",
+    "decided_at": "2026-11-02T00:31:03.088940+00:00"
   },
   {
     "id": "cb6a9484",
@@ -4887,7 +4793,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.27,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384091",
       "title": "Lazy beach breaks",
@@ -4901,7 +4807,8 @@
       "genre": "lounge"
     },
     "msg_id": 858,
-    "file_id": "BAACAgEAAxkDAAIDWmrlUT4Ks5uuubL-6KmKOwQzPP-wAAJzCAAC1DUoRzinQZdBsh-fPQQ"
+    "file_id": "BAACAgEAAxkDAAIDWmrlUT4Ks5uuubL-6KmKOwQzPP-wAAJzCAAC1DUoRzinQZdBsh-fPQQ",
+    "decided_at": "2026-11-02T00:31:03.088940+00:00"
   },
   {
     "id": "86e97d55",
@@ -5641,7 +5548,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 8.2,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-247156",
       "title": "Silence Apart",
@@ -5656,6 +5563,7 @@
     },
     "msg_id": 905,
     "file_id": "BAACAgEAAxkDAAIDiWrnLkBR3mcqeVTkVKRnOiHhOMFXAAJdCAAC9qM4RzHgyspoWsqGPQQ",
-    "replaces": "a68aad08"
+    "replaces": "a68aad08",
+    "decided_at": "2026-11-02T00:31:03.088940+00:00"
   }
 ]
