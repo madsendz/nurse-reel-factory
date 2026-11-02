@@ -4853,7 +4853,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 7.35,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1904519",
       "title": "Downtempo Lounge Fashion",
@@ -4867,7 +4867,8 @@
       "genre": "lounge"
     },
     "msg_id": 861,
-    "file_id": "BAACAgEAAxkDAAIDXWrlUY1UEcG1Yt2-k-asLajY8h9pAAJ2CAAC1DUoR_UVicwebzU7PQQ"
+    "file_id": "BAACAgEAAxkDAAIDXWrlUY1UEcG1Yt2-k-asLajY8h9pAAJ2CAAC1DUoR_UVicwebzU7PQQ",
+    "decided_at": "2026-11-02T09:56:55.698141+00:00"
   },
   {
     "id": "e628045d",
@@ -4881,7 +4882,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.0,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1591558",
       "title": "199-s8rec",
@@ -4895,7 +4896,11 @@
       "genre": "trap"
     },
     "msg_id": 862,
-    "file_id": "BAACAgEAAxkDAAIDXmrlUbvr3taf1JiS2VC_GWv99z10AAJ4CAAC1DUoRwr3tT31o7Q-PQQ"
+    "file_id": "BAACAgEAAxkDAAIDXmrlUbvr3taf1JiS2VC_GWv99z10AAJ4CAAC1DUoRwr3tT31o7Q-PQQ",
+    "decided_at": "2026-11-02T09:56:55.698141+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "7b28831b"
   },
   {
     "id": "b97bfdd5",
@@ -4909,7 +4914,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1331970",
       "title": "Faith",
@@ -4923,7 +4928,8 @@
       "genre": "dance"
     },
     "msg_id": 863,
-    "file_id": "BAACAgEAAxkDAAIDX2rlUeHKK7-iG7vsent8Bi2H7GNpAAJ5CAAC1DUoRyF61eIrEYkAAT0E"
+    "file_id": "BAACAgEAAxkDAAIDX2rlUeHKK7-iG7vsent8Bi2H7GNpAAJ5CAAC1DUoRyF61eIrEYkAAT0E",
+    "decided_at": "2026-11-02T09:56:55.698141+00:00"
   },
   {
     "id": "d02b3f21",
@@ -4937,7 +4943,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1862341",
       "title": "The Last Day Of Summer",
@@ -4951,7 +4957,8 @@
       "genre": "dance"
     },
     "msg_id": 864,
-    "file_id": "BAACAgEAAxkDAAIDYGrlUf4aKN-7ThKMLkte3oib2QyTAAJ6CAAC1DUoR9_7LN3QiSJBPQQ"
+    "file_id": "BAACAgEAAxkDAAIDYGrlUf4aKN-7ThKMLkte3oib2QyTAAJ6CAAC1DUoR9_7LN3QiSJBPQQ",
+    "decided_at": "2026-11-02T09:56:55.698141+00:00"
   },
   {
     "id": "93f68e64",
@@ -4965,7 +4972,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-764958",
       "title": "A Thousand Skins (Part 1) (Instrumental Version)",
@@ -4979,7 +4986,8 @@
       "genre": "pop"
     },
     "msg_id": 865,
-    "file_id": "BAACAgEAAxkDAAIDYWrlUiEHwPWujwjlxueRykxtp1OjAAJ8CAAC1DUoR00HnRqMWAoRPQQ"
+    "file_id": "BAACAgEAAxkDAAIDYWrlUiEHwPWujwjlxueRykxtp1OjAAJ8CAAC1DUoR00HnRqMWAoRPQQ",
+    "decided_at": "2026-11-02T09:56:55.698141+00:00"
   },
   {
     "id": "278f7dd0",
@@ -5553,7 +5561,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 9.77,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1702676",
       "title": "Daydream",
@@ -5568,7 +5576,8 @@
     },
     "msg_id": 916,
     "file_id": "BAACAgEAAxkDAAIDlGrn6atz9sn2ffHW627j5J_8Zu6wAAJ-DQAC3o1AR7j9yD7rf_ZOPQQ",
-    "replaces": "f37c9b2b"
+    "replaces": "f37c9b2b",
+    "decided_at": "2026-11-02T09:56:55.698141+00:00"
   },
   {
     "id": "58abb172",
@@ -5849,5 +5858,34 @@
     },
     "msg_id": 926,
     "file_id": "BAACAgEAAxkDAAIDnmrn9p32aUWGJwW7EKl6qk8KRm6MAAKZDQAC3o1AR-f7xZlvRLunPQQ"
+  },
+  {
+    "id": "7b28831b",
+    "slot_key": "2026-11-02 16:00",
+    "slot_iso": "2026-11-02T21:00:00+00:00",
+    "slot_label": "Mon Nov 02, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-online-not-normal",
+    "category": "sex_ed",
+    "clip_id": "clip55",
+    "cta": 0,
+    "mode": "edited",
+    "seconds": 11.0,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1591558",
+      "title": "199-s8rec",
+      "creator": "orangeicebear",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1591558/mp32/",
+      "source": "jamendo",
+      "duration_ms": 671000,
+      "page": "https://www.jamendo.com/track/1591558",
+      "genre": "trap"
+    },
+    "msg_id": 929,
+    "file_id": "BAACAgEAAxkDAAIDoWroXrMFwPXrxiFe-_eMmuO6PHNrAAJeDgAC3o1AR60BvpLkUVWLPQQ",
+    "replaces": "e628045d"
   }
 ]
