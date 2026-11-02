@@ -1,37 +1,5 @@
 [
   {
-    "id": "179e02dc",
-    "slot_key": "2026-10-23 16:00",
-    "slot_iso": "2026-10-23T20:00:00+00:00",
-    "slot_label": "Fri Oct 23, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-pregnancy-safe",
-    "category": "sex_ed",
-    "clip_id": "clip40",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 10.17,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-384090",
-      "title": "Manta-dive",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384090/mp32/",
-      "source": "jamendo",
-      "duration_ms": 197000,
-      "page": "https://www.jamendo.com/track/384090",
-      "genre": "lounge"
-    },
-    "msg_id": 450,
-    "file_id": "BAACAgEAAxkDAAIBwmrYF6c0esKJoN0OyD3EspZYMs13AAKyBwACZufJRubej16B-7Q0PQQ",
-    "decided_at": "2026-10-23T10:39:51.897594+00:00",
-    "redo": "text_edit",
-    "needs_replacement": false,
-    "replaced_by": "a6ad3ebe"
-  },
-  {
     "id": "86b826a0",
     "slot_key": "2026-10-23 17:30",
     "slot_iso": "2026-10-23T21:30:00+00:00",
@@ -729,37 +697,6 @@
     "file_id": "BAACAgEAAxkDAAICQGraug8Szv5SDqZfTWoFSGlfk_JkAAL4CAACyfHYRmHyRC0rqd8pPQQ",
     "decided_at": "2026-10-25T20:48:30.097388+00:00",
     "permalink": "https://www.instagram.com/reel/De8HV2HAa7R/"
-  },
-  {
-    "id": "a6ad3ebe",
-    "slot_key": "2026-10-23 16:00",
-    "slot_iso": "2026-10-23T20:00:00+00:00",
-    "slot_label": "Fri Oct 23, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-pregnancy-safe",
-    "category": "sex_ed",
-    "clip_id": "clip40",
-    "cta": 1,
-    "mode": "edited",
-    "seconds": 10.17,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-384090",
-      "title": "Manta-dive",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384090/mp32/",
-      "source": "jamendo",
-      "duration_ms": 197000,
-      "page": "https://www.jamendo.com/track/384090",
-      "genre": "lounge"
-    },
-    "msg_id": 594,
-    "file_id": "BAACAgEAAxkDAAICUmrbOZcRe4WBIH6zL_y96Rd7nG8qAALOCQACyfHYRsJVnibm9funPQQ",
-    "replaces": "179e02dc",
-    "decided_at": "2026-10-23T12:01:13.607504+00:00",
-    "permalink": "https://www.instagram.com/reel/De2X8G5Eurg/"
   },
   {
     "id": "08565425",
@@ -5468,7 +5405,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 11.0,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1591558",
       "title": "199-s8rec",
@@ -5484,6 +5421,7 @@
     "msg_id": 929,
     "file_id": "BAACAgEAAxkDAAIDoWroXrMFwPXrxiFe-_eMmuO6PHNrAAJeDgAC3o1AR60BvpLkUVWLPQQ",
     "replaces": "e628045d",
-    "decided_at": "2026-11-02T14:31:07.242143+00:00"
+    "decided_at": "2026-11-02T14:31:07.242143+00:00",
+    "permalink": "https://www.instagram.com/reel/DfQQNLIiE2Z/"
   }
 ]
