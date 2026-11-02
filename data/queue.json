@@ -1,35 +1,5 @@
 [
   {
-    "id": "10eb0dc7",
-    "slot_key": "2026-10-23 14:30",
-    "slot_iso": "2026-10-23T18:30:00+00:00",
-    "slot_label": "Fri Oct 23, 2:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-silent",
-    "category": "sexual_wellness",
-    "clip_id": "clip60",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 5.46,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1214517",
-      "title": "Thank U Two",
-      "creator": "1000turtles",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1214517/mp32/",
-      "source": "jamendo",
-      "duration_ms": 183000,
-      "page": "https://www.jamendo.com/track/1214517",
-      "genre": "chillout"
-    },
-    "msg_id": 449,
-    "file_id": "BAACAgEAAxkDAAIBwWrYF4ygm8q0WEqvhRA1Vs4XQEwEAAKxBwACZufJRql_6xYyWbXEPQQ",
-    "decided_at": "2026-10-23T10:37:12.069607+00:00",
-    "permalink": "https://www.instagram.com/reel/De2NqUyF48L/"
-  },
-  {
     "id": "179e02dc",
     "slot_key": "2026-10-23 16:00",
     "slot_iso": "2026-10-23T20:00:00+00:00",
@@ -4477,7 +4447,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 7.35,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1904519",
       "title": "Downtempo Lounge Fashion",
@@ -4492,7 +4462,8 @@
     },
     "msg_id": 861,
     "file_id": "BAACAgEAAxkDAAIDXWrlUY1UEcG1Yt2-k-asLajY8h9pAAJ2CAAC1DUoR_UVicwebzU7PQQ",
-    "decided_at": "2026-11-02T09:56:55.698141+00:00"
+    "decided_at": "2026-11-02T09:56:55.698141+00:00",
+    "permalink": "https://www.instagram.com/reel/DfQE7-DCjhP/"
   },
   {
     "id": "e628045d",
