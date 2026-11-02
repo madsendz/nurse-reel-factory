@@ -4416,7 +4416,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1331970",
       "title": "Faith",
@@ -4431,7 +4431,8 @@
     },
     "msg_id": 863,
     "file_id": "BAACAgEAAxkDAAIDX2rlUeHKK7-iG7vsent8Bi2H7GNpAAJ5CAAC1DUoRyF61eIrEYkAAT0E",
-    "decided_at": "2026-11-02T09:56:55.698141+00:00"
+    "decided_at": "2026-11-02T09:56:55.698141+00:00",
+    "permalink": "https://www.instagram.com/reel/DfQZ-6rGYdR/"
   },
   {
     "id": "d02b3f21",
