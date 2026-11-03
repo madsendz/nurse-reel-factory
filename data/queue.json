@@ -1,37 +1,5 @@
 [
   {
-    "id": "1fde95b0",
-    "slot_key": "2026-10-24 08:00",
-    "slot_iso": "2026-10-24T12:00:00+00:00",
-    "slot_label": "Sat Oct 24, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-kissing",
-    "category": "sexual_wellness",
-    "clip_id": "clip70",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 26.57,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1342479",
-      "title": "Breathe",
-      "creator": "Axl &amp; Arth",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1342479/mp32/",
-      "source": "jamendo",
-      "duration_ms": 233000,
-      "page": "https://www.jamendo.com/track/1342479",
-      "genre": "electronic"
-    },
-    "msg_id": 504,
-    "file_id": "BAACAgEAAxkDAAIB-GrZaGebSrNJ3ldMwbikAAGyEs2EbAACXAkAAmbn0UbhPWjA8gVK3j0E",
-    "decided_at": "2026-10-24T05:16:34.290899+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "aa174415"
-  },
-  {
     "id": "c11b2fda",
     "slot_key": "2026-10-24 09:30",
     "slot_iso": "2026-10-24T13:30:00+00:00",
@@ -916,39 +884,6 @@
     "replaced_by": "0276c40c"
   },
   {
-    "id": "aa174415",
-    "slot_key": "2026-10-24 08:00",
-    "slot_iso": "2026-10-24T12:00:00+00:00",
-    "slot_label": "Sat Oct 24, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-headache-myth",
-    "category": "health_bait",
-    "clip_id": "clip70",
-    "cta": 4,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1206274",
-      "title": "Made In Italy",
-      "creator": "Pokki DJ",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1206274/mp32/",
-      "source": "jamendo",
-      "duration_ms": 154000,
-      "page": "https://www.jamendo.com/track/1206274",
-      "genre": "dance"
-    },
-    "msg_id": 625,
-    "file_id": "BAACAgEAAxkDAAICcWrcP1J2rDDByZGG7TXOMEWPyMhNAAJxBgAC3QPpRvccbUgL8ZqgPQQ",
-    "replaces": "1fde95b0",
-    "decided_at": "2026-10-24T08:15:52.946943+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "f494b407"
-  },
-  {
     "id": "1d66833c",
     "slot_key": "2026-10-24 11:00",
     "slot_iso": "2026-10-24T15:00:00+00:00",
@@ -978,37 +913,6 @@
     "replaces": "c809276c",
     "decided_at": "2026-10-24T12:01:08.395557+00:00",
     "permalink": "https://www.instagram.com/reel/De4aXnKjWI3/"
-  },
-  {
-    "id": "f494b407",
-    "slot_key": "2026-10-24 08:00",
-    "slot_iso": "2026-10-24T12:00:00+00:00",
-    "slot_label": "Sat Oct 24, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-kissing",
-    "category": "sexual_wellness",
-    "clip_id": "clip70",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1206274",
-      "title": "Made In Italy",
-      "creator": "Pokki DJ",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1206274/mp32/",
-      "source": "jamendo",
-      "duration_ms": 154000,
-      "page": "https://www.jamendo.com/track/1206274",
-      "genre": "dance"
-    },
-    "msg_id": 633,
-    "file_id": "BAACAgEAAxkDAAICeWrcaWEut74i_5N5JWCL51lSYeS4AALnBgAC3QPpRvE5mMTzK_7BPQQ",
-    "replaces": "aa174415",
-    "decided_at": "2026-10-24T12:01:08.395557+00:00",
-    "permalink": "https://www.instagram.com/reel/De4FrrPCFRx/"
   },
   {
     "id": "ff82fe9c",
@@ -5577,7 +5481,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 7.67,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2326509",
       "title": "Corporate Dreams 4",
@@ -5593,7 +5497,8 @@
     "msg_id": 953,
     "file_id": "BAACAgEAAxkDAAIDuWrpX76_Px_QYD1YnfwiL9ceFS_1AAIxCwAC3o1IR0Ieo8lGW9iKPQQ",
     "replaces": "52b3be34",
-    "decided_at": "2026-11-03T04:21:33.879240+00:00"
+    "decided_at": "2026-11-03T04:21:33.879240+00:00",
+    "permalink": "https://www.instagram.com/reel/DfR9cNyiAtk/"
   },
   {
     "id": "57efd97a",
