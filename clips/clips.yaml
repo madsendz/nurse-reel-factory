@@ -161,7 +161,6 @@ clips:
     w: 0.62
     h: 0.22
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -310,6 +309,24 @@ clips:
       - 0.371
       - 0.301
   duration: 12.57
+  events_manual:
+  - t: 0.9
+    dir: up
+    x: 0.155
+    y: 0.15
+  - t: 3.5
+    dir: up
+    x: 0.479
+    y: 0.147
+  - t: 6.3
+    dir: up
+    x: 0.791
+    y: 0.153
+  - t: 9.9
+    dir: down
+    x: 0.515
+    y: 0.864
+  title_y: 0.68
 - id: clip03
   drive_id: 1hCgOC3VVIPPN-1VgJcYY3BWofoJ8sRG1
   name: ec8b197afe6447bfaf592174fce6fcd3.MP4
