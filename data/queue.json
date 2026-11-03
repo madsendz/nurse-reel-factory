@@ -1,37 +1,5 @@
 [
   {
-    "id": "13bd7d9a",
-    "slot_key": "2026-10-24 17:30",
-    "slot_iso": "2026-10-24T21:30:00+00:00",
-    "slot_label": "Sat Oct 24, 5:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-precum",
-    "category": "sex_ed",
-    "clip_id": "clip64",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 9.42,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1199532",
-      "title": "Stefan The Poker Player",
-      "creator": "REC",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1199532/mp32/",
-      "source": "jamendo",
-      "duration_ms": 303000,
-      "page": "https://www.jamendo.com/track/1199532",
-      "genre": "electronic"
-    },
-    "msg_id": 511,
-    "file_id": "BAACAgEAAxkDAAIB_2rZaSqpn7gPtiULhOTyT-UPvYYtAAJkCQACZufRRjkNFnc4M_zqPQQ",
-    "decided_at": "2026-10-24T13:10:38.140173+00:00",
-    "redo": "text_edit",
-    "needs_replacement": false,
-    "replaced_by": "74ef53c7"
-  },
-  {
     "id": "5c2c3376",
     "slot_key": "2026-10-24 19:30",
     "slot_iso": "2026-10-24T23:30:00+00:00",
@@ -698,37 +666,6 @@
     "redo": "new_topic",
     "needs_replacement": false,
     "replaced_by": "0276c40c"
-  },
-  {
-    "id": "74ef53c7",
-    "slot_key": "2026-10-24 17:30",
-    "slot_iso": "2026-10-24T21:30:00+00:00",
-    "slot_label": "Sat Oct 24, 5:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-precum",
-    "category": "sex_ed",
-    "clip_id": "clip64",
-    "cta": 0,
-    "mode": "edited",
-    "seconds": 9.42,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1199532",
-      "title": "Stefan The Poker Player",
-      "creator": "REC",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1199532/mp32/",
-      "source": "jamendo",
-      "duration_ms": 303000,
-      "page": "https://www.jamendo.com/track/1199532",
-      "genre": "electronic"
-    },
-    "msg_id": 640,
-    "file_id": "BAACAgEAAxkDAAICgGrcrmstldLXN11kiGcUTUG12IsfAAKcBwAC3QPpRu5u90dc5oCPPQQ",
-    "replaces": "13bd7d9a",
-    "decided_at": "2026-10-24T15:01:10.010372+00:00",
-    "permalink": "https://www.instagram.com/reel/De5G3KHkeIW/"
   },
   {
     "id": "a4294653",
@@ -4414,7 +4351,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 8.88,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-384095",
       "title": "Like King Cool in a sunbed",
@@ -4429,7 +4366,8 @@
     },
     "msg_id": 896,
     "file_id": "BAACAgEAAxkDAAIDgGrmoQlVhEXaSBRQGSiYLrKBHVS2AAIvCQAC9qMwR_YwCr3j4mqJPQQ",
-    "decided_at": "2026-11-03T17:58:36.235297+00:00"
+    "decided_at": "2026-11-03T17:58:36.235297+00:00",
+    "permalink": "https://www.instagram.com/reel/DfS_NLtAWMV/"
   },
   {
     "id": "eb657fa3",
@@ -5340,7 +5278,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 6.03,
-    "status": "approved",
+    "status": "missed",
     "music": {
       "id": "jamendo-1945492",
       "title": "Do not disturb",
