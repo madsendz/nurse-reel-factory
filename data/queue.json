@@ -4601,7 +4601,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 6.8,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-384092",
       "title": "Such a place!",
@@ -4615,7 +4615,11 @@
       "genre": "lounge"
     },
     "msg_id": 890,
-    "file_id": "BAACAgEAAxkDAAIDemrmoJJEVuOCaZWe374KD_Qc8Aw9AAIoCQAC9qMwRyV__H8n82XvPQQ"
+    "file_id": "BAACAgEAAxkDAAIDemrmoJJEVuOCaZWe374KD_Qc8Aw9AAIoCQAC9qMwRyV__H8n82XvPQQ",
+    "decided_at": "2026-11-03T04:16:58.697370+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "57efd97a"
   },
   {
     "id": "77430afb",
@@ -5568,7 +5572,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 7.67,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2326509",
       "title": "Corporate Dreams 4",
@@ -5583,6 +5587,36 @@
     },
     "msg_id": 953,
     "file_id": "BAACAgEAAxkDAAIDuWrpX76_Px_QYD1YnfwiL9ceFS_1AAIxCwAC3o1IR0Ieo8lGW9iKPQQ",
-    "replaces": "52b3be34"
+    "replaces": "52b3be34",
+    "decided_at": "2026-11-03T04:16:58.697370+00:00"
+  },
+  {
+    "id": "57efd97a",
+    "slot_key": "2026-11-03 09:30",
+    "slot_iso": "2026-11-03T14:30:00+00:00",
+    "slot_label": "Tue Nov 03, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "nw-women-solo",
+    "category": "sexual_wellness",
+    "clip_id": "clip18",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 6.8,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1319541",
+      "title": "Gone Crasy (4-Track-Recording-1991)",
+      "creator": "Christian Zell",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1319541/mp32/",
+      "source": "jamendo",
+      "duration_ms": 222000,
+      "page": "https://www.jamendo.com/track/1319541",
+      "genre": "pop"
+    },
+    "msg_id": 957,
+    "file_id": "BAACAgEAAxkDAAIDvWrpYHcV1SKO3RmsisX0GO3fwdW5AAI0CwAC3o1IR-PCYsTVtpfqPQQ",
+    "replaces": "5eddc692"
   }
 ]
