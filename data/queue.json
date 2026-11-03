@@ -1,35 +1,5 @@
 [
   {
-    "id": "fe9c8c6e",
-    "slot_key": "2026-10-24 14:30",
-    "slot_iso": "2026-10-24T18:30:00+00:00",
-    "slot_label": "Sat Oct 24, 2:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-night-erections",
-    "category": "mens_health",
-    "clip_id": "clip57",
-    "cta": 0,
-    "mode": "explore",
-    "seconds": 4.73,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1230857",
-      "title": "Indios",
-      "creator": "Claudiozara",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1230857/mp32/",
-      "source": "jamendo",
-      "duration_ms": 357000,
-      "page": "https://www.jamendo.com/track/1230857",
-      "genre": "chillout"
-    },
-    "msg_id": 509,
-    "file_id": "BAACAgEAAxkDAAIB_WrZaP6LZg10drD2bKU_BXjJ03FuAAJhCQACZufRRvLAnmYhaPEMPQQ",
-    "decided_at": "2026-10-24T13:10:38.140173+00:00",
-    "permalink": "https://www.instagram.com/reel/De4ydAwjb6l/"
-  },
-  {
     "id": "4b9183b7",
     "slot_key": "2026-10-24 16:00",
     "slot_iso": "2026-10-24T20:00:00+00:00",
@@ -4380,7 +4350,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1440522",
       "title": "Wait",
@@ -4395,7 +4365,8 @@
     },
     "msg_id": 893,
     "file_id": "BAACAgEAAxkDAAIDfWrmoNBRXE6CxnCFIbTFzGll0_HgAAIsCQAC9qMwR27kReEK8bDSPQQ",
-    "decided_at": "2026-11-03T17:58:36.235297+00:00"
+    "decided_at": "2026-11-03T17:58:36.235297+00:00",
+    "permalink": "https://www.instagram.com/reel/DfSojyrDPf9/"
   },
   {
     "id": "7375af2e",
