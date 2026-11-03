@@ -1,35 +1,5 @@
 [
   {
-    "id": "c11b2fda",
-    "slot_key": "2026-10-24 09:30",
-    "slot_iso": "2026-10-24T13:30:00+00:00",
-    "slot_label": "Sat Oct 24, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "nw-refractory-age",
-    "category": "mens_health",
-    "clip_id": "clip56",
-    "cta": 0,
-    "mode": "explore",
-    "seconds": 18.23,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-367026",
-      "title": "Drink's Afterhouse",
-      "creator": "Felixjd",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/367026/mp32/",
-      "source": "jamendo",
-      "duration_ms": 404000,
-      "page": "https://www.jamendo.com/track/367026",
-      "genre": "dance"
-    },
-    "msg_id": 505,
-    "file_id": "BAACAgEAAxkDAAIB-WrZaJIUpUItCAqx3KSgK4_03tQ_AAJdCQACZufRRp-eZDbjx_4ZPQQ",
-    "decided_at": "2026-10-24T05:29:57.799894+00:00",
-    "permalink": "https://www.instagram.com/reel/De4QF_jiAK3/"
-  },
-  {
     "id": "c809276c",
     "slot_key": "2026-10-24 11:00",
     "slot_iso": "2026-10-24T15:00:00+00:00",
@@ -5512,7 +5482,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.8,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1319541",
       "title": "Gone Crasy (4-Track-Recording-1991)",
@@ -5528,7 +5498,8 @@
     "msg_id": 957,
     "file_id": "BAACAgEAAxkDAAIDvWrpYHcV1SKO3RmsisX0GO3fwdW5AAI0CwAC3o1IR-PCYsTVtpfqPQQ",
     "replaces": "5eddc692",
-    "decided_at": "2026-11-03T04:24:46.051781+00:00"
+    "decided_at": "2026-11-03T04:24:46.051781+00:00",
+    "permalink": "https://www.instagram.com/reel/DfSG3ijj0V9/"
   },
   {
     "id": "f938bf71",
