@@ -4502,7 +4502,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.03,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037702",
       "title": "Nostalgia Drive (Lofi Hip-hop)",
@@ -4516,7 +4516,8 @@
       "genre": "lounge"
     },
     "msg_id": 897,
-    "file_id": "BAACAgEAAxkDAAIDgWrmoR2Xf5bTLAABXtPRlmJga1Ik7AACMQkAAvajMEdCyCUVyxkNAj0E"
+    "file_id": "BAACAgEAAxkDAAIDgWrmoR2Xf5bTLAABXtPRlmJga1Ik7AACMQkAAvajMEdCyCUVyxkNAj0E",
+    "decided_at": "2026-11-03T18:26:06.393596+00:00"
   },
   {
     "id": "f0b235d0",
@@ -5368,7 +5369,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2160840",
       "title": "Ambient Inspirational Music",
@@ -5383,7 +5384,8 @@
     },
     "msg_id": 971,
     "file_id": "BAACAgEAAxkDAAIDy2rqIRDXC7wDsdAoklhVEfKvhsdiAAIrCAACzttRR15u33Hd165mPQQ",
-    "replaces": "7375af2e"
+    "replaces": "7375af2e",
+    "decided_at": "2026-11-03T18:26:06.393596+00:00"
   },
   {
     "id": "43dc4732",
@@ -5397,7 +5399,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 6.03,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1945492",
       "title": "Do not disturb",
@@ -5412,7 +5414,8 @@
     },
     "msg_id": 972,
     "file_id": "BAACAgEAAxkDAAIDzGrqISN-YhYEMWd3txr9m95KftjHAAIsCAACzttRR-2X-udEF27KPQQ",
-    "replaces": "b8f9b841"
+    "replaces": "b8f9b841",
+    "decided_at": "2026-11-03T18:26:06.393596+00:00"
   },
   {
     "id": "0b308997",
@@ -5426,7 +5429,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1206274",
       "title": "Made In Italy",
@@ -5441,6 +5444,39 @@
     },
     "msg_id": 973,
     "file_id": "BAACAgEAAxkDAAIDzWrqIUPmTSRMm2QS1o1IA9nEVJtsAAIuCAACzttRRzrZexAjA-RKPQQ",
-    "replaces": "f0b235d0"
+    "replaces": "f0b235d0",
+    "decided_at": "2026-11-03T18:26:06.393596+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "ab2e5129"
+  },
+  {
+    "id": "ab2e5129",
+    "slot_key": "2026-11-03 21:30",
+    "slot_iso": "2026-11-04T02:30:00+00:00",
+    "slot_label": "Tue Nov 03, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "pr-birth-control-ranked",
+    "category": "sex_ed",
+    "clip_id": "clip59",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-43679",
+      "title": "Ocean fantasy",
+      "creator": "St Adam",
+      "license": "by",
+      "license_version": "",
+      "url": "https://prod-1.storage.jamendo.com/download/track/43679/mp32/",
+      "source": "jamendo",
+      "duration_ms": 186000,
+      "page": "https://www.jamendo.com/track/43679",
+      "genre": "electronic"
+    },
+    "msg_id": 975,
+    "file_id": "BAACAgEAAxkDAAIDz2rqJ4YNBz2ru2FPFOzzvDRpmnb_AAI7CAACzttRR0HUD3pjIYD7PQQ",
+    "replaces": "0b308997"
   }
 ]
