@@ -4665,7 +4665,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.17,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-181806",
       "title": "Alexandra 02",
@@ -4679,7 +4679,8 @@
       "genre": "pop"
     },
     "msg_id": 892,
-    "file_id": "BAACAgEAAxkDAAIDfGrmoLcFobHCUPPsT0SQ8tOlwoecAAIqCQAC9qMwRxkFQgVQOqa7PQQ"
+    "file_id": "BAACAgEAAxkDAAIDfGrmoLcFobHCUPPsT0SQ8tOlwoecAAIqCQAC9qMwRxkFQgVQOqa7PQQ",
+    "decided_at": "2026-11-03T07:11:43.860938+00:00"
   },
   {
     "id": "679458b0",
