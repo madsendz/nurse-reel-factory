@@ -4380,7 +4380,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1440522",
       "title": "Wait",
@@ -4394,7 +4394,8 @@
       "genre": "hiphop"
     },
     "msg_id": 893,
-    "file_id": "BAACAgEAAxkDAAIDfWrmoNBRXE6CxnCFIbTFzGll0_HgAAIsCQAC9qMwR27kReEK8bDSPQQ"
+    "file_id": "BAACAgEAAxkDAAIDfWrmoNBRXE6CxnCFIbTFzGll0_HgAAIsCQAC9qMwR27kReEK8bDSPQQ",
+    "decided_at": "2026-11-03T17:58:36.235297+00:00"
   },
   {
     "id": "7375af2e",
@@ -4408,7 +4409,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -4422,7 +4423,11 @@
       "genre": "lounge"
     },
     "msg_id": 894,
-    "file_id": "BAACAgEAAxkDAAIDfmrmoOW8-Of_622XOJFumqA-DL3KAAItCQAC9qMwR6shfDAGz3IvPQQ"
+    "file_id": "BAACAgEAAxkDAAIDfmrmoOW8-Of_622XOJFumqA-DL3KAAItCQAC9qMwR6shfDAGz3IvPQQ",
+    "decided_at": "2026-11-03T17:58:36.235297+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "ba3e21ab"
   },
   {
     "id": "b8f9b841",
@@ -4436,7 +4441,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.48,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2290118",
       "title": "Fashion Week",
@@ -4450,7 +4455,11 @@
       "genre": "electronic"
     },
     "msg_id": 895,
-    "file_id": "BAACAgEAAxkDAAIDf2rmoPO-9U-EnBNRgN5UtI3SUfKYAAIuCQAC9qMwR96HYEoS4eePPQQ"
+    "file_id": "BAACAgEAAxkDAAIDf2rmoPO-9U-EnBNRgN5UtI3SUfKYAAIuCQAC9qMwR96HYEoS4eePPQQ",
+    "decided_at": "2026-11-03T17:58:36.235297+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "43dc4732"
   },
   {
     "id": "22b245a0",
@@ -4464,7 +4473,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 8.88,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384095",
       "title": "Like King Cool in a sunbed",
@@ -4478,7 +4487,8 @@
       "genre": "lounge"
     },
     "msg_id": 896,
-    "file_id": "BAACAgEAAxkDAAIDgGrmoQlVhEXaSBRQGSiYLrKBHVS2AAIvCQAC9qMwR_YwCr3j4mqJPQQ"
+    "file_id": "BAACAgEAAxkDAAIDgGrmoQlVhEXaSBRQGSiYLrKBHVS2AAIvCQAC9qMwR_YwCr3j4mqJPQQ",
+    "decided_at": "2026-11-03T17:58:36.235297+00:00"
   },
   {
     "id": "eb657fa3",
@@ -4520,7 +4530,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1267753",
       "title": "Ghosts",
@@ -4534,7 +4544,11 @@
       "genre": "electronic"
     },
     "msg_id": 898,
-    "file_id": "BAACAgEAAxkDAAIDgmrmoTj80jh1hqqssX-mZszvkytEAAIyCQAC9qMwR-Eb_3ZEngNOPQQ"
+    "file_id": "BAACAgEAAxkDAAIDgmrmoTj80jh1hqqssX-mZszvkytEAAIyCQAC9qMwR-Eb_3ZEngNOPQQ",
+    "decided_at": "2026-11-03T17:58:36.235297+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "0b308997"
   },
   {
     "id": "c0534ae6",
@@ -5341,5 +5355,92 @@
     "msg_id": 963,
     "file_id": "BAACAgEAAxkDAAIDw2rpYktWc1sjyv4orWxtLrGMNzHUAAI6CwAC3o1IRwQzj6VN0zfNPQQ",
     "replaces": "77430afb"
+  },
+  {
+    "id": "ba3e21ab",
+    "slot_key": "2026-11-03 14:30",
+    "slot_iso": "2026-11-03T19:30:00+00:00",
+    "slot_label": "Tue Nov 03, 2:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-calories",
+    "category": "health_bait",
+    "clip_id": "clip45",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 11.12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2160840",
+      "title": "Ambient Inspirational Music",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2160840/mp32/",
+      "source": "jamendo",
+      "duration_ms": 93000,
+      "page": "https://www.jamendo.com/track/2160840",
+      "genre": "pop"
+    },
+    "msg_id": 971,
+    "file_id": "BAACAgEAAxkDAAIDy2rqIRDXC7wDsdAoklhVEfKvhsdiAAIrCAACzttRR15u33Hd165mPQQ",
+    "replaces": "7375af2e"
+  },
+  {
+    "id": "43dc4732",
+    "slot_key": "2026-11-03 16:00",
+    "slot_iso": "2026-11-03T21:00:00+00:00",
+    "slot_label": "Tue Nov 03, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-sperm-five-days",
+    "category": "sex_ed",
+    "clip_id": "clip86",
+    "cta": 5,
+    "mode": "exploit",
+    "seconds": 6.03,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1945492",
+      "title": "Do not disturb",
+      "creator": "zero-project",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1945492/mp32/",
+      "source": "jamendo",
+      "duration_ms": 280000,
+      "page": "https://www.jamendo.com/track/1945492",
+      "genre": "chillout"
+    },
+    "msg_id": 972,
+    "file_id": "BAACAgEAAxkDAAIDzGrqISN-YhYEMWd3txr9m95KftjHAAIsCAACzttRR-2X-udEF27KPQQ",
+    "replaces": "b8f9b841"
+  },
+  {
+    "id": "0b308997",
+    "slot_key": "2026-11-03 21:30",
+    "slot_iso": "2026-11-04T02:30:00+00:00",
+    "slot_label": "Tue Nov 03, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "pr-birth-control-ranked",
+    "category": "sex_ed",
+    "clip_id": "clip02",
+    "cta": 2,
+    "mode": "exploit",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1206274",
+      "title": "Made In Italy",
+      "creator": "Pokki DJ",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1206274/mp32/",
+      "source": "jamendo",
+      "duration_ms": 154000,
+      "page": "https://www.jamendo.com/track/1206274",
+      "genre": "dance"
+    },
+    "msg_id": 973,
+    "file_id": "BAACAgEAAxkDAAIDzWrqIUPmTSRMm2QS1o1IA9nEVJtsAAIuCAACzttRRzrZexAjA-RKPQQ",
+    "replaces": "f0b235d0"
   }
 ]
