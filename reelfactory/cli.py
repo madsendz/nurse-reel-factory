@@ -223,6 +223,23 @@ def cmd_post(cfg, args):
     _post_one(cfg, args, posts, now, slot, post_type, None)
 
 
+def _archive(cfg, out: Path, record: dict, now):
+    """Nick 2026-11-02: keep a copy of every posted reel in a Google Drive folder (never blocks the post)."""
+    folder = (cfg.get("drive") or {}).get("archive_folder_id") or os.environ.get("DRIVE_ARCHIVE_FOLDER_ID")
+    if not folder:
+        return None
+    from . import drive
+    local = now.astimezone(ZoneInfo(cfg.get("timezone", "America/New_York")))
+    name = f"{local:%Y-%m-%d_%H%M}_{record.get('post_type', 'regular')}_{record['item_id']}_{record['clip_id']}.mp4"
+    try:
+        link = drive.upload(out, folder, name)
+        print(f"[drive] saved → {name}")
+        return link
+    except Exception as ex:
+        print(f"[drive] save FAILED: {ex}")
+        return None
+
+
 def _post_one(cfg, args, posts, now, slot, post_type, entry):
     if entry:  # post exactly the reel that was approved in Telegram
         item = next((i for i in load_bank() if i["id"] == entry["item_id"]), None)
@@ -282,6 +299,9 @@ def _post_one(cfg, args, posts, now, slot, post_type, entry):
             print(f"[facebook] cross-posted → {record.get('fb_permalink')}")
         except Exception as ex:  # never let Facebook block the Instagram post
             print(f"[facebook] cross-post FAILED: {ex}")
+    link = _archive(cfg, out, record, now)
+    if link:
+        record["drive_link"] = link
     posts.append(record)
     save_posts(posts)
     if entry:
@@ -290,6 +310,8 @@ def _post_one(cfg, args, posts, now, slot, post_type, entry):
     msg = f"Posted {post_type} reel **{record['item_id']}** on {record['clip_id']} ({record['mode']}) → {record.get('permalink')}"
     if record.get("fb_permalink"):
         msg += f"  · Facebook: {record['fb_permalink']}"
+    if record.get("drive_link"):
+        msg += "  · saved to Drive"
     elif (cfg.get("facebook") or {}).get("share_nudge", True):
         # Nick: API posts never reach Facebook's Reels feed; a share from the IG app does -> remind him in Telegram
         from . import approve
