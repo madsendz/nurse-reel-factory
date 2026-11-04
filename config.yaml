@@ -72,6 +72,18 @@ scoring:
   recency_half_life_days: 30   # newer results count more ("recent trends")
   min_age_hours: 48            # don't judge a reel until it's this old
 
+# --- Topic lifecycle (Nick 2026-11-02): try twice, keep winners, throw out the rest. Judged by link clicks vs the median reel.
+lifecycle:
+  baseline_days: 30            # median clicks/reel over this window = "average" (fallback only)
+  neighbour_days: 3            # each reel is compared with the reels posted within +-3 days of it
+  min_neighbours: 8            # ...if there are at least this many; else the 30-day median
+  min_reels_for_baseline: 10   # no verdicts until this many judged reels exist in the window
+  tries: 2                     # every new topic gets this many reels before a verdict
+  win_one_try: 2.0             # 1 try at >= 2x median -> winner right away
+  win_avg: 1.3                 # after `tries`: average >= 1.3x median -> winner, else retired
+  demote_after: 3              # a winner whose last 3 reposts all fall under the median gets tested again
+  low_new_topics: 21           # Telegram warns when fewer new topics than this are left
+
 # --- How the next reel is chosen ---
 picker:
   explore_rate: 0.25           # regular reels: share that test new / unproven topics
