@@ -35,6 +35,7 @@ trial:
 # --- Where clips come from ---
 drive:
   folder_id: "1V6x7eBL4Mg1_PslRObLvgNPxQKdeywgy"   # the "NurseReels" folder
+  archive_folder_id: "1WymSJUCAP7aHDoAXBSNJS9yGfp34-Ji9"   # "Posted Reels" folder: every POSTED reel is copied here (empty = off)
 
 # --- Instagram (Facebook Login for Business / Graph API) ---
 instagram:
