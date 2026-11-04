@@ -53,3 +53,32 @@ def download(file_id: str, name: str) -> Path:
         _, done = dl.next_chunk()
     buf.close()
     return dest
+
+
+def _user_service():
+    """Nick's own Google account (OAuth refresh token). Needed for UPLOADS: service accounts have no
+    Drive storage quota, so they can't put files into a personal My Drive."""
+    from google.oauth2.credentials import Credentials
+    from googleapiclient.discovery import build
+
+    raw = os.environ.get("GDRIVE_OAUTH_JSON")
+    if not raw:
+        raise RuntimeError("GDRIVE_OAUTH_JSON is not set")
+    d = json.loads(raw)
+    creds = Credentials(
+        None, refresh_token=d["refresh_token"], client_id=d["client_id"], client_secret=d["client_secret"],
+        token_uri="https://oauth2.googleapis.com/token", scopes=["https://www.googleapis.com/auth/drive.file"],
+    )
+    return build("drive", "v3", credentials=creds, cache_discovery=False)
+
+
+def upload(path: Path, folder_id: str, name: str | None = None) -> str:
+    """Upload a video into a Drive folder (as Nick); returns a link to the file."""
+    from googleapiclient.http import MediaFileUpload
+
+    media = MediaFileUpload(str(path), mimetype="video/mp4", resumable=True, chunksize=32 * 1024 * 1024)
+    f = _user_service().files().create(
+        body={"name": name or Path(path).name, "parents": [folder_id]},
+        media_body=media, fields="id, webViewLink", supportsAllDrives=True,
+    ).execute()
+    return f.get("webViewLink") or f"https://drive.google.com/file/d/{f['id']}/view"
