@@ -1,34 +1,5 @@
 [
   {
-    "id": "44e82d61",
-    "slot_key": "2026-10-25 09:30",
-    "slot_iso": "2026-10-25T13:30:00+00:00",
-    "slot_label": "Sun Oct 25, 9:30 AM",
-    "post_type": "trial",
-    "item_id": "pr-avg-man-normal",
-    "category": "sex_ed",
-    "clip_id": "clip69a",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 10.0,
-    "status": "missed",
-    "music": {
-      "id": "jamendo-384173",
-      "title": "Mind drifting back (Leaving paradise)",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384173/mp32/",
-      "source": "jamendo",
-      "duration_ms": 312000,
-      "page": "https://www.jamendo.com/track/384173",
-      "genre": "electronic"
-    },
-    "msg_id": 568,
-    "file_id": "BAACAgEAAxkDAAICOGrauSPda2XNa_OVNE1Uh31yrXtxAALvCAACyfHYRski3iA-KkJ8PQQ",
-    "decided_at": "2026-10-25T05:20:34.955766+00:00"
-  },
-  {
     "id": "e48b6a83",
     "slot_key": "2026-10-25 11:00",
     "slot_iso": "2026-10-25T15:00:00+00:00",
@@ -4507,7 +4478,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 4.33,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1916401",
       "title": "RnB Chill Trap",
@@ -4522,7 +4493,8 @@
     },
     "msg_id": 918,
     "file_id": "BAACAgEAAxkDAAIDlmrn9e_cBz0Hpvb47G3OsRz7drpRAAKRDQAC3o1ARwEvlFL-D9LsPQQ",
-    "decided_at": "2026-11-04T12:33:57.841214+00:00"
+    "decided_at": "2026-11-04T12:33:57.841214+00:00",
+    "permalink": "https://www.instagram.com/reel/DfUrtKuAiXj/"
   },
   {
     "id": "cfa078de",
@@ -5578,7 +5550,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1129271",
       "title": "Energy",
@@ -5593,7 +5565,8 @@
     },
     "msg_id": 995,
     "file_id": "BAACAgEAAxkDAAID42rrJoxOt4Ngh5CX0plLJjD9-g3-AAIECQACzttZRxnn6_S5w5z6PQQ",
-    "replaces": "eb9e96c3"
+    "replaces": "eb9e96c3",
+    "decided_at": "2026-11-04T14:31:05.448657+00:00"
   },
   {
     "id": "7d3373c3",
@@ -5607,7 +5580,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 7.8,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-247156",
       "title": "Silence Apart",
@@ -5622,6 +5595,7 @@
     },
     "msg_id": 996,
     "file_id": "BAACAgEAAxkDAAID5GrrJqrlilnXboiX0-eCE_uRjFcPAAIFCQACzttZRxoBYNnPrJroPQQ",
-    "replaces": "ca58bf4e"
+    "replaces": "ca58bf4e",
+    "decided_at": "2026-11-04T14:31:05.448657+00:00"
   }
 ]
