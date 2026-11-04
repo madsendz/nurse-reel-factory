@@ -1,34 +1,5 @@
 [
   {
-    "id": "0fae095e",
-    "slot_key": "2026-10-25 17:30",
-    "slot_iso": "2026-10-25T21:30:00+00:00",
-    "slot_label": "Sun Oct 25, 5:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-vasectomy-myth",
-    "category": "mens_health",
-    "clip_id": "clip15",
-    "cta": 3,
-    "mode": "explore",
-    "seconds": 6.63,
-    "status": "approved",
-    "music": {
-      "id": "jamendo-1367800",
-      "title": "CRIZ3Y - Facepalm (VIP)",
-      "creator": "lost.element",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1367800/mp32/",
-      "source": "jamendo",
-      "duration_ms": 217000,
-      "page": "https://www.jamendo.com/track/1367800",
-      "genre": "trap"
-    },
-    "msg_id": 574,
-    "file_id": "BAACAgEAAxkDAAICPmraudMU7Rsfojg5ldoH0hxB_cSbAAL2CAACyfHYRtG_BAABpuX6Cj0E",
-    "decided_at": "2026-10-25T05:25:25.389679+00:00"
-  },
-  {
     "id": "e1580f46",
     "slot_key": "2026-10-25 19:30",
     "slot_iso": "2026-10-25T23:30:00+00:00",
@@ -4509,7 +4480,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 8.3,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -4523,7 +4494,8 @@
       "genre": "dance"
     },
     "msg_id": 925,
-    "file_id": "BAACAgEAAxkDAAIDnWrn9o4KnEjzqM0fAVRFVAvdYQ2gAAKYDQAC3o1AR4Hq1doJxwcDPQQ"
+    "file_id": "BAACAgEAAxkDAAIDnWrn9o4KnEjzqM0fAVRFVAvdYQ2gAAKYDQAC3o1AR4Hq1doJxwcDPQQ",
+    "decided_at": "2026-11-04T22:43:18.989747+00:00"
   },
   {
     "id": "419b221a",
@@ -4537,7 +4509,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 4.73,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1448162",
       "title": "Nothern Fall X BlackBadBlood - Spring",
@@ -4551,7 +4523,11 @@
       "genre": "trap"
     },
     "msg_id": 926,
-    "file_id": "BAACAgEAAxkDAAIDnmrn9p32aUWGJwW7EKl6qk8KRm6MAAKZDQAC3o1AR-f7xZlvRLunPQQ"
+    "file_id": "BAACAgEAAxkDAAIDnmrn9p32aUWGJwW7EKl6qk8KRm6MAAKZDQAC3o1AR-f7xZlvRLunPQQ",
+    "decided_at": "2026-11-04T22:43:18.989747+00:00",
+    "redo": "swap_music",
+    "needs_replacement": false,
+    "replaced_by": "b8842de1"
   },
   {
     "id": "7b28831b",
@@ -5421,5 +5397,34 @@
     "replaces": "ca58bf4e",
     "decided_at": "2026-11-04T14:31:05.448657+00:00",
     "permalink": "https://www.instagram.com/reel/DfVZKlnjOd9/"
+  },
+  {
+    "id": "b8842de1",
+    "slot_key": "2026-11-04 21:30",
+    "slot_iso": "2026-11-05T02:30:00+00:00",
+    "slot_label": "Wed Nov 04, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-kegels-women",
+    "category": "sexual_wellness",
+    "clip_id": "clip57",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 4.73,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1274433",
+      "title": "sex and money",
+      "creator": "Smiling Cynic",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1274433/mp32/",
+      "source": "jamendo",
+      "duration_ms": 230000,
+      "page": "https://www.jamendo.com/track/1274433",
+      "genre": "pop"
+    },
+    "msg_id": 999,
+    "file_id": "BAACAgEAAxkDAAID52rrtT1lE705VisRd7c0bDCqi-ZiAAKqBwACg0lZR6Xdxj-ODqTUPQQ",
+    "replaces": "419b221a"
   }
 ]
