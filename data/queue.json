@@ -4477,7 +4477,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 11.7,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1591558",
       "title": "199-s8rec",
@@ -4492,7 +4492,8 @@
     },
     "msg_id": 917,
     "file_id": "BAACAgEAAxkDAAIDlWrn9eGuyX__A1kIK5n6L_eqJXO4AAKQDQAC3o1AR12mDMqUMKAvPQQ",
-    "decided_at": "2026-11-04T12:33:57.841214+00:00"
+    "decided_at": "2026-11-04T12:33:57.841214+00:00",
+    "permalink": "https://www.instagram.com/reel/DfUhvrlHdGd/"
   },
   {
     "id": "753cb5b9",
