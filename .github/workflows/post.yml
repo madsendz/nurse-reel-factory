@@ -40,6 +40,7 @@ jobs:
       FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
       GDRIVE_SERVICE_ACCOUNT_JSON: ${{ secrets.GDRIVE_SERVICE_ACCOUNT_JSON }}
       DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+      GDRIVE_OAUTH_JSON: ${{ secrets.GDRIVE_OAUTH_JSON }}
       CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
       CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
       CF_SITE_TAG: ${{ secrets.CF_SITE_TAG }}
