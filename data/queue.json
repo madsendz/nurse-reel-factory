@@ -1,34 +1,5 @@
 [
   {
-    "id": "92128493",
-    "slot_key": "2026-10-25 14:30",
-    "slot_iso": "2026-10-25T18:30:00+00:00",
-    "slot_label": "Sun Oct 25, 2:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-women-secretly-attractive",
-    "category": "sexual_wellness",
-    "clip_id": "clip61",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "missed",
-    "music": {
-      "id": "jamendo-1862341",
-      "title": "The Last Day Of Summer",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1862341/mp32/",
-      "source": "jamendo",
-      "duration_ms": 120000,
-      "page": "https://www.jamendo.com/track/1862341",
-      "genre": "dance"
-    },
-    "msg_id": 572,
-    "file_id": "BAACAgEAAxkDAAICPGrauagT6FObqzk7c5oYVoczWrLdAAL0CAACyfHYRl3qt3lCs9srPQQ",
-    "decided_at": "2026-10-25T05:25:25.389679+00:00"
-  },
-  {
     "id": "af9ccaf9",
     "slot_key": "2026-10-25 16:00",
     "slot_iso": "2026-10-25T20:00:00+00:00",
@@ -4448,7 +4419,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 12,
-    "status": "approved",
+    "status": "missed",
     "music": {
       "id": "jamendo-1547998",
       "title": "podnebo prod. - spark | FREE BEAT | 2018 | FULL | 96bpm",
@@ -4477,7 +4448,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 6.04,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2173154",
       "title": "Coffee Lounge",
@@ -4492,7 +4463,8 @@
     },
     "msg_id": 922,
     "file_id": "BAACAgEAAxkDAAIDmmrn9lCQgpwaEE8vtvQIafK2q1BBAAKVDQAC3o1AR_yOweHNuV0SPQQ",
-    "decided_at": "2026-11-04T12:34:40.898254+00:00"
+    "decided_at": "2026-11-04T12:34:40.898254+00:00",
+    "permalink": "https://www.instagram.com/reel/DfVO1sxnOnl/"
   },
   {
     "id": "ca58bf4e",
