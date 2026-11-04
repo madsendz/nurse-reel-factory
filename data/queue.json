@@ -1,35 +1,5 @@
 [
   {
-    "id": "5c2c3376",
-    "slot_key": "2026-10-24 19:30",
-    "slot_iso": "2026-10-24T23:30:00+00:00",
-    "slot_label": "Sat Oct 24, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-orgasm-gap",
-    "category": "sex_ed",
-    "clip_id": "clip28",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 8.39,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1375003",
-      "title": "White_beach",
-      "creator": "Christian Petermann",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1375003/mp32/",
-      "source": "jamendo",
-      "duration_ms": 223000,
-      "page": "https://www.jamendo.com/track/1375003",
-      "genre": "chillout"
-    },
-    "msg_id": 512,
-    "file_id": "BAACAgEAAxkDAAICAAFq2WlBxRbe1w26unKc3G5KyEHu-gACZgkAAmbn0UaPwTEx9TTyfT0E",
-    "decided_at": "2026-10-24T12:01:08.395557+00:00",
-    "permalink": "https://www.instagram.com/reel/De5UqPyjFKu/"
-  },
-  {
     "id": "a19008fb",
     "slot_key": "2026-10-24 21:30",
     "slot_iso": "2026-10-25T01:30:00+00:00",
@@ -4381,7 +4351,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.03,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2037702",
       "title": "Nostalgia Drive (Lofi Hip-hop)",
@@ -4396,7 +4366,8 @@
     },
     "msg_id": 897,
     "file_id": "BAACAgEAAxkDAAIDgWrmoR2Xf5bTLAABXtPRlmJga1Ik7AACMQkAAvajMEdCyCUVyxkNAj0E",
-    "decided_at": "2026-11-03T18:26:06.393596+00:00"
+    "decided_at": "2026-11-03T18:26:06.393596+00:00",
+    "permalink": "https://www.instagram.com/reel/DfTMRC3CflP/"
   },
   {
     "id": "f0b235d0",
