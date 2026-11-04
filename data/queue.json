@@ -1,35 +1,5 @@
 [
   {
-    "id": "73721302",
-    "slot_key": "2026-10-25 08:00",
-    "slot_iso": "2026-10-25T12:00:00+00:00",
-    "slot_label": "Sun Oct 25, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-balls-temp",
-    "category": "mens_health",
-    "clip_id": "clip61",
-    "cta": 5,
-    "mode": "explore",
-    "seconds": 12,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1871345",
-      "title": "TP4",
-      "creator": "orangeicebear",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1871345/mp32/",
-      "source": "jamendo",
-      "duration_ms": 280000,
-      "page": "https://www.jamendo.com/track/1871345",
-      "genre": "trap"
-    },
-    "msg_id": 567,
-    "file_id": "BAACAgEAAxkDAAICN2rauQSCQu8xRBV6wbnbg9p8_La-AALtCAACyfHYRmQHCKmbDrSJPQQ",
-    "decided_at": "2026-10-25T05:13:09.490771+00:00",
-    "permalink": "https://www.instagram.com/reel/De6qnN6jOw2/"
-  },
-  {
     "id": "44e82d61",
     "slot_key": "2026-10-25 09:30",
     "slot_iso": "2026-10-25T13:30:00+00:00",
@@ -4507,7 +4477,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 11.7,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1591558",
       "title": "199-s8rec",
@@ -4521,7 +4491,8 @@
       "genre": "trap"
     },
     "msg_id": 917,
-    "file_id": "BAACAgEAAxkDAAIDlWrn9eGuyX__A1kIK5n6L_eqJXO4AAKQDQAC3o1AR12mDMqUMKAvPQQ"
+    "file_id": "BAACAgEAAxkDAAIDlWrn9eGuyX__A1kIK5n6L_eqJXO4AAKQDQAC3o1AR12mDMqUMKAvPQQ",
+    "decided_at": "2026-11-04T12:33:57.841214+00:00"
   },
   {
     "id": "753cb5b9",
@@ -4535,7 +4506,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 4.33,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1916401",
       "title": "RnB Chill Trap",
@@ -4549,7 +4520,8 @@
       "genre": "hiphop"
     },
     "msg_id": 918,
-    "file_id": "BAACAgEAAxkDAAIDlmrn9e_cBz0Hpvb47G3OsRz7drpRAAKRDQAC3o1ARwEvlFL-D9LsPQQ"
+    "file_id": "BAACAgEAAxkDAAIDlmrn9e_cBz0Hpvb47G3OsRz7drpRAAKRDQAC3o1ARwEvlFL-D9LsPQQ",
+    "decided_at": "2026-11-04T12:33:57.841214+00:00"
   },
   {
     "id": "cfa078de",
@@ -4563,7 +4535,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 10.82,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384091",
       "title": "Lazy beach breaks",
@@ -4577,7 +4549,8 @@
       "genre": "lounge"
     },
     "msg_id": 919,
-    "file_id": "BAACAgEAAxkDAAIDl2rn9gllrLI-7mXdRSThPMB4LbaxAAKSDQAC3o1ARygr2-ZRBIwoPQQ"
+    "file_id": "BAACAgEAAxkDAAIDl2rn9gllrLI-7mXdRSThPMB4LbaxAAKSDQAC3o1ARygr2-ZRBIwoPQQ",
+    "decided_at": "2026-11-04T12:33:57.841214+00:00"
   },
   {
     "id": "eb9e96c3",
@@ -4591,7 +4564,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-43679",
       "title": "Ocean fantasy",
@@ -4605,7 +4578,11 @@
       "genre": "chillout"
     },
     "msg_id": 920,
-    "file_id": "BAACAgEAAxkDAAIDmGrn9iPYeLW6FHDyPW94nwsuDxp9AAKTDQAC3o1AR-m37Aua5tnOPQQ"
+    "file_id": "BAACAgEAAxkDAAIDmGrn9iPYeLW6FHDyPW94nwsuDxp9AAKTDQAC3o1AR-m37Aua5tnOPQQ",
+    "decided_at": "2026-11-04T12:33:57.841214+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "29b24756"
   },
   {
     "id": "4065e495",
@@ -4619,7 +4596,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1547998",
       "title": "podnebo prod. - spark | FREE BEAT | 2018 | FULL | 96bpm",
@@ -4633,7 +4610,8 @@
       "genre": "trap"
     },
     "msg_id": 921,
-    "file_id": "BAACAgEAAxkDAAIDmWrn9j_AB45j90FiCiW9FeEBqtRCAAKUDQAC3o1ARxj5ihFSaejXPQQ"
+    "file_id": "BAACAgEAAxkDAAIDmWrn9j_AB45j90FiCiW9FeEBqtRCAAKUDQAC3o1ARxj5ihFSaejXPQQ",
+    "decided_at": "2026-11-04T12:34:40.898254+00:00"
   },
   {
     "id": "4d5ee171",
@@ -4647,7 +4625,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 6.04,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2173154",
       "title": "Coffee Lounge",
@@ -4661,7 +4639,8 @@
       "genre": "lounge"
     },
     "msg_id": 922,
-    "file_id": "BAACAgEAAxkDAAIDmmrn9lCQgpwaEE8vtvQIafK2q1BBAAKVDQAC3o1AR_yOweHNuV0SPQQ"
+    "file_id": "BAACAgEAAxkDAAIDmmrn9lCQgpwaEE8vtvQIafK2q1BBAAKVDQAC3o1AR_yOweHNuV0SPQQ",
+    "decided_at": "2026-11-04T12:34:40.898254+00:00"
   },
   {
     "id": "ca58bf4e",
@@ -4675,7 +4654,7 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 7.8,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1342479",
       "title": "Breathe",
@@ -4689,7 +4668,11 @@
       "genre": "hiphop"
     },
     "msg_id": 923,
-    "file_id": "BAACAgEAAxkDAAIDm2rn9mRt6wLRpYJQ8jqBwrLhxO10AAKWDQAC3o1ARzFjs0zZS4tmPQQ"
+    "file_id": "BAACAgEAAxkDAAIDm2rn9mRt6wLRpYJQ8jqBwrLhxO10AAKWDQAC3o1ARzFjs0zZS4tmPQQ",
+    "decided_at": "2026-11-04T12:34:40.898254+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "7d3373c3"
   },
   {
     "id": "2f32e36e",
@@ -5581,5 +5564,63 @@
     },
     "msg_id": 991,
     "file_id": "BAACAgEAAxkDAAID32rqoM1X375f1LEIqy7BC8Ec5djCAAL7CAACzttRR5eWNfBMMx2EPQQ"
+  },
+  {
+    "id": "29b24756",
+    "slot_key": "2026-11-04 12:00",
+    "slot_iso": "2026-11-04T17:00:00+00:00",
+    "slot_label": "Wed Nov 04, 12:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-t-decline-age",
+    "category": "mens_health",
+    "clip_id": "clip87",
+    "cta": 2,
+    "mode": "exploit",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1129271",
+      "title": "Energy",
+      "creator": "Pokki DJ",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1129271/mp32/",
+      "source": "jamendo",
+      "duration_ms": 230000,
+      "page": "https://www.jamendo.com/track/1129271",
+      "genre": "dance"
+    },
+    "msg_id": 995,
+    "file_id": "BAACAgEAAxkDAAID42rrJoxOt4Ngh5CX0plLJjD9-g3-AAIECQACzttZRxnn6_S5w5z6PQQ",
+    "replaces": "eb9e96c3"
+  },
+  {
+    "id": "7d3373c3",
+    "slot_key": "2026-11-04 16:00",
+    "slot_iso": "2026-11-04T21:00:00+00:00",
+    "slot_label": "Wed Nov 04, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-foreplay-time",
+    "category": "sexual_wellness",
+    "clip_id": "clip26",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 7.8,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-247156",
+      "title": "Silence Apart",
+      "creator": "ZigiZigi",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/247156/mp32/",
+      "source": "jamendo",
+      "duration_ms": 326000,
+      "page": "https://www.jamendo.com/track/247156",
+      "genre": "pop"
+    },
+    "msg_id": 996,
+    "file_id": "BAACAgEAAxkDAAID5GrrJqrlilnXboiX0-eCE_uRjFcPAAIFCQACzttZRxoBYNnPrJroPQQ",
+    "replaces": "ca58bf4e"
   }
 ]
