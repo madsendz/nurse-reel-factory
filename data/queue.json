@@ -1,34 +1,5 @@
 [
   {
-    "id": "af9ccaf9",
-    "slot_key": "2026-10-25 16:00",
-    "slot_iso": "2026-10-25T20:00:00+00:00",
-    "slot_label": "Sun Oct 25, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-vibrators",
-    "category": "sexual_wellness",
-    "clip_id": "clip37",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 10.82,
-    "status": "missed",
-    "music": {
-      "id": "jamendo-1525343",
-      "title": "FAS - heda",
-      "creator": "FAS",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1525343/mp32/",
-      "source": "jamendo",
-      "duration_ms": 165000,
-      "page": "https://www.jamendo.com/track/1525343",
-      "genre": "trap"
-    },
-    "msg_id": 573,
-    "file_id": "BAACAgEAAxkDAAICPWraub5w0AuJZIqZ2NPZ85fB9qIsAAL1CAACyfHYRqqjRoHfG4spPQQ",
-    "decided_at": "2026-10-25T05:25:25.389679+00:00"
-  },
-  {
     "id": "0fae095e",
     "slot_key": "2026-10-25 17:30",
     "slot_iso": "2026-10-25T21:30:00+00:00",
