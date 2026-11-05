@@ -4188,7 +4188,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 6.9,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037702",
       "title": "Nostalgia Drive (Lofi Hip-hop)",
@@ -4202,7 +4202,8 @@
       "genre": "lounge"
     },
     "msg_id": 946,
-    "file_id": "BAACAgEAAxkDAAIDsmrpXDoRTxNJ6hTpG94btWQSown8AAIlCwAC3o1IR6GqeCTX96HcPQQ"
+    "file_id": "BAACAgEAAxkDAAIDsmrpXDoRTxNJ6hTpG94btWQSown8AAIlCwAC3o1IR6GqeCTX96HcPQQ",
+    "decided_at": "2026-11-05T18:14:34.882878+00:00"
   },
   {
     "id": "26d04457",
@@ -4216,7 +4217,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 6.9,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1403270",
       "title": "Just laugh at it",
@@ -4230,7 +4231,8 @@
       "genre": "rnb"
     },
     "msg_id": 947,
-    "file_id": "BAACAgEAAxkDAAIDs2rpXFH0q0f-N4g2cpTFB9tDTHJtAAImCwAC3o1IR1t3vmJ94yP8PQQ"
+    "file_id": "BAACAgEAAxkDAAIDs2rpXFH0q0f-N4g2cpTFB9tDTHJtAAImCwAC3o1IR1t3vmJ94yP8PQQ",
+    "decided_at": "2026-11-05T18:14:34.882878+00:00"
   },
   {
     "id": "8ab5ebcc",
@@ -4302,7 +4304,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 8.21,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2290117",
       "title": "Soul Hop Music",
@@ -4316,7 +4318,11 @@
       "genre": "hiphop"
     },
     "msg_id": 950,
-    "file_id": "BAACAgEAAxkDAAIDtmrpXJQToiSSV4UlmuH7C-DMeoVNAAIqCwAC3o1IR2LoDo3Gtd7_PQQ"
+    "file_id": "BAACAgEAAxkDAAIDtmrpXJQToiSSV4UlmuH7C-DMeoVNAAIqCwAC3o1IR2LoDo3Gtd7_PQQ",
+    "decided_at": "2026-11-05T18:14:34.882878+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "9c60f226"
   },
   {
     "id": "3f6b6ca2",
@@ -5311,5 +5317,34 @@
     "msg_id": 1022,
     "file_id": "BAACAgEAAxkDAAID_mrsgE6fbcIX6ehV222986mlqKjIAAKdCQACg0lhR4Uqty200X3yPQQ",
     "replaces": "26754cf7"
+  },
+  {
+    "id": "9c60f226",
+    "slot_key": "2026-11-05 21:30",
+    "slot_iso": "2026-11-06T02:30:00+00:00",
+    "slot_label": "Thu Nov 05, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-cycle-desire",
+    "category": "sex_ed",
+    "clip_id": "clip71",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 8.21,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1992651",
+      "title": "Emotional Dancing",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1992651/mp32/",
+      "source": "jamendo",
+      "duration_ms": 126000,
+      "page": "https://www.jamendo.com/track/1992651",
+      "genre": "hiphop"
+    },
+    "msg_id": 1027,
+    "file_id": "BAACAgEAAxkDAAIEA2rsx7-JYvtgs96Zz-WyHd1A9mqBAAIQCgACg0lhRxBgecg75egEPQQ",
+    "replaces": "01c74513"
   }
 ]
