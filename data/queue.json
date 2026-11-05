@@ -1,37 +1,5 @@
 [
   {
-    "id": "ee0d2cf3",
-    "slot_key": "2026-10-26 17:30",
-    "slot_iso": "2026-10-26T21:30:00+00:00",
-    "slot_label": "Mon Oct 26, 5:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-make-noise",
-    "category": "sexual_wellness",
-    "clip_id": "clip59",
-    "cta": 3,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-2304778",
-      "title": "Middle of the Night",
-      "creator": "A. Cooper",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2304778/mp32/",
-      "source": "jamendo",
-      "duration_ms": 292000,
-      "page": "https://www.jamendo.com/track/2304778",
-      "genre": "rnb"
-    },
-    "msg_id": 620,
-    "file_id": "BAACAgEAAxkDAAICbGrcC_9cnVZxzMmPga41SE13CwoSAALeCQAC3QPhRjExztFrB9ikPQQ",
-    "decided_at": "2026-10-26T20:57:40.111610+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "59093460"
-  },
-  {
     "id": "e7f83243",
     "slot_key": "2026-10-26 19:30",
     "slot_iso": "2026-10-26T23:30:00+00:00",
@@ -733,37 +701,6 @@
     "replaces": "0276c40c",
     "decided_at": "2026-10-26T21:31:20.783373+00:00",
     "permalink": "https://www.instagram.com/reel/De-sAstD0Dd/"
-  },
-  {
-    "id": "59093460",
-    "slot_key": "2026-10-26 17:30",
-    "slot_iso": "2026-10-26T21:30:00+00:00",
-    "slot_label": "Mon Oct 26, 5:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-make-noise",
-    "category": "sexual_wellness",
-    "clip_id": "clip18",
-    "cta": 5,
-    "mode": "exploit",
-    "seconds": 6.8,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1917024",
-      "title": "Dorila y Mello",
-      "creator": "Popoi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1917024/mp32/",
-      "source": "jamendo",
-      "duration_ms": 165000,
-      "page": "https://www.jamendo.com/track/1917024",
-      "genre": "hiphop"
-    },
-    "msg_id": 714,
-    "file_id": "BAACAgEAAxkDAAICymrftilXQL624_DhvFeKS60BOlMpAAI-CgACKfsBRzIyFwjL-GrzPQQ",
-    "replaces": "ee0d2cf3",
-    "decided_at": "2026-10-26T21:31:20.783373+00:00",
-    "permalink": "https://www.instagram.com/reel/De-c932jsa1/"
   },
   {
     "id": "a02aeffd",
@@ -4188,7 +4125,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 6.83,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2151100",
       "title": "Deep Fashion Electronic",
@@ -4203,7 +4140,8 @@
     },
     "msg_id": 948,
     "file_id": "BAACAgEAAxkDAAIDtGrpXGd8zIAoZuH4qAVvQQAB8CrsjgACKAsAAt6NSEcrwMK40fQOvj0E",
-    "decided_at": "2026-11-05T04:35:30.226796+00:00"
+    "decided_at": "2026-11-05T04:35:30.226796+00:00",
+    "permalink": "https://www.instagram.com/reel/DfYHxQLCPtp/"
   },
   {
     "id": "c527e805",
