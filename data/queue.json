@@ -4414,7 +4414,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1871345",
       "title": "TP4",
@@ -4428,7 +4428,11 @@
       "genre": "trap"
     },
     "msg_id": 941,
-    "file_id": "BAACAgEAAxkDAAIDrWrpW3-GTJSU4vJUh2Nq2tXNCGTXAAIgCwAC3o1IR1qGFB0eFNJCPQQ"
+    "file_id": "BAACAgEAAxkDAAIDrWrpW3-GTJSU4vJUh2Nq2tXNCGTXAAIgCwAC3o1IR1qGFB0eFNJCPQQ",
+    "decided_at": "2026-11-05T04:31:43.722910+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "21d04191"
   },
   {
     "id": "79eeea73",
@@ -5548,5 +5552,34 @@
     },
     "msg_id": 1009,
     "file_id": "BAACAgEAAxkDAAID8Wrr-UrGW5ZeCvLbhS9BHic_OFYhAAK3CAACg0lhR1vGzNQdzU3uPQQ"
+  },
+  {
+    "id": "21d04191",
+    "slot_key": "2026-11-05 08:00",
+    "slot_iso": "2026-11-05T13:00:00+00:00",
+    "slot_label": "Thu Nov 05, 8:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-sex-heart",
+    "category": "health_bait",
+    "clip_id": "clip43",
+    "cta": 2,
+    "mode": "exploit",
+    "seconds": 10.6,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1580397",
+      "title": "Slow motion",
+      "creator": "zero-project",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1580397/mp32/",
+      "source": "jamendo",
+      "duration_ms": 267000,
+      "page": "https://www.jamendo.com/track/1580397",
+      "genre": "chillout"
+    },
+    "msg_id": 1012,
+    "file_id": "BAACAgEAAxkDAAID9GrsBurXvFAHPhmZ75gRTg6wex22AALQCAACg0lhR7l2XlDiSO6WPQQ",
+    "replaces": "c573e495"
   }
 ]
