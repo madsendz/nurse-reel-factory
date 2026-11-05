@@ -135,6 +135,17 @@ def cmd_refresh(cfg, args):
     hourly = update_click_log(cfg)
     attribute(posts, hourly, cfg)
     save_posts(posts)
+    try:  # Nick 2026-11-02: promote winners / throw out topics by link clicks, tell Telegram
+        from . import lifecycle
+        res = lifecycle.judge(load_bank(), posts, cfg, now)
+        text = lifecycle.digest(res, cfg)
+        if text:
+            from . import approve
+            cid = approve.chat_id(cfg)
+            if cid:
+                approve._tg("sendMessage", chat_id=cid, text=text)
+    except Exception as e:
+        print(f"[lifecycle] failed: {e}")
     md = leaderboard(score_posts(posts, cfg), feature_estimates(score_posts(posts, cfg)))
     (ROOT / "reports").mkdir(exist_ok=True)
     (ROOT / "reports" / "latest.md").write_text(md, encoding="utf-8")
