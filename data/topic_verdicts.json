@@ -159,5 +159,12 @@
     "tries": 2,
     "ratio": 0.51,
     "reason": "2 tries, 0.5x median"
+  },
+  "nw-women-solo": {
+    "status": "retired",
+    "since": "2026-11-05T16:01:35.149903+00:00",
+    "tries": 2,
+    "ratio": 0.43,
+    "reason": "2 tries, 0.4x median"
   }
 }
