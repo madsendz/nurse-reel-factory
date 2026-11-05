@@ -65,9 +65,9 @@ def load_bank() -> list[dict]:
     items = load_yaml(BANK_PATH, {"items": []}).get("items", [])
     over = load_json(TOPIC_STATUS_PATH, {})  # keep / toss decisions made on the dashboard
     text = load_json(TOPIC_TEXT_PATH, {})    # edited hook / fact lines: {item_id: {hook, beats, at}}
+    from .lifecycle import apply_verdicts, load_verdicts
+    apply_verdicts(items, load_verdicts(), over)  # winner / retired by link clicks; Nick's clicks win
     for i in items:
-        if i.get("id") in over:
-            i["status"] = over[i["id"]]
         t = text.get(i.get("id"))
         if t:
             if t.get("hook"):
