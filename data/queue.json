@@ -1,35 +1,5 @@
 [
   {
-    "id": "df37ed77",
-    "slot_key": "2026-10-26 13:00",
-    "slot_iso": "2026-10-26T17:00:00+00:00",
-    "slot_label": "Mon Oct 26, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "nw-sleep-t",
-    "category": "mens_health",
-    "clip_id": "clip46",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 6.86,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1099",
-      "title": "Leave Me, Let Me Die",
-      "creator": "Religionnaire",
-      "license": "by",
-      "license_version": "2.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1099/mp32/",
-      "source": "jamendo",
-      "duration_ms": 522000,
-      "page": "https://www.jamendo.com/track/1099",
-      "genre": "pop"
-    },
-    "msg_id": 617,
-    "file_id": "BAACAgEAAxkDAAICaWrcC7WKSARNMFzICg7m3ZokLUN8AALbCQAC3QPhRuuA95oOTSTmPQQ",
-    "decided_at": "2026-10-26T13:30:57.992206+00:00",
-    "permalink": "https://www.instagram.com/reel/De9y5AXAOHD/"
-  },
-  {
     "id": "c3baf762",
     "slot_key": "2026-10-26 14:30",
     "slot_iso": "2026-10-26T18:30:00+00:00",
@@ -4159,7 +4129,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 6.86,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1490752",
       "title": "Free Post Malone | RnB Type Beat",
@@ -4174,7 +4144,8 @@
     },
     "msg_id": 944,
     "file_id": "BAACAgEAAxkDAAIDsGrpXAk7GYnolx9zDAPqSr_T11PqAAIjCwAC3o1IR5KiAAFfFe2TJT0E",
-    "decided_at": "2026-11-05T04:36:04.753030+00:00"
+    "decided_at": "2026-11-05T04:36:04.753030+00:00",
+    "permalink": "https://www.instagram.com/reel/DfXh3F8jH6P/"
   },
   {
     "id": "ba075a4d",
@@ -4188,7 +4159,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 11.7,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1525343",
       "title": "FAS - heda",
@@ -4202,7 +4173,8 @@
       "genre": "trap"
     },
     "msg_id": 945,
-    "file_id": "BAACAgEAAxkDAAIDsWrpXCXWTZLKiBFK5UlT7W3RIRyLAAIkCwAC3o1IRz_XgaSw77DZPQQ"
+    "file_id": "BAACAgEAAxkDAAIDsWrpXCXWTZLKiBFK5UlT7W3RIRyLAAIkCwAC3o1IRz_XgaSw77DZPQQ",
+    "decided_at": "2026-11-05T17:01:08.116400+00:00"
   },
   {
     "id": "2b3ee4bf",
