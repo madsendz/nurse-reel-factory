@@ -4446,7 +4446,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.42,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1129271",
       "title": "Energy",
@@ -4460,7 +4460,8 @@
       "genre": "dance"
     },
     "msg_id": 942,
-    "file_id": "BAACAgEAAxkDAAIDrmrpW7SqBgziEaKhEAmk2FRZ2GGnAAIhCwAC3o1IR7OiPMQ0kYfGPQQ"
+    "file_id": "BAACAgEAAxkDAAIDrmrpW7SqBgziEaKhEAmk2FRZ2GGnAAIhCwAC3o1IR7OiPMQ0kYfGPQQ",
+    "decided_at": "2026-11-05T04:33:11.459214+00:00"
   },
   {
     "id": "65568123",
@@ -4474,7 +4475,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1922534",
       "title": "Luxury Hip-Hop",
@@ -4488,7 +4489,11 @@
       "genre": "hiphop"
     },
     "msg_id": 943,
-    "file_id": "BAACAgEAAxkDAAIDr2rpW_F-52coP-ubKFlDteKV7K1KAAIiCwAC3o1IR5ORhs8XXraPPQQ"
+    "file_id": "BAACAgEAAxkDAAIDr2rpW_F-52coP-ubKFlDteKV7K1KAAIiCwAC3o1IR5ORhs8XXraPPQQ",
+    "decided_at": "2026-11-05T04:33:11.459214+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "9cb1fea3"
   },
   {
     "id": "c86dacb5",
@@ -5581,5 +5586,34 @@
     "msg_id": 1012,
     "file_id": "BAACAgEAAxkDAAID9GrsBurXvFAHPhmZ75gRTg6wex22AALQCAACg0lhR7l2XlDiSO6WPQQ",
     "replaces": "c573e495"
+  },
+  {
+    "id": "9cb1fea3",
+    "slot_key": "2026-11-05 11:00",
+    "slot_iso": "2026-11-05T16:00:00+00:00",
+    "slot_label": "Thu Nov 05, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-heat-sperm",
+    "category": "mens_health",
+    "clip_id": "clip03",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1230857",
+      "title": "Indios",
+      "creator": "Claudiozara",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1230857/mp32/",
+      "source": "jamendo",
+      "duration_ms": 357000,
+      "page": "https://www.jamendo.com/track/1230857",
+      "genre": "chillout"
+    },
+    "msg_id": 1015,
+    "file_id": "BAACAgEAAxkDAAID92rsB0cDaxBC0teG-sgw5HawGhC8AALRCAACg0lhR4sWfkUPoIaiPQQ",
+    "replaces": "65568123"
   }
 ]
