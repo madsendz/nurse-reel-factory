@@ -2048,3 +2048,291 @@ items:
   caption: laughing together. that's the secret 😂 follow if you had a different idea
   status: review
   prior: 0.0
+# --- Claude batch 2026-11-05: written in the styles that won by link clicks (hack_steps, what_they_dont_tell, average_man_thinks, secret_list, bait_reveal) ---
+- id: nw-stop-start-hack
+  category: mens_health
+  style: hack_steps
+  source: 'Claude 2026-11-05 batch'
+  hook: the FREE trick for lasting longer ⏱️🔥
+  beats:
+  - 'step 1: when you feel close, STOP completely'
+  - 'step 2: wait 30 seconds, then keep going'
+  - 'step 3: repeat 2-3 times before you finish'
+  - it's called "stop-start" and sex therapists actually teach it
+  status: active
+- id: nw-breathing-hack
+  category: mens_health
+  style: hack_steps
+  source: 'Claude 2026-11-05 batch'
+  hook: slow breathing can help you last longer 🌬️
+  beats:
+  - fast shallow breathing speeds everything up
+  - slow breaths in through the nose calm your nervous system
+  - and relax the pelvic floor muscles that trigger finishing
+  status: active
+- id: nw-clit-first-hack
+  category: sexual_wellness
+  style: hack_steps
+  source: 'Claude 2026-11-05 batch'
+  hook: do THIS before penetration and she's way more likely to finish 🔥
+  beats:
+  - 'step 1: start with her cl*toris, not penetration'
+  - 'step 2: keep going until she''s close'
+  - 'step 3: THEN move on (and keep the stimulation going)'
+  - most women need cl*toral stimulation to finish, not just penetration
+  status: active
+- id: nw-ask-hack
+  category: sexual_wellness
+  style: hack_steps
+  source: 'Claude 2026-11-05 batch'
+  hook: the 5-second question that makes her finish more often 🗣️
+  beats:
+  - '"what do you want more of?"'
+  - women who talk about what they like in bed finish more often (research backs this)
+  - most never get asked
+  status: active
+- id: nw-afterplay
+  category: sexual_wellness
+  style: secret_list
+  source: 'Claude 2026-11-05 batch'
+  hook: 3 things to do AFTER that women never forget 🥰
+  beats:
+  - 1. stay close (don't roll over and grab your phone)
+  - 2. say one thing you loved about it
+  - 3. cuddle for a few minutes (oxytocin = closeness)
+  - couples who do this report more satisfaction... in and out of bed
+  status: active
+- id: nw-lube-types
+  category: sexual_wellness
+  style: secret_list
+  source: 'Claude 2026-11-05 batch'
+  hook: 3 kinds of lube and when to use each 💧
+  beats:
+  - '1. water-based: safe with condoms + toys, dries fastest'
+  - '2. silicone: lasts longest, great for shower (not with silicone toys)'
+  - '3. oil-based: NEVER with latex condoms (they break)'
+  status: active
+- id: nw-her-mood-why
+  category: sexual_wellness
+  style: here_why_she
+  source: 'Claude 2026-11-05 batch'
+  hook: here's why she's not in the mood lately 😮‍💨
+  beats:
+  - 1. stress (cortisol lowers desire)
+  - 2. exhaustion (mental load counts)
+  - 3. certain medications (the pill, antidepressants)
+  - 4. feeling like a roommate, not a partner
+  status: active
+- id: nw-responsive-desire
+  category: sex_ed
+  style: what_they_dont_tell
+  source: 'Claude 2026-11-05 batch'
+  hook: most women don't feel desire the way men do 👀
+  beats:
+  - many men feel "spontaneous" desire (it just shows up)
+  - many women feel "responsive" desire (it shows up AFTER things start)
+  - so "I'm not in the mood yet" often means "not yet", not "no"
+  status: active
+- id: nw-multiple-os
+  category: sex_ed
+  style: what_they_dont_tell
+  source: 'Claude 2026-11-05 batch'
+  hook: women can go again right away... most men can't 😳
+  beats:
+  - men have a "refractory period" after finishing
+  - most women don't
+  - which is why many women can have more than one in a row
+  status: active
+- id: nw-size-satisfaction
+  category: mens_health
+  style: average_man_thinks
+  source: 'Claude 2026-11-05 batch'
+  hook: the average man thinks size is what she cares about 👀
+  beats:
+  - in a survey of 26,000 women, 85% were happy with their partner's size
+  - but only 55% of men were happy with their OWN
+  - he worries about it way more than she does
+  status: active
+- id: nw-girth-vs-length
+  category: mens_health
+  style: average_man_thinks
+  source: 'Claude 2026-11-05 batch'
+  hook: the average man measures the WRONG thing 👀
+  beats:
+  - men obsess over length
+  - but when researchers asked women which matters more, most said girth
+  - and most said neither matters as much as how you use it
+  status: active
+- id: nw-fertile-window
+  category: sex_ed
+  style: average_man_thinks
+  source: 'Claude 2026-11-05 batch'
+  hook: the average man thinks she can get pregnant ANY day 👀
+  beats:
+  - there are only about 6 fertile days per cycle
+  - the 5 days before ovulation + the day of
+  - the catch? ovulation day is hard to predict, so don't rely on this
+  status: active
+- id: nw-nipples-men
+  category: anatomy
+  style: average_man_thinks
+  source: 'Claude 2026-11-05 batch'
+  hook: the average man doesn't know THIS part of him is an erogenous zone 👀
+  beats:
+  - his n*pples
+  - in one study, over half of men said n*pple stimulation turned them on more
+  - most partners never touch them
+  status: active
+- id: nw-weight-ed
+  category: mens_health
+  style: what_they_dont_tell
+  source: 'Claude 2026-11-05 batch'
+  hook: losing weight can fix THIS 🍆
+  beats:
+  - belly fat lowers testosterone and clogs blood flow
+  - in one study, about 1 in 3 obese men with ED got it back after losing weight
+  - no pill needed
+  status: active
+- id: nw-coffee-ed
+  category: mens_health
+  style: stat_men
+  source: 'Claude 2026-11-05 batch'
+  hook: men who drink THIS have less ED ☕👀
+  beats:
+  - coffee
+  - a study of 3,700 men found 2-3 cups a day was linked to lower ED rates
+  - caffeine relaxes the arteries that fill the 🍆
+  status: active
+- id: nw-cycling-numb
+  category: mens_health
+  style: what_they_dont_tell
+  source: 'Claude 2026-11-05 batch'
+  hook: cycling can make THIS go numb 🚴😳
+  beats:
+  - a narrow seat presses on the nerves + arteries between your legs
+  - long rides are linked to numbness and ED
+  - 'fix: wider seat, nose tilted down, stand up every 10 minutes'
+  status: active
+- id: nw-bp-meds-ed
+  category: mens_health
+  style: what_they_dont_tell
+  source: 'Claude 2026-11-05 batch'
+  hook: this common medication can cause ED 💊😳
+  beats:
+  - some blood pressure pills (beta blockers, water pills)
+  - don't just stop taking them
+  - ask your doctor, there are alternatives that don't do this
+  status: active
+- id: nw-shaving-sti
+  category: sex_ed
+  style: what_they_dont_tell
+  source: 'Claude 2026-11-05 batch'
+  hook: shaving down there raises your risk of THIS 😳
+  beats:
+  - tiny cuts from shaving let skin-to-skin STIs in easier
+  - 'a study found groomers had higher rates of herpes + HPV'
+  - 'if you groom: trim, or shave a day BEFORE, not right before'
+  status: active
+- id: nw-yeast-not-sti
+  category: sexual_wellness
+  style: what_they_dont_tell
+  source: 'Claude 2026-11-05 batch'
+  hook: yeast infections are NOT an STI 👀
+  beats:
+  - 3 out of 4 women get one at some point
+  - antibiotics, tight clothes and sugar can trigger them
+  - but men CAN get symptoms after... so he may need treatment too
+  status: active
+- id: nw-alcohol-her
+  category: sexual_wellness
+  style: what_they_dont_tell
+  source: 'Claude 2026-11-05 batch'
+  hook: alcohol does THIS to HER too 🍷😳
+  beats:
+  - a drink or two can lower inhibitions
+  - but more than that reduces lubrication and sensation
+  - and makes it harder for her to finish
+  status: active
+- id: nw-condom-expiry
+  category: sex_ed
+  style: average_man_thinks
+  source: 'Claude 2026-11-05 batch'
+  hook: the average man never checks THIS on a condom 👀
+  beats:
+  - the expiration date
+  - old latex gets brittle and breaks
+  - 'also: heat kills them (car, wallet, back pocket)'
+  status: active
+- id: nw-women-testosterone
+  category: anatomy
+  style: did_you_know
+  source: 'Claude 2026-11-05 batch'
+  hook: women have testosterone too 👀
+  beats:
+  - way less than men, but it matters
+  - it's part of what drives HER desire
+  - and it drops with age and some medications
+  status: active
+- id: nw-first-time-age
+  category: sex_ed
+  style: average_stat
+  source: 'Claude 2026-11-05 batch'
+  hook: the average age people lose it is... 👀
+  beats:
+  - about 17 in the US
+  - and it's been getting LATER, not earlier
+  - a lot of people wait until their 20s
+  status: active
+- id: nw-partner-count
+  category: sex_ed
+  style: average_stat
+  source: 'Claude 2026-11-05 batch'
+  hook: the average number of partners is... 🫣
+  beats:
+  - surveys find a median of about 4 for women and 6 for men
+  - the internet makes it look way higher
+  - and men tend to round up, women tend to round down 😂
+  status: active
+- id: nw-after-baby
+  category: sex_ed
+  style: average_stat
+  source: 'Claude 2026-11-05 batch'
+  hook: how long most couples wait after having a baby 👶
+  beats:
+  - doctors say about 6 weeks
+  - most couples wait longer (and that's fine)
+  - exhaustion, healing and low estrogen all play a part
+  status: active
+- id: nw-walking-bait
+  category: health_bait
+  style: bait_reveal
+  source: 'Claude 2026-11-05 batch'
+  hook: health benefits of W*****G 🚶😏
+  beats:
+  - 1. 30 minutes a day improves blood flow (yes, there too)
+  - 2. it lowers stress and helps you sleep
+  - 3. men who do it daily have lower rates of ED
+  - 4. if you're not following me yet, I know what you thought
+  status: active
+- id: nw-reading-bait
+  category: health_bait
+  style: bait_reveal
+  source: 'Claude 2026-11-05 batch'
+  hook: benefits of doing THIS in bed every night 📖😏
+  beats:
+  - 1. reading 10 minutes before bed cuts stress
+  - 2. it helps you fall asleep faster than scrolling
+  - 3. better sleep = better testosterone + better mood
+  - 4. ...what did you think I meant? 😂 follow for more
+  status: active
+- id: nw-hugging-bait
+  category: health_bait
+  style: bait_reveal
+  source: 'Claude 2026-11-05 batch'
+  hook: doing THIS for 20 seconds a day is good for your heart ❤️
+  beats:
+  - a 20-second hug
+  - it releases oxytocin and lowers blood pressure
+  - couples who hug more report less stress
+  - follow if you're going to try it tonight 😏
+  status: active
