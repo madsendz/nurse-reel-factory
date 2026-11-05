@@ -5589,7 +5589,7 @@
     "msg_id": 1012,
     "file_id": "BAACAgEAAxkDAAID9GrsBurXvFAHPhmZ75gRTg6wex22AALQCAACg0lhR7l2XlDiSO6WPQQ",
     "replaces": "c573e495",
-    "decided_at": "2026-11-05T04:35:30.226796+00:00"
+    "decided_at": "2026-11-05T08:34:20.440150+00:00"
   },
   {
     "id": "9cb1fea3",
@@ -5603,7 +5603,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 12,
-    "status": "skipped",
+    "status": "approved",
     "music": {
       "id": "jamendo-1230857",
       "title": "Indios",
@@ -5619,7 +5619,7 @@
     "msg_id": 1015,
     "file_id": "BAACAgEAAxkDAAID92rsB0cDaxBC0teG-sgw5HawGhC8AALRCAACg0lhR4sWfkUPoIaiPQQ",
     "replaces": "65568123",
-    "decided_at": "2026-11-05T04:35:30.226796+00:00",
+    "decided_at": "2026-11-05T08:34:20.440150+00:00",
     "redo": "new_topic",
     "needs_replacement": false,
     "replaced_by": "26754cf7"
