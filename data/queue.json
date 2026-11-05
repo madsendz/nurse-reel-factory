@@ -5509,7 +5509,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1490752",
       "title": "Free Post Malone | RnB Type Beat",
@@ -5524,6 +5524,39 @@
     },
     "msg_id": 1018,
     "file_id": "BAACAgEAAxkDAAID-mrsB9Wg0eiYrMgqjAr41SqltEvmAALSCAACg0lhR_e6PDTJsEwNPQQ",
-    "replaces": "9cb1fea3"
+    "replaces": "9cb1fea3",
+    "decided_at": "2026-11-05T13:09:13.615287+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "c73b6219"
+  },
+  {
+    "id": "c73b6219",
+    "slot_key": "2026-11-05 11:00",
+    "slot_iso": "2026-11-05T16:00:00+00:00",
+    "slot_label": "Thu Nov 05, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-calories",
+    "category": "health_bait",
+    "clip_id": "clip03",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-367026",
+      "title": "Drink's Afterhouse",
+      "creator": "Felixjd",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/367026/mp32/",
+      "source": "jamendo",
+      "duration_ms": 404000,
+      "page": "https://www.jamendo.com/track/367026",
+      "genre": "dance"
+    },
+    "msg_id": 1022,
+    "file_id": "BAACAgEAAxkDAAID_mrsgE6fbcIX6ehV222986mlqKjIAAKdCQACg0lhR4Uqty200X3yPQQ",
+    "replaces": "26754cf7"
   }
 ]
