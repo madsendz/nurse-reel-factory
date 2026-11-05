@@ -42,7 +42,7 @@ def pick_next(bank: list[dict], clips: list[dict], posts: list[dict], cfg: dict,
     # ---- topic ----
     cooldown = now - timedelta(days=pc.get("topic_cooldown_days", 21))
     recent_items = {p["item_id"] for p in history if p.get("posted_at") and parse_ts(p["posted_at"]) > cooldown}
-    candidates = [i for i in bank if i.get("status", "active") == "active"
+    candidates = [i for i in bank if i.get("status", "active") in ("active", "winner")
                   and i["id"] not in recent_items and i["id"] not in exclude_items]
     if topic_class:
         same = [i for i in candidates if topic_kind(i) == topic_class]
@@ -53,7 +53,7 @@ def pick_next(bank: list[dict], clips: list[dict], posts: list[dict], cfg: dict,
     if not candidates:  # everything is on cooldown: fall back to the least-recently posted
         print("[topics] every topic was used in the last week — repeating the least recent one (add more topics!)")
         last_used = {p["item_id"]: p["posted_at"] for p in history}
-        candidates = sorted([i for i in bank if i.get("status", "active") == "active" and i["id"] not in exclude_items],
+        candidates = sorted([i for i in bank if i.get("status", "active") in ("active", "winner") and i["id"] not in exclude_items],
                             key=lambda i: last_used.get(i["id"], ""))[:5]
     if not candidates:
         raise RuntimeError("No active topics in content/bank.yaml")
@@ -76,6 +76,8 @@ def pick_next(bank: list[dict], clips: list[dict], posts: list[dict], cfg: dict,
         style_e = est["style"].get(item.get("style"), {}).get("est", 0.0)
         cat_e = est["category"].get(item["category"], {}).get("est", 0.0)
         prior = 0.6 * style_e + 0.4 * cat_e + float(item.get("prior") or 0)  # proven past reels get a head start
+        if item.get("status") == "winner":
+            prior += 1.0  # promoted by lifecycle.judge (clicks well above the median)
         return _sample(est["item_id"], item["id"], prior, rng)
 
     ranked = sorted(((topic_value(i), i) for i in candidates), key=lambda t: t[0], reverse=True)
@@ -111,7 +113,11 @@ def pick_next(bank: list[dict], clips: list[dict], posts: list[dict], cfg: dict,
 
 
 def topic_kind(item: dict) -> str:
-    """'winner' = exact past reel that performed well; 'new' = never-posted idea."""
+    """'winner' = proven by link clicks (lifecycle.judge) or an exact past reel that performed well; 'new' = being tested."""
+    if item.get("status") == "winner":
+        return "winner"
+    if item.get("demoted"):  # a winner that cooled off: tested again like a new topic
+        return "new"
     return "winner" if (item.get("id", "").startswith("pr-") or float(item.get("prior") or 0) >= 1) else "new"
 
 
