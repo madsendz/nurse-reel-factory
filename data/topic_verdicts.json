@@ -166,5 +166,12 @@
     "tries": 2,
     "ratio": 0.43,
     "reason": "2 tries, 0.4x median"
+  },
+  "nw-refractory-age": {
+    "status": "retired",
+    "since": "2026-11-05T18:00:30.222655+00:00",
+    "tries": 2,
+    "ratio": 0.73,
+    "reason": "2 tries, 0.7x median"
   }
 }
