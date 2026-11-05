@@ -4507,7 +4507,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 6.86,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1490752",
       "title": "Free Post Malone | RnB Type Beat",
@@ -4521,7 +4521,8 @@
       "genre": "rnb"
     },
     "msg_id": 944,
-    "file_id": "BAACAgEAAxkDAAIDsGrpXAk7GYnolx9zDAPqSr_T11PqAAIjCwAC3o1IR5KiAAFfFe2TJT0E"
+    "file_id": "BAACAgEAAxkDAAIDsGrpXAk7GYnolx9zDAPqSr_T11PqAAIjCwAC3o1IR5KiAAFfFe2TJT0E",
+    "decided_at": "2026-11-05T04:36:04.753030+00:00"
   },
   {
     "id": "ba075a4d",
@@ -4619,7 +4620,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 6.83,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2151100",
       "title": "Deep Fashion Electronic",
@@ -4633,7 +4634,8 @@
       "genre": "pop"
     },
     "msg_id": 948,
-    "file_id": "BAACAgEAAxkDAAIDtGrpXGd8zIAoZuH4qAVvQQAB8CrsjgACKAsAAt6NSEcrwMK40fQOvj0E"
+    "file_id": "BAACAgEAAxkDAAIDtGrpXGd8zIAoZuH4qAVvQQAB8CrsjgACKAsAAt6NSEcrwMK40fQOvj0E",
+    "decided_at": "2026-11-05T04:35:30.226796+00:00"
   },
   {
     "id": "c527e805",
@@ -4647,7 +4649,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 6.6,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1916401",
       "title": "RnB Chill Trap",
@@ -4661,7 +4663,8 @@
       "genre": "hiphop"
     },
     "msg_id": 949,
-    "file_id": "BAACAgEAAxkDAAIDtWrpXH0hFTZ3kl3OygaaCqY4NwZCAAIpCwAC3o1IR4tHTjgDTeKKPQQ"
+    "file_id": "BAACAgEAAxkDAAIDtWrpXH0hFTZ3kl3OygaaCqY4NwZCAAIpCwAC3o1IR4tHTjgDTeKKPQQ",
+    "decided_at": "2026-11-05T04:35:30.226796+00:00"
   },
   {
     "id": "01c74513",
@@ -5570,7 +5573,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 10.6,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1580397",
       "title": "Slow motion",
@@ -5585,7 +5588,8 @@
     },
     "msg_id": 1012,
     "file_id": "BAACAgEAAxkDAAID9GrsBurXvFAHPhmZ75gRTg6wex22AALQCAACg0lhR7l2XlDiSO6WPQQ",
-    "replaces": "c573e495"
+    "replaces": "c573e495",
+    "decided_at": "2026-11-05T04:35:30.226796+00:00"
   },
   {
     "id": "9cb1fea3",
@@ -5599,7 +5603,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1230857",
       "title": "Indios",
@@ -5614,6 +5618,39 @@
     },
     "msg_id": 1015,
     "file_id": "BAACAgEAAxkDAAID92rsB0cDaxBC0teG-sgw5HawGhC8AALRCAACg0lhR4sWfkUPoIaiPQQ",
-    "replaces": "65568123"
+    "replaces": "65568123",
+    "decided_at": "2026-11-05T04:35:30.226796+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "26754cf7"
+  },
+  {
+    "id": "26754cf7",
+    "slot_key": "2026-11-05 11:00",
+    "slot_iso": "2026-11-05T16:00:00+00:00",
+    "slot_label": "Thu Nov 05, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-semen-fertility",
+    "category": "mens_health",
+    "clip_id": "clip03",
+    "cta": 2,
+    "mode": "exploit",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1490752",
+      "title": "Free Post Malone | RnB Type Beat",
+      "creator": "Adi Rambo",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1490752/mp32/",
+      "source": "jamendo",
+      "duration_ms": 213000,
+      "page": "https://www.jamendo.com/track/1490752",
+      "genre": "rnb"
+    },
+    "msg_id": 1018,
+    "file_id": "BAACAgEAAxkDAAID-mrsB9Wg0eiYrMgqjAr41SqltEvmAALSCAACg0lhR_e6PDTJsEwNPQQ",
+    "replaces": "9cb1fea3"
   }
 ]

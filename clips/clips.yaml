@@ -8931,7 +8931,6 @@ clips:
     w: 0.62
     h: 0.166
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -9020,6 +9019,7 @@ clips:
       - 0.438
       - 0.313
   duration: 6.83
+  title_y: 0.56
 - id: clip67
   drive_id: 1ZVcbg8c2WkaXyGA-GVAEJA4Pt2Wo3HMs
   name: 988510181e734beea7ade5b178496786.MOV
