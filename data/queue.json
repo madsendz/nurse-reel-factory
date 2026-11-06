@@ -1,97 +1,5 @@
 [
   {
-    "id": "a4294653",
-    "slot_key": "2026-10-27 08:00",
-    "slot_iso": "2026-10-27T12:00:00+00:00",
-    "slot_label": "Tue Oct 27, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-t-morning",
-    "category": "mens_health",
-    "clip_id": "clip83",
-    "cta": 3,
-    "mode": "exploit",
-    "seconds": 9.17,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1267753",
-      "title": "Ghosts",
-      "creator": "Lyvo",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1267753/mp32/",
-      "source": "jamendo",
-      "duration_ms": 173000,
-      "page": "https://www.jamendo.com/track/1267753",
-      "genre": "electronic"
-    },
-    "msg_id": 651,
-    "file_id": "BAACAgEAAxkDAAICi2rdVur4K2-fi45-3yabVMnlnOQPAALWBwAC3QPxRrJKKes9C1jFPQQ",
-    "decided_at": "2026-10-27T02:19:00.339380+00:00",
-    "permalink": "https://www.instagram.com/reel/De_0twgikXo/"
-  },
-  {
-    "id": "6db670a3",
-    "slot_key": "2026-10-27 09:30",
-    "slot_iso": "2026-10-27T13:30:00+00:00",
-    "slot_label": "Tue Oct 27, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-birth-control-ranked",
-    "category": "sex_ed",
-    "clip_id": "clip04",
-    "cta": 3,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-2173154",
-      "title": "Coffee Lounge",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2173154/mp32/",
-      "source": "jamendo",
-      "duration_ms": 121000,
-      "page": "https://www.jamendo.com/track/2173154",
-      "genre": "lounge"
-    },
-    "msg_id": 652,
-    "file_id": "BAACAgEAAxkDAAICjGrdVwbAkvh2vBOw-2DtrlF-IUIVAALXBwAC3QPxRpWZAd4IFTTqPQQ",
-    "decided_at": "2026-10-27T02:19:00.339380+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "332cdd7f"
-  },
-  {
-    "id": "1546da56",
-    "slot_key": "2026-10-27 11:00",
-    "slot_iso": "2026-10-27T15:00:00+00:00",
-    "slot_label": "Tue Oct 27, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "pr-period-sex",
-    "category": "sex_ed",
-    "clip_id": "clip79",
-    "cta": 3,
-    "mode": "exploit",
-    "seconds": 11.13,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1206274",
-      "title": "Made In Italy",
-      "creator": "Pokki DJ",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1206274/mp32/",
-      "source": "jamendo",
-      "duration_ms": 154000,
-      "page": "https://www.jamendo.com/track/1206274",
-      "genre": "dance"
-    },
-    "msg_id": 653,
-    "file_id": "BAACAgEAAxkDAAICjWrdV32SZq2VqDKlRir78QWPFGPbAALaBwAC3QPxRrDlsFImietYPQQ",
-    "decided_at": "2026-10-27T12:08:42.186057+00:00",
-    "permalink": "https://www.instagram.com/reel/DfAIpEVFXGV/"
-  },
-  {
     "id": "2904a2ce",
     "slot_key": "2026-10-27 12:00",
     "slot_iso": "2026-10-27T16:00:00+00:00",
@@ -700,39 +608,6 @@
     "permalink": "https://www.instagram.com/reel/DfFSfYBlTkr/"
   },
   {
-    "id": "332cdd7f",
-    "slot_key": "2026-10-27 09:30",
-    "slot_iso": "2026-10-27T13:30:00+00:00",
-    "slot_label": "Tue Oct 27, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-birth-control-ranked",
-    "category": "sex_ed",
-    "clip_id": "clip75",
-    "cta": 3,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1922534",
-      "title": "Luxury Hip-Hop",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1922534/mp32/",
-      "source": "jamendo",
-      "duration_ms": 131000,
-      "page": "https://www.jamendo.com/track/1922534",
-      "genre": "rnb"
-    },
-    "msg_id": 726,
-    "file_id": "BAACAgEAAxkDAAIC1mrgCjz15wlElZoBHjjAYWShxdVaAAItCwACKfsBR0f7eUaoc9mEPQQ",
-    "replaces": "6db670a3",
-    "decided_at": "2026-10-27T11:52:43.647530+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "3eb60775"
-  },
-  {
     "id": "57e6cc83",
     "slot_key": "2026-10-29 12:00",
     "slot_iso": "2026-10-29T16:00:00+00:00",
@@ -945,37 +820,6 @@
     "redo": "swap_music",
     "needs_replacement": false,
     "replaced_by": "0aef05e3"
-  },
-  {
-    "id": "3eb60775",
-    "slot_key": "2026-10-27 09:30",
-    "slot_iso": "2026-10-27T13:30:00+00:00",
-    "slot_label": "Tue Oct 27, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-birth-control-ranked",
-    "category": "sex_ed",
-    "clip_id": "clip58",
-    "cta": 3,
-    "mode": "exploit",
-    "seconds": 6.17,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2037627",
-      "title": "We Made It (Soft Drum And Bass)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037627/mp32/",
-      "source": "jamendo",
-      "duration_ms": 223000,
-      "page": "https://www.jamendo.com/track/2037627",
-      "genre": "electronic"
-    },
-    "msg_id": 736,
-    "file_id": "BAACAgEAAxkDAAIC4GrgkKYME-AmxvBMsH2y11ENM42TAAKXBwACKfsJR9WU7e_xjqd7PQQ",
-    "replaces": "332cdd7f",
-    "decided_at": "2026-10-27T12:08:42.186057+00:00",
-    "permalink": "https://www.instagram.com/reel/De_-p2Eid-K/"
   },
   {
     "id": "61468920",
@@ -4364,7 +4208,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-367026",
       "title": "Drink's Afterhouse",
@@ -4378,7 +4222,8 @@
       "genre": "dance"
     },
     "msg_id": 984,
-    "file_id": "BAACAgEAAxkDAAID2GrqoDWM1UQ3Aj4meaS98PfGJcJlAAL0CAACzttRR3nzuaG6L0UAAT0E"
+    "file_id": "BAACAgEAAxkDAAID2GrqoDWM1UQ3Aj4meaS98PfGJcJlAAL0CAACzttRR3nzuaG6L0UAAT0E",
+    "decided_at": "2026-11-06T15:00:33.758799+00:00"
   },
   {
     "id": "2471d7d0",
@@ -4392,7 +4237,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.77,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -4406,7 +4251,11 @@
       "genre": "hiphop"
     },
     "msg_id": 985,
-    "file_id": "BAACAgEAAxkDAAID2WrqoEkID3JemdztoNIoslBJwNWfAAL1CAACzttRRzFc-cKOPGWZPQQ"
+    "file_id": "BAACAgEAAxkDAAID2WrqoEkID3JemdztoNIoslBJwNWfAAL1CAACzttRRzFc-cKOPGWZPQQ",
+    "decided_at": "2026-11-06T15:00:33.758799+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "b825de5c"
   },
   {
     "id": "39c3317e",
@@ -4420,7 +4269,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 6.48,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-20236",
       "title": "Ambiphonic",
@@ -4434,7 +4283,8 @@
       "genre": "lounge"
     },
     "msg_id": 986,
-    "file_id": "BAACAgEAAxkDAAID2mrqoGAGahoglWbO8R6oDI-qhJioAAL2CAACzttRR_2Mfxtf4pIiPQQ"
+    "file_id": "BAACAgEAAxkDAAID2mrqoGAGahoglWbO8R6oDI-qhJioAAL2CAACzttRR_2Mfxtf4pIiPQQ",
+    "decided_at": "2026-11-06T15:00:33.758799+00:00"
   },
   {
     "id": "1d0f8c18",
@@ -5384,5 +5234,34 @@
     },
     "msg_id": 1038,
     "file_id": "BAACAgEAAxkDAAIEDmrtSeFIX99rDmbEmShlLuhQ7XZNAAJTCgACg0lpRxITI8L7EASuPQQ"
+  },
+  {
+    "id": "b825de5c",
+    "slot_key": "2026-11-06 12:00",
+    "slot_iso": "2026-11-06T17:00:00+00:00",
+    "slot_label": "Fri Nov 06, 12:00 PM",
+    "post_type": "trial",
+    "item_id": "pr-men-secretly-like",
+    "category": "sexual_wellness",
+    "clip_id": "clip20",
+    "cta": 1,
+    "mode": "edited",
+    "seconds": 9.77,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1892348",
+      "title": "Georgetown Cafe",
+      "creator": "Popoi",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1892348/mp32/",
+      "source": "jamendo",
+      "duration_ms": 148000,
+      "page": "https://www.jamendo.com/track/1892348",
+      "genre": "hiphop"
+    },
+    "msg_id": 1043,
+    "file_id": "BAACAgEAAxkDAAIEE2rt69COA5bCLrGk4_uR31wjlRawAAI2CwAC461wR52aWZfyVB51PQQ",
+    "replaces": "2471d7d0"
   }
 ]
