@@ -173,5 +173,12 @@
     "tries": 2,
     "ratio": 0.73,
     "reason": "2 tries, 0.7x median"
+  },
+  "nw-ed-under-40": {
+    "status": "retired",
+    "since": "2026-11-06T16:01:44.149786+00:00",
+    "tries": 2,
+    "ratio": 0.41,
+    "reason": "2 tries, 0.4x median"
   }
 }

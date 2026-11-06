@@ -1,35 +1,5 @@
 [
   {
-    "id": "2904a2ce",
-    "slot_key": "2026-10-27 12:00",
-    "slot_iso": "2026-10-27T16:00:00+00:00",
-    "slot_label": "Tue Oct 27, 12:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-prostate-walnut",
-    "category": "mens_health",
-    "clip_id": "clip21",
-    "cta": 2,
-    "mode": "explore",
-    "seconds": 6.13,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1395053",
-      "title": "Ninu - I feel this",
-      "creator": "Ninu",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1395053/mp32/",
-      "source": "jamendo",
-      "duration_ms": 175000,
-      "page": "https://www.jamendo.com/track/1395053",
-      "genre": "trap"
-    },
-    "msg_id": 654,
-    "file_id": "BAACAgEAAxkDAAICjmrdV9C9hpAPJ1w5oej27daVIMYVAALbBwAC3QPxRoHHja77uylbPQQ",
-    "decided_at": "2026-10-27T12:08:42.186057+00:00",
-    "permalink": "https://www.instagram.com/reel/DfAPp-miW8Y/"
-  },
-  {
     "id": "768f89ee",
     "slot_key": "2026-10-27 13:00",
     "slot_iso": "2026-10-27T17:00:00+00:00",
@@ -4208,7 +4178,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-367026",
       "title": "Drink's Afterhouse",
@@ -4223,7 +4193,8 @@
     },
     "msg_id": 984,
     "file_id": "BAACAgEAAxkDAAID2GrqoDWM1UQ3Aj4meaS98PfGJcJlAAL0CAACzttRR3nzuaG6L0UAAT0E",
-    "decided_at": "2026-11-06T15:00:33.758799+00:00"
+    "decided_at": "2026-11-06T15:00:33.758799+00:00",
+    "permalink": "https://www.instagram.com/reel/DfZ_nL3Epbc/"
   },
   {
     "id": "2471d7d0",
