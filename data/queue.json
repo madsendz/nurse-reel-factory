@@ -4298,7 +4298,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 6.63,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1917024",
       "title": "Dorila y Mello",
@@ -4312,7 +4312,11 @@
       "genre": "hiphop"
     },
     "msg_id": 987,
-    "file_id": "BAACAgEAAxkDAAID22rqoHN01hfvvpP5lEpdnRG-8trJAAL3CAACzttRR2TavnS0_TXRPQQ"
+    "file_id": "BAACAgEAAxkDAAID22rqoHN01hfvvpP5lEpdnRG-8trJAAL3CAACzttRR2TavnS0_TXRPQQ",
+    "decided_at": "2026-11-06T15:55:25.033980+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "e8599001"
   },
   {
     "id": "cc8e05de",
@@ -4326,7 +4330,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 6.47,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2173154",
       "title": "Coffee Lounge",
@@ -4340,7 +4344,8 @@
       "genre": "lounge"
     },
     "msg_id": 988,
-    "file_id": "BAACAgEAAxkDAAID3GrqoIK--RSVO_-MQEaJtONfEDimAAL4CAACzttRR_lgnQhhLv7XPQQ"
+    "file_id": "BAACAgEAAxkDAAID3GrqoIK--RSVO_-MQEaJtONfEDimAAL4CAACzttRR_lgnQhhLv7XPQQ",
+    "decided_at": "2026-11-06T15:55:25.033980+00:00"
   },
   {
     "id": "d235d6bd",
@@ -5263,5 +5268,34 @@
     "msg_id": 1043,
     "file_id": "BAACAgEAAxkDAAIEE2rt69COA5bCLrGk4_uR31wjlRawAAI2CwAC461wR52aWZfyVB51PQQ",
     "replaces": "2471d7d0"
+  },
+  {
+    "id": "e8599001",
+    "slot_key": "2026-11-06 14:30",
+    "slot_iso": "2026-11-06T19:30:00+00:00",
+    "slot_label": "Fri Nov 06, 2:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-faked-it",
+    "category": "sex_ed",
+    "clip_id": "clip69c",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 9.97,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-384095",
+      "title": "Like King Cool in a sunbed",
+      "creator": "K4MMERER",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/384095/mp32/",
+      "source": "jamendo",
+      "duration_ms": 289000,
+      "page": "https://www.jamendo.com/track/384095",
+      "genre": "pop"
+    },
+    "msg_id": 1046,
+    "file_id": "BAACAgEAAxkDAAIEFmrt-LFjv5tEiudnlArYeBtnWUscAAJaCwAC461wR9LQG5WotWK4PQQ",
+    "replaces": "1d0f8c18"
   }
 ]

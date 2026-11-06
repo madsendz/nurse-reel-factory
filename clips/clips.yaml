@@ -2218,8 +2218,8 @@ clips:
   events_manual:
   - t: 3.5
     dir: down
-    x: 0.3
-    y: 0.85
+    x: 0.494
+    y: 0.823
   point: ''
   zone:
     x: 0.33
@@ -2227,7 +2227,6 @@ clips:
     w: 0.62
     h: 0.191
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -2311,6 +2310,7 @@ clips:
       - 0.568
       - 0.442
   duration: 6.63
+  title_y: 0.6
 - id: clip16
   drive_id: 1ll_vpgCbUs1_UnxeOX_nuHjnLvMOEkLe
   name: f049404cb91e4b6b977ad19c400f320b.MP4
