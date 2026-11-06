@@ -4152,7 +4152,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 6.47,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2173154",
       "title": "Coffee Lounge",
@@ -4167,7 +4167,8 @@
     },
     "msg_id": 988,
     "file_id": "BAACAgEAAxkDAAID3GrqoIK--RSVO_-MQEaJtONfEDimAAL4CAACzttRR_lgnQhhLv7XPQQ",
-    "decided_at": "2026-11-06T15:55:25.033980+00:00"
+    "decided_at": "2026-11-06T15:55:25.033980+00:00",
+    "permalink": "https://www.instagram.com/reel/DfaiIAXDo9X/"
   },
   {
     "id": "d235d6bd",
