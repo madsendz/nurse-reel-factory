@@ -180,5 +180,12 @@
     "tries": 2,
     "ratio": 0.41,
     "reason": "2 tries, 0.4x median"
+  },
+  "nw-t-decline-age": {
+    "status": "retired",
+    "since": "2026-11-06T17:28:59.842867+00:00",
+    "tries": 2,
+    "ratio": 0.34,
+    "reason": "2 tries, 0.3x median"
   }
 }
