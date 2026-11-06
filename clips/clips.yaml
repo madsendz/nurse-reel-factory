@@ -6133,7 +6133,6 @@ clips:
     w: 0.62
     h: 0.208
   start: 0
-  end: null
   auto:
     method: pose
     face:
@@ -6277,6 +6276,7 @@ clips:
       - 0.29
       - 0.209
   duration: 11.12
+  title_y: 0.65
 - id: clip46
   drive_id: 1LudVat2OpA1PoGWDb2I0Cwq0rce9BnRW
   name: IMG_9274.mov
