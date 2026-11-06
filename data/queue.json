@@ -1,33 +1,5 @@
 [
   {
-    "id": "53ef77cc",
-    "slot_key": "2026-10-27 16:00",
-    "slot_iso": "2026-10-27T20:00:00+00:00",
-    "slot_label": "Tue Oct 27, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-penetration-alone",
-    "category": "sex_ed",
-    "clip_id": "clip25",
-    "cta": 5,
-    "mode": "explore",
-    "seconds": 10.5,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1916401",
-      "title": "RnB Chill Trap",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1916401/mp32/",
-      "source": "jamendo",
-      "duration_ms": 123000,
-      "page": "https://www.jamendo.com/track/1916401",
-      "genre": "rnb"
-    },
-    "msg_id": 657,
-    "file_id": "BAACAgEAAxkDAAICkWrdWCg_QSP6PKmFbIFt-eLTOtX9AALfBwAC3QPxRum9RBaa-rsYPQQ"
-  },
-  {
     "id": "2f222a2e",
     "slot_key": "2026-10-27 17:30",
     "slot_iso": "2026-10-27T21:30:00+00:00",
