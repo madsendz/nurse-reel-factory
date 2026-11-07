@@ -1,35 +1,5 @@
 [
   {
-    "id": "4eaa9cd6",
-    "slot_key": "2026-10-28 17:30",
-    "slot_iso": "2026-10-28T21:30:00+00:00",
-    "slot_label": "Wed Oct 28, 5:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-alcohol-ed",
-    "category": "mens_health",
-    "clip_id": "clip13",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 8.9,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2037757",
-      "title": "Density (Background Ambient Techno)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037757/mp32/",
-      "source": "jamendo",
-      "duration_ms": 272000,
-      "page": "https://www.jamendo.com/track/2037757",
-      "genre": "dance"
-    },
-    "msg_id": 683,
-    "file_id": "BAACAgEAAxkDAAICq2reqOA_oYQja59hOjhqwBcUF1IIAAKHCQACFUjxRgpvrwzK1R8VPQQ",
-    "decided_at": "2026-10-28T17:07:22.652142+00:00",
-    "permalink": "https://www.instagram.com/reel/DfDaRt4lbXk/"
-  },
-  {
     "id": "2cb7d128",
     "slot_key": "2026-10-28 19:30",
     "slot_iso": "2026-10-28T23:30:00+00:00",
