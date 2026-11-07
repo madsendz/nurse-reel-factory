@@ -1,35 +1,5 @@
 [
   {
-    "id": "606d5584",
-    "slot_key": "2026-10-28 14:30",
-    "slot_iso": "2026-10-28T18:30:00+00:00",
-    "slot_label": "Wed Oct 28, 2:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-vibrators",
-    "category": "sexual_wellness",
-    "clip_id": "clip60",
-    "cta": 3,
-    "mode": "exploit",
-    "seconds": 5.46,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2290118",
-      "title": "Fashion Week",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2290118/mp32/",
-      "source": "jamendo",
-      "duration_ms": 94000,
-      "page": "https://www.jamendo.com/track/2290118",
-      "genre": "electronic"
-    },
-    "msg_id": 681,
-    "file_id": "BAACAgEAAxkDAAICqWreqLY5HBWYCOe6b_3wXNz6LyOYAAKECQACFUjxRiDoqpQeG5nqPQQ",
-    "decided_at": "2026-10-28T17:07:22.652142+00:00",
-    "permalink": "https://www.instagram.com/reel/DfDJ_HNgJnK/"
-  },
-  {
     "id": "2d665e07",
     "slot_key": "2026-10-28 16:00",
     "slot_iso": "2026-10-28T20:00:00+00:00",
@@ -4140,7 +4110,7 @@
     "cta": 5,
     "mode": "explore",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1871345",
       "title": "TP4",
@@ -4155,7 +4125,8 @@
     },
     "msg_id": 1005,
     "file_id": "BAACAgEAAxkDAAID7Wrr-N3EDm3ssyRUTkuHG2hLlII2AAKzCAACg0lhR0Ym4ngTRnTOPQQ",
-    "decided_at": "2026-11-07T05:04:57.201654+00:00"
+    "decided_at": "2026-11-07T05:04:57.201654+00:00",
+    "permalink": "https://www.instagram.com/reel/Dfc8jISmWkv/"
   },
   {
     "id": "e2c8e721",
