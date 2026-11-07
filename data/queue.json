@@ -1,37 +1,5 @@
 [
   {
-    "id": "64b270aa",
-    "slot_key": "2026-10-28 08:00",
-    "slot_iso": "2026-10-28T12:00:00+00:00",
-    "slot_label": "Wed Oct 28, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "pr-avg-man-normal",
-    "category": "sex_ed",
-    "clip_id": "clip69a",
-    "cta": 3,
-    "mode": "exploit",
-    "seconds": 10.0,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-2037702",
-      "title": "Nostalgia Drive (Lofi Hip-hop)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037702/mp32/",
-      "source": "jamendo",
-      "duration_ms": 294000,
-      "page": "https://www.jamendo.com/track/2037702",
-      "genre": "lounge"
-    },
-    "msg_id": 676,
-    "file_id": "BAACAgEAAxkDAAICpGreqEVuW_GfDSDuLSqs8CTFZrc7AAJ9CQACFUjxRkIe0gx-RpDlPQQ",
-    "decided_at": "2026-10-28T00:10:04.831805+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "9b4ffb71"
-  },
-  {
     "id": "53d922c5",
     "slot_key": "2026-10-28 09:30",
     "slot_iso": "2026-10-28T13:30:00+00:00",
@@ -606,37 +574,6 @@
     "redo": "swap_music",
     "needs_replacement": false,
     "replaced_by": "0aef05e3"
-  },
-  {
-    "id": "9b4ffb71",
-    "slot_key": "2026-10-28 08:00",
-    "slot_iso": "2026-10-28T12:00:00+00:00",
-    "slot_label": "Wed Oct 28, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "pr-avg-man-normal",
-    "category": "sex_ed",
-    "clip_id": "clip01",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 9.0,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2290118",
-      "title": "Fashion Week",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2290118/mp32/",
-      "source": "jamendo",
-      "duration_ms": 94000,
-      "page": "https://www.jamendo.com/track/2290118",
-      "genre": "electronic"
-    },
-    "msg_id": 754,
-    "file_id": "BAACAgEAAxkDAAIC8mrhPX4dJaCmGshWuMnyYzXoBnZKAAJDCQACKfsJR3CcJOaunjZGPQQ",
-    "replaces": "64b270aa",
-    "decided_at": "2026-10-28T01:31:08.051235+00:00",
-    "permalink": "https://www.instagram.com/reel/DfCY-NjksaL/"
   },
   {
     "id": "d3df4ff5",
@@ -4204,7 +4141,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.82,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1129271",
       "title": "Energy",
@@ -4219,7 +4156,8 @@
     },
     "msg_id": 1000,
     "file_id": "BAACAgEAAxkDAAID6Grr-ESu0IWhj18JrYozDFmoHB-GAAKuCAACg0lhR4SHGrYkyCYQPQQ",
-    "decided_at": "2026-11-07T05:04:57.201654+00:00"
+    "decided_at": "2026-11-07T05:04:57.201654+00:00",
+    "permalink": "https://www.instagram.com/reel/DfcP43qDczY/"
   },
   {
     "id": "b982bd25",
