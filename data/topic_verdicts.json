@@ -201,5 +201,12 @@
     "tries": 2,
     "ratio": 0.53,
     "reason": "2 tries, 0.5x median"
+  },
+  "nw-pee-after": {
+    "status": "retired",
+    "since": "2026-11-07T22:31:39.514778+00:00",
+    "tries": 2,
+    "ratio": 0.43,
+    "reason": "2 tries, 0.4x median"
   }
 }

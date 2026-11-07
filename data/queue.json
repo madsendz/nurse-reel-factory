@@ -4112,7 +4112,7 @@
     "cta": 4,
     "mode": "exploit",
     "seconds": 11.13,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1206517",
       "title": "DJ Smallest - Chill",
@@ -4127,7 +4127,8 @@
     },
     "msg_id": 1007,
     "file_id": "BAACAgEAAxkDAAID72rr-RIjHrYsRnHFYvFABG1Rmju2AAK1CAACg0lhR1wz9RKQnU4iPQQ",
-    "decided_at": "2026-11-07T05:05:32.834275+00:00"
+    "decided_at": "2026-11-07T05:05:32.834275+00:00",
+    "permalink": "https://www.instagram.com/reel/DfdRQtZlfh2/"
   },
   {
     "id": "5c27e381",
