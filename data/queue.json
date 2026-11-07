@@ -1,35 +1,5 @@
 [
   {
-    "id": "2d665e07",
-    "slot_key": "2026-10-28 16:00",
-    "slot_iso": "2026-10-28T20:00:00+00:00",
-    "slot_label": "Wed Oct 28, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-faked-it",
-    "category": "sex_ed",
-    "clip_id": "clip37",
-    "cta": 3,
-    "mode": "exploit",
-    "seconds": 10.82,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1992651",
-      "title": "Emotional Dancing",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1992651/mp32/",
-      "source": "jamendo",
-      "duration_ms": 126000,
-      "page": "https://www.jamendo.com/track/1992651",
-      "genre": "electronic"
-    },
-    "msg_id": 682,
-    "file_id": "BAACAgEAAxkDAAICqmreqMtwsx6-c-wUCCHHn5HsZ68xAAKFCQACFUjxRmTVnp5eUCjcPQQ",
-    "decided_at": "2026-10-28T17:07:22.652142+00:00",
-    "permalink": "https://www.instagram.com/reel/DfDQZtiEkIn/"
-  },
-  {
     "id": "4eaa9cd6",
     "slot_key": "2026-10-28 17:30",
     "slot_iso": "2026-10-28T21:30:00+00:00",
@@ -5035,7 +5005,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 6.17,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2037715",
       "title": "Study Beats (Lofi Hip-Hop Ensemble)",
@@ -5051,6 +5021,7 @@
     "msg_id": 1062,
     "file_id": "BAACAgEAAxkDAAIEJmrusbLac7HHnkK_rwYvkAUQK0K6AAI1CgAC4614R0cl2SUdf-jyPQQ",
     "replaces": "e2c8e721",
-    "decided_at": "2026-11-07T07:43:12.215009+00:00"
+    "decided_at": "2026-11-07T07:43:12.215009+00:00",
+    "permalink": "https://www.instagram.com/reel/DfdG9H-jjDH/"
   }
 ]
