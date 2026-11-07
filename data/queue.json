@@ -1,65 +1,5 @@
 [
   {
-    "id": "2f222a2e",
-    "slot_key": "2026-10-27 17:30",
-    "slot_iso": "2026-10-27T21:30:00+00:00",
-    "slot_label": "Tue Oct 27, 5:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-notice-first",
-    "category": "sexual_wellness",
-    "clip_id": "clip85",
-    "cta": 3,
-    "mode": "exploit",
-    "seconds": 7.93,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-2037721",
-      "title": "Downtempo Delights (Lofi Hip-hop)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037721/mp32/",
-      "source": "jamendo",
-      "duration_ms": 144000,
-      "page": "https://www.jamendo.com/track/2037721",
-      "genre": "hiphop"
-    },
-    "msg_id": 658,
-    "file_id": "BAACAgEAAxkDAAICkmrdWI-Et76BcOjBSw-u9dpnZZvAAALhBwAC3QPxRqDj3XyjE4fVPQQ"
-  },
-  {
-    "id": "0c235265",
-    "slot_key": "2026-10-27 19:30",
-    "slot_iso": "2026-10-27T23:30:00+00:00",
-    "slot_label": "Tue Oct 27, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-prostate-21",
-    "category": "mens_health",
-    "clip_id": "clip52",
-    "cta": 3,
-    "mode": "exploit",
-    "seconds": 6.23,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1179546",
-      "title": "Born Free",
-      "creator": "Pokki DJ",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1179546/mp32/",
-      "source": "jamendo",
-      "duration_ms": 212000,
-      "page": "https://www.jamendo.com/track/1179546",
-      "genre": "electronic"
-    },
-    "msg_id": 659,
-    "file_id": "BAACAgEAAxkDAAICk2rdWKaKjc1V5e_8YYHuY_JW6cxOAALjBwAC3QPxRpqynOkHGsLdPQQ",
-    "decided_at": "2026-10-27T13:03:22.181313+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "dfb407fc"
-  },
-  {
     "id": "7ce9c745",
     "slot_key": "2026-10-27 21:30",
     "slot_iso": "2026-10-28T01:30:00+00:00",
@@ -698,37 +638,6 @@
     "redo": "swap_music",
     "needs_replacement": false,
     "replaced_by": "0aef05e3"
-  },
-  {
-    "id": "dfb407fc",
-    "slot_key": "2026-10-27 19:30",
-    "slot_iso": "2026-10-27T23:30:00+00:00",
-    "slot_label": "Tue Oct 27, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-pelvic-floor-pe",
-    "category": "mens_health",
-    "clip_id": "clip52",
-    "cta": 3,
-    "mode": "explore",
-    "seconds": 6.23,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1182292",
-      "title": "Spasm",
-      "creator": "Suedey",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1182292/mp32/",
-      "source": "jamendo",
-      "duration_ms": 208000,
-      "page": "https://www.jamendo.com/track/1182292",
-      "genre": "hiphop"
-    },
-    "msg_id": 744,
-    "file_id": "BAACAgEAAxkDAAIC6GrgoTpUruGVpBXC6E1ik3C4ZNeuAALCBwACKfsJR6Xg-5P4Y0BNPQQ",
-    "replaces": "0c235265",
-    "decided_at": "2026-10-27T23:10:46.602520+00:00",
-    "permalink": "https://www.instagram.com/reel/DfBDPahDNdA/"
   },
   {
     "id": "4a2c7573",
@@ -4203,7 +4112,7 @@
     "slot_key": "2026-11-06 19:30",
     "slot_iso": "2026-11-07T00:30:00+00:00",
     "slot_label": "Fri Nov 06, 7:30 PM",
-    "post_type": "regular",
+    "post_type": "trial",
     "item_id": "nw-plan-b-weight",
     "category": "sex_ed",
     "clip_id": "clip85",
@@ -4224,7 +4133,8 @@
       "genre": "dance"
     },
     "msg_id": 990,
-    "file_id": "BAACAgEAAxkDAAID3mrqoLT_nTkgL6Jx-yb06u6C3gHvAAL6CAACzttRR2aCUYlKy0PIPQQ"
+    "file_id": "BAACAgEAAxkDAAID3mrqoLT_nTkgL6Jx-yb06u6C3gHvAAL6CAACzttRR2aCUYlKy0PIPQQ",
+    "decided_at": "2026-11-07T00:00:42.938534+00:00"
   },
   {
     "id": "5bdaa1de",
