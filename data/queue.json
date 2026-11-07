@@ -1,33 +1,5 @@
 [
   {
-    "id": "d86b54c9",
-    "slot_key": "2026-10-28 13:00",
-    "slot_iso": "2026-10-28T17:00:00+00:00",
-    "slot_label": "Wed Oct 28, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "pr-harden-foods",
-    "category": "mens_health",
-    "clip_id": "clip62",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 11.55,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-247156",
-      "title": "Silence Apart",
-      "creator": "ZigiZigi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/247156/mp32/",
-      "source": "jamendo",
-      "duration_ms": 326000,
-      "page": "https://www.jamendo.com/track/247156",
-      "genre": "pop"
-    },
-    "msg_id": 680,
-    "file_id": "BAACAgEAAxkDAAICqGreqKkWHj8BZxG2cDR2i6ajYobuAAKDCQACFUjxRgQcArPrf7KcPQQ"
-  },
-  {
     "id": "606d5584",
     "slot_key": "2026-10-28 14:30",
     "slot_iso": "2026-10-28T18:30:00+00:00",
@@ -4108,7 +4080,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1267753",
       "title": "Ghosts",
@@ -4123,7 +4095,8 @@
     },
     "msg_id": 1003,
     "file_id": "BAACAgEAAxkDAAID62rr-J4keqCfGUXN1MiLDa72O4S_AAKxCAACg0lhR0oDHZfLkMMYPQQ",
-    "decided_at": "2026-11-07T05:04:57.201654+00:00"
+    "decided_at": "2026-11-07T05:04:57.201654+00:00",
+    "permalink": "https://www.instagram.com/reel/DfcrT7inGJE/"
   },
   {
     "id": "84deecb2",
