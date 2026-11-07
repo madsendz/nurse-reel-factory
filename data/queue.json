@@ -1,65 +1,5 @@
 [
   {
-    "id": "85c7dd50",
-    "slot_key": "2026-10-28 11:00",
-    "slot_iso": "2026-10-28T15:00:00+00:00",
-    "slot_label": "Wed Oct 28, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-smoking-ed",
-    "category": "mens_health",
-    "clip_id": "clip61",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2026412",
-      "title": "In For Future Bass",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2026412/mp32/",
-      "source": "jamendo",
-      "duration_ms": 105000,
-      "page": "https://www.jamendo.com/track/2026412",
-      "genre": "rnb"
-    },
-    "msg_id": 678,
-    "file_id": "BAACAgEAAxkDAAICpmreqHjnML4Iha6BdjoAAdNyh22WiAACgAkAAhVI8UbSXwXoe5qrtz0E",
-    "decided_at": "2026-10-28T06:13:09.133617+00:00",
-    "permalink": "https://www.instagram.com/reel/DfCtdoeDQWX/"
-  },
-  {
-    "id": "9f50ec7c",
-    "slot_key": "2026-10-28 12:00",
-    "slot_iso": "2026-10-28T16:00:00+00:00",
-    "slot_label": "Wed Oct 28, 12:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-refractory",
-    "category": "sex_ed",
-    "clip_id": "clip38",
-    "cta": 3,
-    "mode": "exploit",
-    "seconds": 8.88,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2176699",
-      "title": "Relax Chill Lofi",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2176699/mp32/",
-      "source": "jamendo",
-      "duration_ms": 106000,
-      "page": "https://www.jamendo.com/track/2176699",
-      "genre": "rnb"
-    },
-    "msg_id": 679,
-    "file_id": "BAACAgEAAxkDAAICp2reqI5NUEjTrszvEtMgJ_OrpWt2AAKCCQACFUjxRrUNnwsyw0MTPQQ",
-    "decided_at": "2026-10-28T06:13:09.133617+00:00",
-    "permalink": "https://www.instagram.com/reel/DfC0a4RiTPl/"
-  },
-  {
     "id": "d86b54c9",
     "slot_key": "2026-10-28 13:00",
     "slot_iso": "2026-10-28T17:00:00+00:00",
@@ -4138,7 +4078,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.17,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1856950",
       "title": "RnB Chill Trap",
@@ -4153,7 +4093,8 @@
     },
     "msg_id": 1002,
     "file_id": "BAACAgEAAxkDAAID6mrr-H_lKFv19GIu19ehtcO0qrl4AAKwCAACg0lhRys3U4olm47PPQQ",
-    "decided_at": "2026-11-07T05:04:57.201654+00:00"
+    "decided_at": "2026-11-07T05:04:57.201654+00:00",
+    "permalink": "https://www.instagram.com/reel/DfckbUPgIfH/"
   },
   {
     "id": "6d8dff00",
