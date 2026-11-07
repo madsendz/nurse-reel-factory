@@ -4204,7 +4204,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.82,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1129271",
       "title": "Energy",
@@ -4218,7 +4218,8 @@
       "genre": "dance"
     },
     "msg_id": 1000,
-    "file_id": "BAACAgEAAxkDAAID6Grr-ESu0IWhj18JrYozDFmoHB-GAAKuCAACg0lhR4SHGrYkyCYQPQQ"
+    "file_id": "BAACAgEAAxkDAAID6Grr-ESu0IWhj18JrYozDFmoHB-GAAKuCAACg0lhR4SHGrYkyCYQPQQ",
+    "decided_at": "2026-11-07T05:04:57.201654+00:00"
   },
   {
     "id": "b982bd25",
@@ -4232,7 +4233,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.1,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1440522",
       "title": "Wait",
@@ -4246,7 +4247,8 @@
       "genre": "hiphop"
     },
     "msg_id": 1001,
-    "file_id": "BAACAgEAAxkDAAID6Wrr-GURrtaTJGLzuDdoH4Q-rkZUAAKvCAACg0lhR0aJ5OlscO8-PQQ"
+    "file_id": "BAACAgEAAxkDAAID6Wrr-GURrtaTJGLzuDdoH4Q-rkZUAAKvCAACg0lhR0aJ5OlscO8-PQQ",
+    "decided_at": "2026-11-07T05:04:57.201654+00:00"
   },
   {
     "id": "e61399b6",
@@ -4260,7 +4262,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.17,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1856950",
       "title": "RnB Chill Trap",
@@ -4274,7 +4276,8 @@
       "genre": "rnb"
     },
     "msg_id": 1002,
-    "file_id": "BAACAgEAAxkDAAID6mrr-H_lKFv19GIu19ehtcO0qrl4AAKwCAACg0lhRys3U4olm47PPQQ"
+    "file_id": "BAACAgEAAxkDAAID6mrr-H_lKFv19GIu19ehtcO0qrl4AAKwCAACg0lhRys3U4olm47PPQQ",
+    "decided_at": "2026-11-07T05:04:57.201654+00:00"
   },
   {
     "id": "6d8dff00",
@@ -4288,7 +4291,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1267753",
       "title": "Ghosts",
@@ -4302,7 +4305,8 @@
       "genre": "electronic"
     },
     "msg_id": 1003,
-    "file_id": "BAACAgEAAxkDAAID62rr-J4keqCfGUXN1MiLDa72O4S_AAKxCAACg0lhR0oDHZfLkMMYPQQ"
+    "file_id": "BAACAgEAAxkDAAID62rr-J4keqCfGUXN1MiLDa72O4S_AAKxCAACg0lhR0oDHZfLkMMYPQQ",
+    "decided_at": "2026-11-07T05:04:57.201654+00:00"
   },
   {
     "id": "84deecb2",
@@ -4316,7 +4320,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 4.73,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384095",
       "title": "Like King Cool in a sunbed",
@@ -4330,7 +4334,8 @@
       "genre": "pop"
     },
     "msg_id": 1004,
-    "file_id": "BAACAgEAAxkDAAID7Grr-LjOjw2oFqaxnTFMmf67Ux7BAAKyCAACg0lhR77vLe5lOrS_PQQ"
+    "file_id": "BAACAgEAAxkDAAID7Grr-LjOjw2oFqaxnTFMmf67Ux7BAAKyCAACg0lhR77vLe5lOrS_PQQ",
+    "decided_at": "2026-11-07T05:04:57.201654+00:00"
   },
   {
     "id": "c8a2634c",
@@ -4344,7 +4349,7 @@
     "cta": 5,
     "mode": "explore",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1871345",
       "title": "TP4",
@@ -4358,7 +4363,8 @@
       "genre": "trap"
     },
     "msg_id": 1005,
-    "file_id": "BAACAgEAAxkDAAID7Wrr-N3EDm3ssyRUTkuHG2hLlII2AAKzCAACg0lhR0Ym4ngTRnTOPQQ"
+    "file_id": "BAACAgEAAxkDAAID7Wrr-N3EDm3ssyRUTkuHG2hLlII2AAKzCAACg0lhR0Ym4ngTRnTOPQQ",
+    "decided_at": "2026-11-07T05:04:57.201654+00:00"
   },
   {
     "id": "e2c8e721",
@@ -4372,7 +4378,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 6.17,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1862341",
       "title": "The Last Day Of Summer",
@@ -4386,7 +4392,11 @@
       "genre": "dance"
     },
     "msg_id": 1006,
-    "file_id": "BAACAgEAAxkDAAID7mrr-PJXxPLje_3d9pBMwhtURHgsAAK0CAACg0lhR-C-FJJJgwABxD0E"
+    "file_id": "BAACAgEAAxkDAAID7mrr-PJXxPLje_3d9pBMwhtURHgsAAK0CAACg0lhR-C-FJJJgwABxD0E",
+    "decided_at": "2026-11-07T05:04:57.201654+00:00",
+    "redo": "never_topic",
+    "needs_replacement": false,
+    "replaced_by": "7f82e3ef"
   },
   {
     "id": "56f4fb25",
@@ -4400,7 +4410,7 @@
     "cta": 4,
     "mode": "exploit",
     "seconds": 11.13,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1206517",
       "title": "DJ Smallest - Chill",
@@ -4414,7 +4424,8 @@
       "genre": "chillout"
     },
     "msg_id": 1007,
-    "file_id": "BAACAgEAAxkDAAID72rr-RIjHrYsRnHFYvFABG1Rmju2AAK1CAACg0lhR1wz9RKQnU4iPQQ"
+    "file_id": "BAACAgEAAxkDAAID72rr-RIjHrYsRnHFYvFABG1Rmju2AAK1CAACg0lhR1wz9RKQnU4iPQQ",
+    "decided_at": "2026-11-07T05:05:32.834275+00:00"
   },
   {
     "id": "5c27e381",
@@ -5247,5 +5258,34 @@
     },
     "msg_id": 1059,
     "file_id": "BAACAgEAAxkDAAIEI2ruksS3sNGrY7KysB5eH95XrbbnAAKQDAAC461wR64hce4uoRLIPQQ"
+  },
+  {
+    "id": "7f82e3ef",
+    "slot_key": "2026-11-07 16:00",
+    "slot_iso": "2026-11-07T21:00:00+00:00",
+    "slot_label": "Sat Nov 07, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-weight-ed",
+    "category": "mens_health",
+    "clip_id": "clip58",
+    "cta": 1,
+    "mode": "explore",
+    "seconds": 6.17,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2037715",
+      "title": "Study Beats (Lofi Hip-Hop Ensemble)",
+      "creator": "Moonwalk",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2037715/mp32/",
+      "source": "jamendo",
+      "duration_ms": 293000,
+      "page": "https://www.jamendo.com/track/2037715",
+      "genre": "hiphop"
+    },
+    "msg_id": 1062,
+    "file_id": "BAACAgEAAxkDAAIEJmrusbLac7HHnkK_rwYvkAUQK0K6AAI1CgAC4614R0cl2SUdf-jyPQQ",
+    "replaces": "e2c8e721"
   }
 ]
