@@ -4439,7 +4439,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 8.4,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-764958",
       "title": "A Thousand Skins (Part 1) (Instrumental Version)",
@@ -4453,7 +4453,8 @@
       "genre": "pop"
     },
     "msg_id": 1008,
-    "file_id": "BAACAgEAAxkDAAID8Grr-TKfY6iXqdbWSRMH18ukykmgAAK2CAACg0lhR6WPBvJPGmP8PQQ"
+    "file_id": "BAACAgEAAxkDAAID8Grr-TKfY6iXqdbWSRMH18ukykmgAAK2CAACg0lhR6WPBvJPGmP8PQQ",
+    "decided_at": "2026-11-07T07:43:12.215009+00:00"
   },
   {
     "id": "dbfc0eee",
@@ -4467,7 +4468,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.0,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -4481,7 +4482,8 @@
       "genre": "lounge"
     },
     "msg_id": 1009,
-    "file_id": "BAACAgEAAxkDAAID8Wrr-UrGW5ZeCvLbhS9BHic_OFYhAAK3CAACg0lhR1vGzNQdzU3uPQQ"
+    "file_id": "BAACAgEAAxkDAAID8Wrr-UrGW5ZeCvLbhS9BHic_OFYhAAK3CAACg0lhR1vGzNQdzU3uPQQ",
+    "decided_at": "2026-11-07T07:43:12.215009+00:00"
   },
   {
     "id": "21d04191",
@@ -5271,7 +5273,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 6.17,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037715",
       "title": "Study Beats (Lofi Hip-Hop Ensemble)",
@@ -5286,6 +5288,7 @@
     },
     "msg_id": 1062,
     "file_id": "BAACAgEAAxkDAAIEJmrusbLac7HHnkK_rwYvkAUQK0K6AAI1CgAC4614R0cl2SUdf-jyPQQ",
-    "replaces": "e2c8e721"
+    "replaces": "e2c8e721",
+    "decided_at": "2026-11-07T07:43:12.215009+00:00"
   }
 ]
