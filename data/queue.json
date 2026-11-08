@@ -1,37 +1,5 @@
 [
   {
-    "id": "0f46e85c",
-    "slot_key": "2026-10-29 16:00",
-    "slot_iso": "2026-10-29T20:00:00+00:00",
-    "slot_label": "Thu Oct 29, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-lube-myth",
-    "category": "sex_ed",
-    "clip_id": "clip36",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 9.8,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1320534",
-      "title": "Neith",
-      "creator": "CyberSDF",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1320534/mp32/",
-      "source": "jamendo",
-      "duration_ms": 269000,
-      "page": "https://www.jamendo.com/track/1320534",
-      "genre": "trap"
-    },
-    "msg_id": 730,
-    "file_id": "BAACAgEAAxkDAAIC2mrgD_jN5TB479iKcvnTLVTSgxcgAAI-CwACKfsBR3abdzEWyf5EPQQ",
-    "decided_at": "2026-10-29T16:59:06.787906+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "06c59715"
-  },
-  {
     "id": "30d90924",
     "slot_key": "2026-10-29 17:30",
     "slot_iso": "2026-10-29T21:30:00+00:00",
@@ -739,35 +707,6 @@
     "file_id": "BAACAgEAAxkDAAIDG2rir7_qwyYKZ3FufGQVEPIzmeb-AALQBgAChhwZR4NVKUOnYZCfPQQ",
     "decided_at": "2026-10-31T21:31:12.447464+00:00",
     "permalink": "https://www.instagram.com/reel/DfLkSSzCBLz/"
-  },
-  {
-    "id": "06c59715",
-    "slot_key": "2026-10-29 16:00",
-    "slot_iso": "2026-10-29T20:00:00+00:00",
-    "slot_label": "Thu Oct 29, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-lube-myth",
-    "category": "sex_ed",
-    "clip_id": "clip02",
-    "cta": 5,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1547998",
-      "title": "podnebo prod. - spark | FREE BEAT | 2018 | FULL | 96bpm",
-      "creator": "podnebo prod.",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1547998/mp32/",
-      "source": "jamendo",
-      "duration_ms": 181000,
-      "page": "https://www.jamendo.com/track/1547998",
-      "genre": "trap"
-    },
-    "msg_id": 802,
-    "file_id": "BAACAgEAAxkDAAIDImrje4eDSR5jgeDWPFlISbc6JhN8AAILCAAChhwZR7tM8oKXml7uPQQ",
-    "replaces": "0f46e85c"
   },
   {
     "id": "0aef05e3",
@@ -4209,7 +4148,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 6.13,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1182292",
       "title": "Spasm",
@@ -4224,7 +4163,8 @@
     },
     "msg_id": 1034,
     "file_id": "BAACAgEAAxkDAAIECmrtSaNcQe0-JrUxpNSYKHyV7Vy1AAJQCgACg0lpR4dWWHRXcXqzPQQ",
-    "decided_at": "2026-11-08T19:42:52.866884+00:00"
+    "decided_at": "2026-11-08T19:42:52.866884+00:00",
+    "permalink": "https://www.instagram.com/reel/DffreecklHR/"
   },
   {
     "id": "3c24bab3",
