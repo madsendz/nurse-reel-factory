@@ -1,35 +1,5 @@
 [
   {
-    "id": "7ffb76d4",
-    "slot_key": "2026-10-29 09:30",
-    "slot_iso": "2026-10-29T13:30:00+00:00",
-    "slot_label": "Thu Oct 29, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "nw-throat-sti",
-    "category": "sex_ed",
-    "clip_id": "clip43",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 10.6,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-384090",
-      "title": "Manta-dive",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384090/mp32/",
-      "source": "jamendo",
-      "duration_ms": 197000,
-      "page": "https://www.jamendo.com/track/384090",
-      "genre": "lounge"
-    },
-    "msg_id": 722,
-    "file_id": "BAACAgEAAxkDAAIC0mrgBw2s-sGXI5GxQI9TYZi7dqMeAAIlCwACKfsBR2_ftMmZqYzYPQQ",
-    "decided_at": "2026-10-28T17:11:11.308614+00:00",
-    "permalink": "https://www.instagram.com/reel/DfFIE84oHaL/"
-  },
-  {
     "id": "92350e4b",
     "slot_key": "2026-10-29 11:00",
     "slot_iso": "2026-10-29T15:00:00+00:00",
@@ -4233,7 +4203,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 9.0,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1403270",
       "title": "Just laugh at it",
@@ -4248,7 +4218,8 @@
     },
     "msg_id": 1029,
     "file_id": "BAACAgEAAxkDAAIEBWrtSSk6YiMXFBJwL32MtOVZrKhHAAJKCgACg0lpR8qYjXIW-gnbPQQ",
-    "decided_at": "2026-11-08T13:03:59.775602+00:00"
+    "decided_at": "2026-11-08T14:31:02.493051+00:00",
+    "permalink": "https://www.instagram.com/reel/Dfe-2UIEwjS/"
   },
   {
     "id": "ff417dea",
