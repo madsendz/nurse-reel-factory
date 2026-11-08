@@ -1,35 +1,5 @@
 [
   {
-    "id": "2cb7d128",
-    "slot_key": "2026-10-28 19:30",
-    "slot_iso": "2026-10-28T23:30:00+00:00",
-    "slot_label": "Wed Oct 28, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-semen-fertility",
-    "category": "mens_health",
-    "clip_id": "clip47",
-    "cta": 3,
-    "mode": "exploit",
-    "seconds": 11.17,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1702676",
-      "title": "Daydream",
-      "creator": "zero-project",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1702676/mp32/",
-      "source": "jamendo",
-      "duration_ms": 258000,
-      "page": "https://www.jamendo.com/track/1702676",
-      "genre": "chillout"
-    },
-    "msg_id": 684,
-    "file_id": "BAACAgEAAxkDAAICrGreqPjQsU3bV654hObNe1fbAAHTygACiAkAAhVI8UblYI1mMXPWoT0E",
-    "decided_at": "2026-10-28T01:31:08.051235+00:00",
-    "permalink": "https://www.instagram.com/reel/DfDoN2TkTr_/"
-  },
-  {
     "id": "a02aeffd",
     "slot_key": "2026-10-28 21:30",
     "slot_iso": "2026-10-29T01:30:00+00:00",
@@ -4142,7 +4112,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 8.4,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-764958",
       "title": "A Thousand Skins (Part 1) (Instrumental Version)",
@@ -4157,7 +4127,8 @@
     },
     "msg_id": 1008,
     "file_id": "BAACAgEAAxkDAAID8Grr-TKfY6iXqdbWSRMH18ukykmgAAK2CAACg0lhR6WPBvJPGmP8PQQ",
-    "decided_at": "2026-11-07T07:43:12.215009+00:00"
+    "decided_at": "2026-11-07T07:43:12.215009+00:00",
+    "permalink": "https://www.instagram.com/reel/DfdfASMjOOe/"
   },
   {
     "id": "dbfc0eee",

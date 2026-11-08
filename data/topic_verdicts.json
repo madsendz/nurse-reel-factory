@@ -208,5 +208,12 @@
     "tries": 2,
     "ratio": 0.43,
     "reason": "2 tries, 0.4x median"
+  },
+  "nw-prostate-21": {
+    "status": "retired",
+    "since": "2026-11-08T00:31:48.591107+00:00",
+    "tries": 2,
+    "ratio": 0.55,
+    "reason": "2 tries, 0.5x median"
   }
 }
