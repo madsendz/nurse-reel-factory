@@ -4148,7 +4148,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.5,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2037702",
       "title": "Nostalgia Drive (Lofi Hip-hop)",
@@ -4163,7 +4163,8 @@
     },
     "msg_id": 1035,
     "file_id": "BAACAgEAAxkDAAIEC2rtSbny5yvEUkE3uXQ0_Db1skZZAAJRCgACg0lpR05yFMHaFHlPPQQ",
-    "decided_at": "2026-11-08T19:42:52.866884+00:00"
+    "decided_at": "2026-11-08T19:42:52.866884+00:00",
+    "permalink": "https://www.instagram.com/reel/Dff2Ensgph2/"
   },
   {
     "id": "ab64be6b",
