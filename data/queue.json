@@ -1,35 +1,5 @@
 [
   {
-    "id": "21ce0235",
-    "slot_key": "2026-10-29 14:30",
-    "slot_iso": "2026-10-29T18:30:00+00:00",
-    "slot_label": "Thu Oct 29, 2:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-eggs-at-birth",
-    "category": "anatomy",
-    "clip_id": "clip88",
-    "cta": 2,
-    "mode": "explore",
-    "seconds": 6.16,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2037702",
-      "title": "Nostalgia Drive (Lofi Hip-hop)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037702/mp32/",
-      "source": "jamendo",
-      "duration_ms": 294000,
-      "page": "https://www.jamendo.com/track/2037702",
-      "genre": "lounge"
-    },
-    "msg_id": 729,
-    "file_id": "BAACAgEAAxkDAAIC2WrgD9n2PIJlLNPZDKE7_JmiC_OwAAI8CwACKfsBRyd26IvxEApvPQQ",
-    "decided_at": "2026-10-29T16:59:06.787906+00:00",
-    "permalink": "https://www.instagram.com/reel/DfFqet8lPqn/"
-  },
-  {
     "id": "0f46e85c",
     "slot_key": "2026-10-29 16:00",
     "slot_iso": "2026-10-29T20:00:00+00:00",
@@ -4208,7 +4178,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-1363926",
       "title": "Drake- Still Here instrumental (reprod. J Blanked On This Beat)",
@@ -4222,7 +4192,10 @@
       "genre": "trap"
     },
     "msg_id": 1033,
-    "file_id": "BAACAgEAAxkDAAIECWrtSZEkPboAARmnl6saHLbArciOVQACTwoAAoNJaUczKkbd5LAulD0E"
+    "file_id": "BAACAgEAAxkDAAIECWrtSZEkPboAARmnl6saHLbArciOVQACTwoAAoNJaUczKkbd5LAulD0E",
+    "decided_at": "2026-11-08T19:37:17.664987+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/DffiPXGisx9/"
   },
   {
     "id": "ae4ead78",
@@ -4236,7 +4209,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 6.13,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1182292",
       "title": "Spasm",
@@ -4250,7 +4223,8 @@
       "genre": "hiphop"
     },
     "msg_id": 1034,
-    "file_id": "BAACAgEAAxkDAAIECmrtSaNcQe0-JrUxpNSYKHyV7Vy1AAJQCgACg0lpR4dWWHRXcXqzPQQ"
+    "file_id": "BAACAgEAAxkDAAIECmrtSaNcQe0-JrUxpNSYKHyV7Vy1AAJQCgACg0lpR4dWWHRXcXqzPQQ",
+    "decided_at": "2026-11-08T19:42:52.866884+00:00"
   },
   {
     "id": "3c24bab3",
@@ -4264,7 +4238,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.5,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037702",
       "title": "Nostalgia Drive (Lofi Hip-hop)",
@@ -4278,7 +4252,8 @@
       "genre": "hiphop"
     },
     "msg_id": 1035,
-    "file_id": "BAACAgEAAxkDAAIEC2rtSbny5yvEUkE3uXQ0_Db1skZZAAJRCgACg0lpR05yFMHaFHlPPQQ"
+    "file_id": "BAACAgEAAxkDAAIEC2rtSbny5yvEUkE3uXQ0_Db1skZZAAJRCgACg0lpR05yFMHaFHlPPQQ",
+    "decided_at": "2026-11-08T19:42:52.866884+00:00"
   },
   {
     "id": "ab64be6b",
@@ -4292,7 +4267,7 @@
     "cta": 5,
     "mode": "explore",
     "seconds": 9.33,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2326509",
       "title": "Corporate Dreams 4",
@@ -4306,7 +4281,11 @@
       "genre": "pop"
     },
     "msg_id": 1037,
-    "file_id": "BAACAgEAAxkDAAIEDWrtSc4tE2_kYCUcEHMpwwpVfjw8AAJSCgACg0lpR6sXiVhYuaLpPQQ"
+    "file_id": "BAACAgEAAxkDAAIEDWrtSc4tE2_kYCUcEHMpwwpVfjw8AAJSCgACg0lpR6sXiVhYuaLpPQQ",
+    "decided_at": "2026-11-08T19:42:52.866884+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "630cc8a2"
   },
   {
     "id": "121596ad",
@@ -4320,7 +4299,7 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 6.23,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1267753",
       "title": "Ghosts",
@@ -4334,7 +4313,8 @@
       "genre": "electronic"
     },
     "msg_id": 1038,
-    "file_id": "BAACAgEAAxkDAAIEDmrtSeFIX99rDmbEmShlLuhQ7XZNAAJTCgACg0lpRxITI8L7EASuPQQ"
+    "file_id": "BAACAgEAAxkDAAIEDmrtSeFIX99rDmbEmShlLuhQ7XZNAAJTCgACg0lpRxITI8L7EASuPQQ",
+    "decided_at": "2026-11-08T19:42:52.866884+00:00"
   },
   {
     "id": "b825de5c",
@@ -5042,5 +5022,34 @@
     "msg_id": 1081,
     "file_id": "BAACAgEAAxkDAAIEOWrwc41VUASc3cjrV7T3e4O3mwq-AALQCAACCGKIR0S-9COcnINSPQQ",
     "replaces": "162c8638"
+  },
+  {
+    "id": "630cc8a2",
+    "slot_key": "2026-11-08 19:30",
+    "slot_iso": "2026-11-09T00:30:00+00:00",
+    "slot_label": "Sun Nov 08, 7:30 PM",
+    "post_type": "regular",
+    "item_id": "nw-death-during",
+    "category": "health_bait",
+    "clip_id": "clip32",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 9.33,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-247156",
+      "title": "Silence Apart",
+      "creator": "ZigiZigi",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/247156/mp32/",
+      "source": "jamendo",
+      "duration_ms": 326000,
+      "page": "https://www.jamendo.com/track/247156",
+      "genre": "pop"
+    },
+    "msg_id": 1086,
+    "file_id": "BAACAgEAAxkDAAIEPmrw0S9VYB5dGNTehyqJKd9PojYSAAJpCQACCGKIR7WAVUrihQU-PQQ",
+    "replaces": "ab64be6b"
   }
 ]
