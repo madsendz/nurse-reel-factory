@@ -1,36 +1,5 @@
 [
   {
-    "id": "d3df4ff5",
-    "slot_key": "2026-10-30 08:00",
-    "slot_iso": "2026-10-30T12:00:00+00:00",
-    "slot_label": "Fri Oct 30, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "pr-stamina-foods",
-    "category": "mens_health",
-    "clip_id": "clip69a",
-    "cta": 5,
-    "mode": "exploit",
-    "seconds": 10.0,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1179546",
-      "title": "Born Free",
-      "creator": "Pokki DJ",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1179546/mp32/",
-      "source": "jamendo",
-      "duration_ms": 212000,
-      "page": "https://www.jamendo.com/track/1179546",
-      "genre": "dance"
-    },
-    "msg_id": 756,
-    "file_id": "BAACAgEAAxkDAAIC9GrhWrhKiMXJ6Ihptk32cp-RlZjEAAJ_CQACKfsJR1-dukl_YeN9PQQ",
-    "decided_at": "2026-10-30T12:32:46.336648+00:00",
-    "post_now": true,
-    "permalink": "https://www.instagram.com/reel/DfHmUAsiqS5/"
-  },
-  {
     "id": "ed64036e",
     "slot_key": "2026-10-30 09:30",
     "slot_iso": "2026-10-30T13:30:00+00:00",
@@ -4221,7 +4190,7 @@
     },
     "msg_id": 1051,
     "file_id": "BAACAgEAAxkDAAIEG2rukhG43YTraWOeoG1mPK5jD9PPAAKHDAAC461wR-nPH3LN7I8dPQQ",
-    "decided_at": "2026-11-09T11:55:07.481225+00:00"
+    "decided_at": "2026-11-09T12:06:58.099417+00:00"
   },
   {
     "id": "68421875",
@@ -4250,7 +4219,7 @@
     },
     "msg_id": 1052,
     "file_id": "BAACAgEAAxkDAAIEHGrukiby6Uw7rwSt2ETzBZAupewrAAKJDAAC461wRxue_jmaMqQ2PQQ",
-    "decided_at": "2026-11-09T11:55:07.481225+00:00",
+    "decided_at": "2026-11-09T12:06:58.099417+00:00",
     "redo": "new_topic",
     "needs_replacement": false,
     "replaced_by": "1d3280ef"
@@ -4323,7 +4292,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 7.93,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1206517",
       "title": "DJ Smallest - Chill",
@@ -4337,7 +4306,8 @@
       "genre": "chillout"
     },
     "msg_id": 1055,
-    "file_id": "BAACAgEAAxkDAAIEH2rukmbPdYQ7Wq6G2sEMyuiGIV3WAAKMDAAC461wR_3fvpwqpuRVPQQ"
+    "file_id": "BAACAgEAAxkDAAIEH2rukmbPdYQ7Wq6G2sEMyuiGIV3WAAKMDAAC461wR_3fvpwqpuRVPQQ",
+    "decided_at": "2026-11-09T12:06:58.099417+00:00"
   },
   {
     "id": "35c4a2c6",
@@ -4351,7 +4321,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 11.3,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1331970",
       "title": "Faith",
@@ -4365,7 +4335,8 @@
       "genre": "pop"
     },
     "msg_id": 1056,
-    "file_id": "BAACAgEAAxkDAAIEIGrukn9FPPVIV849fJu3KWDX72xeAAKNDAAC461wR3Pg9hJewOmMPQQ"
+    "file_id": "BAACAgEAAxkDAAIEIGrukn9FPPVIV849fJu3KWDX72xeAAKNDAAC461wR3Pg9hJewOmMPQQ",
+    "decided_at": "2026-11-09T12:06:58.099417+00:00"
   },
   {
     "id": "848b799e",
@@ -4379,7 +4350,7 @@
     "cta": 3,
     "mode": "explore",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384092",
       "title": "Such a place!",
@@ -4393,7 +4364,8 @@
       "genre": "lounge"
     },
     "msg_id": 1057,
-    "file_id": "BAACAgEAAxkDAAIEIWrukpl0WCWDTfaRFa8sp6m6uKv7AAKODAAC461wR6ticykIHYliPQQ"
+    "file_id": "BAACAgEAAxkDAAIEIWrukpl0WCWDTfaRFa8sp6m6uKv7AAKODAAC461wR6ticykIHYliPQQ",
+    "decided_at": "2026-11-09T12:06:58.099417+00:00"
   },
   {
     "id": "0c056b56",
@@ -4407,7 +4379,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 8.9,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1916401",
       "title": "RnB Chill Trap",
@@ -4421,7 +4393,8 @@
       "genre": "rnb"
     },
     "msg_id": 1058,
-    "file_id": "BAACAgEAAxkDAAIEImrukq7Ye6GPxChx2pbTsQdcNuk0AAKPDAAC461wR8TuYnAwh18YPQQ"
+    "file_id": "BAACAgEAAxkDAAIEImrukq7Ye6GPxChx2pbTsQdcNuk0AAKPDAAC461wR8TuYnAwh18YPQQ",
+    "decided_at": "2026-11-09T12:06:58.099417+00:00"
   },
   {
     "id": "46dc97e7",
@@ -4435,7 +4408,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 9.6,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1129271",
       "title": "Energy",
@@ -4449,7 +4422,8 @@
       "genre": "electronic"
     },
     "msg_id": 1059,
-    "file_id": "BAACAgEAAxkDAAIEI2ruksS3sNGrY7KysB5eH95XrbbnAAKQDAAC461wR64hce4uoRLIPQQ"
+    "file_id": "BAACAgEAAxkDAAIEI2ruksS3sNGrY7KysB5eH95XrbbnAAKQDAAC461wR64hce4uoRLIPQQ",
+    "decided_at": "2026-11-09T12:06:58.099417+00:00"
   },
   {
     "id": "7f82e3ef",
@@ -5141,7 +5115,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 4.33,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1206517",
       "title": "DJ Smallest - Chill",
@@ -5156,7 +5130,8 @@
     },
     "msg_id": 1100,
     "file_id": "BAACAgEAAxkDAAIETGrxtHXsZVcIkt5cra8tdx620YttAAJqCwACVg2JRx_WSJ34x0WjPQQ",
-    "replaces": "3f22e588"
+    "replaces": "3f22e588",
+    "decided_at": "2026-11-09T12:06:58.099417+00:00"
   },
   {
     "id": "1d3280ef",
