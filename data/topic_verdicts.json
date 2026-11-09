@@ -229,5 +229,12 @@
     "tries": 2,
     "ratio": 0.49,
     "reason": "2 tries, 0.5x median"
+  },
+  "nw-pregnancy-safe": {
+    "status": "retired",
+    "since": "2026-11-09T19:41:36.818388+00:00",
+    "tries": 2,
+    "ratio": 0.4,
+    "reason": "2 tries, 0.4x median"
   }
 }
