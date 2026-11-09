@@ -1,37 +1,5 @@
 [
   {
-    "id": "ed64036e",
-    "slot_key": "2026-10-30 09:30",
-    "slot_iso": "2026-10-30T13:30:00+00:00",
-    "slot_label": "Fri Oct 30, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-size-by-country",
-    "category": "mens_health",
-    "clip_id": "clip06",
-    "cta": 5,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-384173",
-      "title": "Mind drifting back (Leaving paradise)",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384173/mp32/",
-      "source": "jamendo",
-      "duration_ms": 312000,
-      "page": "https://www.jamendo.com/track/384173",
-      "genre": "chillout"
-    },
-    "msg_id": 757,
-    "file_id": "BAACAgEAAxkDAAIC9WrhWtXQhUOfLYMLdelrBQVcmxEfAAKACQACKfsJRxfYjuySJU5HPQQ",
-    "decided_at": "2026-10-30T12:23:19.169123+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "c14c1afe"
-  },
-  {
     "id": "552bfc68",
     "slot_key": "2026-10-30 11:00",
     "slot_iso": "2026-10-30T15:00:00+00:00",
@@ -891,39 +859,6 @@
     "decided_at": "2026-11-01T12:18:15.233160+00:00"
   },
   {
-    "id": "c14c1afe",
-    "slot_key": "2026-10-30 09:30",
-    "slot_iso": "2026-10-30T13:30:00+00:00",
-    "slot_label": "Fri Oct 30, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-small-normal",
-    "category": "mens_health",
-    "clip_id": "clip06",
-    "cta": 5,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1093608",
-      "title": "Strictly Luxury",
-      "creator": "Lilly Wolf",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1093608/mp32/",
-      "source": "jamendo",
-      "duration_ms": 268000,
-      "page": "https://www.jamendo.com/track/1093608",
-      "genre": "electronic"
-    },
-    "msg_id": 830,
-    "file_id": "BAACAgEAAxkDAAIDPmrkjQEMYvRLJOiRJGj8VZCCNjQXAAIbCQAC1DUgR0d00oC_ysUVPQQ",
-    "replaces": "ed64036e",
-    "decided_at": "2026-10-30T12:41:27.324730+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "989cf3da"
-  },
-  {
     "id": "50dce22c",
     "slot_key": "2026-10-30 11:00",
     "slot_iso": "2026-10-30T15:00:00+00:00",
@@ -982,35 +917,6 @@
     "replaces": "c5ecdc3a",
     "decided_at": "2026-10-30T16:57:57.801224+00:00",
     "permalink": "https://www.instagram.com/reel/DfILCgcEZmf/"
-  },
-  {
-    "id": "989cf3da",
-    "slot_key": "2026-10-30 09:30",
-    "slot_iso": "2026-10-30T13:30:00+00:00",
-    "slot_label": "Fri Oct 30, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-small-normal",
-    "category": "mens_health",
-    "clip_id": "clip53",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 9.33,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-2037702",
-      "title": "Nostalgia Drive (Lofi Hip-hop)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037702/mp32/",
-      "source": "jamendo",
-      "duration_ms": 294000,
-      "page": "https://www.jamendo.com/track/2037702",
-      "genre": "hiphop"
-    },
-    "msg_id": 839,
-    "file_id": "BAACAgEAAxkDAAIDR2rkkL75I3LyKGnKTbF8VWBsGxJnAAInCQAC1DUgR-5bDlTCj8uMPQQ",
-    "replaces": "c14c1afe"
   },
   {
     "id": "b5f628d6",
@@ -4175,7 +4081,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 10.5,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -4190,7 +4096,8 @@
     },
     "msg_id": 1051,
     "file_id": "BAACAgEAAxkDAAIEG2rukhG43YTraWOeoG1mPK5jD9PPAAKHDAAC461wR-nPH3LN7I8dPQQ",
-    "decided_at": "2026-11-09T12:06:58.099417+00:00"
+    "decided_at": "2026-11-09T12:06:58.099417+00:00",
+    "permalink": "https://www.instagram.com/reel/DfhkWFjD5Ye/"
   },
   {
     "id": "68421875",
