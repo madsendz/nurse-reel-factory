@@ -4086,7 +4086,7 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 6.23,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1267753",
       "title": "Ghosts",
@@ -4101,7 +4101,8 @@
     },
     "msg_id": 1038,
     "file_id": "BAACAgEAAxkDAAIEDmrtSeFIX99rDmbEmShlLuhQ7XZNAAJTCgACg0lpRxITI8L7EASuPQQ",
-    "decided_at": "2026-11-08T19:42:52.866884+00:00"
+    "decided_at": "2026-11-08T19:42:52.866884+00:00",
+    "permalink": "https://www.instagram.com/reel/DfgRsOrADMf/"
   },
   {
     "id": "b825de5c",
