@@ -4206,7 +4206,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 10.5,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -4220,7 +4220,8 @@
       "genre": "dance"
     },
     "msg_id": 1051,
-    "file_id": "BAACAgEAAxkDAAIEG2rukhG43YTraWOeoG1mPK5jD9PPAAKHDAAC461wR-nPH3LN7I8dPQQ"
+    "file_id": "BAACAgEAAxkDAAIEG2rukhG43YTraWOeoG1mPK5jD9PPAAKHDAAC461wR-nPH3LN7I8dPQQ",
+    "decided_at": "2026-11-09T11:55:07.481225+00:00"
   },
   {
     "id": "68421875",
@@ -4234,7 +4235,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.52,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1917024",
       "title": "Dorila y Mello",
@@ -4248,7 +4249,11 @@
       "genre": "hiphop"
     },
     "msg_id": 1052,
-    "file_id": "BAACAgEAAxkDAAIEHGrukiby6Uw7rwSt2ETzBZAupewrAAKJDAAC461wRxue_jmaMqQ2PQQ"
+    "file_id": "BAACAgEAAxkDAAIEHGrukiby6Uw7rwSt2ETzBZAupewrAAKJDAAC461wRxue_jmaMqQ2PQQ",
+    "decided_at": "2026-11-09T11:55:07.481225+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "1d3280ef"
   },
   {
     "id": "10b37d9c",
@@ -5152,5 +5157,34 @@
     "msg_id": 1100,
     "file_id": "BAACAgEAAxkDAAIETGrxtHXsZVcIkt5cra8tdx620YttAAJqCwACVg2JRx_WSJ34x0WjPQQ",
     "replaces": "3f22e588"
+  },
+  {
+    "id": "1d3280ef",
+    "slot_key": "2026-11-09 11:00",
+    "slot_iso": "2026-11-09T16:00:00+00:00",
+    "slot_label": "Mon Nov 09, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "pr-mood-killer-foods",
+    "category": "sexual_wellness",
+    "clip_id": "clip89",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 10.52,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2173192",
+      "title": "Summer Light Pop",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2173192/mp32/",
+      "source": "jamendo",
+      "duration_ms": 118000,
+      "page": "https://www.jamendo.com/track/2173192",
+      "genre": "lounge"
+    },
+    "msg_id": 1103,
+    "file_id": "BAACAgEAAxkDAAIET2rxtNIVBO1MMYljMgYFg9LR0A_NAAJtCwACVg2JR3MEGfHDq6ZvPQQ",
+    "replaces": "68421875"
   }
 ]
