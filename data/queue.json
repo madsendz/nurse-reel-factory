@@ -4174,7 +4174,7 @@
     "cta": 5,
     "mode": "explore",
     "seconds": 6.63,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1395053",
       "title": "Ninu - I feel this",
@@ -4188,7 +4188,11 @@
       "genre": "trap"
     },
     "msg_id": 1050,
-    "file_id": "BAACAgEAAxkDAAIEGmrukfoPbqwDAktS_aHvG3W0XK9rAAKGDAAC461wR0YaV_1Frb0GPQQ"
+    "file_id": "BAACAgEAAxkDAAIEGmrukfoPbqwDAktS_aHvG3W0XK9rAAKGDAAC461wR0YaV_1Frb0GPQQ",
+    "decided_at": "2026-11-09T11:53:37.665432+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "8e06399e"
   },
   {
     "id": "ce38908d",
@@ -5119,5 +5123,34 @@
     },
     "msg_id": 1097,
     "file_id": "BAACAgEAAxkDAAIESWrxM1UXZCQtrxeh7qXEXqQUvkD8AAINCgACCGKIR4fHTrKos_MrPQQ"
+  },
+  {
+    "id": "8e06399e",
+    "slot_key": "2026-11-09 08:00",
+    "slot_iso": "2026-11-09T13:00:00+00:00",
+    "slot_label": "Mon Nov 09, 8:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-nipples-men",
+    "category": "anatomy",
+    "clip_id": "clip76",
+    "cta": 5,
+    "mode": "exploit",
+    "seconds": 4.33,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1206517",
+      "title": "DJ Smallest - Chill",
+      "creator": "Smallest",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1206517/mp32/",
+      "source": "jamendo",
+      "duration_ms": 170000,
+      "page": "https://www.jamendo.com/track/1206517",
+      "genre": "chillout"
+    },
+    "msg_id": 1100,
+    "file_id": "BAACAgEAAxkDAAIETGrxtHXsZVcIkt5cra8tdx620YttAAJqCwACVg2JRx_WSJ34x0WjPQQ",
+    "replaces": "3f22e588"
   }
 ]
