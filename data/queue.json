@@ -1,35 +1,5 @@
 [
   {
-    "id": "00faeaa9",
-    "slot_key": "2026-10-31 11:00",
-    "slot_iso": "2026-10-31T15:00:00+00:00",
-    "slot_label": "Sat Oct 31, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "pr-intercourse-hack",
-    "category": "sexual_wellness",
-    "clip_id": "clip69a",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 10.0,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1525343",
-      "title": "FAS - heda",
-      "creator": "FAS",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1525343/mp32/",
-      "source": "jamendo",
-      "duration_ms": 165000,
-      "page": "https://www.jamendo.com/track/1525343",
-      "genre": "trap"
-    },
-    "msg_id": 786,
-    "file_id": "BAACAgEAAxkDAAIDEmrirypCCgyzg9n4_vT7xvSSysUuAALIBgAChhwZR-MyRY4j8d6YPQQ",
-    "decided_at": "2026-10-31T03:46:28.251802+00:00",
-    "permalink": "https://www.instagram.com/reel/DfKcAJJgWUp/"
-  },
-  {
     "id": "20ff7402",
     "slot_key": "2026-10-31 12:00",
     "slot_iso": "2026-10-31T16:00:00+00:00",
@@ -4091,7 +4061,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 9.2,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -4105,7 +4075,8 @@
       "genre": "dance"
     },
     "msg_id": 1075,
-    "file_id": "BAACAgEAAxkDAAIEM2rv31dPTxIJ_feEwWrk1DYJO9vtAAIECgACCGKAR5-8e34bGl2_PQQ"
+    "file_id": "BAACAgEAAxkDAAIEM2rv31dPTxIJ_feEwWrk1DYJO9vtAAIECgACCGKAR5-8e34bGl2_PQQ",
+    "decided_at": "2026-11-10T15:27:37.953976+00:00"
   },
   {
     "id": "478c51f3",
@@ -4486,7 +4457,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.8,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-489246",
       "title": "Back 2 UR",
@@ -4500,7 +4471,11 @@
       "genre": "chillout"
     },
     "msg_id": 1097,
-    "file_id": "BAACAgEAAxkDAAIESWrxM1UXZCQtrxeh7qXEXqQUvkD8AAINCgACCGKIR4fHTrKos_MrPQQ"
+    "file_id": "BAACAgEAAxkDAAIESWrxM1UXZCQtrxeh7qXEXqQUvkD8AAINCgACCGKIR4fHTrKos_MrPQQ",
+    "decided_at": "2026-11-10T15:32:08.918152+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "05a2aeca"
   },
   {
     "id": "8e06399e",
@@ -4854,7 +4829,7 @@
     "cta": 4,
     "mode": "edited",
     "seconds": 5.12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1856950",
       "title": "RnB Chill Trap",
@@ -4870,7 +4845,9 @@
     "msg_id": 1119,
     "file_id": "BAACAgEAAxkDAAIEX2ryo4DnKBR3rlaU4KVxhIPgkYhYAAIVBwACVg2RR-S3vfoj9SSlPQQ",
     "replaces": "63a36ed0",
-    "decided_at": "2026-11-10T07:41:50.346785+00:00"
+    "decided_at": "2026-11-10T07:41:50.346785+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/DfkPGuzCKfj/"
   },
   {
     "id": "e47dd05d",
@@ -4884,7 +4861,7 @@
     "cta": 4,
     "mode": "exploit",
     "seconds": 10.5,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037702",
       "title": "Nostalgia Drive (Lofi Hip-hop)",
@@ -4899,6 +4876,36 @@
     },
     "msg_id": 1121,
     "file_id": "BAACAgEAAxkDAAIEYWrzKkIL4vIKfJQUKxxNHAvXdyEbAALTCAACVg2ZRyMWPXqirJGnPQQ",
-    "replaces": "1bf25496"
+    "replaces": "1bf25496",
+    "decided_at": "2026-11-10T15:27:37.953976+00:00"
+  },
+  {
+    "id": "05a2aeca",
+    "slot_key": "2026-11-11 21:30",
+    "slot_iso": "2026-11-12T02:30:00+00:00",
+    "slot_label": "Wed Nov 11, 9:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-breathing-hack",
+    "category": "mens_health",
+    "clip_id": "clip36",
+    "cta": 1,
+    "mode": "edited",
+    "seconds": 9.8,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-489246",
+      "title": "Back 2 UR",
+      "creator": "Keffy Kay",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/489246/mp32/",
+      "source": "jamendo",
+      "duration_ms": 301000,
+      "page": "https://www.jamendo.com/track/489246",
+      "genre": "chillout"
+    },
+    "msg_id": 1125,
+    "file_id": "BAACAgEAAxkDAAIEZWrzOWNfr63CbDTn6YnjHkCEBl2vAALuCAACVg2ZRyf6WY30dIzUPQQ",
+    "replaces": "a1cf3bf8"
   }
 ]

@@ -236,5 +236,12 @@
     "tries": 2,
     "ratio": 0.4,
     "reason": "2 tries, 0.4x median"
+  },
+  "nw-blue-pill-myth": {
+    "status": "retired",
+    "since": "2026-11-10T15:28:16.858033+00:00",
+    "tries": 2,
+    "ratio": 0.42,
+    "reason": "2 tries, 0.4x median"
   }
 }
