@@ -1,35 +1,5 @@
 [
   {
-    "id": "b32e9e60",
-    "slot_key": "2026-10-31 17:30",
-    "slot_iso": "2026-10-31T21:30:00+00:00",
-    "slot_label": "Sat Oct 31, 5:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-ick",
-    "category": "sexual_wellness",
-    "clip_id": "clip30",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 7.59,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-247156",
-      "title": "Silence Apart",
-      "creator": "ZigiZigi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/247156/mp32/",
-      "source": "jamendo",
-      "duration_ms": 326000,
-      "page": "https://www.jamendo.com/track/247156",
-      "genre": "pop"
-    },
-    "msg_id": 793,
-    "file_id": "BAACAgEAAxkDAAIDGWrir5YXnnLrD2ajOctgBgP3LC3AAALNBgAChhwZR7oozCwBKgIsPQQ",
-    "decided_at": "2026-10-31T03:46:28.251802+00:00",
-    "permalink": "https://www.instagram.com/reel/DfLIqvnkpIS/"
-  },
-  {
     "id": "82e771d4",
     "slot_key": "2026-10-31 19:30",
     "slot_iso": "2026-10-31T23:30:00+00:00",
@@ -3851,7 +3821,7 @@
     "cta": 2,
     "mode": "explore",
     "seconds": 9.4,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1342479",
       "title": "Breathe",
@@ -3866,7 +3836,8 @@
     },
     "msg_id": 1074,
     "file_id": "BAACAgEAAxkDAAIEMmrv3z_7oOmzj4SphlDNXzCLAAH0dQACAwoAAghigEfMS-T3iKLYqz0E",
-    "decided_at": "2026-11-10T14:28:51.990254+00:00"
+    "decided_at": "2026-11-10T14:28:51.990254+00:00",
+    "permalink": "https://www.instagram.com/reel/Dfk_s0mkbd9/"
   },
   {
     "id": "be68e5b9",
