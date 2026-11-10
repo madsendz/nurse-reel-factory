@@ -1,35 +1,5 @@
 [
   {
-    "id": "eb282541",
-    "slot_key": "2026-10-31 14:30",
-    "slot_iso": "2026-10-31T18:30:00+00:00",
-    "slot_label": "Sat Oct 31, 2:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-blue-balls",
-    "category": "mens_health",
-    "clip_id": "clip70",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1945492",
-      "title": "Do not disturb",
-      "creator": "zero-project",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1945492/mp32/",
-      "source": "jamendo",
-      "duration_ms": 280000,
-      "page": "https://www.jamendo.com/track/1945492",
-      "genre": "chillout"
-    },
-    "msg_id": 791,
-    "file_id": "BAACAgEAAxkDAAIDF2rir3PKfvmcTGrTukFe9Huid206AALLBgAChhwZR37Y8RJtrNQYPQQ",
-    "decided_at": "2026-10-31T03:46:28.251802+00:00",
-    "permalink": "https://www.instagram.com/reel/DfK0RFdk7PG/"
-  },
-  {
     "id": "bca8fc41",
     "slot_key": "2026-10-31 16:00",
     "slot_iso": "2026-10-31T20:00:00+00:00",
@@ -4738,7 +4708,7 @@
     "cta": 4,
     "mode": "exploit",
     "seconds": 10.5,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2037702",
       "title": "Nostalgia Drive (Lofi Hip-hop)",
@@ -4754,7 +4724,9 @@
     "msg_id": 1121,
     "file_id": "BAACAgEAAxkDAAIEYWrzKkIL4vIKfJQUKxxNHAvXdyEbAALTCAACVg2ZRyMWPXqirJGnPQQ",
     "replaces": "1bf25496",
-    "decided_at": "2026-11-10T15:27:37.953976+00:00"
+    "decided_at": "2026-11-10T15:27:37.953976+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/DfkkRMekchm/"
   },
   {
     "id": "05a2aeca",
