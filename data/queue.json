@@ -1,36 +1,5 @@
 [
   {
-    "id": "8e43f91b",
-    "slot_key": "2026-10-30 19:30",
-    "slot_iso": "2026-10-30T23:30:00+00:00",
-    "slot_label": "Fri Oct 30, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "pr-backdoor-refuse",
-    "category": "sexual_wellness",
-    "clip_id": "clip72",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 8.12,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1892348",
-      "title": "Georgetown Cafe",
-      "creator": "Popoi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1892348/mp32/",
-      "source": "jamendo",
-      "duration_ms": 148000,
-      "page": "https://www.jamendo.com/track/1892348",
-      "genre": "hiphop"
-    },
-    "msg_id": 764,
-    "file_id": "BAACAgEAAxkDAAIC_GrhW2IeRv2zaYC7j1B3D81nEV80AAKHCQACKfsJRyiLdX7r14EgPQQ",
-    "decided_at": "2026-10-31T00:14:39.136592+00:00",
-    "post_now": true,
-    "permalink": "https://www.instagram.com/reel/DfI2JsLiSEf/"
-  },
-  {
     "id": "a8133deb",
     "slot_key": "2026-10-30 21:30",
     "slot_iso": "2026-10-31T01:30:00+00:00",
@@ -3914,7 +3883,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 8.9,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1916401",
       "title": "RnB Chill Trap",
@@ -3929,7 +3898,8 @@
     },
     "msg_id": 1058,
     "file_id": "BAACAgEAAxkDAAIEImrukq7Ye6GPxChx2pbTsQdcNuk0AAKPDAAC461wR8TuYnAwh18YPQQ",
-    "decided_at": "2026-11-09T12:06:58.099417+00:00"
+    "decided_at": "2026-11-09T12:06:58.099417+00:00",
+    "permalink": "https://www.instagram.com/reel/Dfiofe2CIK-/"
   },
   {
     "id": "46dc97e7",
