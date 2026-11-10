@@ -3945,7 +3945,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.16,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1992651",
       "title": "Emotional Dancing",
@@ -3959,7 +3959,8 @@
       "genre": "electronic"
     },
     "msg_id": 1067,
-    "file_id": "BAACAgEAAxkDAAIEK2rv3rRDGiwJ01pGqRwknnMqFVndAAL8CQACCGKAR-YktOoN-ROUPQQ"
+    "file_id": "BAACAgEAAxkDAAIEK2rv3rRDGiwJ01pGqRwknnMqFVndAAL8CQACCGKAR-YktOoN-ROUPQQ",
+    "decided_at": "2026-11-10T04:53:31.453571+00:00"
   },
   {
     "id": "63a36ed0",
@@ -3973,7 +3974,7 @@
     "cta": 4,
     "mode": "exploit",
     "seconds": 5.12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1856950",
       "title": "RnB Chill Trap",
@@ -3987,7 +3988,11 @@
       "genre": "rnb"
     },
     "msg_id": 1068,
-    "file_id": "BAACAgEAAxkDAAIELGrv3sU0MUhs3cAOMuJ_Cw_0RtXJAAL9CQACCGKAR2v086CITxeJPQQ"
+    "file_id": "BAACAgEAAxkDAAIELGrv3sU0MUhs3cAOMuJ_Cw_0RtXJAAL9CQACCGKAR2v086CITxeJPQQ",
+    "decided_at": "2026-11-10T04:53:31.453571+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "20533814"
   },
   {
     "id": "1f8d9c9d",
@@ -4919,5 +4924,34 @@
     },
     "msg_id": 1116,
     "file_id": "BAACAgEAAxkDAAIEXGryoHz0IqEetLc6Aw7xVD0JsOjGAAIOBwACVg2RRwKm4_EpjQhYPQQ"
+  },
+  {
+    "id": "20533814",
+    "slot_key": "2026-11-10 09:30",
+    "slot_iso": "2026-11-10T14:30:00+00:00",
+    "slot_label": "Tue Nov 10, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "pr-size-by-country",
+    "category": "mens_health",
+    "clip_id": "clip77",
+    "cta": 4,
+    "mode": "edited",
+    "seconds": 5.12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1856950",
+      "title": "RnB Chill Trap",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1856950/mp32/",
+      "source": "jamendo",
+      "duration_ms": 123000,
+      "page": "https://www.jamendo.com/track/1856950",
+      "genre": "rnb"
+    },
+    "msg_id": 1119,
+    "file_id": "BAACAgEAAxkDAAIEX2ryo4DnKBR3rlaU4KVxhIPgkYhYAAIVBwACVg2RR-S3vfoj9SSlPQQ",
+    "replaces": "63a36ed0"
   }
 ]
