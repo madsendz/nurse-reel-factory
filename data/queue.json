@@ -4006,7 +4006,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.5,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-181806",
       "title": "Alexandra 02",
@@ -4020,7 +4020,8 @@
       "genre": "pop"
     },
     "msg_id": 1069,
-    "file_id": "BAACAgEAAxkDAAIELWrv3tirVV4rwIB-7YXdCTvSolasAAL-CQACCGKAR9PGpfog7c6-PQQ"
+    "file_id": "BAACAgEAAxkDAAIELWrv3tirVV4rwIB-7YXdCTvSolasAAL-CQACCGKAR9PGpfog7c6-PQQ",
+    "decided_at": "2026-11-10T07:41:50.346785+00:00"
   },
   {
     "id": "c1e18c6a",
@@ -4034,7 +4035,7 @@
     "cta": 3,
     "mode": "explore",
     "seconds": 7.59,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2151100",
       "title": "Deep Fashion Electronic",
@@ -4048,7 +4049,8 @@
       "genre": "pop"
     },
     "msg_id": 1070,
-    "file_id": "BAACAgEAAxkDAAIELmrv3unEbDgVD-FZvjQCAaxKHEBOAAL_CQACCGKAR_420xJUtmBgPQQ"
+    "file_id": "BAACAgEAAxkDAAIELmrv3unEbDgVD-FZvjQCAaxKHEBOAAL_CQACCGKAR_420xJUtmBgPQQ",
+    "decided_at": "2026-11-10T07:41:50.346785+00:00"
   },
   {
     "id": "1bf25496",
@@ -4937,7 +4939,7 @@
     "cta": 4,
     "mode": "edited",
     "seconds": 5.12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1856950",
       "title": "RnB Chill Trap",
@@ -4952,6 +4954,7 @@
     },
     "msg_id": 1119,
     "file_id": "BAACAgEAAxkDAAIEX2ryo4DnKBR3rlaU4KVxhIPgkYhYAAIVBwACVg2RR-S3vfoj9SSlPQQ",
-    "replaces": "63a36ed0"
+    "replaces": "63a36ed0",
+    "decided_at": "2026-11-10T07:41:50.346785+00:00"
   }
 ]
