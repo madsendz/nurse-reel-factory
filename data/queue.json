@@ -1,35 +1,5 @@
 [
   {
-    "id": "1fc37058",
-    "slot_key": "2026-10-31 08:00",
-    "slot_iso": "2026-10-31T12:00:00+00:00",
-    "slot_label": "Sat Oct 31, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-gum-disease-ed",
-    "category": "mens_health",
-    "clip_id": "clip59",
-    "cta": 0,
-    "mode": "explore",
-    "seconds": 12,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1331970",
-      "title": "Faith",
-      "creator": "Neon NiteClub",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1331970/mp32/",
-      "source": "jamendo",
-      "duration_ms": 248000,
-      "page": "https://www.jamendo.com/track/1331970",
-      "genre": "pop"
-    },
-    "msg_id": 784,
-    "file_id": "BAACAgEAAxkDAAIDEGrirvi6XGiCIi2pQBL4oSFcCRHYAALGBgAChhwZR8t40aQzmxEFPQQ",
-    "decided_at": "2026-10-31T03:32:28.320898+00:00",
-    "permalink": "https://www.instagram.com/reel/DfKHnALE7GG/"
-  },
-  {
     "id": "4b360301",
     "slot_key": "2026-10-31 09:30",
     "slot_iso": "2026-10-31T13:30:00+00:00",
@@ -3945,7 +3915,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.16,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1992651",
       "title": "Emotional Dancing",
@@ -3960,7 +3930,8 @@
     },
     "msg_id": 1067,
     "file_id": "BAACAgEAAxkDAAIEK2rv3rRDGiwJ01pGqRwknnMqFVndAAL8CQACCGKAR-YktOoN-ROUPQQ",
-    "decided_at": "2026-11-10T04:53:31.453571+00:00"
+    "decided_at": "2026-11-10T04:53:31.453571+00:00",
+    "permalink": "https://www.instagram.com/reel/Dfj-cVgILb3/"
   },
   {
     "id": "63a36ed0",
