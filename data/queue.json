@@ -3903,7 +3903,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1862341",
       "title": "The Last Day Of Summer",
@@ -3917,7 +3917,8 @@
       "genre": "dance"
     },
     "msg_id": 1088,
-    "file_id": "BAACAgEAAxkDAAIEQGrxMpOhPqcK0gK00v1wYySfvf_1AAIECgACCGKIR-VU-c3sy1ESPQQ"
+    "file_id": "BAACAgEAAxkDAAIEQGrxMpOhPqcK0gK00v1wYySfvf_1AAIECgACCGKIR-VU-c3sy1ESPQQ",
+    "decided_at": "2026-11-11T04:35:46.763764+00:00"
   },
   {
     "id": "8d556e0d",
@@ -3931,7 +3932,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 6.03,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2182937",
       "title": "Electronic Ambient Background Guitar",
@@ -3945,7 +3946,11 @@
       "genre": "electronic"
     },
     "msg_id": 1089,
-    "file_id": "BAACAgEAAxkDAAIEQWrxMqN_f-B7_btG77_io4IHb5uBAAIFCgACCGKIR5t-0Me2aFbyPQQ"
+    "file_id": "BAACAgEAAxkDAAIEQWrxMqN_f-B7_btG77_io4IHb5uBAAIFCgACCGKIR5t-0Me2aFbyPQQ",
+    "decided_at": "2026-11-11T04:35:46.763764+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "609ad119"
   },
   {
     "id": "f8ebb0ce",
@@ -4887,5 +4892,34 @@
     },
     "msg_id": 1136,
     "file_id": "BAACAgEAAxkDAAIEcGrz2HEbXcOBnNnYnWB8FAnaqQ_dAALuCQAC2sWZR35k5_Q_EvpuPQQ"
+  },
+  {
+    "id": "609ad119",
+    "slot_key": "2026-11-11 09:30",
+    "slot_iso": "2026-11-11T14:30:00+00:00",
+    "slot_label": "Wed Nov 11, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "nw-reading-bait",
+    "category": "health_bait",
+    "clip_id": "clip08",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1363926",
+      "title": "Drake- Still Here instrumental (reprod. J Blanked On This Beat)",
+      "creator": "JBlanked",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1363926/mp32/",
+      "source": "jamendo",
+      "duration_ms": 241000,
+      "page": "https://www.jamendo.com/track/1363926",
+      "genre": "trap"
+    },
+    "msg_id": 1139,
+    "file_id": "BAACAgEAAxkDAAIEc2rz8ORIYuNsSTHoJXVrdpOQmzd3AAIfCgAC2sWZRxyC2Or_iwkFPQQ",
+    "replaces": "8d556e0d"
   }
 ]
