@@ -3902,7 +3902,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 6.8,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2037715",
       "title": "Study Beats (Lofi Hip-Hop Ensemble)",
@@ -3916,7 +3916,11 @@
       "genre": "hiphop"
     },
     "msg_id": 1090,
-    "file_id": "BAACAgEAAxkDAAIEQmrxMrhj-TAc6V1sQyiuM2k97ANsAAIGCgACCGKIR-CqJll2oKE1PQQ"
+    "file_id": "BAACAgEAAxkDAAIEQmrxMrhj-TAc6V1sQyiuM2k97ANsAAIGCgACCGKIR-CqJll2oKE1PQQ",
+    "decided_at": "2026-11-11T14:03:58.083800+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "a45a15ec"
   },
   {
     "id": "30b81c2d",
@@ -4843,7 +4847,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1363926",
       "title": "Drake- Still Here instrumental (reprod. J Blanked On This Beat)",
@@ -4858,6 +4862,68 @@
     },
     "msg_id": 1139,
     "file_id": "BAACAgEAAxkDAAIEc2rz8ORIYuNsSTHoJXVrdpOQmzd3AAIfCgAC2sWZRxyC2Or_iwkFPQQ",
-    "replaces": "8d556e0d"
+    "replaces": "8d556e0d",
+    "decided_at": "2026-11-11T14:03:26.935562+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "de69cca8"
+  },
+  {
+    "id": "a45a15ec",
+    "slot_key": "2026-11-11 11:00",
+    "slot_iso": "2026-11-11T16:00:00+00:00",
+    "slot_label": "Wed Nov 11, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-orgasm-brain",
+    "category": "sexual_wellness",
+    "clip_id": "clip18",
+    "cta": 4,
+    "mode": "exploit",
+    "seconds": 6.8,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1930818",
+      "title": "Wonderful Time",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1930818/mp32/",
+      "source": "jamendo",
+      "duration_ms": 132000,
+      "page": "https://www.jamendo.com/track/1930818",
+      "genre": "electronic"
+    },
+    "msg_id": 1142,
+    "file_id": "BAACAgEAAxkDAAIEdmr0deV2Qh2qEnVl2BgI95KkswnpAALOBwAC2sWhR-FbFI_wQex3PQQ",
+    "replaces": "f8ebb0ce"
+  },
+  {
+    "id": "de69cca8",
+    "slot_key": "2026-11-11 09:30",
+    "slot_iso": "2026-11-11T14:30:00+00:00",
+    "slot_label": "Wed Nov 11, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "nw-reading-bait",
+    "category": "health_bait",
+    "clip_id": "clip08",
+    "cta": 0,
+    "mode": "edited",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1363926",
+      "title": "Drake- Still Here instrumental (reprod. J Blanked On This Beat)",
+      "creator": "JBlanked",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1363926/mp32/",
+      "source": "jamendo",
+      "duration_ms": 241000,
+      "page": "https://www.jamendo.com/track/1363926",
+      "genre": "trap"
+    },
+    "msg_id": 1143,
+    "file_id": "BAACAgEAAxkDAAIEd2r0dgMq537sbZrARp9-N2r0j81NAALPBwAC2sWhRyyAc3CQ4O50PQQ",
+    "replaces": "609ad119"
   }
 ]
