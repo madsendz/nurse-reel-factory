@@ -1,35 +1,5 @@
 [
   {
-    "id": "1b9c2135",
-    "slot_key": "2026-11-01 13:00",
-    "slot_iso": "2026-11-01T18:00:00+00:00",
-    "slot_label": "Sun Nov 01, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "pr-precum",
-    "category": "sex_ed",
-    "clip_id": "clip48",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 7.85,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1214977",
-      "title": "Satanic Blues",
-      "creator": "Paolo Orecchia",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1214977/mp32/",
-      "source": "jamendo",
-      "duration_ms": 146000,
-      "page": "https://www.jamendo.com/track/1214977",
-      "genre": "rnb"
-    },
-    "msg_id": 814,
-    "file_id": "BAACAgEAAxkDAAIDLmrkAxq8sZk2VG0zq2Zi-SRmHGkoAAINCAAC1DUgR4-RurH9P4SXPQQ",
-    "decided_at": "2026-11-01T06:46:19.927173+00:00",
-    "permalink": "https://www.instagram.com/reel/DfNVgUkjh43/"
-  },
-  {
     "id": "0e9f3993",
     "slot_key": "2026-11-01 14:30",
     "slot_iso": "2026-11-01T19:30:00+00:00",
@@ -3801,7 +3771,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1206274",
       "title": "Made In Italy",
@@ -3815,7 +3785,11 @@
       "genre": "dance"
     },
     "msg_id": 1093,
-    "file_id": "BAACAgEAAxkDAAIERWrxMv_ckwInFkV8KkKl43D_3z7ZAAIJCgACCGKIRy1i7vFnAi4pPQQ"
+    "file_id": "BAACAgEAAxkDAAIERWrxMv_ckwInFkV8KkKl43D_3z7ZAAIJCgACCGKIRy1i7vFnAi4pPQQ",
+    "decided_at": "2026-11-11T18:50:49.636395+00:00",
+    "redo": "never_topic",
+    "needs_replacement": false,
+    "replaced_by": "8191a72f"
   },
   {
     "id": "3e70f99e",
@@ -4742,5 +4716,34 @@
     "decided_at": "2026-11-11T17:01:18.825880+00:00",
     "post_now": true,
     "permalink": "https://www.instagram.com/reel/DfnBQj4EWkv/"
+  },
+  {
+    "id": "8191a72f",
+    "slot_key": "2026-11-11 14:30",
+    "slot_iso": "2026-11-11T19:30:00+00:00",
+    "slot_label": "Wed Nov 11, 2:30 PM",
+    "post_type": "trial",
+    "item_id": "pr-birth-control-ranked",
+    "category": "sex_ed",
+    "clip_id": "clip02",
+    "cta": 2,
+    "mode": "exploit",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-181806",
+      "title": "Alexandra 02",
+      "creator": "Löhstana David",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/181806/mp32/",
+      "source": "jamendo",
+      "duration_ms": 233000,
+      "page": "https://www.jamendo.com/track/181806",
+      "genre": "pop"
+    },
+    "msg_id": 1148,
+    "file_id": "BAACAgEAAxkDAAIEfGr0uUqqLVj4KKSeso7Pa4mUhHtJAAJJCAAC2sWhR1IpzSKVnQLYPQQ",
+    "replaces": "882747eb"
   }
 ]
