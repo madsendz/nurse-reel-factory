@@ -1,99 +1,5 @@
 [
   {
-    "id": "35815417",
-    "slot_key": "2026-11-01 09:30",
-    "slot_iso": "2026-11-01T14:30:00+00:00",
-    "slot_label": "Sun Nov 01, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-male-g-spot",
-    "category": "anatomy",
-    "clip_id": "clip75",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2290118",
-      "title": "Fashion Week",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2290118/mp32/",
-      "source": "jamendo",
-      "duration_ms": 94000,
-      "page": "https://www.jamendo.com/track/2290118",
-      "genre": "electronic"
-    },
-    "msg_id": 811,
-    "file_id": "BAACAgEAAxkDAAIDK2rkAtxt0itRkwiUI2Abg_Fjs0JeAAIKCAAC1DUgR9I53oo_HURuPQQ",
-    "decided_at": "2026-11-01T01:46:49.740928+00:00",
-    "permalink": "https://www.instagram.com/reel/DfM-Ekijtvo/"
-  },
-  {
-    "id": "848031a7",
-    "slot_key": "2026-11-01 11:00",
-    "slot_iso": "2026-11-01T16:00:00+00:00",
-    "slot_label": "Sun Nov 01, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-male-bio-clock",
-    "category": "mens_health",
-    "clip_id": "clip06",
-    "cta": 0,
-    "mode": "explore",
-    "seconds": 12,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-2176699",
-      "title": "Relax Chill Lofi",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2176699/mp32/",
-      "source": "jamendo",
-      "duration_ms": 106000,
-      "page": "https://www.jamendo.com/track/2176699",
-      "genre": "rnb"
-    },
-    "msg_id": 812,
-    "file_id": "BAACAgEAAxkDAAIDLGrkAvRJYAcxisPbnNC7NEvh1E-eAAILCAAC1DUgR6Hm3BbOL0WMPQQ",
-    "decided_at": "2026-11-01T01:46:49.740928+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "b64fa2f6"
-  },
-  {
-    "id": "862019a3",
-    "slot_key": "2026-11-01 12:00",
-    "slot_iso": "2026-11-01T17:00:00+00:00",
-    "slot_label": "Sun Nov 01, 12:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-t-shots-fertility",
-    "category": "mens_health",
-    "clip_id": "clip67",
-    "cta": 5,
-    "mode": "explore",
-    "seconds": 8.2,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1922534",
-      "title": "Luxury Hip-Hop",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1922534/mp32/",
-      "source": "jamendo",
-      "duration_ms": 131000,
-      "page": "https://www.jamendo.com/track/1922534",
-      "genre": "rnb"
-    },
-    "msg_id": 813,
-    "file_id": "BAACAgEAAxkDAAIDLWrkAwU-9fYNJ_iWP85gkdHFairkAAIMCAAC1DUgRxqWIc7cHqvuPQQ",
-    "decided_at": "2026-11-01T03:18:18.142778+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "970ac6e8"
-  },
-  {
     "id": "1b9c2135",
     "slot_key": "2026-11-01 13:00",
     "slot_iso": "2026-11-01T18:00:00+00:00",
@@ -579,39 +485,6 @@
     "permalink": "https://www.instagram.com/reel/DfQ02eKCbV-/"
   },
   {
-    "id": "b64fa2f6",
-    "slot_key": "2026-11-01 11:00",
-    "slot_iso": "2026-11-01T16:00:00+00:00",
-    "slot_label": "Sun Nov 01, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-hot-flash-years",
-    "category": "sexual_wellness",
-    "clip_id": "clip06",
-    "cta": 0,
-    "mode": "explore",
-    "seconds": 11.7,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1916401",
-      "title": "RnB Chill Trap",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1916401/mp32/",
-      "source": "jamendo",
-      "duration_ms": 123000,
-      "page": "https://www.jamendo.com/track/1916401",
-      "genre": "rnb"
-    },
-    "msg_id": 888,
-    "file_id": "BAACAgEAAxkDAAIDeGrmmku8G0DAb3LFW06YDo1SNpIZAAITCQAC9qMwR5q2C-6nEcOGPQQ",
-    "replaces": "848031a7",
-    "decided_at": "2026-11-01T03:16:35.364304+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "c0534ae6"
-  },
-  {
     "id": "52b3be34",
     "slot_key": "2026-11-03 08:00",
     "slot_iso": "2026-11-03T13:00:00+00:00",
@@ -922,68 +795,6 @@
     "redo": "new_clip",
     "needs_replacement": false,
     "replaced_by": "0b308997"
-  },
-  {
-    "id": "c0534ae6",
-    "slot_key": "2026-11-01 11:00",
-    "slot_iso": "2026-11-01T16:00:00+00:00",
-    "slot_label": "Sun Nov 01, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-orgasm-brain",
-    "category": "sexual_wellness",
-    "clip_id": "clip06",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 11.7,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2160840",
-      "title": "Ambient Inspirational Music",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2160840/mp32/",
-      "source": "jamendo",
-      "duration_ms": 93000,
-      "page": "https://www.jamendo.com/track/2160840",
-      "genre": "pop"
-    },
-    "msg_id": 901,
-    "file_id": "BAACAgEAAxkDAAIDhWrmr03F4SpbWvK3p-Jny8YpXdxBAAJTCQAC9qMwR5OeLkNHXBjUPQQ",
-    "replaces": "b64fa2f6",
-    "decided_at": "2026-11-01T06:46:19.927173+00:00",
-    "permalink": "https://www.instagram.com/reel/DfNHstogcPD/"
-  },
-  {
-    "id": "970ac6e8",
-    "slot_key": "2026-11-01 12:00",
-    "slot_iso": "2026-11-01T17:00:00+00:00",
-    "slot_label": "Sun Nov 01, 12:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-t-shots-fertility",
-    "category": "mens_health",
-    "clip_id": "clip60",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 5.46,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-384173",
-      "title": "Mind drifting back (Leaving paradise)",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384173/mp32/",
-      "source": "jamendo",
-      "duration_ms": 312000,
-      "page": "https://www.jamendo.com/track/384173",
-      "genre": "lounge"
-    },
-    "msg_id": 903,
-    "file_id": "BAACAgEAAxkDAAIDh2rmr7Xodb_lsNwAAUkKUBB5Q9VmawACVAkAAvajMEel52AKciXsJj0E",
-    "replaces": "862019a3",
-    "decided_at": "2026-11-01T06:46:19.927173+00:00",
-    "permalink": "https://www.instagram.com/reel/DfNOZFzDJoD/"
   },
   {
     "id": "8f1ce73d",
@@ -4018,7 +3829,7 @@
     "cta": 4,
     "mode": "explore",
     "seconds": 11.17,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2151100",
       "title": "Deep Fashion Electronic",
@@ -4032,7 +3843,8 @@
       "genre": "pop"
     },
     "msg_id": 1094,
-    "file_id": "BAACAgEAAxkDAAIERmrxMxUjLY9garPsqbNIBBfrdZJIAAIKCgACCGKIR1RWhRmXDAXOPQQ"
+    "file_id": "BAACAgEAAxkDAAIERmrxMxUjLY9garPsqbNIBBfrdZJIAAIKCgACCGKIR1RWhRmXDAXOPQQ",
+    "decided_at": "2026-11-11T17:01:20.710105+00:00"
   },
   {
     "id": "57b36c7a",
@@ -4046,7 +3858,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.16,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1395053",
       "title": "Ninu - I feel this",
@@ -4060,14 +3872,15 @@
       "genre": "trap"
     },
     "msg_id": 1095,
-    "file_id": "BAACAgEAAxkDAAIER2rxMyfscKbOfO0ICUqByoG86zOYAAILCgACCGKIR6JNbozNtd37PQQ"
+    "file_id": "BAACAgEAAxkDAAIER2rxMyfscKbOfO0ICUqByoG86zOYAAILCgACCGKIR6JNbozNtd37PQQ",
+    "decided_at": "2026-11-11T17:01:20.710105+00:00"
   },
   {
     "id": "5c321159",
     "slot_key": "2026-11-11 19:30",
     "slot_iso": "2026-11-12T00:30:00+00:00",
     "slot_label": "Wed Nov 11, 7:30 PM",
-    "post_type": "regular",
+    "post_type": "trial",
     "item_id": "nw-bp-meds-ed",
     "category": "mens_health",
     "clip_id": "clip69b",
@@ -4088,7 +3901,8 @@
       "genre": "pop"
     },
     "msg_id": 1096,
-    "file_id": "BAACAgEAAxkDAAIESGrxMz_a59Eu9M_4N1yXqR8QM1zPAAIMCgACCGKIR9ik6yp3pD3KPQQ"
+    "file_id": "BAACAgEAAxkDAAIESGrxMz_a59Eu9M_4N1yXqR8QM1zPAAIMCgACCGKIR9ik6yp3pD3KPQQ",
+    "decided_at": "2026-11-11T17:01:20.710105+00:00"
   },
   {
     "id": "a1cf3bf8",
@@ -4909,7 +4723,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1363926",
       "title": "Drake- Still Here instrumental (reprod. J Blanked On This Beat)",
@@ -4924,6 +4738,7 @@
     },
     "msg_id": 1143,
     "file_id": "BAACAgEAAxkDAAIEd2r0dgMq537sbZrARp9-N2r0j81NAALPBwAC2sWhRyyAc3CQ4O50PQQ",
-    "replaces": "609ad119"
+    "replaces": "609ad119",
+    "decided_at": "2026-11-11T17:01:18.825880+00:00"
   }
 ]
