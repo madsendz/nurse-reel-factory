@@ -1,35 +1,5 @@
 [
   {
-    "id": "1f38e955",
-    "slot_key": "2026-11-01 17:30",
-    "slot_iso": "2026-11-01T22:30:00+00:00",
-    "slot_label": "Sun Nov 01, 5:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-silent",
-    "category": "sexual_wellness",
-    "clip_id": "clip31",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 11.76,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2173154",
-      "title": "Coffee Lounge",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2173154/mp32/",
-      "source": "jamendo",
-      "duration_ms": 121000,
-      "page": "https://www.jamendo.com/track/2173154",
-      "genre": "lounge"
-    },
-    "msg_id": 817,
-    "file_id": "BAACAgEAAxkDAAIDMWrkA1rUIi5Vpcu9EuaZ9DI6gv4xAAIQCAAC1DUgRzo54krjd4sFPQQ",
-    "decided_at": "2026-11-01T06:46:19.927173+00:00",
-    "permalink": "https://www.instagram.com/reel/DfN0QBNjkeZ/"
-  },
-  {
     "id": "4d978f99",
     "slot_key": "2026-11-01 19:30",
     "slot_iso": "2026-11-02T00:30:00+00:00",
@@ -3773,7 +3743,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.16,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1395053",
       "title": "Ninu - I feel this",
@@ -3788,7 +3758,8 @@
     },
     "msg_id": 1095,
     "file_id": "BAACAgEAAxkDAAIER2rxMyfscKbOfO0ICUqByoG86zOYAAILCgACCGKIR6JNbozNtd37PQQ",
-    "decided_at": "2026-11-11T17:01:20.710105+00:00"
+    "decided_at": "2026-11-11T17:01:20.710105+00:00",
+    "permalink": "https://www.instagram.com/reel/DfnkaJaDNue/"
   },
   {
     "id": "5c321159",
