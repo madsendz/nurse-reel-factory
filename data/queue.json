@@ -1,65 +1,5 @@
 [
   {
-    "id": "0e9f3993",
-    "slot_key": "2026-11-01 14:30",
-    "slot_iso": "2026-11-01T19:30:00+00:00",
-    "slot_label": "Sun Nov 01, 2:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-morning-wood",
-    "category": "mens_health",
-    "clip_id": "clip40",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 10.17,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1992651",
-      "title": "Emotional Dancing",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1992651/mp32/",
-      "source": "jamendo",
-      "duration_ms": 126000,
-      "page": "https://www.jamendo.com/track/1992651",
-      "genre": "hiphop"
-    },
-    "msg_id": 815,
-    "file_id": "BAACAgEAAxkDAAIDL2rkAy4TmelTmE787ZSlxBM_8PH9AAIOCAAC1DUgR7Zg3kSdTZpNPQQ",
-    "decided_at": "2026-11-01T06:46:19.927173+00:00",
-    "permalink": "https://www.instagram.com/reel/DfNfn-GDP7_/"
-  },
-  {
-    "id": "2cf89d60",
-    "slot_key": "2026-11-01 16:00",
-    "slot_iso": "2026-11-01T21:00:00+00:00",
-    "slot_label": "Sun Nov 01, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-kegels-men",
-    "category": "mens_health",
-    "clip_id": "clip63",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 9.46,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-366912",
-      "title": "Club's House DJ",
-      "creator": "Felixjd",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/366912/mp32/",
-      "source": "jamendo",
-      "duration_ms": 396000,
-      "page": "https://www.jamendo.com/track/366912",
-      "genre": "dance"
-    },
-    "msg_id": 816,
-    "file_id": "BAACAgEAAxkDAAIDMGrkA0ZbDrRLNeTkULxhinTUMFHLAAIPCAAC1DUgRwHRQ8_iBOm6PQQ",
-    "decided_at": "2026-11-01T06:46:19.927173+00:00",
-    "permalink": "https://www.instagram.com/reel/DfNp4tFigid/"
-  },
-  {
     "id": "1f38e955",
     "slot_key": "2026-11-01 17:30",
     "slot_iso": "2026-11-01T22:30:00+00:00",
@@ -3803,7 +3743,7 @@
     "cta": 4,
     "mode": "explore",
     "seconds": 11.17,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2151100",
       "title": "Deep Fashion Electronic",
@@ -3818,7 +3758,8 @@
     },
     "msg_id": 1094,
     "file_id": "BAACAgEAAxkDAAIERmrxMxUjLY9garPsqbNIBBfrdZJIAAIKCgACCGKIR1RWhRmXDAXOPQQ",
-    "decided_at": "2026-11-11T17:01:20.710105+00:00"
+    "decided_at": "2026-11-11T17:01:20.710105+00:00",
+    "permalink": "https://www.instagram.com/reel/DfnZ9uxj9zI/"
   },
   {
     "id": "57b36c7a",
@@ -3861,7 +3802,7 @@
     "cta": 3,
     "mode": "explore",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1319541",
       "title": "Gone Crasy (4-Track-Recording-1991)",
@@ -3876,7 +3817,7 @@
     },
     "msg_id": 1096,
     "file_id": "BAACAgEAAxkDAAIESGrxMz_a59Eu9M_4N1yXqR8QM1zPAAIMCgACCGKIR9ik6yp3pD3KPQQ",
-    "decided_at": "2026-11-11T17:01:20.710105+00:00"
+    "decided_at": "2026-11-11T21:01:06.654100+00:00"
   },
   {
     "id": "a1cf3bf8",
@@ -4326,7 +4267,7 @@
     "cta": 1,
     "mode": "edited",
     "seconds": 9.8,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-489246",
       "title": "Back 2 UR",
@@ -4341,7 +4282,8 @@
     },
     "msg_id": 1125,
     "file_id": "BAACAgEAAxkDAAIEZWrzOWNfr63CbDTn6YnjHkCEBl2vAALuCAACVg2ZRyf6WY30dIzUPQQ",
-    "replaces": "a1cf3bf8"
+    "replaces": "a1cf3bf8",
+    "decided_at": "2026-11-11T21:01:06.654100+00:00"
   },
   {
     "id": "b7c8e011",
