@@ -4723,7 +4723,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1363926",
       "title": "Drake- Still Here instrumental (reprod. J Blanked On This Beat)",
@@ -4739,6 +4739,8 @@
     "msg_id": 1143,
     "file_id": "BAACAgEAAxkDAAIEd2r0dgMq537sbZrARp9-N2r0j81NAALPBwAC2sWhRyyAc3CQ4O50PQQ",
     "replaces": "609ad119",
-    "decided_at": "2026-11-11T17:01:18.825880+00:00"
+    "decided_at": "2026-11-11T17:01:18.825880+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/DfnBQj4EWkv/"
   }
 ]
