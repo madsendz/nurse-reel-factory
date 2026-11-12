@@ -243,5 +243,12 @@
     "tries": 2,
     "ratio": 0.42,
     "reason": "2 tries, 0.4x median"
+  },
+  "nw-sleep-t": {
+    "status": "retired",
+    "since": "2026-11-12T02:31:28.081759+00:00",
+    "tries": 2,
+    "ratio": 0.94,
+    "reason": "2 tries, 0.9x median"
   }
 }
