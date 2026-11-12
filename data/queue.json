@@ -1,65 +1,5 @@
 [
   {
-    "id": "cb6a9484",
-    "slot_key": "2026-11-02 11:00",
-    "slot_iso": "2026-11-02T16:00:00+00:00",
-    "slot_label": "Mon Nov 02, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-kissing",
-    "category": "sexual_wellness",
-    "clip_id": "clip33",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 11.27,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-384091",
-      "title": "Lazy beach breaks",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384091/mp32/",
-      "source": "jamendo",
-      "duration_ms": 327000,
-      "page": "https://www.jamendo.com/track/384091",
-      "genre": "lounge"
-    },
-    "msg_id": 858,
-    "file_id": "BAACAgEAAxkDAAIDWmrlUT4Ks5uuubL-6KmKOwQzPP-wAAJzCAAC1DUoRzinQZdBsh-fPQQ",
-    "decided_at": "2026-11-02T00:31:03.088940+00:00",
-    "permalink": "https://www.instagram.com/reel/DfPssMZjRoc/"
-  },
-  {
-    "id": "86e97d55",
-    "slot_key": "2026-11-02 12:00",
-    "slot_iso": "2026-11-02T17:00:00+00:00",
-    "slot_label": "Mon Nov 02, 12:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-vasectomy-myth",
-    "category": "mens_health",
-    "clip_id": "clip44",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 7.31,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1931328",
-      "title": "Dreaming of better days",
-      "creator": "zero-project",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1931328/mp32/",
-      "source": "jamendo",
-      "duration_ms": 432000,
-      "page": "https://www.jamendo.com/track/1931328",
-      "genre": "chillout"
-    },
-    "msg_id": 859,
-    "file_id": "BAACAgEAAxkDAAIDW2rlUVeuF5CGCaxvbgc1je4AAaFJzgACdAgAAtQ1KEdmnhODKV-0aD0E",
-    "decided_at": "2026-11-02T01:37:40.264900+00:00",
-    "permalink": "https://www.instagram.com/reel/DfPzVadFYNT/"
-  },
-  {
     "id": "f37c9b2b",
     "slot_key": "2026-11-02 13:00",
     "slot_iso": "2026-11-02T18:00:00+00:00",
@@ -3805,7 +3745,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 10.96,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -3820,7 +3760,9 @@
     },
     "msg_id": 1109,
     "file_id": "BAACAgEAAxkDAAIEVWryn9q63iMMskQcTAaRpHxOaBO0AAIGBwACVg2RRwS2pbjgGuAAAT0E",
-    "decided_at": "2026-11-12T02:48:35.161399+00:00"
+    "decided_at": "2026-11-12T02:48:35.161399+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/Dfpk8KglGS5/"
   },
   {
     "id": "5f8bdb02",
@@ -4882,7 +4824,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.03,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1403270",
       "title": "Just laugh at it",
@@ -4897,6 +4839,7 @@
     },
     "msg_id": 1166,
     "file_id": "BAACAgEAAxkDAAIEjmr1Q82IGH0F6YIJ--dQRM5i9Tw5AAJ6CgAC2sWpR9XMgUgv_qkXPQQ",
-    "replaces": "ede340bc"
+    "replaces": "ede340bc",
+    "decided_at": "2026-11-12T17:15:30.400065+00:00"
   }
 ]
