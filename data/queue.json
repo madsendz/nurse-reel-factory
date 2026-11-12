@@ -1,35 +1,5 @@
 [
   {
-    "id": "4d978f99",
-    "slot_key": "2026-11-01 19:30",
-    "slot_iso": "2026-11-02T00:30:00+00:00",
-    "slot_label": "Sun Nov 01, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-headache-myth",
-    "category": "health_bait",
-    "clip_id": "clip80",
-    "cta": 5,
-    "mode": "exploit",
-    "seconds": 10.43,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-384090",
-      "title": "Manta-dive",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384090/mp32/",
-      "source": "jamendo",
-      "duration_ms": 197000,
-      "page": "https://www.jamendo.com/track/384090",
-      "genre": "lounge"
-    },
-    "msg_id": 819,
-    "file_id": "BAACAgEAAxkDAAIDM2rkA3BWPmIW8w6v6VfwcNLoD1EVAAIRCAAC1DUgR5fE5oKwxr0LPQQ",
-    "decided_at": "2026-11-01T06:46:19.927173+00:00",
-    "permalink": "https://www.instagram.com/reel/DfOCGy4EY1a/"
-  },
-  {
     "id": "d6b213c1",
     "slot_key": "2026-11-01 21:30",
     "slot_iso": "2026-11-02T02:30:00+00:00",
@@ -3773,7 +3743,7 @@
     "cta": 3,
     "mode": "explore",
     "seconds": 10.0,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1319541",
       "title": "Gone Crasy (4-Track-Recording-1991)",
@@ -3788,7 +3758,8 @@
     },
     "msg_id": 1096,
     "file_id": "BAACAgEAAxkDAAIESGrxMz_a59Eu9M_4N1yXqR8QM1zPAAIMCgACCGKIR9ik6yp3pD3KPQQ",
-    "decided_at": "2026-11-11T21:01:06.654100+00:00"
+    "decided_at": "2026-11-11T21:01:06.654100+00:00",
+    "permalink": "https://www.instagram.com/reel/DfnyJIFij59/"
   },
   {
     "id": "a1cf3bf8",
