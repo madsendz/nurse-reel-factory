@@ -3926,7 +3926,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 9.77,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1871345",
       "title": "TP4",
@@ -3940,7 +3940,8 @@
       "genre": "trap"
     },
     "msg_id": 1110,
-    "file_id": "BAACAgEAAxkDAAIEVmryn_RdkiWvDs9DUJkYoqymjTMqAAIIBwACVg2RR53xsSPHXXzoPQQ"
+    "file_id": "BAACAgEAAxkDAAIEVmryn_RdkiWvDs9DUJkYoqymjTMqAAIIBwACVg2RR53xsSPHXXzoPQQ",
+    "decided_at": "2026-11-12T04:42:10.990522+00:00"
   },
   {
     "id": "cffa70a2",
@@ -4629,7 +4630,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 6.03,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1206517",
       "title": "DJ Smallest - Chill",
@@ -4644,7 +4645,11 @@
     },
     "msg_id": 1151,
     "file_id": "BAACAgEAAxkDAAIEf2r1KUKkEB8Cn_TeEgxnM953WM7EAAJMCgAC2sWpRyJRbLc3sw2KPQQ",
-    "replaces": "3378b8eb"
+    "replaces": "3378b8eb",
+    "decided_at": "2026-11-12T04:42:10.990522+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "5f9bc942"
   },
   {
     "id": "2ecebc80",
@@ -4658,7 +4663,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.57,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1307225",
       "title": "This Ain't Love",
@@ -4673,7 +4678,8 @@
     },
     "msg_id": 1153,
     "file_id": "BAACAgEAAxkDAAIEgWr1KdMwrdlsPLSb7O4WIqjoKc0xAAJNCgAC2sWpR8Wn4SbanHPXPQQ",
-    "replaces": "65ef051e"
+    "replaces": "65ef051e",
+    "decided_at": "2026-11-12T04:42:10.990522+00:00"
   },
   {
     "id": "60d79573",
@@ -4954,5 +4960,34 @@
     },
     "msg_id": 1163,
     "file_id": "BAACAgEAAxkDAAIEi2r1OBt20h0rR_jcZw1w3RlilNbUAAJ2CgAC2sWpR7EkuAeQeZ5DPQQ"
+  },
+  {
+    "id": "5f9bc942",
+    "slot_key": "2026-11-12 16:00",
+    "slot_iso": "2026-11-12T21:00:00+00:00",
+    "slot_label": "Thu Nov 12, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-ed-heart",
+    "category": "mens_health",
+    "clip_id": "clip86",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 6.03,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1403270",
+      "title": "Just laugh at it",
+      "creator": "Buzzy Boys",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1403270/mp32/",
+      "source": "jamendo",
+      "duration_ms": 242000,
+      "page": "https://www.jamendo.com/track/1403270",
+      "genre": "rnb"
+    },
+    "msg_id": 1166,
+    "file_id": "BAACAgEAAxkDAAIEjmr1Q82IGH0F6YIJ--dQRM5i9Tw5AAJ6CgAC2sWpR9XMgUgv_qkXPQQ",
+    "replaces": "ede340bc"
   }
 ]
