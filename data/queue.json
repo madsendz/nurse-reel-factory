@@ -3864,7 +3864,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 9.33,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2290118",
       "title": "Fashion Week",
@@ -3878,7 +3878,8 @@
       "genre": "electronic"
     },
     "msg_id": 1108,
-    "file_id": "BAACAgEAAxkDAAIEVGryn8FkMECr5yVUGo5UosQiWLwZAAIFBwACVg2RR-ZfiPPq_JOTPQQ"
+    "file_id": "BAACAgEAAxkDAAIEVGryn8FkMECr5yVUGo5UosQiWLwZAAIFBwACVg2RR-ZfiPPq_JOTPQQ",
+    "decided_at": "2026-11-12T02:48:35.161399+00:00"
   },
   {
     "id": "72042eb0",
@@ -3892,7 +3893,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 10.96,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -3906,7 +3907,8 @@
       "genre": "dance"
     },
     "msg_id": 1109,
-    "file_id": "BAACAgEAAxkDAAIEVWryn9q63iMMskQcTAaRpHxOaBO0AAIGBwACVg2RRwS2pbjgGuAAAT0E"
+    "file_id": "BAACAgEAAxkDAAIEVWryn9q63iMMskQcTAaRpHxOaBO0AAIGBwACVg2RRwS2pbjgGuAAAT0E",
+    "decided_at": "2026-11-12T02:48:35.161399+00:00"
   },
   {
     "id": "5f8bdb02",
@@ -3948,7 +3950,7 @@
     "cta": 4,
     "mode": "exploit",
     "seconds": 10.52,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384095",
       "title": "Like King Cool in a sunbed",
@@ -3962,7 +3964,8 @@
       "genre": "pop"
     },
     "msg_id": 1111,
-    "file_id": "BAACAgEAAxkDAAIEV2ryoBA-EXdryymJgDwonWp3nyb3AAIJBwACVg2RRyi_X-1Kb2UpPQQ"
+    "file_id": "BAACAgEAAxkDAAIEV2ryoBA-EXdryymJgDwonWp3nyb3AAIJBwACVg2RRyi_X-1Kb2UpPQQ",
+    "decided_at": "2026-11-12T02:48:35.161399+00:00"
   },
   {
     "id": "517e1bdf",
@@ -3976,7 +3979,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.55,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1702676",
       "title": "Daydream",
@@ -3990,7 +3993,8 @@
       "genre": "lounge"
     },
     "msg_id": 1112,
-    "file_id": "BAACAgEAAxkDAAIEWGryoCwhe5L9D3zHisFiihzVTZyJAAIKBwACVg2RRxq43oeWeVFLPQQ"
+    "file_id": "BAACAgEAAxkDAAIEWGryoCwhe5L9D3zHisFiihzVTZyJAAIKBwACVg2RRxq43oeWeVFLPQQ",
+    "decided_at": "2026-11-12T02:48:35.161399+00:00"
   },
   {
     "id": "3378b8eb",
@@ -4004,7 +4008,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.03,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1267753",
       "title": "Ghosts",
@@ -4018,7 +4022,11 @@
       "genre": "electronic"
     },
     "msg_id": 1113,
-    "file_id": "BAACAgEAAxkDAAIEWWryoD4mNgFQNhN0ikH1GVMCol7ZAAILBwACVg2RR68CViBkV2M0PQQ"
+    "file_id": "BAACAgEAAxkDAAIEWWryoD4mNgFQNhN0ikH1GVMCol7ZAAILBwACVg2RR68CViBkV2M0PQQ",
+    "decided_at": "2026-11-12T02:48:35.161399+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "ede340bc"
   },
   {
     "id": "b2cca061",
@@ -4601,5 +4609,34 @@
     "msg_id": 1148,
     "file_id": "BAACAgEAAxkDAAIEfGr0uUqqLVj4KKSeso7Pa4mUhHtJAAJJCAAC2sWhR1IpzSKVnQLYPQQ",
     "replaces": "882747eb"
+  },
+  {
+    "id": "ede340bc",
+    "slot_key": "2026-11-12 16:00",
+    "slot_iso": "2026-11-12T21:00:00+00:00",
+    "slot_label": "Thu Nov 12, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-clit-nerves",
+    "category": "anatomy",
+    "clip_id": "clip86",
+    "cta": 1,
+    "mode": "explore",
+    "seconds": 6.03,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1206517",
+      "title": "DJ Smallest - Chill",
+      "creator": "Smallest",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1206517/mp32/",
+      "source": "jamendo",
+      "duration_ms": 170000,
+      "page": "https://www.jamendo.com/track/1206517",
+      "genre": "chillout"
+    },
+    "msg_id": 1151,
+    "file_id": "BAACAgEAAxkDAAIEf2r1KUKkEB8Cn_TeEgxnM953WM7EAAJMCgAC2sWpRyJRbLc3sw2KPQQ",
+    "replaces": "3378b8eb"
   }
 ]
