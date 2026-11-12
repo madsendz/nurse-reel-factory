@@ -3836,7 +3836,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.63,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1331970",
       "title": "Faith",
@@ -3850,7 +3850,11 @@
       "genre": "pop"
     },
     "msg_id": 1107,
-    "file_id": "BAACAgEAAxkDAAIEU2ryn6wzaq0rTSHSp3aKeqR5zxl-AAIEBwACVg2RR9ErN9Oap55LPQQ"
+    "file_id": "BAACAgEAAxkDAAIEU2ryn6wzaq0rTSHSp3aKeqR5zxl-AAIEBwACVg2RR9ErN9Oap55LPQQ",
+    "decided_at": "2026-11-12T02:50:53.729493+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "2ecebc80"
   },
   {
     "id": "a87c3525",
@@ -4040,7 +4044,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 5.12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1182292",
       "title": "Spasm",
@@ -4054,7 +4058,8 @@
       "genre": "hiphop"
     },
     "msg_id": 1114,
-    "file_id": "BAACAgEAAxkDAAIEWmryoFGafXq2LWVuArIi2_yWuP6hAAIMBwACVg2RR9KAwfNIObaBPQQ"
+    "file_id": "BAACAgEAAxkDAAIEWmryoFGafXq2LWVuArIi2_yWuP6hAAIMBwACVg2RR9KAwfNIObaBPQQ",
+    "decided_at": "2026-11-12T02:50:53.729493+00:00"
   },
   {
     "id": "b8dedd57",
@@ -4068,7 +4073,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 9.03,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1320534",
       "title": "Neith",
@@ -4082,7 +4087,8 @@
       "genre": "trap"
     },
     "msg_id": 1115,
-    "file_id": "BAACAgEAAxkDAAIEW2ryoGnDp8Y4A9_gJiEKDf8stvMSAAINBwACVg2RR8TZieUCjiuaPQQ"
+    "file_id": "BAACAgEAAxkDAAIEW2ryoGnDp8Y4A9_gJiEKDf8stvMSAAINBwACVg2RR8TZieUCjiuaPQQ",
+    "decided_at": "2026-11-12T02:50:53.729493+00:00"
   },
   {
     "id": "16aca928",
@@ -4096,7 +4102,7 @@
     "cta": 4,
     "mode": "exploit",
     "seconds": 6.63,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -4110,7 +4116,8 @@
       "genre": "hiphop"
     },
     "msg_id": 1116,
-    "file_id": "BAACAgEAAxkDAAIEXGryoHz0IqEetLc6Aw7xVD0JsOjGAAIOBwACVg2RRwKm4_EpjQhYPQQ"
+    "file_id": "BAACAgEAAxkDAAIEXGryoHz0IqEetLc6Aw7xVD0JsOjGAAIOBwACVg2RRwKm4_EpjQhYPQQ",
+    "decided_at": "2026-11-12T02:50:53.729493+00:00"
   },
   {
     "id": "20533814",
@@ -4638,5 +4645,34 @@
     "msg_id": 1151,
     "file_id": "BAACAgEAAxkDAAIEf2r1KUKkEB8Cn_TeEgxnM953WM7EAAJMCgAC2sWpRyJRbLc3sw2KPQQ",
     "replaces": "3378b8eb"
+  },
+  {
+    "id": "2ecebc80",
+    "slot_key": "2026-11-12 08:00",
+    "slot_iso": "2026-11-12T13:00:00+00:00",
+    "slot_label": "Thu Nov 12, 8:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-penetration-alone",
+    "category": "sex_ed",
+    "clip_id": "clip19",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 9.57,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1307225",
+      "title": "This Ain't Love",
+      "creator": "Jyant",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1307225/mp32/",
+      "source": "jamendo",
+      "duration_ms": 220000,
+      "page": "https://www.jamendo.com/track/1307225",
+      "genre": "hiphop"
+    },
+    "msg_id": 1153,
+    "file_id": "BAACAgEAAxkDAAIEgWr1KdMwrdlsPLSb7O4WIqjoKc0xAAJNCgAC2sWpR8Wn4SbanHPXPQQ",
+    "replaces": "65ef051e"
   }
 ]
