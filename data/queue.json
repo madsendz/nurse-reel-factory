@@ -1,35 +1,5 @@
 [
   {
-    "id": "298958c4",
-    "slot_key": "2026-11-02 09:30",
-    "slot_iso": "2026-11-02T14:30:00+00:00",
-    "slot_label": "Mon Nov 02, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "nw-condom-break",
-    "category": "sex_ed",
-    "clip_id": "clip03",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-43679",
-      "title": "Ocean fantasy",
-      "creator": "St Adam",
-      "license": "by",
-      "license_version": "",
-      "url": "https://prod-1.storage.jamendo.com/download/track/43679/mp32/",
-      "source": "jamendo",
-      "duration_ms": 186000,
-      "page": "https://www.jamendo.com/track/43679",
-      "genre": "lounge"
-    },
-    "msg_id": 857,
-    "file_id": "BAACAgEAAxkDAAIDWWrlUSMWGjH1pNc6pR8u3K-M1bNeAAJyCAAC1DUoR2WEilpWFenTPQQ",
-    "decided_at": "2026-11-02T00:31:03.088940+00:00",
-    "permalink": "https://www.instagram.com/reel/DfPiSLTiYvR/"
-  },
-  {
     "id": "cb6a9484",
     "slot_key": "2026-11-02 11:00",
     "slot_iso": "2026-11-02T16:00:00+00:00",
@@ -3805,7 +3775,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 9.33,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2290118",
       "title": "Fashion Week",
@@ -3820,7 +3790,8 @@
     },
     "msg_id": 1108,
     "file_id": "BAACAgEAAxkDAAIEVGryn8FkMECr5yVUGo5UosQiWLwZAAIFBwACVg2RR-ZfiPPq_JOTPQQ",
-    "decided_at": "2026-11-12T02:48:35.161399+00:00"
+    "decided_at": "2026-11-12T02:48:35.161399+00:00",
+    "permalink": "https://www.instagram.com/reel/DfpS-iFCc00/"
   },
   {
     "id": "72042eb0",
