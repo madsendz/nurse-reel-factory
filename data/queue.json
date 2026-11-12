@@ -1,37 +1,5 @@
 [
   {
-    "id": "f37c9b2b",
-    "slot_key": "2026-11-02 13:00",
-    "slot_iso": "2026-11-02T18:00:00+00:00",
-    "slot_label": "Mon Nov 02, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "nw-trich-common",
-    "category": "sex_ed",
-    "clip_id": "clip81",
-    "cta": 0,
-    "mode": "explore",
-    "seconds": 9.77,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1129271",
-      "title": "Energy",
-      "creator": "Pokki DJ",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1129271/mp32/",
-      "source": "jamendo",
-      "duration_ms": 230000,
-      "page": "https://www.jamendo.com/track/1129271",
-      "genre": "dance"
-    },
-    "msg_id": 860,
-    "file_id": "BAACAgEAAxkDAAIDXGrlUXOCeJEiz-TjwAABSLlQ16IeFgACdQgAAtQ1KEfk9XSNdu5lMD0E",
-    "decided_at": "2026-11-02T01:37:40.264900+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "6e7506b2"
-  },
-  {
     "id": "ad061ac6",
     "slot_key": "2026-11-02 14:30",
     "slot_iso": "2026-11-02T19:30:00+00:00",
@@ -494,37 +462,6 @@
     "redo": "new_clip",
     "needs_replacement": false,
     "replaced_by": "0b308997"
-  },
-  {
-    "id": "6e7506b2",
-    "slot_key": "2026-11-02 13:00",
-    "slot_iso": "2026-11-02T18:00:00+00:00",
-    "slot_label": "Mon Nov 02, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "nw-balls-temp",
-    "category": "mens_health",
-    "clip_id": "clip81",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 9.77,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1702676",
-      "title": "Daydream",
-      "creator": "zero-project",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1702676/mp32/",
-      "source": "jamendo",
-      "duration_ms": 258000,
-      "page": "https://www.jamendo.com/track/1702676",
-      "genre": "lounge"
-    },
-    "msg_id": 916,
-    "file_id": "BAACAgEAAxkDAAIDlGrn6atz9sn2ffHW627j5J_8Zu6wAAJ-DQAC3o1AR7j9yD7rf_ZOPQQ",
-    "replaces": "f37c9b2b",
-    "decided_at": "2026-11-02T09:56:55.698141+00:00",
-    "permalink": "https://www.instagram.com/reel/DfP658FgH2V/"
   },
   {
     "id": "58abb172",
@@ -3776,7 +3713,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 9.77,
-    "status": "approved",
+    "status": "missed",
     "music": {
       "id": "jamendo-1871345",
       "title": "TP4",
@@ -3805,7 +3742,7 @@
     "cta": 4,
     "mode": "exploit",
     "seconds": 10.52,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-384095",
       "title": "Like King Cool in a sunbed",
@@ -3820,7 +3757,8 @@
     },
     "msg_id": 1111,
     "file_id": "BAACAgEAAxkDAAIEV2ryoBA-EXdryymJgDwonWp3nyb3AAIJBwACVg2RRyi_X-1Kb2UpPQQ",
-    "decided_at": "2026-11-12T02:48:35.161399+00:00"
+    "decided_at": "2026-11-12T02:48:35.161399+00:00",
+    "permalink": "https://www.instagram.com/reel/DfprVBBgs0X/"
   },
   {
     "id": "517e1bdf",
