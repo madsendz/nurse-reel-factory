@@ -1,35 +1,5 @@
 [
   {
-    "id": "ad061ac6",
-    "slot_key": "2026-11-02 14:30",
-    "slot_iso": "2026-11-02T19:30:00+00:00",
-    "slot_label": "Mon Nov 02, 2:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-boxers-briefs",
-    "category": "mens_health",
-    "clip_id": "clip35",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 7.35,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1904519",
-      "title": "Downtempo Lounge Fashion",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1904519/mp32/",
-      "source": "jamendo",
-      "duration_ms": 148000,
-      "page": "https://www.jamendo.com/track/1904519",
-      "genre": "lounge"
-    },
-    "msg_id": 861,
-    "file_id": "BAACAgEAAxkDAAIDXWrlUY1UEcG1Yt2-k-asLajY8h9pAAJ2CAAC1DUoR_UVicwebzU7PQQ",
-    "decided_at": "2026-11-02T09:56:55.698141+00:00",
-    "permalink": "https://www.instagram.com/reel/DfQE7-DCjhP/"
-  },
-  {
     "id": "e628045d",
     "slot_key": "2026-11-02 16:00",
     "slot_iso": "2026-11-02T21:00:00+00:00",
@@ -3772,7 +3742,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.55,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1702676",
       "title": "Daydream",
@@ -3787,7 +3757,8 @@
     },
     "msg_id": 1112,
     "file_id": "BAACAgEAAxkDAAIEWGryoCwhe5L9D3zHisFiihzVTZyJAAIKBwACVg2RRxq43oeWeVFLPQQ",
-    "decided_at": "2026-11-12T02:48:35.161399+00:00"
+    "decided_at": "2026-11-12T02:48:35.161399+00:00",
+    "permalink": "https://www.instagram.com/reel/Dfp0yWmFfTP/"
   },
   {
     "id": "3378b8eb",
