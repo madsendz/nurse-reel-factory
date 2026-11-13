@@ -1,35 +1,5 @@
 [
   {
-    "id": "93f68e64",
-    "slot_key": "2026-11-02 21:30",
-    "slot_iso": "2026-11-03T02:30:00+00:00",
-    "slot_label": "Mon Nov 02, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-women-secretly-attractive",
-    "category": "sexual_wellness",
-    "clip_id": "clip08",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-764958",
-      "title": "A Thousand Skins (Part 1) (Instrumental Version)",
-      "creator": "Josh Woodward (Instrumental Versions)",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/764958/mp32/",
-      "source": "jamendo",
-      "duration_ms": 356000,
-      "page": "https://www.jamendo.com/track/764958",
-      "genre": "pop"
-    },
-    "msg_id": 865,
-    "file_id": "BAACAgEAAxkDAAIDYWrlUiEHwPWujwjlxueRykxtp1OjAAJ8CAAC1DUoR00HnRqMWAoRPQQ",
-    "decided_at": "2026-11-02T09:56:55.698141+00:00",
-    "permalink": "https://www.instagram.com/reel/DfQ02eKCbV-/"
-  },
-  {
     "id": "52b3be34",
     "slot_key": "2026-11-03 08:00",
     "slot_iso": "2026-11-03T13:00:00+00:00",
@@ -3740,7 +3710,7 @@
     "cta": 4,
     "mode": "exploit",
     "seconds": 6.63,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -3755,7 +3725,8 @@
     },
     "msg_id": 1116,
     "file_id": "BAACAgEAAxkDAAIEXGryoHz0IqEetLc6Aw7xVD0JsOjGAAIOBwACVg2RRwKm4_EpjQhYPQQ",
-    "decided_at": "2026-11-12T02:50:53.729493+00:00"
+    "decided_at": "2026-11-12T02:50:53.729493+00:00",
+    "permalink": "https://www.instagram.com/reel/Dfqk3eFDdb6/"
   },
   {
     "id": "20533814",
