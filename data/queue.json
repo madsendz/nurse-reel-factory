@@ -1,37 +1,5 @@
 [
   {
-    "id": "7375af2e",
-    "slot_key": "2026-11-03 14:30",
-    "slot_iso": "2026-11-03T19:30:00+00:00",
-    "slot_label": "Tue Nov 03, 2:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-size-birth-month",
-    "category": "mens_health",
-    "clip_id": "clip45",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 11.12,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1892348",
-      "title": "Georgetown Cafe",
-      "creator": "Popoi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1892348/mp32/",
-      "source": "jamendo",
-      "duration_ms": 148000,
-      "page": "https://www.jamendo.com/track/1892348",
-      "genre": "lounge"
-    },
-    "msg_id": 894,
-    "file_id": "BAACAgEAAxkDAAIDfmrmoOW8-Of_622XOJFumqA-DL3KAAItCQAC9qMwR6shfDAGz3IvPQQ",
-    "decided_at": "2026-11-03T17:58:36.235297+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "ba3e21ab"
-  },
-  {
     "id": "b8f9b841",
     "slot_key": "2026-11-03 16:00",
     "slot_iso": "2026-11-03T21:00:00+00:00",
@@ -761,36 +729,6 @@
     "redo": "new_topic",
     "needs_replacement": false,
     "replaced_by": "9c60f226"
-  },
-  {
-    "id": "ba3e21ab",
-    "slot_key": "2026-11-03 14:30",
-    "slot_iso": "2026-11-03T19:30:00+00:00",
-    "slot_label": "Tue Nov 03, 2:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-calories",
-    "category": "health_bait",
-    "clip_id": "clip45",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 11.12,
-    "status": "missed",
-    "music": {
-      "id": "jamendo-2160840",
-      "title": "Ambient Inspirational Music",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2160840/mp32/",
-      "source": "jamendo",
-      "duration_ms": 93000,
-      "page": "https://www.jamendo.com/track/2160840",
-      "genre": "pop"
-    },
-    "msg_id": 971,
-    "file_id": "BAACAgEAAxkDAAIDy2rqIRDXC7wDsdAoklhVEfKvhsdiAAIrCAACzttRR15u33Hd165mPQQ",
-    "replaces": "7375af2e",
-    "decided_at": "2026-11-03T18:26:06.393596+00:00"
   },
   {
     "id": "43dc4732",
@@ -3738,7 +3676,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1395053",
       "title": "Ninu - I feel this",
@@ -3753,7 +3691,8 @@
     },
     "msg_id": 1132,
     "file_id": "BAACAgEAAxkDAAIEbGrz1-2a15D5f3gyVXyF9qSgFWe-AALqCQAC2sWZR2-DKg4nKi8wPQQ",
-    "decided_at": "2026-11-13T15:57:48.924186+00:00"
+    "decided_at": "2026-11-13T15:57:48.924186+00:00",
+    "permalink": "https://www.instagram.com/reel/DfsZzHZFXxX/"
   },
   {
     "id": "c61a38e7",

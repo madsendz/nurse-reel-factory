@@ -6,16 +6,16 @@ Judged reels: **156** · score = link clicks first, then views/shares/saves
 
 | Score | Type | Clicks | Views | Shares | Topic | Clip | Posted |
 |---|---|---|---|---|---|---|---|
-| +2.40 | trial | 323.1 | 1353498 | 50747 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
-| +2.03 | trial | 598.7 | 829428 | 106 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
-| +1.71 | trial | 471.1 | 349674 | 39 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
-| +1.54 | trial | 88.6 | 616828 | 450 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
-| +1.51 | regular | 124.2 | 462150 | 3946 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
-| +1.50 | regular | 386.4 | 176205 | 897 | [pr-stamina-foods](https://www.instagram.com/reel/Dedc32xDs80/) | clip26 | 2026-10-14 |
-| +1.40 | regular | 127.3 | 557214 | 504 | [nw-notice-first](https://www.instagram.com/reel/DeuU9sEjfCr/) | clip24 | 2026-10-20 |
-| +1.39 | trial | 1293.8 | 23246 | 3 | [nw-orgasm-gap](https://www.instagram.com/reel/Dek8CnKAP69/) | clip04 | 2026-10-17 |
-| +1.38 | trial | 28.6 | 611215 | 2009 | [pr-frequency-age](https://www.instagram.com/reel/De98Bd1iBs2/) | clip09 | 2026-10-26 |
-| +1.21 | trial | 4.7 | 1062119 | 16206 | [pr-period-sex](https://www.instagram.com/reel/DfAIpEVFXGV/) | clip79 | 2026-10-27 |
+| +2.40 | trial | 323.1 | 1354139 | 50757 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
+| +2.03 | trial | 598.7 | 829432 | 106 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
+| +1.71 | trial | 471.1 | 349678 | 39 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
+| +1.54 | trial | 88.6 | 616877 | 450 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
+| +1.51 | regular | 124.2 | 462434 | 3947 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
+| +1.50 | regular | 386.4 | 176206 | 897 | [pr-stamina-foods](https://www.instagram.com/reel/Dedc32xDs80/) | clip26 | 2026-10-14 |
+| +1.40 | regular | 127.3 | 557448 | 504 | [nw-notice-first](https://www.instagram.com/reel/DeuU9sEjfCr/) | clip24 | 2026-10-20 |
+| +1.39 | trial | 1293.8 | 23249 | 3 | [nw-orgasm-gap](https://www.instagram.com/reel/Dek8CnKAP69/) | clip04 | 2026-10-17 |
+| +1.38 | trial | 28.6 | 611844 | 2009 | [pr-frequency-age](https://www.instagram.com/reel/De98Bd1iBs2/) | clip09 | 2026-10-26 |
+| +1.21 | trial | 4.7 | 1062496 | 16211 | [pr-period-sex](https://www.instagram.com/reel/DfAIpEVFXGV/) | clip79 | 2026-10-27 |
 
 ## Hook styles
 
@@ -38,7 +38,7 @@ Judged reels: **156** · score = link clicks first, then views/shares/saves
 | Value | Strength | Reels |
 |---|---|---|
 | anatomy | +0.03 | 2 |
-| sex_ed | -0.06 | 41 |
+| sex_ed | -0.05 | 41 |
 | sexual_wellness | -0.09 | 40 |
 | mens_health | -0.14 | 67 |
 | health_bait | -0.22 | 6 |
@@ -75,8 +75,8 @@ Judged reels: **156** · score = link clicks first, then views/shares/saves
 | clip50 | +0.06 | 1 |
 | clip54 | +0.05 | 1 |
 | clip35 | +0.04 | 3 |
-| clip69c | +0.03 | 1 |
 | clip70 | +0.03 | 2 |
+| clip69c | +0.03 | 1 |
 | clip31 | +0.02 | 2 |
 | clip62 | +0.02 | 1 |
 | clip12 | +0.02 | 2 |
@@ -94,8 +94,8 @@ Judged reels: **156** · score = link clicks first, then views/shares/saves
 | clip77 | -0.10 | 2 |
 | clip02 | -0.10 | 2 |
 | clip29 | -0.10 | 1 |
-| clip80 | -0.11 | 3 |
 | clip84 | -0.11 | 1 |
+| clip80 | -0.11 | 3 |
 | clip23 | -0.12 | 1 |
 | clip72 | -0.14 | 1 |
 | clip75 | -0.14 | 2 |
@@ -103,8 +103,8 @@ Judged reels: **156** · score = link clicks first, then views/shares/saves
 | clip58 | -0.16 | 3 |
 | clip48 | -0.16 | 1 |
 | clip88 | -0.17 | 2 |
+| clip87 | -0.18 | 3 |
 | clip60 | -0.18 | 3 |
-| clip87 | -0.19 | 3 |
 | clip43 | -0.19 | 1 |
 | clip73 | -0.20 | 1 |
 | clip52 | -0.21 | 3 |
@@ -121,7 +121,7 @@ Judged reels: **156** · score = link clicks first, then views/shares/saves
 | clip13 | -0.32 | 3 |
 | clip10 | -0.33 | 1 |
 | clip03 | -0.33 | 2 |
-| clip25 | -0.33 | 3 |
+| clip25 | -0.34 | 3 |
 | clip06 | -0.43 | 2 |
 | clip17 | -0.44 | 1 |
 | clip49 | -0.52 | 2 |
