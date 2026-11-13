@@ -1,37 +1,5 @@
 [
   {
-    "id": "b8f9b841",
-    "slot_key": "2026-11-03 16:00",
-    "slot_iso": "2026-11-03T21:00:00+00:00",
-    "slot_label": "Tue Nov 03, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-sperm-five-days",
-    "category": "sex_ed",
-    "clip_id": "clip54",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 6.48,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-2290118",
-      "title": "Fashion Week",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2290118/mp32/",
-      "source": "jamendo",
-      "duration_ms": 94000,
-      "page": "https://www.jamendo.com/track/2290118",
-      "genre": "electronic"
-    },
-    "msg_id": 895,
-    "file_id": "BAACAgEAAxkDAAIDf2rmoPO-9U-EnBNRgN5UtI3SUfKYAAIuCQAC9qMwR96HYEoS4eePPQQ",
-    "decided_at": "2026-11-03T17:58:36.235297+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "43dc4732"
-  },
-  {
     "id": "22b245a0",
     "slot_key": "2026-11-03 17:30",
     "slot_iso": "2026-11-03T22:30:00+00:00",
@@ -729,36 +697,6 @@
     "redo": "new_topic",
     "needs_replacement": false,
     "replaced_by": "9c60f226"
-  },
-  {
-    "id": "43dc4732",
-    "slot_key": "2026-11-03 16:00",
-    "slot_iso": "2026-11-03T21:00:00+00:00",
-    "slot_label": "Tue Nov 03, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-sperm-five-days",
-    "category": "sex_ed",
-    "clip_id": "clip86",
-    "cta": 5,
-    "mode": "exploit",
-    "seconds": 6.03,
-    "status": "missed",
-    "music": {
-      "id": "jamendo-1945492",
-      "title": "Do not disturb",
-      "creator": "zero-project",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1945492/mp32/",
-      "source": "jamendo",
-      "duration_ms": 280000,
-      "page": "https://www.jamendo.com/track/1945492",
-      "genre": "chillout"
-    },
-    "msg_id": 972,
-    "file_id": "BAACAgEAAxkDAAIDzGrqISN-YhYEMWd3txr9m95KftjHAAIsCAACzttRR-2X-udEF27KPQQ",
-    "replaces": "b8f9b841",
-    "decided_at": "2026-11-03T18:26:06.393596+00:00"
   },
   {
     "id": "0b308997",
@@ -3706,7 +3644,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-764958",
       "title": "A Thousand Skins (Part 1) (Instrumental Version)",
@@ -3721,7 +3659,8 @@
     },
     "msg_id": 1133,
     "file_id": "BAACAgEAAxkDAAIEbWrz2BQaz7THeCjM2gP4OZbnS36mAALrCQAC2sWZR6ZvRiTWV3eZPQQ",
-    "decided_at": "2026-11-13T15:57:48.924186+00:00"
+    "decided_at": "2026-11-13T15:57:48.924186+00:00",
+    "permalink": "https://www.instagram.com/reel/Dfsjt0Sj-f0/"
   },
   {
     "id": "405bff2e",
