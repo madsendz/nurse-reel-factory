@@ -1,35 +1,5 @@
 [
   {
-    "id": "d02b3f21",
-    "slot_key": "2026-11-02 19:30",
-    "slot_iso": "2026-11-03T00:30:00+00:00",
-    "slot_label": "Mon Nov 02, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-orgasm-gap",
-    "category": "sex_ed",
-    "clip_id": "clip87",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1862341",
-      "title": "The Last Day Of Summer",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1862341/mp32/",
-      "source": "jamendo",
-      "duration_ms": 120000,
-      "page": "https://www.jamendo.com/track/1862341",
-      "genre": "dance"
-    },
-    "msg_id": 864,
-    "file_id": "BAACAgEAAxkDAAIDYGrlUf4aKN-7ThKMLkte3oib2QyTAAJ6CAAC1DUoR9_7LN3QiSJBPQQ",
-    "decided_at": "2026-11-02T09:56:55.698141+00:00",
-    "permalink": "https://www.instagram.com/reel/DfQnDHBiLNG/"
-  },
-  {
     "id": "93f68e64",
     "slot_key": "2026-11-02 21:30",
     "slot_iso": "2026-11-03T02:30:00+00:00",
@@ -3740,7 +3710,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 9.03,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1320534",
       "title": "Neith",
@@ -3755,7 +3725,8 @@
     },
     "msg_id": 1115,
     "file_id": "BAACAgEAAxkDAAIEW2ryoGnDp8Y4A9_gJiEKDf8stvMSAAINBwACVg2RR8TZieUCjiuaPQQ",
-    "decided_at": "2026-11-12T02:50:53.729493+00:00"
+    "decided_at": "2026-11-12T02:50:53.729493+00:00",
+    "permalink": "https://www.instagram.com/reel/DfqWxi5gkqO/"
   },
   {
     "id": "16aca928",

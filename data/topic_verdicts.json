@@ -1,10 +1,10 @@
 {
   "pr-precum": {
-    "status": "active",
-    "since": "2026-11-05T13:01:30.133183+00:00",
-    "tries": 3,
-    "ratio": 0.44,
-    "reason": "last 3 reposts under the median"
+    "status": "winner",
+    "since": "2026-11-13T00:31:34.531513+00:00",
+    "tries": 1,
+    "ratio": 2.56,
+    "reason": "clicks well above the median"
   },
   "nw-blue-balls": {
     "status": "retired",
@@ -256,6 +256,13 @@
     "since": "2026-11-12T19:31:46.150077+00:00",
     "tries": 2,
     "ratio": 1.65,
+    "reason": "clicks well above the median"
+  },
+  "nw-fertile-window": {
+    "status": "winner",
+    "since": "2026-11-13T00:31:34.531513+00:00",
+    "tries": 1,
+    "ratio": 3.34,
     "reason": "clicks well above the median"
   }
 }
