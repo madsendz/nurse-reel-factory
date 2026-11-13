@@ -264,5 +264,12 @@
     "tries": 1,
     "ratio": 3.34,
     "reason": "clicks well above the median"
+  },
+  "pr-women-secretly-attractive": {
+    "status": "active",
+    "since": "2026-11-13T15:51:59.348336+00:00",
+    "tries": 5,
+    "ratio": 0.32,
+    "reason": "last 3 reposts under the median"
   }
 }

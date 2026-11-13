@@ -1,69 +1,5 @@
 [
   {
-    "id": "52b3be34",
-    "slot_key": "2026-11-03 08:00",
-    "slot_iso": "2026-11-03T13:00:00+00:00",
-    "slot_label": "Tue Nov 03, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-male-bio-clock",
-    "category": "mens_health",
-    "clip_id": "clip69b",
-    "cta": 1,
-    "mode": "explore",
-    "seconds": 10.0,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1206517",
-      "title": "DJ Smallest - Chill",
-      "creator": "Smallest",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1206517/mp32/",
-      "source": "jamendo",
-      "duration_ms": 170000,
-      "page": "https://www.jamendo.com/track/1206517",
-      "genre": "chillout"
-    },
-    "msg_id": 889,
-    "file_id": "BAACAgEAAxkDAAIDeWrmoH6vGIRRKpKZ2EzNbmSI7beTAAInCQAC9qMwR4nmGbC3qo8wPQQ",
-    "decided_at": "2026-11-03T04:13:57.808180+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "3f6b6ca2"
-  },
-  {
-    "id": "5eddc692",
-    "slot_key": "2026-11-03 09:30",
-    "slot_iso": "2026-11-03T14:30:00+00:00",
-    "slot_label": "Tue Nov 03, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "nw-women-time",
-    "category": "sex_ed",
-    "clip_id": "clip18",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 6.8,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-384092",
-      "title": "Such a place!",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384092/mp32/",
-      "source": "jamendo",
-      "duration_ms": 258000,
-      "page": "https://www.jamendo.com/track/384092",
-      "genre": "lounge"
-    },
-    "msg_id": 890,
-    "file_id": "BAACAgEAAxkDAAIDemrmoJJEVuOCaZWe374KD_Qc8Aw9AAIoCQAC9qMwRyV__H8n82XvPQQ",
-    "decided_at": "2026-11-03T04:16:58.697370+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "57efd97a"
-  },
-  {
     "id": "77430afb",
     "slot_key": "2026-11-03 11:00",
     "slot_iso": "2026-11-03T16:00:00+00:00",
@@ -917,68 +853,6 @@
     "redo": "new_topic",
     "needs_replacement": false,
     "replaced_by": "9c60f226"
-  },
-  {
-    "id": "3f6b6ca2",
-    "slot_key": "2026-11-03 08:00",
-    "slot_iso": "2026-11-03T13:00:00+00:00",
-    "slot_label": "Tue Nov 03, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-male-bio-clock",
-    "category": "mens_health",
-    "clip_id": "clip41",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 7.67,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2326509",
-      "title": "Corporate Dreams 4",
-      "creator": "Megis",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2326509/mp32/",
-      "source": "jamendo",
-      "duration_ms": 167000,
-      "page": "https://www.jamendo.com/track/2326509",
-      "genre": "pop"
-    },
-    "msg_id": 953,
-    "file_id": "BAACAgEAAxkDAAIDuWrpX76_Px_QYD1YnfwiL9ceFS_1AAIxCwAC3o1IR0Ieo8lGW9iKPQQ",
-    "replaces": "52b3be34",
-    "decided_at": "2026-11-03T04:21:33.879240+00:00",
-    "permalink": "https://www.instagram.com/reel/DfR9cNyiAtk/"
-  },
-  {
-    "id": "57efd97a",
-    "slot_key": "2026-11-03 09:30",
-    "slot_iso": "2026-11-03T14:30:00+00:00",
-    "slot_label": "Tue Nov 03, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "nw-women-solo",
-    "category": "sexual_wellness",
-    "clip_id": "clip18",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 6.8,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1319541",
-      "title": "Gone Crasy (4-Track-Recording-1991)",
-      "creator": "Christian Zell",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1319541/mp32/",
-      "source": "jamendo",
-      "duration_ms": 222000,
-      "page": "https://www.jamendo.com/track/1319541",
-      "genre": "pop"
-    },
-    "msg_id": 957,
-    "file_id": "BAACAgEAAxkDAAIDvWrpYHcV1SKO3RmsisX0GO3fwdW5AAI0CwAC3o1IR-PCYsTVtpfqPQQ",
-    "replaces": "5eddc692",
-    "decided_at": "2026-11-03T04:24:46.051781+00:00",
-    "permalink": "https://www.instagram.com/reel/DfSG3ijj0V9/"
   },
   {
     "id": "f938bf71",
@@ -3863,7 +3737,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 6.5,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-1490752",
       "title": "Free Post Malone | RnB Type Beat",
@@ -3877,7 +3751,10 @@
       "genre": "pop"
     },
     "msg_id": 1128,
-    "file_id": "BAACAgEAAxkDAAIEaGrz12ishoh3j8t7HoO6UhZSU4IVAALlCQAC2sWZRznprqob1VowPQQ"
+    "file_id": "BAACAgEAAxkDAAIEaGrz12ishoh3j8t7HoO6UhZSU4IVAALlCQAC2sWZRznprqob1VowPQQ",
+    "decided_at": "2026-11-13T15:51:24.371723+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/DfsAcIdFgDR/"
   },
   {
     "id": "2df6f0fe",
@@ -3891,7 +3768,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 8.4,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384173",
       "title": "Mind drifting back (Leaving paradise)",
@@ -3905,7 +3782,8 @@
       "genre": "lounge"
     },
     "msg_id": 1129,
-    "file_id": "BAACAgEAAxkDAAIEaWrz14a_SUaJQMPFB-czQkl5xh5kAALmCQAC2sWZR3K-jNzwoN9-PQQ"
+    "file_id": "BAACAgEAAxkDAAIEaWrz14a_SUaJQMPFB-czQkl5xh5kAALmCQAC2sWZR3K-jNzwoN9-PQQ",
+    "decided_at": "2026-11-13T15:57:48.924186+00:00"
   },
   {
     "id": "096adfd0",
@@ -3919,7 +3797,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1199532",
       "title": "Stefan The Poker Player",
@@ -3933,7 +3811,11 @@
       "genre": "electronic"
     },
     "msg_id": 1130,
-    "file_id": "BAACAgEAAxkDAAIEamrz16lc9Qc_sUxEMlPOOcR2obDBAALnCQAC2sWZR9jYoDRg6itkPQQ"
+    "file_id": "BAACAgEAAxkDAAIEamrz16lc9Qc_sUxEMlPOOcR2obDBAALnCQAC2sWZR9jYoDRg6itkPQQ",
+    "decided_at": "2026-11-13T15:57:48.924186+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "159fbd41"
   },
   {
     "id": "8846ef3b",
@@ -3947,7 +3829,7 @@
     "cta": 1,
     "mode": "explore",
     "seconds": 9.97,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1405870",
       "title": "808 BASS BEAT",
@@ -3961,7 +3843,8 @@
       "genre": "rnb"
     },
     "msg_id": 1131,
-    "file_id": "BAACAgEAAxkDAAIEa2rz18dnbcjVT9ydQ-fzqpTz18m0AALoCQAC2sWZRyA_0_M23NVfPQQ"
+    "file_id": "BAACAgEAAxkDAAIEa2rz18dnbcjVT9ydQ-fzqpTz18m0AALoCQAC2sWZRyA_0_M23NVfPQQ",
+    "decided_at": "2026-11-13T15:57:48.924186+00:00"
   },
   {
     "id": "b0788cc5",
@@ -3975,7 +3858,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1395053",
       "title": "Ninu - I feel this",
@@ -3989,7 +3872,8 @@
       "genre": "trap"
     },
     "msg_id": 1132,
-    "file_id": "BAACAgEAAxkDAAIEbGrz1-2a15D5f3gyVXyF9qSgFWe-AALqCQAC2sWZR2-DKg4nKi8wPQQ"
+    "file_id": "BAACAgEAAxkDAAIEbGrz1-2a15D5f3gyVXyF9qSgFWe-AALqCQAC2sWZR2-DKg4nKi8wPQQ",
+    "decided_at": "2026-11-13T15:57:48.924186+00:00"
   },
   {
     "id": "c61a38e7",
@@ -4003,7 +3887,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-764958",
       "title": "A Thousand Skins (Part 1) (Instrumental Version)",
@@ -4017,7 +3901,8 @@
       "genre": "pop"
     },
     "msg_id": 1133,
-    "file_id": "BAACAgEAAxkDAAIEbWrz2BQaz7THeCjM2gP4OZbnS36mAALrCQAC2sWZR6ZvRiTWV3eZPQQ"
+    "file_id": "BAACAgEAAxkDAAIEbWrz2BQaz7THeCjM2gP4OZbnS36mAALrCQAC2sWZR6ZvRiTWV3eZPQQ",
+    "decided_at": "2026-11-13T15:57:48.924186+00:00"
   },
   {
     "id": "405bff2e",
@@ -4879,5 +4764,34 @@
     },
     "msg_id": 1179,
     "file_id": "BAACAgEAAxkDAAIEm2r2hIyFlsy2bJ15_ZflMOnh80sFAAIICQACjgexR2yMIRi6pVHcPQQ"
+  },
+  {
+    "id": "159fbd41",
+    "slot_key": "2026-11-13 12:00",
+    "slot_iso": "2026-11-13T17:00:00+00:00",
+    "slot_label": "Fri Nov 13, 12:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-shower-grower",
+    "category": "mens_health",
+    "clip_id": "clip69a",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 10.0,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-2290118",
+      "title": "Fashion Week",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/2290118/mp32/",
+      "source": "jamendo",
+      "duration_ms": 94000,
+      "page": "https://www.jamendo.com/track/2290118",
+      "genre": "electronic"
+    },
+    "msg_id": 1184,
+    "file_id": "BAACAgEAAxkDAAIEoGr3M-iNYfvPhFnC2o1EnYjUEgqiAAIaCwACjge5R4mj64VBPw-ePQQ",
+    "replaces": "096adfd0"
   }
 ]
