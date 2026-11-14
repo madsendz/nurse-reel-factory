@@ -1,34 +1,5 @@
 [
   {
-    "id": "4065e495",
-    "slot_key": "2026-11-04 13:00",
-    "slot_iso": "2026-11-04T18:00:00+00:00",
-    "slot_label": "Wed Nov 04, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "pr-harden-foods",
-    "category": "mens_health",
-    "clip_id": "clip04",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "missed",
-    "music": {
-      "id": "jamendo-1547998",
-      "title": "podnebo prod. - spark | FREE BEAT | 2018 | FULL | 96bpm",
-      "creator": "podnebo prod.",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1547998/mp32/",
-      "source": "jamendo",
-      "duration_ms": 181000,
-      "page": "https://www.jamendo.com/track/1547998",
-      "genre": "trap"
-    },
-    "msg_id": 921,
-    "file_id": "BAACAgEAAxkDAAIDmWrn9j_AB45j90FiCiW9FeEBqtRCAAKUDQAC3o1ARxj5ihFSaejXPQQ",
-    "decided_at": "2026-11-04T12:34:40.898254+00:00"
-  },
-  {
     "id": "4d5ee171",
     "slot_key": "2026-11-04 14:30",
     "slot_iso": "2026-11-04T19:30:00+00:00",
