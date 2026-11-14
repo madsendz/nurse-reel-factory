@@ -1,35 +1,5 @@
 [
   {
-    "id": "4d5ee171",
-    "slot_key": "2026-11-04 14:30",
-    "slot_iso": "2026-11-04T19:30:00+00:00",
-    "slot_label": "Wed Nov 04, 2:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-cardio-erections",
-    "category": "mens_health",
-    "clip_id": "clip73",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 6.04,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2173154",
-      "title": "Coffee Lounge",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2173154/mp32/",
-      "source": "jamendo",
-      "duration_ms": 121000,
-      "page": "https://www.jamendo.com/track/2173154",
-      "genre": "lounge"
-    },
-    "msg_id": 922,
-    "file_id": "BAACAgEAAxkDAAIDmmrn9lCQgpwaEE8vtvQIafK2q1BBAAKVDQAC3o1AR_yOweHNuV0SPQQ",
-    "decided_at": "2026-11-04T12:34:40.898254+00:00",
-    "permalink": "https://www.instagram.com/reel/DfVO1sxnOnl/"
-  },
-  {
     "id": "ca58bf4e",
     "slot_key": "2026-11-04 16:00",
     "slot_iso": "2026-11-04T21:00:00+00:00",
@@ -3751,7 +3721,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 7.35,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-384095",
       "title": "Like King Cool in a sunbed",
@@ -3766,7 +3736,8 @@
     },
     "msg_id": 1159,
     "file_id": "BAACAgEAAxkDAAIEh2r1N64_P9ZiZr01WiNOaGweRDqUAAJuCgAC2sWpR3g0gj9ki6MEPQQ",
-    "decided_at": "2026-11-14T18:59:26.134156+00:00"
+    "decided_at": "2026-11-14T18:59:26.134156+00:00",
+    "permalink": "https://www.instagram.com/reel/Dfu-W9-GYXu/"
   },
   {
     "id": "6dbbabbc",
@@ -3812,7 +3783,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 11.76,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1922534",
       "title": "Luxury Hip-Hop",
@@ -3826,7 +3797,8 @@
       "genre": "rnb"
     },
     "msg_id": 1161,
-    "file_id": "BAACAgEAAxkDAAIEiWr1N-SQuO7WOzYrdDLqBt4Ekjp4AAJzCgAC2sWpR_YeeFEnRLdzPQQ"
+    "file_id": "BAACAgEAAxkDAAIEiWr1N-SQuO7WOzYrdDLqBt4Ekjp4AAJzCgAC2sWpR_YeeFEnRLdzPQQ",
+    "decided_at": "2026-11-14T19:31:08.126504+00:00"
   },
   {
     "id": "c2e105b5",
@@ -3840,7 +3812,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 11.27,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2160840",
       "title": "Ambient Inspirational Music",
@@ -3854,7 +3826,8 @@
       "genre": "pop"
     },
     "msg_id": 1162,
-    "file_id": "BAACAgEAAxkDAAIEimr1N_58S2HOt2UowYM-qQ7pDl6PAAJ1CgAC2sWpR1ZKYeqtar0kPQQ"
+    "file_id": "BAACAgEAAxkDAAIEimr1N_58S2HOt2UowYM-qQ7pDl6PAAJ1CgAC2sWpR1ZKYeqtar0kPQQ",
+    "decided_at": "2026-11-14T19:31:08.126504+00:00"
   },
   {
     "id": "3092eb8f",
@@ -3868,7 +3841,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 7.85,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-764958",
       "title": "A Thousand Skins (Part 1) (Instrumental Version)",
@@ -3882,7 +3855,8 @@
       "genre": "pop"
     },
     "msg_id": 1163,
-    "file_id": "BAACAgEAAxkDAAIEi2r1OBt20h0rR_jcZw1w3RlilNbUAAJ2CgAC2sWpR7EkuAeQeZ5DPQQ"
+    "file_id": "BAACAgEAAxkDAAIEi2r1OBt20h0rR_jcZw1w3RlilNbUAAJ2CgAC2sWpR7EkuAeQeZ5DPQQ",
+    "decided_at": "2026-11-14T19:31:08.126504+00:00"
   },
   {
     "id": "5f9bc942",
@@ -4515,7 +4489,7 @@
     "cta": 1,
     "mode": "edited",
     "seconds": 9.46,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -4530,6 +4504,7 @@
     },
     "msg_id": 1197,
     "file_id": "BAACAgEAAxkDAAIErWr4r8aP3G5q0NFe9VDCWEDwbJQMAAKuCQACuFnAR1HRP2eacbzzPQQ",
-    "replaces": "6dbbabbc"
+    "replaces": "6dbbabbc",
+    "decided_at": "2026-11-14T19:31:08.126504+00:00"
   }
 ]
