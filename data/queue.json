@@ -3751,7 +3751,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 7.35,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384095",
       "title": "Like King Cool in a sunbed",
@@ -3765,7 +3765,8 @@
       "genre": "pop"
     },
     "msg_id": 1159,
-    "file_id": "BAACAgEAAxkDAAIEh2r1N64_P9ZiZr01WiNOaGweRDqUAAJuCgAC2sWpR3g0gj9ki6MEPQQ"
+    "file_id": "BAACAgEAAxkDAAIEh2r1N64_P9ZiZr01WiNOaGweRDqUAAJuCgAC2sWpR3g0gj9ki6MEPQQ",
+    "decided_at": "2026-11-14T18:59:26.134156+00:00"
   },
   {
     "id": "6dbbabbc",
@@ -3779,7 +3780,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.46,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -3793,7 +3794,11 @@
       "genre": "lounge"
     },
     "msg_id": 1160,
-    "file_id": "BAACAgEAAxkDAAIEiGr1N8ZHngfgR2aS9mNzp-cxd7T-AAJwCgAC2sWpR5csM33_poZ3PQQ"
+    "file_id": "BAACAgEAAxkDAAIEiGr1N8ZHngfgR2aS9mNzp-cxd7T-AAJwCgAC2sWpR5csM33_poZ3PQQ",
+    "decided_at": "2026-11-14T18:59:26.134156+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "6b049997"
   },
   {
     "id": "9c2f76cb",
@@ -4497,5 +4502,34 @@
     },
     "msg_id": 1194,
     "file_id": "BAACAgEAAxkDAAIEqmr30wM4_V0uZ_93JAhWtf7BKnuOAAK4DAACuFm4R0GVVzhOhg0UPQQ"
+  },
+  {
+    "id": "6b049997",
+    "slot_key": "2026-11-14 16:00",
+    "slot_iso": "2026-11-14T21:00:00+00:00",
+    "slot_label": "Sat Nov 14, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "pr-make-noise",
+    "category": "sexual_wellness",
+    "clip_id": "clip63",
+    "cta": 1,
+    "mode": "edited",
+    "seconds": 9.46,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1892348",
+      "title": "Georgetown Cafe",
+      "creator": "Popoi",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1892348/mp32/",
+      "source": "jamendo",
+      "duration_ms": 148000,
+      "page": "https://www.jamendo.com/track/1892348",
+      "genre": "lounge"
+    },
+    "msg_id": 1197,
+    "file_id": "BAACAgEAAxkDAAIErWr4r8aP3G5q0NFe9VDCWEDwbJQMAAKuCQACuFnAR1HRP2eacbzzPQQ",
+    "replaces": "6dbbabbc"
   }
 ]
