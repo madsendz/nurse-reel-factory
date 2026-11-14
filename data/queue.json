@@ -1,37 +1,5 @@
 [
   {
-    "id": "ca58bf4e",
-    "slot_key": "2026-11-04 16:00",
-    "slot_iso": "2026-11-04T21:00:00+00:00",
-    "slot_label": "Wed Nov 04, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-hot-flash-years",
-    "category": "sexual_wellness",
-    "clip_id": "clip26",
-    "cta": 2,
-    "mode": "explore",
-    "seconds": 7.8,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1342479",
-      "title": "Breathe",
-      "creator": "Axl &amp; Arth",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1342479/mp32/",
-      "source": "jamendo",
-      "duration_ms": 233000,
-      "page": "https://www.jamendo.com/track/1342479",
-      "genre": "hiphop"
-    },
-    "msg_id": 923,
-    "file_id": "BAACAgEAAxkDAAIDm2rn9mRt6wLRpYJQ8jqBwrLhxO10AAKWDQAC3o1ARzFjs0zZS4tmPQQ",
-    "decided_at": "2026-11-04T12:34:40.898254+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "7d3373c3"
-  },
-  {
     "id": "2f32e36e",
     "slot_key": "2026-11-04 17:30",
     "slot_iso": "2026-11-04T22:30:00+00:00",
@@ -720,37 +688,6 @@
     },
     "msg_id": 991,
     "file_id": "BAACAgEAAxkDAAID32rqoM1X375f1LEIqy7BC8Ec5djCAAL7CAACzttRR5eWNfBMMx2EPQQ"
-  },
-  {
-    "id": "7d3373c3",
-    "slot_key": "2026-11-04 16:00",
-    "slot_iso": "2026-11-04T21:00:00+00:00",
-    "slot_label": "Wed Nov 04, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-foreplay-time",
-    "category": "sexual_wellness",
-    "clip_id": "clip26",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 7.8,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-247156",
-      "title": "Silence Apart",
-      "creator": "ZigiZigi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/247156/mp32/",
-      "source": "jamendo",
-      "duration_ms": 326000,
-      "page": "https://www.jamendo.com/track/247156",
-      "genre": "pop"
-    },
-    "msg_id": 996,
-    "file_id": "BAACAgEAAxkDAAID5GrrJqrlilnXboiX0-eCE_uRjFcPAAIFCQACzttZRxoBYNnPrJroPQQ",
-    "replaces": "ca58bf4e",
-    "decided_at": "2026-11-04T14:31:05.448657+00:00",
-    "permalink": "https://www.instagram.com/reel/DfVZKlnjOd9/"
   },
   {
     "id": "b8842de1",
@@ -4489,7 +4426,7 @@
     "cta": 1,
     "mode": "edited",
     "seconds": 9.46,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -4505,6 +4442,7 @@
     "msg_id": 1197,
     "file_id": "BAACAgEAAxkDAAIErWr4r8aP3G5q0NFe9VDCWEDwbJQMAAKuCQACuFnAR1HRP2eacbzzPQQ",
     "replaces": "6dbbabbc",
-    "decided_at": "2026-11-14T19:31:08.126504+00:00"
+    "decided_at": "2026-11-14T19:31:08.126504+00:00",
+    "permalink": "https://www.instagram.com/reel/DfvIkT4iV1O/"
   }
 ]
