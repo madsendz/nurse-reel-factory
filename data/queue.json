@@ -1,65 +1,5 @@
 [
   {
-    "id": "22b245a0",
-    "slot_key": "2026-11-03 17:30",
-    "slot_iso": "2026-11-03T22:30:00+00:00",
-    "slot_label": "Tue Nov 03, 5:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-penetration-alone",
-    "category": "sex_ed",
-    "clip_id": "clip38",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 8.88,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-384095",
-      "title": "Like King Cool in a sunbed",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384095/mp32/",
-      "source": "jamendo",
-      "duration_ms": 289000,
-      "page": "https://www.jamendo.com/track/384095",
-      "genre": "lounge"
-    },
-    "msg_id": 896,
-    "file_id": "BAACAgEAAxkDAAIDgGrmoQlVhEXaSBRQGSiYLrKBHVS2AAIvCQAC9qMwR_YwCr3j4mqJPQQ",
-    "decided_at": "2026-11-03T17:58:36.235297+00:00",
-    "permalink": "https://www.instagram.com/reel/DfS_NLtAWMV/"
-  },
-  {
-    "id": "eb657fa3",
-    "slot_key": "2026-11-03 19:30",
-    "slot_iso": "2026-11-04T00:30:00+00:00",
-    "slot_label": "Tue Nov 03, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-sperm-months",
-    "category": "mens_health",
-    "clip_id": "clip23",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 10.03,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2037702",
-      "title": "Nostalgia Drive (Lofi Hip-hop)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037702/mp32/",
-      "source": "jamendo",
-      "duration_ms": 294000,
-      "page": "https://www.jamendo.com/track/2037702",
-      "genre": "lounge"
-    },
-    "msg_id": 897,
-    "file_id": "BAACAgEAAxkDAAIDgWrmoR2Xf5bTLAABXtPRlmJga1Ik7AACMQkAAvajMEdCyCUVyxkNAj0E",
-    "decided_at": "2026-11-03T18:26:06.393596+00:00",
-    "permalink": "https://www.instagram.com/reel/DfTMRC3CflP/"
-  },
-  {
     "id": "f0b235d0",
     "slot_key": "2026-11-03 21:30",
     "slot_iso": "2026-11-04T02:30:00+00:00",
@@ -3702,7 +3642,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 11.0,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-1129271",
       "title": "Energy",
@@ -3716,7 +3656,9 @@
       "genre": "dance"
     },
     "msg_id": 1135,
-    "file_id": "BAACAgEAAxkDAAIEb2rz2Fd2cwgYURrgVfXrr76nNj_rAALtCQAC2sWZR54PaSM6U8ckPQQ"
+    "file_id": "BAACAgEAAxkDAAIEb2rz2Fd2cwgYURrgVfXrr76nNj_rAALtCQAC2sWZR54PaSM6U8ckPQQ",
+    "decided_at": "2026-11-14T00:31:10.794263+00:00",
+    "permalink": "https://www.instagram.com/reel/Dfs76nBgSyZ/"
   },
   {
     "id": "11e28c24",
@@ -3730,7 +3672,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 5.46,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1961617",
       "title": "Memoirs",
@@ -3744,7 +3686,8 @@
       "genre": "dance"
     },
     "msg_id": 1136,
-    "file_id": "BAACAgEAAxkDAAIEcGrz2HEbXcOBnNnYnWB8FAnaqQ_dAALuCQAC2sWZR35k5_Q_EvpuPQQ"
+    "file_id": "BAACAgEAAxkDAAIEcGrz2HEbXcOBnNnYnWB8FAnaqQ_dAALuCQAC2sWZR35k5_Q_EvpuPQQ",
+    "decided_at": "2026-11-14T00:31:10.794263+00:00"
   },
   {
     "id": "609ad119",
