@@ -1,33 +1,5 @@
 [
   {
-    "id": "2f32e36e",
-    "slot_key": "2026-11-04 17:30",
-    "slot_iso": "2026-11-04T22:30:00+00:00",
-    "slot_label": "Wed Nov 04, 5:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-sperm-count-drop",
-    "category": "mens_health",
-    "clip_id": "clip65",
-    "cta": 2,
-    "mode": "explore",
-    "seconds": 8.1,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1471214",
-      "title": "Igor Sensor - Argo",
-      "creator": "Igor Sensor",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1471214/mp32/",
-      "source": "jamendo",
-      "duration_ms": 202000,
-      "page": "https://www.jamendo.com/track/1471214",
-      "genre": "lounge"
-    },
-    "msg_id": 924,
-    "file_id": "BAACAgEAAxkDAAIDnGrn9nrLtetzSSePWjYIDiRTRqqqAAKXDQAC3o1ARxHqQwKkCvIxPQQ"
-  },
-  {
     "id": "897d15ec",
     "slot_key": "2026-11-04 19:30",
     "slot_iso": "2026-11-05T00:30:00+00:00",
@@ -3720,7 +3692,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 11.76,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1922534",
       "title": "Luxury Hip-Hop",
@@ -3735,7 +3707,8 @@
     },
     "msg_id": 1161,
     "file_id": "BAACAgEAAxkDAAIEiWr1N-SQuO7WOzYrdDLqBt4Ekjp4AAJzCgAC2sWpR_YeeFEnRLdzPQQ",
-    "decided_at": "2026-11-14T19:31:08.126504+00:00"
+    "decided_at": "2026-11-14T19:31:08.126504+00:00",
+    "permalink": "https://www.instagram.com/reel/DfvS37QAMxj/"
   },
   {
     "id": "c2e105b5",
