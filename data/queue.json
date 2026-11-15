@@ -1,37 +1,5 @@
 [
   {
-    "id": "419b221a",
-    "slot_key": "2026-11-04 21:30",
-    "slot_iso": "2026-11-05T02:30:00+00:00",
-    "slot_label": "Wed Nov 04, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-kegels-women",
-    "category": "sexual_wellness",
-    "clip_id": "clip57",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 4.73,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1448162",
-      "title": "Nothern Fall X BlackBadBlood - Spring",
-      "creator": "BlackBadBlood",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1448162/mp32/",
-      "source": "jamendo",
-      "duration_ms": 196000,
-      "page": "https://www.jamendo.com/track/1448162",
-      "genre": "trap"
-    },
-    "msg_id": 926,
-    "file_id": "BAACAgEAAxkDAAIDnmrn9p32aUWGJwW7EKl6qk8KRm6MAAKZDQAC3o1AR-f7xZlvRLunPQQ",
-    "decided_at": "2026-11-04T22:43:18.989747+00:00",
-    "redo": "swap_music",
-    "needs_replacement": false,
-    "replaced_by": "b8842de1"
-  },
-  {
     "id": "c573e495",
     "slot_key": "2026-11-05 08:00",
     "slot_iso": "2026-11-05T13:00:00+00:00",
@@ -630,35 +598,6 @@
     },
     "msg_id": 991,
     "file_id": "BAACAgEAAxkDAAID32rqoM1X375f1LEIqy7BC8Ec5djCAAL7CAACzttRR5eWNfBMMx2EPQQ"
-  },
-  {
-    "id": "b8842de1",
-    "slot_key": "2026-11-04 21:30",
-    "slot_iso": "2026-11-05T02:30:00+00:00",
-    "slot_label": "Wed Nov 04, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-kegels-women",
-    "category": "sexual_wellness",
-    "clip_id": "clip57",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 4.73,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1274433",
-      "title": "sex and money",
-      "creator": "Smiling Cynic",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1274433/mp32/",
-      "source": "jamendo",
-      "duration_ms": 230000,
-      "page": "https://www.jamendo.com/track/1274433",
-      "genre": "pop"
-    },
-    "msg_id": 999,
-    "file_id": "BAACAgEAAxkDAAID52rrtT1lE705VisRd7c0bDCqi-ZiAAKqBwACg0lZR6Xdxj-ODqTUPQQ",
-    "replaces": "419b221a"
   },
   {
     "id": "d61fb58e",
@@ -3722,7 +3661,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 7.85,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-764958",
       "title": "A Thousand Skins (Part 1) (Instrumental Version)",
@@ -3737,7 +3676,8 @@
     },
     "msg_id": 1163,
     "file_id": "BAACAgEAAxkDAAIEi2r1OBt20h0rR_jcZw1w3RlilNbUAAJ2CgAC2sWpR7EkuAeQeZ5DPQQ",
-    "decided_at": "2026-11-14T19:31:08.126504+00:00"
+    "decided_at": "2026-11-14T19:31:08.126504+00:00",
+    "permalink": "https://www.instagram.com/reel/DfvuQtojgHH/"
   },
   {
     "id": "5f9bc942",
