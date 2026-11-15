@@ -1,35 +1,5 @@
 [
   {
-    "id": "897d15ec",
-    "slot_key": "2026-11-04 19:30",
-    "slot_iso": "2026-11-05T00:30:00+00:00",
-    "slot_label": "Wed Nov 04, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-notice-first",
-    "category": "sexual_wellness",
-    "clip_id": "clip27",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 8.3,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1179546",
-      "title": "Born Free",
-      "creator": "Pokki DJ",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1179546/mp32/",
-      "source": "jamendo",
-      "duration_ms": 212000,
-      "page": "https://www.jamendo.com/track/1179546",
-      "genre": "dance"
-    },
-    "msg_id": 925,
-    "file_id": "BAACAgEAAxkDAAIDnWrn9o4KnEjzqM0fAVRFVAvdYQ2gAAKYDQAC3o1AR4Hq1doJxwcDPQQ",
-    "decided_at": "2026-11-04T22:43:18.989747+00:00",
-    "permalink": "https://www.instagram.com/reel/DfVwlkRiAPj/"
-  },
-  {
     "id": "419b221a",
     "slot_key": "2026-11-04 21:30",
     "slot_iso": "2026-11-05T02:30:00+00:00",
@@ -3722,7 +3692,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 11.27,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2160840",
       "title": "Ambient Inspirational Music",
@@ -3737,7 +3707,8 @@
     },
     "msg_id": 1162,
     "file_id": "BAACAgEAAxkDAAIEimr1N_58S2HOt2UowYM-qQ7pDl6PAAJ1CgAC2sWpR1ZKYeqtar0kPQQ",
-    "decided_at": "2026-11-14T19:31:08.126504+00:00"
+    "decided_at": "2026-11-14T19:31:08.126504+00:00",
+    "permalink": "https://www.instagram.com/reel/DfvgeGbDiQL/"
   },
   {
     "id": "3092eb8f",
