@@ -1,33 +1,5 @@
 [
   {
-    "id": "7485fd62",
-    "slot_key": "2026-11-06 08:00",
-    "slot_iso": "2026-11-06T13:00:00+00:00",
-    "slot_label": "Fri Nov 06, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-chlamydia-silent",
-    "category": "sex_ed",
-    "clip_id": "clip86",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 6.03,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1199532",
-      "title": "Stefan The Poker Player",
-      "creator": "REC",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1199532/mp32/",
-      "source": "jamendo",
-      "duration_ms": 303000,
-      "page": "https://www.jamendo.com/track/1199532",
-      "genre": "electronic"
-    },
-    "msg_id": 982,
-    "file_id": "BAACAgEAAxkDAAID1mrqn_bIXw0WUPXsMoKLAAF1qSqingAC8ggAAs7bUUdTTHC3pOpFMz0E"
-  },
-  {
     "id": "ba87b5b9",
     "slot_key": "2026-11-06 09:30",
     "slot_iso": "2026-11-06T14:30:00+00:00",
@@ -4576,7 +4548,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 9.42,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-1206517",
       "title": "DJ Smallest - Chill",
@@ -4591,6 +4563,9 @@
     },
     "msg_id": 1232,
     "file_id": "BAACAgEAAxkDAAIE0Gr6-lclFlhniMQTx_kGjSU6u_EYAALfCAACNirZR8A8CwyQGWtCPQQ",
-    "replaces": "72466419"
+    "replaces": "72466419",
+    "decided_at": "2026-11-16T13:31:47.070273+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/Dfze0WdCTMK/"
   }
 ]
