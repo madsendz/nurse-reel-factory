@@ -1,67 +1,5 @@
 [
   {
-    "id": "39c3317e",
-    "slot_key": "2026-11-06 13:00",
-    "slot_iso": "2026-11-06T18:00:00+00:00",
-    "slot_label": "Fri Nov 06, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "nw-sperm-five-days",
-    "category": "sex_ed",
-    "clip_id": "clip54",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 6.48,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-20236",
-      "title": "Ambiphonic",
-      "creator": "Zeropage",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/20236/mp32/",
-      "source": "jamendo",
-      "duration_ms": 306000,
-      "page": "https://www.jamendo.com/track/20236",
-      "genre": "lounge"
-    },
-    "msg_id": 986,
-    "file_id": "BAACAgEAAxkDAAID2mrqoGAGahoglWbO8R6oDI-qhJioAAL2CAACzttRR_2Mfxtf4pIiPQQ",
-    "decided_at": "2026-11-06T15:00:33.758799+00:00",
-    "permalink": "https://www.instagram.com/reel/DfaNd9aAVb4/"
-  },
-  {
-    "id": "1d0f8c18",
-    "slot_key": "2026-11-06 14:30",
-    "slot_iso": "2026-11-06T19:30:00+00:00",
-    "slot_label": "Fri Nov 06, 2:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-faked-it",
-    "category": "sex_ed",
-    "clip_id": "clip15",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 6.63,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1917024",
-      "title": "Dorila y Mello",
-      "creator": "Popoi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1917024/mp32/",
-      "source": "jamendo",
-      "duration_ms": 165000,
-      "page": "https://www.jamendo.com/track/1917024",
-      "genre": "hiphop"
-    },
-    "msg_id": 987,
-    "file_id": "BAACAgEAAxkDAAID22rqoHN01hfvvpP5lEpdnRG-8trJAAL3CAACzttRR2TavnS0_TXRPQQ",
-    "decided_at": "2026-11-06T15:55:25.033980+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "e8599001"
-  },
-  {
     "id": "cc8e05de",
     "slot_key": "2026-11-06 16:00",
     "slot_iso": "2026-11-06T21:00:00+00:00",
@@ -781,35 +719,6 @@
     "file_id": "BAACAgEAAxkDAAIEDmrtSeFIX99rDmbEmShlLuhQ7XZNAAJTCgACg0lpRxITI8L7EASuPQQ",
     "decided_at": "2026-11-08T19:42:52.866884+00:00",
     "permalink": "https://www.instagram.com/reel/DfgRsOrADMf/"
-  },
-  {
-    "id": "e8599001",
-    "slot_key": "2026-11-06 14:30",
-    "slot_iso": "2026-11-06T19:30:00+00:00",
-    "slot_label": "Fri Nov 06, 2:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-faked-it",
-    "category": "sex_ed",
-    "clip_id": "clip69c",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 9.97,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-384095",
-      "title": "Like King Cool in a sunbed",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384095/mp32/",
-      "source": "jamendo",
-      "duration_ms": 289000,
-      "page": "https://www.jamendo.com/track/384095",
-      "genre": "pop"
-    },
-    "msg_id": 1046,
-    "file_id": "BAACAgEAAxkDAAIEFmrt-LFjv5tEiudnlArYeBtnWUscAAJaCwAC461wR9LQG5WotWK4PQQ",
-    "replaces": "1d0f8c18"
   },
   {
     "id": "3f22e588",
@@ -4512,7 +4421,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 11.12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1916401",
       "title": "RnB Chill Trap",
@@ -4528,7 +4437,8 @@
     "msg_id": 1237,
     "file_id": "BAACAgEAAxkDAAIE1Wr7D23sUub6HquyBqwapkAVpF7SAAIGCQACNirZR4x2tQ1zJvJTPQQ",
     "replaces": "75e6d9fd",
-    "decided_at": "2026-11-16T14:31:03.092754+00:00"
+    "decided_at": "2026-11-16T14:31:03.092754+00:00",
+    "permalink": "https://www.instagram.com/reel/Df0HzMRkrO9/"
   },
   {
     "id": "12f76760",
