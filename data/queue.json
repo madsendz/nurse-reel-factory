@@ -3576,7 +3576,7 @@
     "cta": 0,
     "mode": "explore",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1331970",
       "title": "Faith",
@@ -3590,7 +3590,11 @@
       "genre": "pop"
     },
     "msg_id": 1185,
-    "file_id": "BAACAgEAAxkDAAIEoWr30iA1OojX_T3Q4UujopO6BXqEAAKsDAACuFm4R8_xMZ0HUFlnPQQ"
+    "file_id": "BAACAgEAAxkDAAIEoWr30iA1OojX_T3Q4UujopO6BXqEAAKsDAACuFm4R8_xMZ0HUFlnPQQ",
+    "decided_at": "2026-11-16T12:15:23.945614+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "a56e1b06"
   },
   {
     "id": "f1777a18",
@@ -4492,5 +4496,34 @@
     },
     "msg_id": 1223,
     "file_id": "BAACAgEAAxkDAAIEx2r6bzv1QvWdtOFv44vwBisHB_eUAAKdCgACNirRRwF5hL-HOQdJPQQ"
+  },
+  {
+    "id": "a56e1b06",
+    "slot_key": "2026-11-16 08:00",
+    "slot_iso": "2026-11-16T13:00:00+00:00",
+    "slot_label": "Mon Nov 16, 8:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-clit-first-hack",
+    "category": "sexual_wellness",
+    "clip_id": "clip69b",
+    "cta": 0,
+    "mode": "edited",
+    "seconds": 10.0,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1331970",
+      "title": "Faith",
+      "creator": "Neon NiteClub",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1331970/mp32/",
+      "source": "jamendo",
+      "duration_ms": 248000,
+      "page": "https://www.jamendo.com/track/1331970",
+      "genre": "pop"
+    },
+    "msg_id": 1226,
+    "file_id": "BAACAgEAAxkDAAIEymr69BMxMdLK1NgMleK234zfyaibAALVCAACNirZR_-1aPsgHTigPQQ",
+    "replaces": "c30be12b"
   }
 ]
