@@ -1,37 +1,5 @@
 [
   {
-    "id": "2471d7d0",
-    "slot_key": "2026-11-06 12:00",
-    "slot_iso": "2026-11-06T17:00:00+00:00",
-    "slot_label": "Fri Nov 06, 12:00 PM",
-    "post_type": "trial",
-    "item_id": "pr-men-secretly-like",
-    "category": "sexual_wellness",
-    "clip_id": "clip20",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 9.77,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1892348",
-      "title": "Georgetown Cafe",
-      "creator": "Popoi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1892348/mp32/",
-      "source": "jamendo",
-      "duration_ms": 148000,
-      "page": "https://www.jamendo.com/track/1892348",
-      "genre": "hiphop"
-    },
-    "msg_id": 985,
-    "file_id": "BAACAgEAAxkDAAID2WrqoEkID3JemdztoNIoslBJwNWfAAL1CAACzttRRzFc-cKOPGWZPQQ",
-    "decided_at": "2026-11-06T15:00:33.758799+00:00",
-    "redo": "text_edit",
-    "needs_replacement": false,
-    "replaced_by": "b825de5c"
-  },
-  {
     "id": "39c3317e",
     "slot_key": "2026-11-06 13:00",
     "slot_iso": "2026-11-06T18:00:00+00:00",
@@ -813,35 +781,6 @@
     "file_id": "BAACAgEAAxkDAAIEDmrtSeFIX99rDmbEmShlLuhQ7XZNAAJTCgACg0lpRxITI8L7EASuPQQ",
     "decided_at": "2026-11-08T19:42:52.866884+00:00",
     "permalink": "https://www.instagram.com/reel/DfgRsOrADMf/"
-  },
-  {
-    "id": "b825de5c",
-    "slot_key": "2026-11-06 12:00",
-    "slot_iso": "2026-11-06T17:00:00+00:00",
-    "slot_label": "Fri Nov 06, 12:00 PM",
-    "post_type": "trial",
-    "item_id": "pr-men-secretly-like",
-    "category": "sexual_wellness",
-    "clip_id": "clip20",
-    "cta": 1,
-    "mode": "edited",
-    "seconds": 9.77,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1892348",
-      "title": "Georgetown Cafe",
-      "creator": "Popoi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1892348/mp32/",
-      "source": "jamendo",
-      "duration_ms": 148000,
-      "page": "https://www.jamendo.com/track/1892348",
-      "genre": "hiphop"
-    },
-    "msg_id": 1043,
-    "file_id": "BAACAgEAAxkDAAIEE2rt69COA5bCLrGk4_uR31wjlRawAAI2CwAC461wR52aWZfyVB51PQQ",
-    "replaces": "2471d7d0"
   },
   {
     "id": "e8599001",
@@ -4536,7 +4475,7 @@
     "cta": 5,
     "mode": "edited",
     "seconds": 10.43,
-    "status": "approved",
+    "status": "missed",
     "music": {
       "id": "jamendo-1961617",
       "title": "Memoirs",
