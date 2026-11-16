@@ -6,16 +6,16 @@ Judged reels: **170** · score = link clicks first, then views/shares/saves
 
 | Score | Type | Clicks | Views | Shares | Topic | Clip | Posted |
 |---|---|---|---|---|---|---|---|
-| +2.49 | trial | 323.3 | 1375224 | 51666 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
+| +2.49 | trial | 323.3 | 1375555 | 51679 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
 | +2.11 | trial | 598.7 | 829868 | 106 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
-| +1.78 | trial | 471.0 | 349784 | 39 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
-| +1.61 | trial | 88.6 | 622380 | 456 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
-| +1.58 | regular | 124.3 | 473749 | 4143 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
-| +1.57 | regular | 386.2 | 176279 | 897 | [pr-stamina-foods](https://www.instagram.com/reel/Dedc32xDs80/) | clip26 | 2026-10-14 |
-| +1.47 | trial | 1294.0 | 23431 | 3 | [nw-orgasm-gap](https://www.instagram.com/reel/Dek8CnKAP69/) | clip04 | 2026-10-17 |
-| +1.47 | regular | 127.3 | 559923 | 508 | [nw-notice-first](https://www.instagram.com/reel/DeuU9sEjfCr/) | clip24 | 2026-10-20 |
-| +1.45 | trial | 28.6 | 632353 | 2096 | [pr-frequency-age](https://www.instagram.com/reel/De98Bd1iBs2/) | clip09 | 2026-10-26 |
-| +1.28 | trial | 4.7 | 1082567 | 16739 | [pr-period-sex](https://www.instagram.com/reel/DfAIpEVFXGV/) | clip79 | 2026-10-27 |
+| +1.78 | trial | 471.0 | 349786 | 39 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
+| +1.61 | trial | 88.6 | 622481 | 456 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
+| +1.58 | regular | 124.3 | 473901 | 4148 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
+| +1.57 | regular | 386.2 | 176281 | 897 | [pr-stamina-foods](https://www.instagram.com/reel/Dedc32xDs80/) | clip26 | 2026-10-14 |
+| +1.47 | trial | 1294.0 | 23437 | 3 | [nw-orgasm-gap](https://www.instagram.com/reel/Dek8CnKAP69/) | clip04 | 2026-10-17 |
+| +1.47 | regular | 127.3 | 559936 | 508 | [nw-notice-first](https://www.instagram.com/reel/DeuU9sEjfCr/) | clip24 | 2026-10-20 |
+| +1.45 | trial | 28.6 | 632642 | 2096 | [pr-frequency-age](https://www.instagram.com/reel/De98Bd1iBs2/) | clip09 | 2026-10-26 |
+| +1.28 | trial | 4.7 | 1082898 | 16739 | [pr-period-sex](https://www.instagram.com/reel/DfAIpEVFXGV/) | clip79 | 2026-10-27 |
 
 ## Hook styles
 
@@ -56,7 +56,7 @@ Judged reels: **170** · score = link clicks first, then views/shares/saves
 | clip63 | +0.22 | 2 |
 | clip64 | +0.22 | 2 |
 | clip81 | +0.22 | 3 |
-| clip19 | +0.17 | 1 |
+| clip19 | +0.16 | 1 |
 | clip71 | +0.16 | 3 |
 | clip21 | +0.15 | 2 |
 | clip26 | +0.15 | 3 |
@@ -107,15 +107,15 @@ Judged reels: **170** · score = link clicks first, then views/shares/saves
 | clip18 | -0.18 | 1 |
 | clip41 | -0.18 | 3 |
 | clip73 | -0.18 | 1 |
-| clip84 | -0.19 | 2 |
+| clip84 | -0.18 | 2 |
 | clip30 | -0.19 | 2 |
 | clip74 | -0.20 | 2 |
 | clip83 | -0.20 | 2 |
 | clip46 | -0.21 | 2 |
 | clip60 | -0.22 | 4 |
 | clip76 | -0.23 | 1 |
-| clip13 | -0.26 | 3 |
 | clip69b | -0.26 | 1 |
+| clip13 | -0.26 | 3 |
 | clip25 | -0.26 | 3 |
 | clip69c | -0.27 | 2 |
 | clip10 | -0.28 | 1 |

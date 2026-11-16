@@ -1,33 +1,5 @@
 [
   {
-    "id": "ba87b5b9",
-    "slot_key": "2026-11-06 09:30",
-    "slot_iso": "2026-11-06T14:30:00+00:00",
-    "slot_label": "Fri Nov 06, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "nw-peyronies",
-    "category": "mens_health",
-    "clip_id": "clip45",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 11.12,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1206274",
-      "title": "Made In Italy",
-      "creator": "Pokki DJ",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1206274/mp32/",
-      "source": "jamendo",
-      "duration_ms": 154000,
-      "page": "https://www.jamendo.com/track/1206274",
-      "genre": "dance"
-    },
-    "msg_id": 983,
-    "file_id": "BAACAgEAAxkDAAID12rqoBAEN6lGPjuik96Ykjpf53TyAALzCAACzttRR94AARalBmTwKj0E"
-  },
-  {
     "id": "483cc524",
     "slot_key": "2026-11-06 11:00",
     "slot_iso": "2026-11-06T16:00:00+00:00",
@@ -3580,7 +3552,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 8.88,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1992651",
       "title": "Emotional Dancing",
@@ -3595,7 +3567,8 @@
     },
     "msg_id": 1186,
     "file_id": "BAACAgEAAxkDAAIEomr30jiPdcRXhxrjL3AH-Z8ySJZ5AAKtDAACuFm4Ry2wfxFQ114fPQQ",
-    "decided_at": "2026-11-16T12:25:16.595591+00:00"
+    "decided_at": "2026-11-16T12:25:16.595591+00:00",
+    "permalink": "https://www.instagram.com/reel/DfzldcegpAs/"
   },
   {
     "id": "905bac15",
@@ -4619,7 +4592,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 11.12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1916401",
       "title": "RnB Chill Trap",
@@ -4634,6 +4607,7 @@
     },
     "msg_id": 1237,
     "file_id": "BAACAgEAAxkDAAIE1Wr7D23sUub6HquyBqwapkAVpF7SAAIGCQACNirZR4x2tQ1zJvJTPQQ",
-    "replaces": "75e6d9fd"
+    "replaces": "75e6d9fd",
+    "decided_at": "2026-11-16T14:31:03.092754+00:00"
   }
 ]
