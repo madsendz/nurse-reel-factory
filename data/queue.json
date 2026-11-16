@@ -3608,7 +3608,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 8.88,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1992651",
       "title": "Emotional Dancing",
@@ -3622,7 +3622,8 @@
       "genre": "hiphop"
     },
     "msg_id": 1186,
-    "file_id": "BAACAgEAAxkDAAIEomr30jiPdcRXhxrjL3AH-Z8ySJZ5AAKtDAACuFm4Ry2wfxFQ114fPQQ"
+    "file_id": "BAACAgEAAxkDAAIEomr30jiPdcRXhxrjL3AH-Z8ySJZ5AAKtDAACuFm4Ry2wfxFQ114fPQQ",
+    "decided_at": "2026-11-16T12:25:16.595591+00:00"
   },
   {
     "id": "905bac15",
@@ -4509,7 +4510,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1331970",
       "title": "Faith",
@@ -4524,6 +4525,39 @@
     },
     "msg_id": 1226,
     "file_id": "BAACAgEAAxkDAAIEymr69BMxMdLK1NgMleK234zfyaibAALVCAACNirZR_-1aPsgHTigPQQ",
-    "replaces": "c30be12b"
+    "replaces": "c30be12b",
+    "decided_at": "2026-11-16T12:25:16.595591+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "72466419"
+  },
+  {
+    "id": "72466419",
+    "slot_key": "2026-11-16 08:00",
+    "slot_iso": "2026-11-16T13:00:00+00:00",
+    "slot_label": "Mon Nov 16, 8:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-clit-first-hack",
+    "category": "sexual_wellness",
+    "clip_id": "clip69b",
+    "cta": 0,
+    "mode": "edited",
+    "seconds": 10.0,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1331970",
+      "title": "Faith",
+      "creator": "Neon NiteClub",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1331970/mp32/",
+      "source": "jamendo",
+      "duration_ms": 248000,
+      "page": "https://www.jamendo.com/track/1331970",
+      "genre": "pop"
+    },
+    "msg_id": 1229,
+    "file_id": "BAACAgEAAxkDAAIEzWr69msAAQuur3A6B18ycm8kWqY90gAC1wgAAjYq2UcbmaoWUKjGiD0E",
+    "replaces": "a56e1b06"
   }
 ]
