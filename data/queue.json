@@ -3609,7 +3609,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 10.43,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1961617",
       "title": "Memoirs",
@@ -3623,7 +3623,11 @@
       "genre": "dance"
     },
     "msg_id": 1187,
-    "file_id": "BAACAgEAAxkDAAIEo2r30lgEuKEv3dIa6794yBRMO8qDAAKvDAACuFm4R6TOhmyl3cNxPQQ"
+    "file_id": "BAACAgEAAxkDAAIEo2r30lgEuKEv3dIa6794yBRMO8qDAAKvDAACuFm4R6TOhmyl3cNxPQQ",
+    "decided_at": "2026-11-16T13:56:39.445550+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "52c7ee11"
   },
   {
     "id": "baedbb28",
@@ -4567,5 +4571,34 @@
     "decided_at": "2026-11-16T13:31:47.070273+00:00",
     "post_now": true,
     "permalink": "https://www.instagram.com/reel/Dfze0WdCTMK/"
+  },
+  {
+    "id": "52c7ee11",
+    "slot_key": "2026-11-16 11:00",
+    "slot_iso": "2026-11-16T16:00:00+00:00",
+    "slot_label": "Mon Nov 16, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-pelvic-floor-pe",
+    "category": "mens_health",
+    "clip_id": "clip80",
+    "cta": 5,
+    "mode": "edited",
+    "seconds": 10.43,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1961617",
+      "title": "Memoirs",
+      "creator": "John Vanick",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1961617/mp32/",
+      "source": "jamendo",
+      "duration_ms": 341000,
+      "page": "https://www.jamendo.com/track/1961617",
+      "genre": "dance"
+    },
+    "msg_id": 1235,
+    "file_id": "BAACAgEAAxkDAAIE02r7C9lC0fQylMlxktBtSuUYEtldAAICCQACNirZR9PvAAGYk8IXMz0E",
+    "replaces": "905bac15"
   }
 ]
