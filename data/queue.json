@@ -3523,7 +3523,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 10.6,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2173192",
       "title": "Summer Light Pop",
@@ -3538,7 +3538,9 @@
     },
     "msg_id": 1188,
     "file_id": "BAACAgEAAxkDAAIEpGr30m8PK_GId8m2VywkSwYl77tCAAKwDAACuFm4R9-zOufUXJ3IPQQ",
-    "decided_at": "2026-11-16T14:12:04.886133+00:00"
+    "decided_at": "2026-11-16T14:12:04.886133+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/Dfz7rK3jCsX/"
   },
   {
     "id": "b2a81c9c",
@@ -4569,7 +4571,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 6.9,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037627",
       "title": "We Made It (Soft Drum And Bass)",
@@ -4584,6 +4586,7 @@
     },
     "msg_id": 1243,
     "file_id": "BAACAgEAAxkDAAIE22r7PqmWtXWzau2pQ7hSdbxKBSNoAAJTCQACNirZR94YGnYi92njPQQ",
-    "replaces": "7afc3e70"
+    "replaces": "7afc3e70",
+    "decided_at": "2026-11-16T17:43:23.940521+00:00"
   }
 ]
