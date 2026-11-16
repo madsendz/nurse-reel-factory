@@ -4543,7 +4543,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1331970",
       "title": "Faith",
@@ -4558,6 +4558,39 @@
     },
     "msg_id": 1229,
     "file_id": "BAACAgEAAxkDAAIEzWr69msAAQuur3A6B18ycm8kWqY90gAC1wgAAjYq2UcbmaoWUKjGiD0E",
-    "replaces": "a56e1b06"
+    "replaces": "a56e1b06",
+    "decided_at": "2026-11-16T12:42:09.435039+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "23d25289"
+  },
+  {
+    "id": "23d25289",
+    "slot_key": "2026-11-16 08:00",
+    "slot_iso": "2026-11-16T13:00:00+00:00",
+    "slot_label": "Mon Nov 16, 8:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-clit-first-hack",
+    "category": "sexual_wellness",
+    "clip_id": "clip64",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 9.42,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1206517",
+      "title": "DJ Smallest - Chill",
+      "creator": "Smallest",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1206517/mp32/",
+      "source": "jamendo",
+      "duration_ms": 170000,
+      "page": "https://www.jamendo.com/track/1206517",
+      "genre": "chillout"
+    },
+    "msg_id": 1232,
+    "file_id": "BAACAgEAAxkDAAIE0Gr6-lclFlhniMQTx_kGjSU6u_EYAALfCAACNirZR8A8CwyQGWtCPQQ",
+    "replaces": "72466419"
   }
 ]
