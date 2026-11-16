@@ -271,5 +271,12 @@
     "tries": 5,
     "ratio": 0.32,
     "reason": "last 3 reposts under the median"
+  },
+  "nw-sperm-five-days": {
+    "status": "retired",
+    "since": "2026-11-16T20:28:12.999452+00:00",
+    "tries": 2,
+    "ratio": 0.61,
+    "reason": "2 tries, 0.6x median"
   }
 }
