@@ -1,35 +1,5 @@
 [
   {
-    "id": "cc8e05de",
-    "slot_key": "2026-11-06 16:00",
-    "slot_iso": "2026-11-06T21:00:00+00:00",
-    "slot_label": "Fri Nov 06, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-night-erections",
-    "category": "mens_health",
-    "clip_id": "clip29",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 6.47,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2173154",
-      "title": "Coffee Lounge",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2173154/mp32/",
-      "source": "jamendo",
-      "duration_ms": 121000,
-      "page": "https://www.jamendo.com/track/2173154",
-      "genre": "lounge"
-    },
-    "msg_id": 988,
-    "file_id": "BAACAgEAAxkDAAID3GrqoIK--RSVO_-MQEaJtONfEDimAAL4CAACzttRR_lgnQhhLv7XPQQ",
-    "decided_at": "2026-11-06T15:55:25.033980+00:00",
-    "permalink": "https://www.instagram.com/reel/DfaiIAXDo9X/"
-  },
-  {
     "id": "d235d6bd",
     "slot_key": "2026-11-06 17:30",
     "slot_iso": "2026-11-06T22:30:00+00:00",
@@ -3527,7 +3497,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 10.82,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-1591558",
       "title": "199-s8rec",
@@ -3541,7 +3511,9 @@
       "genre": "trap"
     },
     "msg_id": 1191,
-    "file_id": "BAACAgEAAxkDAAIEp2r30sHF9qku31LNx5AR7SS0bmOgAAK1DAACuFm4R6HnvRXJdb4IPQQ"
+    "file_id": "BAACAgEAAxkDAAIEp2r30sHF9qku31LNx5AR7SS0bmOgAAK1DAACuFm4R6HnvRXJdb4IPQQ",
+    "decided_at": "2026-11-16T21:01:20.770589+00:00",
+    "permalink": "https://www.instagram.com/reel/Df0SW-Il55d/"
   },
   {
     "id": "99b70bfc",
