@@ -3643,7 +3643,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 6.48,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2151100",
       "title": "Deep Fashion Electronic",
@@ -3657,7 +3657,11 @@
       "genre": "pop"
     },
     "msg_id": 1189,
-    "file_id": "BAACAgEAAxkDAAIEpWr30oEtw79P4VtA4z2aZBneFTD2AAKyDAACuFm4R4LlLf3KXP-lPQQ"
+    "file_id": "BAACAgEAAxkDAAIEpWr30oEtw79P4VtA4z2aZBneFTD2AAKyDAACuFm4R4LlLf3KXP-lPQQ",
+    "decided_at": "2026-11-16T15:51:11.287555+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "12f76760"
   },
   {
     "id": "75e6d9fd",
@@ -4609,5 +4613,34 @@
     "file_id": "BAACAgEAAxkDAAIE1Wr7D23sUub6HquyBqwapkAVpF7SAAIGCQACNirZR4x2tQ1zJvJTPQQ",
     "replaces": "75e6d9fd",
     "decided_at": "2026-11-16T14:31:03.092754+00:00"
+  },
+  {
+    "id": "12f76760",
+    "slot_key": "2026-11-16 13:00",
+    "slot_iso": "2026-11-16T18:00:00+00:00",
+    "slot_label": "Mon Nov 16, 1:00 PM",
+    "post_type": "regular",
+    "item_id": "nw-foreplay-time",
+    "category": "sexual_wellness",
+    "clip_id": "clip54",
+    "cta": 2,
+    "mode": "exploit",
+    "seconds": 6.48,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1922534",
+      "title": "Luxury Hip-Hop",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1922534/mp32/",
+      "source": "jamendo",
+      "duration_ms": 131000,
+      "page": "https://www.jamendo.com/track/1922534",
+      "genre": "rnb"
+    },
+    "msg_id": 1239,
+    "file_id": "BAACAgEAAxkDAAIE12r7JqfMewz4y8VbYjgPjoBm6UQSAAIoCQACNirZR8y1194eXE3jPQQ",
+    "replaces": "b2a81c9c"
   }
 ]
