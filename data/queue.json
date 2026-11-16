@@ -1,33 +1,5 @@
 [
   {
-    "id": "d235d6bd",
-    "slot_key": "2026-11-06 17:30",
-    "slot_iso": "2026-11-06T22:30:00+00:00",
-    "slot_label": "Fri Nov 06, 5:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-orgasm-pain-relief",
-    "category": "sexual_wellness",
-    "clip_id": "clip51",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 11.3,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-2290118",
-      "title": "Fashion Week",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2290118/mp32/",
-      "source": "jamendo",
-      "duration_ms": 94000,
-      "page": "https://www.jamendo.com/track/2290118",
-      "genre": "electronic"
-    },
-    "msg_id": 989,
-    "file_id": "BAACAgEAAxkDAAID3WrqoJ0eouhehIQuu5BBSKI4nndtAAL5CAACzttRR443k1rbJn8OPQQ"
-  },
-  {
     "id": "a7cabe8c",
     "slot_key": "2026-11-06 19:30",
     "slot_iso": "2026-11-07T00:30:00+00:00",
@@ -3527,7 +3499,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.6,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1367800",
       "title": "CRIZ3Y - Facepalm (VIP)",
@@ -3542,7 +3514,8 @@
     },
     "msg_id": 1192,
     "file_id": "BAACAgEAAxkDAAIEqGr30teuLZyrjeRhnJgXGIts_lPjAAK2DAACuFm4R4lH2QABeUcdvz0E",
-    "decided_at": "2026-11-16T17:33:24.920752+00:00"
+    "decided_at": "2026-11-16T17:33:24.920752+00:00",
+    "permalink": "https://www.instagram.com/reel/Df0cjXOHN93/"
   },
   {
     "id": "7afc3e70",
@@ -3588,7 +3561,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.83,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1375003",
       "title": "White_beach",
@@ -3602,7 +3575,8 @@
       "genre": "chillout"
     },
     "msg_id": 1194,
-    "file_id": "BAACAgEAAxkDAAIEqmr30wM4_V0uZ_93JAhWtf7BKnuOAAK4DAACuFm4R0GVVzhOhg0UPQQ"
+    "file_id": "BAACAgEAAxkDAAIEqmr30wM4_V0uZ_93JAhWtf7BKnuOAAK4DAACuFm4R0GVVzhOhg0UPQQ",
+    "decided_at": "2026-11-16T22:31:14.346214+00:00"
   },
   {
     "id": "6b049997",
