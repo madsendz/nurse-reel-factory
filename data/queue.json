@@ -1,34 +1,5 @@
 [
   {
-    "id": "a7cabe8c",
-    "slot_key": "2026-11-06 19:30",
-    "slot_iso": "2026-11-07T00:30:00+00:00",
-    "slot_label": "Fri Nov 06, 7:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-plan-b-weight",
-    "category": "sex_ed",
-    "clip_id": "clip85",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 7.93,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1179546",
-      "title": "Born Free",
-      "creator": "Pokki DJ",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1179546/mp32/",
-      "source": "jamendo",
-      "duration_ms": 212000,
-      "page": "https://www.jamendo.com/track/1179546",
-      "genre": "dance"
-    },
-    "msg_id": 990,
-    "file_id": "BAACAgEAAxkDAAID3mrqoLT_nTkgL6Jx-yb06u6C3gHvAAL6CAACzttRR2aCUYlKy0PIPQQ",
-    "decided_at": "2026-11-07T00:00:42.938534+00:00"
-  },
-  {
     "id": "5bdaa1de",
     "slot_key": "2026-11-06 21:30",
     "slot_iso": "2026-11-07T02:30:00+00:00",
@@ -4427,7 +4398,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 6.9,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2037627",
       "title": "We Made It (Soft Drum And Bass)",
@@ -4443,6 +4414,7 @@
     "msg_id": 1243,
     "file_id": "BAACAgEAAxkDAAIE22r7PqmWtXWzau2pQ7hSdbxKBSNoAAJTCQACNirZR94YGnYi92njPQQ",
     "replaces": "7afc3e70",
-    "decided_at": "2026-11-16T17:43:23.940521+00:00"
+    "decided_at": "2026-11-16T17:43:23.940521+00:00",
+    "permalink": "https://www.instagram.com/reel/Df0qINXjZP8/"
   }
 ]
