@@ -278,5 +278,12 @@
     "tries": 2,
     "ratio": 0.61,
     "reason": "2 tries, 0.6x median"
+  },
+  "nw-g-spot-where": {
+    "status": "retired",
+    "since": "2026-11-17T13:01:41.560136+00:00",
+    "tries": 2,
+    "ratio": 0.3,
+    "reason": "2 tries, 0.3x median"
   }
 }

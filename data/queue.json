@@ -1,35 +1,5 @@
 [
   {
-    "id": "d61fb58e",
-    "slot_key": "2026-11-07 08:00",
-    "slot_iso": "2026-11-07T13:00:00+00:00",
-    "slot_label": "Sat Nov 07, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-vasectomy-vs-tubal",
-    "category": "sex_ed",
-    "clip_id": "clip37",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 10.82,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1129271",
-      "title": "Energy",
-      "creator": "Pokki DJ",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1129271/mp32/",
-      "source": "jamendo",
-      "duration_ms": 230000,
-      "page": "https://www.jamendo.com/track/1129271",
-      "genre": "dance"
-    },
-    "msg_id": 1000,
-    "file_id": "BAACAgEAAxkDAAID6Grr-ESu0IWhj18JrYozDFmoHB-GAAKuCAACg0lhR4SHGrYkyCYQPQQ",
-    "decided_at": "2026-11-07T05:04:57.201654+00:00",
-    "permalink": "https://www.instagram.com/reel/DfcP43qDczY/"
-  },
-  {
     "id": "b982bd25",
     "slot_key": "2026-11-07 09:30",
     "slot_iso": "2026-11-07T14:30:00+00:00",
@@ -3565,7 +3535,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 8.1,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-1922534",
       "title": "Luxury Hip-Hop",
@@ -3579,7 +3549,9 @@
       "genre": "hiphop"
     },
     "msg_id": 1198,
-    "file_id": "BAACAgEAAxkDAAIErmr5G2WBglaIE-fvC0VCBOgz9K17AAJpCAACuFnIR98D7P1w36wVPQQ"
+    "file_id": "BAACAgEAAxkDAAIErmr5G2WBglaIE-fvC0VCBOgz9K17AAJpCAACuFnIR98D7P1w36wVPQQ",
+    "decided_at": "2026-11-17T13:01:08.167876+00:00",
+    "permalink": "https://www.instagram.com/reel/Df2ACLJkR70/"
   },
   {
     "id": "bdf39414",
