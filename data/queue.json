@@ -1,33 +1,5 @@
 [
   {
-    "id": "5bdaa1de",
-    "slot_key": "2026-11-06 21:30",
-    "slot_iso": "2026-11-07T02:30:00+00:00",
-    "slot_label": "Fri Nov 06, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-average-size",
-    "category": "mens_health",
-    "clip_id": "clip07",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 10.4,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-181806",
-      "title": "Alexandra 02",
-      "creator": "Löhstana David",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/181806/mp32/",
-      "source": "jamendo",
-      "duration_ms": 233000,
-      "page": "https://www.jamendo.com/track/181806",
-      "genre": "pop"
-    },
-    "msg_id": 991,
-    "file_id": "BAACAgEAAxkDAAID32rqoM1X375f1LEIqy7BC8Ec5djCAAL7CAACzttRR5eWNfBMMx2EPQQ"
-  },
-  {
     "id": "d61fb58e",
     "slot_key": "2026-11-07 08:00",
     "slot_iso": "2026-11-07T13:00:00+00:00",
@@ -3532,7 +3504,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.83,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1375003",
       "title": "White_beach",
@@ -3547,7 +3519,8 @@
     },
     "msg_id": 1194,
     "file_id": "BAACAgEAAxkDAAIEqmr30wM4_V0uZ_93JAhWtf7BKnuOAAK4DAACuFm4R0GVVzhOhg0UPQQ",
-    "decided_at": "2026-11-16T22:31:14.346214+00:00"
+    "decided_at": "2026-11-16T22:31:14.346214+00:00",
+    "permalink": "https://www.instagram.com/reel/Df03rBtHE-P/"
   },
   {
     "id": "6b049997",
