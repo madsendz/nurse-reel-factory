@@ -285,5 +285,12 @@
     "tries": 2,
     "ratio": 0.3,
     "reason": "2 tries, 0.3x median"
+  },
+  "nw-plan-b-weight": {
+    "status": "retired",
+    "since": "2026-11-18T17:06:42.287625+00:00",
+    "tries": 2,
+    "ratio": 0.51,
+    "reason": "2 tries, 0.5x median"
   }
 }
