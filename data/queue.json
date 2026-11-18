@@ -1,33 +1,5 @@
 [
   {
-    "id": "5d324d3c",
-    "slot_key": "2026-11-08 08:00",
-    "slot_iso": "2026-11-08T13:00:00+00:00",
-    "slot_label": "Sun Nov 08, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "pr-harden-foods",
-    "category": "mens_health",
-    "clip_id": "clip69b",
-    "cta": 5,
-    "mode": "exploit",
-    "seconds": 10.0,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1320534",
-      "title": "Neith",
-      "creator": "CyberSDF",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1320534/mp32/",
-      "source": "jamendo",
-      "duration_ms": 269000,
-      "page": "https://www.jamendo.com/track/1320534",
-      "genre": "trap"
-    },
-    "msg_id": 1028,
-    "file_id": "BAACAgEAAxkDAAIEBGrtSRH8IRI6Q0enMMTpO-O8Qt8qAAJJCgACg0lpRyuJGPP_vTeMPQQ"
-  },
-  {
     "id": "43232c07",
     "slot_key": "2026-11-08 09:30",
     "slot_iso": "2026-11-08T14:30:00+00:00",
@@ -3573,7 +3545,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 9.77,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -3587,21 +3559,24 @@
       "genre": "lounge"
     },
     "msg_id": 1214,
-    "file_id": "BAACAgEAAxkDAAIEvmr6bhgfNlWZZg76kLUTFkfokiOrAAKUCgACNirRRz7gfKThoBa0PQQ"
+    "file_id": "BAACAgEAAxkDAAIEvmr6bhgfNlWZZg76kLUTFkfokiOrAAKUCgACNirRRz7gfKThoBa0PQQ",
+    "decided_at": "2026-11-18T13:14:06.933090+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/Df4malCDPDK/"
   },
   {
     "id": "cb117999",
     "slot_key": "2026-11-18 09:30",
     "slot_iso": "2026-11-18T14:30:00+00:00",
     "slot_label": "Wed Nov 18, 9:30 AM",
-    "post_type": "regular",
+    "post_type": "trial",
     "item_id": "nw-headache-myth",
     "category": "health_bait",
     "clip_id": "clip15",
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.63,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037757",
       "title": "Density (Background Ambient Techno)",
@@ -3615,7 +3590,8 @@
       "genre": "dance"
     },
     "msg_id": 1215,
-    "file_id": "BAACAgEAAxkDAAIEv2r6bjcx5c-nP9V-dZmFR0Npi4VJAAKVCgACNirRRxn6TqkjMOVuPQQ"
+    "file_id": "BAACAgEAAxkDAAIEv2r6bjcx5c-nP9V-dZmFR0Npi4VJAAKVCgACNirRRxn6TqkjMOVuPQQ",
+    "decided_at": "2026-11-18T13:14:06.933090+00:00"
   },
   {
     "id": "e11f7854",
@@ -3629,7 +3605,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-43679",
       "title": "Ocean fantasy",
@@ -3643,7 +3619,8 @@
       "genre": "electronic"
     },
     "msg_id": 1216,
-    "file_id": "BAACAgEAAxkDAAIEwGr6blyy-Io3SBgfql3smjTWLq5DAAKWCgACNirRR1ztuq6IxO-1PQQ"
+    "file_id": "BAACAgEAAxkDAAIEwGr6blyy-Io3SBgfql3smjTWLq5DAAKWCgACNirRR1ztuq6IxO-1PQQ",
+    "decided_at": "2026-11-18T13:14:06.933090+00:00"
   },
   {
     "id": "fba0e91e",
@@ -3657,7 +3634,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 9.77,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1992651",
       "title": "Emotional Dancing",
@@ -3671,7 +3648,8 @@
       "genre": "electronic"
     },
     "msg_id": 1217,
-    "file_id": "BAACAgEAAxkDAAIEwWr6bnwJtZ5QAW7yLqnWBC-hz0y2AAKXCgACNirRR3_8lbStJiPgPQQ"
+    "file_id": "BAACAgEAAxkDAAIEwWr6bnwJtZ5QAW7yLqnWBC-hz0y2AAKXCgACNirRR3_8lbStJiPgPQQ",
+    "decided_at": "2026-11-18T13:14:06.933090+00:00"
   },
   {
     "id": "4a74ce2b",
@@ -3685,7 +3663,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 7.8,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-20236",
       "title": "Ambiphonic",
@@ -3699,7 +3677,8 @@
       "genre": "lounge"
     },
     "msg_id": 1218,
-    "file_id": "BAACAgEAAxkDAAIEwmr6bpr6pRivurwXsGt_f4NgMp4VAAKYCgACNirRR7BcXrO1tWR5PQQ"
+    "file_id": "BAACAgEAAxkDAAIEwmr6bpr6pRivurwXsGt_f4NgMp4VAAKYCgACNirRR7BcXrO1tWR5PQQ",
+    "decided_at": "2026-11-18T13:14:06.933090+00:00"
   },
   {
     "id": "f4c28d51",
@@ -3713,7 +3692,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 8.12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384091",
       "title": "Lazy beach breaks",
@@ -3727,7 +3706,8 @@
       "genre": "lounge"
     },
     "msg_id": 1219,
-    "file_id": "BAACAgEAAxkDAAIEw2r6brkUU5zcKaTdYQ0n4HmmyjvmAAKZCgACNirRR5AbeQAB_qXmvT0E"
+    "file_id": "BAACAgEAAxkDAAIEw2r6brkUU5zcKaTdYQ0n4HmmyjvmAAKZCgACNirRR5AbeQAB_qXmvT0E",
+    "decided_at": "2026-11-18T13:14:06.933090+00:00"
   },
   {
     "id": "1ead7a70",
@@ -3741,7 +3721,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 8.2,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1916401",
       "title": "RnB Chill Trap",
@@ -3755,7 +3735,8 @@
       "genre": "hiphop"
     },
     "msg_id": 1220,
-    "file_id": "BAACAgEAAxkDAAIExGr6btVuTu7B9ND-qPTM6K8q1kehAAKaCgACNirRRwTD7CbEuYQHPQQ"
+    "file_id": "BAACAgEAAxkDAAIExGr6btVuTu7B9ND-qPTM6K8q1kehAAKaCgACNirRRwTD7CbEuYQHPQQ",
+    "decided_at": "2026-11-18T13:14:06.933090+00:00"
   },
   {
     "id": "aaebca66",
@@ -3769,7 +3750,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037702",
       "title": "Nostalgia Drive (Lofi Hip-hop)",
@@ -3783,7 +3764,8 @@
       "genre": "hiphop"
     },
     "msg_id": 1221,
-    "file_id": "BAACAgEAAxkDAAIExWr6bvnjszIaTy09C448fWR_2sOfAAKbCgACNirRR_cbHzSIyEJMPQQ"
+    "file_id": "BAACAgEAAxkDAAIExWr6bvnjszIaTy09C448fWR_2sOfAAKbCgACNirRR_cbHzSIyEJMPQQ",
+    "decided_at": "2026-11-18T13:19:58.977901+00:00"
   },
   {
     "id": "93abdef0",
@@ -3797,7 +3779,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.13,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1363926",
       "title": "Drake- Still Here instrumental (reprod. J Blanked On This Beat)",
@@ -3811,7 +3793,8 @@
       "genre": "trap"
     },
     "msg_id": 1222,
-    "file_id": "BAACAgEAAxkDAAIExmr6bxygVKoAAeAyTE0F5zBsuyPhQgACnAoAAjYq0UcnYIPqlI09LT0E"
+    "file_id": "BAACAgEAAxkDAAIExmr6bxygVKoAAeAyTE0F5zBsuyPhQgACnAoAAjYq0UcnYIPqlI09LT0E",
+    "decided_at": "2026-11-18T13:19:58.977901+00:00"
   },
   {
     "id": "3cb70642",
@@ -3825,7 +3808,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 8.9,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -3839,7 +3822,8 @@
       "genre": "electronic"
     },
     "msg_id": 1223,
-    "file_id": "BAACAgEAAxkDAAIEx2r6bzv1QvWdtOFv44vwBisHB_eUAAKdCgACNirRRwF5hL-HOQdJPQQ"
+    "file_id": "BAACAgEAAxkDAAIEx2r6bzv1QvWdtOFv44vwBisHB_eUAAKdCgACNirRRwF5hL-HOQdJPQQ",
+    "decided_at": "2026-11-18T13:19:58.977901+00:00"
   },
   {
     "id": "a56e1b06",
