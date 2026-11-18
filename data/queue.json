@@ -1,35 +1,5 @@
 [
   {
-    "id": "ae4ead78",
-    "slot_key": "2026-11-08 16:00",
-    "slot_iso": "2026-11-08T21:00:00+00:00",
-    "slot_label": "Sun Nov 08, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "pr-size-birth-month",
-    "category": "mens_health",
-    "clip_id": "clip21",
-    "cta": 5,
-    "mode": "exploit",
-    "seconds": 6.13,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1182292",
-      "title": "Spasm",
-      "creator": "Suedey",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1182292/mp32/",
-      "source": "jamendo",
-      "duration_ms": 208000,
-      "page": "https://www.jamendo.com/track/1182292",
-      "genre": "hiphop"
-    },
-    "msg_id": 1034,
-    "file_id": "BAACAgEAAxkDAAIECmrtSaNcQe0-JrUxpNSYKHyV7Vy1AAJQCgACg0lpR4dWWHRXcXqzPQQ",
-    "decided_at": "2026-11-08T19:42:52.866884+00:00",
-    "permalink": "https://www.instagram.com/reel/DffreecklHR/"
-  },
-  {
     "id": "3c24bab3",
     "slot_key": "2026-11-08 17:30",
     "slot_iso": "2026-11-08T22:30:00+00:00",
@@ -3510,7 +3480,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 8.2,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1916401",
       "title": "RnB Chill Trap",
@@ -3525,7 +3495,8 @@
     },
     "msg_id": 1220,
     "file_id": "BAACAgEAAxkDAAIExGr6btVuTu7B9ND-qPTM6K8q1kehAAKaCgACNirRRwTD7CbEuYQHPQQ",
-    "decided_at": "2026-11-18T13:14:06.933090+00:00"
+    "decided_at": "2026-11-18T13:14:06.933090+00:00",
+    "permalink": "https://www.instagram.com/reel/Df5br1HCGKi/"
   },
   {
     "id": "aaebca66",
