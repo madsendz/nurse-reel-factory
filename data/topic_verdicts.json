@@ -299,5 +299,12 @@
     "tries": 3,
     "ratio": 0.44,
     "reason": "last 3 reposts under the median"
+  },
+  "nw-trich-common": {
+    "status": "retired",
+    "since": "2026-11-18T22:31:26.550204+00:00",
+    "tries": 2,
+    "ratio": 0.0,
+    "reason": "2 tries, 0.0x median"
   }
 }

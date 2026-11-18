@@ -1,35 +1,5 @@
 [
   {
-    "id": "3c24bab3",
-    "slot_key": "2026-11-08 17:30",
-    "slot_iso": "2026-11-08T22:30:00+00:00",
-    "slot_label": "Sun Nov 08, 5:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-first-time-age",
-    "category": "sex_ed",
-    "clip_id": "clip17",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 6.5,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2037702",
-      "title": "Nostalgia Drive (Lofi Hip-hop)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037702/mp32/",
-      "source": "jamendo",
-      "duration_ms": 294000,
-      "page": "https://www.jamendo.com/track/2037702",
-      "genre": "hiphop"
-    },
-    "msg_id": 1035,
-    "file_id": "BAACAgEAAxkDAAIEC2rtSbny5yvEUkE3uXQ0_Db1skZZAAJRCgACg0lpR05yFMHaFHlPPQQ",
-    "decided_at": "2026-11-08T19:42:52.866884+00:00",
-    "permalink": "https://www.instagram.com/reel/Dff2Ensgph2/"
-  },
-  {
     "id": "ab64be6b",
     "slot_key": "2026-11-08 19:30",
     "slot_iso": "2026-11-09T00:30:00+00:00",
@@ -3510,7 +3480,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2037702",
       "title": "Nostalgia Drive (Lofi Hip-hop)",
@@ -3525,7 +3495,8 @@
     },
     "msg_id": 1221,
     "file_id": "BAACAgEAAxkDAAIExWr6bvnjszIaTy09C448fWR_2sOfAAKbCgACNirRR_cbHzSIyEJMPQQ",
-    "decided_at": "2026-11-18T13:19:58.977901+00:00"
+    "decided_at": "2026-11-18T13:19:58.977901+00:00",
+    "permalink": "https://www.instagram.com/reel/Df5mMQnAR5J/"
   },
   {
     "id": "93abdef0",
