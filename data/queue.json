@@ -1,36 +1,5 @@
 [
   {
-    "id": "5e7ca3ba",
-    "slot_key": "2026-11-08 14:30",
-    "slot_iso": "2026-11-08T19:30:00+00:00",
-    "slot_label": "Sun Nov 08, 2:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-small-normal",
-    "category": "mens_health",
-    "clip_id": "clip24",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1363926",
-      "title": "Drake- Still Here instrumental (reprod. J Blanked On This Beat)",
-      "creator": "JBlanked",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1363926/mp32/",
-      "source": "jamendo",
-      "duration_ms": 241000,
-      "page": "https://www.jamendo.com/track/1363926",
-      "genre": "trap"
-    },
-    "msg_id": 1033,
-    "file_id": "BAACAgEAAxkDAAIECWrtSZEkPboAARmnl6saHLbArciOVQACTwoAAoNJaUczKkbd5LAulD0E",
-    "decided_at": "2026-11-08T19:37:17.664987+00:00",
-    "post_now": true,
-    "permalink": "https://www.instagram.com/reel/DffiPXGisx9/"
-  },
-  {
     "id": "ae4ead78",
     "slot_key": "2026-11-08 16:00",
     "slot_iso": "2026-11-08T21:00:00+00:00",
@@ -3482,7 +3451,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 7.8,
-    "status": "approved",
+    "status": "missed",
     "music": {
       "id": "jamendo-20236",
       "title": "Ambiphonic",
@@ -3511,7 +3480,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 8.12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-384091",
       "title": "Lazy beach breaks",
@@ -3526,7 +3495,8 @@
     },
     "msg_id": 1219,
     "file_id": "BAACAgEAAxkDAAIEw2r6brkUU5zcKaTdYQ0n4HmmyjvmAAKZCgACNirRR5AbeQAB_qXmvT0E",
-    "decided_at": "2026-11-18T13:14:06.933090+00:00"
+    "decided_at": "2026-11-18T13:14:06.933090+00:00",
+    "permalink": "https://www.instagram.com/reel/Df5SIVLDcFM/"
   },
   {
     "id": "1ead7a70",
