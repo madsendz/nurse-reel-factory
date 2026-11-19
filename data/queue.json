@@ -1,35 +1,5 @@
 [
   {
-    "id": "35c4a2c6",
-    "slot_key": "2026-11-09 16:00",
-    "slot_iso": "2026-11-09T21:00:00+00:00",
-    "slot_label": "Mon Nov 09, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-ask-hack",
-    "category": "sexual_wellness",
-    "clip_id": "clip51",
-    "cta": 1,
-    "mode": "explore",
-    "seconds": 11.3,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1331970",
-      "title": "Faith",
-      "creator": "Neon NiteClub",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1331970/mp32/",
-      "source": "jamendo",
-      "duration_ms": 248000,
-      "page": "https://www.jamendo.com/track/1331970",
-      "genre": "pop"
-    },
-    "msg_id": 1056,
-    "file_id": "BAACAgEAAxkDAAIEIGrukn9FPPVIV849fJu3KWDX72xeAAKNDAAC461wR3Pg9hJewOmMPQQ",
-    "decided_at": "2026-11-09T12:06:58.099417+00:00",
-    "permalink": "https://www.instagram.com/reel/DfiQq6yElcx/"
-  },
-  {
     "id": "848b799e",
     "slot_key": "2026-11-09 17:30",
     "slot_iso": "2026-11-09T22:30:00+00:00",
@@ -3637,7 +3607,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 10.43,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1331970",
       "title": "Faith",
@@ -3652,7 +3622,8 @@
     },
     "msg_id": 1252,
     "file_id": "BAACAgEAAxkDAAIE5Gr74TfLig9SsOFEqxuUZUR68VymAAI2CAACF-fgRzZy1qnCmHgMPQQ",
-    "decided_at": "2026-11-19T13:12:41.967263+00:00"
+    "decided_at": "2026-11-19T13:12:41.967263+00:00",
+    "permalink": "https://www.instagram.com/reel/Df8AgkkFNI8/"
   },
   {
     "id": "fd0f6850",
