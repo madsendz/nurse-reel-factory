@@ -1,35 +1,5 @@
 [
   {
-    "id": "121596ad",
-    "slot_key": "2026-11-08 21:30",
-    "slot_iso": "2026-11-09T02:30:00+00:00",
-    "slot_label": "Sun Nov 08, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-afterplay",
-    "category": "sexual_wellness",
-    "clip_id": "clip52",
-    "cta": 2,
-    "mode": "explore",
-    "seconds": 6.23,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1267753",
-      "title": "Ghosts",
-      "creator": "Lyvo",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1267753/mp32/",
-      "source": "jamendo",
-      "duration_ms": 173000,
-      "page": "https://www.jamendo.com/track/1267753",
-      "genre": "electronic"
-    },
-    "msg_id": 1038,
-    "file_id": "BAACAgEAAxkDAAIEDmrtSeFIX99rDmbEmShlLuhQ7XZNAAJTCgACg0lpRxITI8L7EASuPQQ",
-    "decided_at": "2026-11-08T19:42:52.866884+00:00",
-    "permalink": "https://www.instagram.com/reel/DfgRsOrADMf/"
-  },
-  {
     "id": "3f22e588",
     "slot_key": "2026-11-09 08:00",
     "slot_iso": "2026-11-09T13:00:00+00:00",
@@ -3479,7 +3449,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 8.9,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -3494,7 +3464,8 @@
     },
     "msg_id": 1223,
     "file_id": "BAACAgEAAxkDAAIEx2r6bzv1QvWdtOFv44vwBisHB_eUAAKdCgACNirRRwF5hL-HOQdJPQQ",
-    "decided_at": "2026-11-18T13:19:58.977901+00:00"
+    "decided_at": "2026-11-18T13:19:58.977901+00:00",
+    "permalink": "https://www.instagram.com/reel/Df6BpaWABEQ/"
   },
   {
     "id": "a56e1b06",
