@@ -306,5 +306,12 @@
     "tries": 2,
     "ratio": 0.0,
     "reason": "2 tries, 0.0x median"
+  },
+  "pr-mood-killer-foods": {
+    "status": "active",
+    "since": "2026-11-19T13:08:10.018297+00:00",
+    "tries": 3,
+    "ratio": 0.25,
+    "reason": "last 3 reposts under the median"
   }
 }

@@ -1,37 +1,5 @@
 [
   {
-    "id": "3f22e588",
-    "slot_key": "2026-11-09 08:00",
-    "slot_iso": "2026-11-09T13:00:00+00:00",
-    "slot_label": "Mon Nov 09, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-nipples-men",
-    "category": "anatomy",
-    "clip_id": "clip15",
-    "cta": 5,
-    "mode": "explore",
-    "seconds": 6.63,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1395053",
-      "title": "Ninu - I feel this",
-      "creator": "Ninu",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1395053/mp32/",
-      "source": "jamendo",
-      "duration_ms": 175000,
-      "page": "https://www.jamendo.com/track/1395053",
-      "genre": "trap"
-    },
-    "msg_id": 1050,
-    "file_id": "BAACAgEAAxkDAAIEGmrukfoPbqwDAktS_aHvG3W0XK9rAAKGDAAC461wR0YaV_1Frb0GPQQ",
-    "decided_at": "2026-11-09T11:53:37.665432+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "8e06399e"
-  },
-  {
     "id": "ce38908d",
     "slot_key": "2026-11-09 09:30",
     "slot_iso": "2026-11-09T14:30:00+00:00",
@@ -903,37 +871,6 @@
     "redo": "text_edit",
     "needs_replacement": false,
     "replaced_by": "05a2aeca"
-  },
-  {
-    "id": "8e06399e",
-    "slot_key": "2026-11-09 08:00",
-    "slot_iso": "2026-11-09T13:00:00+00:00",
-    "slot_label": "Mon Nov 09, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-nipples-men",
-    "category": "anatomy",
-    "clip_id": "clip76",
-    "cta": 5,
-    "mode": "exploit",
-    "seconds": 4.33,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1206517",
-      "title": "DJ Smallest - Chill",
-      "creator": "Smallest",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1206517/mp32/",
-      "source": "jamendo",
-      "duration_ms": 170000,
-      "page": "https://www.jamendo.com/track/1206517",
-      "genre": "chillout"
-    },
-    "msg_id": 1100,
-    "file_id": "BAACAgEAAxkDAAIETGrxtHXsZVcIkt5cra8tdx620YttAAJqCwACVg2JRx_WSJ34x0WjPQQ",
-    "replaces": "3f22e588",
-    "decided_at": "2026-11-09T12:06:58.099417+00:00",
-    "permalink": "https://www.instagram.com/reel/DfhaIjLjOnC/"
   },
   {
     "id": "1d3280ef",
@@ -3698,7 +3635,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.3,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-2151100",
       "title": "Deep Fashion Electronic",
@@ -3712,7 +3649,10 @@
       "genre": "pop"
     },
     "msg_id": 1246,
-    "file_id": "BAACAgEAAxkDAAIE3mr74JAJreHpylqjoy_wuaMOK2_ZAAIvCAACF-fgR3gvgXvGSxQ4PQQ"
+    "file_id": "BAACAgEAAxkDAAIE3mr74JAJreHpylqjoy_wuaMOK2_ZAAIvCAACF-fgR3gvgXvGSxQ4PQQ",
+    "decided_at": "2026-11-19T13:07:30.428562+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/Df7KLQcD0Aq/"
   },
   {
     "id": "7d87c0cc",
@@ -3726,7 +3666,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-384090",
       "title": "Manta-dive",
@@ -3740,7 +3680,11 @@
       "genre": "lounge"
     },
     "msg_id": 1247,
-    "file_id": "BAACAgEAAxkDAAIE32r74K8yrCoAAdFK65zoYeraAsNZywACMQgAAhfn4EfhhAueuq76IT0E"
+    "file_id": "BAACAgEAAxkDAAIE32r74K8yrCoAAdFK65zoYeraAsNZywACMQgAAhfn4EfhhAueuq76IT0E",
+    "decided_at": "2026-11-19T13:11:27.904298+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "cd9e14db"
   },
   {
     "id": "8ce0d5d2",
@@ -3782,7 +3726,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 9.97,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1702676",
       "title": "Daydream",
@@ -3796,7 +3740,8 @@
       "genre": "chillout"
     },
     "msg_id": 1249,
-    "file_id": "BAACAgEAAxkDAAIE4Wr74OLknamqHkNA-0Lw0S54vOFAAAIzCAACF-fgR13yrjR81WKCPQQ"
+    "file_id": "BAACAgEAAxkDAAIE4Wr74OLknamqHkNA-0Lw0S54vOFAAAIzCAACF-fgR13yrjR81WKCPQQ",
+    "decided_at": "2026-11-19T13:11:27.904298+00:00"
   },
   {
     "id": "955fba27",
@@ -3810,7 +3755,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 7.93,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1342479",
       "title": "Breathe",
@@ -3824,7 +3769,8 @@
       "genre": "electronic"
     },
     "msg_id": 1250,
-    "file_id": "BAACAgEAAxkDAAIE4mr74P3n0MITlFZXyMm-ZKqAt0rOAAI0CAACF-fgRzNFr3oJKFAnPQQ"
+    "file_id": "BAACAgEAAxkDAAIE4mr74P3n0MITlFZXyMm-ZKqAt0rOAAI0CAACF-fgRzNFr3oJKFAnPQQ",
+    "decided_at": "2026-11-19T13:11:27.904298+00:00"
   },
   {
     "id": "f0c65eca",
@@ -3838,7 +3784,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 9.77,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037721",
       "title": "Downtempo Delights (Lofi Hip-hop)",
@@ -3852,7 +3798,8 @@
       "genre": "hiphop"
     },
     "msg_id": 1251,
-    "file_id": "BAACAgEAAxkDAAIE42r74RbWZoc1HBdec0iHVkH6DZn0AAI1CAACF-fgR1o3qzgl-tB7PQQ"
+    "file_id": "BAACAgEAAxkDAAIE42r74RbWZoc1HBdec0iHVkH6DZn0AAI1CAACF-fgR1o3qzgl-tB7PQQ",
+    "decided_at": "2026-11-19T13:11:27.904298+00:00"
   },
   {
     "id": "50f0775f",
@@ -3866,7 +3813,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 10.43,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1331970",
       "title": "Faith",
@@ -3880,7 +3827,8 @@
       "genre": "pop"
     },
     "msg_id": 1252,
-    "file_id": "BAACAgEAAxkDAAIE5Gr74TfLig9SsOFEqxuUZUR68VymAAI2CAACF-fgRzZy1qnCmHgMPQQ"
+    "file_id": "BAACAgEAAxkDAAIE5Gr74TfLig9SsOFEqxuUZUR68VymAAI2CAACF-fgRzZy1qnCmHgMPQQ",
+    "decided_at": "2026-11-19T13:12:41.967263+00:00"
   },
   {
     "id": "fd0f6850",
@@ -3894,7 +3842,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 11.12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1917024",
       "title": "Dorila y Mello",
@@ -3908,7 +3856,8 @@
       "genre": "hiphop"
     },
     "msg_id": 1253,
-    "file_id": "BAACAgEAAxkDAAIE5Wr74VPSTdB_Ft_NCYdTITuA-IR3AAI3CAACF-fgR9JgEddYRAXEPQQ"
+    "file_id": "BAACAgEAAxkDAAIE5Wr74VPSTdB_Ft_NCYdTITuA-IR3AAI3CAACF-fgR9JgEddYRAXEPQQ",
+    "decided_at": "2026-11-19T13:12:41.967263+00:00"
   },
   {
     "id": "e3f2158c",
@@ -3922,7 +3871,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.23,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-384095",
       "title": "Like King Cool in a sunbed",
@@ -3936,7 +3885,11 @@
       "genre": "lounge"
     },
     "msg_id": 1254,
-    "file_id": "BAACAgEAAxkDAAIE5mr74Wx_jsTCM9A3-gG-1Kdb2NHqAAI5CAACF-fgRzhAV6hevY26PQQ"
+    "file_id": "BAACAgEAAxkDAAIE5mr74Wx_jsTCM9A3-gG-1Kdb2NHqAAI5CAACF-fgRzhAV6hevY26PQQ",
+    "decided_at": "2026-11-19T13:12:41.967263+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "6c9797cd"
   },
   {
     "id": "ffd2059c",
@@ -4525,5 +4478,63 @@
     },
     "msg_id": 1282,
     "file_id": "BAACAgEAAxkDAAIFAmr-eFJub11pkOQmUVPqPhJcYL0lAALQCgAC57j4R4gb0PQizwJkPQQ"
+  },
+  {
+    "id": "cd9e14db",
+    "slot_key": "2026-11-19 09:30",
+    "slot_iso": "2026-11-19T14:30:00+00:00",
+    "slot_label": "Thu Nov 19, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "nw-condom-size",
+    "category": "sex_ed",
+    "clip_id": "clip88",
+    "cta": 3,
+    "mode": "exploit",
+    "seconds": 6.16,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1490752",
+      "title": "Free Post Malone | RnB Type Beat",
+      "creator": "Adi Rambo",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1490752/mp32/",
+      "source": "jamendo",
+      "duration_ms": 213000,
+      "page": "https://www.jamendo.com/track/1490752",
+      "genre": "rnb"
+    },
+    "msg_id": 1288,
+    "file_id": "BAACAgEAAxkDAAIFCGr-9eDVEARmAAGhjypN0rVmdH9scgACewsAAue4-EdnUhKFReZqQz0E",
+    "replaces": "7d87c0cc"
+  },
+  {
+    "id": "6c9797cd",
+    "slot_key": "2026-11-19 19:30",
+    "slot_iso": "2026-11-20T00:30:00+00:00",
+    "slot_label": "Thu Nov 19, 7:30 PM",
+    "post_type": "regular",
+    "item_id": "pr-size-by-country",
+    "category": "mens_health",
+    "clip_id": "clip52",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 6.23,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-384095",
+      "title": "Like King Cool in a sunbed",
+      "creator": "K4MMERER",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/384095/mp32/",
+      "source": "jamendo",
+      "duration_ms": 289000,
+      "page": "https://www.jamendo.com/track/384095",
+      "genre": "lounge"
+    },
+    "msg_id": 1289,
+    "file_id": "BAACAgEAAxkDAAIFCWr-9faJaK5YPBm-1ZquZKe6XccuAAJ8CwAC57j4R5AISPNIQXQlPQQ",
+    "replaces": "e3f2158c"
   }
 ]
