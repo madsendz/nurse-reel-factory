@@ -1,37 +1,5 @@
 [
   {
-    "id": "ab64be6b",
-    "slot_key": "2026-11-08 19:30",
-    "slot_iso": "2026-11-09T00:30:00+00:00",
-    "slot_label": "Sun Nov 08, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-cycling-numb",
-    "category": "mens_health",
-    "clip_id": "clip32",
-    "cta": 5,
-    "mode": "explore",
-    "seconds": 9.33,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-2326509",
-      "title": "Corporate Dreams 4",
-      "creator": "Megis",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2326509/mp32/",
-      "source": "jamendo",
-      "duration_ms": 167000,
-      "page": "https://www.jamendo.com/track/2326509",
-      "genre": "pop"
-    },
-    "msg_id": 1037,
-    "file_id": "BAACAgEAAxkDAAIEDWrtSc4tE2_kYCUcEHMpwwpVfjw8AAJSCgACg0lpR6sXiVhYuaLpPQQ",
-    "decided_at": "2026-11-08T19:42:52.866884+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "630cc8a2"
-  },
-  {
     "id": "121596ad",
     "slot_key": "2026-11-08 21:30",
     "slot_iso": "2026-11-09T02:30:00+00:00",
@@ -661,35 +629,6 @@
     },
     "msg_id": 1076,
     "file_id": "BAACAgEAAxkDAAIENGrv33ClkV3xzCufcW6zmMGK_cXPAAIFCgACCGKAR_lka3wkDBnhPQQ"
-  },
-  {
-    "id": "630cc8a2",
-    "slot_key": "2026-11-08 19:30",
-    "slot_iso": "2026-11-09T00:30:00+00:00",
-    "slot_label": "Sun Nov 08, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-death-during",
-    "category": "health_bait",
-    "clip_id": "clip32",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 9.33,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-247156",
-      "title": "Silence Apart",
-      "creator": "ZigiZigi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/247156/mp32/",
-      "source": "jamendo",
-      "duration_ms": 326000,
-      "page": "https://www.jamendo.com/track/247156",
-      "genre": "pop"
-    },
-    "msg_id": 1086,
-    "file_id": "BAACAgEAAxkDAAIEPmrw0S9VYB5dGNTehyqJKd9PojYSAAJpCQACCGKIR7WAVUrihQU-PQQ",
-    "replaces": "ab64be6b"
   },
   {
     "id": "da702ea8",
@@ -3510,7 +3449,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.13,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1363926",
       "title": "Drake- Still Here instrumental (reprod. J Blanked On This Beat)",
@@ -3525,7 +3464,8 @@
     },
     "msg_id": 1222,
     "file_id": "BAACAgEAAxkDAAIExmr6bxygVKoAAeAyTE0F5zBsuyPhQgACnAoAAjYq0UcnYIPqlI09LT0E",
-    "decided_at": "2026-11-18T13:19:58.977901+00:00"
+    "decided_at": "2026-11-18T13:19:58.977901+00:00",
+    "permalink": "https://www.instagram.com/reel/Df5z0M2FQjV/"
   },
   {
     "id": "3cb70642",
