@@ -1,35 +1,5 @@
 [
   {
-    "id": "f0811997",
-    "slot_key": "2026-11-10 17:30",
-    "slot_iso": "2026-11-10T22:30:00+00:00",
-    "slot_label": "Tue Nov 10, 5:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-fertile-window",
-    "category": "sex_ed",
-    "clip_id": "clip12",
-    "cta": 2,
-    "mode": "explore",
-    "seconds": 9.4,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1342479",
-      "title": "Breathe",
-      "creator": "Axl &amp; Arth",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1342479/mp32/",
-      "source": "jamendo",
-      "duration_ms": 233000,
-      "page": "https://www.jamendo.com/track/1342479",
-      "genre": "electronic"
-    },
-    "msg_id": 1074,
-    "file_id": "BAACAgEAAxkDAAIEMmrv3z_7oOmzj4SphlDNXzCLAAH0dQACAwoAAghigEfMS-T3iKLYqz0E",
-    "decided_at": "2026-11-10T14:28:51.990254+00:00",
-    "permalink": "https://www.instagram.com/reel/Dfk_s0mkbd9/"
-  },
-  {
     "id": "be68e5b9",
     "slot_key": "2026-11-10 19:30",
     "slot_iso": "2026-11-11T00:30:00+00:00",
@@ -4198,7 +4168,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1199532",
       "title": "Stefan The Poker Player",
@@ -4214,6 +4184,7 @@
     "msg_id": 1306,
     "file_id": "BAACAgEAAxkDAAIFGmr_ytCdpoQ52WMILEmkmKcLP803AAJFCAACMIAAAUTSaBhHAeO66T0E",
     "replaces": "bfa26e36",
-    "decided_at": "2026-11-20T16:01:09.005763+00:00"
+    "decided_at": "2026-11-20T16:01:09.005763+00:00",
+    "permalink": "https://www.instagram.com/reel/Df-vuBXCJcz/"
   }
 ]

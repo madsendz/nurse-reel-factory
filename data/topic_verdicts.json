@@ -320,5 +320,12 @@
     "tries": 2,
     "ratio": 0.0,
     "reason": "2 tries, 0.0x median"
+  },
+  "nw-belly-fat-t": {
+    "status": "retired",
+    "since": "2026-11-20T22:31:35.828053+00:00",
+    "tries": 2,
+    "ratio": 0.0,
+    "reason": "2 tries, 0.0x median"
   }
 }
