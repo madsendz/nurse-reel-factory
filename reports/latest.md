@@ -1,35 +1,35 @@
 # Nurse Reel Factory — performance report
 
-Judged reels: **178** · score = link clicks first, then views/shares/saves
+Judged reels: **179** · score = link clicks first, then views/shares/saves
 
 ## Top reels
 
 | Score | Type | Clicks | Views | Shares | Topic | Clip | Posted |
 |---|---|---|---|---|---|---|---|
-| +2.54 | trial | 323.6 | 1396092 | 52513 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
-| +2.15 | trial | 598.7 | 830444 | 106 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
-| +1.82 | trial | 470.8 | 349854 | 39 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
-| +1.66 | trial | 88.7 | 631114 | 462 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
-| +1.62 | regular | 124.5 | 486525 | 4431 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
+| +2.55 | trial | 323.6 | 1396171 | 52517 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
+| +2.16 | trial | 598.7 | 830459 | 106 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
+| +1.83 | trial | 470.8 | 349854 | 39 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
+| +1.66 | trial | 88.7 | 631158 | 462 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
+| +1.62 | regular | 124.5 | 486690 | 4434 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
 | +1.59 | regular | 386.0 | 176349 | 897 | [pr-stamina-foods](https://www.instagram.com/reel/Dedc32xDs80/) | clip26 | 2026-10-14 |
-| +1.51 | trial | 1294.3 | 23626 | 3 | [nw-orgasm-gap](https://www.instagram.com/reel/Dek8CnKAP69/) | clip04 | 2026-10-17 |
-| +1.50 | regular | 127.3 | 561957 | 509 | [nw-notice-first](https://www.instagram.com/reel/DeuU9sEjfCr/) | clip24 | 2026-10-20 |
-| +1.50 | trial | 28.7 | 650961 | 2190 | [pr-frequency-age](https://www.instagram.com/reel/De98Bd1iBs2/) | clip09 | 2026-10-26 |
-| +1.32 | trial | 4.7 | 1112912 | 17659 | [pr-period-sex](https://www.instagram.com/reel/DfAIpEVFXGV/) | clip79 | 2026-10-27 |
+| +1.51 | trial | 1294.3 | 23630 | 3 | [nw-orgasm-gap](https://www.instagram.com/reel/Dek8CnKAP69/) | clip04 | 2026-10-17 |
+| +1.50 | trial | 28.7 | 651076 | 2190 | [pr-frequency-age](https://www.instagram.com/reel/De98Bd1iBs2/) | clip09 | 2026-10-26 |
+| +1.50 | regular | 127.3 | 562002 | 509 | [nw-notice-first](https://www.instagram.com/reel/DeuU9sEjfCr/) | clip24 | 2026-10-20 |
+| +1.33 | trial | 4.7 | 1113586 | 17659 | [pr-period-sex](https://www.instagram.com/reel/DfAIpEVFXGV/) | clip79 | 2026-10-27 |
 
 ## Hook styles
 
 | Value | Strength | Reels |
 |---|---|---|
 | secret_list | +0.13 | 23 |
-| hack_steps | -0.01 | 13 |
-| here_why_she | -0.01 | 11 |
+| here_why_she | -0.00 | 11 |
+| hack_steps | -0.00 | 13 |
 | stat_reveal | -0.08 | 7 |
 | did_you_know | -0.08 | 1 |
 | average_man_thinks | -0.10 | 30 |
 | warning_sign | -0.10 | 2 |
 | average_stat | -0.15 | 13 |
-| stat_men | -0.18 | 24 |
+| stat_men | -0.19 | 25 |
 | what_they_dont_tell | -0.21 | 48 |
 | bait_reveal | -0.32 | 5 |
 | myth_vs_fact | -0.37 | 1 |
@@ -41,7 +41,7 @@ Judged reels: **178** · score = link clicks first, then views/shares/saves
 | anatomy | +0.06 | 2 |
 | sex_ed | -0.06 | 45 |
 | sexual_wellness | -0.09 | 45 |
-| mens_health | -0.17 | 79 |
+| mens_health | -0.18 | 80 |
 | health_bait | -0.23 | 7 |
 
 ## Clips
@@ -53,14 +53,13 @@ Judged reels: **178** · score = link clicks first, then views/shares/saves
 | clip56 | +0.31 | 3 |
 | clip32 | +0.25 | 1 |
 | clip22 | +0.23 | 2 |
-| clip81 | +0.23 | 3 |
 | clip64 | +0.22 | 2 |
 | clip71 | +0.17 | 3 |
 | clip19 | +0.16 | 1 |
-| clip21 | +0.16 | 2 |
 | clip63 | +0.16 | 3 |
-| clip82 | +0.15 | 3 |
-| clip26 | +0.15 | 3 |
+| clip21 | +0.16 | 2 |
+| clip82 | +0.16 | 3 |
+| clip26 | +0.16 | 3 |
 | clip34 | +0.14 | 2 |
 | clip59 | +0.13 | 3 |
 | clip57 | +0.13 | 2 |
@@ -72,25 +71,26 @@ Judged reels: **178** · score = link clicks first, then views/shares/saves
 | clip50 | +0.08 | 1 |
 | clip27 | +0.08 | 3 |
 | clip04 | +0.07 | 4 |
-| clip54 | +0.06 | 1 |
-| clip70 | +0.06 | 2 |
+| clip70 | +0.07 | 2 |
+| clip54 | +0.07 | 1 |
 | clip62 | +0.06 | 1 |
-| clip12 | +0.05 | 2 |
-| clip16 | +0.04 | 2 |
+| clip12 | +0.06 | 2 |
+| clip81 | +0.05 | 4 |
+| clip16 | +0.05 | 2 |
 | clip24 | +0.04 | 3 |
-| clip44 | +0.01 | 2 |
+| clip44 | +0.02 | 2 |
 | clip51 | +0.00 | 2 |
-| clip08 | -0.00 | 3 |
+| clip08 | +0.00 | 3 |
 | clip77 | -0.02 | 2 |
-| clip40 | -0.03 | 2 |
-| clip09 | -0.03 | 3 |
+| clip40 | -0.02 | 2 |
+| clip09 | -0.02 | 3 |
 | clip80 | -0.04 | 3 |
 | clip31 | -0.04 | 3 |
 | clip02 | -0.05 | 2 |
 | clip29 | -0.07 | 1 |
 | clip33 | -0.08 | 4 |
-| clip61 | -0.09 | 3 |
-| clip37 | -0.09 | 4 |
+| clip37 | -0.08 | 4 |
+| clip61 | -0.08 | 3 |
 | clip72 | -0.09 | 1 |
 | clip23 | -0.09 | 1 |
 | clip75 | -0.10 | 2 |
@@ -99,12 +99,12 @@ Judged reels: **178** · score = link clicks first, then views/shares/saves
 | clip48 | -0.11 | 1 |
 | clip88 | -0.12 | 2 |
 | clip52 | -0.14 | 3 |
-| clip66 | -0.15 | 3 |
+| clip66 | -0.14 | 3 |
 | clip18 | -0.15 | 1 |
 | clip41 | -0.15 | 3 |
-| clip73 | -0.16 | 1 |
 | clip84 | -0.16 | 2 |
-| clip30 | -0.17 | 2 |
+| clip73 | -0.16 | 1 |
+| clip30 | -0.16 | 2 |
 | clip74 | -0.18 | 2 |
 | clip83 | -0.18 | 2 |
 | clip46 | -0.19 | 2 |
@@ -139,11 +139,11 @@ Judged reels: **178** · score = link clicks first, then views/shares/saves
 | 1 | -0.09 | 54 |
 | 2 | -0.12 | 29 |
 | 5 | -0.16 | 16 |
-| 3 | -0.19 | 13 |
+| 3 | -0.22 | 14 |
 | 4 | -0.35 | 6 |
 
 ## Weakest recent reels
 
-- nw-plan-b-weight (-1.09)
-- nw-first-time-age (-1.13)
+- nw-ed-diabetes (-1.08)
+- nw-first-time-age (-1.12)
 - nw-sperm-count-drop (-1.15)
