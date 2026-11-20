@@ -1,34 +1,5 @@
 [
   {
-    "id": "1f8d9c9d",
-    "slot_key": "2026-11-10 11:00",
-    "slot_iso": "2026-11-10T16:00:00+00:00",
-    "slot_label": "Tue Nov 10, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-clit-first-hack",
-    "category": "sexual_wellness",
-    "clip_id": "clip17",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 6.5,
-    "status": "missed",
-    "music": {
-      "id": "jamendo-181806",
-      "title": "Alexandra 02",
-      "creator": "Löhstana David",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/181806/mp32/",
-      "source": "jamendo",
-      "duration_ms": 233000,
-      "page": "https://www.jamendo.com/track/181806",
-      "genre": "pop"
-    },
-    "msg_id": 1069,
-    "file_id": "BAACAgEAAxkDAAIELWrv3tirVV4rwIB-7YXdCTvSolasAAL-CQACCGKAR9PGpfog7c6-PQQ",
-    "decided_at": "2026-11-10T07:41:50.346785+00:00"
-  },
-  {
     "id": "c1e18c6a",
     "slot_key": "2026-11-10 12:00",
     "slot_iso": "2026-11-10T17:00:00+00:00",
@@ -3607,7 +3578,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 4.64,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-2176699",
       "title": "Relax Chill Lofi",
@@ -3621,7 +3592,9 @@
       "genre": "rnb"
     },
     "msg_id": 1258,
-    "file_id": "BAACAgEAAxkDAAIE6mr74eSfYf7x9ODunGbW7PBklEEfAAI9CAACF-fgR46Qu9ajXceFPQQ"
+    "file_id": "BAACAgEAAxkDAAIE6mr74eSfYf7x9ODunGbW7PBklEEfAAI9CAACF-fgR46Qu9ajXceFPQQ",
+    "decided_at": "2026-11-20T16:01:09.005763+00:00",
+    "permalink": "https://www.instagram.com/reel/Df-C-AAnMPC/"
   },
   {
     "id": "15fd052b",
@@ -3635,7 +3608,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 10.5,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1161940",
       "title": "In Tune (J. Glaze Remix)",
@@ -3649,7 +3622,8 @@
       "genre": "electronic"
     },
     "msg_id": 1259,
-    "file_id": "BAACAgEAAxkDAAIE62r74gfolAWyPhLxruhWKn2U4ei9AAI-CAACF-fgR1IcM5auE59LPQQ"
+    "file_id": "BAACAgEAAxkDAAIE62r74gfolAWyPhLxruhWKn2U4ei9AAI-CAACF-fgR1IcM5auE59LPQQ",
+    "decided_at": "2026-11-20T16:01:09.005763+00:00"
   },
   {
     "id": "c9249819",
@@ -3663,7 +3637,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.0,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1961617",
       "title": "Memoirs",
@@ -3677,7 +3651,8 @@
       "genre": "dance"
     },
     "msg_id": 1260,
-    "file_id": "BAACAgEAAxkDAAIE7Gr74irkJ3E-DQQQYLGg8u9IZyOjAAI_CAACF-fgRzXzL-cwHFMWPQQ"
+    "file_id": "BAACAgEAAxkDAAIE7Gr74irkJ3E-DQQQYLGg8u9IZyOjAAI_CAACF-fgRzXzL-cwHFMWPQQ",
+    "decided_at": "2026-11-20T16:01:09.005763+00:00"
   },
   {
     "id": "979915c9",
@@ -3691,7 +3666,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 8.39,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -3705,7 +3680,8 @@
       "genre": "dance"
     },
     "msg_id": 1261,
-    "file_id": "BAACAgEAAxkDAAIE7Wr74kBfrfRteOmafZ2pqaGjTu0wAAJBCAACF-fgR-dYOpMfUUwCPQQ"
+    "file_id": "BAACAgEAAxkDAAIE7Wr74kBfrfRteOmafZ2pqaGjTu0wAAJBCAACF-fgR-dYOpMfUUwCPQQ",
+    "decided_at": "2026-11-20T16:01:09.005763+00:00"
   },
   {
     "id": "b009e6c6",
@@ -3719,7 +3695,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 9.0,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1129271",
       "title": "Energy",
@@ -3733,7 +3709,8 @@
       "genre": "electronic"
     },
     "msg_id": 1262,
-    "file_id": "BAACAgEAAxkDAAIE7mr74mHLdUP3Zv6Z-qUj5n3Ci_lRAAJCCAACF-fgR8Tym23L8x8LPQQ"
+    "file_id": "BAACAgEAAxkDAAIE7mr74mHLdUP3Zv6Z-qUj5n3Ci_lRAAJCCAACF-fgR8Tym23L8x8LPQQ",
+    "decided_at": "2026-11-20T16:01:09.005763+00:00"
   },
   {
     "id": "bfa26e36",
@@ -3808,7 +3785,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.8,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-247156",
       "title": "Silence Apart",
@@ -3822,7 +3799,8 @@
       "genre": "pop"
     },
     "msg_id": 1265,
-    "file_id": "BAACAgEAAxkDAAIE8Wr74rVuzANY8dZKl6VQanFZcr9cAAJFCAACF-fgR1fNKkmyk5iwPQQ"
+    "file_id": "BAACAgEAAxkDAAIE8Wr74rVuzANY8dZKl6VQanFZcr9cAAJFCAACF-fgR1fNKkmyk5iwPQQ",
+    "decided_at": "2026-11-20T16:01:09.005763+00:00"
   },
   {
     "id": "72ac14c0",
@@ -4370,7 +4348,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1199532",
       "title": "Stefan The Poker Player",
@@ -4385,6 +4363,7 @@
     },
     "msg_id": 1306,
     "file_id": "BAACAgEAAxkDAAIFGmr_ytCdpoQ52WMILEmkmKcLP803AAJFCAACMIAAAUTSaBhHAeO66T0E",
-    "replaces": "bfa26e36"
+    "replaces": "bfa26e36",
+    "decided_at": "2026-11-20T16:01:09.005763+00:00"
   }
 ]
