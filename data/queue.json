@@ -1,35 +1,5 @@
 [
   {
-    "id": "d82eb5ea",
-    "slot_key": "2026-11-10 16:00",
-    "slot_iso": "2026-11-10T21:00:00+00:00",
-    "slot_label": "Tue Nov 10, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "pr-frequency-age",
-    "category": "sexual_wellness",
-    "clip_id": "clip50",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 8.13,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2037627",
-      "title": "We Made It (Soft Drum And Bass)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037627/mp32/",
-      "source": "jamendo",
-      "duration_ms": 223000,
-      "page": "https://www.jamendo.com/track/2037627",
-      "genre": "electronic"
-    },
-    "msg_id": 1073,
-    "file_id": "BAACAgEAAxkDAAIEMWrv3ypfHdU2lwQ7eAY1Q0ywphiRAAICCgACCGKAR2w0dGk97y1PPQQ",
-    "decided_at": "2026-11-10T14:28:51.990254+00:00",
-    "permalink": "https://www.instagram.com/reel/Dfk1SthEpCD/"
-  },
-  {
     "id": "f0811997",
     "slot_key": "2026-11-10 17:30",
     "slot_iso": "2026-11-10T22:30:00+00:00",
@@ -3574,7 +3544,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 9.0,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1129271",
       "title": "Energy",
@@ -3589,7 +3559,8 @@
     },
     "msg_id": 1262,
     "file_id": "BAACAgEAAxkDAAIE7mr74mHLdUP3Zv6Z-qUj5n3Ci_lRAAJCCAACF-fgR8Tym23L8x8LPQQ",
-    "decided_at": "2026-11-20T16:01:09.005763+00:00"
+    "decided_at": "2026-11-20T16:01:09.005763+00:00",
+    "permalink": "https://www.instagram.com/reel/Df-lwITgHjO/"
   },
   {
     "id": "bfa26e36",
