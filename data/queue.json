@@ -1,35 +1,5 @@
 [
   {
-    "id": "c1e18c6a",
-    "slot_key": "2026-11-10 12:00",
-    "slot_iso": "2026-11-10T17:00:00+00:00",
-    "slot_label": "Tue Nov 10, 12:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-condom-expiry",
-    "category": "sex_ed",
-    "clip_id": "clip30",
-    "cta": 3,
-    "mode": "explore",
-    "seconds": 7.59,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2151100",
-      "title": "Deep Fashion Electronic",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2151100/mp32/",
-      "source": "jamendo",
-      "duration_ms": 112000,
-      "page": "https://www.jamendo.com/track/2151100",
-      "genre": "pop"
-    },
-    "msg_id": 1070,
-    "file_id": "BAACAgEAAxkDAAIELmrv3unEbDgVD-FZvjQCAaxKHEBOAAL_CQACCGKAR_420xJUtmBgPQQ",
-    "decided_at": "2026-11-10T07:41:50.346785+00:00",
-    "permalink": "https://www.instagram.com/reel/DfkbFrZk8it/"
-  },
-  {
     "id": "1bf25496",
     "slot_key": "2026-11-10 13:00",
     "slot_iso": "2026-11-10T18:00:00+00:00",
@@ -3608,7 +3578,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 10.5,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1161940",
       "title": "In Tune (J. Glaze Remix)",
@@ -3623,7 +3593,8 @@
     },
     "msg_id": 1259,
     "file_id": "BAACAgEAAxkDAAIE62r74gfolAWyPhLxruhWKn2U4ei9AAI-CAACF-fgR1IcM5auE59LPQQ",
-    "decided_at": "2026-11-20T16:01:09.005763+00:00"
+    "decided_at": "2026-11-20T16:01:09.005763+00:00",
+    "permalink": "https://www.instagram.com/reel/Df-KDzhjHLd/"
   },
   {
     "id": "c9249819",
