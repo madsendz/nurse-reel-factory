@@ -1,37 +1,5 @@
 [
   {
-    "id": "63a36ed0",
-    "slot_key": "2026-11-10 09:30",
-    "slot_iso": "2026-11-10T14:30:00+00:00",
-    "slot_label": "Tue Nov 10, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-size-by-country",
-    "category": "mens_health",
-    "clip_id": "clip77",
-    "cta": 4,
-    "mode": "exploit",
-    "seconds": 5.12,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1856950",
-      "title": "RnB Chill Trap",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1856950/mp32/",
-      "source": "jamendo",
-      "duration_ms": 123000,
-      "page": "https://www.jamendo.com/track/1856950",
-      "genre": "rnb"
-    },
-    "msg_id": 1068,
-    "file_id": "BAACAgEAAxkDAAIELGrv3sU0MUhs3cAOMuJ_Cw_0RtXJAAL9CQACCGKAR2v086CITxeJPQQ",
-    "decided_at": "2026-11-10T04:53:31.453571+00:00",
-    "redo": "text_edit",
-    "needs_replacement": false,
-    "replaced_by": "20533814"
-  },
-  {
     "id": "1f8d9c9d",
     "slot_key": "2026-11-10 11:00",
     "slot_iso": "2026-11-10T16:00:00+00:00",
@@ -876,38 +844,6 @@
     "file_id": "BAACAgEAAxkDAAIEXGryoHz0IqEetLc6Aw7xVD0JsOjGAAIOBwACVg2RRwKm4_EpjQhYPQQ",
     "decided_at": "2026-11-12T02:50:53.729493+00:00",
     "permalink": "https://www.instagram.com/reel/Dfqk3eFDdb6/"
-  },
-  {
-    "id": "20533814",
-    "slot_key": "2026-11-10 09:30",
-    "slot_iso": "2026-11-10T14:30:00+00:00",
-    "slot_label": "Tue Nov 10, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-size-by-country",
-    "category": "mens_health",
-    "clip_id": "clip77",
-    "cta": 4,
-    "mode": "edited",
-    "seconds": 5.12,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1856950",
-      "title": "RnB Chill Trap",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1856950/mp32/",
-      "source": "jamendo",
-      "duration_ms": 123000,
-      "page": "https://www.jamendo.com/track/1856950",
-      "genre": "rnb"
-    },
-    "msg_id": 1119,
-    "file_id": "BAACAgEAAxkDAAIEX2ryo4DnKBR3rlaU4KVxhIPgkYhYAAIVBwACVg2RR-S3vfoj9SSlPQQ",
-    "replaces": "63a36ed0",
-    "decided_at": "2026-11-10T07:41:50.346785+00:00",
-    "post_now": true,
-    "permalink": "https://www.instagram.com/reel/DfkPGuzCKfj/"
   },
   {
     "id": "e47dd05d",
@@ -3641,7 +3577,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 9.16,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-43679",
       "title": "Ocean fantasy",
@@ -3656,7 +3592,8 @@
     },
     "msg_id": 1257,
     "file_id": "BAACAgEAAxkDAAIE6Wr74dQLPGqYsV7aeGRBX0__v9GFAAI8CAACF-fgR7nYdR2zNWAmPQQ",
-    "decided_at": "2026-11-20T00:44:55.953676+00:00"
+    "decided_at": "2026-11-20T00:44:55.953676+00:00",
+    "permalink": "https://www.instagram.com/reel/Df950EOgCsg/"
   },
   {
     "id": "23dd8938",
