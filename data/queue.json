@@ -1,35 +1,5 @@
 [
   {
-    "id": "9a706ddc",
-    "slot_key": "2026-11-10 08:00",
-    "slot_iso": "2026-11-10T13:00:00+00:00",
-    "slot_label": "Tue Nov 10, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "pr-precum",
-    "category": "sex_ed",
-    "clip_id": "clip88",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 6.16,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1992651",
-      "title": "Emotional Dancing",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1992651/mp32/",
-      "source": "jamendo",
-      "duration_ms": 126000,
-      "page": "https://www.jamendo.com/track/1992651",
-      "genre": "electronic"
-    },
-    "msg_id": 1067,
-    "file_id": "BAACAgEAAxkDAAIEK2rv3rRDGiwJ01pGqRwknnMqFVndAAL8CQACCGKAR-YktOoN-ROUPQQ",
-    "decided_at": "2026-11-10T04:53:31.453571+00:00",
-    "permalink": "https://www.instagram.com/reel/Dfj-cVgILb3/"
-  },
-  {
     "id": "63a36ed0",
     "slot_key": "2026-11-10 09:30",
     "slot_iso": "2026-11-10T14:30:00+00:00",
@@ -3641,7 +3611,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 6.17,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1992651",
       "title": "Emotional Dancing",
@@ -3656,7 +3626,8 @@
     },
     "msg_id": 1256,
     "file_id": "BAACAgEAAxkDAAIE6Gr74b_kdaAJl7TTlMBwa95PAdfqAAI7CAACF-fgR93FWanHPmvDPQQ",
-    "decided_at": "2026-11-20T00:44:55.953676+00:00"
+    "decided_at": "2026-11-20T00:44:55.953676+00:00",
+    "permalink": "https://www.instagram.com/reel/Df9uj4Vkq3q/"
   },
   {
     "id": "a0871251",

@@ -6,16 +6,16 @@ Judged reels: **178** · score = link clicks first, then views/shares/saves
 
 | Score | Type | Clicks | Views | Shares | Topic | Clip | Posted |
 |---|---|---|---|---|---|---|---|
-| +2.54 | trial | 323.5 | 1395327 | 52486 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
-| +2.15 | trial | 598.7 | 830421 | 106 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
-| +1.82 | trial | 470.9 | 349836 | 39 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
-| +1.66 | trial | 88.7 | 630608 | 462 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
-| +1.62 | regular | 124.5 | 486071 | 4424 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
+| +2.54 | trial | 323.5 | 1395773 | 52502 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
+| +2.15 | trial | 598.7 | 830431 | 106 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
+| +1.82 | trial | 470.8 | 349849 | 39 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
+| +1.66 | trial | 88.7 | 630929 | 462 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
+| +1.62 | regular | 124.5 | 486204 | 4427 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
 | +1.59 | regular | 386.0 | 176348 | 897 | [pr-stamina-foods](https://www.instagram.com/reel/Dedc32xDs80/) | clip26 | 2026-10-14 |
-| +1.51 | trial | 1294.3 | 23598 | 3 | [nw-orgasm-gap](https://www.instagram.com/reel/Dek8CnKAP69/) | clip04 | 2026-10-17 |
-| +1.50 | regular | 127.3 | 561809 | 509 | [nw-notice-first](https://www.instagram.com/reel/DeuU9sEjfCr/) | clip24 | 2026-10-20 |
-| +1.50 | trial | 28.7 | 650256 | 2186 | [pr-frequency-age](https://www.instagram.com/reel/De98Bd1iBs2/) | clip09 | 2026-10-26 |
-| +1.32 | trial | 4.7 | 1108857 | 17548 | [pr-period-sex](https://www.instagram.com/reel/DfAIpEVFXGV/) | clip79 | 2026-10-27 |
+| +1.51 | trial | 1294.3 | 23606 | 3 | [nw-orgasm-gap](https://www.instagram.com/reel/Dek8CnKAP69/) | clip04 | 2026-10-17 |
+| +1.50 | regular | 127.3 | 561852 | 509 | [nw-notice-first](https://www.instagram.com/reel/DeuU9sEjfCr/) | clip24 | 2026-10-20 |
+| +1.50 | trial | 28.7 | 650536 | 2188 | [pr-frequency-age](https://www.instagram.com/reel/De98Bd1iBs2/) | clip09 | 2026-10-26 |
+| +1.32 | trial | 4.7 | 1110046 | 17576 | [pr-period-sex](https://www.instagram.com/reel/DfAIpEVFXGV/) | clip79 | 2026-10-27 |
 
 ## Hook styles
 
@@ -28,11 +28,11 @@ Judged reels: **178** · score = link clicks first, then views/shares/saves
 | did_you_know | -0.08 | 1 |
 | average_man_thinks | -0.10 | 30 |
 | warning_sign | -0.10 | 2 |
-| average_stat | -0.16 | 13 |
+| average_stat | -0.15 | 13 |
 | stat_men | -0.18 | 24 |
 | what_they_dont_tell | -0.21 | 48 |
 | bait_reveal | -0.32 | 5 |
-| myth_vs_fact | -0.38 | 1 |
+| myth_vs_fact | -0.37 | 1 |
 
 ## Categories
 
@@ -72,7 +72,7 @@ Judged reels: **178** · score = link clicks first, then views/shares/saves
 | clip50 | +0.08 | 1 |
 | clip27 | +0.08 | 3 |
 | clip04 | +0.07 | 4 |
-| clip54 | +0.07 | 1 |
+| clip54 | +0.06 | 1 |
 | clip70 | +0.06 | 2 |
 | clip62 | +0.06 | 1 |
 | clip12 | +0.05 | 2 |
@@ -109,7 +109,7 @@ Judged reels: **178** · score = link clicks first, then views/shares/saves
 | clip83 | -0.18 | 2 |
 | clip46 | -0.19 | 2 |
 | clip14 | -0.19 | 3 |
-| clip60 | -0.20 | 4 |
+| clip60 | -0.19 | 4 |
 | clip76 | -0.21 | 1 |
 | clip25 | -0.22 | 3 |
 | clip13 | -0.23 | 3 |
@@ -117,12 +117,12 @@ Judged reels: **178** · score = link clicks first, then views/shares/saves
 | clip69c | -0.23 | 2 |
 | clip69b | -0.23 | 1 |
 | clip42 | -0.24 | 4 |
-| clip10 | -0.25 | 1 |
+| clip10 | -0.24 | 1 |
 | clip55 | -0.25 | 4 |
 | clip05 | -0.26 | 1 |
 | clip03 | -0.26 | 2 |
 | clip38 | -0.28 | 3 |
-| clip53 | -0.31 | 1 |
+| clip53 | -0.30 | 1 |
 | clip43 | -0.36 | 2 |
 | clip36 | -0.36 | 2 |
 | clip47 | -0.36 | 3 |
