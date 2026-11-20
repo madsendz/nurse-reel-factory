@@ -1,35 +1,5 @@
 [
   {
-    "id": "0c056b56",
-    "slot_key": "2026-11-09 19:30",
-    "slot_iso": "2026-11-10T00:30:00+00:00",
-    "slot_label": "Mon Nov 09, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-sleep-t",
-    "category": "mens_health",
-    "clip_id": "clip13",
-    "cta": 3,
-    "mode": "exploit",
-    "seconds": 8.9,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1916401",
-      "title": "RnB Chill Trap",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1916401/mp32/",
-      "source": "jamendo",
-      "duration_ms": 123000,
-      "page": "https://www.jamendo.com/track/1916401",
-      "genre": "rnb"
-    },
-    "msg_id": 1058,
-    "file_id": "BAACAgEAAxkDAAIEImrukq7Ye6GPxChx2pbTsQdcNuk0AAKPDAAC461wR8TuYnAwh18YPQQ",
-    "decided_at": "2026-11-09T12:06:58.099417+00:00",
-    "permalink": "https://www.instagram.com/reel/Dfiofe2CIK-/"
-  },
-  {
     "id": "46dc97e7",
     "slot_key": "2026-11-09 21:30",
     "slot_iso": "2026-11-10T02:30:00+00:00",
@@ -3622,7 +3592,8 @@
     },
     "msg_id": 1253,
     "file_id": "BAACAgEAAxkDAAIE5Wr74VPSTdB_Ft_NCYdTITuA-IR3AAI3CAACF-fgR9JgEddYRAXEPQQ",
-    "decided_at": "2026-11-19T13:12:41.967263+00:00"
+    "decided_at": "2026-11-19T13:12:41.967263+00:00",
+    "post_now": true
   },
   {
     "id": "e3f2158c",
@@ -3668,7 +3639,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 6.13,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-366912",
       "title": "Club's House DJ",
@@ -3682,7 +3653,8 @@
       "genre": "dance"
     },
     "msg_id": 1255,
-    "file_id": "BAACAgEAAxkDAAIE52r74as5N656yVxqM19p_S1_QRaKAAI6CAACF-fgRxOgdvg-CnthPQQ"
+    "file_id": "BAACAgEAAxkDAAIE52r74as5N656yVxqM19p_S1_QRaKAAI6CAACF-fgRxOgdvg-CnthPQQ",
+    "decided_at": "2026-11-20T00:38:33.546999+00:00"
   },
   {
     "id": "626ad897",
@@ -3696,7 +3668,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 6.17,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1992651",
       "title": "Emotional Dancing",
@@ -3710,7 +3682,8 @@
       "genre": "electronic"
     },
     "msg_id": 1256,
-    "file_id": "BAACAgEAAxkDAAIE6Gr74b_kdaAJl7TTlMBwa95PAdfqAAI7CAACF-fgR93FWanHPmvDPQQ"
+    "file_id": "BAACAgEAAxkDAAIE6Gr74b_kdaAJl7TTlMBwa95PAdfqAAI7CAACF-fgR93FWanHPmvDPQQ",
+    "decided_at": "2026-11-20T00:44:55.953676+00:00"
   },
   {
     "id": "a0871251",
@@ -3724,7 +3697,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 9.16,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-43679",
       "title": "Ocean fantasy",
@@ -3738,7 +3711,8 @@
       "genre": "electronic"
     },
     "msg_id": 1257,
-    "file_id": "BAACAgEAAxkDAAIE6Wr74dQLPGqYsV7aeGRBX0__v9GFAAI8CAACF-fgR7nYdR2zNWAmPQQ"
+    "file_id": "BAACAgEAAxkDAAIE6Wr74dQLPGqYsV7aeGRBX0__v9GFAAI8CAACF-fgR7nYdR2zNWAmPQQ",
+    "decided_at": "2026-11-20T00:44:55.953676+00:00"
   },
   {
     "id": "23dd8938",
