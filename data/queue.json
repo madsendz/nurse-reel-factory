@@ -1,35 +1,5 @@
 [
   {
-    "id": "e30120a1",
-    "slot_key": "2026-11-10 14:30",
-    "slot_iso": "2026-11-10T19:30:00+00:00",
-    "slot_label": "Tue Nov 10, 2:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-period-sex",
-    "category": "sex_ed",
-    "clip_id": "clip74",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 4.64,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1525343",
-      "title": "FAS - heda",
-      "creator": "FAS",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1525343/mp32/",
-      "source": "jamendo",
-      "duration_ms": 165000,
-      "page": "https://www.jamendo.com/track/1525343",
-      "genre": "trap"
-    },
-    "msg_id": 1072,
-    "file_id": "BAACAgEAAxkDAAIEMGrv3xcF2ljynEmlYGuQQMfXFoygAAIBCgACCGKAR7V8bpfpnqfNPQQ",
-    "decided_at": "2026-11-10T14:28:20.189352+00:00",
-    "permalink": "https://www.instagram.com/reel/Dfkq958jTaX/"
-  },
-  {
     "id": "d82eb5ea",
     "slot_key": "2026-11-10 16:00",
     "slot_iso": "2026-11-10T21:00:00+00:00",
@@ -3574,7 +3544,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 8.39,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1179546",
       "title": "Born Free",
@@ -3589,7 +3559,8 @@
     },
     "msg_id": 1261,
     "file_id": "BAACAgEAAxkDAAIE7Wr74kBfrfRteOmafZ2pqaGjTu0wAAJBCAACF-fgR-dYOpMfUUwCPQQ",
-    "decided_at": "2026-11-20T16:01:09.005763+00:00"
+    "decided_at": "2026-11-20T16:01:09.005763+00:00",
+    "permalink": "https://www.instagram.com/reel/Df-bNlLIH1j/"
   },
   {
     "id": "b009e6c6",
