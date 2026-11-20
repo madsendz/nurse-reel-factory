@@ -6,16 +6,16 @@ Judged reels: **178** · score = link clicks first, then views/shares/saves
 
 | Score | Type | Clicks | Views | Shares | Topic | Clip | Posted |
 |---|---|---|---|---|---|---|---|
-| +2.54 | trial | 323.5 | 1394786 | 52468 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
-| +2.15 | trial | 598.7 | 830407 | 106 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
-| +1.82 | trial | 470.9 | 349825 | 39 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
-| +1.66 | trial | 88.7 | 630294 | 461 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
-| +1.62 | regular | 124.5 | 485628 | 4416 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
-| +1.59 | regular | 386.0 | 176347 | 897 | [pr-stamina-foods](https://www.instagram.com/reel/Dedc32xDs80/) | clip26 | 2026-10-14 |
-| +1.51 | trial | 1294.3 | 23583 | 3 | [nw-orgasm-gap](https://www.instagram.com/reel/Dek8CnKAP69/) | clip04 | 2026-10-17 |
-| +1.50 | regular | 127.3 | 561720 | 509 | [nw-notice-first](https://www.instagram.com/reel/DeuU9sEjfCr/) | clip24 | 2026-10-20 |
-| +1.50 | trial | 28.7 | 649647 | 2180 | [pr-frequency-age](https://www.instagram.com/reel/De98Bd1iBs2/) | clip09 | 2026-10-26 |
-| +1.32 | trial | 4.7 | 1105762 | 17471 | [pr-period-sex](https://www.instagram.com/reel/DfAIpEVFXGV/) | clip79 | 2026-10-27 |
+| +2.54 | trial | 323.5 | 1395327 | 52486 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
+| +2.15 | trial | 598.7 | 830421 | 106 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
+| +1.82 | trial | 470.9 | 349836 | 39 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
+| +1.66 | trial | 88.7 | 630608 | 462 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
+| +1.62 | regular | 124.5 | 486071 | 4424 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
+| +1.59 | regular | 386.0 | 176348 | 897 | [pr-stamina-foods](https://www.instagram.com/reel/Dedc32xDs80/) | clip26 | 2026-10-14 |
+| +1.51 | trial | 1294.3 | 23598 | 3 | [nw-orgasm-gap](https://www.instagram.com/reel/Dek8CnKAP69/) | clip04 | 2026-10-17 |
+| +1.50 | regular | 127.3 | 561809 | 509 | [nw-notice-first](https://www.instagram.com/reel/DeuU9sEjfCr/) | clip24 | 2026-10-20 |
+| +1.50 | trial | 28.7 | 650256 | 2186 | [pr-frequency-age](https://www.instagram.com/reel/De98Bd1iBs2/) | clip09 | 2026-10-26 |
+| +1.32 | trial | 4.7 | 1108857 | 17548 | [pr-period-sex](https://www.instagram.com/reel/DfAIpEVFXGV/) | clip79 | 2026-10-27 |
 
 ## Hook styles
 
@@ -25,7 +25,7 @@ Judged reels: **178** · score = link clicks first, then views/shares/saves
 | hack_steps | -0.01 | 13 |
 | here_why_she | -0.01 | 11 |
 | stat_reveal | -0.08 | 7 |
-| did_you_know | -0.09 | 1 |
+| did_you_know | -0.08 | 1 |
 | average_man_thinks | -0.10 | 30 |
 | warning_sign | -0.10 | 2 |
 | average_stat | -0.16 | 13 |
@@ -51,7 +51,7 @@ Judged reels: **178** · score = link clicks first, then views/shares/saves
 | clip07 | +0.50 | 2 |
 | clip79 | +0.37 | 1 |
 | clip56 | +0.31 | 3 |
-| clip32 | +0.26 | 1 |
+| clip32 | +0.25 | 1 |
 | clip22 | +0.23 | 2 |
 | clip81 | +0.23 | 3 |
 | clip64 | +0.22 | 2 |
@@ -59,7 +59,7 @@ Judged reels: **178** · score = link clicks first, then views/shares/saves
 | clip19 | +0.16 | 1 |
 | clip21 | +0.16 | 2 |
 | clip63 | +0.16 | 3 |
-| clip82 | +0.16 | 3 |
+| clip82 | +0.15 | 3 |
 | clip26 | +0.15 | 3 |
 | clip34 | +0.14 | 2 |
 | clip59 | +0.13 | 3 |
@@ -102,8 +102,8 @@ Judged reels: **178** · score = link clicks first, then views/shares/saves
 | clip66 | -0.15 | 3 |
 | clip18 | -0.15 | 1 |
 | clip41 | -0.16 | 3 |
-| clip84 | -0.16 | 2 |
 | clip73 | -0.16 | 1 |
+| clip84 | -0.16 | 2 |
 | clip30 | -0.17 | 2 |
 | clip74 | -0.18 | 2 |
 | clip83 | -0.18 | 2 |
@@ -121,14 +121,14 @@ Judged reels: **178** · score = link clicks first, then views/shares/saves
 | clip55 | -0.25 | 4 |
 | clip05 | -0.26 | 1 |
 | clip03 | -0.26 | 2 |
-| clip38 | -0.29 | 3 |
+| clip38 | -0.28 | 3 |
 | clip53 | -0.31 | 1 |
 | clip43 | -0.36 | 2 |
 | clip36 | -0.36 | 2 |
-| clip47 | -0.37 | 3 |
+| clip47 | -0.36 | 3 |
 | clip06 | -0.37 | 2 |
 | clip17 | -0.38 | 1 |
-| clip39 | -0.42 | 1 |
+| clip39 | -0.41 | 1 |
 | clip49 | -0.42 | 2 |
 
 ## CTAs

@@ -3610,7 +3610,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 6.13,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-366912",
       "title": "Club's House DJ",
@@ -3626,7 +3626,8 @@
     "msg_id": 1255,
     "file_id": "BAACAgEAAxkDAAIE52r74as5N656yVxqM19p_S1_QRaKAAI6CAACF-fgRxOgdvg-CnthPQQ",
     "decided_at": "2026-11-20T00:38:33.546999+00:00",
-    "post_now": true
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/Df9eKPmEoAg/"
   },
   {
     "id": "626ad897",
