@@ -1,35 +1,5 @@
 [
   {
-    "id": "be68e5b9",
-    "slot_key": "2026-11-10 19:30",
-    "slot_iso": "2026-11-11T00:30:00+00:00",
-    "slot_label": "Tue Nov 10, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-shaving-sti",
-    "category": "sex_ed",
-    "clip_id": "clip11",
-    "cta": 0,
-    "mode": "explore",
-    "seconds": 9.2,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1179546",
-      "title": "Born Free",
-      "creator": "Pokki DJ",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1179546/mp32/",
-      "source": "jamendo",
-      "duration_ms": 212000,
-      "page": "https://www.jamendo.com/track/1179546",
-      "genre": "dance"
-    },
-    "msg_id": 1075,
-    "file_id": "BAACAgEAAxkDAAIEM2rv31dPTxIJ_feEwWrk1DYJO9vtAAIECgACCGKAR5-8e34bGl2_PQQ",
-    "decided_at": "2026-11-10T15:27:37.953976+00:00",
-    "permalink": "https://www.instagram.com/reel/DflNL2jDER1/"
-  },
-  {
     "id": "478c51f3",
     "slot_key": "2026-11-10 21:30",
     "slot_iso": "2026-11-11T02:30:00+00:00",
@@ -3576,7 +3546,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 9.6,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2326509",
       "title": "Corporate Dreams 4",
@@ -3591,7 +3561,8 @@
     },
     "msg_id": 1264,
     "file_id": "BAACAgEAAxkDAAIE8Gr74p1plPc-0vH9D5cGNS5cno5MAAJECAACF-fgR-dQ3fRf4sl9PQQ",
-    "decided_at": "2026-11-20T04:14:02.928750+00:00"
+    "decided_at": "2026-11-20T04:14:02.928750+00:00",
+    "permalink": "https://www.instagram.com/reel/Df-9MuNjGfZ/"
   },
   {
     "id": "721121aa",
