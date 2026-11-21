@@ -1,33 +1,5 @@
 [
   {
-    "id": "478c51f3",
-    "slot_key": "2026-11-10 21:30",
-    "slot_iso": "2026-11-11T02:30:00+00:00",
-    "slot_label": "Tue Nov 10, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-alcohol-her",
-    "category": "sexual_wellness",
-    "clip_id": "clip70",
-    "cta": 0,
-    "mode": "explore",
-    "seconds": 12,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1917024",
-      "title": "Dorila y Mello",
-      "creator": "Popoi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1917024/mp32/",
-      "source": "jamendo",
-      "duration_ms": 165000,
-      "page": "https://www.jamendo.com/track/1917024",
-      "genre": "hiphop"
-    },
-    "msg_id": 1076,
-    "file_id": "BAACAgEAAxkDAAIENGrv33ClkV3xzCufcW6zmMGK_cXPAAIFCgACCGKAR_lka3wkDBnhPQQ"
-  },
-  {
     "id": "da702ea8",
     "slot_key": "2026-11-11 08:00",
     "slot_iso": "2026-11-11T13:00:00+00:00",
@@ -3576,7 +3548,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.8,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-247156",
       "title": "Silence Apart",
@@ -3591,7 +3563,8 @@
     },
     "msg_id": 1265,
     "file_id": "BAACAgEAAxkDAAIE8Wr74rVuzANY8dZKl6VQanFZcr9cAAJFCAACF-fgR1fNKkmyk5iwPQQ",
-    "decided_at": "2026-11-20T16:01:09.005763+00:00"
+    "decided_at": "2026-11-20T16:01:09.005763+00:00",
+    "permalink": "https://www.instagram.com/reel/Df_LebHnDPD/"
   },
   {
     "id": "72ac14c0",
