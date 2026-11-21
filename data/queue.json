@@ -1,37 +1,5 @@
 [
   {
-    "id": "8d556e0d",
-    "slot_key": "2026-11-11 09:30",
-    "slot_iso": "2026-11-11T14:30:00+00:00",
-    "slot_label": "Wed Nov 11, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "nw-reading-bait",
-    "category": "health_bait",
-    "clip_id": "clip86",
-    "cta": 3,
-    "mode": "exploit",
-    "seconds": 6.03,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-2182937",
-      "title": "Electronic Ambient Background Guitar",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2182937/mp32/",
-      "source": "jamendo",
-      "duration_ms": 148000,
-      "page": "https://www.jamendo.com/track/2182937",
-      "genre": "electronic"
-    },
-    "msg_id": 1089,
-    "file_id": "BAACAgEAAxkDAAIEQWrxMqN_f-B7_btG77_io4IHb5uBAAIFCgACCGKIR5t-0Me2aFbyPQQ",
-    "decided_at": "2026-11-11T04:35:46.763764+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "609ad119"
-  },
-  {
     "id": "f8ebb0ce",
     "slot_key": "2026-11-11 11:00",
     "slot_iso": "2026-11-11T16:00:00+00:00",
@@ -906,39 +874,6 @@
     "permalink": "https://www.instagram.com/reel/DftJj4sEkHV/"
   },
   {
-    "id": "609ad119",
-    "slot_key": "2026-11-11 09:30",
-    "slot_iso": "2026-11-11T14:30:00+00:00",
-    "slot_label": "Wed Nov 11, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "nw-reading-bait",
-    "category": "health_bait",
-    "clip_id": "clip08",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1363926",
-      "title": "Drake- Still Here instrumental (reprod. J Blanked On This Beat)",
-      "creator": "JBlanked",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1363926/mp32/",
-      "source": "jamendo",
-      "duration_ms": 241000,
-      "page": "https://www.jamendo.com/track/1363926",
-      "genre": "trap"
-    },
-    "msg_id": 1139,
-    "file_id": "BAACAgEAAxkDAAIEc2rz8ORIYuNsSTHoJXVrdpOQmzd3AAIfCgAC2sWZRxyC2Or_iwkFPQQ",
-    "replaces": "8d556e0d",
-    "decided_at": "2026-11-11T14:03:26.935562+00:00",
-    "redo": "text_edit",
-    "needs_replacement": false,
-    "replaced_by": "de69cca8"
-  },
-  {
     "id": "a45a15ec",
     "slot_key": "2026-11-11 11:00",
     "slot_iso": "2026-11-11T16:00:00+00:00",
@@ -966,38 +901,6 @@
     "msg_id": 1142,
     "file_id": "BAACAgEAAxkDAAIEdmr0deV2Qh2qEnVl2BgI95KkswnpAALOBwAC2sWhR-FbFI_wQex3PQQ",
     "replaces": "f8ebb0ce"
-  },
-  {
-    "id": "de69cca8",
-    "slot_key": "2026-11-11 09:30",
-    "slot_iso": "2026-11-11T14:30:00+00:00",
-    "slot_label": "Wed Nov 11, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "nw-reading-bait",
-    "category": "health_bait",
-    "clip_id": "clip08",
-    "cta": 0,
-    "mode": "edited",
-    "seconds": 12,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1363926",
-      "title": "Drake- Still Here instrumental (reprod. J Blanked On This Beat)",
-      "creator": "JBlanked",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1363926/mp32/",
-      "source": "jamendo",
-      "duration_ms": 241000,
-      "page": "https://www.jamendo.com/track/1363926",
-      "genre": "trap"
-    },
-    "msg_id": 1143,
-    "file_id": "BAACAgEAAxkDAAIEd2r0dgMq537sbZrARp9-N2r0j81NAALPBwAC2sWhRyyAc3CQ4O50PQQ",
-    "replaces": "609ad119",
-    "decided_at": "2026-11-11T17:01:18.825880+00:00",
-    "post_now": true,
-    "permalink": "https://www.instagram.com/reel/DfnBQj4EWkv/"
   },
   {
     "id": "8191a72f",
@@ -3578,7 +3481,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 9.33,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1916401",
       "title": "RnB Chill Trap",
@@ -3593,7 +3496,8 @@
     },
     "msg_id": 1274,
     "file_id": "BAACAgEAAxkDAAIE-mr-dz1Kpgx4v5WrusL3Pgm1Oz-SAALICgAC57j4RzT7zB8jqzlTPQQ",
-    "decided_at": "2026-11-21T02:21:32.766556+00:00"
+    "decided_at": "2026-11-21T02:21:32.766556+00:00",
+    "permalink": "https://www.instagram.com/reel/DgAdQzEls6E/"
   },
   {
     "id": "a8428e3a",
@@ -3780,14 +3684,14 @@
     "slot_key": "2026-11-21 19:30",
     "slot_iso": "2026-11-22T00:30:00+00:00",
     "slot_label": "Sat Nov 21, 7:30 PM",
-    "post_type": "regular",
+    "post_type": "trial",
     "item_id": "nw-peyronies",
     "category": "mens_health",
     "clip_id": "clip69b",
     "cta": 2,
     "mode": "exploit",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-367026",
       "title": "Drink's Afterhouse",
@@ -3801,7 +3705,8 @@
       "genre": "dance"
     },
     "msg_id": 1281,
-    "file_id": "BAACAgEAAxkDAAIFAWr-d_qy9QXdNI4E534FJ9OuFkUcAALPCgAC57j4R2CPQuqsMgM5PQQ"
+    "file_id": "BAACAgEAAxkDAAIFAWr-d_qy9QXdNI4E534FJ9OuFkUcAALPCgAC57j4R2CPQuqsMgM5PQQ",
+    "decided_at": "2026-11-21T14:31:04.513756+00:00"
   },
   {
     "id": "f44ea909",
@@ -3815,7 +3720,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2151100",
       "title": "Deep Fashion Electronic",
@@ -3829,7 +3734,8 @@
       "genre": "pop"
     },
     "msg_id": 1282,
-    "file_id": "BAACAgEAAxkDAAIFAmr-eFJub11pkOQmUVPqPhJcYL0lAALQCgAC57j4R4gb0PQizwJkPQQ"
+    "file_id": "BAACAgEAAxkDAAIFAmr-eFJub11pkOQmUVPqPhJcYL0lAALQCgAC57j4R4gb0PQizwJkPQQ",
+    "decided_at": "2026-11-21T14:31:04.513756+00:00"
   },
   {
     "id": "cd9e14db",
@@ -3901,7 +3807,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.52,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2173192",
       "title": "Summer Light Pop",
@@ -3915,7 +3821,8 @@
       "genre": "lounge"
     },
     "msg_id": 1293,
-    "file_id": "BAACAgEAAxkDAAIFDWr_xbRKoW3km4c8hc8HWF3OgbaQAAI5CAACMIAAAUSp_K1goqay-z0E"
+    "file_id": "BAACAgEAAxkDAAIFDWr_xbRKoW3km4c8hc8HWF3OgbaQAAI5CAACMIAAAUSp_K1goqay-z0E",
+    "decided_at": "2026-11-21T14:31:04.513756+00:00"
   },
   {
     "id": "ac9df07d",
