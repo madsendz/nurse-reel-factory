@@ -3605,7 +3605,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 8.13,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -3619,7 +3619,8 @@
       "genre": "lounge"
     },
     "msg_id": 1273,
-    "file_id": "BAACAgEAAxkDAAIE-Wr-dyi_o1OdoIAiv3PyhO8uMNLIAALHCgAC57j4R5YEaTYV7uRzPQQ"
+    "file_id": "BAACAgEAAxkDAAIE-Wr-dyi_o1OdoIAiv3PyhO8uMNLIAALHCgAC57j4R5YEaTYV7uRzPQQ",
+    "decided_at": "2026-11-21T02:21:32.766556+00:00"
   },
   {
     "id": "a1861107",
@@ -3633,7 +3634,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 9.33,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1916401",
       "title": "RnB Chill Trap",
@@ -3647,7 +3648,8 @@
       "genre": "hiphop"
     },
     "msg_id": 1274,
-    "file_id": "BAACAgEAAxkDAAIE-mr-dz1Kpgx4v5WrusL3Pgm1Oz-SAALICgAC57j4RzT7zB8jqzlTPQQ"
+    "file_id": "BAACAgEAAxkDAAIE-mr-dz1Kpgx4v5WrusL3Pgm1Oz-SAALICgAC57j4RzT7zB8jqzlTPQQ",
+    "decided_at": "2026-11-21T02:21:32.766556+00:00"
   },
   {
     "id": "a8428e3a",
@@ -3661,7 +3663,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1440522",
       "title": "Wait",
@@ -3675,7 +3677,11 @@
       "genre": "hiphop"
     },
     "msg_id": 1275,
-    "file_id": "BAACAgEAAxkDAAIE-2r-d1kLaiLkJBxP0EO0aL8E_KQDAALJCgAC57j4R3YHFOhMMIE3PQQ"
+    "file_id": "BAACAgEAAxkDAAIE-2r-d1kLaiLkJBxP0EO0aL8E_KQDAALJCgAC57j4R3YHFOhMMIE3PQQ",
+    "decided_at": "2026-11-21T02:21:32.766556+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "28e9d932"
   },
   {
     "id": "e243718d",
@@ -4157,5 +4163,34 @@
     "replaces": "bfa26e36",
     "decided_at": "2026-11-20T16:01:09.005763+00:00",
     "permalink": "https://www.instagram.com/reel/Df-vuBXCJcz/"
+  },
+  {
+    "id": "28e9d932",
+    "slot_key": "2026-11-21 11:00",
+    "slot_iso": "2026-11-21T16:00:00+00:00",
+    "slot_label": "Sat Nov 21, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-blue-pill-myth",
+    "category": "mens_health",
+    "clip_id": "clip67",
+    "cta": 0,
+    "mode": "exploit",
+    "seconds": 8.2,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1274433",
+      "title": "sex and money",
+      "creator": "Smiling Cynic",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1274433/mp32/",
+      "source": "jamendo",
+      "duration_ms": 230000,
+      "page": "https://www.jamendo.com/track/1274433",
+      "genre": "pop"
+    },
+    "msg_id": 1310,
+    "file_id": "BAACAgEAAxkDAAIFHmsBAAFxps3X_ZV3jrxt2Mi8DxWAiQACzAgAAjCACESZh_fyQs-5hj0E",
+    "replaces": "a8428e3a"
   }
 ]
