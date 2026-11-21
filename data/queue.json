@@ -3639,7 +3639,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1591558",
       "title": "199-s8rec",
@@ -3653,7 +3653,8 @@
       "genre": "trap"
     },
     "msg_id": 1276,
-    "file_id": "BAACAgEAAxkDAAIE_Gr-d4UNp3EvHCaErdQz3RLjr9ncAALKCgAC57j4R-4wLW5lIZDdPQQ"
+    "file_id": "BAACAgEAAxkDAAIE_Gr-d4UNp3EvHCaErdQz3RLjr9ncAALKCgAC57j4R-4wLW5lIZDdPQQ",
+    "decided_at": "2026-11-21T14:25:10.854317+00:00"
   },
   {
     "id": "5005c005",
@@ -3667,7 +3668,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 6.86,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1342479",
       "title": "Breathe",
@@ -3681,7 +3682,8 @@
       "genre": "hiphop"
     },
     "msg_id": 1277,
-    "file_id": "BAACAgEAAxkDAAIE_Wr-d5o2Q82JM_gq97yhy4v5X6HFAALLCgAC57j4R1DB2z4eKelOPQQ"
+    "file_id": "BAACAgEAAxkDAAIE_Wr-d5o2Q82JM_gq97yhy4v5X6HFAALLCgAC57j4R1DB2z4eKelOPQQ",
+    "decided_at": "2026-11-21T14:25:10.854317+00:00"
   },
   {
     "id": "97e8474e",
@@ -3695,7 +3697,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 4.33,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1931328",
       "title": "Dreaming of better days",
@@ -3709,7 +3711,11 @@
       "genre": "chillout"
     },
     "msg_id": 1278,
-    "file_id": "BAACAgEAAxkDAAIE_mr-d7Jw2NHPsbSiQQdSPP3d59-JAALMCgAC57j4R5cSfDr4WF6VPQQ"
+    "file_id": "BAACAgEAAxkDAAIE_mr-d7Jw2NHPsbSiQQdSPP3d59-JAALMCgAC57j4R5cSfDr4WF6VPQQ",
+    "decided_at": "2026-11-21T14:25:10.854317+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "99ee75ac"
   },
   {
     "id": "02965e9f",
@@ -3723,7 +3729,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 6.9,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1856950",
       "title": "RnB Chill Trap",
@@ -3737,7 +3743,8 @@
       "genre": "rnb"
     },
     "msg_id": 1279,
-    "file_id": "BAACAgEAAxkDAAIE_2r-d8QiB4gebqDUh1_qlut53t7MAALNCgAC57j4R4fS-xildo4HPQQ"
+    "file_id": "BAACAgEAAxkDAAIE_2r-d8QiB4gebqDUh1_qlut53t7MAALNCgAC57j4R4fS-xildo4HPQQ",
+    "decided_at": "2026-11-21T14:25:10.854317+00:00"
   },
   {
     "id": "0eced5e9",
@@ -3751,7 +3758,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 7.8,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037721",
       "title": "Downtempo Delights (Lofi Hip-hop)",
@@ -3765,7 +3772,8 @@
       "genre": "hiphop"
     },
     "msg_id": 1280,
-    "file_id": "BAACAgEAAxkDAAIFAAFq_nfXfT8VlbfXsaIeVWQ5GmQZrAACzgoAAue4-EcZ86mOOI0oxD0E"
+    "file_id": "BAACAgEAAxkDAAIFAAFq_nfXfT8VlbfXsaIeVWQ5GmQZrAACzgoAAue4-EcZ86mOOI0oxD0E",
+    "decided_at": "2026-11-21T14:25:43.026347+00:00"
   },
   {
     "id": "f5845f16",
@@ -4120,7 +4128,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 8.2,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1274433",
       "title": "sex and money",
@@ -4135,7 +4143,8 @@
     },
     "msg_id": 1310,
     "file_id": "BAACAgEAAxkDAAIFHmsBAAFxps3X_ZV3jrxt2Mi8DxWAiQACzAgAAjCACESZh_fyQs-5hj0E",
-    "replaces": "a8428e3a"
+    "replaces": "a8428e3a",
+    "decided_at": "2026-11-21T14:25:10.854317+00:00"
   },
   {
     "id": "f256caaa",
@@ -4500,5 +4509,34 @@
     },
     "msg_id": 1323,
     "file_id": "BAACAgEAAxkDAAIFK2sBF-hEfrMY30PxaYJS4NGTKk4CAAL8CAACMIAIRIjFA8z2uYTBPQQ"
+  },
+  {
+    "id": "99ee75ac",
+    "slot_key": "2026-11-21 14:30",
+    "slot_iso": "2026-11-21T19:30:00+00:00",
+    "slot_label": "Sat Nov 21, 2:30 PM",
+    "post_type": "trial",
+    "item_id": "pr-average-size",
+    "category": "mens_health",
+    "clip_id": "clip76",
+    "cta": 2,
+    "mode": "edited",
+    "seconds": 4.33,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1931328",
+      "title": "Dreaming of better days",
+      "creator": "zero-project",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1931328/mp32/",
+      "source": "jamendo",
+      "duration_ms": 432000,
+      "page": "https://www.jamendo.com/track/1931328",
+      "genre": "chillout"
+    },
+    "msg_id": 1328,
+    "file_id": "BAACAgEAAxkDAAIFMGsBqfvTP7PsOkxhGsoR23Xs36uiAAJvCQACBigQRI0vd17dFaAmPQQ",
+    "replaces": "97e8474e"
   }
 ]
