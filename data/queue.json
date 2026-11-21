@@ -1,33 +1,5 @@
 [
   {
-    "id": "fa931a22",
-    "slot_key": "2026-11-11 13:00",
-    "slot_iso": "2026-11-11T18:00:00+00:00",
-    "slot_label": "Wed Nov 11, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "nw-orgasm-gap",
-    "category": "sex_ed",
-    "clip_id": "clip06",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 11.7,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-2037702",
-      "title": "Nostalgia Drive (Lofi Hip-hop)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037702/mp32/",
-      "source": "jamendo",
-      "duration_ms": 294000,
-      "page": "https://www.jamendo.com/track/2037702",
-      "genre": "hiphop"
-    },
-    "msg_id": 1092,
-    "file_id": "BAACAgEAAxkDAAIERGrxMuftmdfrY6dw-eSAVakGAAGxJQACCAoAAghiiEfhF_8sU01uNj0E"
-  },
-  {
     "id": "882747eb",
     "slot_key": "2026-11-11 14:30",
     "slot_iso": "2026-11-11T19:30:00+00:00",
@@ -3484,7 +3456,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 6.86,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1342479",
       "title": "Breathe",
@@ -3499,7 +3471,8 @@
     },
     "msg_id": 1277,
     "file_id": "BAACAgEAAxkDAAIE_Wr-d5o2Q82JM_gq97yhy4v5X6HFAALLCgAC57j4R1DB2z4eKelOPQQ",
-    "decided_at": "2026-11-21T14:25:10.854317+00:00"
+    "decided_at": "2026-11-21T14:25:10.854317+00:00",
+    "permalink": "https://www.instagram.com/reel/DgA1Q3_oWTz/"
   },
   {
     "id": "97e8474e",
