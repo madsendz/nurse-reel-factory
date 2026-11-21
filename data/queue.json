@@ -1,35 +1,5 @@
 [
   {
-    "id": "da702ea8",
-    "slot_key": "2026-11-11 08:00",
-    "slot_iso": "2026-11-11T13:00:00+00:00",
-    "slot_label": "Wed Nov 11, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "pr-women-secretly-attractive",
-    "category": "sexual_wellness",
-    "clip_id": "clip02",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1862341",
-      "title": "The Last Day Of Summer",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1862341/mp32/",
-      "source": "jamendo",
-      "duration_ms": 120000,
-      "page": "https://www.jamendo.com/track/1862341",
-      "genre": "dance"
-    },
-    "msg_id": 1088,
-    "file_id": "BAACAgEAAxkDAAIEQGrxMpOhPqcK0gK00v1wYySfvf_1AAIECgACCGKIR-VU-c3sy1ESPQQ",
-    "decided_at": "2026-11-11T04:35:46.763764+00:00",
-    "permalink": "https://www.instagram.com/reel/DfmjRR_Dxny/"
-  },
-  {
     "id": "8d556e0d",
     "slot_key": "2026-11-11 09:30",
     "slot_iso": "2026-11-11T14:30:00+00:00",
@@ -3578,7 +3548,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 8.13,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -3593,7 +3563,8 @@
     },
     "msg_id": 1273,
     "file_id": "BAACAgEAAxkDAAIE-Wr-dyi_o1OdoIAiv3PyhO8uMNLIAALHCgAC57j4R5YEaTYV7uRzPQQ",
-    "decided_at": "2026-11-21T02:21:32.766556+00:00"
+    "decided_at": "2026-11-21T02:21:32.766556+00:00",
+    "permalink": "https://www.instagram.com/reel/DgATJZbnPQx/"
   },
   {
     "id": "a1861107",
