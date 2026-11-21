@@ -1,35 +1,5 @@
 [
   {
-    "id": "3e70f99e",
-    "slot_key": "2026-11-11 16:00",
-    "slot_iso": "2026-11-11T21:00:00+00:00",
-    "slot_label": "Wed Nov 11, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-yeast-not-sti",
-    "category": "sexual_wellness",
-    "clip_id": "clip47",
-    "cta": 4,
-    "mode": "explore",
-    "seconds": 11.17,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2151100",
-      "title": "Deep Fashion Electronic",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2151100/mp32/",
-      "source": "jamendo",
-      "duration_ms": 112000,
-      "page": "https://www.jamendo.com/track/2151100",
-      "genre": "pop"
-    },
-    "msg_id": 1094,
-    "file_id": "BAACAgEAAxkDAAIERmrxMxUjLY9garPsqbNIBBfrdZJIAAIKCgACCGKIR1RWhRmXDAXOPQQ",
-    "decided_at": "2026-11-11T17:01:20.710105+00:00",
-    "permalink": "https://www.instagram.com/reel/DfnZ9uxj9zI/"
-  },
-  {
     "id": "57b36c7a",
     "slot_key": "2026-11-11 17:30",
     "slot_iso": "2026-11-11T22:30:00+00:00",
@@ -3457,7 +3427,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 6.9,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1856950",
       "title": "RnB Chill Trap",
@@ -3472,7 +3442,8 @@
     },
     "msg_id": 1279,
     "file_id": "BAACAgEAAxkDAAIE_2r-d8QiB4gebqDUh1_qlut53t7MAALNCgAC57j4R4fS-xildo4HPQQ",
-    "decided_at": "2026-11-21T14:25:10.854317+00:00"
+    "decided_at": "2026-11-21T14:25:10.854317+00:00",
+    "permalink": "https://www.instagram.com/reel/DgBKIz9jQWz/"
   },
   {
     "id": "0eced5e9",
