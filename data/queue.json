@@ -1,35 +1,5 @@
 [
   {
-    "id": "57b36c7a",
-    "slot_key": "2026-11-11 17:30",
-    "slot_iso": "2026-11-11T22:30:00+00:00",
-    "slot_label": "Wed Nov 11, 5:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-after-baby",
-    "category": "sex_ed",
-    "clip_id": "clip84",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 9.16,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1395053",
-      "title": "Ninu - I feel this",
-      "creator": "Ninu",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1395053/mp32/",
-      "source": "jamendo",
-      "duration_ms": 175000,
-      "page": "https://www.jamendo.com/track/1395053",
-      "genre": "trap"
-    },
-    "msg_id": 1095,
-    "file_id": "BAACAgEAAxkDAAIER2rxMyfscKbOfO0ICUqByoG86zOYAAILCgACCGKIR6JNbozNtd37PQQ",
-    "decided_at": "2026-11-11T17:01:20.710105+00:00",
-    "permalink": "https://www.instagram.com/reel/DfnkaJaDNue/"
-  },
-  {
     "id": "5c321159",
     "slot_key": "2026-11-11 19:30",
     "slot_iso": "2026-11-12T00:30:00+00:00",
@@ -3457,7 +3427,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 7.8,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2037721",
       "title": "Downtempo Delights (Lofi Hip-hop)",
@@ -3472,7 +3442,8 @@
     },
     "msg_id": 1280,
     "file_id": "BAACAgEAAxkDAAIFAAFq_nfXfT8VlbfXsaIeVWQ5GmQZrAACzgoAAue4-EcZ86mOOI0oxD0E",
-    "decided_at": "2026-11-21T14:25:43.026347+00:00"
+    "decided_at": "2026-11-21T14:25:43.026347+00:00",
+    "permalink": "https://www.instagram.com/reel/DgBUlEkk2DI/"
   },
   {
     "id": "f5845f16",
