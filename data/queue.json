@@ -1,33 +1,5 @@
 [
   {
-    "id": "30b81c2d",
-    "slot_key": "2026-11-11 12:00",
-    "slot_iso": "2026-11-11T17:00:00+00:00",
-    "slot_label": "Wed Nov 11, 12:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-women-testosterone",
-    "category": "anatomy",
-    "clip_id": "clip16",
-    "cta": 2,
-    "mode": "explore",
-    "seconds": 6.9,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-384173",
-      "title": "Mind drifting back (Leaving paradise)",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384173/mp32/",
-      "source": "jamendo",
-      "duration_ms": 312000,
-      "page": "https://www.jamendo.com/track/384173",
-      "genre": "chillout"
-    },
-    "msg_id": 1091,
-    "file_id": "BAACAgEAAxkDAAIEQ2rxMss_aKYT1mChLVX-G-btdQqvAAIHCgACCGKIR9tatAnSImlHPQQ"
-  },
-  {
     "id": "fa931a22",
     "slot_key": "2026-11-11 13:00",
     "slot_iso": "2026-11-11T18:00:00+00:00",
@@ -3482,7 +3454,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1591558",
       "title": "199-s8rec",
@@ -3497,7 +3469,8 @@
     },
     "msg_id": 1276,
     "file_id": "BAACAgEAAxkDAAIE_Gr-d4UNp3EvHCaErdQz3RLjr9ncAALKCgAC57j4R-4wLW5lIZDdPQQ",
-    "decided_at": "2026-11-21T14:25:10.854317+00:00"
+    "decided_at": "2026-11-21T14:25:10.854317+00:00",
+    "permalink": "https://www.instagram.com/reel/DgAu2yxDnBI/"
   },
   {
     "id": "5005c005",
