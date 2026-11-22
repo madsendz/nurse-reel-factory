@@ -22,16 +22,16 @@ class IGError(RuntimeError):
     pass
 
 
-def pick_audio(ig: "Instagram", posts: list[dict], cfg: dict, rng) -> dict | None:
-    """Pick a trending sound that wasn't used in the last few reels."""
+def pick_audio(ig: "Instagram", posts: list[dict], cfg: dict, rng, only: str | None = None) -> dict | None:
+    """Pick a trending sound that wasn't used in the last few reels. `only` = just that kind of sound."""
     a = cfg.get("sound") or {}
     if not a.get("enabled"):
         return None
-    first = a.get("type", "music")
+    first = only or a.get("type", "music")
     tries = [(first, a.get("search") or None)]
     other = "original_sound" if first == "music" else "music"
-    tries += [(first, "trending"), (other, None), (other, "trending")]
-    items = []
+    tries += [(first, "trending")] + ([] if only else [(other, None), (other, "trending")])
+    items, kind = [], first
     for kind, q in tries:
         try:
             items = ig.trending_audio(kind, q)
@@ -47,7 +47,7 @@ def pick_audio(ig: "Instagram", posts: list[dict], cfg: dict, rng) -> dict | Non
     for it in items:
         aid = str(it.get("audio_id") or it.get("id") or "")
         if aid and aid not in recent:
-            pool.append({"audio_id": aid, "title": it.get("title"), "artist": it.get("display_artist")
+            pool.append({"audio_id": aid, "type": kind, "title": it.get("title"), "artist": it.get("display_artist")
                          or it.get("ig_username"), "audio_volume": a.get("audio_volume", 100),
                          "video_volume": a.get("video_volume", 0)})
     pool = pool[: a.get("top_n", 10)]
@@ -143,6 +143,14 @@ class Instagram:
         mid = media["id"]
         info = self.get(mid, fields="id,permalink,timestamp")
         return {"ig_media_id": mid, "permalink": info.get("permalink"), "timestamp": info.get("timestamp")}
+
+    def audio_type(self, media_id: str) -> str | None:
+        """MUSIC or ORIGINAL_SOUND for a published reel (how we check a library sound really attached)."""
+        try:
+            return self.get(media_id, fields="media_audio_type").get("media_audio_type")
+        except IGError as e:
+            print(f"[sound] media_audio_type check failed: {str(e)[:160]}")
+            return None
 
     # ---- insights ----
     def reel_insights(self, media_id: str) -> dict:
