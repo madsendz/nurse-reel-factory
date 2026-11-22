@@ -119,23 +119,51 @@ def cmd_refresh(cfg, args):
                 print(f"[facebook] cross-posting to Page {facebook.check(cfg)}")
         except Exception as e:
             print(f"[facebook] CONNECTION CHECK FAILED: {e}")
+        got, empty = 0, []
         for p in posts:
             if not p.get("ig_media_id"):
                 continue
             age_d = (now - parse_ts(p["posted_at"])).days
-            if age_d > 45 and p.get("metrics"):
+            if age_d > 45 and (p.get("metrics") or p.get("no_stats_since")):
                 continue  # old reels are settled
             try:
-                p["metrics"] = ig.reel_insights(p["ig_media_id"])
-                p["metrics_updated_at"] = now.isoformat()
+                m = ig.reel_insights(p["ig_media_id"])
             except Exception as e:  # deleted reel etc.
                 print(f"[insights] {p['ig_media_id']}: {e}")
+                m = {}
+            if m:
+                p["metrics"], p["metrics_updated_at"] = m, now.isoformat()
+                p.pop("no_stats_since", None)
+                got += 1
+            else:
+                empty.append(p)
+        # A reel Instagram stops reporting on was archived / removed after a flag (safety.py). Only trust
+        # that when most reels did report — an expired token or an outage makes every call come back empty.
+        if got and got >= len(empty):
+            for p in empty:
+                p.setdefault("metrics", {})
+                p.setdefault("no_stats_since", now.isoformat())
+        elif empty:
+            print(f"[insights] {len(empty)} reels returned no stats but only {got} did — looks like an outage, not flags")
+        try:  # followers gained: account total per day, split between reels by the views each gained
+            from . import account
+            account.attribute_follows(posts, account.update_daily(ig, cfg, now), account.snapshot_views(posts, now), cfg)
+        except Exception as e:
+            print(f"[account] follows skipped: {e}")
+        try:  # exact follows / link taps read from Instagram's dashboard, when there are any
+            from . import account
+            n = account.apply_web_stats(posts)
+            if n:
+                print(f"[account] exact follows from the dashboard for {n} reels")
+        except Exception as e:
+            print(f"[account] web stats skipped: {e}")
     except Exception as e:
         print(f"[insights] skipped: {e}")
-    hourly = update_click_log(cfg)
-    attribute(posts, hourly, cfg)
+    if (cfg.get("clicks") or {}).get("enabled", True):  # off since the bio link changed (2026-10-27)
+        hourly = update_click_log(cfg)
+        attribute(posts, hourly, cfg)
     save_posts(posts)
-    try:  # Nick 2026-11-02: promote winners / throw out topics by link clicks, tell Telegram
+    try:  # promote winners / throw out topics / block flagged ones (lifecycle.py), tell Telegram
         from . import lifecycle
         res = lifecycle.judge(load_bank(), posts, cfg, now)
         text = lifecycle.digest(res, cfg)
@@ -179,14 +207,62 @@ def _due_slot(cfg, posts, now_utc):
     return key, kind
 
 
-def _make(cfg, choice, out_dir: Path, tag: str, post_type: str = "regular"):
+SOUND_STATE = ROOT / "data" / "sound_state.json"   # {"attach_ok": true/false, "checked_at": iso, "detail": str}
+
+
+def _trending_audio(ig, posts, cfg, now):
+    """Trending sound for this reel (sound.mode: attach), or None = use a royalty-free track.
+
+    Until one reel proves Instagram really attaches library sounds through the API, the bot uses a
+    trending *music* sound, because only then can it check the result (the reel must come back as
+    MUSIC). After that it uses the kind set in config (sound.type). If the check fails, it goes back
+    to royalty-free tracks and tries again a day later."""
+    from .config import load_json
+    from .instagram import pick_audio
+    st = load_json(SOUND_STATE, {})
+    if st.get("attach_ok") is False and st.get("checked_at") and \
+            (now - parse_ts(st["checked_at"])).total_seconds() < 24 * 3600:
+        return None
+    try:
+        return pick_audio(ig, posts, cfg, random.Random(), only=None if st.get("attach_ok") else "music")
+    except Exception as e:
+        print(f"[sound] no trending sound: {e}")
+        return None
+
+
+def _check_attached(ig, cfg, audio, res, now):
+    """After posting with a trending *music* sound: did it really attach? Remember + tell Telegram."""
+    from .config import load_json, save_json
+    st = load_json(SOUND_STATE, {})
+    if audio.get("type") != "music" or st.get("attach_ok"):
+        return
+    kind = ig.audio_type(res["ig_media_id"])
+    ok = kind == "MUSIC"
+    save_json(SOUND_STATE, {"attach_ok": ok, "checked_at": now.isoformat(), "detail": f"{audio.get('title')} -> {kind}"})
+    print(f"[sound] attach check: {audio.get('title')} -> {kind} ({'works' if ok else 'did NOT attach'})")
+    try:
+        from . import approve
+        cid = approve.chat_id(cfg)
+        if cid:
+            approve._tg("sendMessage", chat_id=cid, text=(
+                f"🔊 Trending sounds work: “{audio.get('title')}” attached to {res.get('permalink')}. "
+                "From now on every reel gets a trending sound." if ok else
+                f"⚠️ The trending sound did NOT attach to {res.get('permalink')} (that reel may be quiet). "
+                "Using the old tracks again and retrying tomorrow."))
+    except Exception as e:
+        print(f"[sound] telegram note failed: {e}")
+
+
+def _make(cfg, choice, out_dir: Path, tag: str, post_type: str = "regular", bake: bool | None = None):
     from .render import render_reel
     item, clip = choice["item"], choice["clip"]
     out = out_dir / f"{tag}_{item['id']}_{clip['id']}.mp4"
     meta = render_reel(item, clip, _clip_file(clip), out, cfg)
     caption = pk.build_caption(item, choice["cta"], cfg, post_type)
     from . import music
-    if music.baked(cfg):  # royalty-free track mixed into the video (same track at post time as in Telegram)
+    # bake=True: royalty-free track mixed in (previews, and whenever no trending sound gets attached);
+    # bake=False: no track, a trending sound is attached at publish time
+    if (music.baked(cfg) or music.attach_mode(cfg)) if bake is None else bake:
         track = choice.get("music")
         if not track:
             used = music.recent_ids(load_posts() + _queued(), 15) | {m for m in choice.get("avoid_music", set()) if m}
@@ -262,8 +338,53 @@ def _post_one(cfg, args, posts, now, slot, post_type, entry):
                   "music": entry.get("music")}
     else:
         choice = pk.pick_next(load_bank(), load_clips(), posts, cfg, now, post_type=post_type)
-    out, caption, meta = _make(cfg, choice, OUT_DIR, "post_" + slot.replace(" ", "_").replace(":", ""), post_type)
+    from . import music
+    tag = "post_" + slot.replace(" ", "_").replace(":", "")
+    strategy = cfg.get("trial", {}).get("graduation_strategy", "MANUAL") if post_type == "trial" else None
+    ig = audio = None
+    if not args.dry_run:
+        from .instagram import Instagram
+        ig = Instagram(cfg)
+        if music.attach_mode(cfg):  # Nick 2026-11-22: trending sounds from Instagram's library
+            audio = _trending_audio(ig, posts, cfg, now)
+
+    def build(with_track: bool):
+        """Render + (for trials and trending sounds) host the video. Meta ignores trial settings on the
+        direct (resumable) upload, and the Audio API is documented for uploads it fetches by URL."""
+        out, caption, meta = _make(cfg, choice, OUT_DIR, tag, post_type,
+                                   bake=with_track if music.attach_mode(cfg) else None)
+        url = _host_video(cfg, out) if (strategy or not with_track) and not args.dry_run else None
+        return out, caption, meta, url
+
+    out, caption, meta, video_url = build(with_track=not audio)
+    if audio and not video_url:
+        print("[sound] couldn't host the video for a trending sound — using a royalty-free track")
+        audio = None
+        out, caption, meta, video_url = build(with_track=True)
     print(f"[{post_type}] Picked {choice['item']['id']} on {choice['clip']['id']} ({choice['mode']}); rendered {meta['seconds']}s")
+    if args.dry_run:
+        print("Dry run — not publishing.\n\n" + caption)
+        return
+    if strategy and not video_url:
+        raise SystemExit("[trial] couldn't host the video for a trial upload — not posting it as a regular reel")
+    # Nick: the cover photo shows the title only (before the first fact box pops up), never the last fully revealed frame
+    stages = meta["stages"]
+    cover_s = min(stages[1] * 0.5, 1.5) if len(stages) > 1 else 0.6
+    thumb = int(max(cover_s, 0.2) * 1000)
+    if audio:
+        print(f"[sound] trending {audio.get('type')}: {audio.get('title')} - {audio.get('artist')}")
+    try:
+        res = ig.publish_reel(out, caption, thumb_offset_ms=thumb, trial_strategy=strategy, audio=audio,
+                              video_url=video_url)
+    except Exception as e:
+        if not audio:
+            raise
+        print(f"[sound] posting with the trending sound failed ({e}); posting with a royalty-free track instead")
+        audio = None
+        out, caption, meta, video_url = build(with_track=True)
+        if strategy and not video_url:
+            raise SystemExit("[trial] couldn't host the video for a trial upload — not posting it as a regular reel")
+        res = ig.publish_reel(out, caption, thumb_offset_ms=thumb, trial_strategy=strategy, video_url=video_url)
     record = {"id": uuid.uuid4().hex[:10], "slot": slot, "item_id": choice["item"]["id"],
               "post_type": post_type, "category": choice["item"]["category"], "style": choice["item"].get("style"),
               "clip_id": choice["clip"]["id"], "cta": str(choice["cta"]), "mode": choice["mode"],
@@ -272,35 +393,10 @@ def _post_one(cfg, args, posts, now, slot, post_type, entry):
         mu = meta["music"]
         record.update({"music_id": mu["id"], "music_title": mu["title"], "music_creator": mu["creator"],
                        "music_license": mu["license"]})
-    if args.dry_run:
-        print("Dry run — not publishing.\n\n" + caption)
-        return
-    from .instagram import Instagram, pick_audio
-    ig = Instagram(cfg)
-    strategy = cfg.get("trial", {}).get("graduation_strategy", "MANUAL") if post_type == "trial" else None
-    from . import music
-    audio = None if music.baked(cfg) else pick_audio(ig, posts, cfg, random.Random())
     if audio:
         record.update({"audio_id": audio["audio_id"], "audio_title": audio.get("title"),
-                       "audio_artist": audio.get("artist")})
-        print(f"[sound] {audio.get('title')} - {audio.get('artist')}")
-    # Nick: the cover photo shows the title only (before the first fact box pops up), never the last fully revealed frame
-    stages = meta["stages"]
-    cover_s = min(stages[1] * 0.5, 1.5) if len(stages) > 1 else 0.6
-    thumb = int(max(cover_s, 0.2) * 1000)
-    video_url = _host_video(cfg, out) if strategy else None
-    if strategy and not video_url:
-        raise SystemExit("[trial] couldn't host the video for a trial upload — not posting it as a regular reel")
-    try:
-        res = ig.publish_reel(out, caption, thumb_offset_ms=thumb, trial_strategy=strategy, audio=audio,
-                              video_url=video_url)
-    except Exception as e:
-        if not audio:
-            raise
-        print(f"[sound] posting with the sound failed ({e}); posting with the clip's own audio instead")
-        for k in ("audio_id", "audio_title", "audio_artist"):
-            record.pop(k, None)
-        res = ig.publish_reel(out, caption, thumb_offset_ms=thumb, trial_strategy=strategy, video_url=video_url)
+                       "audio_artist": audio.get("artist"), "audio_type": audio.get("type")})
+        _check_attached(ig, cfg, audio, res, now)
     record.update(res)
     record["posted_at"] = (res.get("timestamp") or now.isoformat()).replace("+0000", "+00:00")
     from . import facebook
