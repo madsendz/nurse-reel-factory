@@ -59,13 +59,16 @@ def build_state(cfg, q=None) -> dict:
     from .scoring import parse_ts
     now = datetime.now(timezone.utc)
     days = (cfg.get("picker") or {}).get("topic_cooldown_days", 7)
-    used = {p["item_id"] for p in posts if p.get("posted_at") and parse_ts(p["posted_at"]) > now - timedelta(days=days)}
+    wdays = (cfg.get("picker") or {}).get("winner_cooldown_days", 21)   # winners rest longer
+    rest = {iid: (wdays if topic_kind(it) == "winner" else days) for iid, it in bank.items()}
+    used = {p["item_id"] for p in posts if p.get("posted_at") and
+            parse_ts(p["posted_at"]) > now - timedelta(days=rest.get(p["item_id"], days))}
     used |= {e["item_id"] for e in q if e.get("status") in ("pending", "approved")}
     counts = {"winner": {"active": 0, "free": 0}, "new": {"active": 0, "free": 0}}
     review = []
     for it in bank.values():
         k = topic_kind(it)
-        if it.get("status", "active") == "active":
+        if it.get("status", "active") in ("active", "winner"):
             counts[k]["active"] += 1
             counts[k]["free"] += it["id"] not in used
         elif it.get("status") == "review" and it["id"].startswith("nw-"):
