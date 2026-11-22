@@ -66,7 +66,9 @@ def load_bank() -> list[dict]:
     over = load_json(TOPIC_STATUS_PATH, {})  # keep / toss decisions made on the dashboard
     text = load_json(TOPIC_TEXT_PATH, {})    # edited hook / fact lines: {item_id: {hook, beats, at}}
     from .lifecycle import apply_verdicts, load_verdicts
-    apply_verdicts(items, load_verdicts(), over)  # winner / retired by link clicks; Nick's clicks win
+    apply_verdicts(items, load_verdicts(), over)  # winner / retired / flagged; Nick's clicks win
+    from . import safety
+    cfg = load_yaml(CONFIG_PATH, {})
     for i in items:
         t = text.get(i.get("id"))
         if t:
@@ -75,6 +77,11 @@ def load_bank() -> list[dict]:
             if isinstance(t.get("beats"), list):
                 i["beats"] = t["beats"]
             i["text_edited_at"] = t.get("at")
+        hits = safety.banned_hits(safety.item_text(i), cfg)
+        if hits:  # Nick 2026-11-22: words / emojis Instagram flags -> never posted until reworded
+            i["banned"] = hits
+            if i.get("status", "active") in ("active", "winner"):
+                i["status"] = "flagged"
     return items
 
 
