@@ -1,37 +1,5 @@
 [
   {
-    "id": "65ef051e",
-    "slot_key": "2026-11-12 08:00",
-    "slot_iso": "2026-11-12T13:00:00+00:00",
-    "slot_label": "Thu Nov 12, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-penetration-alone",
-    "category": "sex_ed",
-    "clip_id": "clip15",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 6.63,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1331970",
-      "title": "Faith",
-      "creator": "Neon NiteClub",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1331970/mp32/",
-      "source": "jamendo",
-      "duration_ms": 248000,
-      "page": "https://www.jamendo.com/track/1331970",
-      "genre": "pop"
-    },
-    "msg_id": 1107,
-    "file_id": "BAACAgEAAxkDAAIEU2ryn6wzaq0rTSHSp3aKeqR5zxl-AAIEBwACVg2RR9ErN9Oap55LPQQ",
-    "decided_at": "2026-11-12T02:50:53.729493+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "2ecebc80"
-  },
-  {
     "id": "a87c3525",
     "slot_key": "2026-11-12 09:30",
     "slot_iso": "2026-11-12T14:30:00+00:00",
@@ -632,37 +600,6 @@
     "redo": "new_topic",
     "needs_replacement": false,
     "replaced_by": "5f9bc942"
-  },
-  {
-    "id": "2ecebc80",
-    "slot_key": "2026-11-12 08:00",
-    "slot_iso": "2026-11-12T13:00:00+00:00",
-    "slot_label": "Thu Nov 12, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-penetration-alone",
-    "category": "sex_ed",
-    "clip_id": "clip19",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 9.57,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1307225",
-      "title": "This Ain't Love",
-      "creator": "Jyant",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1307225/mp32/",
-      "source": "jamendo",
-      "duration_ms": 220000,
-      "page": "https://www.jamendo.com/track/1307225",
-      "genre": "hiphop"
-    },
-    "msg_id": 1153,
-    "file_id": "BAACAgEAAxkDAAIEgWr1KdMwrdlsPLSb7O4WIqjoKc0xAAJNCgAC2sWpR8Wn4SbanHPXPQQ",
-    "replaces": "65ef051e",
-    "decided_at": "2026-11-12T04:42:10.990522+00:00",
-    "permalink": "https://www.instagram.com/reel/DfpH_8UALwm/"
   },
   {
     "id": "60d79573",
@@ -3482,7 +3419,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.52,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2173192",
       "title": "Summer Light Pop",
@@ -3497,7 +3434,8 @@
     },
     "msg_id": 1293,
     "file_id": "BAACAgEAAxkDAAIFDWr_xbRKoW3km4c8hc8HWF3OgbaQAAI5CAACMIAAAUSp_K1goqay-z0E",
-    "decided_at": "2026-11-21T14:31:04.513756+00:00"
+    "decided_at": "2026-11-21T14:31:04.513756+00:00",
+    "permalink": "https://www.instagram.com/reel/DgC4NcCiZda/"
   },
   {
     "id": "ac9df07d",
