@@ -57,6 +57,7 @@ facebook:
 
 # --- Link click tracking (Cloudflare Web Analytics) ---
 clicks:
+  enabled: false         # Nick 2026-11-22: the agency changed the bio link on Oct 27, so this tracker sees nothing now
   host: nurselexi.com
   path_prefix: /n        # the nurse page tracking link
   attribution_window_hours: 48
@@ -64,24 +65,57 @@ clicks:
 
 # --- How reels are scored (link clicks first) ---
 scoring:
-  weights:               # each metric is standardized, then weighted
-    clicks: 0.60
-    views: 0.20
-    shares: 0.10
-    saved: 0.10
+  weights:               # each metric is standardized, then weighted (a metric a reel doesn't have is left out)
+    views: 0.40
+    follows: 0.25        # followers gained (estimate, see account.py)
+    clicks: 0.25         # link clicks: only reels from before Oct 27 have them
+    shares: 0.05
+    saved: 0.05
   recency_half_life_days: 30   # newer results count more ("recent trends")
-  min_age_hours: 48            # don't judge a reel until it's this old
+  min_age_hours: 72            # don't judge a reel until it's this old (follower numbers lag up to 2 days)
 
-# --- Topic lifecycle (Nick 2026-11-02): try twice, keep winners, throw out the rest. Judged by link clicks vs the median reel.
+# --- Followers gained per reel: the day's new followers are split between reels by the views each gained ---
+follows:
+  days: 2                      # a reel's first 2 days count
+
+# --- Staying off Instagram's flag list (Nick 2026-11-22) ---
+# A topic whose title or facts contain any of these is never posted until it is reworded.
+# In Oct-Nov, censored spellings (s*x, sp0t, lub3) were flagged ~80% of the time; plain clinical words ~10%.
+safety:
+  flag_after_hours: 24         # a reel with no stats after this long = archived after a flag
+  flag_strikes: 2              # a topic flagged this many times is blocked until its text is changed
+  banned:                      # plain words / emojis (not case sensitive). Add more here any time.
+    - "🍆"
+    - "🍑"
+    - "intercourse"
+    - "seggs"
+    - "ballz"
+    - "nipple"
+    - "backdoor"
+    - "back door"
+    - "penetration"
+    - "positions"
+  banned_patterns:
+    g spot: '(?i)\bg[\s\-]*sp'                       # G spot, G-spot, G sp🎯t
+    anal: '(?i)\banal\b'
+    censored word: '[A-Za-z][*€$@][A-Za-z*]'            # s*x, s€x, cl*toris, W*T, S***ING
+    emoji inside a word: '[A-Za-z][\U0001F300-\U0001FAFF\u2600-\u27BF][A-Za-z]'   # s💦x
+    number for a letter: '(?i)\b[a-z]+[013][a-z]+\b|\blub3\b'   # sp0t, pr0state, lub3
+
+# --- Topic lifecycle: try twice, keep winners, throw out the rest.
+# Nick 2026-11-22: judged on views + followers gained + link clicks (whichever a reel has), vs a typical reel.
 lifecycle:
-  baseline_days: 30            # median clicks/reel over this window = "average" (fallback only)
+  weights: { views: 1, follows: 1, link_clicks: 1 }   # equal say; a metric a reel doesn't have is left out
+  link_clicks_until: "2026-10-27"   # reels before this date still have tracked link clicks
+  hit_views: 100000            # a reel with this many views makes its topic a winner, whatever else
+  baseline_days: 30            # typical reel over this window = "average" (fallback only)
   neighbour_days: 3            # each reel is compared with the reels posted within +-3 days of it
   min_neighbours: 8            # ...if there are at least this many; else the 30-day median
   min_reels_for_baseline: 10   # no verdicts until this many judged reels exist in the window
   tries: 2                     # every new topic gets this many reels before a verdict
-  win_one_try: 2.0             # 1 try at >= 2x median -> winner right away
-  win_avg: 1.3                 # after `tries`: average >= 1.3x median -> winner, else retired
-  demote_after: 3              # a winner whose last 3 reposts all fall under the median gets tested again
+  win_one_try: 2.0             # 1 try at >= 2x typical -> winner right away
+  win_avg: 1.3                 # after `tries`: average >= 1.3x typical -> winner, else retired
+  demote_after: 3              # a winner whose last 3 reposts all fall under typical gets tested again
   low_new_topics: 21           # Telegram warns when fewer new topics than this are left
 
 # --- How the next reel is chosen ---
@@ -89,6 +123,7 @@ picker:
   explore_rate: 0.25           # regular reels: share that test new / unproven topics
   trial_explore_rate: 0.60     # trial reels are for testing, so they try new topics more
   topic_cooldown_days: 7       # Nick: never repeat a topic within 7 days
+  winner_cooldown_days: 21     # Nick 2026-11-22: winners rest 3 weeks between reposts
   daily_mix: {winner: 3, new: 7}   # Nick: 10/day test week — 3 proven winners + 7 brand-new topics (was 3 + 3)
   clip_cooldown_posts: 4       # don't reuse a clip within the last N posts
   max_same_category_in_row: 2
@@ -133,9 +168,13 @@ render:
 # --- Sound: trending audio from Instagram's music library (picked fresh for each reel) ---
 sound:
   enabled: true
-  # baked = a royalty-free track (CC0 / CC BY, ok for business use) is mixed into the video.
-  # Instagram's API ignored library sounds for this account, so "attach" mode does nothing.
-  mode: baked                  # baked | attach
+  # attach = a trending sound from Instagram's own library is attached when the reel is published
+  #          (Nick 2026-11-22). The Telegram preview still plays a royalty-free track — Instagram
+  #          can't preview library sounds. The first reel uses a trending *music* sound so the bot
+  #          can check it really attached; after that it uses `type` below. If a sound can't be
+  #          attached, that reel gets a royalty-free track instead of going out silent.
+  # baked  = a royalty-free track (CC0 / CC BY) is mixed into the video.
+  mode: attach                 # attach | baked
   genres: ["lofi hip hop", "phonk", "chill rnb", "deep house", "trap beat", "afrobeat", "chillhop"]  # popular reel styles
   licenses: "cc0,by"           # CC BY tracks get a short credit line in the caption
   top_n: 8                     # pick among the top results for a genre
