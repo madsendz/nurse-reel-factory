@@ -1,37 +1,5 @@
 [
   {
-    "id": "3378b8eb",
-    "slot_key": "2026-11-12 16:00",
-    "slot_iso": "2026-11-12T21:00:00+00:00",
-    "slot_label": "Thu Nov 12, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-g-spot-where",
-    "category": "anatomy",
-    "clip_id": "clip86",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 6.03,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1267753",
-      "title": "Ghosts",
-      "creator": "Lyvo",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1267753/mp32/",
-      "source": "jamendo",
-      "duration_ms": 173000,
-      "page": "https://www.jamendo.com/track/1267753",
-      "genre": "electronic"
-    },
-    "msg_id": 1113,
-    "file_id": "BAACAgEAAxkDAAIEWWryoD4mNgFQNhN0ikH1GVMCol7ZAAILBwACVg2RR68CViBkV2M0PQQ",
-    "decided_at": "2026-11-12T02:48:35.161399+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "ede340bc"
-  },
-  {
     "id": "b2cca061",
     "slot_key": "2026-11-12 17:30",
     "slot_iso": "2026-11-12T22:30:00+00:00",
@@ -419,39 +387,6 @@
     "permalink": "https://www.instagram.com/reel/DftJj4sEkHV/"
   },
   {
-    "id": "ede340bc",
-    "slot_key": "2026-11-12 16:00",
-    "slot_iso": "2026-11-12T21:00:00+00:00",
-    "slot_label": "Thu Nov 12, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-clit-nerves",
-    "category": "anatomy",
-    "clip_id": "clip86",
-    "cta": 1,
-    "mode": "explore",
-    "seconds": 6.03,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1206517",
-      "title": "DJ Smallest - Chill",
-      "creator": "Smallest",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1206517/mp32/",
-      "source": "jamendo",
-      "duration_ms": 170000,
-      "page": "https://www.jamendo.com/track/1206517",
-      "genre": "chillout"
-    },
-    "msg_id": 1151,
-    "file_id": "BAACAgEAAxkDAAIEf2r1KUKkEB8Cn_TeEgxnM953WM7EAAJMCgAC2sWpRyJRbLc3sw2KPQQ",
-    "replaces": "3378b8eb",
-    "decided_at": "2026-11-12T04:42:10.990522+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "5f9bc942"
-  },
-  {
     "id": "60d79573",
     "slot_key": "2026-11-14 08:00",
     "slot_iso": "2026-11-14T13:00:00+00:00",
@@ -742,36 +677,6 @@
     "file_id": "BAACAgEAAxkDAAIEi2r1OBt20h0rR_jcZw1w3RlilNbUAAJ2CgAC2sWpR7EkuAeQeZ5DPQQ",
     "decided_at": "2026-11-14T19:31:08.126504+00:00",
     "permalink": "https://www.instagram.com/reel/DfvuQtojgHH/"
-  },
-  {
-    "id": "5f9bc942",
-    "slot_key": "2026-11-12 16:00",
-    "slot_iso": "2026-11-12T21:00:00+00:00",
-    "slot_label": "Thu Nov 12, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-ed-heart",
-    "category": "mens_health",
-    "clip_id": "clip86",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 6.03,
-    "status": "missed",
-    "music": {
-      "id": "jamendo-1403270",
-      "title": "Just laugh at it",
-      "creator": "Buzzy Boys",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1403270/mp32/",
-      "source": "jamendo",
-      "duration_ms": 242000,
-      "page": "https://www.jamendo.com/track/1403270",
-      "genre": "rnb"
-    },
-    "msg_id": 1166,
-    "file_id": "BAACAgEAAxkDAAIEjmr1Q82IGH0F6YIJ--dQRM5i9Tw5AAJ6CgAC2sWpR9XMgUgv_qkXPQQ",
-    "replaces": "ede340bc",
-    "decided_at": "2026-11-12T17:15:30.400065+00:00"
   },
   {
     "id": "3c193a4c",
@@ -3299,7 +3204,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 7.93,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-1403270",
       "title": "Just laugh at it",
@@ -3313,7 +3218,10 @@
       "genre": "rnb"
     },
     "msg_id": 1294,
-    "file_id": "BAACAgEAAxkDAAIFDmr_xjxRyRcdT-3X5TtnPO07N8nzAAI6CAACMIAAAUTyRN4pZewXxj0E"
+    "file_id": "BAACAgEAAxkDAAIFDmr_xjxRyRcdT-3X5TtnPO07N8nzAAI6CAACMIAAAUTyRN4pZewXxj0E",
+    "decided_at": "2026-11-22T22:16:31.735757+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/DgD3xDZjqIl/"
   },
   {
     "id": "84db3bd4",

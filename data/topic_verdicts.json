@@ -1,352 +1,410 @@
 {
-  "pr-precum": {
-    "status": "winner",
-    "since": "2026-11-13T00:31:34.531513+00:00",
-    "tries": 1,
-    "ratio": 2.56,
-    "reason": "clicks well above the median"
-  },
   "nw-blue-balls": {
-    "status": "retired",
-    "since": "2026-11-05T13:01:30.133183+00:00",
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
     "tries": 3,
-    "ratio": 0.8,
-    "reason": "3 tries, 0.8x median"
+    "ratio": 1.99,
+    "reason": "a reel with 113,204 views"
   },
   "nw-semen-fertility": {
+    "v": 2,
     "status": "retired",
-    "since": "2026-11-05T13:01:30.133183+00:00",
+    "since": "2026-11-22T22:17:05.121631+00:00",
     "tries": 2,
-    "ratio": 0.81,
-    "reason": "2 tries, 0.8x median"
+    "ratio": 1.07,
+    "reason": "2 tries, 1.1x a typical reel"
   },
   "nw-online-not-normal": {
-    "status": "retired",
-    "since": "2026-11-05T13:01:30.133183+00:00",
-    "tries": 2,
-    "ratio": 0.42,
-    "reason": "2 tries, 0.4x median"
-  },
-  "nw-silent": {
-    "status": "retired",
-    "since": "2026-11-05T13:01:30.133183+00:00",
-    "tries": 2,
-    "ratio": 0.45,
-    "reason": "2 tries, 0.5x median"
-  },
-  "nw-notice-first": {
-    "status": "retired",
-    "since": "2026-11-05T13:01:30.133183+00:00",
-    "tries": 2,
-    "ratio": 1.28,
-    "reason": "2 tries, 1.3x median"
-  },
-  "nw-sperm-months": {
-    "status": "retired",
-    "since": "2026-11-05T13:01:30.133183+00:00",
-    "tries": 2,
-    "ratio": 1.0,
-    "reason": "2 tries, 1.0x median"
-  },
-  "nw-kegels-men": {
-    "status": "retired",
-    "since": "2026-11-05T13:01:30.133183+00:00",
-    "tries": 2,
-    "ratio": 0.66,
-    "reason": "2 tries, 0.7x median"
-  },
-  "nw-orgasm-gap": {
+    "v": 2,
     "status": "winner",
-    "since": "2026-11-05T13:01:30.133183+00:00",
-    "tries": 2,
-    "ratio": 2.18,
-    "reason": "clicks well above the median"
-  },
-  "nw-kegels-women": {
-    "status": "winner",
-    "since": "2026-11-05T13:01:30.133183+00:00",
-    "tries": 2,
-    "ratio": 2.18,
-    "reason": "clicks well above the median"
-  },
-  "nw-cardio-erections": {
-    "status": "winner",
-    "since": "2026-11-05T13:01:30.133183+00:00",
+    "since": "2026-11-22T22:17:05.121631+00:00",
     "tries": 2,
     "ratio": 2.01,
-    "reason": "clicks well above the median"
+    "reason": "2.0x a typical reel"
+  },
+  "nw-silent": {
+    "v": 2,
+    "status": "retired",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 2,
+    "ratio": 0.97,
+    "reason": "2 tries, 1.0x a typical reel"
+  },
+  "nw-notice-first": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 3,
+    "ratio": 1.41,
+    "reason": "a reel with 564,739 views"
+  },
+  "nw-sperm-months": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 2,
+    "ratio": 1.34,
+    "reason": "1.3x a typical reel"
+  },
+  "nw-kegels-men": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 2,
+    "ratio": 7.57,
+    "reason": "a reel with 347,074 views"
+  },
+  "nw-orgasm-gap": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 2,
+    "ratio": 3.53,
+    "reason": "a reel with 150,859 views"
+  },
+  "nw-kegels-women": {
+    "v": 2,
+    "status": "retired",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 3,
+    "ratio": 1.11,
+    "reason": "3 tries, 1.1x a typical reel"
+  },
+  "nw-cardio-erections": {
+    "v": 2,
+    "status": "retired",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 4,
+    "ratio": 1.27,
+    "reason": "4 tries, 1.3x a typical reel"
   },
   "nw-smoking-ed": {
+    "v": 2,
     "status": "retired",
-    "since": "2026-11-05T13:01:30.133183+00:00",
+    "since": "2026-11-22T22:17:05.121631+00:00",
     "tries": 3,
-    "ratio": 1.15,
-    "reason": "3 tries, 1.1x median"
+    "ratio": 1.24,
+    "reason": "3 tries, 1.2x a typical reel"
   },
   "nw-alcohol-ed": {
+    "v": 2,
     "status": "retired",
-    "since": "2026-11-05T13:01:30.133183+00:00",
+    "since": "2026-11-22T22:17:05.121631+00:00",
     "tries": 2,
-    "ratio": 0.66,
-    "reason": "2 tries, 0.7x median"
+    "ratio": 0.96,
+    "reason": "2 tries, 1.0x a typical reel"
   },
   "nw-heat-sperm": {
+    "v": 2,
     "status": "retired",
-    "since": "2026-11-05T13:01:30.133183+00:00",
-    "tries": 2,
-    "ratio": 0.74,
-    "reason": "2 tries, 0.7x median"
-  },
-  "nw-condom-break": {
-    "status": "retired",
-    "since": "2026-11-05T13:01:30.133183+00:00",
+    "since": "2026-11-22T22:17:05.121631+00:00",
     "tries": 3,
-    "ratio": 0.63,
-    "reason": "3 tries, 0.6x median"
-  },
-  "nw-sti-no-symptoms": {
-    "status": "retired",
-    "since": "2026-11-05T13:01:30.133183+00:00",
-    "tries": 2,
-    "ratio": 1.23,
-    "reason": "2 tries, 1.2x median"
-  },
-  "nw-t-morning": {
-    "status": "retired",
-    "since": "2026-11-05T13:01:30.133183+00:00",
-    "tries": 2,
-    "ratio": 1.17,
-    "reason": "2 tries, 1.2x median"
-  },
-  "nw-kissing": {
-    "status": "retired",
-    "since": "2026-11-05T13:01:30.133183+00:00",
-    "tries": 3,
-    "ratio": 0.75,
-    "reason": "3 tries, 0.8x median"
-  },
-  "nw-headache-myth": {
-    "status": "retired",
-    "since": "2026-11-05T13:01:30.133183+00:00",
-    "tries": 2,
-    "ratio": 0.68,
-    "reason": "2 tries, 0.7x median"
-  },
-  "nw-faked-it": {
-    "status": "retired",
-    "since": "2026-11-05T13:01:30.133183+00:00",
-    "tries": 3,
-    "ratio": 0.69,
-    "reason": "3 tries, 0.7x median"
-  },
-  "nw-orgasm-brain": {
-    "status": "retired",
-    "since": "2026-11-05T13:01:30.133183+00:00",
-    "tries": 2,
-    "ratio": 0.44,
-    "reason": "2 tries, 0.4x median"
-  },
-  "nw-balls-temp": {
-    "status": "retired",
-    "since": "2026-11-05T13:01:30.133183+00:00",
-    "tries": 2,
-    "ratio": 0.49,
-    "reason": "2 tries, 0.5x median"
-  },
-  "nw-stress-libido": {
-    "status": "retired",
-    "since": "2026-11-05T13:01:30.133183+00:00",
-    "tries": 2,
-    "ratio": 0.51,
-    "reason": "2 tries, 0.5x median"
-  },
-  "nw-women-solo": {
-    "status": "retired",
-    "since": "2026-11-05T16:01:35.149903+00:00",
-    "tries": 2,
-    "ratio": 0.43,
-    "reason": "2 tries, 0.4x median"
-  },
-  "nw-refractory-age": {
-    "status": "retired",
-    "since": "2026-11-05T18:00:30.222655+00:00",
-    "tries": 2,
-    "ratio": 0.73,
-    "reason": "2 tries, 0.7x median"
-  },
-  "nw-ed-under-40": {
-    "status": "retired",
-    "since": "2026-11-06T16:01:44.149786+00:00",
-    "tries": 2,
-    "ratio": 0.41,
-    "reason": "2 tries, 0.4x median"
-  },
-  "nw-t-decline-age": {
-    "status": "retired",
-    "since": "2026-11-06T17:28:59.842867+00:00",
-    "tries": 2,
-    "ratio": 0.34,
-    "reason": "2 tries, 0.3x median"
-  },
-  "nw-foreplay-time": {
-    "status": "retired",
-    "since": "2026-11-07T13:01:38.877041+00:00",
-    "tries": 2,
-    "ratio": 0.5,
-    "reason": "2 tries, 0.5x median"
-  },
-  "nw-sex-heart": {
-    "status": "retired",
-    "since": "2026-11-07T14:31:44.007914+00:00",
-    "tries": 2,
-    "ratio": 0.53,
-    "reason": "2 tries, 0.5x median"
-  },
-  "nw-pee-after": {
-    "status": "retired",
-    "since": "2026-11-07T22:31:39.514778+00:00",
-    "tries": 2,
-    "ratio": 0.43,
-    "reason": "2 tries, 0.4x median"
-  },
-  "nw-prostate-21": {
-    "status": "retired",
-    "since": "2026-11-08T00:31:48.591107+00:00",
-    "tries": 2,
-    "ratio": 0.55,
-    "reason": "2 tries, 0.5x median"
-  },
-  "nw-cycle-desire": {
-    "status": "retired",
-    "since": "2026-11-08T14:31:28.644986+00:00",
-    "tries": 2,
-    "ratio": 0.42,
-    "reason": "2 tries, 0.4x median"
-  },
-  "nw-night-erections": {
-    "status": "retired",
-    "since": "2026-11-08T22:31:37.999216+00:00",
-    "tries": 2,
-    "ratio": 0.49,
-    "reason": "2 tries, 0.5x median"
-  },
-  "nw-pregnancy-safe": {
-    "status": "retired",
-    "since": "2026-11-09T19:41:36.818388+00:00",
-    "tries": 2,
-    "ratio": 0.4,
-    "reason": "2 tries, 0.4x median"
-  },
-  "nw-blue-pill-myth": {
-    "status": "retired",
-    "since": "2026-11-10T15:28:16.858033+00:00",
-    "tries": 2,
-    "ratio": 0.42,
-    "reason": "2 tries, 0.4x median"
-  },
-  "nw-sleep-t": {
-    "status": "retired",
-    "since": "2026-11-12T02:31:28.081759+00:00",
-    "tries": 2,
-    "ratio": 0.94,
-    "reason": "2 tries, 0.9x median"
-  },
-  "nw-swimmer-nutrients": {
-    "status": "winner",
-    "since": "2026-11-12T19:31:46.150077+00:00",
-    "tries": 2,
-    "ratio": 1.65,
-    "reason": "clicks well above the median"
-  },
-  "nw-fertile-window": {
-    "status": "winner",
-    "since": "2026-11-13T00:31:34.531513+00:00",
-    "tries": 1,
-    "ratio": 3.34,
-    "reason": "clicks well above the median"
-  },
-  "pr-women-secretly-attractive": {
-    "status": "active",
-    "since": "2026-11-13T15:51:59.348336+00:00",
-    "tries": 5,
-    "ratio": 0.32,
-    "reason": "last 3 reposts under the median"
+    "ratio": 0.33,
+    "reason": "3 tries, 0.3x a typical reel"
   },
   "nw-sperm-five-days": {
-    "status": "retired",
-    "since": "2026-11-16T20:28:12.999452+00:00",
-    "tries": 2,
-    "ratio": 0.61,
-    "reason": "2 tries, 0.6x median"
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 1,
+    "ratio": 4.54,
+    "reason": "a reel with 104,439 views"
   },
-  "nw-g-spot-where": {
+  "nw-pee-after": {
+    "v": 2,
     "status": "retired",
-    "since": "2026-11-17T13:01:41.560136+00:00",
+    "since": "2026-11-22T22:17:05.121631+00:00",
     "tries": 2,
-    "ratio": 0.3,
-    "reason": "2 tries, 0.3x median"
+    "ratio": 1.0,
+    "reason": "2 tries, 1.0x a typical reel"
   },
-  "nw-plan-b-weight": {
+  "nw-wet-not-arousal": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 1,
+    "ratio": 3.03,
+    "reason": "3.0x a typical reel"
+  },
+  "nw-condom-break": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 3,
+    "ratio": 1.02,
+    "reason": "a reel with 102,894 views"
+  },
+  "nw-sti-no-symptoms": {
+    "v": 2,
     "status": "retired",
-    "since": "2026-11-18T17:06:42.287625+00:00",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 3,
+    "ratio": 0.66,
+    "reason": "3 tries, 0.7x a typical reel"
+  },
+  "nw-t-morning": {
+    "v": 2,
+    "status": "retired",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 3,
+    "ratio": 1.12,
+    "reason": "3 tries, 1.1x a typical reel"
+  },
+  "nw-sleep-t": {
+    "v": 2,
+    "status": "retired",
+    "since": "2026-11-22T22:17:05.121631+00:00",
     "tries": 2,
-    "ratio": 0.51,
-    "reason": "2 tries, 0.5x median"
+    "ratio": 0.69,
+    "reason": "2 tries, 0.7x a typical reel"
+  },
+  "nw-kissing": {
+    "v": 2,
+    "status": "retired",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 3,
+    "ratio": 1.18,
+    "reason": "3 tries, 1.2x a typical reel"
+  },
+  "nw-headache-myth": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 2,
+    "ratio": 2.09,
+    "reason": "2.1x a typical reel"
+  },
+  "nw-faked-it": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 3,
+    "ratio": 7.44,
+    "reason": "a reel with 315,095 views"
+  },
+  "nw-prostate-21": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 3,
+    "ratio": 1.71,
+    "reason": "1.7x a typical reel"
   },
   "pr-release-often": {
+    "v": 2,
     "status": "active",
-    "since": "2026-11-18T18:50:53.808555+00:00",
+    "since": "2026-11-22T22:17:05.121631+00:00",
     "tries": 3,
-    "ratio": 0.44,
-    "reason": "last 3 reposts under the median"
+    "ratio": 0.43,
+    "reason": "last 3 reposts under typical"
   },
-  "nw-trich-common": {
+  "nw-t-decline-age": {
+    "v": 2,
     "status": "retired",
-    "since": "2026-11-18T22:31:26.550204+00:00",
+    "since": "2026-11-22T22:17:05.121631+00:00",
     "tries": 2,
-    "ratio": 0.0,
-    "reason": "2 tries, 0.0x median"
+    "ratio": 0.26,
+    "reason": "2 tries, 0.3x a typical reel"
   },
-  "pr-mood-killer-foods": {
-    "status": "active",
-    "since": "2026-11-19T13:08:10.018297+00:00",
+  "nw-night-erections": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 2,
+    "ratio": 2.24,
+    "reason": "2.2x a typical reel"
+  },
+  "nw-foreplay-time": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 2,
+    "ratio": 1.54,
+    "reason": "1.5x a typical reel"
+  },
+  "nw-ed-under-40": {
+    "v": 2,
+    "status": "retired",
+    "since": "2026-11-22T22:17:05.121631+00:00",
     "tries": 3,
-    "ratio": 0.25,
-    "reason": "last 3 reposts under the median"
+    "ratio": 0.38,
+    "reason": "3 tries, 0.4x a typical reel"
   },
-  "nw-steroids-shrink": {
+  "nw-orgasm-brain": {
+    "v": 2,
     "status": "retired",
-    "since": "2026-11-20T18:02:14.090555+00:00",
+    "since": "2026-11-22T22:17:05.121631+00:00",
     "tries": 2,
-    "ratio": 0.0,
-    "reason": "2 tries, 0.0x median"
+    "ratio": 0.34,
+    "reason": "2 tries, 0.3x a typical reel"
+  },
+  "nw-balls-temp": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 3,
+    "ratio": 2.02,
+    "reason": "a reel with 162,652 views"
+  },
+  "nw-stress-libido": {
+    "v": 2,
+    "status": "retired",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 2,
+    "ratio": 0.63,
+    "reason": "2 tries, 0.6x a typical reel"
+  },
+  "nw-cycle-desire": {
+    "v": 2,
+    "status": "retired",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 2,
+    "ratio": 0.34,
+    "reason": "2 tries, 0.3x a typical reel"
+  },
+  "nw-refractory-age": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 2,
+    "ratio": 5.54,
+    "reason": "a reel with 259,129 views"
+  },
+  "nw-vasectomy-myth": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 1,
+    "ratio": 2.49,
+    "reason": "2.5x a typical reel"
+  },
+  "nw-women-solo": {
+    "v": 2,
+    "status": "retired",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 2,
+    "ratio": 0.92,
+    "reason": "2 tries, 0.9x a typical reel"
+  },
+  "nw-swimmer-nutrients": {
+    "v": 2,
+    "status": "retired",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 2,
+    "ratio": 0.93,
+    "reason": "2 tries, 0.9x a typical reel"
+  },
+  "nw-pregnancy-safe": {
+    "v": 2,
+    "status": "retired",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 2,
+    "ratio": 0.29,
+    "reason": "2 tries, 0.3x a typical reel"
   },
   "nw-belly-fat-t": {
-    "status": "retired",
-    "since": "2026-11-20T22:31:35.828053+00:00",
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
     "tries": 2,
-    "ratio": 0.0,
-    "reason": "2 tries, 0.0x median"
+    "ratio": 6.32,
+    "reason": "6.3x a typical reel"
+  },
+  "nw-steroids-shrink": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 2,
+    "ratio": 4.77,
+    "reason": "4.8x a typical reel"
   },
   "nw-testicular-cancer-young": {
+    "v": 2,
     "status": "retired",
-    "since": "2026-11-21T13:01:33.879785+00:00",
+    "since": "2026-11-22T22:17:05.121631+00:00",
     "tries": 2,
-    "ratio": 0.0,
-    "reason": "2 tries, 0.0x median"
+    "ratio": 1.18,
+    "reason": "2 tries, 1.2x a typical reel"
+  },
+  "nw-plan-b-weight": {
+    "v": 2,
+    "status": "retired",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 2,
+    "ratio": 0.55,
+    "reason": "2 tries, 0.6x a typical reel"
+  },
+  "nw-trich-common": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 2,
+    "ratio": 2.03,
+    "reason": "2.0x a typical reel"
+  },
+  "nw-vasectomy-vs-tubal": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 1,
+    "ratio": 6.0,
+    "reason": "6.0x a typical reel"
+  },
+  "nw-eggs-at-birth": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 1,
+    "ratio": 6.14,
+    "reason": "6.1x a typical reel"
   },
   "nw-ask-hack": {
+    "v": 2,
     "status": "retired",
-    "since": "2026-11-21T14:31:32.208342+00:00",
+    "since": "2026-11-22T22:17:05.121631+00:00",
     "tries": 2,
-    "ratio": 0.49,
-    "reason": "2 tries, 0.5x median"
+    "ratio": 0.79,
+    "reason": "2 tries, 0.8x a typical reel"
   },
-  "pr-birth-control-ranked": {
-    "status": "active",
-    "since": "2026-11-22T17:49:35.410707+00:00",
-    "tries": 5,
-    "ratio": 0.23,
-    "reason": "last 3 reposts under the median"
+  "nw-lube-types": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 1,
+    "ratio": 16.39,
+    "reason": "a reel with 449,261 views"
+  },
+  "nw-multiple-os": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 1,
+    "ratio": 3.84,
+    "reason": "3.8x a typical reel"
+  },
+  "nw-girth-vs-length": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 1,
+    "ratio": 20.0,
+    "reason": "a reel with 173,012 views"
+  },
+  "nw-after-baby": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 1,
+    "ratio": 2.0,
+    "reason": "2.0x a typical reel"
+  },
+  "nw-reading-bait": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-22T22:17:05.121631+00:00",
+    "tries": 1,
+    "ratio": 6.82,
+    "reason": "a reel with 123,769 views"
   }
 }
