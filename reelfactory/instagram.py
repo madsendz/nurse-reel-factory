@@ -110,8 +110,9 @@ class Instagram:
         else:
             params["upload_type"] = "resumable"
         if audio:  # music from Instagram's library (e.g. a trending sound)
-            # only the sound id: custom volume values seemed to leave the reel silent
-            params["audio_configuration"] = json.dumps({"audio_id": str(audio["audio_id"])})
+            # video_volume 0: a clip with no sound track of its own fails with error 2207082 unless its volume is 0
+            params["audio_configuration"] = json.dumps({"audio_id": str(audio["audio_id"]), "audio_volume": 100,
+                                                        "video_volume": 0})
         if trial_strategy:  # trial reel: shown to non-followers first
             params["trial_params"] = json.dumps({"graduation_strategy": trial_strategy})
         if thumb_offset_ms is not None:
