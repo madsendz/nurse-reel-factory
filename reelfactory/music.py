@@ -30,6 +30,12 @@ def baked(cfg) -> bool:
     return bool(s.get("enabled")) and s.get("mode", "baked") == "baked"
 
 
+def attach_mode(cfg) -> bool:
+    """Trending sounds from Instagram's own library, attached when the reel is published."""
+    s = _settings(cfg)
+    return bool(s.get("enabled")) and s.get("mode") == "attach"
+
+
 def recent_ids(items: list[dict], n: int = 15) -> set[str]:
     out = set()
     for x in items[-n:]:
