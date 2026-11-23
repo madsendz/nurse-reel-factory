@@ -422,5 +422,13 @@
     "tries": 2,
     "ratio": 4.9,
     "reason": "4.9x a typical reel"
+  },
+  "nw-bp-meds-ed": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-23T20:11:44.406328+00:00",
+    "tries": 2,
+    "ratio": 4.26,
+    "reason": "4.3x a typical reel"
   }
 }

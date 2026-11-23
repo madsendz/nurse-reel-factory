@@ -1,35 +1,5 @@
 [
   {
-    "id": "b0788cc5",
-    "slot_key": "2026-11-13 14:30",
-    "slot_iso": "2026-11-13T19:30:00+00:00",
-    "slot_label": "Fri Nov 13, 2:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-men-secretly-like",
-    "category": "sexual_wellness",
-    "clip_id": "clip09",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1395053",
-      "title": "Ninu - I feel this",
-      "creator": "Ninu",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1395053/mp32/",
-      "source": "jamendo",
-      "duration_ms": 175000,
-      "page": "https://www.jamendo.com/track/1395053",
-      "genre": "trap"
-    },
-    "msg_id": 1132,
-    "file_id": "BAACAgEAAxkDAAIEbGrz1-2a15D5f3gyVXyF9qSgFWe-AALqCQAC2sWZR2-DKg4nKi8wPQQ",
-    "decided_at": "2026-11-13T15:57:48.924186+00:00",
-    "permalink": "https://www.instagram.com/reel/DfsZzHZFXxX/"
-  },
-  {
     "id": "c61a38e7",
     "slot_key": "2026-11-13 16:00",
     "slot_iso": "2026-11-13T21:00:00+00:00",
@@ -4145,7 +4115,7 @@
     "cta": 0,
     "mode": "edited",
     "seconds": 11.55,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-1591558",
       "title": "199-s8rec",
@@ -4160,7 +4130,10 @@
     },
     "msg_id": 1382,
     "file_id": "BAACAgEAAxkDAAIFZmsEabNYIXSjWWSWy1HAxIFAcUA1AALjCQACKY8gREZecFu7fTMuPQQ",
-    "replaces": "aa05b2c4"
+    "replaces": "aa05b2c4",
+    "decided_at": "2026-11-23T20:11:11.116493+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/DgGOGlKgAVn/"
   },
   {
     "id": "ddce6043",
