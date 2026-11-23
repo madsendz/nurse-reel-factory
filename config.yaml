@@ -181,7 +181,7 @@ sound:
   music_volume: 0.9
   music_start: 25              # start this many seconds into the track (skips slow intros)
   # used by attach mode only:
-  type: original_sound
+  type: music                  # music = trending songs; original_sound = trending audio from other people's reels
   search: ""
   avoid_last: 6
 
