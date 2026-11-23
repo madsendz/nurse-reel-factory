@@ -491,6 +491,34 @@ def _redo_choice(cfg, e, bank, clips, hist, dt, rng):
     return None
 
 
+def redo_pending(cfg, days_ahead: int) -> int:
+    """Throw away the not-yet-approved reels for the next `days_ahead` days (and their Telegram previews)
+    so make_queue picks those slots again with the current rules. Nick 2026-11-22: after the flag
+    filter, the new judging and the 21-day winner rest went in. Approved reels are left alone."""
+    try:
+        sync_updates(cfg)
+    except Exception as ex:
+        print(f"[telegram] sync failed: {ex}")
+    cid = chat_id(cfg)
+    tz = ZoneInfo(cfg.get("timezone", "America/New_York"))
+    today = datetime.now(timezone.utc).astimezone(tz).date()
+    days = {(today + timedelta(days=k)).isoformat() for k in range(1, max(days_ahead, 1) + 1)}
+    kept, dropped = [], 0
+    for e in load_queue():
+        if e.get("status") == "pending" and e.get("slot_key", "")[:10] in days:
+            dropped += 1
+            if cid and e.get("msg_id"):
+                try:
+                    _tg("deleteMessage", chat_id=cid, message_id=e["msg_id"])
+                except Exception as ex:
+                    print(f"[redo] couldn't delete the old preview for {e['slot_key']}: {ex}")
+            print(f"[redo] {e['slot_key']}: dropped {e['item_id']}")
+        else:
+            kept.append(e)
+    save_queue(kept)
+    return dropped
+
+
 def rerender_pending(cfg) -> int:
     """Re-render every queued reel that hasn't posted yet, keeping its topic, clip, music, time and
     approval, and swap the video in Telegram + on the dashboard. For renderer changes (fonts, emoji)."""
