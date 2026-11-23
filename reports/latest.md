@@ -6,16 +6,16 @@ Judged reels: **193** · score = views, followers gained, shares/saves
 
 | Score | Type | Follows | Views | Shares | Topic | Clip | Posted |
 |---|---|---|---|---|---|---|---|
-| +2.97 | trial | - | 1171086 | 19371 | [pr-period-sex](https://www.instagram.com/reel/DfAIpEVFXGV/) | clip79 | 2026-10-27 |
-| +2.51 | trial | - | 1406174 | 52892 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
+| +2.97 | trial | - | 1171771 | 19442 | [pr-period-sex](https://www.instagram.com/reel/DfAIpEVFXGV/) | clip79 | 2026-10-27 |
+| +2.51 | trial | - | 1406291 | 52883 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
 | +2.22 | trial | - | 830877 | 106 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
-| +2.09 | regular | - | 450385 | 113 | [nw-lube-types](https://www.instagram.com/reel/DffXMc7CEmw/) | clip62 | 2026-11-08 |
-| +1.89 | trial | - | 316346 | 164 | [nw-faked-it](https://www.instagram.com/reel/DfDQZtiEkIn/) | clip37 | 2026-10-28 |
-| +1.88 | trial | - | 249547 | 117 | [nw-kegels-men](https://www.instagram.com/reel/DfNp4tFigid/) | clip63 | 2026-11-01 |
+| +2.09 | regular | - | 450479 | 113 | [nw-lube-types](https://www.instagram.com/reel/DffXMc7CEmw/) | clip62 | 2026-11-08 |
+| +1.89 | trial | - | 316409 | 164 | [nw-faked-it](https://www.instagram.com/reel/DfDQZtiEkIn/) | clip37 | 2026-10-28 |
+| +1.88 | trial | - | 249596 | 117 | [nw-kegels-men](https://www.instagram.com/reel/DfNp4tFigid/) | clip63 | 2026-11-01 |
 | +1.76 | trial | - | 350034 | 40 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
-| +1.54 | trial | - | 638651 | 469 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
-| +1.53 | regular | - | 496378 | 4584 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
-| +1.50 | regular | - | 565550 | 510 | [nw-notice-first](https://www.instagram.com/reel/DeuU9sEjfCr/) | clip24 | 2026-10-20 |
+| +1.54 | trial | - | 638820 | 469 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
+| +1.53 | regular | - | 496506 | 4584 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
+| +1.50 | regular | - | 565563 | 510 | [nw-notice-first](https://www.instagram.com/reel/DeuU9sEjfCr/) | clip24 | 2026-10-20 |
 
 ## Hook styles
 
@@ -62,7 +62,7 @@ Judged reels: **193** · score = views, followers gained, shares/saves
 | clip34 | +0.31 | 2 |
 | clip24 | +0.30 | 3 |
 | clip07 | +0.28 | 2 |
-| clip81 | +0.27 | 4 |
+| clip81 | +0.28 | 4 |
 | clip88 | +0.27 | 2 |
 | clip29 | +0.25 | 1 |
 | clip67 | +0.24 | 1 |
@@ -115,7 +115,7 @@ Judged reels: **193** · score = views, followers gained, shares/saves
 | clip10 | -0.27 | 1 |
 | clip22 | -0.29 | 3 |
 | clip06 | -0.29 | 2 |
-| clip01 | -0.31 | 1 |
+| clip01 | -0.30 | 1 |
 | clip46 | -0.32 | 2 |
 | clip80 | -0.33 | 3 |
 | clip38 | -0.36 | 3 |
@@ -129,7 +129,7 @@ Judged reels: **193** · score = views, followers gained, shares/saves
 | clip42 | -0.43 | 4 |
 | clip72 | -0.43 | 2 |
 | clip28 | -0.53 | 1 |
-| clip25 | -0.56 | 4 |
+| clip25 | -0.55 | 4 |
 | clip14 | -0.57 | 3 |
 | clip17 | -0.61 | 1 |
 | clip74 | -0.70 | 3 |
