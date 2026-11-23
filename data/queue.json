@@ -1,36 +1,5 @@
 [
   {
-    "id": "c9df6000",
-    "slot_key": "2026-11-13 09:30",
-    "slot_iso": "2026-11-13T14:30:00+00:00",
-    "slot_label": "Fri Nov 13, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "nw-shoe-size-myth",
-    "category": "mens_health",
-    "clip_id": "clip17",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 6.5,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1490752",
-      "title": "Free Post Malone | RnB Type Beat",
-      "creator": "Adi Rambo",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1490752/mp32/",
-      "source": "jamendo",
-      "duration_ms": 213000,
-      "page": "https://www.jamendo.com/track/1490752",
-      "genre": "pop"
-    },
-    "msg_id": 1128,
-    "file_id": "BAACAgEAAxkDAAIEaGrz12ishoh3j8t7HoO6UhZSU4IVAALlCQAC2sWZRznprqob1VowPQQ",
-    "decided_at": "2026-11-13T15:51:24.371723+00:00",
-    "post_now": true,
-    "permalink": "https://www.instagram.com/reel/DfsAcIdFgDR/"
-  },
-  {
     "id": "2df6f0fe",
     "slot_key": "2026-11-13 11:00",
     "slot_iso": "2026-11-13T16:00:00+00:00",
@@ -3468,7 +3437,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 8.12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1395053",
       "title": "Ninu - I feel this",
@@ -3483,7 +3452,8 @@
     },
     "msg_id": 1347,
     "file_id": "BAACAgEAAxkDAAIFQ2sDlpQT6jYl6zAXa2ZZxophGITpAAIhCgACKY8YRIMVHE2QAZGCPQQ",
-    "decided_at": "2026-11-23T11:08:38.063994+00:00"
+    "decided_at": "2026-11-23T11:08:38.063994+00:00",
+    "permalink": "https://www.instagram.com/reel/DgFoBbHiQ8X/"
   },
   {
     "id": "0f015bfb",

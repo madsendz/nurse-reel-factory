@@ -406,5 +406,13 @@
     "tries": 1,
     "ratio": 6.82,
     "reason": "a reel with 123,769 views"
+  },
+  "nw-size-satisfaction": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-23T14:41:26.489913+00:00",
+    "tries": 1,
+    "ratio": 4.87,
+    "reason": "4.9x a typical reel"
   }
 }
