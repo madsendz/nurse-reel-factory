@@ -1,35 +1,5 @@
 [
   {
-    "id": "b8dedd57",
-    "slot_key": "2026-11-12 19:30",
-    "slot_iso": "2026-11-13T00:30:00+00:00",
-    "slot_label": "Thu Nov 12, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-sperm-count-drop",
-    "category": "mens_health",
-    "clip_id": "clip39",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 9.03,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1320534",
-      "title": "Neith",
-      "creator": "CyberSDF",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1320534/mp32/",
-      "source": "jamendo",
-      "duration_ms": 269000,
-      "page": "https://www.jamendo.com/track/1320534",
-      "genre": "trap"
-    },
-    "msg_id": 1115,
-    "file_id": "BAACAgEAAxkDAAIEW2ryoGnDp8Y4A9_gJiEKDf8stvMSAAINBwACVg2RR8TZieUCjiuaPQQ",
-    "decided_at": "2026-11-12T02:50:53.729493+00:00",
-    "permalink": "https://www.instagram.com/reel/DfqWxi5gkqO/"
-  },
-  {
     "id": "16aca928",
     "slot_key": "2026-11-12 21:30",
     "slot_iso": "2026-11-13T02:30:00+00:00",
@@ -3467,7 +3437,7 @@
     "cta": 4,
     "mode": "exploit",
     "seconds": 8.4,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1319541",
       "title": "Gone Crasy (4-Track-Recording-1991)",
@@ -3481,7 +3451,8 @@
       "genre": "pop"
     },
     "msg_id": 1313,
-    "file_id": "BAACAgEAAxkDAAIFIWsBFzIqqATarGQ8wWrN64HIyvF_AALxCAACMIAIRE6OeK9YswWQPQQ"
+    "file_id": "BAACAgEAAxkDAAIFIWsBFzIqqATarGQ8wWrN64HIyvF_AALxCAACMIAIRE6OeK9YswWQPQQ",
+    "decided_at": "2026-11-23T00:40:40.423610+00:00"
   },
   {
     "id": "26bc59c3",
