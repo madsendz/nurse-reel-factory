@@ -1,33 +1,5 @@
 [
   {
-    "id": "405bff2e",
-    "slot_key": "2026-11-13 17:30",
-    "slot_iso": "2026-11-13T22:30:00+00:00",
-    "slot_label": "Fri Nov 13, 5:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-condom-break",
-    "category": "sex_ed",
-    "clip_id": "clip59",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1916401",
-      "title": "RnB Chill Trap",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1916401/mp32/",
-      "source": "jamendo",
-      "duration_ms": 123000,
-      "page": "https://www.jamendo.com/track/1916401",
-      "genre": "hiphop"
-    },
-    "msg_id": 1134,
-    "file_id": "BAACAgEAAxkDAAIEbmrz2DcaSrU3kcq7G5SJF8eWHoOvAALsCQAC2sWZR8S7oyE8Tk4OPQQ"
-  },
-  {
     "id": "6320f41d",
     "slot_key": "2026-11-13 19:30",
     "slot_iso": "2026-11-14T00:30:00+00:00",
@@ -3440,7 +3412,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.97,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2290117",
       "title": "Soul Hop Music",
@@ -3455,7 +3427,8 @@
     },
     "msg_id": 1353,
     "file_id": "BAACAgEAAxkDAAIFSWsDl0T5xUxJG7HRxQUDwJIFi07OAAInCgACKY8YRO103GRefJE-PQQ",
-    "decided_at": "2026-11-23T21:18:00.159355+00:00"
+    "decided_at": "2026-11-23T21:18:00.159355+00:00",
+    "permalink": "https://www.instagram.com/reel/DgGdxX3CPJJ/"
   },
   {
     "id": "7deea8d3",
