@@ -499,6 +499,13 @@ def cmd_queue(cfg, args):
         n = approve.rerender_pending(cfg)
         _summary(f"Re-rendered {n} queued reel(s) with the current look.")
         return
+    if str(args.rerender).strip().lower() == "redo":  # re-pick the pending reels for the next N days with today's rules
+        days = str(args.days_ahead).strip()
+        days = int(days) if days else int((cfg.get("queue") or {}).get("days_ahead", 1))
+        dropped = approve.redo_pending(cfg, days)
+        n = approve.make_queue(cfg, days_ahead=days)
+        _summary(f"Re-picked {dropped} pending reel(s); sent {n} new one(s) to Telegram for approval.")
+        return
     if args.extra.strip():
         n = approve.add_extras(cfg, args.extra)
     else:
