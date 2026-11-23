@@ -237,7 +237,7 @@ def _check_attached(ig, cfg, audio, res, now):
     if audio.get("type") != "music" or st.get("attach_ok"):
         return
     kind = ig.audio_type(res["ig_media_id"])
-    ok = kind == "MUSIC"
+    ok = kind != "ORIGINAL_SOUND"   # None = Instagram didn't say (seen 2026-11-22 on a reel whose sound did attach)
     save_json(SOUND_STATE, {"attach_ok": ok, "checked_at": now.isoformat(), "detail": f"{audio.get('title')} -> {kind}"})
     print(f"[sound] attach check: {audio.get('title')} -> {kind} ({'works' if ok else 'did NOT attach'})")
     try:
