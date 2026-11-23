@@ -414,5 +414,13 @@
     "tries": 1,
     "ratio": 4.87,
     "reason": "4.9x a typical reel"
+  },
+  "nw-fertile-window": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-23T16:01:47.417732+00:00",
+    "tries": 2,
+    "ratio": 4.9,
+    "reason": "4.9x a typical reel"
   }
 }

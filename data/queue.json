@@ -1,34 +1,5 @@
 [
   {
-    "id": "2df6f0fe",
-    "slot_key": "2026-11-13 11:00",
-    "slot_iso": "2026-11-13T16:00:00+00:00",
-    "slot_label": "Fri Nov 13, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-walking-bait",
-    "category": "health_bait",
-    "clip_id": "clip68",
-    "cta": 0,
-    "mode": "explore",
-    "seconds": 8.4,
-    "status": "approved",
-    "music": {
-      "id": "jamendo-384173",
-      "title": "Mind drifting back (Leaving paradise)",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384173/mp32/",
-      "source": "jamendo",
-      "duration_ms": 312000,
-      "page": "https://www.jamendo.com/track/384173",
-      "genre": "lounge"
-    },
-    "msg_id": 1129,
-    "file_id": "BAACAgEAAxkDAAIEaWrz14a_SUaJQMPFB-czQkl5xh5kAALmCQAC2sWZR3K-jNzwoN9-PQQ",
-    "decided_at": "2026-11-13T15:57:48.924186+00:00"
-  },
-  {
     "id": "096adfd0",
     "slot_key": "2026-11-13 12:00",
     "slot_iso": "2026-11-13T17:00:00+00:00",
@@ -3467,7 +3438,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1916401",
       "title": "RnB Chill Trap",
@@ -3482,7 +3453,8 @@
     },
     "msg_id": 1348,
     "file_id": "BAACAgEAAxkDAAIFRGsDlqwx-WRlKfxRt599oyD7cFn3AAIiCgACKY8YRAdyKVj5ldjQPQQ",
-    "decided_at": "2026-11-23T11:08:38.063994+00:00"
+    "decided_at": "2026-11-23T11:08:38.063994+00:00",
+    "permalink": "https://www.instagram.com/reel/DgFxPErE6Mi/"
   },
   {
     "id": "91d735f0",
