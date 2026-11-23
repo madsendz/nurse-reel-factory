@@ -1,35 +1,5 @@
 [
   {
-    "id": "16aca928",
-    "slot_key": "2026-11-12 21:30",
-    "slot_iso": "2026-11-13T02:30:00+00:00",
-    "slot_label": "Thu Nov 12, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-a-spot",
-    "category": "anatomy",
-    "clip_id": "clip15",
-    "cta": 4,
-    "mode": "exploit",
-    "seconds": 6.63,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1892348",
-      "title": "Georgetown Cafe",
-      "creator": "Popoi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1892348/mp32/",
-      "source": "jamendo",
-      "duration_ms": 148000,
-      "page": "https://www.jamendo.com/track/1892348",
-      "genre": "hiphop"
-    },
-    "msg_id": 1116,
-    "file_id": "BAACAgEAAxkDAAIEXGryoHz0IqEetLc6Aw7xVD0JsOjGAAIOBwACVg2RRwKm4_EpjQhYPQQ",
-    "decided_at": "2026-11-12T02:50:53.729493+00:00",
-    "permalink": "https://www.instagram.com/reel/Dfqk3eFDdb6/"
-  },
-  {
     "id": "b7c8e011",
     "slot_key": "2026-11-13 08:00",
     "slot_iso": "2026-11-13T13:00:00+00:00",
@@ -3437,7 +3407,7 @@
     "cta": 4,
     "mode": "exploit",
     "seconds": 8.4,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1319541",
       "title": "Gone Crasy (4-Track-Recording-1991)",
@@ -3452,7 +3422,8 @@
     },
     "msg_id": 1313,
     "file_id": "BAACAgEAAxkDAAIFIWsBFzIqqATarGQ8wWrN64HIyvF_AALxCAACMIAIRE6OeK9YswWQPQQ",
-    "decided_at": "2026-11-23T00:40:40.423610+00:00"
+    "decided_at": "2026-11-23T00:40:40.423610+00:00",
+    "permalink": "https://www.instagram.com/reel/DgEU5fvHICa/"
   },
   {
     "id": "99ee75ac",
