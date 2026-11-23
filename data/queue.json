@@ -1,34 +1,5 @@
 [
   {
-    "id": "b2cca061",
-    "slot_key": "2026-11-12 17:30",
-    "slot_iso": "2026-11-12T22:30:00+00:00",
-    "slot_label": "Thu Nov 12, 5:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-size-satisfaction",
-    "category": "mens_health",
-    "clip_id": "clip77",
-    "cta": 0,
-    "mode": "explore",
-    "seconds": 5.12,
-    "status": "approved",
-    "music": {
-      "id": "jamendo-1182292",
-      "title": "Spasm",
-      "creator": "Suedey",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1182292/mp32/",
-      "source": "jamendo",
-      "duration_ms": 208000,
-      "page": "https://www.jamendo.com/track/1182292",
-      "genre": "hiphop"
-    },
-    "msg_id": 1114,
-    "file_id": "BAACAgEAAxkDAAIEWmryoFGafXq2LWVuArIi2_yWuP6hAAIMBwACVg2RR9KAwfNIObaBPQQ",
-    "decided_at": "2026-11-12T02:50:53.729493+00:00"
-  },
-  {
     "id": "b8dedd57",
     "slot_key": "2026-11-12 19:30",
     "slot_iso": "2026-11-13T00:30:00+00:00",
@@ -3347,7 +3318,7 @@
     "cta": 2,
     "mode": "exploit",
     "seconds": 7.59,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-384091",
       "title": "Lazy beach breaks",
@@ -3361,7 +3332,10 @@
       "genre": "lounge"
     },
     "msg_id": 1299,
-    "file_id": "BAACAgEAAxkDAAIFE2r_x1HHUF8q5yyLGvdPBAksLvnzAAI_CAACMIAAAUQkQtxKgrmuAz0E"
+    "file_id": "BAACAgEAAxkDAAIFE2r_x1HHUF8q5yyLGvdPBAksLvnzAAI_CAACMIAAAUQkQtxKgrmuAz0E",
+    "decided_at": "2026-11-23T00:07:30.475356+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/DgEEF1lAbyp/"
   },
   {
     "id": "73e8801a",
