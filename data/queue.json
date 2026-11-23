@@ -1,33 +1,5 @@
 [
   {
-    "id": "b7c8e011",
-    "slot_key": "2026-11-13 08:00",
-    "slot_iso": "2026-11-13T13:00:00+00:00",
-    "slot_label": "Fri Nov 13, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-kissing",
-    "category": "sexual_wellness",
-    "clip_id": "clip34",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 10.96,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-2037721",
-      "title": "Downtempo Delights (Lofi Hip-hop)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037721/mp32/",
-      "source": "jamendo",
-      "duration_ms": 144000,
-      "page": "https://www.jamendo.com/track/2037721",
-      "genre": "hiphop"
-    },
-    "msg_id": 1127,
-    "file_id": "BAACAgEAAxkDAAIEZ2rz107iVn9WruxRv7HA1s7GxV1iAALkCQAC2sWZR6Y6JCIjIjI1PQQ"
-  },
-  {
     "id": "c9df6000",
     "slot_key": "2026-11-13 09:30",
     "slot_iso": "2026-11-13T14:30:00+00:00",
@@ -3466,7 +3438,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 11.7,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-20236",
       "title": "Ambiphonic",
@@ -3481,7 +3453,8 @@
     },
     "msg_id": 1346,
     "file_id": "BAACAgEAAxkDAAIFQmsDlnuYyCdxC8iBuu5KZHmqtDE3AAIgCgACKY8YRFWJNMQVGYtYPQQ",
-    "decided_at": "2026-11-23T11:08:38.063994+00:00"
+    "decided_at": "2026-11-23T11:08:38.063994+00:00",
+    "permalink": "https://www.instagram.com/reel/DgFckXFmKdp/"
   },
   {
     "id": "4f227f49",
