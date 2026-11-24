@@ -1,33 +1,5 @@
 [
   {
-    "id": "60d79573",
-    "slot_key": "2026-11-14 08:00",
-    "slot_iso": "2026-11-14T13:00:00+00:00",
-    "slot_label": "Sat Nov 14, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-faked-it",
-    "category": "sex_ed",
-    "clip_id": "clip86",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 6.03,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1945492",
-      "title": "Do not disturb",
-      "creator": "zero-project",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1945492/mp32/",
-      "source": "jamendo",
-      "duration_ms": 280000,
-      "page": "https://www.jamendo.com/track/1945492",
-      "genre": "chillout"
-    },
-    "msg_id": 1154,
-    "file_id": "BAACAgEAAxkDAAIEgmr1Nz1fwz1vU0xcN3-sVP9gAVxBAAJoCgAC2sWpR243vNSqbuyoPQQ"
-  },
-  {
     "id": "245f3828",
     "slot_key": "2026-11-14 09:30",
     "slot_iso": "2026-11-14T14:30:00+00:00",
@@ -3442,7 +3414,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.17,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-2173154",
       "title": "Coffee Lounge",
@@ -3456,7 +3428,10 @@
       "genre": "lounge"
     },
     "msg_id": 1356,
-    "file_id": "BAACAgEAAxkDAAIFTGsDl4c1miWMc7PrqBFUAqG5Ia8-AAIqCgACKY8YRLcu_ifEp1uLPQQ"
+    "file_id": "BAACAgEAAxkDAAIFTGsDl4c1miWMc7PrqBFUAqG5Ia8-AAIqCgACKY8YRLcu_ifEp1uLPQQ",
+    "decided_at": "2026-11-24T14:23:14.587796+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/DgIKz5nEpHq/"
   },
   {
     "id": "0b646b82",
