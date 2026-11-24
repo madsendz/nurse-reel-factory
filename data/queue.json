@@ -1,67 +1,5 @@
 [
   {
-    "id": "8c1f7878",
-    "slot_key": "2026-11-14 14:30",
-    "slot_iso": "2026-11-14T19:30:00+00:00",
-    "slot_label": "Sat Nov 14, 2:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-sperm-five-days",
-    "category": "sex_ed",
-    "clip_id": "clip35",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 7.35,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-384095",
-      "title": "Like King Cool in a sunbed",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384095/mp32/",
-      "source": "jamendo",
-      "duration_ms": 289000,
-      "page": "https://www.jamendo.com/track/384095",
-      "genre": "pop"
-    },
-    "msg_id": 1159,
-    "file_id": "BAACAgEAAxkDAAIEh2r1N64_P9ZiZr01WiNOaGweRDqUAAJuCgAC2sWpR3g0gj9ki6MEPQQ",
-    "decided_at": "2026-11-14T18:59:26.134156+00:00",
-    "permalink": "https://www.instagram.com/reel/Dfu-W9-GYXu/"
-  },
-  {
-    "id": "6dbbabbc",
-    "slot_key": "2026-11-14 16:00",
-    "slot_iso": "2026-11-14T21:00:00+00:00",
-    "slot_label": "Sat Nov 14, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "pr-make-noise",
-    "category": "sexual_wellness",
-    "clip_id": "clip63",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 9.46,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1892348",
-      "title": "Georgetown Cafe",
-      "creator": "Popoi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1892348/mp32/",
-      "source": "jamendo",
-      "duration_ms": 148000,
-      "page": "https://www.jamendo.com/track/1892348",
-      "genre": "lounge"
-    },
-    "msg_id": 1160,
-    "file_id": "BAACAgEAAxkDAAIEiGr1N8ZHngfgR2aS9mNzp-cxd7T-AAJwCgAC2sWpR5csM33_poZ3PQQ",
-    "decided_at": "2026-11-14T18:59:26.134156+00:00",
-    "redo": "text_edit",
-    "needs_replacement": false,
-    "replaced_by": "6b049997"
-  },
-  {
     "id": "9c2f76cb",
     "slot_key": "2026-11-14 17:30",
     "slot_iso": "2026-11-14T22:30:00+00:00",
@@ -750,37 +688,6 @@
     "file_id": "BAACAgEAAxkDAAIEqmr30wM4_V0uZ_93JAhWtf7BKnuOAAK4DAACuFm4R0GVVzhOhg0UPQQ",
     "decided_at": "2026-11-16T22:31:14.346214+00:00",
     "permalink": "https://www.instagram.com/reel/Df03rBtHE-P/"
-  },
-  {
-    "id": "6b049997",
-    "slot_key": "2026-11-14 16:00",
-    "slot_iso": "2026-11-14T21:00:00+00:00",
-    "slot_label": "Sat Nov 14, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "pr-make-noise",
-    "category": "sexual_wellness",
-    "clip_id": "clip63",
-    "cta": 1,
-    "mode": "edited",
-    "seconds": 9.46,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1892348",
-      "title": "Georgetown Cafe",
-      "creator": "Popoi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1892348/mp32/",
-      "source": "jamendo",
-      "duration_ms": 148000,
-      "page": "https://www.jamendo.com/track/1892348",
-      "genre": "lounge"
-    },
-    "msg_id": 1197,
-    "file_id": "BAACAgEAAxkDAAIErWr4r8aP3G5q0NFe9VDCWEDwbJQMAAKuCQACuFnAR1HRP2eacbzzPQQ",
-    "replaces": "6dbbabbc",
-    "decided_at": "2026-11-14T19:31:08.126504+00:00",
-    "permalink": "https://www.instagram.com/reel/DfvIkT4iV1O/"
   },
   {
     "id": "545b32b9",
@@ -3546,7 +3453,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.0,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-247156",
       "title": "Silence Apart",
@@ -3560,7 +3467,8 @@
       "genre": "pop"
     },
     "msg_id": 1364,
-    "file_id": "BAACAgEAAxkDAAIFVGsDmCveugdMw8MCunwScMDrZnKuAAIzCgACKY8YRBW-138tBtiRPQQ"
+    "file_id": "BAACAgEAAxkDAAIFVGsDmCveugdMw8MCunwScMDrZnKuAAIzCgACKY8YRBW-138tBtiRPQQ",
+    "decided_at": "2026-11-24T21:01:09.810289+00:00"
   },
   {
     "id": "1b507e2b",
@@ -4506,7 +4414,7 @@
     "cta": 1,
     "mode": "edited",
     "seconds": 6.5,
-    "status": "pending",
+    "status": "missed",
     "music": {
       "id": "jamendo-1922534",
       "title": "Luxury Hip-Hop",
@@ -4521,21 +4429,22 @@
     },
     "msg_id": 1415,
     "file_id": "BAACAgEAAxkDAAIFh2sFwK_COd9LPKI4T-uNXLCmha1vAAI4CQACMvEwRHrsHGbeKS5tPQQ",
-    "replaces": "3e5e9ef7"
+    "replaces": "3e5e9ef7",
+    "decided_at": "2026-11-24T21:01:09.810289+00:00"
   },
   {
     "id": "39d753a6",
     "slot_key": "2026-11-24 16:00",
     "slot_iso": "2026-11-24T21:00:00+00:00",
     "slot_label": "Tue Nov 24, 4:00 PM",
-    "post_type": "trial",
+    "post_type": "regular",
     "item_id": "nw-throat-sti",
     "category": "sex_ed",
     "clip_id": "clip69b",
     "cta": 0,
     "mode": "edited",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-1992651",
       "title": "Emotional Dancing",
@@ -4550,6 +4459,8 @@
     },
     "msg_id": 1416,
     "file_id": "BAACAgEAAxkDAAIFiGsFwMyP0qzV8PKz8k0hzzgTwia3AAI5CQACMvEwRB3qDL3beeh0PQQ",
-    "replaces": "582b0953"
+    "replaces": "582b0953",
+    "decided_at": "2026-11-24T21:01:09.810289+00:00",
+    "permalink": "https://www.instagram.com/reel/DgI4d7QAf2A/"
   }
 ]
