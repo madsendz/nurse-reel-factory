@@ -14,7 +14,7 @@ from .config import load_bank, load_clips, load_json, load_posts
 
 KEEP = ["id", "slot_key", "slot_iso", "slot_label", "post_type", "status", "item_id", "clip_id", "category",
         "mode", "seconds", "msg_id", "file_id", "replaces", "replaced_by", "redo", "needs_replacement",
-        "feedback", "extra", "decided_at", "permalink", "post_now"]
+        "feedback", "extra", "decided_at", "permalink", "post_now", "audio", "caption", "hashtags"]
 STATS = ["views", "reach", "likes", "comments", "shares", "saved", "ig_reels_avg_watch_time"]
 
 
