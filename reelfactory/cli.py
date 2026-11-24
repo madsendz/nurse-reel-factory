@@ -258,7 +258,11 @@ def _make(cfg, choice, out_dir: Path, tag: str, post_type: str = "regular", bake
     item, clip = choice["item"], choice["clip"]
     out = out_dir / f"{tag}_{item['id']}_{clip['id']}.mp4"
     meta = render_reel(item, clip, _clip_file(clip), out, cfg)
-    caption = pk.build_caption(item, choice["cta"], cfg, post_type)
+    # the caption Nick approved with the reel (choice["caption"]) wins; else it is written now
+    caption = choice.get("caption") or pk.build_caption(item, choice["cta"], cfg, post_type,
+                                                        hashtags=choice.get("hashtags"),
+                                                        variant=int(choice.get("caption_variant") or 0))
+    meta["caption_base"] = caption   # without the music credit line
     from . import music
     # bake=True: royalty-free track mixed in (previews, and whenever no trending sound gets attached);
     # bake=False: no track, a trending sound is attached at publish time
@@ -335,7 +339,10 @@ def _post_one(cfg, args, posts, now, slot, post_type, entry):
             print(f"[approvals] approved topic/clip no longer exists ({entry['item_id']}, {entry['clip_id']})")
             return
         choice = {"item": item, "clip": clip, "cta": int(entry.get("cta") or 0), "mode": entry.get("mode", "approved"),
-                  "music": entry.get("music")}
+                  "music": entry.get("music"), "hashtags": entry.get("hashtags"),
+                  "caption_variant": entry.get("caption_variant")}
+        if entry.get("caption") and (entry.get("caption_custom") or entry.get("caption_for") == post_type):
+            choice["caption"] = entry["caption"]   # exactly what was shown for approval
     else:
         choice = pk.pick_next(load_bank(), load_clips(), posts, cfg, now, post_type=post_type)
     from . import music
@@ -345,7 +352,12 @@ def _post_one(cfg, args, posts, now, slot, post_type, entry):
     if not args.dry_run:
         from .instagram import Instagram
         ig = Instagram(cfg)
-        if music.attach_mode(cfg):  # Nick 2026-11-22: trending sounds from Instagram's library
+        if music.attach_mode(cfg) and (cfg.get("sound") or {}).get("source", "approved") == "approved":
+            from . import songs   # Nick 2026-11-24: only songs he kept; the one shown with the reel if it has one
+            audio = songs.for_post(entry, posts, random.Random())
+            if not audio:
+                print("[sound] no approved song to use — posting with a royalty-free track")
+        elif music.attach_mode(cfg):  # any trending sound from Instagram's library
             audio = _trending_audio(ig, posts, cfg, now)
 
     def build(with_track: bool):
@@ -388,7 +400,7 @@ def _post_one(cfg, args, posts, now, slot, post_type, entry):
     record = {"id": uuid.uuid4().hex[:10], "slot": slot, "item_id": choice["item"]["id"],
               "post_type": post_type, "category": choice["item"]["category"], "style": choice["item"].get("style"),
               "clip_id": choice["clip"]["id"], "cta": str(choice["cta"]), "mode": choice["mode"],
-              "seconds": meta["seconds"], "caption": caption}
+              "seconds": meta["seconds"], "caption": caption, "hashtags": len(choice.get("hashtags") or [])}
     if meta.get("music"):
         mu = meta["music"]
         record.update({"music_id": mu["id"], "music_title": mu["title"], "music_creator": mu["creator"],
@@ -495,6 +507,12 @@ def cmd_preview(cfg, args):
 
 def cmd_queue(cfg, args):
     from . import approve
+    try:  # new trending songs go to Telegram for Keep / Toss
+        from . import songs
+        from .instagram import Instagram
+        songs.refresh(Instagram(cfg), cfg, approve.chat_id(cfg), approve._tg)
+    except Exception as e:
+        print(f"[songs] refresh skipped: {e}")
     if str(args.rerender).strip().lower() in ("yes", "true", "1", "y"):
         n = approve.rerender_pending(cfg)
         _summary(f"Re-rendered {n} queued reel(s) with the current look.")
