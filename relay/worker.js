@@ -56,6 +56,12 @@ export default {
       await env.KV.put("c:" + p.slice(6).replace(/[^A-Za-z0-9_-]/g, ""), await req.arrayBuffer());
       return new Response("ok");
     }
+    // small copies of queued reels for the dashboard player (uploaded by the jobs, kept two weeks)
+    if (p.startsWith("/reel/") && req.method === "POST") {
+      if (!bearer(req, c)) return no();
+      await env.KV.put("r:" + p.slice(6).replace(/[^A-Za-z0-9_-]/g, ""), await req.arrayBuffer(), { expirationTtl: 14 * 86400 });
+      return new Response("ok");
+    }
     if (p === "/setup") {
       const r = await c.tg("setWebhook", { url: url.origin + "/tg", secret_token: c.secret, allowed_updates: ["message", "callback_query"] });
       return Response.json({ webhook_set: r.ok, info: r.description });
@@ -110,7 +116,8 @@ async function ctxFor(env) {
   const raw = env.BOT_TOKEN || "";
   const token = (raw.match(/\d{6,}:[A-Za-z0-9_-]{30,}/) || [raw.trim()])[0];
   const secret = token ? await sha256(token) : "";
-  const tg = (m, body) =>
+  // Nick 2026-11-24: everything is approved on the dashboard; the relay sends nothing to Telegram any more
+  const tg = (m, body) => /^(send|edit|answer|delete)/.test(m) ? Promise.resolve({ ok: true, result: {} }) :
     fetch(`https://api.telegram.org/bot${token}/${m}`, {
       method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body),
     }).then((r) => r.json()).catch(() => ({ ok: false }));
@@ -215,6 +222,9 @@ async function dashState(env) {
     const o = ov[cl.id];
     if (o && !applied(o, st)) Object.assign(cl, o.patch, { pending_sync: true });
   }
+  // songs: Keep / Toss clicks the jobs haven't saved yet
+  const sov = JSON.parse((await env.KV.get("songov")) || "{}");
+  st.songs = (st.songs || []).map((s) => (sov[s.id] && !applied(sov[s.id], st) ? { ...s, status: sov[s.id].status } : s)).filter((s) => s.status !== "toss");
   // topics: Keep / Toss / Never-again clicks the jobs haven't saved yet
   const t = st.topics || (st.topics = { review: [], counts: { winner: {}, new: {} } });
   const tov = JSON.parse((await env.KV.get("topicov")) || "{}");
@@ -366,8 +376,8 @@ async function clipAction(a, env, c) {
   return Response.json({ ok: true });
 }
 
-async function clipVideo(id, env, req) {
-  const v = await env.KV.get("c:" + id, "arrayBuffer");
+async function clipVideo(id, env, req, prefix = "c:") {
+  const v = await env.KV.get(prefix + id, "arrayBuffer");
   if (!v) return new Response("no preview", { status: 404 });
   const total = v.byteLength, range = req.headers.get("Range");
   const h = new Headers({ "content-type": "video/mp4", "accept-ranges": "bytes", "cache-control": "private, max-age=86400" });
@@ -385,16 +395,29 @@ async function clipVideo(id, env, req) {
 async function dashboardAction(a, env, c) {
   if (a && (a.kind === "topic_keep" || a.kind === "topic_toss") && a.item_id) return topicAction(a, env);
   if (a && a.kind === "clip_edit" && a.clip_id) return clipAction(a, env, c);
+  if (a && (a.kind === "song_keep" || a.kind === "song_toss") && a.audio_id) { // Songs tab
+    const key = actionKey(), id = String(a.audio_id).replace(/[^0-9A-Za-z_-]/g, "");
+    await env.KV.put(key, JSON.stringify({ kind: a.kind, audio_id: id, at: new Date().toISOString() }), { expirationTtl: 14 * 86400 });
+    const ov = JSON.parse((await env.KV.get("songov")) || "{}");
+    const cut = Date.now() - 3 * 86400000;
+    for (const k of Object.keys(ov)) if (ov[k].at < cut) delete ov[k];
+    ov[id] = { at: Date.now(), key, status: a.kind === "song_keep" ? "keep" : "toss" };
+    await env.KV.put("songov", JSON.stringify(ov));
+    await env.KV.put("needjob", "1", { expirationTtl: 86400 }); // a job saves it and gives queued reels their songs
+    return Response.json({ ok: true });
+  }
   if (a && a.kind === "new_ideas") { // ✨ Topics tab: have Claude write new topics into the review list
     const job = (await dispatch(env, "ideas.yml")) ? "started" : "unavailable";
     return Response.json({ ok: job === "started", job, error: job === "started" ? undefined : "the relay can't start GitHub jobs (GH_DISPATCH_TOKEN not set)" }, { status: job === "started" ? 200 : 503 });
   }
-  const kinds = ["approve", "skip", "note", "swap_music", "new_clip", "new_topic", "never_topic", "move", "post_now", "swap_type", "text_edit"];
+  const kinds = ["approve", "skip", "note", "swap_music", "new_clip", "new_topic", "never_topic", "move", "post_now", "swap_type", "text_edit", "new_song", "never_song", "new_caption", "caption_edit"];
+  const PARTS = ["new_song", "never_song", "new_caption", "caption_edit"];
   if (!a || !kinds.includes(a.kind) || !a.entry_id) return Response.json({ ok: false, error: "bad action" }, { status: 400 });
   const st = await liveState(env);
   const e = (st.entries || []).find((x) => x.id === a.entry_id);
   if (!e) return Response.json({ ok: false, error: "reel not found" }, { status: 404 });
   if (e.status === "posted") return Response.json({ ok: false, error: "already posted" }, { status: 400 });
+  if (a.kind === "caption_edit" && !(a.text || "").trim()) return Response.json({ ok: false, error: "the caption is empty" }, { status: 400 });
   if (a.kind === "note" && !(a.text || "").trim()) return Response.json({ ok: false, error: "empty note" }, { status: 400 });
   let hook = null, beats = null;
   if (a.kind === "text_edit") { // title + fact lines edited on the card; saved for the topic by the next job
@@ -445,6 +468,9 @@ async function dashboardAction(a, env, c) {
     statusText = STATUS.pending;
     say = `🔄 Switched to a ${nt === "trial" ? "TRIAL" : "regular"} reel from the dashboard. Approve it again when you're ready.`;
   }
+  if (a.kind === "new_song" || a.kind === "never_song") patch = { status: "pending", song_pending: true, post_now: false };
+  if (a.kind === "new_caption") patch = { status: "pending", caption_pending: true, post_now: false };
+  if (a.kind === "caption_edit") patch = { status: "pending", caption: rec.text.trim(), caption_custom: true, post_now: false };
   await overlay(env, e.id, patch, { key });
 
   if (chat && e.msg_id) {
@@ -452,7 +478,7 @@ async function dashboardAction(a, env, c) {
     if (say) await c.tg("sendMessage", { chat_id: chat, reply_to_message_id: e.msg_id, text: say });
   }
   let job = null;
-  if (a.kind === "note" || REDO[a.kind] || a.kind === "move") {
+  if (a.kind === "note" || REDO[a.kind] || a.kind === "move" || PARTS.includes(a.kind)) {
     job = (await dispatch(env, "replies.yml")) ? "started" : "queued";
     if (job === "started") await env.KV.put("lastjob", String(Date.now()), { expirationTtl: 86400 });
     await env.KV.put("needjob", "1", { expirationTtl: 86400 }); // the cron keeps trying until a job reports it's done
@@ -465,6 +491,8 @@ async function dashboardAction(a, env, c) {
 }
 
 async function video(id, env, c, req) {
+  const own = await clipVideo(id.replace(/[^A-Za-z0-9_-]/g, ""), env, req, "r:"); // the relay's own copy first
+  if (own.status !== 404) return own;
   const st = await liveState(env);
   const e = (st.entries || []).find((x) => x.id === id);
   if (!e || !e.file_id) return new Response("no video", { status: 404 });
