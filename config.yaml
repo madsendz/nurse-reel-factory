@@ -175,6 +175,8 @@ sound:
   #          attached, that reel gets a royalty-free track instead of going out silent.
   # baked  = a royalty-free track (CC0 / CC BY) is mixed into the video.
   mode: attach                 # attach | baked
+  source: approved             # approved = only songs Nick kept (data/songs.json); trending = any trending sound
+  review_max: 20               # don't send more songs for Keep/Toss while this many are still waiting
   genres: ["lofi hip hop", "phonk", "chill rnb", "deep house", "trap beat", "afrobeat", "chillhop"]  # popular reel styles
   licenses: "cc0,by"           # CC BY tracks get a short credit line in the caption
   top_n: 8                     # pick among the top results for a genre
@@ -201,7 +203,16 @@ caption:
     sexual_wellness: ["#sexualwellness", "#selfcare"]
     sex_ed: ["#sexed", "#sexeducation"]
     anatomy: ["#anatomy", "#medicalfacts"]
-  max_hashtags: 0   # Nick 2026-10-17: TEST - no hashtags at all (some reels got flagged); was 6. Compare flags/reach, then decide.
+  # Nick 2026-11-24: hashtag test — about 1 reel in 4 gets 3 hashtags (was none since Oct 17, when reels got flagged).
+  max_hashtags: 3
+  hashtag_rate: 0.25
+  style: long                  # long = title + extra detail + search words + CTA; minimal = title + CTA only
+  search_lines:                # one line of search words per category (only on captions that have a detail)
+    mens_health: "men's health facts from a nurse 🩺"
+    sexual_wellness: "relationship + wellness facts from a nurse 🩺"
+    sex_ed: "the health class you never got, from a nurse 🩺"
+    anatomy: "anatomy facts from a nurse 🩺"
+    health_bait: "everyday health facts from a nurse 🩺"
   # Nick: every TRIAL reel's caption starts with one of these "follow me if..." lines (edit/add freely)
   trial_openers:
     - "follow me if you want more nurse-approved facts like this 🩺"
