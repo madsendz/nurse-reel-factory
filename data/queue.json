@@ -1,61 +1,5 @@
 [
   {
-    "id": "245f3828",
-    "slot_key": "2026-11-14 09:30",
-    "slot_iso": "2026-11-14T14:30:00+00:00",
-    "slot_label": "Sat Nov 14, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "nw-lube-myth",
-    "category": "sex_ed",
-    "clip_id": "clip15",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 6.63,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1547998",
-      "title": "podnebo prod. - spark | FREE BEAT | 2018 | FULL | 96bpm",
-      "creator": "podnebo prod.",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1547998/mp32/",
-      "source": "jamendo",
-      "duration_ms": 181000,
-      "page": "https://www.jamendo.com/track/1547998",
-      "genre": "trap"
-    },
-    "msg_id": 1155,
-    "file_id": "BAACAgEAAxkDAAIEg2r1N1RuLhXPIM-mgpQAAeJc9CUOlwACaQoAAtrFqUf4c4zQ4ynhdT0E"
-  },
-  {
-    "id": "e852947a",
-    "slot_key": "2026-11-14 11:00",
-    "slot_iso": "2026-11-14T16:00:00+00:00",
-    "slot_label": "Sat Nov 14, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-sex-heart",
-    "category": "health_bait",
-    "clip_id": "clip44",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 7.31,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1214977",
-      "title": "Satanic Blues",
-      "creator": "Paolo Orecchia",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1214977/mp32/",
-      "source": "jamendo",
-      "duration_ms": 146000,
-      "page": "https://www.jamendo.com/track/1214977",
-      "genre": "rnb"
-    },
-    "msg_id": 1156,
-    "file_id": "BAACAgEAAxkDAAIEhGr1N2fvoHjr74uwG2p8D35GY5Z0AAJqCgAC2sWpRySCUsF6wcnPPQQ"
-  },
-  {
     "id": "2797349c",
     "slot_key": "2026-11-14 12:00",
     "slot_iso": "2026-11-14T17:00:00+00:00",
@@ -3473,7 +3417,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 10.4,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-1129271",
       "title": "Energy",
@@ -3487,7 +3431,10 @@
       "genre": "dance"
     },
     "msg_id": 1358,
-    "file_id": "BAACAgEAAxkDAAIFTmsDl7LrcvWhAAFXK-gabmH9wdFcZwACLAoAAimPGERWkscjF_nCLz0E"
+    "file_id": "BAACAgEAAxkDAAIFTmsDl7LrcvWhAAFXK-gabmH9wdFcZwACLAoAAimPGERWkscjF_nCLz0E",
+    "decided_at": "2026-11-24T16:42:03.698575+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/DgIbMqfmsMx/"
   },
   {
     "id": "56674cc5",
@@ -3501,7 +3448,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 4.73,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-2026412",
       "title": "In For Future Bass",
@@ -3515,7 +3462,10 @@
       "genre": "rnb"
     },
     "msg_id": 1359,
-    "file_id": "BAACAgEAAxkDAAIFT2sDl7_lraSXgRpA4hhieCdM3FXMAAItCgACKY8YRNw07D9E8ozHPQQ"
+    "file_id": "BAACAgEAAxkDAAIFT2sDl7_lraSXgRpA4hhieCdM3FXMAAItCgACKY8YRNw07D9E8ozHPQQ",
+    "decided_at": "2026-11-24T16:42:03.698575+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false
   },
   {
     "id": "e55941de",
@@ -3529,7 +3479,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 10.52,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-489246",
       "title": "Back 2 UR",
@@ -3543,7 +3493,8 @@
       "genre": "chillout"
     },
     "msg_id": 1360,
-    "file_id": "BAACAgEAAxkDAAIFUGsDl9qAcNGe5cE7dSnvaW07qc63AAIuCgACKY8YRC5JI2_TLMV4PQQ"
+    "file_id": "BAACAgEAAxkDAAIFUGsDl9qAcNGe5cE7dSnvaW07qc63AAIuCgACKY8YRC5JI2_TLMV4PQQ",
+    "decided_at": "2026-11-24T16:42:03.698575+00:00"
   },
   {
     "id": "3e5e9ef7",
@@ -3557,7 +3508,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 6.5,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1922534",
       "title": "Luxury Hip-Hop",
@@ -3571,7 +3522,11 @@
       "genre": "rnb"
     },
     "msg_id": 1361,
-    "file_id": "BAACAgEAAxkDAAIFUWsDl-3NDWFNJvLX-SStyl8PPYfjAAIvCgACKY8YRDNT30qloj7nPQQ"
+    "file_id": "BAACAgEAAxkDAAIFUWsDl-3NDWFNJvLX-SStyl8PPYfjAAIvCgACKY8YRDNT30qloj7nPQQ",
+    "decided_at": "2026-11-24T16:42:03.698575+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "c3ac23dc"
   },
   {
     "id": "582b0953",
@@ -3585,7 +3540,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1992651",
       "title": "Emotional Dancing",
@@ -3599,7 +3554,11 @@
       "genre": "hiphop"
     },
     "msg_id": 1362,
-    "file_id": "BAACAgEAAxkDAAIFUmsDmAIJDfk1WboV-fkrOsPUrvBbAAIwCgACKY8YRPJtzfjDese3PQQ"
+    "file_id": "BAACAgEAAxkDAAIFUmsDmAIJDfk1WboV-fkrOsPUrvBbAAIwCgACKY8YRPJtzfjDese3PQQ",
+    "decided_at": "2026-11-24T16:42:03.698575+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "39d753a6"
   },
   {
     "id": "944f3715",
@@ -3613,7 +3572,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 8.13,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2146287",
       "title": "Big Car",
@@ -3627,7 +3586,8 @@
       "genre": "hiphop"
     },
     "msg_id": 1363,
-    "file_id": "BAACAgEAAxkDAAIFU2sDmBQyze5xS9gV-iC20XeEJuBXAAIyCgACKY8YRJwyK-aoBJ3MPQQ"
+    "file_id": "BAACAgEAAxkDAAIFU2sDmBQyze5xS9gV-iC20XeEJuBXAAIyCgACKY8YRJwyK-aoBJ3MPQQ",
+    "decided_at": "2026-11-24T16:42:03.698575+00:00"
   },
   {
     "id": "72d0fb25",
@@ -4588,5 +4548,63 @@
     },
     "msg_id": 1406,
     "file_id": "BAACAgEAAxkDAAIFfmsFN1SDAq5sNO-uMHTfpbPof1orAAIRCwACKY8oRNjcRXJIBMWiPQQ"
+  },
+  {
+    "id": "c3ac23dc",
+    "slot_key": "2026-11-24 14:30",
+    "slot_iso": "2026-11-24T19:30:00+00:00",
+    "slot_label": "Tue Nov 24, 2:30 PM",
+    "post_type": "trial",
+    "item_id": "nw-cold-shower-bait",
+    "category": "health_bait",
+    "clip_id": "clip17",
+    "cta": 1,
+    "mode": "edited",
+    "seconds": 6.5,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1922534",
+      "title": "Luxury Hip-Hop",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1922534/mp32/",
+      "source": "jamendo",
+      "duration_ms": 131000,
+      "page": "https://www.jamendo.com/track/1922534",
+      "genre": "rnb"
+    },
+    "msg_id": 1415,
+    "file_id": "BAACAgEAAxkDAAIFh2sFwK_COd9LPKI4T-uNXLCmha1vAAI4CQACMvEwRHrsHGbeKS5tPQQ",
+    "replaces": "3e5e9ef7"
+  },
+  {
+    "id": "39d753a6",
+    "slot_key": "2026-11-24 16:00",
+    "slot_iso": "2026-11-24T21:00:00+00:00",
+    "slot_label": "Tue Nov 24, 4:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-throat-sti",
+    "category": "sex_ed",
+    "clip_id": "clip69b",
+    "cta": 0,
+    "mode": "edited",
+    "seconds": 10.0,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1992651",
+      "title": "Emotional Dancing",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1992651/mp32/",
+      "source": "jamendo",
+      "duration_ms": 126000,
+      "page": "https://www.jamendo.com/track/1992651",
+      "genre": "hiphop"
+    },
+    "msg_id": 1416,
+    "file_id": "BAACAgEAAxkDAAIFiGsFwMyP0qzV8PKz8k0hzzgTwia3AAI5CQACMvEwRB3qDL3beeh0PQQ",
+    "replaces": "582b0953"
   }
 ]

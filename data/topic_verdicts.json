@@ -430,5 +430,13 @@
     "tries": 2,
     "ratio": 4.26,
     "reason": "4.3x a typical reel"
+  },
+  "nw-blue-pill-myth": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-24T16:42:39.910881+00:00",
+    "tries": 2,
+    "ratio": 2.35,
+    "reason": "2.3x a typical reel"
   }
 }
