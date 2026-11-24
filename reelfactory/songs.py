@@ -87,9 +87,9 @@ def refresh(ig, cfg: dict, cid, tg) -> int:
             rec["status"] = "toss"   # a flag-list word in the song name: never offered
         elif sent < room:
             try:
-                rec["msg_id"] = tg("sendMessage", chat_id=cid, text=message_text(rec), reply_markup=buttons(aid),
-                                   disable_web_page_preview="true")["message_id"]
-                sent += 1
+                rec["msg_id"] = (tg("sendMessage", chat_id=cid, text=message_text(rec), reply_markup=buttons(aid),
+                                    disable_web_page_preview="true") or {}).get("message_id")
+                sent += 1   # with Telegram off this just lists the song on the dashboard's Songs tab
             except Exception as e:
                 print(f"[songs] couldn't send {rec['title']}: {e}")
                 continue
