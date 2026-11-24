@@ -271,7 +271,8 @@ function card(e, old){
       ${(e.beats||[]).length?`<ol class="beats">${e.beats.map(b=>`<li>${esc(b)}</li>`).join("")}</ol>`:""}`}
       <dl class="meta">
         <dt>Clip</dt><dd>${esc(e.clip_id)}</dd>
-        <dt>Music</dt><dd>${e.music?`🎵 ${esc(e.music.title)} — ${esc(e.music.creator)}${e.music.genre?` <span class="muted">(${esc(e.music.genre)})</span>`:""}`:`<span class="muted">picked at post time</span>`}</dd>
+        <dt>Song</dt><dd>${e.audio?`🎵 ${esc(e.audio.title)} — ${esc(e.audio.artist)}${e.audio.link?` <a href="${esc(e.audio.link)}" target="_blank" rel="noopener">listen ↗</a>`:""}`:`<span class="muted">none yet — keep some songs in Telegram</span>`}</dd>
+        ${e.caption?`<dt>Caption</dt><dd style="white-space:pre-wrap">${esc(e.caption)}</dd>`:""}
         <dt>Type</dt><dd>${e.post_type==="trial"?"Trial (shown to non-followers first)":"Regular"}${e.mode?` <span class="muted">· ${esc(e.mode)}</span>`:""}</dd>
         <dt>Topic</dt><dd><span class="muted">${esc(e.item_id)}</span></dd>
         ${e.permalink?`<dt>Post</dt><dd><a href="${esc(e.permalink)}" target="_blank" rel="noopener">Open on Instagram ↗</a></dd>`:""}
