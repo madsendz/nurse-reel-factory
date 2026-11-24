@@ -14,7 +14,7 @@ from .config import load_bank, load_clips, load_json, load_posts
 
 KEEP = ["id", "slot_key", "slot_iso", "slot_label", "post_type", "status", "item_id", "clip_id", "category",
         "mode", "seconds", "msg_id", "file_id", "replaces", "replaced_by", "redo", "needs_replacement",
-        "feedback", "extra", "decided_at", "permalink", "post_now", "audio", "caption", "hashtags"]
+        "feedback", "extra", "decided_at", "permalink", "post_now", "audio", "caption", "hashtags", "preview", "caption_custom"]
 STATS = ["views", "reach", "likes", "comments", "shares", "saved", "ig_reels_avg_watch_time"]
 
 
@@ -94,7 +94,15 @@ def build_state(cfg, q=None) -> dict:
             "action_after": tg.get("action_after", ""), "offset": tg.get("offset", 0),
             "chat_id": chat_id(cfg), "schedule": [{"time": t, "type": k} for t, k in _slots(cfg)],
             "entries": entries, "clip_notes": notes, "clips": clips_out,
-            "topics": {"counts": counts, "cooldown_days": days, "review": review}}
+            "topics": {"counts": counts, "cooldown_days": days, "review": review},
+            "songs": _songs()}
+
+
+def _songs() -> list[dict]:
+    """Songs tab: the ones waiting for Keep / Toss and the ones Nick kept."""
+    from . import songs
+    return [{"id": k, "title": v.get("title"), "artist": v.get("artist"), "link": v.get("link"), "status": v.get("status")}
+            for k, v in songs.load().items() if v.get("status") in ("review", "keep")]
 
 
 def push(cfg, q=None) -> None:
