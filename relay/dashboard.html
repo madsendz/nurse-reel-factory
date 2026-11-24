@@ -174,10 +174,10 @@ function render(){
   if(!S) return renderLogin();
   const g = grouped();
   const days = view==="week" ? [...Array(7)].map((_,i)=>addDays(weekStart(anchor),i)) : [anchor, addDays(anchor,1)];
-  const rangeText = view==="clips" ? (CE? CE.id : "Clips") : view==="topics" ? "Topics" : view==="week" ? `${fmtDay(days[0])} – ${fmtDay(days[6])}` : `${fmtDay(days[0],true)}`;
+  const rangeText = view==="clips" ? (CE? CE.id : "Clips") : view==="topics" ? "Topics" : view==="songs" ? "Songs" : view==="week" ? `${fmtDay(days[0])} – ${fmtDay(days[6])}` : `${fmtDay(days[0],true)}`;
   const gen = S.generated_at ? new Date(S.generated_at).toLocaleTimeString([], {hour:"numeric",minute:"2-digit"}) : "–";
   let html = `<header><div class="bar"><div class="brand"><span class="dot"></span>Lexi Reels</div>
-    <div class="seg"><button data-view="day" class="${view==="day"?"on":""}">Day</button><button data-view="week" class="${view==="week"?"on":""}">Week</button><button data-view="topics" class="${view==="topics"?"on":""}">Topics${(S.topics?.review||[]).length?` (${S.topics.review.length})`:""}</button><button data-view="clips" class="${view==="clips"?"on":""}">Clips</button></div>
+    <div class="seg"><button data-view="day" class="${view==="day"?"on":""}">Day</button><button data-view="week" class="${view==="week"?"on":""}">Week</button><button data-view="topics" class="${view==="topics"?"on":""}">Topics${(S.topics?.review||[]).length?` (${S.topics.review.length})`:""}</button><button data-view="songs" class="${view==="songs"?"on":""}">Songs${(S.songs||[]).filter(s=>s.status==="review").length?` (${S.songs.filter(s=>s.status==="review").length})`:""}</button><button data-view="clips" class="${view==="clips"?"on":""}">Clips</button></div>
     <div class="nav"><button class="btn sm" data-nav="-1" aria-label="Back">‹</button><span class="range">${rangeText}</span><button class="btn sm" data-nav="1" aria-label="Forward">›</button><button class="btn sm" data-nav="0">Today</button></div>
     <span class="sync">Synced ${gen}</span></div></header><div class="wrap">`;
   if(view==="topics"){
@@ -196,6 +196,15 @@ function render(){
       ${it.caption?`<div class="hint">Caption: ${esc(it.caption)}</div>`:""}
       <div class="actions"><button class="btn ok" data-topic="topic_keep" data-item="${esc(it.id)}">✅ Keep</button><button class="btn bad" data-topic="topic_toss" data-item="${esc(it.id)}">🗑 Toss</button></div>
     </div></article>`).join("");
+  } else if(view==="songs"){
+    const all=S.songs||[], rev=all.filter(s=>s.status==="review"), kept=all.filter(s=>s.status==="keep");
+    const row=(s,k)=>`<article class="card" style="grid-template-columns:1fr"><div class="info">
+      <div class="title">🎵 ${esc(s.title||"")}</div><div class="hint">${esc(s.artist||"")}${s.link?` · <a href="${esc(s.link)}" target="_blank" rel="noopener">listen on Instagram ↗</a>`:""}</div>
+      <div class="actions">${k?"":`<button class="btn ok" data-song="song_keep" data-aid="${esc(s.id)}">✅ Keep</button>`}<button class="btn bad" data-song="song_toss" data-aid="${esc(s.id)}">${k?"🗑 Remove":"❌ Toss"}</button></div></div></article>`;
+    html += `<h2 class="day">Songs to review (${rev.length})</h2><p class="hint">The bot only puts songs you keep on reels. New trending songs show up here every night.</p>`;
+    html += rev.length ? rev.map(s=>row(s,false)).join("") : `<div class="empty-day">Nothing to review right now.</div>`;
+    html += `<h2 class="day">Songs you kept (${kept.length})</h2>`;
+    html += kept.length ? kept.map(s=>row(s,true)).join("") : `<div class="empty-day">None yet. Until you keep some, reels post with one of the old tracks.</div>`;
   } else if(view==="clips"){
 html += clipsView();
 } else if(view==="week"){
@@ -250,9 +259,9 @@ function card(e, old){
   const st=statusOf(e), live = !old && e.status!=="posted" && !e.replaced_by && e.status!=="missed" && e.status!=="expired";
   const notesClip = (S.clip_notes||{})[e.clip_id]||[];
   const stats = e.stats ? `<div class="stats">${[["views","Views"],["likes","Likes"],["shares","Shares"],["saved","Saves"],["comments","Comments"],["link_clicks","Link clicks"]].filter(([k])=>e.stats[k]!=null).map(([k,l])=>`<div class="stat"><b>${fmtNum(e.stats[k])}</b>${l}</div>`).join("")}</div>` : "";
-  const vid = e.file_id ? `<video controls playsinline preload="metadata" src="/api/video/${e.id}"></video>` : `<div class="novid">No preview here — this one was made before the dashboard. It's in your Telegram chat.</div>`;
+  const vid = (e.file_id||e.preview) ? `<video controls playsinline preload="metadata" src="/api/video/${e.id}"></video>` : `<div class="novid">No preview here — this one was made before the dashboard. It's in your Telegram chat.</div>`;
   return `<article class="card ${old?"old":""}">
-    <div class="vid ${e.file_id?"":"none"}">${vid}</div>
+    <div class="vid ${(e.file_id||e.preview)?"":"none"}">${vid}</div>
     <div class="info">
       <div class="row"><span class="pill ${st.cls}">${st.text}</span>${e.pending_sync?`<span class="hint">saving…</span>`:""}${e.post_now?`<span class="tag">🚀 posting now</span>`:""}${e.replaces?`<span class="tag">🔁 replacement</span>`:""}${e.extra?`<span class="tag">extra</span>`:""}</div>
       ${ED[e.id]?`
@@ -271,8 +280,8 @@ function card(e, old){
       ${(e.beats||[]).length?`<ol class="beats">${e.beats.map(b=>`<li>${esc(b)}</li>`).join("")}</ol>`:""}`}
       <dl class="meta">
         <dt>Clip</dt><dd>${esc(e.clip_id)}</dd>
-        <dt>Song</dt><dd>${e.audio?`🎵 ${esc(e.audio.title)} — ${esc(e.audio.artist)}${e.audio.link?` <a href="${esc(e.audio.link)}" target="_blank" rel="noopener">listen ↗</a>`:""}`:`<span class="muted">none yet — keep some songs in Telegram</span>`}</dd>
-        ${e.caption?`<dt>Caption</dt><dd style="white-space:pre-wrap">${esc(e.caption)}</dd>`:""}
+        <dt>Song</dt><dd>${e.audio?`🎵 ${esc(e.audio.title)} — ${esc(e.audio.artist)}${e.audio.link?` <a href="${esc(e.audio.link)}" target="_blank" rel="noopener">listen ↗</a>`:""}`:`<span class="muted">none yet — keep some on the Songs tab</span>`}${e.song_pending?` <span class="tag">new song coming…</span>`:""}</dd>
+        ${e.caption?`<dt>Caption</dt><dd style="white-space:pre-wrap">${esc(e.caption)}${e.caption_pending?` <span class="tag">new caption coming…</span>`:""}</dd>`:""}
         <dt>Type</dt><dd>${e.post_type==="trial"?"Trial (shown to non-followers first)":"Regular"}${e.mode?` <span class="muted">· ${esc(e.mode)}</span>`:""}</dd>
         <dt>Topic</dt><dd><span class="muted">${esc(e.item_id)}</span></dd>
         ${e.permalink?`<dt>Post</dt><dd><a href="${esc(e.permalink)}" target="_blank" rel="noopener">Open on Instagram ↗</a></dd>`:""}
@@ -290,10 +299,16 @@ function card(e, old){
         <div class="actions" style="margin-top:6px"><button class="btn primary" data-act="note" data-id="${e.id}">Send notes + new version</button></div></div>
       <div class="actions"><span class="hint" style="align-self:center">Redo:</span>
         <button class="btn sm" data-edit="${e.id}" ${ED[e.id]?"disabled":""}>✏️ Edit text</button>
-        <button class="btn sm" data-act="swap_music" data-id="${e.id}">🎵 New music</button>
         <button class="btn sm" data-act="new_clip" data-id="${e.id}">🎬 Same topic, new clip</button>
         <button class="btn sm" data-act="new_topic" data-id="${e.id}">💡 Same clip, new topic</button>
         <button class="btn sm bad" data-act="never_topic" data-id="${e.id}" title="Retires this topic for good and makes a new reel on the same clip">🚫 Never this topic again</button></div>
+<div class="actions"><span class="hint" style="align-self:center">Song:</span>
+        <button class="btn sm" data-act="new_song" data-id="${e.id}">🎵 New song</button>
+        <button class="btn sm bad" data-act="never_song" data-id="${e.id}" ${e.audio?"":"disabled"}>🚫 Never this song</button></div>
+      <div class="actions"><span class="hint" style="align-self:center">Caption:</span>
+        <button class="btn sm" data-act="new_caption" data-id="${e.id}">✏️ New caption</button></div>
+      <details><summary class="hint">Write my own caption</summary><textarea data-cap="${e.id}" style="min-height:120px">${esc(e.caption||"")}</textarea>
+        <div class="actions" style="margin-top:6px"><button class="btn primary" data-act="caption_edit" data-id="${e.id}">Save caption</button></div></details>
 <div class="actions"><span class="hint" style="align-self:center">Type:</span>
 <button class="btn sm" data-act="swap_type" data-id="${e.id}">🔄 ${e.post_type==="trial"?"Make it a regular reel":"Make it a trial reel"}</button></div>
       <div class="actions"><span class="hint" style="align-self:center">Move to:</span>
@@ -397,6 +412,9 @@ document.addEventListener("click", async ev=>{
   if(b.dataset.topic){ if(busy) return; busy=true; b.disabled=true;
     try{ await api("/api/action",{method:"POST",body:JSON.stringify({kind:b.dataset.topic,item_id:b.dataset.item})}); toast(b.dataset.topic==="topic_keep"?"Kept ✅ — it can be picked from now on":"Tossed"); await load(true); }
     catch(e){ if(e.message!=="login") toast("Didn't work: "+e.message); } finally{ busy=false; } return; }
+  if(b.dataset.song){ if(busy) return; busy=true; b.disabled=true;
+    try{ await api("/api/action",{method:"POST",body:JSON.stringify({kind:b.dataset.song,audio_id:b.dataset.aid})}); toast(b.dataset.song==="song_keep"?"Kept ✅ the bot can use it":"Removed"); await load(true); }
+    catch(e){ if(e.message!=="login") toast("Didn't work: "+e.message); } finally{ busy=false; } return; }
   if(b.dataset.edit){ const e=(S.entries||[]).find(x=>x.id===b.dataset.edit); if(!e) return; ED[e.id]={hook:e.title||"", beats:(e.beats||[]).slice()}; render();
     const inp=document.querySelector(`input[data-edhook="${e.id}"]`); if(inp){ inp.focus(); inp.setSelectionRange(inp.value.length, inp.value.length); } return; }
   if(b.dataset.edcancel){ delete ED[b.dataset.edcancel]; render(); return; }
@@ -405,6 +423,7 @@ document.addEventListener("click", async ev=>{
       if(!body.hook) return toast("The title can't be empty.");
       const e=(S.entries||[]).find(x=>x.id===id); if(e && body.hook===(e.title||"") && JSON.stringify(body.beats)===JSON.stringify(e.beats||[])) return toast("Nothing changed yet."); }
     if(kind==="note"){ const ta=document.querySelector(`textarea[data-note="${id}"]`); body.text=(ta&&ta.value||"").trim(); if(!body.text) return toast("Type your notes first."); }
+    if(kind==="caption_edit"){ const ta=document.querySelector(`textarea[data-cap="${id}"]`); body.text=(ta&&ta.value||"").trim(); if(!body.text) return toast("Type the caption first."); }
     if(kind==="move"){ const sel=document.querySelector(`select[data-move="${id}"]`); let v=sel.value;
       if(v==="custom"){ const inp=document.querySelector(`input[data-custom="${id}"]`); if(!inp.value) return toast("Pick the custom time."); const [dd,tt]=inp.value.split("T"); v=isoFor(dd,tt.slice(0,5)); }
       if(!v) return toast("Pick a time to move it to."); body.slot_iso=v; }
@@ -412,7 +431,7 @@ document.addEventListener("click", async ev=>{
     if(REDO[kind] && !confirm(`Make a new version with ${REDO[kind]}? This one will be skipped.`)) return;
     if(busy) return; busy=true; b.disabled=true;
     try{ const r=await api("/api/action",{method:"POST",body:JSON.stringify(body)});
-      const msg={approve:"Approved ✅", skip:"Skipped", note:"Notes sent — new version (same topic + clip) coming (~10 min)", post_now:"Posting now 🚀 (a few minutes)", move:"Moved — approve it again when ready", swap_type:"Type switched — approve it again when ready", text_edit:"Text saved ✏️ — same reel with the new words coming (~10 min)"}[kind] || "New version coming (~10 min)";
+      const msg={approve:"Approved ✅", skip:"Skipped", note:"Notes sent — new version (same topic + clip) coming (~10 min)", post_now:"Posting now 🚀 (a few minutes)", move:"Moved — approve it again when ready", swap_type:"Type switched — approve it again when ready", text_edit:"Text saved ✏️ — same reel with the new words coming (~10 min)", new_song:"New song coming 🎵 (a few minutes) — approve again after", never_song:"That song is gone for good — new one coming (a few minutes)", new_caption:"New caption coming ✏️ (a few minutes) — approve again after", caption_edit:"Caption saved ✏️ — approve the reel again when ready"}[kind] || "New version coming (~10 min)";
       toast(msg + (r.job==="queued"?" · will start within 5 min":""));
       if(kind==="note"){ const ta=document.querySelector(`textarea[data-note="${id}"]`); if(ta) ta.value=""; }
       if(kind==="text_edit") delete ED[id];
