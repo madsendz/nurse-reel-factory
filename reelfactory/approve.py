@@ -58,7 +58,19 @@ def _get_updates(cfg, offset: int) -> list[dict]:
 APPROVE_WORDS = {"approve", "approved", "yes", "post", "post it", "ok", "good", "✅", "👍"}
 
 
+_QUIET = None
+
+
 def _tg(method: str, files=None, **data):
+    # Nick 2026-11-24: everything is approved on the dashboard now. Nothing is sent to Telegram any more
+    # except the "share to Facebook" reminder (the one caller that passes _force=True).
+    global _QUIET
+    force = data.pop("_force", False)
+    if _QUIET is None:
+        from .config import CONFIG_PATH, load_yaml
+        _QUIET = str(((load_yaml(CONFIG_PATH, {}) or {}).get("approvals") or {}).get("telegram", "on")).lower() in ("off", "false", "no")
+    if _QUIET and not force and method.startswith(("send", "edit", "delete", "answer")):
+        return {}
     token = _token()
     for k, v in list(data.items()):
         if isinstance(v, (dict, list)):
@@ -328,10 +340,28 @@ def _apply_dashboard_actions(cfg, q, by_id, st, fb) -> None:
                 save_clips(clips)
                 print(f"[dashboard] clip {a['clip_id']} settings saved: {a.get('patch')}")
             continue
+        if kind in ("song_keep", "song_toss") and a.get("audio_id"):  # Songs tab
+            from . import songs
+            aid = str(a["audio_id"])
+            if songs.set_status(aid, "keep" if kind == "song_keep" else "toss"):
+                print(f"[dashboard] song {aid} -> {kind[5:]}")
+                if kind == "song_toss":   # queued reels that had it get another song
+                    for o in q:
+                        if o.get("status") in ("pending", "approved") and str((o.get("audio") or {}).get("audio_id")) == aid:
+                            _new_song(o, q)
+            continue
         e = by_id.get(a.get("entry_id"))
         if not e or e.get("status") == "posted":
             continue
         print(f"[dashboard] {kind} on {e['slot_key']} ({e['item_id']})")
+        if kind in ("new_song", "never_song", "new_caption"):  # change one part of a queued reel
+            _part_change(cfg, {"new_song": "m", "never_song": "x", "new_caption": "c"}[kind], e, q)
+            continue
+        if kind == "caption_edit" and (a.get("text") or "").strip():  # Nick's own caption
+            e["caption"], e["caption_custom"] = a["text"].strip(), True
+            if e.get("status") == "approved":
+                e["status"] = "pending"
+            continue
         if kind == "never_topic":  # 🚫 on a reel card: retire this topic for good, then redo like "new topic"
             from .config import TOPIC_STATUS_PATH
             ts = load_json(TOPIC_STATUS_PATH, {})
@@ -519,8 +549,14 @@ def _queue_one(cfg, cid, dt, key, kind, bank, clips, hist, q, rng, out_dir, extr
     with open(out, "rb") as f:
         msg = _tg("sendVideo", files={"video": (out.name, f, "video/mp4")}, chat_id=cid, caption=_caption(e),
                   supports_streaming="true", reply_markup=_buttons(e["id"]))
-    e["msg_id"] = msg["message_id"]
-    e["file_id"] = (msg.get("video") or msg.get("document") or {}).get("file_id")  # for the dashboard player
+    if msg.get("message_id"):
+        e["msg_id"] = msg["message_id"]
+        e["file_id"] = (msg.get("video") or msg.get("document") or {}).get("file_id")
+    try:  # the dashboard plays this copy (kept on the relay), so nothing has to go through Telegram
+        from . import previews
+        e["preview"] = previews.push_reel(cfg, out, e["id"])
+    except Exception as ex:
+        print(f"[previews] reel preview failed: {ex}")
     q.append(e)
     hist.append({"item_id": e["item_id"], "category": e["category"], "clip_id": e["clip_id"], "posted_at": e["slot_iso"]})
     if extra:
@@ -689,9 +725,14 @@ def rerender_pending(cfg) -> int:
                               caption=_caption(e) + "\n🔁 re-rendered (new look, same reel)",
                               supports_streaming="true", reply_markup=_buttons(e["id"]))
                 old = e.get("msg_id")
-                e["msg_id"] = msg["message_id"]
-                e["file_id"] = (msg.get("video") or msg.get("document") or {}).get("file_id")
-                if old:
+                if msg.get("message_id"):
+                    e["msg_id"] = msg["message_id"]
+                fid = (msg.get("video") or msg.get("document") or {}).get("file_id")
+                if fid:
+                    e["file_id"] = fid
+                from . import previews
+                e["preview"] = previews.push_reel(cfg, out, e["id"])
+                if old and fid:
                     try:
                         _tg("deleteMessage", chat_id=cid, message_id=old)
                     except Exception:
@@ -818,7 +859,7 @@ def nudge_share(cfg, permalink: str | None, item_id: str, post_type: str = "regu
     kw = {"reply_markup": {"inline_keyboard": [[{"text": "▶️ Open reel on Instagram", "url": permalink}]]}} \
         if permalink else {}
     try:
-        _tg("sendMessage", chat_id=cid, text=text, parse_mode="Markdown", disable_web_page_preview=True, **kw)
+        _tg("sendMessage", chat_id=cid, text=text, parse_mode="Markdown", disable_web_page_preview=True, _force=True, **kw)
         return True
     except Exception as ex:  # a failed reminder must never fail the post
         print(f"[nudge] Telegram reminder failed: {ex}")
