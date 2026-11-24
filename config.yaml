@@ -5,6 +5,7 @@ paused: false            # true = never post
 approvals:
   relay_url: "https://lexi-reels-relay.mrsendzik.workers.dev"
   enabled: true
+  telegram: "off"        # Nick 2026-11-24: approve everything on the dashboard; Telegram only gets the share-to-Facebook reminder
   telegram_chat_id: ""   # filled in automatically after you press Start in your bot
 timezone: America/New_York
 
