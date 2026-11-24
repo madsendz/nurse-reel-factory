@@ -90,8 +90,59 @@ def save_queue(q: list[dict]) -> None:
 
 
 def _buttons(entry_id: str):
+    # Nick 2026-11-24: one ✅ approves the reel + its song + its caption; the other buttons change one part
     return {"inline_keyboard": [[{"text": "✅ Approve", "callback_data": f"a:{entry_id}"},
-                                 {"text": "❌ Skip", "callback_data": f"s:{entry_id}"}]]}
+                                 {"text": "❌ Skip", "callback_data": f"s:{entry_id}"}],
+                                [{"text": "🎵 New song", "callback_data": f"m:{entry_id}"},
+                                 {"text": "🚫 Never this song", "callback_data": f"x:{entry_id}"}],
+                                [{"text": "✏️ New caption", "callback_data": f"c:{entry_id}"}]]}
+
+
+def _show(e: dict) -> None:
+    """Redraw a reel's Telegram message (status, song, caption)."""
+    cid = _state().get("chat_id")
+    if cid and e.get("msg_id"):
+        try:
+            _tg("editMessageCaption", chat_id=cid, message_id=e["msg_id"], caption=_caption(e),
+                reply_markup=_buttons(e["id"]))
+        except Exception as ex:
+            if "not modified" not in str(ex):
+                print(f"[telegram] couldn't update message: {ex}")
+
+
+def _new_song(e: dict, q: list[dict], avoid: set[str] | None = None) -> None:
+    from . import songs
+    cur = str((e.get("audio") or {}).get("audio_id") or "")
+    a = songs.pick(songs.recent_ids(load_posts(), q), random.Random(), avoid=(avoid or set()) | ({cur} if cur else set()))
+    if a:
+        e["audio"] = a
+    elif cur and (songs.load().get(cur) or {}).get("status") != "keep":
+        e.pop("audio", None)   # the only song it had was tossed and nothing else is kept yet
+
+
+def _part_change(cfg, kind: str, e: dict, q: list[dict]) -> None:
+    """🎵 New song / 🚫 Never this song / ✏️ New caption on a queued reel. Any change -> pending again."""
+    from . import songs
+    if kind == "x" and e.get("audio"):
+        gone = str(e["audio"]["audio_id"])
+        songs.set_status(gone, "toss")
+        for o in q:   # every other queued reel with that song gets a new one too
+            if o is not e and o.get("status") in ("pending", "approved") and str((o.get("audio") or {}).get("audio_id")) == gone:
+                _new_song(o, q)
+                _show(o)
+    if kind in ("m", "x"):
+        _new_song(e, q)
+    if kind == "c":
+        item = next((i for i in load_bank() if i["id"] == e["item_id"]), None)
+        if item:
+            e["caption_variant"] = int(e.get("caption_variant") or 0) + 1
+            e["caption"] = pk.build_caption(item, int(e.get("cta") or 0), cfg, e["post_type"],
+                                            hashtags=e.get("hashtags"), variant=e["caption_variant"])
+            e["caption_for"] = e["post_type"]
+            e.pop("caption_custom", None)
+    if e.get("status") == "approved":
+        e["status"] = "pending"
+    _show(e)
 
 
 def sync_updates(cfg) -> None:
@@ -107,10 +158,28 @@ def sync_updates(cfg) -> None:
         if "callback_query" in u:
             cq = u["callback_query"]
             kind, _, eid = (cq.get("data") or "").partition(":")
+            if kind in ("k", "t"):   # Keep / Toss on a trending song
+                from . import songs
+                s = songs.set_status(eid, "keep" if kind == "k" else "toss")
+                if s:
+                    try:
+                        _tg("editMessageText", chat_id=cq["message"]["chat"]["id"], message_id=cq["message"]["message_id"],
+                            text=songs.message_text(s), reply_markup=songs.buttons(eid), disable_web_page_preview="true")
+                    except Exception:
+                        pass
+                    if kind == "t":   # queued reels that had it get another song
+                        for o in q:
+                            if o.get("status") in ("pending", "approved") and str((o.get("audio") or {}).get("audio_id")) == eid:
+                                _new_song(o, q)
+                                _show(o)
+                continue
             e = by_id.get(eid)
             if not e:
                 continue
             if e.get("status") in ("posted",):
+                continue
+            if kind in ("m", "x", "c"):
+                _part_change(cfg, kind, e, q)
                 continue
             e["status"] = "approved" if kind == "a" else "skipped"
             e["decided_at"] = datetime.now(timezone.utc).isoformat()
@@ -144,6 +213,21 @@ def sync_updates(cfg) -> None:
                                 text="Approved ✅ it will post at its time.")
                     except Exception:
                         pass
+            elif reply and reply in by_msg and text.lower().startswith("caption:"):
+                e = by_msg[reply]   # Nick's own caption for this reel
+                if e.get("status") != "posted":
+                    from . import safety
+                    e["caption"], e["caption_custom"] = text.split(":", 1)[1].strip(), True
+                    if e.get("status") == "approved":
+                        e["status"] = "pending"
+                    _show(e)
+                    hits = safety.banned_hits(e["caption"], cfg)
+                    if hits:
+                        try:
+                            _tg("sendMessage", chat_id=m["chat"]["id"], reply_to_message_id=m["message_id"],
+                                text="⚠️ That caption has wording Instagram has flagged before (" + ", ".join(hits) + "). It's saved as you wrote it.")
+                        except Exception:
+                            pass
             elif reply and reply in by_msg and text:
                 e = by_msg[reply]
                 e.setdefault("feedback", []).append(text)
@@ -170,6 +254,15 @@ def sync_updates(cfg) -> None:
                 except Exception:
                     pass
     _apply_dashboard_actions(cfg, q, by_id, st, fb)
+    try:   # queued reels with no song yet get one as soon as Nick has kept some
+        now = datetime.now(timezone.utc)
+        for e in q:
+            if e.get("status") in ("pending", "approved") and not e.get("audio") and datetime.fromisoformat(e["slot_iso"]) > now:
+                _new_song(e, q)
+                if e.get("audio"):
+                    _show(e)
+    except Exception as ex:
+        print(f"[songs] couldn't fill in songs: {ex}")
     save_json(TG_STATE, st)
     save_json(FEEDBACK_PATH, fb)
     save_queue(q)
@@ -303,9 +396,20 @@ def _caption(e: dict) -> str:
     if e.get("replaces"):
         status += "\n🔁 replacement"
     kind = "TRIAL reel" if e["post_type"] == "trial" else "Regular reel"
-    mu = f"\n🎵 {e['music']['title']} — {e['music']['creator']}" if e.get("music") else ""
-    return (f"{e['slot_label']} · {kind}\n{e['item_id']} on {e['clip_id']}{mu}\nStatus: {status}\n\n"
-            "Tap ✅ to post it or ❌ to skip. Reply to this video with any notes (text placement, timing).")
+    a = e.get("audio")
+    if a:
+        mu = f"\n🎵 Song: {a.get('title')} — {a.get('artist')}" + (f"\n▶️ Listen: {a['link']}" if a.get("link") else "")
+    else:
+        mu = "\n🎵 Song: none yet — keep some songs first"
+    head = f"{e['slot_label']} · {kind}\n{e['item_id']} on {e['clip_id']}{mu}\nStatus: {status}"
+    foot = ("\n\n✅ = post this reel with this song + caption. Reply \"caption: your text\" to write your own caption. "
+            "Any other reply = notes for a new version.")
+    body = ""
+    if e.get("caption"):   # Telegram allows 1024 characters under a video
+        room = 940 - len(head) - len(foot)
+        cap = e["caption"]
+        body = "\n\n📝 Caption:\n" + (cap if len(cap) <= room else cap[:max(room - 1, 0)] + "…")
+    return head + body + foot
 
 
 def _slot_list(cfg, day: datetime):
@@ -383,6 +487,8 @@ def _queue_one(cfg, cid, dt, key, kind, bank, clips, hist, q, rng, out_dir, extr
     from .cli import _make
     choice = choice or pk.pick_next(bank, clips, hist, cfg, now=dt.astimezone(timezone.utc), rng=rng, post_type=kind,
                                     topic_class=topic_class)
+    if choice.get("hashtags") is None:   # about 1 reel in 4 gets hashtags (the test)
+        choice["hashtags"] = pk.pick_hashtags(choice["item"], cfg, rng)
     out, caption, meta = _make(cfg, choice, out_dir, key.replace(" ", "_").replace(":", ""), kind)
     e = {"id": os.urandom(4).hex(), "slot_key": key, "slot_iso": dt.astimezone(timezone.utc).isoformat(),
          "slot_label": dt.strftime("%a %b %d, %-I:%M %p"), "post_type": kind,
@@ -390,6 +496,15 @@ def _queue_one(cfg, cid, dt, key, kind, bank, clips, hist, q, rng, out_dir, extr
          "cta": choice["cta"], "mode": choice["mode"], "seconds": meta["seconds"], "status": "pending"}
     if meta.get("music"):  # keep the same track for posting
         e["music"] = meta["music"]
+    # what Nick approves along with the video: the caption and the song (from the songs he kept)
+    e["caption"], e["caption_for"], e["hashtags"] = meta.get("caption_base") or caption, kind, choice.get("hashtags") or []
+    if choice.get("caption"):
+        e["caption_custom"] = True
+    from . import songs
+    avoid = {str(x) for x in (choice.get("avoid_audio") or set()) if x}
+    audio = choice.get("audio") or songs.pick(songs.recent_ids(load_posts(), q), rng, avoid=avoid)
+    if audio:
+        e["audio"] = audio
     with open(out, "rb") as f:
         msg = _tg("sendVideo", files={"video": (out.name, f, "video/mp4")}, chat_id=cid, caption=_caption(e),
                   supports_streaming="true", reply_markup=_buttons(e["id"]))
@@ -469,13 +584,18 @@ def _redo_choice(cfg, e, bank, clips, hist, dt, rng):
     now = dt.astimezone(timezone.utc)
     if not redo or redo == "text_edit":  # a text edit = same reel, re-drawn with the new words
         if item and clip:
-            return {"item": item, "clip": clip, "cta": int(e.get("cta") or 0),
-                    "mode": "edited" if redo else "note", "music": e.get("music")}
+            ch = {"item": item, "clip": clip, "cta": int(e.get("cta") or 0),
+                  "mode": "edited" if redo else "note", "music": e.get("music"), "audio": e.get("audio"),
+                  "hashtags": e.get("hashtags")}
+            if e.get("caption_custom"):
+                ch["caption"] = e.get("caption")
+            return ch
         return None
     try:
         if redo == "swap_music" and item and clip:
             return {"item": item, "clip": clip, "cta": int(e.get("cta") or 0), "mode": e.get("mode", "redo"),
-                    "avoid_music": {(e.get("music") or {}).get("id")}}
+                    "avoid_music": {(e.get("music") or {}).get("id")},
+                    "avoid_audio": {(e.get("audio") or {}).get("audio_id")}, "hashtags": e.get("hashtags")}
         if redo == "new_clip" and item:
             others = [c for c in clips if c["id"] != e["clip_id"]]
             ch = pk.pick_next([item], others, hist, cfg, now=now, rng=rng, post_type=e["post_type"])
