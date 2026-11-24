@@ -243,11 +243,23 @@ async function overlay(env, id, patch, mark) {
 
 function captionFor(e, statusText, tz) {
   const kind = e.post_type === "trial" ? "TRIAL reel" : "Regular reel";
-  const mu = e.music ? `\n🎵 ${e.music.title} — ${e.music.creator}` : "";
-  return `${e.slot_label || fmtSlot(e.slot_iso, tz)} · ${kind}\n${e.item_id} on ${e.clip_id}${mu}\nStatus: ${statusText}\n\n` +
-    "Tap ✅ to post it or ❌ to skip. Reply to this video with any notes (text placement, timing).";
+  const a = e.audio; // same text as approve._caption in the bot
+  const mu = a ? `\n🎵 Song: ${a.title} — ${a.artist}` + (a.link ? `\n▶️ Listen: ${a.link}` : "") : "\n🎵 Song: none yet — keep some songs first";
+  const head = `${e.slot_label || fmtSlot(e.slot_iso, tz)} · ${kind}\n${e.item_id} on ${e.clip_id}${mu}\nStatus: ${statusText}`;
+  const foot = '\n\n✅ = post this reel with this song + caption. Reply "caption: your text" to write your own caption. Any other reply = notes for a new version.';
+  let body = "";
+  if (e.caption) {
+    const room = 900 - head.length - foot.length;
+    body = "\n\n📝 Caption:\n" + (e.caption.length <= room ? e.caption : e.caption.slice(0, Math.max(room - 1, 0)) + "…");
+  }
+  return head + body + foot;
 }
-const buttons = (id) => ({ inline_keyboard: [[{ text: "✅ Approve", callback_data: `a:${id}` }, { text: "❌ Skip", callback_data: `s:${id}` }]] });
+const buttons = (id) => ({ inline_keyboard: [
+  [{ text: "✅ Approve", callback_data: `a:${id}` }, { text: "❌ Skip", callback_data: `s:${id}` }],
+  [{ text: "🎵 New song", callback_data: `m:${id}` }, { text: "🚫 Never this song", callback_data: `x:${id}` }],
+  [{ text: "✏️ New caption", callback_data: `c:${id}` }]] });
+const PART = { m: "🎵 New song coming (a few minutes)", x: "🚫 That song is gone for good. New one coming (a few minutes)", c: "✏️ New caption coming (a few minutes)",
+  k: "Kept ✅ the bot can use this song", t: "Tossed ❌ it won't be used" };
 
 // ---------- Telegram ----------
 async function telegramWebhook(req, env, c, ctx) {
@@ -257,6 +269,22 @@ async function telegramWebhook(req, env, c, ctx) {
   const cq = u.callback_query;
   if (cq) {
     const [k, id] = (cq.data || "").split(":");
+    if (PART[k]) { // song / caption buttons: the next job makes the change and redraws the message
+      await c.tg("answerCallbackQuery", { callback_query_id: cq.id, text: PART[k] });
+      const m = cq.message;
+      if ((k === "k" || k === "t") && m && m.text) {
+        const txt = m.text.replace(/Status: [^\n]*/, "Status: " + (k === "k" ? "✅ kept — the bot can use it" : "❌ tossed — never used"));
+        if (txt !== m.text) await c.tg("editMessageText", { chat_id: m.chat.id, message_id: m.message_id, text: txt, reply_markup: m.reply_markup, disable_web_page_preview: true });
+      } else if (id) {
+        if (m && m.caption) {
+          const cap = setStatus(m.caption, STATUS.pending + (k === "c" ? " — new caption coming" : " — new song coming"));
+          if (cap !== m.caption) await c.tg("editMessageCaption", { chat_id: m.chat.id, message_id: m.message_id, caption: cap, reply_markup: m.reply_markup });
+        }
+        await overlay(env, id, { status: "pending" }, { uid: u.update_id });
+        await env.KV.put("needjob", "1", { expirationTtl: 86400 });
+      }
+      return new Response("ok");
+    }
     const ok = k === "a";
     await c.tg("answerCallbackQuery", { callback_query_id: cq.id, text: ok ? "Approved ✅ it will post at its time" : "Skipped ❌" });
     const m = cq.message;
@@ -276,6 +304,10 @@ async function telegramWebhook(req, env, c, ctx) {
       await c.tg("editMessageCaption", { chat_id: msg.chat.id, message_id: r.message_id, caption: setStatus(r.caption, STATUS.approved), reply_markup: r.reply_markup });
       await c.tg("sendMessage", { chat_id: msg.chat.id, reply_to_message_id: msg.message_id, text: "Approved ✅ it will post at its time." });
       if (e) await overlay(env, e.id, { status: "approved" }, { uid: u.update_id });
+    } else if (/^caption\s*:/i.test(msg.text.trim()) && !/📤 posted/.test(r.caption)) {
+      await c.tg("sendMessage", { chat_id: msg.chat.id, reply_to_message_id: msg.message_id, text: "✏️ Caption saved. It will show on this reel in a few minutes, and the reel still needs your ✅." });
+      if (e) await overlay(env, e.id, { status: "pending" }, { uid: u.update_id });
+      await env.KV.put("needjob", "1", { expirationTtl: 86400 });
     } else if (/📤 posted/.test(r.caption)) {
       await c.tg("sendMessage", { chat_id: msg.chat.id, reply_to_message_id: msg.message_id, text: "Got it 👍 notes saved for the next fixes." });
     } else {
