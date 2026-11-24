@@ -61,3 +61,22 @@ def push_previews(cfg, force: bool = False, only: str | None = None) -> int:
         except Exception as ex:
             print(f"[previews] {c['id']} failed: {ex}")
     return done
+
+
+def push_reel(cfg, path, entry_id: str) -> bool:
+    """A small copy of a queued reel for the dashboard player (kept on the relay for two weeks)."""
+    relay = (cfg.get("approvals") or {}).get("relay_url")
+    if not relay:
+        return False
+    w, h = SIZE
+    with tempfile.TemporaryDirectory() as td:
+        out = Path(td) / "reel.mp4"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(path), "-vf", f"scale={w}:{h},fps=30",
+                        "-c:v", "libx264", "-preset", "veryfast", "-crf", "28", "-pix_fmt", "yuv420p",
+                        "-c:a", "aac", "-b:a", "96k", "-movflags", "+faststart", str(out)], check=True)
+        data = out.read_bytes()
+    r = requests.post(relay.rstrip("/") + "/reel/" + entry_id, data=data, timeout=180,
+                      headers={**_auth(), "content-type": "video/mp4"})
+    r.raise_for_status()
+    print(f"[previews] reel {entry_id}: {len(data) // 1024} KB uploaded")
+    return True
