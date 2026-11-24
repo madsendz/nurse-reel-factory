@@ -1,35 +1,5 @@
 [
   {
-    "id": "6320f41d",
-    "slot_key": "2026-11-13 19:30",
-    "slot_iso": "2026-11-14T00:30:00+00:00",
-    "slot_label": "Fri Nov 13, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "nw-ed-diabetes",
-    "category": "mens_health",
-    "clip_id": "clip55",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 11.0,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1129271",
-      "title": "Energy",
-      "creator": "Pokki DJ",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1129271/mp32/",
-      "source": "jamendo",
-      "duration_ms": 230000,
-      "page": "https://www.jamendo.com/track/1129271",
-      "genre": "dance"
-    },
-    "msg_id": 1135,
-    "file_id": "BAACAgEAAxkDAAIEb2rz2Fd2cwgYURrgVfXrr76nNj_rAALtCQAC2sWZR54PaSM6U8ckPQQ",
-    "decided_at": "2026-11-14T00:31:10.794263+00:00",
-    "permalink": "https://www.instagram.com/reel/Dfs76nBgSyZ/"
-  },
-  {
     "id": "11e28c24",
     "slot_key": "2026-11-13 21:30",
     "slot_iso": "2026-11-14T02:30:00+00:00",
@@ -3442,7 +3412,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 9.03,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1525343",
       "title": "FAS - heda",
@@ -3457,7 +3427,8 @@
     },
     "msg_id": 1354,
     "file_id": "BAACAgEAAxkDAAIFSmsDl1vU19VU0cgbsj-FKBUI3COpAAIoCgACKY8YRIVD_q1-5URyPQQ",
-    "decided_at": "2026-11-23T16:27:37.834853+00:00"
+    "decided_at": "2026-11-23T16:27:37.834853+00:00",
+    "permalink": "https://www.instagram.com/reel/DgGrd-HocgA/"
   },
   {
     "id": "e2dfb2d4",
