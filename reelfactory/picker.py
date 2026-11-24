@@ -137,23 +137,50 @@ def clip_fit(item: dict, clip: dict) -> float:
     return -0.25 * (slots - nb)          # she'd point at nothing
 
 
-def build_caption(item: dict, cta_idx: int, cfg: dict, post_type: str = "regular") -> str:
+def pick_hashtags(item: dict, cfg: dict, rng) -> list[str]:
+    """Nick 2026-11-24: about 1 reel in 4 gets a few hashtags, so tagged and untagged reels can be compared."""
     c = cfg["caption"]
-    tags = list(c.get("base_hashtags", [])) + list(c.get("category_hashtags", {}).get(item["category"], []))
-    seen, uniq = set(), []
-    for t in tags:
-        if t.lower() not in seen:
-            seen.add(t.lower())
-            uniq.append(t)
-    tags = uniq[: c.get("max_hashtags", 6)]
-    # Nick 2026-10-22: minimal captions — the title + one CTA (comment or follow), never "link in bio",
-    # no fact list, no topic blurb. Trials still open with "follow me if...", so they get a comment CTA.
+    n = int(c.get("max_hashtags") or 0)
+    if n <= 0 or rng.random() >= float(c.get("hashtag_rate") or 0):
+        return []
+    cat = list(c.get("category_hashtags", {}).get(item["category"], []))
+    base = list(c.get("base_hashtags", []))
+    rng.shuffle(base)
+    out = []
+    for t in cat[:1] + base:
+        if t.lower() not in [x.lower() for x in out]:
+            out.append(t)
+    return out[:n]
+
+
+def build_caption(item: dict, cta_idx: int, cfg: dict, post_type: str = "regular",
+                  hashtags: list[str] | None = None, variant: int = 0) -> str:
+    """Nick 2026-11-24: longer captions — the title, an extra detail (the topic's blurb, or its facts),
+    a line of search words, one CTA (comment or follow), and hashtags on the reels picked for the test.
+    Never "link in bio"; nothing from the flag list. `variant` gives a different version ("New caption")."""
+    import re
+    from . import safety
+    c = cfg["caption"]
+
+    def clean(t: str) -> bool:
+        return bool(t) and not safety.banned_hits(t, cfg) and not re.search(r"(?i)\bbio\b|link in", t)
+
     ctas = [x for x in c.get("ctas", []) if x]
-    if post_type == "trial":
+    if post_type == "trial":  # trials already open with "follow me if...", so they get a comment CTA
         ctas = [x for x in ctas if not x.lower().startswith("follow")] or ctas
-    cta = ctas[cta_idx % len(ctas)] if ctas else ""
-    parts = [item["hook"], cta, " ".join(tags)]
+    cta = ctas[(cta_idx + variant) % len(ctas)] if ctas else ""
+    details = []
+    if c.get("style", "long") != "minimal":
+        blurb = str(item.get("caption") or "").strip()
+        if clean(blurb):
+            details.append(blurb)
+        facts = [b for b in (safety._flat(x).strip() for x in item.get("beats", [])) if clean(b)]
+        if facts and item.get("style") != "bait_reveal" and "THIS" not in item["hook"]:   # never give the reveal away
+            details.append("\n".join("✔️ " + b for b in facts[:5]))
+    detail = details[variant % len(details)] if details else ""
+    words = (c.get("search_lines") or {}).get(item["category"], "") if detail else ""
+    parts = [item["hook"], detail, words, cta, " ".join(hashtags or [])]
     if post_type == "trial":  # Nick: every trial reel's caption starts with "follow me if..."
         openers = [o for o in c.get("trial_openers", []) if o] or ["follow me if you want more nurse-approved facts 🩺"]
-        parts.insert(0, openers[sum(map(ord, item["id"])) % len(openers)])  # same opener for the same topic
+        parts.insert(0, openers[(sum(map(ord, item["id"])) + variant) % len(openers)])
     return "\n\n".join(p for p in parts if p)[:2200]
