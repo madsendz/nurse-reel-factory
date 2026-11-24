@@ -257,10 +257,21 @@ def sync_updates(cfg) -> None:
     try:   # queued reels with no song yet get one as soon as Nick has kept some
         now = datetime.now(timezone.utc)
         for e in q:
-            if e.get("status") in ("pending", "approved") and not e.get("audio") and datetime.fromisoformat(e["slot_iso"]) > now:
+            if e.get("status") not in ("pending", "approved") or datetime.fromisoformat(e["slot_iso"]) <= now:
+                continue
+            changed = False
+            if not e.get("caption"):   # reels queued before captions were shown for approval
+                item = next((i for i in load_bank() if i["id"] == e["item_id"]), None)
+                if item:
+                    e["hashtags"] = pk.pick_hashtags(item, cfg, random.Random())
+                    e["caption"] = pk.build_caption(item, int(e.get("cta") or 0), cfg, e["post_type"], hashtags=e["hashtags"])
+                    e["caption_for"] = e["post_type"]
+                    changed = True
+            if not e.get("audio"):
                 _new_song(e, q)
-                if e.get("audio"):
-                    _show(e)
+                changed = changed or bool(e.get("audio"))
+            if changed:
+                _show(e)
     except Exception as ex:
         print(f"[songs] couldn't fill in songs: {ex}")
     save_json(TG_STATE, st)
