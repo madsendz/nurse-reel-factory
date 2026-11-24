@@ -1,61 +1,5 @@
 [
   {
-    "id": "2797349c",
-    "slot_key": "2026-11-14 12:00",
-    "slot_iso": "2026-11-14T17:00:00+00:00",
-    "slot_label": "Sat Nov 14, 12:00 PM",
-    "post_type": "trial",
-    "item_id": "pr-average-size",
-    "category": "mens_health",
-    "clip_id": "clip40",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 10.17,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1856950",
-      "title": "RnB Chill Trap",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1856950/mp32/",
-      "source": "jamendo",
-      "duration_ms": 123000,
-      "page": "https://www.jamendo.com/track/1856950",
-      "genre": "rnb"
-    },
-    "msg_id": 1157,
-    "file_id": "BAACAgEAAxkDAAIEhWr1N3mJz4GurITjhS0kiUr3aKWuAAJsCgAC2sWpR0n3vGlO6CSQPQQ"
-  },
-  {
-    "id": "c82e19f7",
-    "slot_key": "2026-11-14 13:00",
-    "slot_iso": "2026-11-14T18:00:00+00:00",
-    "slot_label": "Sat Nov 14, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "nw-calories",
-    "category": "health_bait",
-    "clip_id": "clip87",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1182292",
-      "title": "Spasm",
-      "creator": "Suedey",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1182292/mp32/",
-      "source": "jamendo",
-      "duration_ms": 208000,
-      "page": "https://www.jamendo.com/track/1182292",
-      "genre": "hiphop"
-    },
-    "msg_id": 1158,
-    "file_id": "BAACAgEAAxkDAAIEhmr1N5i64LwggG-HRUqBRI40BSR4AAJtCgAC2sWpRyTDFxUu-iYwPQQ"
-  },
-  {
     "id": "8c1f7878",
     "slot_key": "2026-11-14 14:30",
     "slot_iso": "2026-11-14T19:30:00+00:00",
@@ -3479,7 +3423,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 10.52,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-489246",
       "title": "Back 2 UR",
@@ -3494,7 +3438,8 @@
     },
     "msg_id": 1360,
     "file_id": "BAACAgEAAxkDAAIFUGsDl9qAcNGe5cE7dSnvaW07qc63AAIuCgACKY8YRC5JI2_TLMV4PQQ",
-    "decided_at": "2026-11-24T16:42:03.698575+00:00"
+    "decided_at": "2026-11-24T16:42:03.698575+00:00",
+    "permalink": "https://www.instagram.com/reel/DgIjwsXlN8d/"
   },
   {
     "id": "3e5e9ef7",
