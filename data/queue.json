@@ -1,33 +1,5 @@
 [
   {
-    "id": "c4e3d53f",
-    "slot_key": "2026-11-15 17:30",
-    "slot_iso": "2026-11-15T22:30:00+00:00",
-    "slot_label": "Sun Nov 15, 5:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-ed-heart",
-    "category": "mens_health",
-    "clip_id": "clip34",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 10.96,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1320534",
-      "title": "Neith",
-      "creator": "CyberSDF",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1320534/mp32/",
-      "source": "jamendo",
-      "duration_ms": 269000,
-      "page": "https://www.jamendo.com/track/1320534",
-      "genre": "trap"
-    },
-    "msg_id": 1177,
-    "file_id": "BAACAgEAAxkDAAIEmWr2hEzpLZg88OeOZUR40tPV7gxzAAIECQACjgexR7n8RG81kHEPPQQ"
-  },
-  {
     "id": "799edf19",
     "slot_key": "2026-11-15 19:30",
     "slot_iso": "2026-11-16T00:30:00+00:00",
@@ -3473,7 +3445,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 11.27,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1490752",
       "title": "Free Post Malone | RnB Type Beat",
@@ -3502,7 +3474,8 @@
       "artist": "Coldplay",
       "link": "https://www.instagram.com/reels/audio/1131276776292967/"
     },
-    "decided_at": "2026-11-25T16:20:59.012445+00:00"
+    "decided_at": "2026-11-25T16:20:59.012445+00:00",
+    "permalink": "https://www.instagram.com/reel/DgLnt35CEie/"
   },
   {
     "id": "88cd480e",

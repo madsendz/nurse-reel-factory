@@ -454,5 +454,13 @@
     "tries": 2,
     "ratio": 0.42,
     "reason": "2 tries, 0.4x a typical reel"
+  },
+  "nw-refractory": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-25T22:31:41.723148+00:00",
+    "tries": 2,
+    "ratio": 4.4,
+    "reason": "4.4x a typical reel"
   }
 }
