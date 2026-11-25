@@ -1,33 +1,5 @@
 [
   {
-    "id": "3c193a4c",
-    "slot_key": "2026-11-15 08:00",
-    "slot_iso": "2026-11-15T13:00:00+00:00",
-    "slot_label": "Sun Nov 15, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-clit-nerves",
-    "category": "anatomy",
-    "clip_id": "clip86",
-    "cta": 0,
-    "mode": "explore",
-    "seconds": 6.03,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-2290117",
-      "title": "Soul Hop Music",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2290117/mp32/",
-      "source": "jamendo",
-      "duration_ms": 120000,
-      "page": "https://www.jamendo.com/track/2290117",
-      "genre": "hiphop"
-    },
-    "msg_id": 1170,
-    "file_id": "BAACAgEAAxkDAAIEkmr2g1-QCrDlpq8IRAbgiQEfrTATAAL7CAACjgexR_l0-hSR-gAB7D0E"
-  },
-  {
     "id": "73317724",
     "slot_key": "2026-11-15 09:30",
     "slot_iso": "2026-11-15T14:30:00+00:00",
@@ -3442,7 +3414,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.9,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1375003",
       "title": "White_beach",
@@ -3471,7 +3443,8 @@
       "artist": "Cardi B, Grand Theft Auto VI",
       "link": "https://www.instagram.com/reels/audio/1063945633300611/"
     },
-    "decided_at": "2026-11-25T05:56:04.648990+00:00"
+    "decided_at": "2026-11-25T05:56:04.648990+00:00",
+    "permalink": "https://www.instagram.com/reel/DgKmZZ3GmPN/"
   },
   {
     "id": "f127c01c",
