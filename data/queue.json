@@ -1,37 +1,5 @@
 [
   {
-    "id": "73317724",
-    "slot_key": "2026-11-15 09:30",
-    "slot_iso": "2026-11-15T14:30:00+00:00",
-    "slot_label": "Sun Nov 15, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "nw-cycling-numb",
-    "category": "mens_health",
-    "clip_id": "clip20",
-    "cta": 5,
-    "mode": "explore",
-    "seconds": 9.77,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1591558",
-      "title": "199-s8rec",
-      "creator": "orangeicebear",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1591558/mp32/",
-      "source": "jamendo",
-      "duration_ms": 671000,
-      "page": "https://www.jamendo.com/track/1591558",
-      "genre": "trap"
-    },
-    "msg_id": 1171,
-    "file_id": "BAACAgEAAxkDAAIEk2r2g40qP5W8TfgfPv2K24LUEof2AAL9CAACjgexRymGliWyBrTPPQQ",
-    "decided_at": "2026-11-15T13:50:48.225092+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "4aff5b77"
-  },
-  {
     "id": "b7609e3c",
     "slot_key": "2026-11-15 11:00",
     "slot_iso": "2026-11-15T16:00:00+00:00",
@@ -852,35 +820,6 @@
     },
     "msg_id": 1207,
     "file_id": "BAACAgEAAxkDAAIEt2r5HFKKRe_NtqtARX781F7YWS-EAAJzCAACuFnIR25jcswJM-b-PQQ"
-  },
-  {
-    "id": "4aff5b77",
-    "slot_key": "2026-11-15 09:30",
-    "slot_iso": "2026-11-15T14:30:00+00:00",
-    "slot_label": "Sun Nov 15, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "nw-cycling-numb",
-    "category": "mens_health",
-    "clip_id": "clip73",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 6.04,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1081321",
-      "title": "HBK [Prod. SuaVay Nova]",
-      "creator": "The Lxst",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1081321/mp32/",
-      "source": "jamendo",
-      "duration_ms": 277000,
-      "page": "https://www.jamendo.com/track/1081321",
-      "genre": "rnb"
-    },
-    "msg_id": 1211,
-    "file_id": "BAACAgEAAxkDAAIEu2r5uPWZ0eZzHuVlIcT7My9ftfx1AAJxCQACNirRR9P9B7q60QY2PQQ",
-    "replaces": "73317724"
   },
   {
     "id": "22436833",
@@ -3458,7 +3397,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.33,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-384091",
       "title": "Lazy beach breaks",
@@ -3484,7 +3423,8 @@
       "link": "https://www.instagram.com/reels/audio/552360985884236/"
     },
     "caption_custom": true,
-    "decided_at": "2026-11-25T05:57:19.930937+00:00"
+    "decided_at": "2026-11-25T05:57:19.930937+00:00",
+    "permalink": "https://www.instagram.com/reel/DgKwp_0kS8S/"
   },
   {
     "id": "b333ebfa",
