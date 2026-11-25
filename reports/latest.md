@@ -6,16 +6,16 @@ Judged reels: **206** · score = views, followers gained, shares/saves
 
 | Score | Type | Follows | Views | Shares | Topic | Clip | Posted |
 |---|---|---|---|---|---|---|---|
-| +3.04 | trial | - | 1199178 | 20311 | [pr-period-sex](https://www.instagram.com/reel/DfAIpEVFXGV/) | clip79 | 2026-10-27 |
-| +2.55 | trial | - | 1413692 | 53173 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
+| +3.04 | trial | - | 1202635 | 20416 | [pr-period-sex](https://www.instagram.com/reel/DfAIpEVFXGV/) | clip79 | 2026-10-27 |
+| +2.55 | trial | - | 1414261 | 53204 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
 | +2.25 | trial | - | 830877 | 106 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
-| +2.12 | regular | - | 450936 | 113 | [nw-lube-types](https://www.instagram.com/reel/DffXMc7CEmw/) | clip62 | 2026-11-08 |
-| +1.94 | trial | - | 318682 | 166 | [nw-faked-it](https://www.instagram.com/reel/DfDQZtiEkIn/) | clip37 | 2026-10-28 |
-| +1.93 | trial | - | 252729 | 120 | [nw-kegels-men](https://www.instagram.com/reel/DfNp4tFigid/) | clip63 | 2026-11-01 |
-| +1.79 | trial | - | 350066 | 40 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
-| +1.57 | trial | - | 641189 | 471 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
-| +1.56 | regular | - | 501055 | 4683 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
-| +1.52 | regular | - | 566320 | 512 | [nw-notice-first](https://www.instagram.com/reel/DeuU9sEjfCr/) | clip24 | 2026-10-20 |
+| +2.12 | regular | - | 450982 | 113 | [nw-lube-types](https://www.instagram.com/reel/DffXMc7CEmw/) | clip62 | 2026-11-08 |
+| +1.94 | trial | - | 319018 | 166 | [nw-faked-it](https://www.instagram.com/reel/DfDQZtiEkIn/) | clip37 | 2026-10-28 |
+| +1.94 | trial | - | 253227 | 121 | [nw-kegels-men](https://www.instagram.com/reel/DfNp4tFigid/) | clip63 | 2026-11-01 |
+| +1.79 | trial | - | 350072 | 40 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
+| +1.57 | trial | - | 641498 | 471 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
+| +1.56 | regular | - | 501649 | 4693 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
+| +1.53 | regular | - | 566493 | 512 | [nw-notice-first](https://www.instagram.com/reel/DeuU9sEjfCr/) | clip24 | 2026-10-20 |
 
 ## Hook styles
 
@@ -23,7 +23,7 @@ Judged reels: **206** · score = views, followers gained, shares/saves
 |---|---|---|
 | secret_list | +0.28 | 27 |
 | average_stat | +0.02 | 13 |
-| stat_reveal | -0.01 | 9 |
+| stat_reveal | -0.00 | 9 |
 | stat_men | -0.03 | 27 |
 | here_why_she | -0.03 | 12 |
 | average_man_thinks | -0.07 | 38 |
@@ -68,14 +68,14 @@ Judged reels: **206** · score = views, followers gained, shares/saves
 | clip50 | +0.23 | 2 |
 | clip67 | +0.21 | 2 |
 | clip48 | +0.20 | 1 |
-| clip23 | +0.19 | 1 |
+| clip23 | +0.18 | 1 |
 | clip44 | +0.17 | 2 |
 | clip31 | +0.16 | 3 |
 | clip03 | +0.14 | 3 |
 | clip82 | +0.13 | 4 |
 | clip70 | +0.09 | 2 |
+| clip32 | +0.09 | 2 |
 | clip09 | +0.09 | 3 |
-| clip32 | +0.08 | 2 |
 | clip71 | +0.08 | 3 |
 | clip73 | +0.06 | 1 |
 | clip19 | +0.06 | 1 |
@@ -105,13 +105,13 @@ Judged reels: **206** · score = views, followers gained, shares/saves
 | clip54 | -0.18 | 1 |
 | clip57 | -0.19 | 2 |
 | clip16 | -0.19 | 3 |
-| clip51 | -0.22 | 3 |
+| clip51 | -0.21 | 3 |
 | clip43 | -0.22 | 2 |
 | clip83 | -0.23 | 2 |
 | clip05 | -0.24 | 1 |
 | clip36 | -0.24 | 2 |
 | clip10 | -0.25 | 1 |
-| clip22 | -0.26 | 3 |
+| clip22 | -0.25 | 3 |
 | clip06 | -0.27 | 2 |
 | clip01 | -0.28 | 1 |
 | clip80 | -0.31 | 3 |
@@ -140,8 +140,8 @@ Judged reels: **206** · score = views, followers gained, shares/saves
 | Value | Strength | Reels |
 |---|---|---|
 | 1 | +0.02 | 58 |
-| 0 | -0.02 | 67 |
 | 5 | -0.02 | 22 |
+| 0 | -0.02 | 67 |
 | 3 | -0.12 | 20 |
 | 2 | -0.29 | 33 |
 | 4 | -0.49 | 6 |
