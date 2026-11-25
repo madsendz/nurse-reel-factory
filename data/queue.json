@@ -3525,7 +3525,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 5.12,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1702676",
       "title": "Daydream",
@@ -3553,7 +3553,11 @@
       "title": "Crazy For You",
       "artist": "Lana Del Rey",
       "link": "https://www.instagram.com/reels/audio/1924822242216699/"
-    }
+    },
+    "decided_at": "2026-11-25T05:58:13.021458+00:00",
+    "redo": "new_topic",
+    "needs_replacement": false,
+    "replaced_by": "911bf8f5"
   },
   {
     "id": "1cc1703e",
@@ -3567,7 +3571,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 6.03,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1403270",
       "title": "Just laugh at it",
@@ -3591,7 +3595,11 @@
       "title": "Low budget Vagina(LBVA)Amanda",
       "artist": "Bianca Case",
       "link": "https://www.instagram.com/reels/audio/888510671021141/"
-    }
+    },
+    "decided_at": "2026-11-25T05:58:50.902612+00:00",
+    "redo": "new_clip",
+    "needs_replacement": false,
+    "replaced_by": "0532b978"
   },
   {
     "id": "1f0a0b7c",
@@ -5115,5 +5123,85 @@
       "link": "https://www.instagram.com/reels/audio/29681812238070064/"
     },
     "preview": true
+  },
+  {
+    "id": "911bf8f5",
+    "slot_key": "2026-11-25 11:00",
+    "slot_iso": "2026-11-25T16:00:00+00:00",
+    "slot_label": "Wed Nov 25, 11:00 AM",
+    "post_type": "trial",
+    "item_id": "nw-sunlight-bait",
+    "category": "health_bait",
+    "clip_id": "clip77",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 5.12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1917024",
+      "title": "Dorila y Mello",
+      "creator": "Popoi",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1917024/mp32/",
+      "source": "jamendo",
+      "duration_ms": 165000,
+      "page": "https://www.jamendo.com/track/1917024",
+      "genre": "hiphop"
+    },
+    "caption": "follow me if you want the facts your doctor doesn't have time for 🩺\n\nhealth benefits of doing it OUTSIDE 😳☀️\n\nwalking. outside. in the sun. that's it 😁 follow if you thought this was something else\n\neveryday health facts from a nurse 🩺\n\ncomment the one that surprised you 👇\n\n#healthfacts #sexualhealth #nursetok",
+    "caption_for": "trial",
+    "hashtags": [
+      "#healthfacts",
+      "#sexualhealth",
+      "#nursetok"
+    ],
+    "audio": {
+      "audio_id": "1822529622118930",
+      "type": "music",
+      "title": "Okayyy (Solo)",
+      "artist": "Latto",
+      "link": "https://www.instagram.com/reels/audio/1822529622118930/"
+    },
+    "preview": true,
+    "replaces": "b333ebfa"
+  },
+  {
+    "id": "0532b978",
+    "slot_key": "2026-11-25 12:00",
+    "slot_iso": "2026-11-25T17:00:00+00:00",
+    "slot_label": "Wed Nov 25, 12:00 PM",
+    "post_type": "trial",
+    "item_id": "nw-walking-bait",
+    "category": "health_bait",
+    "clip_id": "clip09",
+    "cta": 1,
+    "mode": "exploit",
+    "seconds": 12,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-247156",
+      "title": "Silence Apart",
+      "creator": "ZigiZigi",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/247156/mp32/",
+      "source": "jamendo",
+      "duration_ms": 326000,
+      "page": "https://www.jamendo.com/track/247156",
+      "genre": "pop"
+    },
+    "caption": "follow me if you learned something new today ✅\n\nhealth benefits of doing THIS every day 🚶😏\n\ncomment the one that surprised you 👇",
+    "caption_for": "trial",
+    "hashtags": [],
+    "audio": {
+      "audio_id": "1451645629792430",
+      "type": "music",
+      "title": "Feel Alright",
+      "artist": "Rema, Wizkid",
+      "link": "https://www.instagram.com/reels/audio/1451645629792430/"
+    },
+    "preview": true,
+    "replaces": "1cc1703e"
   }
 ]
