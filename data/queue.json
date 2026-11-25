@@ -3442,7 +3442,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.9,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1375003",
       "title": "White_beach",
@@ -3470,7 +3470,8 @@
       "title": "Don’t Chart (from GTAVI: The Album)",
       "artist": "Cardi B, Grand Theft Auto VI",
       "link": "https://www.instagram.com/reels/audio/1063945633300611/"
-    }
+    },
+    "decided_at": "2026-11-25T05:56:04.648990+00:00"
   },
   {
     "id": "f127c01c",
