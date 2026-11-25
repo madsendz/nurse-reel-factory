@@ -3485,7 +3485,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 9.33,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384091",
       "title": "Lazy beach breaks",
@@ -3501,7 +3501,7 @@
     "msg_id": 1368,
     "file_id": "BAACAgEAAxkDAAIFWGsDto_i-IHQ33UfAAHM8AqVJAVZbAACkAgAAimPIET99Xr5zfPQDj0E",
     "hashtags": [],
-    "caption": "the prostate is about the size of THIS 🌰\n\nThe prostate is walnut-sized and makes most of the fluid in semen. Growing with age is normal — sudden symptoms are what to get checked.\n\nmen's health facts from a nurse 🩺\n\ncomment the one that surprised you 👇",
+    "caption": "the prostate is about the size of THIS 🌰\n\nThe prostate is walnut-sized and makes most of the fluid in semen. Growing with age is normal — sudden symptoms are what to get checked.\n\nmen's health facts from a nurse 🩺",
     "caption_for": "regular",
     "audio": {
       "audio_id": "552360985884236",
@@ -3509,7 +3509,9 @@
       "title": "Vice City",
       "artist": "Neon Dust",
       "link": "https://www.instagram.com/reels/audio/552360985884236/"
-    }
+    },
+    "caption_custom": true,
+    "decided_at": "2026-11-25T05:57:19.930937+00:00"
   },
   {
     "id": "b333ebfa",
