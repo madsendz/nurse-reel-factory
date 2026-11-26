@@ -1,35 +1,5 @@
 [
   {
-    "id": "db1ed11b",
-    "slot_key": "2026-11-16 16:00",
-    "slot_iso": "2026-11-16T21:00:00+00:00",
-    "slot_label": "Mon Nov 16, 4:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-trich-common",
-    "category": "sex_ed",
-    "clip_id": "clip37",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 10.82,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1591558",
-      "title": "199-s8rec",
-      "creator": "orangeicebear",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1591558/mp32/",
-      "source": "jamendo",
-      "duration_ms": 671000,
-      "page": "https://www.jamendo.com/track/1591558",
-      "genre": "trap"
-    },
-    "msg_id": 1191,
-    "file_id": "BAACAgEAAxkDAAIEp2r30sHF9qku31LNx5AR7SS0bmOgAAK1DAACuFm4R6HnvRXJdb4IPQQ",
-    "decided_at": "2026-11-16T21:01:20.770589+00:00",
-    "permalink": "https://www.instagram.com/reel/Df0SW-Il55d/"
-  },
-  {
     "id": "99b70bfc",
     "slot_key": "2026-11-16 17:30",
     "slot_iso": "2026-11-16T22:30:00+00:00",
@@ -3447,7 +3417,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 10.03,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1525343",
       "title": "FAS - heda",
@@ -3472,7 +3442,8 @@
       "artist": "Justice, Michael McDonald, Grand Theft Auto VI",
       "link": "https://www.instagram.com/reels/audio/2197129844511747/"
     },
-    "decided_at": "2026-11-26T14:40:15.438578+00:00"
+    "decided_at": "2026-11-26T14:40:15.438578+00:00",
+    "permalink": "https://www.instagram.com/reel/DgOCAkJjDbi/"
   },
   {
     "id": "be20bfb0",

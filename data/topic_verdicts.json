@@ -470,5 +470,13 @@
     "tries": 1,
     "ratio": 4.13,
     "reason": "4.1x a typical reel"
+  },
+  "nw-pelvic-floor-pe": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-26T21:01:37.040268+00:00",
+    "tries": 2,
+    "ratio": 1.55,
+    "reason": "1.6x a typical reel"
   }
 }
