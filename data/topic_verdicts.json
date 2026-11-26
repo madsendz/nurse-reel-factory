@@ -478,5 +478,13 @@
     "tries": 2,
     "ratio": 1.55,
     "reason": "1.6x a typical reel"
+  },
+  "nw-vibrators": {
+    "v": 2,
+    "status": "retired",
+    "since": "2026-11-26T22:31:37.652033+00:00",
+    "tries": 2,
+    "ratio": 0.86,
+    "reason": "2 tries, 0.9x a typical reel"
   }
 }

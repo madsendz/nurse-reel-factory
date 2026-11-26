@@ -1,35 +1,5 @@
 [
   {
-    "id": "99b70bfc",
-    "slot_key": "2026-11-16 17:30",
-    "slot_iso": "2026-11-16T22:30:00+00:00",
-    "slot_label": "Mon Nov 16, 5:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-avg-man-normal",
-    "category": "sex_ed",
-    "clip_id": "clip14",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 6.6,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1367800",
-      "title": "CRIZ3Y - Facepalm (VIP)",
-      "creator": "lost.element",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1367800/mp32/",
-      "source": "jamendo",
-      "duration_ms": 217000,
-      "page": "https://www.jamendo.com/track/1367800",
-      "genre": "trap"
-    },
-    "msg_id": 1192,
-    "file_id": "BAACAgEAAxkDAAIEqGr30teuLZyrjeRhnJgXGIts_lPjAAK2DAACuFm4R4lH2QABeUcdvz0E",
-    "decided_at": "2026-11-16T17:33:24.920752+00:00",
-    "permalink": "https://www.instagram.com/reel/Df0cjXOHN93/"
-  },
-  {
     "id": "7afc3e70",
     "slot_key": "2026-11-16 19:30",
     "slot_iso": "2026-11-17T00:30:00+00:00",
@@ -3457,7 +3427,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.76,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-2176699",
       "title": "Relax Chill Lofi",
@@ -3482,7 +3452,8 @@
       "artist": "Gunna",
       "link": "https://www.instagram.com/reels/audio/29681812238070064/"
     },
-    "decided_at": "2026-11-26T14:40:15.438578+00:00"
+    "decided_at": "2026-11-26T14:40:15.438578+00:00",
+    "permalink": "https://www.instagram.com/reel/DgOMvbnCIqC/"
   },
   {
     "id": "f20c80a0",
