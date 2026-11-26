@@ -1,21 +1,21 @@
 # Nurse Reel Factory — performance report
 
-Judged reels: **212** · score = views, followers gained, shares/saves
+Judged reels: **213** · score = views, followers gained, shares/saves
 
 ## Top reels
 
 | Score | Type | Follows | Views | Shares | Topic | Clip | Posted |
 |---|---|---|---|---|---|---|---|
-| +3.07 | trial | - | 1215397 | 20891 | [pr-period-sex](https://www.instagram.com/reel/DfAIpEVFXGV/) | clip79 | 2026-10-27 |
-| +2.56 | trial | - | 1416044 | 53261 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
+| +3.07 | trial | - | 1216255 | 20916 | [pr-period-sex](https://www.instagram.com/reel/DfAIpEVFXGV/) | clip79 | 2026-10-27 |
+| +2.56 | trial | - | 1416154 | 53265 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
 | +2.26 | trial | - | 830877 | 106 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
-| +2.15 | regular | - | 451273 | 113 | [nw-lube-types](https://www.instagram.com/reel/DffXMc7CEmw/) | clip62 | 2026-11-08 |
-| +1.96 | trial | - | 320001 | 166 | [nw-faked-it](https://www.instagram.com/reel/DfDQZtiEkIn/) | clip37 | 2026-10-28 |
-| +1.96 | trial | - | 255633 | 121 | [nw-kegels-men](https://www.instagram.com/reel/DfNp4tFigid/) | clip63 | 2026-11-01 |
+| +2.17 | regular | - | 451284 | 113 | [nw-lube-types](https://www.instagram.com/reel/DffXMc7CEmw/) | clip62 | 2026-11-08 |
+| +1.96 | trial | - | 255794 | 121 | [nw-kegels-men](https://www.instagram.com/reel/DfNp4tFigid/) | clip63 | 2026-11-01 |
+| +1.96 | trial | - | 320016 | 166 | [nw-faked-it](https://www.instagram.com/reel/DfDQZtiEkIn/) | clip37 | 2026-10-28 |
 | +1.80 | trial | - | 350085 | 40 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
-| +1.59 | trial | - | 642590 | 472 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
-| +1.59 | regular | - | 503231 | 4715 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
-| +1.55 | regular | - | 566721 | 512 | [nw-notice-first](https://www.instagram.com/reel/DeuU9sEjfCr/) | clip24 | 2026-10-20 |
+| +1.60 | regular | - | 503368 | 4722 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
+| +1.59 | trial | - | 642667 | 472 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
+| +1.56 | regular | - | 566732 | 512 | [nw-notice-first](https://www.instagram.com/reel/DeuU9sEjfCr/) | clip24 | 2026-10-20 |
 
 ## Hook styles
 
@@ -26,11 +26,11 @@ Judged reels: **212** · score = views, followers gained, shares/saves
 | stat_reveal | -0.01 | 9 |
 | here_why_she | -0.02 | 12 |
 | stat_men | -0.03 | 27 |
-| did_you_know | -0.05 | 4 |
+| did_you_know | -0.04 | 4 |
 | average_man_thinks | -0.11 | 39 |
-| bait_reveal | -0.17 | 7 |
+| hack_steps | -0.15 | 18 |
+| bait_reveal | -0.18 | 7 |
 | warning_sign | -0.18 | 2 |
-| hack_steps | -0.18 | 17 |
 | what_they_dont_tell | -0.22 | 54 |
 | myth_vs_fact | -0.31 | 1 |
 
@@ -38,8 +38,8 @@ Judged reels: **212** · score = views, followers gained, shares/saves
 
 | Value | Strength | Reels |
 |---|---|---|
-| sex_ed | +0.01 | 54 |
-| sexual_wellness | -0.05 | 51 |
+| sex_ed | +0.00 | 54 |
+| sexual_wellness | -0.05 | 52 |
 | mens_health | -0.11 | 94 |
 | health_bait | -0.15 | 9 |
 | anatomy | -0.27 | 4 |
@@ -52,12 +52,12 @@ Judged reels: **212** · score = views, followers gained, shares/saves
 | clip63 | +0.71 | 3 |
 | clip62 | +0.66 | 1 |
 | clip04 | +0.51 | 4 |
-| clip59 | +0.50 | 3 |
+| clip59 | +0.49 | 3 |
 | clip08 | +0.40 | 3 |
 | clip37 | +0.40 | 4 |
 | clip56 | +0.39 | 3 |
-| clip84 | +0.36 | 3 |
-| clip85 | +0.36 | 3 |
+| clip84 | +0.37 | 3 |
+| clip85 | +0.35 | 3 |
 | clip02 | +0.33 | 3 |
 | clip24 | +0.33 | 3 |
 | clip34 | +0.32 | 2 |
@@ -68,13 +68,13 @@ Judged reels: **212** · score = views, followers gained, shares/saves
 | clip50 | +0.21 | 2 |
 | clip48 | +0.20 | 1 |
 | clip67 | +0.19 | 2 |
-| clip32 | +0.19 | 2 |
 | clip23 | +0.18 | 1 |
+| clip32 | +0.17 | 2 |
 | clip44 | +0.17 | 2 |
-| clip82 | +0.16 | 4 |
 | clip31 | +0.16 | 3 |
 | clip68 | +0.15 | 1 |
 | clip30 | +0.15 | 3 |
+| clip82 | +0.14 | 4 |
 | clip03 | +0.13 | 3 |
 | clip70 | +0.09 | 2 |
 | clip09 | +0.09 | 3 |
@@ -83,7 +83,7 @@ Judged reels: **212** · score = views, followers gained, shares/saves
 | clip19 | +0.05 | 1 |
 | clip60 | +0.04 | 4 |
 | clip26 | +0.02 | 4 |
-| clip87 | +0.01 | 3 |
+| clip87 | +0.02 | 3 |
 | clip40 | +0.01 | 2 |
 | clip35 | +0.01 | 3 |
 | clip27 | -0.01 | 3 |
@@ -94,10 +94,11 @@ Judged reels: **212** · score = views, followers gained, shares/saves
 | clip55 | -0.05 | 4 |
 | clip69a | -0.06 | 1 |
 | clip77 | -0.08 | 2 |
-| clip11 | -0.08 | 1 |
+| clip11 | -0.09 | 1 |
 | clip64 | -0.09 | 2 |
 | clip61 | -0.10 | 3 |
 | clip47 | -0.10 | 3 |
+| clip36 | -0.10 | 3 |
 | clip12 | -0.11 | 2 |
 | clip33 | -0.12 | 4 |
 | clip21 | -0.13 | 3 |
@@ -110,42 +111,41 @@ Judged reels: **212** · score = views, followers gained, shares/saves
 | clip43 | -0.22 | 2 |
 | clip83 | -0.23 | 2 |
 | clip05 | -0.24 | 1 |
-| clip36 | -0.24 | 2 |
 | clip22 | -0.25 | 3 |
-| clip10 | -0.25 | 1 |
+| clip10 | -0.26 | 1 |
 | clip01 | -0.28 | 1 |
 | clip80 | -0.31 | 3 |
-| clip38 | -0.32 | 3 |
-| clip53 | -0.32 | 1 |
+| clip38 | -0.33 | 3 |
+| clip53 | -0.33 | 1 |
 | clip58 | -0.35 | 4 |
-| clip13 | -0.35 | 4 |
+| clip13 | -0.36 | 4 |
 | clip69b | -0.37 | 2 |
 | clip41 | -0.37 | 3 |
 | clip49 | -0.37 | 2 |
-| clip69c | -0.38 | 2 |
+| clip69c | -0.39 | 2 |
 | clip89 | -0.40 | 2 |
 | clip42 | -0.40 | 4 |
 | clip39 | -0.40 | 1 |
-| clip72 | -0.42 | 3 |
+| clip72 | -0.43 | 3 |
 | clip06 | -0.46 | 3 |
 | clip75 | -0.49 | 3 |
 | clip28 | -0.50 | 1 |
 | clip25 | -0.53 | 4 |
-| clip46 | -0.54 | 3 |
 | clip14 | -0.54 | 3 |
+| clip46 | -0.56 | 3 |
 | clip17 | -0.58 | 1 |
-| clip74 | -0.68 | 3 |
+| clip74 | -0.67 | 3 |
 
 ## CTAs
 
 | Value | Strength | Reels |
 |---|---|---|
 | 1 | -0.00 | 62 |
-| 5 | -0.00 | 22 |
-| 0 | -0.02 | 67 |
-| 3 | -0.11 | 20 |
+| 5 | -0.01 | 22 |
+| 0 | -0.01 | 68 |
+| 3 | -0.12 | 20 |
 | 2 | -0.25 | 34 |
-| 4 | -0.35 | 7 |
+| 4 | -0.36 | 7 |
 
 ## Weakest recent reels
 
