@@ -1,67 +1,5 @@
 [
   {
-    "id": "c30be12b",
-    "slot_key": "2026-11-16 08:00",
-    "slot_iso": "2026-11-16T13:00:00+00:00",
-    "slot_label": "Mon Nov 16, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-clit-first-hack",
-    "category": "sexual_wellness",
-    "clip_id": "clip69b",
-    "cta": 0,
-    "mode": "explore",
-    "seconds": 10.0,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1331970",
-      "title": "Faith",
-      "creator": "Neon NiteClub",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1331970/mp32/",
-      "source": "jamendo",
-      "duration_ms": 248000,
-      "page": "https://www.jamendo.com/track/1331970",
-      "genre": "pop"
-    },
-    "msg_id": 1185,
-    "file_id": "BAACAgEAAxkDAAIEoWr30iA1OojX_T3Q4UujopO6BXqEAAKsDAACuFm4R8_xMZ0HUFlnPQQ",
-    "decided_at": "2026-11-16T12:15:23.945614+00:00",
-    "redo": "text_edit",
-    "needs_replacement": false,
-    "replaced_by": "a56e1b06"
-  },
-  {
-    "id": "f1777a18",
-    "slot_key": "2026-11-16 09:30",
-    "slot_iso": "2026-11-16T14:30:00+00:00",
-    "slot_label": "Mon Nov 16, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "nw-plan-b-weight",
-    "category": "sex_ed",
-    "clip_id": "clip38",
-    "cta": 5,
-    "mode": "exploit",
-    "seconds": 8.88,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1992651",
-      "title": "Emotional Dancing",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1992651/mp32/",
-      "source": "jamendo",
-      "duration_ms": 126000,
-      "page": "https://www.jamendo.com/track/1992651",
-      "genre": "hiphop"
-    },
-    "msg_id": 1186,
-    "file_id": "BAACAgEAAxkDAAIEomr30jiPdcRXhxrjL3AH-Z8ySJZ5AAKtDAACuFm4Ry2wfxFQ114fPQQ",
-    "decided_at": "2026-11-16T12:25:16.595591+00:00",
-    "permalink": "https://www.instagram.com/reel/DfzldcegpAs/"
-  },
-  {
     "id": "905bac15",
     "slot_key": "2026-11-16 11:00",
     "slot_iso": "2026-11-16T16:00:00+00:00",
@@ -889,104 +827,6 @@
     "file_id": "BAACAgEAAxkDAAIEx2r6bzv1QvWdtOFv44vwBisHB_eUAAKdCgACNirRRwF5hL-HOQdJPQQ",
     "decided_at": "2026-11-18T13:19:58.977901+00:00",
     "permalink": "https://www.instagram.com/reel/Df6BpaWABEQ/"
-  },
-  {
-    "id": "a56e1b06",
-    "slot_key": "2026-11-16 08:00",
-    "slot_iso": "2026-11-16T13:00:00+00:00",
-    "slot_label": "Mon Nov 16, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-clit-first-hack",
-    "category": "sexual_wellness",
-    "clip_id": "clip69b",
-    "cta": 0,
-    "mode": "edited",
-    "seconds": 10.0,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1331970",
-      "title": "Faith",
-      "creator": "Neon NiteClub",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1331970/mp32/",
-      "source": "jamendo",
-      "duration_ms": 248000,
-      "page": "https://www.jamendo.com/track/1331970",
-      "genre": "pop"
-    },
-    "msg_id": 1226,
-    "file_id": "BAACAgEAAxkDAAIEymr69BMxMdLK1NgMleK234zfyaibAALVCAACNirZR_-1aPsgHTigPQQ",
-    "replaces": "c30be12b",
-    "decided_at": "2026-11-16T12:32:20.606494+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "72466419"
-  },
-  {
-    "id": "72466419",
-    "slot_key": "2026-11-16 08:00",
-    "slot_iso": "2026-11-16T13:00:00+00:00",
-    "slot_label": "Mon Nov 16, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-clit-first-hack",
-    "category": "sexual_wellness",
-    "clip_id": "clip69b",
-    "cta": 0,
-    "mode": "edited",
-    "seconds": 10.0,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1331970",
-      "title": "Faith",
-      "creator": "Neon NiteClub",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1331970/mp32/",
-      "source": "jamendo",
-      "duration_ms": 248000,
-      "page": "https://www.jamendo.com/track/1331970",
-      "genre": "pop"
-    },
-    "msg_id": 1229,
-    "file_id": "BAACAgEAAxkDAAIEzWr69msAAQuur3A6B18ycm8kWqY90gAC1wgAAjYq2UcbmaoWUKjGiD0E",
-    "replaces": "a56e1b06",
-    "decided_at": "2026-11-16T12:42:09.435039+00:00",
-    "redo": "new_clip",
-    "needs_replacement": false,
-    "replaced_by": "23d25289"
-  },
-  {
-    "id": "23d25289",
-    "slot_key": "2026-11-16 08:00",
-    "slot_iso": "2026-11-16T13:00:00+00:00",
-    "slot_label": "Mon Nov 16, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-clit-first-hack",
-    "category": "sexual_wellness",
-    "clip_id": "clip64",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 9.42,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1206517",
-      "title": "DJ Smallest - Chill",
-      "creator": "Smallest",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1206517/mp32/",
-      "source": "jamendo",
-      "duration_ms": 170000,
-      "page": "https://www.jamendo.com/track/1206517",
-      "genre": "chillout"
-    },
-    "msg_id": 1232,
-    "file_id": "BAACAgEAAxkDAAIE0Gr6-lclFlhniMQTx_kGjSU6u_EYAALfCAACNirZR8A8CwyQGWtCPQQ",
-    "replaces": "72466419",
-    "decided_at": "2026-11-16T13:31:47.070273+00:00",
-    "post_now": true,
-    "permalink": "https://www.instagram.com/reel/Dfze0WdCTMK/"
   },
   {
     "id": "52c7ee11",
@@ -3581,7 +3421,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-1239318",
       "title": "PoerMusic - My Energy",
@@ -3609,7 +3449,10 @@
       "title": "Vice City",
       "artist": "Neon Dust",
       "link": "https://www.instagram.com/reels/audio/552360985884236/"
-    }
+    },
+    "decided_at": "2026-11-26T14:40:15.438578+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/DgNWdyxFy6H/"
   },
   {
     "id": "e19b435e",
@@ -3623,7 +3466,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 10.96,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037721",
       "title": "Downtempo Delights (Lofi Hip-hop)",
@@ -3647,7 +3490,8 @@
       "title": "Low budget Vagina(LBVA)Amanda",
       "artist": "Bianca Case",
       "link": "https://www.instagram.com/reels/audio/888510671021141/"
-    }
+    },
+    "decided_at": "2026-11-26T14:40:15.438578+00:00"
   },
   {
     "id": "29343f03",
@@ -3661,7 +3505,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 10.0,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1992651",
       "title": "Emotional Dancing",
@@ -3685,7 +3529,8 @@
       "title": "Don’t Chart (from GTAVI: The Album)",
       "artist": "Cardi B, Grand Theft Auto VI",
       "link": "https://www.instagram.com/reels/audio/1063945633300611/"
-    }
+    },
+    "decided_at": "2026-11-26T14:40:15.438578+00:00"
   },
   {
     "id": "dcf33583",
@@ -3699,7 +3544,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 8.1,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-384173",
       "title": "Mind drifting back (Leaving paradise)",
@@ -3723,7 +3568,8 @@
       "title": "Vice City",
       "artist": "Neon Dust",
       "link": "https://www.instagram.com/reels/audio/552360985884236/"
-    }
+    },
+    "decided_at": "2026-11-26T14:40:15.438578+00:00"
   },
   {
     "id": "c6816f37",
@@ -3737,7 +3583,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 8.4,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1363926",
       "title": "Drake- Still Here instrumental (reprod. J Blanked On This Beat)",
@@ -3761,7 +3607,8 @@
       "title": "Vice City",
       "artist": "Neon Dust",
       "link": "https://www.instagram.com/reels/audio/552360985884236/"
-    }
+    },
+    "decided_at": "2026-11-26T14:40:15.438578+00:00"
   },
   {
     "id": "4826aa6a",
@@ -3775,7 +3622,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.0,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1547998",
       "title": "podnebo prod. - spark | FREE BEAT | 2018 | FULL | 96bpm",
@@ -3799,7 +3646,8 @@
       "title": "Yellow",
       "artist": "Coldplay",
       "link": "https://www.instagram.com/reels/audio/1131276776292967/"
-    }
+    },
+    "decided_at": "2026-11-26T14:40:15.438578+00:00"
   },
   {
     "id": "234e1ad3",
@@ -3813,7 +3661,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 10.03,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1525343",
       "title": "FAS - heda",
@@ -3837,7 +3685,8 @@
       "title": "Starting From Zero (feat. Michael McDonald) [From GTAVI: Original Score]",
       "artist": "Justice, Michael McDonald, Grand Theft Auto VI",
       "link": "https://www.instagram.com/reels/audio/2197129844511747/"
-    }
+    },
+    "decided_at": "2026-11-26T14:40:15.438578+00:00"
   },
   {
     "id": "be20bfb0",
@@ -3851,7 +3700,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 11.76,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2176699",
       "title": "Relax Chill Lofi",
@@ -3875,7 +3724,8 @@
       "title": "COUNT UP",
       "artist": "Gunna",
       "link": "https://www.instagram.com/reels/audio/29681812238070064/"
-    }
+    },
+    "decided_at": "2026-11-26T14:40:15.438578+00:00"
   },
   {
     "id": "f20c80a0",
@@ -3889,7 +3739,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1129271",
       "title": "Energy",
@@ -3913,7 +3763,8 @@
       "title": "Vice City",
       "artist": "Neon Dust",
       "link": "https://www.instagram.com/reels/audio/552360985884236/"
-    }
+    },
+    "decided_at": "2026-11-26T14:40:15.438578+00:00"
   },
   {
     "id": "80787a2e",
@@ -3927,7 +3778,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1466179",
       "title": "Buzzy Boys-Wet and slippery",
@@ -3955,7 +3806,8 @@
       "title": "AHH YEA",
       "artist": "Playboi Carti",
       "link": "https://www.instagram.com/reels/audio/960749826827858/"
-    }
+    },
+    "decided_at": "2026-11-26T14:40:15.438578+00:00"
   },
   {
     "id": "eb7daedc",
