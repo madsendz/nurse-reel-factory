@@ -1,33 +1,5 @@
 [
   {
-    "id": "d81bad46",
-    "slot_key": "2026-11-15 21:30",
-    "slot_iso": "2026-11-16T02:30:00+00:00",
-    "slot_label": "Sun Nov 15, 9:30 PM",
-    "post_type": "trial",
-    "item_id": "pr-bigger-positions",
-    "category": "sexual_wellness",
-    "clip_id": "clip02",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1931328",
-      "title": "Dreaming of better days",
-      "creator": "zero-project",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1931328/mp32/",
-      "source": "jamendo",
-      "duration_ms": 432000,
-      "page": "https://www.jamendo.com/track/1931328",
-      "genre": "chillout"
-    },
-    "msg_id": 1179,
-    "file_id": "BAACAgEAAxkDAAIEm2r2hIyFlsy2bJ15_ZflMOnh80sFAAIICQACjgexR2yMIRi6pVHcPQQ"
-  },
-  {
     "id": "c30be12b",
     "slot_key": "2026-11-16 08:00",
     "slot_iso": "2026-11-16T13:00:00+00:00",
@@ -3501,7 +3473,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 9.46,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1916401",
       "title": "RnB Chill Trap",
@@ -3530,7 +3502,8 @@
       "artist": "Cardi B, Grand Theft Auto VI",
       "link": "https://www.instagram.com/reels/audio/1063945633300611/"
     },
-    "decided_at": "2026-11-25T16:20:59.012445+00:00"
+    "decided_at": "2026-11-25T16:20:59.012445+00:00",
+    "permalink": "https://www.instagram.com/reel/DgMDDBFClXs/"
   },
   {
     "id": "0cb057b6",
