@@ -1,37 +1,5 @@
 [
   {
-    "id": "905bac15",
-    "slot_key": "2026-11-16 11:00",
-    "slot_iso": "2026-11-16T16:00:00+00:00",
-    "slot_label": "Mon Nov 16, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-pelvic-floor-pe",
-    "category": "mens_health",
-    "clip_id": "clip80",
-    "cta": 5,
-    "mode": "exploit",
-    "seconds": 10.43,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-1961617",
-      "title": "Memoirs",
-      "creator": "John Vanick",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1961617/mp32/",
-      "source": "jamendo",
-      "duration_ms": 341000,
-      "page": "https://www.jamendo.com/track/1961617",
-      "genre": "dance"
-    },
-    "msg_id": 1187,
-    "file_id": "BAACAgEAAxkDAAIEo2r30lgEuKEv3dIa6794yBRMO8qDAAKvDAACuFm4R6TOhmyl3cNxPQQ",
-    "decided_at": "2026-11-16T13:56:39.445550+00:00",
-    "redo": "text_edit",
-    "needs_replacement": false,
-    "replaced_by": "52c7ee11"
-  },
-  {
     "id": "baedbb28",
     "slot_key": "2026-11-16 12:00",
     "slot_iso": "2026-11-16T17:00:00+00:00",
@@ -827,36 +795,6 @@
     "file_id": "BAACAgEAAxkDAAIEx2r6bzv1QvWdtOFv44vwBisHB_eUAAKdCgACNirRRwF5hL-HOQdJPQQ",
     "decided_at": "2026-11-18T13:19:58.977901+00:00",
     "permalink": "https://www.instagram.com/reel/Df6BpaWABEQ/"
-  },
-  {
-    "id": "52c7ee11",
-    "slot_key": "2026-11-16 11:00",
-    "slot_iso": "2026-11-16T16:00:00+00:00",
-    "slot_label": "Mon Nov 16, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-pelvic-floor-pe",
-    "category": "mens_health",
-    "clip_id": "clip80",
-    "cta": 5,
-    "mode": "edited",
-    "seconds": 10.43,
-    "status": "missed",
-    "music": {
-      "id": "jamendo-1961617",
-      "title": "Memoirs",
-      "creator": "John Vanick",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1961617/mp32/",
-      "source": "jamendo",
-      "duration_ms": 341000,
-      "page": "https://www.jamendo.com/track/1961617",
-      "genre": "dance"
-    },
-    "msg_id": 1235,
-    "file_id": "BAACAgEAAxkDAAIE02r7C9lC0fQylMlxktBtSuUYEtldAAICCQACNirZR9PvAAGYk8IXMz0E",
-    "replaces": "905bac15",
-    "decided_at": "2026-11-16T14:12:04.886133+00:00"
   },
   {
     "id": "84d063bf",
@@ -3466,7 +3404,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 10.96,
-    "status": "approved",
+    "status": "missed",
     "music": {
       "id": "jamendo-2037721",
       "title": "Downtempo Delights (Lofi Hip-hop)",
@@ -3505,7 +3443,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 10.0,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1992651",
       "title": "Emotional Dancing",
@@ -3530,7 +3468,8 @@
       "artist": "Cardi B, Grand Theft Auto VI",
       "link": "https://www.instagram.com/reels/audio/1063945633300611/"
     },
-    "decided_at": "2026-11-26T14:40:15.438578+00:00"
+    "decided_at": "2026-11-26T14:40:15.438578+00:00",
+    "permalink": "https://www.instagram.com/reel/DgNgPw_FutH/"
   },
   {
     "id": "dcf33583",
