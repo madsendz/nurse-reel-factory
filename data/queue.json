@@ -1,37 +1,5 @@
 [
   {
-    "id": "b2a81c9c",
-    "slot_key": "2026-11-16 13:00",
-    "slot_iso": "2026-11-16T18:00:00+00:00",
-    "slot_label": "Mon Nov 16, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "nw-wet-dreams",
-    "category": "mens_health",
-    "clip_id": "clip54",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 6.48,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-2151100",
-      "title": "Deep Fashion Electronic",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2151100/mp32/",
-      "source": "jamendo",
-      "duration_ms": 112000,
-      "page": "https://www.jamendo.com/track/2151100",
-      "genre": "pop"
-    },
-    "msg_id": 1189,
-    "file_id": "BAACAgEAAxkDAAIEpWr30oEtw79P4VtA4z2aZBneFTD2AAKyDAACuFm4R4LlLf3KXP-lPQQ",
-    "decided_at": "2026-11-16T15:51:11.287555+00:00",
-    "redo": "new_topic",
-    "needs_replacement": false,
-    "replaced_by": "12f76760"
-  },
-  {
     "id": "75e6d9fd",
     "slot_key": "2026-11-16 14:30",
     "slot_iso": "2026-11-16T19:30:00+00:00",
@@ -795,35 +763,6 @@
     "replaces": "75e6d9fd",
     "decided_at": "2026-11-16T14:31:03.092754+00:00",
     "permalink": "https://www.instagram.com/reel/Df0HzMRkrO9/"
-  },
-  {
-    "id": "12f76760",
-    "slot_key": "2026-11-16 13:00",
-    "slot_iso": "2026-11-16T18:00:00+00:00",
-    "slot_label": "Mon Nov 16, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "nw-foreplay-time",
-    "category": "sexual_wellness",
-    "clip_id": "clip54",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 6.48,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1922534",
-      "title": "Luxury Hip-Hop",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1922534/mp32/",
-      "source": "jamendo",
-      "duration_ms": 131000,
-      "page": "https://www.jamendo.com/track/1922534",
-      "genre": "rnb"
-    },
-    "msg_id": 1239,
-    "file_id": "BAACAgEAAxkDAAIE12r7JqfMewz4y8VbYjgPjoBm6UQSAAIoCQACNirZR8y1194eXE3jPQQ",
-    "replaces": "b2a81c9c"
   },
   {
     "id": "fb79f9ca",
@@ -3452,7 +3391,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 8.1,
-    "status": "approved",
+    "status": "missed",
     "music": {
       "id": "jamendo-384173",
       "title": "Mind drifting back (Leaving paradise)",
@@ -3491,7 +3430,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 8.4,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1363926",
       "title": "Drake- Still Here instrumental (reprod. J Blanked On This Beat)",
@@ -3516,7 +3455,8 @@
       "artist": "Neon Dust",
       "link": "https://www.instagram.com/reels/audio/552360985884236/"
     },
-    "decided_at": "2026-11-26T14:40:15.438578+00:00"
+    "decided_at": "2026-11-26T14:40:15.438578+00:00",
+    "permalink": "https://www.instagram.com/reel/DgNuPvYFUFJ/"
   },
   {
     "id": "4826aa6a",
