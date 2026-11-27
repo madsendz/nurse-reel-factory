@@ -1,33 +1,5 @@
 [
   {
-    "id": "bdf39414",
-    "slot_key": "2026-11-17 09:30",
-    "slot_iso": "2026-11-17T14:30:00+00:00",
-    "slot_label": "Tue Nov 17, 9:30 AM",
-    "post_type": "regular",
-    "item_id": "pr-precum",
-    "category": "sex_ed",
-    "clip_id": "clip57",
-    "cta": 5,
-    "mode": "exploit",
-    "seconds": 4.73,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-384090",
-      "title": "Manta-dive",
-      "creator": "K4MMERER",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/384090/mp32/",
-      "source": "jamendo",
-      "duration_ms": 197000,
-      "page": "https://www.jamendo.com/track/384090",
-      "genre": "electronic"
-    },
-    "msg_id": 1199,
-    "file_id": "BAACAgEAAxkDAAIEr2r5G3iqTEvG-dkUAWWbYWJZE6EsAAJqCAACuFnIRx8racIQ-SAzPQQ"
-  },
-  {
     "id": "284f5c58",
     "slot_key": "2026-11-17 11:00",
     "slot_iso": "2026-11-17T16:00:00+00:00",
@@ -3469,7 +3441,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 7.85,
-    "status": "skipped",
+    "status": "posted",
     "music": {
       "id": "jamendo-1930818",
       "title": "Wonderful Time",
@@ -3494,10 +3466,11 @@
       "artist": "Coldplay",
       "link": "https://www.instagram.com/reels/audio/1131276776292967/"
     },
-    "decided_at": "2026-11-27T13:14:49.335069+00:00",
+    "decided_at": "2026-11-27T14:31:09.405661+00:00",
     "redo": "text_edit",
     "needs_replacement": false,
-    "replaced_by": "a0af6e9d"
+    "replaced_by": "a0af6e9d",
+    "permalink": "https://www.instagram.com/reel/DgP6euADCh0/"
   },
   {
     "id": "f64772c1",
