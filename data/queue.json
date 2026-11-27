@@ -1,33 +1,5 @@
 [
   {
-    "id": "b1dc002a",
-    "slot_key": "2026-11-17 13:00",
-    "slot_iso": "2026-11-17T18:00:00+00:00",
-    "slot_label": "Tue Nov 17, 1:00 PM",
-    "post_type": "regular",
-    "item_id": "nw-responsive-desire",
-    "category": "sex_ed",
-    "clip_id": "clip10",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 10.1,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1214977",
-      "title": "Satanic Blues",
-      "creator": "Paolo Orecchia",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1214977/mp32/",
-      "source": "jamendo",
-      "duration_ms": 146000,
-      "page": "https://www.jamendo.com/track/1214977",
-      "genre": "rnb"
-    },
-    "msg_id": 1202,
-    "file_id": "BAACAgEAAxkDAAIEsmr5G8EpVOiLHxl7hwYd74cY9IPdAAJtCAACuFnIR8k1rwFx_rcfPQQ"
-  },
-  {
     "id": "379c85ee",
     "slot_key": "2026-11-17 14:30",
     "slot_iso": "2026-11-17T19:30:00+00:00",
@@ -3506,7 +3478,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 9.77,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-1277462",
       "title": "Demon'mix #9 Best Of Trap Remix",
@@ -3530,7 +3502,10 @@
       "title": "AHH YEA",
       "artist": "Playboi Carti",
       "link": "https://www.instagram.com/reels/audio/960749826827858/"
-    }
+    },
+    "decided_at": "2026-11-27T19:12:36.391461+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/DgQaweAjre5/"
   },
   {
     "id": "072c7255",
