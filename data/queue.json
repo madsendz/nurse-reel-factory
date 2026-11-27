@@ -1,33 +1,5 @@
 [
   {
-    "id": "379c85ee",
-    "slot_key": "2026-11-17 14:30",
-    "slot_iso": "2026-11-17T19:30:00+00:00",
-    "slot_label": "Tue Nov 17, 2:30 PM",
-    "post_type": "trial",
-    "item_id": "nw-lube-types",
-    "category": "sexual_wellness",
-    "clip_id": "clip83",
-    "cta": 1,
-    "mode": "exploit",
-    "seconds": 9.17,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-2037721",
-      "title": "Downtempo Delights (Lofi Hip-hop)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037721/mp32/",
-      "source": "jamendo",
-      "duration_ms": 144000,
-      "page": "https://www.jamendo.com/track/2037721",
-      "genre": "hiphop"
-    },
-    "msg_id": 1203,
-    "file_id": "BAACAgEAAxkDAAIEs2r5G96EpT7jyq1s8mibgaKNH4hAAAJuCAACuFnIR4TLVIaa-GM_PQQ"
-  },
-  {
     "id": "a6b349e8",
     "slot_key": "2026-11-17 16:00",
     "slot_iso": "2026-11-17T21:00:00+00:00",
