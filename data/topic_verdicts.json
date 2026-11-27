@@ -502,5 +502,13 @@
     "tries": 2,
     "ratio": 1.62,
     "reason": "1.6x a typical reel"
+  },
+  "nw-partner-count": {
+    "v": 2,
+    "status": "winner",
+    "since": "2026-11-27T17:01:46.355114+00:00",
+    "tries": 1,
+    "ratio": 4.33,
+    "reason": "4.3x a typical reel"
   }
 }

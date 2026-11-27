@@ -1,61 +1,5 @@
 [
   {
-    "id": "284f5c58",
-    "slot_key": "2026-11-17 11:00",
-    "slot_iso": "2026-11-17T16:00:00+00:00",
-    "slot_label": "Tue Nov 17, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "nw-ick",
-    "category": "sexual_wellness",
-    "clip_id": "clip27",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 8.3,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1856950",
-      "title": "RnB Chill Trap",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1856950/mp32/",
-      "source": "jamendo",
-      "duration_ms": 123000,
-      "page": "https://www.jamendo.com/track/1856950",
-      "genre": "rnb"
-    },
-    "msg_id": 1200,
-    "file_id": "BAACAgEAAxkDAAIEsGr5G4ugl0MEZLATk96Gz0PvZufkAAJrCAACuFnIR_vifrH29ynIPQQ"
-  },
-  {
-    "id": "59c0f6a1",
-    "slot_key": "2026-11-17 12:00",
-    "slot_iso": "2026-11-17T17:00:00+00:00",
-    "slot_label": "Tue Nov 17, 12:00 PM",
-    "post_type": "trial",
-    "item_id": "pr-small-normal",
-    "category": "mens_health",
-    "clip_id": "clip41",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 7.67,
-    "status": "pending",
-    "music": {
-      "id": "jamendo-1230857",
-      "title": "Indios",
-      "creator": "Claudiozara",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1230857/mp32/",
-      "source": "jamendo",
-      "duration_ms": 357000,
-      "page": "https://www.jamendo.com/track/1230857",
-      "genre": "chillout"
-    },
-    "msg_id": 1201,
-    "file_id": "BAACAgEAAxkDAAIEsWr5G6hXGqfEU3i9zVXUzI3eqAcJAAJsCAACuFnIRzPe8KVhd9Q_PQQ"
-  },
-  {
     "id": "b1dc002a",
     "slot_key": "2026-11-17 13:00",
     "slot_iso": "2026-11-17T18:00:00+00:00",
@@ -3522,7 +3466,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-489246",
       "title": "Back 2 UR",
@@ -3547,7 +3491,8 @@
       "artist": "Dua Lipa, Grand Theft Auto VI",
       "link": "https://www.instagram.com/reels/audio/1105832515616055/"
     },
-    "decided_at": "2026-11-27T13:15:58.243803+00:00"
+    "decided_at": "2026-11-27T13:15:58.243803+00:00",
+    "permalink": "https://www.instagram.com/reel/DgQLyzDALYj/"
   },
   {
     "id": "257385d1",
