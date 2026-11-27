@@ -1,35 +1,5 @@
 [
   {
-    "id": "545b32b9",
-    "slot_key": "2026-11-17 08:00",
-    "slot_iso": "2026-11-17T13:00:00+00:00",
-    "slot_label": "Tue Nov 17, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "pr-mood-killer-foods",
-    "category": "sexual_wellness",
-    "clip_id": "clip65",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 8.1,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1922534",
-      "title": "Luxury Hip-Hop",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1922534/mp32/",
-      "source": "jamendo",
-      "duration_ms": 131000,
-      "page": "https://www.jamendo.com/track/1922534",
-      "genre": "hiphop"
-    },
-    "msg_id": 1198,
-    "file_id": "BAACAgEAAxkDAAIErmr5G2WBglaIE-fvC0VCBOgz9K17AAJpCAACuFnIR98D7P1w36wVPQQ",
-    "decided_at": "2026-11-17T13:01:08.167876+00:00",
-    "permalink": "https://www.instagram.com/reel/Df2ACLJkR70/"
-  },
-  {
     "id": "bdf39414",
     "slot_key": "2026-11-17 09:30",
     "slot_iso": "2026-11-17T14:30:00+00:00",
@@ -3458,7 +3428,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-2290118",
       "title": "Fashion Week",
@@ -3482,7 +3452,10 @@
       "title": "AHH YEA",
       "artist": "Playboi Carti",
       "link": "https://www.instagram.com/reels/audio/960749826827858/"
-    }
+    },
+    "decided_at": "2026-11-27T13:10:30.172774+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/DgPw6cuAHF-/"
   },
   {
     "id": "82c21929",
@@ -3496,7 +3469,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 7.85,
-    "status": "pending",
+    "status": "skipped",
     "music": {
       "id": "jamendo-1930818",
       "title": "Wonderful Time",
@@ -3520,7 +3493,11 @@
       "title": "Yellow",
       "artist": "Coldplay",
       "link": "https://www.instagram.com/reels/audio/1131276776292967/"
-    }
+    },
+    "decided_at": "2026-11-27T13:14:49.335069+00:00",
+    "redo": "text_edit",
+    "needs_replacement": false,
+    "replaced_by": "a0af6e9d"
   },
   {
     "id": "f64772c1",
@@ -3572,7 +3549,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-489246",
       "title": "Back 2 UR",
@@ -3596,7 +3573,8 @@
       "title": "Go Easy (from GTAVI: The Album)",
       "artist": "Dua Lipa, Grand Theft Auto VI",
       "link": "https://www.instagram.com/reels/audio/1105832515616055/"
-    }
+    },
+    "decided_at": "2026-11-27T13:15:58.243803+00:00"
   },
   {
     "id": "257385d1",
@@ -5164,5 +5142,43 @@
       "link": "https://www.instagram.com/reels/audio/1451645629792430/"
     },
     "preview": true
+  },
+  {
+    "id": "a0af6e9d",
+    "slot_key": "2026-11-27 09:30",
+    "slot_iso": "2026-11-27T14:30:00+00:00",
+    "slot_label": "Fri Nov 27, 9:30 AM",
+    "post_type": "regular",
+    "item_id": "nw-ed-heart",
+    "category": "mens_health",
+    "clip_id": "clip48",
+    "cta": 5,
+    "mode": "edited",
+    "seconds": 7.85,
+    "status": "pending",
+    "music": {
+      "id": "jamendo-1930818",
+      "title": "Wonderful Time",
+      "creator": "Sevennotes",
+      "license": "by",
+      "license_version": "3.0",
+      "url": "https://prod-1.storage.jamendo.com/download/track/1930818/mp32/",
+      "source": "jamendo",
+      "duration_ms": 132000,
+      "page": "https://www.jamendo.com/track/1930818",
+      "genre": "electronic"
+    },
+    "caption": "ED can be an early warning sign of THIS ❤️\n\nerectile problems can show up years before heart symptoms because the blood vessels are smaller. it's worth a checkup, not embarrassment.\n\nmen's health facts from a nurse 🩺\n\nfollow if you'd rather hear it from a nurse 🩺",
+    "caption_for": "regular",
+    "hashtags": [],
+    "audio": {
+      "audio_id": "1131276776292967",
+      "type": "music",
+      "title": "Yellow",
+      "artist": "Coldplay",
+      "link": "https://www.instagram.com/reels/audio/1131276776292967/"
+    },
+    "preview": true,
+    "replaces": "82c21929"
   }
 ]
