@@ -6,16 +6,16 @@ Judged reels: **221** · score = views, followers gained, shares/saves
 
 | Score | Type | Follows | Views | Shares | Topic | Clip | Posted |
 |---|---|---|---|---|---|---|---|
-| +3.07 | trial | - | 1232692 | 21490 | [pr-period-sex](https://www.instagram.com/reel/DfAIpEVFXGV/) | clip79 | 2026-10-27 |
+| +3.07 | trial | - | 1232878 | 21471 | [pr-period-sex](https://www.instagram.com/reel/DfAIpEVFXGV/) | clip79 | 2026-10-27 |
 | +2.56 | trial | - | 1416154 | 53265 | [pr-period-sex](https://www.instagram.com/reel/DeXeH87jEjE/) | clip56 | 2026-10-11 |
 | +2.26 | trial | - | 830877 | 106 | [pr-women-secretly-attractive](https://www.instagram.com/reel/DeN6oh_CjOO/) | clip71 | 2026-10-08 |
-| +2.20 | regular | - | 451607 | 113 | [nw-lube-types](https://www.instagram.com/reel/DffXMc7CEmw/) | clip62 | 2026-11-08 |
-| +1.95 | trial | - | 258723 | 121 | [nw-kegels-men](https://www.instagram.com/reel/DfNp4tFigid/) | clip63 | 2026-11-01 |
-| +1.95 | trial | - | 320308 | 167 | [nw-faked-it](https://www.instagram.com/reel/DfDQZtiEkIn/) | clip37 | 2026-10-28 |
+| +2.20 | regular | - | 451611 | 113 | [nw-lube-types](https://www.instagram.com/reel/DffXMc7CEmw/) | clip62 | 2026-11-08 |
+| +1.95 | trial | - | 258744 | 121 | [nw-kegels-men](https://www.instagram.com/reel/DfNp4tFigid/) | clip63 | 2026-11-01 |
+| +1.95 | trial | - | 320309 | 167 | [nw-faked-it](https://www.instagram.com/reel/DfDQZtiEkIn/) | clip37 | 2026-10-28 |
 | +1.80 | trial | - | 350110 | 40 | [pr-small-normal](https://www.instagram.com/reel/DefyUWAgF2C/) | clip82 | 2026-10-15 |
-| +1.63 | regular | - | 506750 | 4770 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
+| +1.63 | regular | - | 506788 | 4778 | [pr-period-sex](https://www.instagram.com/reel/Det9Z_YgBvZ/) | clip34 | 2026-10-20 |
 | +1.59 | regular | - | 566829 | 512 | [nw-notice-first](https://www.instagram.com/reel/DeuU9sEjfCr/) | clip24 | 2026-10-20 |
-| +1.58 | trial | - | 644024 | 473 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
+| +1.58 | trial | - | 644051 | 473 | [pr-backdoor-refuse](https://www.instagram.com/reel/De2iK24j0EL/) | clip59 | 2026-10-23 |
 
 ## Hook styles
 
@@ -116,8 +116,8 @@ Judged reels: **221** · score = views, followers gained, shares/saves
 | clip01 | -0.28 | 1 |
 | clip80 | -0.31 | 3 |
 | clip38 | -0.32 | 3 |
-| clip53 | -0.33 | 1 |
 | clip89 | -0.33 | 3 |
+| clip53 | -0.33 | 1 |
 | clip58 | -0.34 | 4 |
 | clip39 | -0.35 | 2 |
 | clip13 | -0.35 | 4 |
