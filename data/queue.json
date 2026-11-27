@@ -1,37 +1,5 @@
 [
   {
-    "id": "7afc3e70",
-    "slot_key": "2026-11-16 19:30",
-    "slot_iso": "2026-11-17T00:30:00+00:00",
-    "slot_label": "Mon Nov 16, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "pr-size-birth-month",
-    "category": "mens_health",
-    "clip_id": "clip42",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 6.9,
-    "status": "skipped",
-    "music": {
-      "id": "jamendo-2037627",
-      "title": "We Made It (Soft Drum And Bass)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037627/mp32/",
-      "source": "jamendo",
-      "duration_ms": 223000,
-      "page": "https://www.jamendo.com/track/2037627",
-      "genre": "electronic"
-    },
-    "msg_id": 1193,
-    "file_id": "BAACAgEAAxkDAAIEqWr30uzRdCLkOk0SIFKWrHlqkiv2AAK3DAACuFm4R2_E4uIBOSirPQQ",
-    "decided_at": "2026-11-16T17:33:24.920752+00:00",
-    "redo": "text_edit",
-    "needs_replacement": false,
-    "replaced_by": "fb79f9ca"
-  },
-  {
     "id": "a6c79b3e",
     "slot_key": "2026-11-16 21:30",
     "slot_iso": "2026-11-17T02:30:00+00:00",
@@ -640,37 +608,6 @@
     "file_id": "BAACAgEAAxkDAAIEx2r6bzv1QvWdtOFv44vwBisHB_eUAAKdCgACNirRRwF5hL-HOQdJPQQ",
     "decided_at": "2026-11-18T13:19:58.977901+00:00",
     "permalink": "https://www.instagram.com/reel/Df6BpaWABEQ/"
-  },
-  {
-    "id": "fb79f9ca",
-    "slot_key": "2026-11-16 19:30",
-    "slot_iso": "2026-11-17T00:30:00+00:00",
-    "slot_label": "Mon Nov 16, 7:30 PM",
-    "post_type": "regular",
-    "item_id": "pr-size-birth-month",
-    "category": "mens_health",
-    "clip_id": "clip42",
-    "cta": 0,
-    "mode": "edited",
-    "seconds": 6.9,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-2037627",
-      "title": "We Made It (Soft Drum And Bass)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037627/mp32/",
-      "source": "jamendo",
-      "duration_ms": 223000,
-      "page": "https://www.jamendo.com/track/2037627",
-      "genre": "electronic"
-    },
-    "msg_id": 1243,
-    "file_id": "BAACAgEAAxkDAAIE22r7PqmWtXWzau2pQ7hSdbxKBSNoAAJTCQACNirZR94YGnYi92njPQQ",
-    "replaces": "7afc3e70",
-    "decided_at": "2026-11-16T17:43:23.940521+00:00",
-    "permalink": "https://www.instagram.com/reel/Df0qINXjZP8/"
   },
   {
     "id": "ba799087",
@@ -3467,7 +3404,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 12,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1129271",
       "title": "Energy",
@@ -3492,7 +3429,8 @@
       "artist": "Neon Dust",
       "link": "https://www.instagram.com/reels/audio/552360985884236/"
     },
-    "decided_at": "2026-11-26T14:40:15.438578+00:00"
+    "decided_at": "2026-11-26T14:40:15.438578+00:00",
+    "permalink": "https://www.instagram.com/reel/DgOaNupj3aR/"
   },
   {
     "id": "80787a2e",
