@@ -1,34 +1,5 @@
 [
   {
-    "id": "e11f7854",
-    "slot_key": "2026-11-18 11:00",
-    "slot_iso": "2026-11-18T16:00:00+00:00",
-    "slot_label": "Wed Nov 18, 11:00 AM",
-    "post_type": "trial",
-    "item_id": "pr-women-secretly-attractive",
-    "category": "sexual_wellness",
-    "clip_id": "clip03",
-    "cta": 2,
-    "mode": "exploit",
-    "seconds": 12,
-    "status": "missed",
-    "music": {
-      "id": "jamendo-43679",
-      "title": "Ocean fantasy",
-      "creator": "St Adam",
-      "license": "by",
-      "license_version": "",
-      "url": "https://prod-1.storage.jamendo.com/download/track/43679/mp32/",
-      "source": "jamendo",
-      "duration_ms": 186000,
-      "page": "https://www.jamendo.com/track/43679",
-      "genre": "electronic"
-    },
-    "msg_id": 1216,
-    "file_id": "BAACAgEAAxkDAAIEwGr6blyy-Io3SBgfql3smjTWLq5DAAKWCgACNirRR1ztuq6IxO-1PQQ",
-    "decided_at": "2026-11-18T13:14:06.933090+00:00"
-  },
-  {
     "id": "fba0e91e",
     "slot_key": "2026-11-18 12:00",
     "slot_iso": "2026-11-18T17:00:00+00:00",
