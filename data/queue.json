@@ -1,35 +1,5 @@
 [
   {
-    "id": "fba0e91e",
-    "slot_key": "2026-11-18 12:00",
-    "slot_iso": "2026-11-18T17:00:00+00:00",
-    "slot_label": "Wed Nov 18, 12:00 PM",
-    "post_type": "trial",
-    "item_id": "nw-steroids-shrink",
-    "category": "mens_health",
-    "clip_id": "clip81",
-    "cta": 3,
-    "mode": "exploit",
-    "seconds": 9.77,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1992651",
-      "title": "Emotional Dancing",
-      "creator": "Sevennotes",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1992651/mp32/",
-      "source": "jamendo",
-      "duration_ms": 126000,
-      "page": "https://www.jamendo.com/track/1992651",
-      "genre": "electronic"
-    },
-    "msg_id": 1217,
-    "file_id": "BAACAgEAAxkDAAIEwWr6bnwJtZ5QAW7yLqnWBC-hz0y2AAKXCgACNirRR3_8lbStJiPgPQQ",
-    "decided_at": "2026-11-18T13:14:06.933090+00:00",
-    "permalink": "https://www.instagram.com/reel/Df5A0rGgN-0/"
-  },
-  {
     "id": "4a74ce2b",
     "slot_key": "2026-11-18 13:00",
     "slot_iso": "2026-11-18T18:00:00+00:00",
@@ -3631,7 +3601,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 6.63,
-    "status": "approved",
+    "status": "missed",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -3669,7 +3639,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 4.73,
-    "status": "approved",
+    "status": "posted",
     "music": {
       "id": "jamendo-1320534",
       "title": "Neith",
@@ -3697,7 +3667,8 @@
       "link": "https://www.instagram.com/reels/audio/1063945633300611/"
     },
     "preview": true,
-    "decided_at": "2026-11-28T15:39:21.799807+00:00"
+    "decided_at": "2026-11-28T15:39:21.799807+00:00",
+    "permalink": "https://www.instagram.com/reel/DgSwYETk64J/"
   },
   {
     "id": "3007f6a3",
