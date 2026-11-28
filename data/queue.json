@@ -1,65 +1,5 @@
 [
   {
-    "id": "2ca710cb",
-    "slot_key": "2026-11-18 08:00",
-    "slot_iso": "2026-11-18T13:00:00+00:00",
-    "slot_label": "Wed Nov 18, 8:00 AM",
-    "post_type": "trial",
-    "item_id": "pr-frequency-age",
-    "category": "sexual_wellness",
-    "clip_id": "clip20",
-    "cta": 3,
-    "mode": "exploit",
-    "seconds": 9.77,
-    "status": "posted",
-    "music": {
-      "id": "jamendo-1892348",
-      "title": "Georgetown Cafe",
-      "creator": "Popoi",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/1892348/mp32/",
-      "source": "jamendo",
-      "duration_ms": 148000,
-      "page": "https://www.jamendo.com/track/1892348",
-      "genre": "lounge"
-    },
-    "msg_id": 1214,
-    "file_id": "BAACAgEAAxkDAAIEvmr6bhgfNlWZZg76kLUTFkfokiOrAAKUCgACNirRRz7gfKThoBa0PQQ",
-    "decided_at": "2026-11-18T13:14:06.933090+00:00",
-    "post_now": true,
-    "permalink": "https://www.instagram.com/reel/Df4malCDPDK/"
-  },
-  {
-    "id": "cb117999",
-    "slot_key": "2026-11-18 09:30",
-    "slot_iso": "2026-11-18T14:30:00+00:00",
-    "slot_label": "Wed Nov 18, 9:30 AM",
-    "post_type": "trial",
-    "item_id": "nw-headache-myth",
-    "category": "health_bait",
-    "clip_id": "clip15",
-    "cta": 0,
-    "mode": "exploit",
-    "seconds": 6.63,
-    "status": "approved",
-    "music": {
-      "id": "jamendo-2037757",
-      "title": "Density (Background Ambient Techno)",
-      "creator": "Moonwalk",
-      "license": "by",
-      "license_version": "3.0",
-      "url": "https://prod-1.storage.jamendo.com/download/track/2037757/mp32/",
-      "source": "jamendo",
-      "duration_ms": 272000,
-      "page": "https://www.jamendo.com/track/2037757",
-      "genre": "dance"
-    },
-    "msg_id": 1215,
-    "file_id": "BAACAgEAAxkDAAIEv2r6bjcx5c-nP9V-dZmFR0Npi4VJAAKVCgACNirRRxn6TqkjMOVuPQQ",
-    "decided_at": "2026-11-18T13:14:06.933090+00:00"
-  },
-  {
     "id": "e11f7854",
     "slot_key": "2026-11-18 11:00",
     "slot_iso": "2026-11-18T16:00:00+00:00",
@@ -3638,7 +3578,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 6.5,
-    "status": "pending",
+    "status": "posted",
     "music": {
       "id": "jamendo-1580397",
       "title": "Slow motion",
@@ -3661,7 +3601,10 @@
       "artist": "Gunna",
       "link": "https://www.instagram.com/reels/audio/29681812238070064/"
     },
-    "preview": true
+    "preview": true,
+    "decided_at": "2026-11-28T15:33:50.563843+00:00",
+    "post_now": true,
+    "permalink": "https://www.instagram.com/reel/DgSmPEBFB60/"
   },
   {
     "id": "9cb455aa",
@@ -3675,7 +3618,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 6.03,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2037721",
       "title": "Downtempo Delights (Lofi Hip-hop)",
@@ -3702,7 +3645,8 @@
       "artist": "Playboi Carti",
       "link": "https://www.instagram.com/reels/audio/960749826827858/"
     },
-    "preview": true
+    "preview": true,
+    "decided_at": "2026-11-28T15:39:21.799807+00:00"
   },
   {
     "id": "ca17fd25",
@@ -3716,7 +3660,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 6.63,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1892348",
       "title": "Georgetown Cafe",
@@ -3739,7 +3683,8 @@
       "artist": "Neon Dust",
       "link": "https://www.instagram.com/reels/audio/552360985884236/"
     },
-    "preview": true
+    "preview": true,
+    "decided_at": "2026-11-28T15:39:21.799807+00:00"
   },
   {
     "id": "246a8e63",
@@ -3753,7 +3698,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 4.73,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1320534",
       "title": "Neith",
@@ -3780,7 +3725,8 @@
       "artist": "Cardi B, Grand Theft Auto VI",
       "link": "https://www.instagram.com/reels/audio/1063945633300611/"
     },
-    "preview": true
+    "preview": true,
+    "decided_at": "2026-11-28T15:39:21.799807+00:00"
   },
   {
     "id": "3007f6a3",
@@ -3794,7 +3740,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 12,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1076858",
       "title": "Something a Little Different",
@@ -3817,7 +3763,8 @@
       "artist": "Coldplay",
       "link": "https://www.instagram.com/reels/audio/1131276776292967/"
     },
-    "preview": true
+    "preview": true,
+    "decided_at": "2026-11-28T15:39:21.799807+00:00"
   },
   {
     "id": "49190f34",
@@ -3831,7 +3778,7 @@
     "cta": 0,
     "mode": "exploit",
     "seconds": 7.31,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1945492",
       "title": "Do not disturb",
@@ -3854,7 +3801,8 @@
       "artist": "Neon Dust",
       "link": "https://www.instagram.com/reels/audio/552360985884236/"
     },
-    "preview": true
+    "preview": true,
+    "decided_at": "2026-11-28T15:39:21.799807+00:00"
   },
   {
     "id": "c8b5e54f",
@@ -3868,7 +3816,7 @@
     "cta": 1,
     "mode": "exploit",
     "seconds": 6.48,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2304778",
       "title": "Middle of the Night",
@@ -3891,7 +3839,8 @@
       "artist": "Playboi Carti",
       "link": "https://www.instagram.com/reels/audio/960749826827858/"
     },
-    "preview": true
+    "preview": true,
+    "decided_at": "2026-11-28T15:39:21.799807+00:00"
   },
   {
     "id": "8a549159",
@@ -3905,7 +3854,7 @@
     "cta": 3,
     "mode": "exploit",
     "seconds": 10.43,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-1129271",
       "title": "Energy",
@@ -3932,7 +3881,8 @@
       "artist": "Dua Lipa, Grand Theft Auto VI",
       "link": "https://www.instagram.com/reels/audio/1105832515616055/"
     },
-    "preview": true
+    "preview": true,
+    "decided_at": "2026-11-28T15:39:21.799807+00:00"
   },
   {
     "id": "ed4e7629",
@@ -3987,7 +3937,7 @@
     "cta": 5,
     "mode": "exploit",
     "seconds": 8.88,
-    "status": "pending",
+    "status": "approved",
     "music": {
       "id": "jamendo-2026412",
       "title": "In For Future Bass",
@@ -4010,7 +3960,8 @@
       "artist": "Gunna",
       "link": "https://www.instagram.com/reels/audio/29681812238070064/"
     },
-    "preview": true
+    "preview": true,
+    "decided_at": "2026-11-28T15:39:21.799807+00:00"
   },
   {
     "id": "911bf8f5",
